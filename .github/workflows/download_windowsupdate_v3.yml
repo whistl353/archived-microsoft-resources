@@ -11,7 +11,9 @@ jobs:
         uses: actions/checkout@v2
       - name: Install Ruby
         uses: ruby/setup-ruby@v1
-      - name: Install wayback_machine_downloader
+        with:
+          ruby-version: '3.1'
+      - name: Install Wayback Machine Downloader
         run: gem install wayback_machine_downloader
       - name: Download Site
         run: wayback_machine_downloader http://windowsupdate.microsoft.com -d ./windowsupdate_v3

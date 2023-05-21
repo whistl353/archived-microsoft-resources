@@ -11,22 +11,14 @@ jobs:
         uses: actions/checkout@v2
       - name: Install Ruby
         uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 2.7
-      - name: Download website archive from Wayback Machine
-        run: |
-          git clone https://github.com/hartator/wayback-machine-downloader.git
-          cd wayback-machine-downloader
-          gem install bundler
-          bundle install
-          ./wayback_machine_downloader.rb windowsupdate.microsoft.com -d ../windowsupdate_v3
-          cd ..
-          rm -rf wayback-machine-downloader
+      - name: Install wayback_machine_downloader
+        run: gem install wayback_machine_downloader
+      - name: Download Site
+        run: wayback_machine_downloader http://windowsupdate.microsoft.com -d ./windowsupdate_v3
       - name: Commit and push changes
-        uses: EndBug/add-and-commit@v7
-        with:
-          author_name: <author_name>
-          author_email: <author_email>
-          message: "Update website archive from Wayback Machine"
-          add: "<folder_name>"
-          push: "true"
+        run: |
+          git config --local user.email "whistl353@github.com"
+          git config --local user.name "whistl353"
+          git add windowsupdate_v3
+          git commit -m "Update website archive from Wayback Machine"
+          git push

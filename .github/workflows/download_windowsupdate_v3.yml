@@ -1,0 +1,32 @@
+name: Download Windows Update V3 from Wayback Machine
+
+on:
+  workflow_dispatch:
+
+jobs:
+  download_and_push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Install Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - name: Download website archive from Wayback Machine
+        run: |
+          git clone https://github.com/hartator/wayback-machine-downloader.git
+          cd wayback-machine-downloader
+          gem install bundler
+          bundle install
+          ./wayback_machine_downloader.rb windowsupdate.microsoft.com -d ../windowsupdate_v3
+          cd ..
+          rm -rf wayback-machine-downloader
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: <author_name>
+          author_email: <author_email>
+          message: "Update website archive from Wayback Machine"
+          add: "<folder_name>"
+          push: "true"

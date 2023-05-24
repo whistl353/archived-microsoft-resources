@@ -8,27 +8,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: 2.7
-
-    - name: Install wayback_machine_downloader
-      run: gem install wayback_machine_downloader
-
-    - name: Download archived website
-      run: wayback_machine_downloader https://v4.windowsupdate.microsoft.com/shared/ --directory windowsupdate_v4
-      # Replace https://example.com with the website you want to download
-
-    - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v3
-      with:
-        token: ${{ secrets.GH_PAT }}
-        commit-message: "Download and update archived website"
-        title: "Download and update archived website"
-        body: "This PR updates the archived website content."
-        branch: "update-archived-website"
-        
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y wget zip
+      - name: Download archived site
+        run: |
+          url="https://example.com"
+          output_dir="output"
+          timestamp=$(curl -sI "http://web.archive.org/web/${url}" | grep -oP 'X-Archive-Orig-Last-modified: \K.*')
+          wget --recursive --no-clobber --page-requisiteshtml-extension --convert-links --restrict-file-names=windows --domains example.com --no-parent "http://web.archive.org/web/${timestamp}/${url}/"
+          zip -r "${output_dir}.zip" "${output_dir}"
+          echo "Website saved as zip file!"
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: windowsupdate_v4
+          path: windowsupdate_v4.zip
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GH_PAT }}
+          commit-message: "Download and update archived website"
+          title: "Download and update archived website"
+          body: "This PR updates the archived website content."
+          branch: "update-archived-website"

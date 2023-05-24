@@ -14,8 +14,8 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y wget zip
       - name: Download archived site
         run: |
-          url="https://example.com"
-          output_dir="output"
+          url="http://v4.windowsupdate.microsoft.com/"
+          output_dir="wu_v4"
           timestamp=$(curl -sI "http://web.archive.org/web/${url}" | grep -oP 'X-Archive-Orig-Last-modified: \K.*')
           wget --recursive --no-clobber --page-requisiteshtml-extension --convert-links --restrict-file-names=windows --domains example.com --no-parent "http://web.archive.org/web/${timestamp}/${url}/"
           zip -r "${output_dir}.zip" "${output_dir}"

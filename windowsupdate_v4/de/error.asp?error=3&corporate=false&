@@ -1,0 +1,51 @@
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<meta http-equiv="Content-Type" content="text/html;charset=windows-1252" />
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta name="MSSmartTagsPreventParsing" content="yes" />
+		<script language="JScript" type="text/javascript">function window.onerror(sMessage, sURL, sLine){ return true; }</script><script language="JScript" type="text/javascript" src="/shared/js/content.js"></script><link rel="stylesheet" type="text/css" href="/shared/css/hcp.css" />
+		<link rel="stylesheet" type="text/css" href="/shared/css/content.css" />
+		
+		<title>Inhaltsframe</title>
+	</head>
+	<body onload="if(self != top && 'function' ==  typeof(fnInit)) fnInit(0, 3);">
+		<img src="/shared/images/info_icon.gif" class="icon32" alt="Wichtige Informationen" /><span class="sys-font-heading3 sys-rhp-color-title">Nur für Administratoren</span><br /><br />
+		<div class="error">
+Sie müssen als Administrator oder Mitglied der Administratorgruppe angemeldet sein, um Produkte von Windows Update zu installieren. Wenn der Computer mit einem Netzwerk verbunden ist, können Einstellungen für Netzwerkrichtlinien das Ausführen dieses Vorgangs verhindern.<br /><br />
+<b><b>Hinweis</b></b> Wenn Sie die Betriebssysteme Windows 2000 (außer Datacenter), Windows XP oder Windows&nbsp;Server 2003 verwenden, können Sie den Computer als lokaler Administrator &quot;ausführen&quot;, ohne sich ab- und anzumelden.<br /><br />
+So können Sie den Computer unter Windows XP oder Windows&nbsp;Server&nbsp;2003 als lokaler Administrator ausführen:<br /><br />
+<ol>
+	<li>Klicken Sie auf <b>Start</b> und dann auf <b>Alle Programme</b> (oder klicken Sie mit der rechten Maustaste auf <b>Windows Update</b>, wenn verfügbar).</li>
+	<li>Klicken Sie mit der rechten Maustaste auf <b>Windows Update</b>.</li>
+	<li>Klicken Sie im eingeblendeten Menü auf <b>Ausführen als</b>.</li>
+	<li>Führen Sie einen der folgenden Vorgänge aus:
+		<ul>
+			<li>Geben Sie das Kennwort für den Administrator ein.</li>
+			<li>Geben Sie Benutzername, Domänenname und Kennwort eines anderen Benutzerkontos ein, das über Administratorrechte auf diesem Computer verfügt.</li>
+		</ul>
+	</li>
+</ol><br />
+So führen Sie den Computer unter Windows 2000 als lokaler Administrator aus:<br /><br />
+<ol>
+	<li>Klicken Sie auf <b>Start</b>, klicken Sie dann mit der rechten Maustaste auf <b>Windows Update</b>, und klicken Sie anschließend im eingeblendeten Menü auf <b>Ausführen als</b>.</li>
+	<li>Führen Sie einen der folgenden Vorgänge aus:
+		<ul>
+			<li>Geben Sie das Kennwort für den Administrator ein.</li>
+			<li>Geben Sie Benutzername, Domänenname und Kennwort eines anderen Benutzerkontos ein, das über Administratorrechte auf diesem Computer verfügt.</li>
+		</ul>
+	</li>
+</ol><br />
+Wenn die Option zum Ausführen als lokaler Administrator nicht zur Verfügung steht, gehen Sie folgendermaßen vor:<br /><br />
+<ol>
+	<li>Klicken Sie auf <b>Start</b>, klicken Sie dann mit der rechten Maustaste auf <b>Windows Update</b>, und klicken Sie anschließend auf <b>Eigenschaften</b>.</li>
+	<li>Klicken Sie auf die Registerkarte <b>Verknüpfung</b>, und aktivieren Sie das Kontrollkästchen <b>Unter anderem Benutzernamen ausführen</b>.
+</ol><br />
+
+		</div>
+		<br /><br />
+		Nutzen Sie den <a href="support.asp" class="sys-link-normal">Onlinesupport</a>, falls bei Windows Update Fehler auftreten sollten.<br /><br />
+
+	</body>
+</html>

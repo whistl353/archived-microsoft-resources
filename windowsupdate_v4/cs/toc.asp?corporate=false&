@@ -1,0 +1,77 @@
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<meta http-equiv="Content-Type" content="text/html;charset=windows-1250" />
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta name="MSSmartTagsPreventParsing" content="yes" />
+		<script language="JScript" type="text/javascript">function window.onerror(sMessage, sURL, sLine){ return true; }</script><script language="JScript" type="text/javascript" src="/shared/js/toc.js"></script><link rel="stylesheet" type="text/css" href="/shared/css/hcp.css" />
+		<link rel="stylesheet" type="text/css" href="/shared/css/toc.css" />
+		
+		<title>Rámec seznamu s obsahem</title>
+		<base target="eContent" />
+	</head>
+	<body class="toc sys-lhp-bgcolor">
+		<div id="eUserData"></div>
+		<form name="ePostForm" id="ePostForm" method="post"><input name="ePostData" id="ePostData" type="hidden" /></form>
+		<table cellspacing="0" class="sys-toppane-bgcolor sys-toppane-color-border">
+			<tbody>
+				<tr>
+					<td class="sys-toppane-header-bgcolor sys-font-body-bold sys-toppane-header-color toppane-header">
+						<span id="eConsumerTitle">Windows Update</span>
+						<span id="eCatalogTitle" style="display: none;">Katalog systému Windows Update</span>
+					</td>
+				</tr>
+				<tr>
+					<td style="height: 100%;">
+						<div class="sys-font-body toppane-body">
+
+							<div id="eConsumerDiv1">
+								<a id="eWelcome" href="" onclick="parent.fnDisplaySplashPage(3);return false;" title="Přejde na úvodní stránku systému Windows Update." class="sys-toppane-selection sys-link-normal"><img src="/shared/images/toc_endnode.gif" /><i>Úvodní stránka</i></a><br />
+								<a id="eAvailableUpdates" title="Zobrazí aktualizace, které jsou k dispozici pro tento počítač. Pravděpodobně bude nutné počítač nejdříve prohledat." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" /><i>Vybrat aktualizace k instalaci</i></a><br />
+								<div id="eAvailableUpdatesDiv">
+									<a id="eCriticalUpdates" title="Zobrazí seznam automaticky vybraných důležitých oprav a aktualizací zabezpečení k instalaci." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />Důležité aktualizace a aktualizace Service Pack<i></i></a><br />
+									<a id="eWindowsUpdates" title="Vyberte ze seznamu aktualizací pro systém Windows." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" /><i>Windows</i><i></i></a><br />
+									<a id="eDriverUpdates"  title="Umožňuje vybrat aktualizace hardwarových zařízení (modemů, síťových karet, tiskáren atd.)." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />Aktualizace ovladačů<i></i></a><br />
+								</div>
+								<a id="eBasketUpdates" title="Zobrazí vybrané aktualizace a spustí proces instalace." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />Prohlédnout a instalovat aktualizace<i></i></a><br />
+							</div>
+							<div id="eCatalogDiv1" style="display: none;">
+								<a id="eCatalogWelcome" href="/catalog/cs/initial.asp" title="Přejde na úvodní stránku Katalogu systému Windows Update." class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />Úvodní stránka</a><br />
+								<a id="eCatalogOperatingSystems" href="/catalog/cs/ossearch.asp" title="Umožňuje vybrat kritéria hledání a vyhledat aktualizace Service Pack, opravy zabezpečení a jiné aktualizace určené pro operační systémy Windows." class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />Vyhledat aktualizace systému Microsoft Windows</a><br />
+								<a id="eCatalogHardwareDrivers" href="/catalog/cs/corp_drivers.asp" title="Umožňuje vybrat kritéria hledání a vyhledat aktualizace ovladačů zařízení instalovaných v počítačích se systémem Windows." class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />Vyhledat aktualizace ovladačů hardwaru</a><br />
+								<a id="eCatalogBasket" title="Zobrazí vybrané aktualizace a spustí proces stahování." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />Přejít do košíku aktualizací<i></i></a><br />
+							</div>
+
+
+							<div class="subHeader sys-bottompane-header-color sys-font-body-bold">Další možnosti</div>
+
+
+							<div id="eConsumerDiv2">
+								<a id="eHistory" title="Umožňuje zobrazit, jaký software jste nainstalovali ze serveru Windows Update." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />Zobrazit historii instalací</a><br />
+								<a id="ePersonalization" title="Umožňuje vybrat položky zobrazené v systému Windows Update." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />Individuální nastavení</a><br />
+								<a id="eSupport" href="support.asp?" title="Informace o odborné pomoci online týkající se serveru Windows Update a součástí instalovaných z tohoto serveru" class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />Nápověda a odborná pomoc</a><br />
+							</div>
+							<div id="eCatalogDiv2" style="display: none;">
+								<a id="eCatalogHistory" title="Umožňuje zobrazit, jaký software jste stáhli z Katalogu systému Windows Update." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />Historie stahování</a><br />
+								<a id="eCatalogSupport" href="support.asp?corporate=true&" title="Informace o odborné pomoci online týkající se serveru Windows Update a součástí instalovaných z tohoto serveru" class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />Nápověda a odborná pomoc</a><br />
+							</div>
+
+
+							<div class="subHeader sys-bottompane-header-color sys-font-body-bold">Viz také</div>
+							<div id="eConsumerDiv3">
+								<div id="eCatalogLink" style="display: none;"><a id="eSwitchSites" title="Vyhledá aktualizace pro počítač a další počítače v síti." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />Katalog systému Windows Update</a><br /></div>
+								<a id="eAbout" href="about.asp?" title="Zobrazí informace o službách systému Windows Update." class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />O systému Windows Update</a><br />
+							</div>
+							<div id="eCatalogDiv3" style="display: none;">
+								<a id="eCatalogSwitchSites" title="Přejde na úvodní stránku systému Windows Update a zobrazí, jaké aktualizace jsou k dispozici pro váš počítač." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />Windows Update</a><br />
+								<a id="eCatalogAbout" href="about.asp?corporate=true&" title="Zobrazí informace o službách systému Windows Update." class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />O systému Windows Update</a><br />
+							</div>
+							<a id="eHardwareSupport" target="_blank" class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />Podpora hardwaru</a>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

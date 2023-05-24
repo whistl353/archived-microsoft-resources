@@ -1,0 +1,30 @@
+
+<html dir="rtl">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<meta http-equiv="Content-Type" content="text/html;charset=windows-1256" />
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta name="MSSmartTagsPreventParsing" content="yes" />
+		<script language="JScript" type="text/javascript">function window.onerror(sMessage, sURL, sLine){ return true; }</script><script language="JScript" type="text/javascript" src="/shared/js/content.js"></script><link rel="stylesheet" type="text/css" href="/shared/css/hcp.css" />
+		<link rel="stylesheet" type="text/css" href="/shared/css/content.css" />
+		<link rel="stylesheet" type="text/css" href="/shared/css/rtl.css" />
+		<title>إطار المحتوى</title>
+	</head>
+	<body onload="if(self != top && 'function' ==  typeof(fnInit)) fnInit(0, 9);">
+		<img src="/shared/images/info_icon.gif" class="icon32" alt="معلومات هامة." /><span class="sys-font-heading3 sys-rhp-color-title">‏‏لم تتم عملية تحديث البرنامج</span><br /><br />
+		<div class="error">
+لم يتم تحديث برنامج Windows Update بنجاح. تجد أدناه بعض الاقتراحات لمساعدتك على الاستمرار:
+<ul>
+	<li>‏‏ربما قمت بالنقر فوق 'لا' عند مطالبتك بقبول شهادة التوثيق.  للسماح بتثبيت برنامج موقع Windows Update، انقر فوق نعم عند ظهور مربع حوار التحذير الأمني.</li>
+	<li>‏‏ربما تم تعيين إعدادات أمان Internet Explorer على مستوى عالٍ جداً. لتثبيت البرنامج الذي تم تحديثه والوصول إلى Windows Update يجب تعيين مستوى أمان Internet Explorer على المستوى المتوسط أو أقل ويجب تمكين البرمجة النشطة وكذلك تحميل وتهيئة عناصر تحكم ActiveX.<br /><br /><b><b>ملاحظة</b></b> هذه هي الإعدادات الافتراضية لبرنامج Internet Explorer. لمزيد من المعلومات حول أمان Internet Explorer وإرشادات كيفية تغيير إعدادات الأمان، اقرأ <a href="http://go.microsoft.com/fwlink/?linkid=9579&clcid=0x401" target="_blank" class="sys-link-normal">مقالة قاعدة معلومات (Microsoft (KB رقم Q174360</a>.</li>
+</ul>
+<br />هل كانت هذه الاقتراحات مفيدة؟ <a href="mailto:winupsup@microsoft.com?Subject=Windows Update Feedback" target="_blank" class="sys-link-normal">أرسل لنا تعليقاتك</a>.<br />
+<br />
+<div><button onclick="parent.fnDisplaySplashPage(1);">المحاولة مرة أخرى</button></div>
+		</div>
+		<br /><br />
+		يمكنك أيضًا الحصول على <a href="support.asp" class="sys-link-normal">الدعم الفوري</a> إذا واجهت مشاكل مع Windows Update.<br /><br />
+<div style="margin: 2px;"><a href="mailto:winupsup@microsoft.com?Subject=Windows Update Feedback   (ERROR 0x800B0004)" class="sys-link-normal">إرسال رقم الخطأ إلى Microsoft‏</a> (0x800B0004)<br />
+<b><b>ملاحظة</b></b> ‏‏يقوم هذا بإرسال معلومات عن الخطأ ولكن لا يقوم بإنشاء تقرير؛ من الممكن أن تحصل أو أن لا تحصل على رد.<br /></div>
+	</body>
+</html>

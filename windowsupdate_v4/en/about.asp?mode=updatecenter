@@ -1,0 +1,136 @@
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<meta http-equiv="Content-Type" content="text/html;charset=windows-1252" />
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta name="MSSmartTagsPreventParsing" content="yes" />
+		<script language="JScript" type="text/javascript">function window.onerror(sMessage, sURL, sLine){ return true; }</script><script language="JScript" type="text/javascript" src="/shared/js/content.js"></script><link rel="stylesheet" type="text/css" href="hcp://system/css/shared.css" />
+		<link rel="stylesheet" type="text/css" href="/shared/css/content.css" />
+		
+		<title>Content Frame</title>
+	</head>
+	<body onload="fnInit(5, -1);">
+		<span class="sys-font-heading3 sys-rhp-color-title">About Windows Update</span><br />
+		Windows Update is the online extension of Windows that helps you to keep your computer up-to-date. Use Windows Update to choose updates for your computer’s operating system, software, and hardware. New content is added to the site regularly, so you can always get the most recent updates and fixes to protect your computer and keep it running smoothly.<br /><br />
+		<ol>
+			 <li>Looking for the latest updates for your personal computer? When you click Windows Update on the Start menu or the Help and Support Center home page, Windows Update makes it easy and only offers you updates that are specific to your computer's needs. <a href="#windowsupdate" class="sys-link-normal">Read more about Windows Update.</a></li>
+			 <li>If you're a network administrator or advanced user and you need to download updates for other computers, take advantage of the Windows Update Catalog. Simply click Windows Update Catalog in the left navigation pane (if you don't see it, click <b>Personalize Windows Update</b> to see options for displaying this link). <a href="#windowscatalog" class="sys-link-normal">Read more about the Windows Update Catalog.</a></li>
+		</ol>
+		<br />
+
+		<a name="windowsupdate" class="aboutHeader">Windows Update</a><br />
+		<ul type="square">
+			<li>
+				<b>How do I know if I need an update?</b><br />
+				Windows Update scans your computer and provides you with a tailored selection of updates that apply only to the items on your computer. During the scan, a list of categories appears under Welcome to Windows Update and the number of updates that are available in each category is noted in parentheses.<br /><br />
+			</li>
+			<li>
+				<b>Critical Updates are important!</b><br />
+				Any update that is critical to the operation of your computer is considered a "Critical Update," and is automatically selected for installation during the scan for available updates. These updates are provided to help resolve known issues, and to protect your computer from known security vulnerabilities. Whether a critical update applies to your operating system, software programs, or hardware, it is listed in the &quot;Critical Updates&quot; category.<br /><br />
+			</li>
+			<li>
+				<b>How does it all work?</b><br />
+				Follow a simple, three-step process to get the updates you need to keep your computer up-to-date:<br />
+				<ol>
+					<li>When you enter Windows Update, click <b>Scan for updates</b>.</li>
+					<li>As you browse through the available updates in each category, click <b>Add</b> to select the update of your choice and add it to the collection of updates you want to install. You can also read a full description of each item by clicking the <b>Read more</b> link.</li>
+					<li>When you have selected all the updates you want, click <b>Review and install updates</b>, and then click <b>Install Now</b>.</li>
+				</ol>
+				<b><b>Note</b></b> Some updates may require that you restart your computer. Save your work and close any open programs before beginning the installation process.<br /><br />
+			</li>
+			<li>
+				<b>Have questions about an update?</b><br />
+				Each update is accompanied by a brief description and a <b>Read more</b> link. Click <b>Read more</b> at any time to view information that is specific to each update. Included in this information are system requirements and, if applicable, instructions on how to use and how to uninstall the update.<br /><br />
+			</li>
+			<li>To see the list of updates you have installed from Windows Update, click <b>View installation history</b>.<br /><br /></li>
+			<li>For details on Windows Update site support and support for updates you have installed from Windows Update, visit the <a href="support.asp" class="sys-link-normal">Support Information</a> page.<br /><br /></li>
+		</ul>
+		<br />
+
+		<a name="privacypolicy" class="aboutHeader">Windows Update Privacy Statement (Last Updated 10/17/2003)</a><br />
+		Windows Update is committed to protecting your privacy. To provide you with the appropriate list of updates, Windows Update must collect a certain amount of configuration information from your computer. None of this configuration information can be used to identify you. This information includes:<br />
+		<ul type="square">
+			<li>Operating-system version number</li>
+			<li>Internet Explorer version number</li>
+			<li>Version numbers of other software for which Windows Update provides updates</li>
+			<li>Plug and Play ID numbers of hardware devices</li>
+			<li>Region and Language setting</li>
+		</ul>
+		The configuration information collected is used only to determine the appropriate updates and to generate aggregate statistics. Windows Update does not collect your name, address, e-mail address, or any other form of personally identifiable information.<br /><br />
+		Windows Update also collects the Product ID and Product Key to confirm that you are running a validly licensed copy of Windows. A validly licensed copy of Windows ensures that you will receive on-going updates from Windows Update. The Product ID and Product Key are not retained beyond the end of the Windows Update session, unless the Product ID is not valid.<br /><br />
+		To provide you with the best possible service, Windows Update also tracks and records how many unique machines visit its site and whether the download and installation of specific updates succeeded or failed. In order to do this, the Windows operating system generates a Globally Unique Identifier (GUID) that is stored on your computer to uniquely identify it. The GUID does not contain any personally identifiable information and cannot be used to identify you. Windows Update records the GUID of the computer that attempted the download, the ID of the item that you attempted to download and install, and the configuration information listed above.<br /><br /><br />
+		<a class="aboutHeader" name="windowscatalog">Windows Update Catalog</a><br />
+		The Windows Update Catalog provides a comprehensive listing of updates that can be distributed over a corporate network. It is a one-stop location for Windows updates, fixes, and enhancements, as well as <a href="http://go.microsoft.com/fwlink/?linkid=9577&clcid=0x409" target ="_blank" class="sys-link-normal">Designed for Windows</a> Logo <a href="#driverupdates" class="sys-link-normal">device drivers</a>.<br /><br />
+		To obtain updates from the Windows Update Catalog, follow this three-step process:<br /><br />
+		<ol>
+			<li>Start by selecting a category:
+				<ul type="disc">
+					<li>The <a href="#windowsupdates" class="sys-link-normal">Microsoft Windows</a> category has updates and fixes for all Windows operating systems ranging from Windows 98 to Windows XP and the Windows Server 2003 family.</li>
+					<li>The <a href="#driverupdates" class="sys-link-normal">hardware drivers</a> category provides you with driver updates for many of the devices on your network.</li>
+				</ul>
+			</li>
+			<li>Set your search criteria to find the updates you need.</li>
+			<li>Download your selected updates to the location of your choice; this could be your local hard drive, a server share on your network, or a disk.</li>
+		</ol>
+
+		Additional features of the site include:<br /><br />
+		<ul type="disc">
+			<li>Pre-packaging the updates in a subdirectory structure based upon: Update Type (software or driver), Locale, and Component Name.<br/>(e.g., \Software\[Locale]\[Platform]\[ComponentName])</li>
+			<li>View download history displays the updates that have been downloaded and where they reside.</li>
+			<li>Brief descriptions and &quot;Read More...&quot; files for each item. Links to relevant Web sites appear in these files and they are downloaded into the same subdirectory as the software update, so the important information you need to know is always available.</li>
+		</ul><br/>
+		<a class="aboutHeader" name="windowsupdates">Updates for Microsoft Windows</a><br /><br/>
+		The Microsoft Windows updates found on the site include fixes, updates, and enhancements to the following Windows operating systems:<br /><br />
+		Microsoft Windows 98<br />
+		Microsoft Windows 98 Second Edition<br />
+		Microsoft Windows 2000 Professional<br />
+		Microsoft Windows 2000 Server<br />
+		Microsoft Windows 2000 Advanced Server<br />
+		Microsoft Windows Millennium Edition (Windows Me)<br />
+		Microsoft Windows XP<br />
+		Microsoft Windows Server 2003<br />
+		the 64-bit versions of the Microsoft Windows Server 2003 family<br /><br />
+		The categories for the Windows operating system updates are:<br />
+		<ul type="disc">
+			<li><b>Critical Updates</b> – security fixes and other important updates to keep your computers current and your network secure.</li>
+			<li><b>Recommended Downloads</b> – the latest Windows and Internet Explorer service packs and other important updates.</li>
+			<li><b>Windows Tools</b> - utilities and other tools provided to enhance performance, facilitate upgrades, and ease the burden on system administrators.</li>
+			<li><b>Internet and Multimedia Updates</b> – the latest Internet Explorer releases, upgrades to your Windows Media&trade; Player, and more. </li>
+			<li><b>Additional Windows Downloads</b> – updates for your desktop settings and other Windows features.</li>
+			<li><b>Multi-Language Features</b> – menus and dialog boxes, language support, and Input Method Editors for a variety of languages.</li>
+		</ul>
+		There are also deployment guides and other software-related documents.<br /><br/>
+		<a class="aboutHeader" name="driverupdates">Updates for Hardware Drivers</a><br /><br/>
+		The Windows Update Catalog offers a comprehensive collection of <a href="http://go.microsoft.com/fwlink/?linkid=9577&clcid=0x409" target ="_blank" class="sys-link-normal">Designed for Windows</a> Logo device drivers. The purpose of Microsoft's Windows Hardware Quality Lab is to ensure the compatibility of hardware with Microsoft operating systems. WHQL provides test kits that are used to qualify devices, systems and servers to display the Designed for Windows Logo and for inclusion in the <a href="http://go.microsoft.com/fwlink/?linkid=9492&clcid=0x409" target="_blank" class="sys-link-normal">Windows Catalog</a>.<br />
+		The hardware drivers catalog has thousands of updated device drivers for thousands of devices. These driver updates have been extensively tested by Microsoft to ensure quality and compatibility with the Windows operating systems and related components.<br /><br />
+		<span class="aboutHeader">Package Assembly</span><br /><br/>
+		During the download process, you will be prompted to choose the location where you want to save the downloaded files. Enter a UNC (Universal Naming Convention) path to a pre-existing folder, or click the Browse button on the Download List page to select a location. This UNC path will be used as the root directory. It can be a directory path on your local machine or on a machine on your network. Subdirectories are created for each downloaded component.<br /><br />
+		For example: If you create a directory called <b>C:\Updates</b><br /><br />
+		A download of a selected software component creates a subdirectory<br /><b> \[Software]\[Locale]\[Platform]\[PackageName].[PackageVersion]</b><br /><br />
+		A download of drivers creates a subdirectory<br /><b> \[Driver]\[Locale]\[Platform]\[PackageName].[PackageVersion]</b><br /><br />
+		Use the download history page to confirm the success of the download and the location of a specific component file.<br /><br />
+		<br />
+
+		<a class="aboutHeader">Frequently Asked Questions</a><br />
+		<ol>
+			<li>
+				<b>What is Windows Update?</b><br />
+				Windows Update is the online extension of Windows that helps you to keep your computer up-to-date. Use Windows Update to choose updates for your computer's operating system, software, and hardware. New content is added to the site regularly, so you can always get the most recent updates and fixes to protect your computer and keep it running smoothly.<br />
+			</li>
+			<!-- <li>
+				<b>Why do I get a message saying an ActiveX control on this page is not safe?</b><br />
+				This message is displayed when your security setting in Internet Explorer is set too high. For Windows Update to work properly, you must change the security settings for the Internet zone to Medium or lower. To do so, go to Internet Explorer, click the <b>Tools</b> menu, and then click <b>Internet Options</b>. Click the <b>Security</b> tab, and then click <b>Internet</b>. To adjust your security level, click <b>Default Level</b> or <b>Custom Level</b>.<br />
+			</li> -->
+			<li>
+				<b>What is an ActiveX control?</b><br />
+				ActiveX Controls are reusable software components that incorporate ActiveX technology. These components can be used to add specialized functionality, such as animation or pop-up menus, to Web pages, programs, and software development tools. Windows Update uses ActiveX controls to check what software is installed on your computer in order to provide you with a correct list of updates and other software you may want to download.<br />
+			</li>
+			<li>
+				<b>What is the best resolution for viewing the Windows Update site?</b><br />
+				The Web pages on the Windows Update site were designed to be viewed at 800 by 600 or higher screen resolution. To set this resolution, click the <b>Start</b> button, and then click <b>Control Panel</b>. Click the <b>Appearance and Themes</b> icon, and then click <b>Change the screen resolution</b>.<br />
+			</li>
+		</ol>
+	</body>
+</html>
+

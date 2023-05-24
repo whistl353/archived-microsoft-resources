@@ -1,0 +1,77 @@
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<meta http-equiv="Content-Type" content="text/html;charset=windows-1253" />
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta name="MSSmartTagsPreventParsing" content="yes" />
+		<script language="JScript" type="text/javascript">function window.onerror(sMessage, sURL, sLine){ return true; }</script><script language="JScript" type="text/javascript" src="/shared/js/toc.js"></script><link rel="stylesheet" type="text/css" href="/shared/css/hcp.css" />
+		<link rel="stylesheet" type="text/css" href="/shared/css/toc.css" />
+		
+		<title>Πλαίσιο πίνακα περιεχομένων</title>
+	</head>
+	<body class="toc sys-lhp-bgcolor">
+		<base target="eContent" />
+		<div id="eUserData"></div>
+		<form name="ePostForm" id="ePostForm" method="post"><input name="ePostData" id="ePostData" type="hidden" /></form>
+		<table cellspacing="0" class="sys-toppane-bgcolor sys-toppane-color-border">
+			<tbody>
+				<tr>
+					<td class="sys-toppane-header-bgcolor sys-font-body-bold sys-toppane-header-color toppane-header">
+						<span id="eConsumerTitle">Windows Update</span>
+						<span id="eCatalogTitle" style="display: none;">Κατάλογος του Windows Update</span>
+					</td>
+				</tr>
+				<tr>
+					<td style="height: 100%;">
+						<div class="sys-font-body toppane-body">
+
+							<div id="eConsumerDiv1">
+								<a id="eWelcome" href="" onclick="parent.fnDisplaySplashPage(3);return false;" title="Μεταβείτε στη σελίδα υποδοχής του Windows Update." class="sys-toppane-selection sys-link-normal"><img src="/shared/images/toc_endnode.gif" /><i>Καλώς ήλθατε</i></a><br />
+								<a id="eAvailableUpdates" title="Δείτε ποιες ενημερωμένες εκδόσεις είναι διαθέσιμες για τον υπολογιστή σας. Το Windows Update ενδέχεται να πρέπει πρώτα να ελέγξει τον υπολογιστή σας." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" /><i>Επιλογή ενημερωμένων εκδόσεων για εγκατάσταση</i></a><br />
+								<div id="eAvailableUpdatesDiv">
+									<a id="eCriticalUpdates" title="Προβάλετε μια λίστα κρίσιμων ενημερώσεων κώδικα και ενημερωμένων εκδόσεων ασφαλείας, οι οποίες έχουν επιλεγεί αυτόματα για να τις εγκαταστήσετε." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />Κρίσιμες ενημερωμένες εκδόσεις και Service Pack<i></i></a><br />
+									<a id="eWindowsUpdates" title="Επιλέξτε από μια λίστα ενημερωμένων εκδόσεων για τα Windows." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" /><i>Windows</i><i></i></a><br />
+									<a id="eDriverUpdates"  title="Επιλέξτε από μια λίστα ενημερωμένων εκδόσεων για τις συσκευές υλικού που διαθέτετε (μόντεμ, κάρτες δικτύου, εκτυπωτές, κ.ο.κ.)." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />Ενημερωμένες εκδόσεις προγραμμάτων οδήγησης<i></i></a><br />
+								</div>
+								<a id="eBasketUpdates" title="Προβάλετε τις ενημερωμένες εκδόσεις που έχετε επιλέξει και ξεκινήστε τη διαδικασία εγκατάστασης." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />Αναθεώρηση και εγκατάσταση ενημερωμένων εκδόσεων<i></i></a><br />
+							</div>
+							<div id="eCatalogDiv1" style="display: none;">
+								<a id="eCatalogWelcome" href="/catalog/el/initial.asp" title="Μεταβείτε στη σελίδα υποδοχής του καταλόγου του Windows Update." class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />Καλώς ήλθατε</a><br />
+								<a id="eCatalogOperatingSystems" href="/catalog/el/ossearch.asp" title="Ορίστε κριτήρια αναζήτησης για την εύρεση service pack, ενημερώσεων κώδικα ασφαλείας και άλλων ενημερωμένων εκδόσεων για τα λειτουργικά συστήματα των Windows." class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />Εύρεση ενημερωμένων εκδόσεων των Microsoft Windows</a><br />
+								<a id="eCatalogHardwareDrivers" href="/catalog/el/corp_drivers.asp" title="Ορίστε κριτήρια αναζήτησης για την εύρεση ενημερωμένων εκδόσεων για τα προγράμματα οδήγησης συσκευών που είναι εγκατεστημένα σε υπολογιστές που λειτουργούν με Windows." class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />Εύρεση ενημερωμένων εκδόσεων για προγράμματα οδήγησης υλικού</a><br />
+								<a id="eCatalogBasket" title="Προβάλετε τις ενημερωμένες εκδόσεις που έχετε επιλέξει και ξεκινήστε τη διαδικασία λήψης." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />Μετάβαση στο καλάθι αρχείων για λήψη<i></i></a><br />
+							</div>
+
+
+							<div class="subHeader sys-bottompane-header-color sys-font-body-bold">Άλλες επιλογές</div>
+
+
+							<div id="eConsumerDiv2">
+								<a id="eHistory" title="Παρακολουθήστε τα στοιχεία που έχετε εγκαταστήσει από το  Windows Update." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />Προβολή ιστορικού εγκατάστασης</a><br />
+								<a id="ePersonalization" title="Προσαρμόστε τα στοιχεία που βλέπετε, όταν χρησιμοποιείτε το Windows Update." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />Προσαρμογή του Windows Update</a><br />
+								<a id="eSupport" href="support.asp?mode=criticalupdates" title="Μάθετε πώς θα έχετε ηλεκτρονική υποστήριξη για θέματα του Windows Update και τα στοιχεία που έχετε εγκαταστήσει από αυτό." class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />Λήψη βοήθειας και υποστήριξης</a><br />
+							</div>
+							<div id="eCatalogDiv2" style="display: none;">
+								<a id="eCatalogHistory" title="Παρακολουθήστε τα στοιχεία, των οποίων έχετε κάνει λήψη από τον κατάλογο του Windows Update." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />Προβολή ιστορικού λήψης</a><br />
+								<a id="eCatalogSupport" href="support.asp?corporate=true&mode=criticalupdates" title="Μάθετε πώς θα έχετε ηλεκτρονική υποστήριξη για θέματα του Windows Update και τα στοιχεία που έχετε εγκαταστήσει από αυτό." class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />Λήψη βοήθειας και υποστήριξης</a><br />
+							</div>
+
+
+							<div class="subHeader sys-bottompane-header-color sys-font-body-bold">Δείτε επίσης</div>
+							<div id="eConsumerDiv3">
+								<div id="eCatalogLink" style="display: none;"><a id="eSwitchSites" title="Αναζήτηση ενημερωμένων εκδόσεων για τον υπολογιστή σας και άλλους υπολογιστές στο δίκτυό σας." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />Κατάλογος του Windows Update</a><br /></div>
+								<a id="eAbout" href="about.asp?mode=criticalupdates" title="Ανάγνωση πληροφοριών για τις υπηρεσίες του Windows Update." class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />Πληροφορίες σχετικά με το Windows Update</a><br />
+							</div>
+							<div id="eCatalogDiv3" style="display: none;">
+								<a id="eCatalogSwitchSites" title="Μεταβείτε στη σελίδα υποδοχής του Windows Update και δείτε ποιες ενημερωμένες εκδόσεις είναι διαθέσιμες για αυτόν τον υπολογιστή." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />Windows Update</a><br />
+								<a id="eCatalogAbout" href="about.asp?corporate=true&mode=criticalupdates" title="Ανάγνωση πληροφοριών για τις υπηρεσίες του Windows Update." class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />Πληροφορίες σχετικά με το Windows Update</a><br />
+							</div>
+							<a id="eHardwareSupport" target="_blank" class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />Υποστήριξη υλικού</a>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

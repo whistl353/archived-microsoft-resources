@@ -1,0 +1,30 @@
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<meta http-equiv="Content-Type" content="text/html;charset=windows-1253" />
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta name="MSSmartTagsPreventParsing" content="yes" />
+		<script language="JScript" type="text/javascript">function window.onerror(sMessage, sURL, sLine){ return true; }</script><script language="JScript" type="text/javascript" src="/shared/js/content.js"></script><link rel="stylesheet" type="text/css" href="/shared/css/hcp.css" />
+		<link rel="stylesheet" type="text/css" href="/shared/css/content.css" />
+		
+		<title>Πλαίσιο περιεχομένων</title>
+	</head>
+	<body onload="if(self != top && 'function' ==  typeof(fnInit)) fnInit(0, 9);">
+		<img src="/shared/images/info_icon.gif" class="icon32" alt="Σημαντικές πληροφορίες." /><span class="sys-font-heading3 sys-rhp-color-title">Η ενημέρωση του λογισμικού δεν ολοκληρώθηκε</span><br /><br />
+		<div class="error">
+Το λογισμικό του Windows Update δεν ενημερώθηκε με επιτυχία. Ακολουθούν μερικές προτάσεις που θα σας βοηθήσουν να συνεχίσετε:
+<ul>
+	<li>Ενδέχεται να κάνατε κλικ στο κουμπί "Όχι", όταν ερωτηθήκατε αν αποδέχεστε το πιστοποιητικό αξιοπιστίας. Για να επιτρέψετε την εγκατάσταση του λογισμικού της τοποθεσίας Windows Update, κάντε κλικ στο κουμπί "Ναι", όταν εμφανιστεί το παράθυρο διαλόγου "Προειδοποίηση ασφαλείας".</li>
+	<li>Ενδέχεται να έχει επιλεγεί πολύ υψηλό επίπεδο στις ρυθμίσεις ασφαλείας του Internet Explorer. Για να εγκαταστήσετε το ενημερωμένο λογισμικό και να έχετε πρόσβαση στο Windows Update, πρέπει να ρυθμίσετε το επίπεδο ασφαλείας του Internet Explorer σε "Μεσαίο" ή "Χαμηλό" και πρέπει να έχετε ενεργοποιήσει τις ενεργές δέσμες ενεργειών, καθώς και τη λήψη και προετοιμασία των στοιχείων ελέγχου ActiveX.<br /><br /><b><b>Σημείωση</b></b> Αυτές είναι οι προεπιλεγμένες ρυθμίσεις για τον Internet Explorer. Για περισσότερες πληροφορίες σχετικά με την ασφάλεια του Internet Explorer και για οδηγίες σχετικά με τον τρόπο αλλαγής των ρυθμίσεων ασφαλείας, διαβάστε το άρθρο Q174360 <a href="http://go.microsoft.com/fwlink/?linkid=9579&clcid=0x408" target="_blank" class="sys-link-normal">της γνωσιακής βάσης δεδομένων (KB) της Microsoft</a>.</li>
+</ul>
+<br />Σας βοήθησαν αυτές οι προτάσεις; "mailto:winupsup@microsoft.com?Subject=Σχόλια για το Windows Update" target="_blank" class="sys-link-normal">Στείλτε μας τα σχόλιά σας</a>.<br />
+<br />
+<div><button onclick="parent.fnDisplaySplashPage(1);">Προσπαθήστε ξανά</button></div>
+		</div>
+		<br /><br />
+		Μπορείτε επίσης να λάβετε <a href="support.asp" class="sys-link-normal">ηλεκτρονική υποστήριξη</a> αν αντιμετωπίσετε προβλήματα με το Windows Update.<br /><br />
+<div style="margin: 2px;"><a href="mailto:winupsup@microsoft.com?Subject=Windows Update Feedback   (ERROR 0x800B0004)" class="sys-link-normal">Aποστολή αριθμού σφάλματος στη Microsoft</a> (0x800B0004)<br />
+<b><b>Σημείωση</b></b> Αποστέλλει πληροφορίες σφαλμάτων, αλλά δεν δημιουργεί ένα συμβάν υποστήριξης. Ενδέχεται να λάβετε μια απάντηση ή όχι.<br /></div>
+	</body>
+</html>

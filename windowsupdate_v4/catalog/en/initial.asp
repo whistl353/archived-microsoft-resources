@@ -1,0 +1,197 @@
+
+<script language="javascript">
+
+/*function window::onResize() {
+	fnPositionCopyrightLink()
+}*/
+function window::onload(){
+	
+if(!parent.conDevServer){
+		document.ondragstart = new Function("return false;");
+		document.oncontextmenu = new Function("return false;");
+	}
+	//document.oncontextmenu = new Function("return false;");
+}
+function checkrightclick(){
+event.cancelBubble=true;
+return true;
+}
+/*function fnPositionCopyrightLink(){
+	eCopyright.style.position = "static";
+	var tmr = window.setTimeout("fnPCL()",1000);
+	eCopyright.style.display = "none";
+}*/
+
+
+function fnPCL() {
+	var iContentHeight, iAvailableHeight;
+	
+	eCopyright.style.position = "static";
+	iContentHeight = document.body.scrollHeight;
+	iAvailableHeight = document.body.offsetHeight;
+
+	if(iContentHeight <= (iAvailableHeight - 25)){
+		eCopyright.style.position = "absolute";
+		eCopyright.style.top = "auto";
+		eCopyright.style.bottom = "0px";
+	}else{
+		eCopyright.style.position = "static";
+	}
+	eCopyright.style.display = "block"
+	//window.status = "contentHeight=" + iContentHeight + ", AvailableHeight=" + iAvailableHeight + ", position=" + eCopyright.style.position
+}
+
+
+/* for sorting the the language*/
+function sortlanguage(selectname,formname){
+	var iTxt = new Array();
+	var sTxt = new Array();
+	var nLang = 25;
+
+	iTxt[0]="Arabic" + "@" + "ar|1256"
+	//iTxt[1]="Arabic enabled" + "@" + "en_arabic|1252"
+	iTxt[1]="Turkish" + "@" + "tr|1254"
+	iTxt[2]="Chinese Simplified " + "@" + "zhcn|936"
+	iTxt[3]="Chinese Traditional " + "@" + "zhtw|950"
+	iTxt[4]="Czech" + "@" + "cs|1250"
+	iTxt[5]="Danish" + "@" + "da|1252"
+	iTxt[6]="Dutch" + "@" + "nl|1252"
+	iTxt[7]="English" + "@" + "en|1252"
+	iTxt[8]="Finnish" + "@" + "fi|1252"
+	iTxt[9]="French" + "@" + "fr|1252"
+	iTxt[10]="German" + "@" + "de|1252"
+	iTxt[11]="Greek" + "@" + "el|1253"
+	//iTxt[12]="Greek IBM" + "@" + "el_ibm|869"
+	iTxt[12]="Swedish" + "@" + "sv|1252"
+	iTxt[13]="Hebrew" + "@" + "he|1255"
+	//iTxt[14]="Hebrew enabled" + "@" + "en_hebrew|1252"
+	iTxt[14]="Spanish" + "@" + "es|1252"
+	iTxt[15]="Hungarian" + "@" + "hu|1250"
+	iTxt[16]="Italian" + "@" + "it|1252"
+	iTxt[17]="Japanese" + "@" + "ja|932"
+	iTxt[18]="Japanese NEC" + "@" + "nec|932"
+	iTxt[19]="Korean" + "@" + "ko|949"
+	iTxt[20]="Norwegian" + "@" + "no|1252"
+	iTxt[21]="Polish" + "@" + "pl|1250"
+	iTxt[22]="Portuguese (Brazilian)" + "@" + "ptbr|1252"
+	iTxt[23]="Portuguese (Standard)" + "@" + "pt|1252"
+	iTxt[24]="Russian" + "@" + "ru|1251"
+	//iTxt[25]="Slovak" + "@" + "sk|1250"
+	//iTxt[26]="Slovenian" + "@" + "sl|1250"
+	
+	
+	//iTxt[29]="Thai enabled" + "@" + "en_thai|1252"
+	
+
+	jTxt = iTxt.sort();
+
+	var s, i, a
+
+	s = ""
+	lan="en"
+	
+	s += "<select NAME='" + selectname + "' ID='" + selectname + "' onchange='sethiddendata(" + selectname + "," + formname + ")'>"
+	for(i=0; i < nLang; i++) {	
+		a = jTxt[i].split("@")
+		aa=a[1].split("|")
+		if (aa[0].toLowerCase( )== lan.toLowerCase( )){
+			s += "<option VALUE=" + a[1] + " Selected>" + a[0] + "</option>"
+		}
+		else{
+			s += "<option VALUE=" + a[1] + ">" + a[0] + "</option>"
+		}
+		
+	}
+	s += "</select>"	
+	
+	languagecont.innerHTML=s
+	HSelLang = eval(formname + ".HSelLang")
+	if (HSelLang.value != 0 ){
+		selecttext=eval(formname + "."  + selectname)		
+		selecttext.value=HSelLang.value
+	}
+	
+}
+
+
+/*for sorting the the language*/
+
+function sethiddendata(selectname,formname){
+	HSelLang = eval(formname.name + ".HSelLang")	
+	HSelLang.value=selectname.value	
+}
+
+</script><html >
+<head>
+<title>Microsoft Windows Update</title>
+<meta NAME="robots" CONTENT="noindex">
+<meta http-equiv="Content-Type" content="text/html;charset=windows-1252" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))'>
+<meta http-equiv="MSThemeCompatible" content="Yes">
+<link rel="stylesheet" type="text/css" href="/catalog/shared/css/content.css">
+<link rel="stylesheet" type="text/css" href="hcp://system/css/shared.css" />
+
+<style>
+A
+{
+    PADDING-RIGHT: 0;
+    PADDING-LEFT:0;
+    PADDING-BOTTOM: 0;
+    PADDING-TOP: 0;
+}
+</style>
+<title></title>
+<script language="JScript" type="text/javascript" src="/catalog/shared/js/content.js"></script>
+<script language="jscript">
+	function selleftbasket(){
+		var basketarray=parent.frames["eTOC"].sBasketString.split(",");
+		parent.g_iUpdatesLen=basketarray.length - 1
+		parent.fnUpdateTOCBasket()
+	}
+	
+	function goHistory() {
+		parent.fnDisplayHistory(true);
+		return false;
+	}
+	function selectlink(){
+		var vLinks =parent.frames["eTOC"].document.links;
+		var iLinksLen = vLinks.length;
+		for(i = 0; i < iLinksLen; i++)
+			vLinks[i].className = "";
+		parent.frames["eTOC"].eCorporate.className="selected";
+	}
+
+</script>
+</head>
+<body onload="if(parent.g_bControlInitialized){parent.eTOC.fnSyncTOC(window.location.href, -1, -1);}" style="MARGIN-TOP: 11px;MARGIN-LEFT: 16px;MARGIN-RIGHT: 16px;">
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td width="25"><img src="/catalog/images/ts.gif" width="35" height="1"></td>
+		<td width="100%"></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<span class="title sys-font-heading3 sys-rhp-color-title">Welcome to Windows Update Catalog</span></td>
+	</tr>
+	<tr><td colspan="2" class="8pt sys-font-body sys-color-body" height="10">&nbsp;</td></tr>
+	<tr>
+		<td colspan="2" class="8pt sys-font-body sys-color-body">Choose from a variety of updates that you can distribute over your network. This site is your one-stop location for Windows updates and enhancements, as well as <a href="http://go.microsoft.com/fwlink/?LinkId=9577" target ="_blank" class="sys-link-normal">Designed for Windows</a> Logo <a class="sys-link-normal" href="/en/about.asp#driverupdates">
+			device drivers.</a></td>
+
+	</tr>	
+	<tr><td colspan="2" class="8pt sys-font-body sys-color-body" height="40">&nbsp;</td></tr>
+	<tr><td valign="top"><a class="sys-link-normal" href="ossearch.asp" style="padding:0" onmouseover="imgancmover(this)" onmouseout="imgancmout(this)"><img alt="Green arrow icon denoting a task or action." src="/catalog/images/green_arrow.gif" border="0"  style="padding-bottom:-5px;" title="Set search criteria to find service packs, security fixes, and other updates for Windows operating systems." WIDTH="30" HEIGHT="25"></a></td><td class="8pt" style="padding:0"><a class="sys-link-normal" href="ossearch.asp" title="Set search criteria to find service packs, security fixes, and other updates for Windows operating systems.">Find updates for Microsoft Windows operating systems</a></td></tr>
+	<tr><td colspan="2" class="8pt sys-font-body sys-color-body" height="10">&nbsp;</td></tr>
+	<tr><td valign="top"><a class="sys-link-normal" href="corp_drivers.asp" style="padding:0" onmouseover="imgancmover(this)" onmouseout="imgancmout(this)"><img alt="Green arrow icon denoting a task or action." src="/catalog/images/green_arrow.gif" border="0"  style="padding-bottom:-5px;" title="Set search criteria to find updates for the device drivers on your Windows-based computers." WIDTH="30" HEIGHT="25">&nbsp;&nbsp;</a></td><td class="8pt sys-font-body sys-color-body" style="padding:0"><a class="sys-link-normal" href="corp_drivers.asp" title="Set search criteria to find updates for the device drivers on your Windows-based computers.">Find driver updates for hardware devices</a></td></tr>
+	<tr><td colspan="2" class="8pt sys-font-body sys-color-body" height="40">&nbsp;</td></tr>
+	<tr><td valign="top"><a class="sys-link-normal" href="javascript:goHistory();" style="padding:0" onmouseover="imgancmover(this)" onmouseout="imgancmout(this)"><img alt="Blue arrow icon denoting a task or action." src="/catalog/images/SplashBlue.bmp" border="0"  style="padding-bottom:-5px;" title="Keep track of what you've downloaded from the Windows Update Catalog.">&nbsp;&nbsp;</a></td><td class="8pt sys-font-body sys-color-body" style="padding:0"><a class="sys-link-normal" href="javascript:goHistory();" title="Keep track of what you've downloaded from the Windows Update Catalog.">View download history</a></td></tr>
+	<tr><td colspan="2" class="8pt sys-font-body sys-color-body" height="40">&nbsp;</td></tr>
+	<tr>
+		<td colspan="2" class="8pt sys-font-body sys-color-body">After you have downloaded your updates, you can install them at any time.</td>
+	</tr>
+	
+
+</table>
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<meta http-equiv="Content-Type"  content="text/html;charset=windows-1252" />
+		<meta http-equiv="MSThemeCompatible" content="Yes" />
+		<title>Microsoft Windows Update</title>
+		<object id="IUCtl"></object>
+		
+		<script language="javascript" >
+			var curSite = 4 ; // used for redirection logic in redirect.js 
+		</script>
+		<script language="javascript" type="text/javascript" src="/shared/js/redirect.js?20093932814"></script>
+		
+		<script language="javascript" type="text/javascript">
+			function fnSupressError(sMessage, sURL, sLine){ return true; }
+			window.onerror = fnSupressError ;
+		</script>
+		
+		<script language="JScript" type="text/javascript" defer="true" for="IUCtl" event="OnProgress(bstrUuidOperation, fItemCompleted, bstrDownloadProgress, plCommandRequest)">control_OnProgress(bstrUuidOperation, fItemCompleted, bstrDownloadProgress, plCommandRequest);</script>
+		<script language="JScript" type="text/javascript" defer="true" for="IUCtl" event="OnComplete(lErrorCode)">control_OnComplete(lErrorCode);</script>
+		<script language="JScript" type="text/javascript" defer="true" for="IUCtl" event="OnOperationComplete(bstrUuidOperation, bstrXmlItems)">control_OnOperationComplete(bstrUuidOperation, bstrXmlItems);</script>
+		<script language="JScript" type="text/javascript" defer="true" for="IUCtl" event="OnItemStart(bstrOperation, bstrItemID)">control_OnItemStart(bstrOperation, bstrItemID);</script>
+		<script language="JScript" type="text/javascript" src="/shared/js/top.js?20093932814"></script>
+		<script id="top2" language="JScript" type="text/javascript" defer="true" src="/shared/js/top2.js?20093932814"></script>
+		<script language="VBScript" type="text/vbscript" src="/shared/js/top.vbs?20093932814"></script>
+		<script language="JScript" type="text/javascript" src="/shared/js/survey.js?20093932814"></script>
+		<script language="JScript" type="text/javascript" defer="true">
+var conWinNT = ;
+var conQueryString = "";
+var conRTL = false;
+var conCriticalUpdatesMode = false;
+var conBrowserVersion = ;
+var conLangCode = "it";
+var conConsumerURL = "/it/";
+var conCatalogURL = "/catalog/it/";
+var g_bCorporate = true;
+var g_sLang = "";
+var L_AlreadyDownloadedAddedText_Text = "Per installare l'aggiornamento, fare clic su <b>Verifica e installa aggiornamenti</b>, quindi su <b>Installa</b>.";
+var L_AlreadyDownloadedRemovedText_Text = "Per installare l'aggiornamento, aggiungerlo agli aggiornamenti selezionati, fare clic su <b>Verifica e installa aggiornamenti</b>, quindi su <b>Installa</b>.";
+var L_InstallAlert_Text = "";
+var L_DependenciesShow_Text = "Mostra prerequisiti per l'installazione";
+var L_DependenciesHide_Text = "Nascondi prerequisiti per l'installazione";
+var L_DependenciesBoxText_Text = "I seguenti elementi verranno installati automaticamente durante l'installazione di |UPDATE|:";
+var L_DependenciesBoxHidden_Text = "Ulteriori prerequisiti";
+var L_DependenciesTotal_Text = "Totale (inclusi i prerequisiti):";
+var L_Total_Text = "Totale:";
+var L_ScanForAvailableUpdates_Text = "Visualizza aggiornamenti disponibili";
+var L_Complete_Text = "completato";
+var L_CriticalUpdates_Text = "Aggiornamenti importanti e Service Pack";
+var L_TOCUpdateBasket_Text = "";
+var L_ExclusivePopupText_Text = "L'installazione di |EXCLUSIVE| deve essere eseguita separatamente rispetto agli altri aggiornamenti.\n\nSe si aggiunge |EXCLUSIVE| all'elenco degli aggiornamenti selezionati, gli altri elementi dell'elenco verranno rimossi automaticamente.\n\nPer rimuovere tutti gli altri elementi e aggiungere |EXCLUSIVE|, fare clic su OK.\nPer non aggiungere  |EXCLUSIVE|, fare clic su Annulla.";
+var L_ExclusivePopupOverwriteText_Text = "L'elenco degli aggiornamenti selezionati include |EXCLUSIVE|, che è un elemento esclusivo e deve essere installato separatamente rispetto agli altri aggiornamenti.\n\nPer rimuovere |EXCLUSIVE| dall'elenco e al suo posto aggiungere |UPDATE|, fare clic su OK.\nPer conservare |EXCLUSIVE| senza aggiungere |UPDATE|, fare clic su Annulla.";
+var L_ExclusiveCriticalText_Text = "L'elenco degli aggiornamenti selezionati include |EXCLUSIVE|, che è un elemento esclusivo e deve essere installato separatamente rispetto agli altri aggiornamenti.\n\nPer continuare l'installazione di |EXCLUSIVE|, fare clic su OK. Per installare i rimanenti aggiornamenti al termine dell'installazione, fare clic su Verifica e installa aggiornamenti, quindi su Installa. Per tornare all'elenco degli aggiornamenti selezionati, senza installare |EXCLUSIVE|, fare clic su Annulla.";
+var L_ReloadingSiteText_Text = "Caricamento del sito Windows Update non completato.\nPer attendere fare clic su OK.\nPer caricare di nuovo il sito Windows Update fare clic su Annulla.";
+var L_MB_Text = "MB";
+var L_KB_Text = "KB";
+var L_Hour_Text = "ora";
+var L_Hours_Text = "ore";
+var L_Minute_Text = "minuto";
+var L_Minutes_Text = "minuti";
+var L_ProgressInstallDesc_Text = "È in corso l'installazione degli aggiornamenti nel computer. Attendere.";
+var L_ProgressPreparingToInstall_Text = "Download completato. Preparazione dell'installazione in corso...";
+var L_Reboot_Text = "Per completare l'installazione è necessario riavviare il computer.\nSe non si desidera riavviare il computer subito o se prima si desidera chiudere altri programmi, fare clic su Annulla, quindi riavviare il computer manualmente.\n\nRiavviare il computer ora?";
+var L_CancelInstall_Text = "Se si passa a un'altra pagina, l'installazione non verrà completata. Per rimanere in questa pagina e completare l'installazione, fare clic su Annulla.";
+var L_CancelDownload_Text = "Se si passa a un'altra pagina, il download verrà interrotto. Per rimanere in questa pagina, consentendo il completamento del download, fare clic su Annulla.";
+var L_CorporateDownloadBasket_Text = "Vai al Raccoglitore download";
+var L_HistoryNoTitle_Text = "Impossibile determinare il titolo dell'aggiornamento";
+var L_ReadMore_Text = "Ulteriori informazioni...";
+var L_ReadMoreNotEnglish_Text = "(informazioni in lingua inglese).";
+var L_Details_Text = "Dettagli...";
+var L_Location_Text = "Percorso:";
+var L_FailedToDownload_Text = "Download non riuscito";
+var L_CanceledDownload_Text = "Download annullato";
+var L_StatusComplete_Text = "Operazione riuscita";
+var L_StatusInProgress_Text = "Operazione in corso";
+var L_StatusCanceled_Text = "Annullato";
+var L_StatusFailed_Text = "Operazione non riuscita";
+var L_SourceIUSite_Text = "Sito Web";
+var L_SourceCDM_Text = "Gestione periferiche";
+var L_SourceWUV3_Text = "Sito Web";
+var L_SourceAU_Text = "Aggiornamento automatico";
+var L_SourceOther_Text = "Altro";
+var L_ProductUpdatesAlt_Text = "Seleziona aggiornamenti per |PRODUCT|.";
+var L_CancelInstall2_Text = "Se si esce da questa pagina, l'installazione verrà interrotta e alcuni elementi non verranno installati.";
+var L_PersonalizationSaveSettingsPrompt_Text = "Le impostazioni sono state modificate.\nPer salvare le impostazioni, fare clic su OK. Per continuare senza salvare, fare clic su Annulla.";
+var L_CanceledEULAText_Text = "Non è stato accettato il Contratto di Licenza di questo aggiornamento. Se non si desidera installare l'aggiornamento, è possibile rimuoverlo.";
+var L_SplashPickUpdatesCriticalText4_Text = "Si è verificato un errore durante la ricerca degli aggiornamenti del driver. Impossibile visualizzare driver aggiornati per il sistema.";
+var L_ErrorSupport_Text = "In caso di problemi con Windows Update, è anche possibile ottenere <a href=\"support.asp\" class=\"sys-link-normal\">supporto in linea</a>.";
+
+		</script>
+
+	</head>
+	<noscript>
+<frameset  rows="80, *, 24" border="0"><frame name="eToolbar" src="/it/mstoolbar.asp?corporate=true&error=1&" noresize="yes" style="border-bottom: 1px solid white;" /><frameset  cols="250,*" framespacing="3"><frame name="eTOC" src="/it/toc.asp?corporate=true&error=1&" /><frame name="eContent" src="/it/error.asp?corporate=true&error=1&" /></frameset><frame name="eFooter" src="/it/footer.asp" noresize="yes" style="border-top: 1px solid white;" /></frameset>
+	</noscript>
+<frameset  rows="80, *, 24" border="0"><frame name="eToolbar" src="/it/mstoolbar.asp?corporate=true&" noresize="yes" style="border-bottom: 1px solid white;" /><frameset  cols="250,*" framespacing="3"><frame name="eTOC" src="/it/toc.asp?corporate=true&" /><frame name="eContent" src="/it/splash.asp?page=0&corporate=true&" /></frameset><frame name="eFooter" src="/it/footer.asp" noresize="yes" style="border-top: 1px solid white;" /></frameset>
+</html>
+

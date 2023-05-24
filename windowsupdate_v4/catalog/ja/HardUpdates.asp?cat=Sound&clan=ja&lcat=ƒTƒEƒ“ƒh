@@ -1,0 +1,446 @@
+
+<script language="javascript">
+
+/*function window::onResize() {
+	fnPositionCopyrightLink()
+}*/
+function window::onload(){
+	
+if(!parent.conDevServer){
+		document.ondragstart = new Function("return false;");
+		document.oncontextmenu = new Function("return false;");
+	}
+	//document.oncontextmenu = new Function("return false;");
+}
+function checkrightclick(){
+event.cancelBubble=true;
+return true;
+}
+/*function fnPositionCopyrightLink(){
+	eCopyright.style.position = "static";
+	var tmr = window.setTimeout("fnPCL()",1000);
+	eCopyright.style.display = "none";
+}*/
+
+
+function fnPCL() {
+	var iContentHeight, iAvailableHeight;
+	
+	eCopyright.style.position = "static";
+	iContentHeight = document.body.scrollHeight;
+	iAvailableHeight = document.body.offsetHeight;
+
+	if(iContentHeight <= (iAvailableHeight - 25)){
+		eCopyright.style.position = "absolute";
+		eCopyright.style.top = "auto";
+		eCopyright.style.bottom = "0px";
+	}else{
+		eCopyright.style.position = "static";
+	}
+	eCopyright.style.display = "block"
+	//window.status = "contentHeight=" + iContentHeight + ", AvailableHeight=" + iAvailableHeight + ", position=" + eCopyright.style.position
+}
+
+
+/* for sorting the the language*/
+function sortlanguage(selectname,formname){
+	var iTxt = new Array();
+	var sTxt = new Array();
+	var nLang = 25;
+
+	iTxt[0]="アラビア語" + "@" + "ar|1256"
+	//iTxt[1]="アラビア語有効" + "@" + "en_arabic|1252"
+	iTxt[1]="トルコ語" + "@" + "tr|1254"
+	iTxt[2]="簡体字中国語" + "@" + "zhcn|936"
+	iTxt[3]="繁体字中国語" + "@" + "zhtw|950"
+	iTxt[4]="チェコ語" + "@" + "cs|1250"
+	iTxt[5]="デンマーク語" + "@" + "da|1252"
+	iTxt[6]="オランダ語" + "@" + "nl|1252"
+	iTxt[7]="英語" + "@" + "en|1252"
+	iTxt[8]="フィンランド語" + "@" + "fi|1252"
+	iTxt[9]="フランス語" + "@" + "fr|1252"
+	iTxt[10]="ドイツ語" + "@" + "de|1252"
+	iTxt[11]="ギリシャ語" + "@" + "el|1253"
+	//iTxt[12]="ギリシャ語 IBM" + "@" + "el_ibm|869"
+	iTxt[12]="スウェーデン語" + "@" + "sv|1252"
+	iTxt[13]="ヘブライ語" + "@" + "he|1255"
+	//iTxt[14]="ヘブライ語有効" + "@" + "en_hebrew|1252"
+	iTxt[14]="スペイン語" + "@" + "es|1252"
+	iTxt[15]="ハンガリー語" + "@" + "hu|1250"
+	iTxt[16]="イタリア語" + "@" + "it|1252"
+	iTxt[17]="日本語" + "@" + "ja|932"
+	iTxt[18]="日本語 NEC" + "@" + "nec|932"
+	iTxt[19]="韓国語" + "@" + "ko|949"
+	iTxt[20]="ノルウェー語" + "@" + "no|1252"
+	iTxt[21]="ポーランド語" + "@" + "pl|1250"
+	iTxt[22]="ポルトガル語 (ブラジル)" + "@" + "ptbr|1252"
+	iTxt[23]="ポルトガル語 (標準)" + "@" + "pt|1252"
+	iTxt[24]="ロシア語" + "@" + "ru|1251"
+	//iTxt[25]="スロバキア語" + "@" + "sk|1250"
+	//iTxt[26]="スロベニア語" + "@" + "sl|1250"
+	
+	
+	//iTxt[29]="タイ語有効" + "@" + "en_thai|1252"
+	
+
+	jTxt = iTxt.sort();
+
+	var s, i, a
+
+	s = ""
+	lan="ja"
+	
+	s += "<select NAME='" + selectname + "' ID='" + selectname + "' onchange='sethiddendata(" + selectname + "," + formname + ")'>"
+	for(i=0; i < nLang; i++) {	
+		a = jTxt[i].split("@")
+		aa=a[1].split("|")
+		if (aa[0].toLowerCase( )== lan.toLowerCase( )){
+			s += "<option VALUE=" + a[1] + " Selected>" + a[0] + "</option>"
+		}
+		else{
+			s += "<option VALUE=" + a[1] + ">" + a[0] + "</option>"
+		}
+		
+	}
+	s += "</select>"	
+	
+	languagecont.innerHTML=s
+	HSelLang = eval(formname + ".HSelLang")
+	if (HSelLang.value != 0 ){
+		selecttext=eval(formname + "."  + selectname)		
+		selecttext.value=HSelLang.value
+	}
+	
+}
+
+
+/*for sorting the the language*/
+
+function sethiddendata(selectname,formname){
+	HSelLang = eval(formname.name + ".HSelLang")	
+	HSelLang.value=selectname.value	
+}
+
+</script><html >
+<head>
+<title>Microsoft Windows Update</title>
+<meta NAME="robots" CONTENT="noindex">
+<meta http-equiv="Content-Type" content="text/html;charset=shift_jis" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))'>
+<meta http-equiv="MSThemeCompatible" content="Yes">
+<link rel="stylesheet" type="text/css" href="/catalog/shared/css/content.css">
+<link rel="stylesheet" type="text/css" href="hcp://system/css/shared.css" />
+
+
+
+<style type="text/css">
+<!--
+	body { margin: 15px; }
+	td { font-family: Verdana;font-size: 68.25%; }
+	td a { font-weight:normal;text-decoration:none }
+	hr {  color:gray;height:1px; }
+	select { margin-top:5px; margin-bottom:5px;width:300px;}
+	form { margin-top:0px; margin-bottom: 4px; }
+	h4.clsHeader { color:gray;font-family:verdana; }
+-->
+</style>
+
+<script language="javascript" src="/catalog/shared/js/content.js"></script>
+<script language="javascript" defer="true">
+<!--
+
+function Docheck(){
+	var selected=0
+	if (frmMan.selOS.value == ""){
+		alert("オペレーティング システムを選択します");
+		return false;
+	}
+	else{
+		document.frmMan.submit();
+		return true;
+	}
+}
+function frmsubmitcheck(){
+
+	return Docheck()
+}
+var g_oLearnMoreDlg;
+function goLearnKeywords(){
+	if (g_oLearnMoreDlg == null) {
+		g_oLearnMoreDlg = window.showModelessDialog("LearnKeywords.asp",window,"help:no;status:no;resizable:no;dialogWidth:500px;dialogHeight:450px" );
+	}
+}
+
+
+//-->
+var fraLEFT = parent.frames["eTOC"];
+
+	function SetItemCount()
+	{
+		eBasketStats.innerText = 0;
+
+		if( "" != fraLEFT.sBasketString )
+		{
+			var aBasketItems = fraLEFT.sBasketString.split( "," );
+			var iLen = aBasketItems.length - 1;
+			eBasketStats.innerText = parseInt( iLen );
+
+		}
+	}
+function gobasket()
+	{
+		basketform.os_sBasket.value=parent.frames["eTOC"].os_sBasket;
+		basketform.driver_sBasket.value=parent.frames["eTOC"].driver_sBasket;
+		basketform.speed.value=parent.g_iConnectionSpeed;
+		basketform.submit();
+
+	}
+</script>
+</head>
+<body   style="MARGIN-TOP: 11px;MARGIN-LEFT: 16px;MARGIN-RIGHT: 16px;">
+
+
+<form name="basketform" id="basketform" action="downloadbasket.asp" method="post">
+		<input type="hidden" name="os_sBasket" id="os_sBasket">
+		<input type="hidden" name="driver_sBasket" id="driver_sBasket">
+		<input type="hidden" name="speed" id="speed">
+</form>
+<form name="frmMan" id="frmMan" action="driverDetails.asp" onsubmit="return frmsubmitcheck()">
+	<input type="hidden" name="hdnCat" value="Sound" />
+	<input type="hidden" name="lCat" value="サウンド" />
+	<input type="hidden" name="clan" value="ja" />
+	<input type="hidden" name="speed" id="speed">
+	<input type="hidden" name="HSelLang" id="HSelLang" value=0>
+
+
+
+
+
+<span id="eBasketStats" name="eBasketStats" style="display:none"></span>
+<span class="title sys-font-heading3 sys-rhp-color-title">ハードウェア ドライバ - サウンド</span><br>
+<div class="8pt sys-font-body sys-color-body">製造元を選択し、ドライバの更新の検索範囲を限定します。それから、下記のほかの検索条件を設定し、<b>[検索]</b> をクリックします。<br><br></div>
+	<table cellspacing="0" border="0" width="100%" class="tblborder sys-table-color-border sys-table-cell-bgcolor2">
+		<tr><td>
+		<table cellpadding="0" cellspacing="0" border="0" class="innertbl" height="100%"width="100%">
+				<tr>
+					<td><img src="/catalog/images/ts.gif" height=5 width=1><br>
+						<span id="spnDesc">製造元名:</span><br>
+						<span>
+							<select name="selMan" size=6>
+								
+													<option value="analogdevicesincorporated|Analog Devices Incorporated" SELECTED>Analog Devices Incorporated</option>
+
+												
+													<option value="andreaelectronics|Andrea Electronics">Andrea Electronics</option>
+
+												
+													<option value="aopeninc|AOpen Inc.">AOpen Inc.</option>
+
+												
+													<option value="atitechnologiesinc|ATI Technologies, Inc">ATI Technologies, Inc</option>
+
+												
+													<option value="bitlandinformationtechnologycoltd|Bitland Information Technology Co.,Ltd.">Bitland Information Technology Co.,Ltd.</option>
+
+												
+													<option value="cmediaelectronicsincorporation500|C Media Electronics Incorporation">C Media Electronics Incorporation</option>
+
+												
+													<option value="chaintechcomputercoltd|CHAINTECH COMPUTER CO., LTD.">CHAINTECH COMPUTER CO., LTD.</option>
+
+												
+													<option value="cirruslogicincorporated|Cirrus Logic, Incorporated">Cirrus Logic, Incorporated</option>
+
+												
+													<option value="cmediaelectronicsincorporation|C-Media Electronics Incorporation">C-Media Electronics Incorporation</option>
+
+												
+													<option value="conexantsystemsinc|Conexant Systems, Inc.">Conexant Systems, Inc.</option>
+
+												
+													<option value="creativelabsinc|Creative Labs, Inc.">Creative Labs, Inc.</option>
+
+												
+													<option value="esstechnology|ESS Technology">ESS Technology</option>
+
+												
+													<option value="firstinternationalcomputerinc|First International Computer, Inc.">First International Computer, Inc.</option>
+
+												
+													<option value="grundigbusinesssystemsgmbh|Grundig Business Systems GmbH">Grundig Business Systems GmbH</option>
+
+												
+													<option value="guillemotcorporation|Guillemot Corporation">Guillemot Corporation</option>
+
+												
+													<option value="innescorporationptyltd|Innes Corporation Pty Ltd">Innes Corporation Pty Ltd</option>
+
+												
+													<option value="microsoftcorporation|Microsoft Corporation">Microsoft Corporation</option>
+
+												
+													<option value="neccomputersinternationalbv|NEC Computers International B.V.">NEC Computers International B.V.</option>
+
+												
+													<option value="nvidiacorporation|Nvidia Corporation">Nvidia Corporation</option>
+
+												
+													<option value="philipselectronicsnorthamerica|PHILIPS ELECTRONICS NORTH AMERICA">PHILIPS ELECTRONICS NORTH AMERICA</option>
+
+												
+													<option value="realteksemiconductorcorp|Realtek Semiconductor Corp">Realtek Semiconductor Corp</option>
+
+												
+													<option value="sigmatelinc|SigmaTel, Inc.">SigmaTel, Inc.</option>
+
+												
+													<option value="siliconintegratedsystemscorp|SILICON INTEGRATED SYSTEMS CORP.">SILICON INTEGRATED SYSTEMS CORP.</option>
+
+												
+													<option value="terratecelectronicgmbh|TerraTec Electronic GmbH">TerraTec Electronic GmbH</option>
+
+												
+													<option value="trustinternationalbv|Trust International BV">Trust International BV</option>
+
+												
+													<option value="twinheadinternationalcorp|Twinhead International Corp.">Twinhead International Corp.</option>
+
+												
+													<option value="viatechnologiesinc|VIA Technologies Inc.">VIA Technologies Inc.</option>
+
+												
+													<option value="yamaha|Yamaha">Yamaha</option>
+
+												
+							</select>
+						</span></td>
+					</tr>
+
+
+					<tr><td class="8pt sys-font-body sys-color-body">オペレーティング システム:</td></tr>
+					<tr>
+						<td>
+							<select name="selOS" id="selOS">
+								<option value="" selected>オペレーティング システムを選択します</option>
+								<option value='ver_platform_win32_nt.5.2.ia64.ver_nt_server.ver_suite_datacenter.3790.0.0'><pre>64-bit version of Windows Server 2003, DTC RTM</pre></option>
+<option value='ver_platform_win32_nt.5.2.ia64.ver_nt_server.ver_suite_enterprise.3790.0.0'><pre>64-bit version of Windows Server 2003, Enterprise Edition</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.ver_suite_enterprise.2195.0.0'><pre>Windows 2000 Advanced Server RTM</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.ver_suite_enterprise.2195.1.0'><pre>Windows 2000 Advanced Server SP1</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.ver_suite_enterprise.2195.2.0'><pre>Windows 2000 Advanced Server SP2</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.ver_suite_enterprise.2195.3.0'><pre>Windows 2000 Advanced Server SP3</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.ver_suite_enterprise.2195.4.0'><pre>Windows 2000 Advanced Server SP4</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_workstation.n.2195.0.0'><pre>Windows 2000 Professional RTM</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_workstation.n.2195.1.0'><pre>Windows 2000 Professional SP1</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_workstation.n.2195.2.0'><pre>Windows 2000 Professional SP2</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_workstation.n.2195.3.0'><pre>Windows 2000 Professional SP3</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_workstation.n.2195.4.0'><pre>Windows 2000 Professional SP4</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.n.2195.0.0'><pre>Windows 2000 Server RTM</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.n.2195.1.0'><pre>Windows 2000 Server SP1</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.n.2195.2.0'><pre>Windows 2000 Server SP2</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.n.2195.3.0'><pre>Windows 2000 Server SP3</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.n.2195.4.0'><pre>Windows 2000 Server SP4</pre></option>
+<option value='ver_platform_win32_windows.4.10.x86.....'><pre>Windows 98 and Windows 98 Second Edition</pre></option>
+<option value='ver_platform_win32_windows.4.90.x86...3000..'><pre>Windows Millennium Edition</pre></option>
+<option value='ver_platform_win32_nt.5.2.x86.ver_nt_server.ver_suite_datacenter.3790.0.0'><pre>Windows Server 2003, Datacenter Edition RTM</pre></option>
+<option value='ver_platform_win32_nt.5.2.x86.ver_nt_server.ver_suite_enterprise.3790.0.0'><pre>Windows Server 2003, Enterprise Edition</pre></option>
+<option value='ver_platform_win32_nt.5.2.x86.ver_nt_server.n.3790.0.0'><pre>Windows Server 2003, Standard Edition</pre></option>
+<option value='ver_platform_win32_nt.5.2.x86.ver_nt_server.ver_suite_blade.3790.0.0'><pre>Windows Server 2003, Web Edition</pre></option>
+<option value='ver_platform_win32_nt.5.1.ia64.ver_nt_workstation.n.2600..'><pre>Windows XP 64-Bit Edition</pre></option>
+<option value='ver_platform_win32_nt.5.1.ia64.ver_nt_workstation.n.2600.0.0'><pre>Windows XP 64-Bit Edition RTM</pre></option>
+<option value='ver_platform_win32_nt.5.1.ia64.ver_nt_workstation.n.2600.1.0'><pre>Windows XP 64-Bit Edition SP1</pre></option>
+<option value='ver_platform_win32_nt.5.2.ia64.ver_nt_workstation.n.3790.0.0'><pre>Windows XP 64-Bit Edition Version 2003 RTM</pre></option>
+<option value='ver_platform_win32_nt.5.1.x86.ver_nt_workstation.ver_suite_personal.2600.0.0'><pre>Windows XP Home Edition RTM</pre></option>
+<option value='ver_platform_win32_nt.5.1.x86.ver_nt_workstation.ver_suite_personal.2600.1.0'><pre>Windows XP Home Edition SP1</pre></option>
+<option value='ver_platform_win32_nt.5.1.x86.ver_nt_workstation.n.2600.0.0'><pre>Windows XP Professional RTM</pre></option>
+<option value='ver_platform_win32_nt.5.1.x86.ver_nt_workstation.n.2600.1.0'><pre>Windows XP Professional SP1</pre></option>
+
+							</select></td>
+					</tr>
+					<tr><td class="8pt sys-font-body sys-color-body">言語:</td></tr>
+					<tr>
+						<td name="languagecont" id="languagecont">
+							<!--<select name="selLang" id="selLang">
+								<option VALUE="ar|1256">アラビア語</option>
+								<option VALUE="en_arabic|1252">アラビア語有効</option>
+								<option VALUE="zhcn|936">簡体字中国語</option>
+								<option VALUE="zhtw|950">繁体字中国語</option>
+								<option VALUE="cs|1250">チェコ語</option>
+								<option VALUE="da|1252">デンマーク語</option>
+								<option VALUE="nl|1252">オランダ語</option>
+								<option VALUE="en|1252" selected>英語</option>
+								<option VALUE="fi|1252">フィンランド語</option>
+								<option VALUE="fr|1252">フランス語</option>
+								<option VALUE="de|1252">ドイツ語</option>
+								<option VALUE="el|1253">ギリシャ語</option>
+								<option VALUE="el_ibm|869">ギリシャ語 IBM</option>
+								<option VALUE="he|1255">ヘブライ語</option>
+								<option VALUE="en_hebrew|1252">ヘブライ語有効</option>
+								<option VALUE="hu|1250">ハンガリー語</option>
+								<option VALUE="it|1252">イタリア語</option>
+								<option VALUE="ja|932">日本語</option>
+								<option VALUE="nec|932">日本語 NEC</option>
+								<option VALUE="ko|949">韓国語</option>
+								<option VALUE="no|1252">ノルウェー語</option>
+								<option VALUE="pl|1250">ポーランド語</option>
+								<option VALUE="ptbr|1252">ポルトガル語 (ブラジル)</option>
+								<option VALUE="pt|1252">ポルトガル語 (標準)</option>
+								<option VALUE="ru|1251">ロシア語</option>
+								<option VALUE="sk|1250">スロバキア語</option>
+								<option VALUE="sl|1250">スロベニア語</option>
+								<option VALUE="es|1252">スペイン語</option>
+								<option VALUE="sv|1252">スウェーデン語</option>
+								<option VALUE="en_thai|1252">タイ語有効</option>
+								<option VALUE="tr|1254">トルコ語</option>
+							</select>-->
+						</td>
+					</tr>
+					<tr><td class="8pt sys-font-body sys-color-body">Web に投稿した日付:</td></tr>
+					<tr>
+						<td>
+							<select id="selPostDate" name="selPostDate">
+								<option value="0">投稿したすべての日付</option>
+								<option value="7">先週</option>
+								<option value="14">過去 2 週間</option>
+								<option value="30">先月</option>
+								<option value="60">過去 2 か月</option>
+								<option value="180">過去 6 か月</option>
+								<option value="365">過去 1 年</option>
+							</select></td>
+					</tr>
+					<tr>
+						<td>
+							次の単語を含みます:&nbsp;&nbsp;
+							<a class='sys-link-normal' href="javascript:goLearnKeywords()">単語を使った検索の制限に関する詳細情報を表示します</a></td>
+					</tr>
+					<tr>
+						<td class="8pt sys-font-body sys-color-body">
+							<input type="text" name="eKeyWord" SIZE=60 maxlength=100 oncontextmenu=checkrightclick()></td>
+					</tr>
+					<tr><td>&nbsp;</td></tr>
+					<tr >
+						<td align="right" class="osbutton sys-table-header-bgcolor1" valign=middle>
+							<!--<button onclick="history.go(-1);">&lt;&nbsp;Back</button>-->
+
+							<button onClick="javascript:Docheck()"onresize="document.recalc('true')" style="width:expression(buttonspan.offsetWidth + 10)"><span id="buttonspan" name="buttonspan">検索</span></button>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	
+
+</form>
+</body>
+</html>
+<script language="javascript">
+function window.onload(){
+	var NoResults = 0
+	frmMan.speed.value=parent.g_iConnectionSpeed;
+	SetItemCount()
+	if(NoResults == 0) {
+		sortlanguage("selLang","frmMan")
+
+	}
+}
+</script>

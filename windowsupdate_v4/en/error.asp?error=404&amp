@@ -1,0 +1,32 @@
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<meta http-equiv="Content-Type" content="text/html;charset=windows-1252" />
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta name="MSSmartTagsPreventParsing" content="yes" />
+		<script language="JScript" type="text/javascript">function window.onerror(sMessage, sURL, sLine){ return true; }</script><script language="JScript" type="text/javascript" src="/shared/js/content.js"></script><link rel="stylesheet" type="text/css" href="/shared/css/hcp.css" />
+		<link rel="stylesheet" type="text/css" href="/shared/css/content.css" />
+		
+		<title>Content Frame</title>
+	</head>
+	<body onload="if(self != top && 'function' ==  typeof(fnInit)) fnInit(0, 404);">
+		<img src="/shared/images/info_icon.gif" class="icon32" alt="Important information." /><span class="sys-font-heading3 sys-rhp-color-title">Your requested page cannot be found</span><br /><br />
+		<div class="error">
+Try one of the following:<br />
+<ul>
+	<li>Refresh the page (click <a href="javascript:window.location.reload();" class="sys-link-normal">Refresh</a> on your browser).</li>
+	<li>If you typed an address, make sure the punctuation and spelling are correct.</li>
+</ul><br />
+Select from any of the following pages for information about Windows Update services:<br /><br />
+<a href="default.asp" target="_parent" class="sys-link-normal">Windows Update Home Page</a><br />
+<a href="default.asp?page=about.asp" target="_parent" style="line-height:16pt;" class="sys-link-normal">About Windows Update</a><br />
+<a href="default.asp?page=support.asp" target="_parent" class="sys-link-normal">Support Information</a><br /><br />
+If you think you have received this page in error, <a href="mailto:winupsup@microsoft.com?Subject=Windows Update Feedback" target="_blank" class="sys-link-normal">send us your feedback</a>.<br />
+
+		</div>
+		<br /><br />
+		You can also get <a href="support.asp" class="sys-link-normal">online support</a> if you are having problems with Windows Update.<br /><br />
+
+	</body>
+</html>

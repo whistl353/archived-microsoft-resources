@@ -1,0 +1,572 @@
+
+<script language="javascript">
+
+/*function window::onResize() {
+	fnPositionCopyrightLink()
+}*/
+function window::onload(){
+	
+if(!parent.conDevServer){
+		document.ondragstart = new Function("return false;");
+		document.oncontextmenu = new Function("return false;");
+	}
+	//document.oncontextmenu = new Function("return false;");
+}
+function checkrightclick(){
+event.cancelBubble=true;
+return true;
+}
+/*function fnPositionCopyrightLink(){
+	eCopyright.style.position = "static";
+	var tmr = window.setTimeout("fnPCL()",1000);
+	eCopyright.style.display = "none";
+}*/
+
+
+function fnPCL() {
+	var iContentHeight, iAvailableHeight;
+	
+	eCopyright.style.position = "static";
+	iContentHeight = document.body.scrollHeight;
+	iAvailableHeight = document.body.offsetHeight;
+
+	if(iContentHeight <= (iAvailableHeight - 25)){
+		eCopyright.style.position = "absolute";
+		eCopyright.style.top = "auto";
+		eCopyright.style.bottom = "0px";
+	}else{
+		eCopyright.style.position = "static";
+	}
+	eCopyright.style.display = "block"
+	//window.status = "contentHeight=" + iContentHeight + ", AvailableHeight=" + iAvailableHeight + ", position=" + eCopyright.style.position
+}
+
+
+/* for sorting the the language*/
+function sortlanguage(selectname,formname){
+	var iTxt = new Array();
+	var sTxt = new Array();
+	var nLang = 25;
+
+	iTxt[0]="阿拉伯文" + "@" + "ar|1256"
+	//iTxt[1]="阿拉伯文支援" + "@" + "en_arabic|1252"
+	iTxt[1]="土耳其文" + "@" + "tr|1254"
+	iTxt[2]="簡體中文" + "@" + "zhcn|936"
+	iTxt[3]="繁體中文" + "@" + "zhtw|950"
+	iTxt[4]="捷克文" + "@" + "cs|1250"
+	iTxt[5]="丹麥文" + "@" + "da|1252"
+	iTxt[6]="荷蘭文" + "@" + "nl|1252"
+	iTxt[7]="英文" + "@" + "en|1252"
+	iTxt[8]="芬蘭文" + "@" + "fi|1252"
+	iTxt[9]="法文" + "@" + "fr|1252"
+	iTxt[10]="德文" + "@" + "de|1252"
+	iTxt[11]="希臘文" + "@" + "el|1253"
+	//iTxt[12]="希臘文 IBM" + "@" + "el_ibm|869"
+	iTxt[12]="瑞典文" + "@" + "sv|1252"
+	iTxt[13]="希伯來文" + "@" + "he|1255"
+	//iTxt[14]="希伯來文支援" + "@" + "en_hebrew|1252"
+	iTxt[14]="西班牙文" + "@" + "es|1252"
+	iTxt[15]="匈牙利文" + "@" + "hu|1250"
+	iTxt[16]="義大利文" + "@" + "it|1252"
+	iTxt[17]="日文" + "@" + "ja|932"
+	iTxt[18]="日文 NEC" + "@" + "nec|932"
+	iTxt[19]="韓文" + "@" + "ko|949"
+	iTxt[20]="挪威文" + "@" + "no|1252"
+	iTxt[21]="波蘭文" + "@" + "pl|1250"
+	iTxt[22]="葡萄牙文 (巴西的)" + "@" + "ptbr|1252"
+	iTxt[23]="葡萄牙文 (標準的)" + "@" + "pt|1252"
+	iTxt[24]="俄文" + "@" + "ru|1251"
+	//iTxt[25]="斯洛伐克文" + "@" + "sk|1250"
+	//iTxt[26]="斯洛維尼亞文" + "@" + "sl|1250"
+	
+	
+	//iTxt[29]="泰文支援" + "@" + "en_thai|1252"
+	
+
+	jTxt = iTxt.sort();
+
+	var s, i, a
+
+	s = ""
+	lan="zhtw"
+	
+	s += "<select NAME='" + selectname + "' ID='" + selectname + "' onchange='sethiddendata(" + selectname + "," + formname + ")'>"
+	for(i=0; i < nLang; i++) {	
+		a = jTxt[i].split("@")
+		aa=a[1].split("|")
+		if (aa[0].toLowerCase( )== lan.toLowerCase( )){
+			s += "<option VALUE=" + a[1] + " Selected>" + a[0] + "</option>"
+		}
+		else{
+			s += "<option VALUE=" + a[1] + ">" + a[0] + "</option>"
+		}
+		
+	}
+	s += "</select>"	
+	
+	languagecont.innerHTML=s
+	HSelLang = eval(formname + ".HSelLang")
+	if (HSelLang.value != 0 ){
+		selecttext=eval(formname + "."  + selectname)		
+		selecttext.value=HSelLang.value
+	}
+	
+}
+
+
+/*for sorting the the language*/
+
+function sethiddendata(selectname,formname){
+	HSelLang = eval(formname.name + ".HSelLang")	
+	HSelLang.value=selectname.value	
+}
+
+</script><html >
+<head>
+<title>Microsoft Windows Update</title>
+<meta NAME="robots" CONTENT="noindex">
+<meta http-equiv="Content-Type" content="text/html;charset=big5" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))'>
+<meta http-equiv="MSThemeCompatible" content="Yes">
+<link rel="stylesheet" type="text/css" href="/catalog/shared/css/content.css">
+<link rel="stylesheet" type="text/css" href="hcp://system/css/shared.css" />
+
+
+
+<style type="text/css">
+<!--
+	body { margin: 15px; }
+	td { font-family: Verdana;font-size: 68.25%; }
+	td a { font-weight:normal;text-decoration:none }
+	hr {  color:gray;height:1px; }
+	select { margin-top:5px; margin-bottom:5px;width:300px;}
+	form { margin-top:0px; margin-bottom: 4px; }
+	h4.clsHeader { color:gray;font-family:verdana; }
+-->
+</style>
+
+<script language="javascript" src="/catalog/shared/js/content.js"></script>
+<script language="javascript" defer="true">
+<!--
+
+function Docheck(){
+	var selected=0
+	if (frmMan.selOS.value == ""){
+		alert("選擇作業系統");
+		return false;
+	}
+	else{
+		document.frmMan.submit();
+		return true;
+	}
+}
+function frmsubmitcheck(){
+
+	return Docheck()
+}
+var g_oLearnMoreDlg;
+function goLearnKeywords(){
+	if (g_oLearnMoreDlg == null) {
+		g_oLearnMoreDlg = window.showModelessDialog("LearnKeywords.asp",window,"help:no;status:no;resizable:no;dialogWidth:500px;dialogHeight:450px" );
+	}
+}
+
+
+//-->
+var fraLEFT = parent.frames["eTOC"];
+
+	function SetItemCount()
+	{
+		eBasketStats.innerText = 0;
+
+		if( "" != fraLEFT.sBasketString )
+		{
+			var aBasketItems = fraLEFT.sBasketString.split( "," );
+			var iLen = aBasketItems.length - 1;
+			eBasketStats.innerText = parseInt( iLen );
+
+		}
+	}
+function gobasket()
+	{
+		basketform.os_sBasket.value=parent.frames["eTOC"].os_sBasket;
+		basketform.driver_sBasket.value=parent.frames["eTOC"].driver_sBasket;
+		basketform.speed.value=parent.g_iConnectionSpeed;
+		basketform.submit();
+
+	}
+</script>
+</head>
+<body   style="MARGIN-TOP: 11px;MARGIN-LEFT: 16px;MARGIN-RIGHT: 16px;">
+
+
+<form name="basketform" id="basketform" action="downloadbasket.asp" method="post">
+		<input type="hidden" name="os_sBasket" id="os_sBasket">
+		<input type="hidden" name="driver_sBasket" id="driver_sBasket">
+		<input type="hidden" name="speed" id="speed">
+</form>
+<form name="frmMan" id="frmMan" action="driverDetails.asp" onsubmit="return frmsubmitcheck()">
+	<input type="hidden" name="hdnCat" value="Storage" />
+	<input type="hidden" name="lCat" value="存放裝置" />
+	<input type="hidden" name="clan" value="zhtw" />
+	<input type="hidden" name="speed" id="speed">
+	<input type="hidden" name="HSelLang" id="HSelLang" value=0>
+
+
+
+
+
+<span id="eBasketStats" name="eBasketStats" style="display:none"></span>
+<span class="title sys-font-heading3 sys-rhp-color-title">硬體驅動程式 - 存放裝置</span><br>
+<div class="8pt sys-font-body sys-color-body">請選取製造廠商，縮小您的驅動程式更新搜尋範圍。然後於以下設定您其餘的條件，最後按<b>[搜尋]</b>。<br><br></div>
+	<table cellspacing="0" border="0" width="100%" class="tblborder sys-table-color-border sys-table-cell-bgcolor2">
+		<tr><td>
+		<table cellpadding="0" cellspacing="0" border="0" class="innertbl" height="100%"width="100%">
+				<tr>
+					<td><img src="/catalog/images/ts.gif" height=5 width=1><br>
+						<span id="spnDesc">製造商名稱：</span><br>
+						<span>
+							<select name="selMan" size=6>
+								
+													<option value="3pardatainc|3PARdata, Inc." SELECTED>3PARdata, Inc.</option>
+
+												
+													<option value="adaptecincorporated|Adaptec, Incorporated">Adaptec, Incorporated</option>
+
+												
+													<option value="advanceddigitalinformationcorporation|Advanced Digital Information Corporation">Advanced Digital Information Corporation</option>
+
+												
+													<option value="advancedmicrodevicesinc|Advanced Micro Devices, Inc.">Advanced Micro Devices, Inc.</option>
+
+												
+													<option value="amcc|AMCC">AMCC</option>
+
+												
+													<option value="americanmegatrendsinc|American Megatrends, Inc.">American Megatrends, Inc.</option>
+
+												
+													<option value="attotechnologyinc|ATTO Technology, Inc.">ATTO Technology, Inc.</option>
+
+												
+													<option value="broadcomcorporation|Broadcom Corporation">Broadcom Corporation</option>
+
+												
+													<option value="brotherindustriesltd|Brother Industries, ltd.">Brother Industries, ltd.</option>
+
+												
+													<option value="cmediaelectronicsincorporation500|C Media Electronics Incorporation">C Media Electronics Incorporation</option>
+
+												
+													<option value="certancellc|Certance, LLC">Certance, LLC</option>
+
+												
+													<option value="citizenwatchcoltd|Citizen Watch Co., Ltd.">Citizen Watch Co., Ltd.</option>
+
+												
+													<option value="cmediaelectronicsincorporation|C-Media Electronics Incorporation">C-Media Electronics Incorporation</option>
+
+												
+													<option value="conexantsystemsinc|Conexant Systems, Inc.">Conexant Systems, Inc.</option>
+
+												
+													<option value="dellcomputercorporation|Dell Computer Corporation">Dell Computer Corporation</option>
+
+												
+													<option value="dellinc|Dell Inc.">Dell Inc.</option>
+
+												
+													<option value="emulexcorporation|Emulex Corporation">Emulex Corporation</option>
+
+												
+													<option value="enetechnologyinc|ENE Technology Inc.">ENE Technology Inc.</option>
+
+												
+													<option value="exabytecorporation|Exabyte Corporation">Exabyte Corporation</option>
+
+												
+													<option value="freecomtechnologiesgmbh|FREECOM Technologies GmbH">FREECOM Technologies GmbH</option>
+
+												
+													<option value="fujiphotofilmcoltd|FUJI PHOTO FILM CO., LTD.">FUJI PHOTO FILM CO., LTD.</option>
+
+												
+													<option value="fujitsulimited|Fujitsu Limited">Fujitsu Limited</option>
+
+												
+													<option value="gatewayinc|Gateway, Inc.">Gateway, Inc.</option>
+
+												
+													<option value="genesyslogicinc|Genesys Logic,Inc.">Genesys Logic,Inc.</option>
+
+												
+													<option value="hewlettpackardcompany|Hewlett-Packard Company">Hewlett-Packard Company</option>
+
+												
+													<option value="highpointtechnologiesinc|HighPoint Technologies, Inc">HighPoint Technologies, Inc</option>
+
+												
+													<option value="ibm|IBM">IBM</option>
+
+												
+													<option value="inmaxtechnologycorporation|INMAX Technology Corporation">INMAX Technology Corporation</option>
+
+												
+													<option value="integratedtechnologyexpressinc|Integrated Technology Express, Inc.">Integrated Technology Express, Inc.</option>
+
+												
+													<option value="intelcorporation|Intel Corporation">Intel Corporation</option>
+
+												
+													<option value="itetechinc|ITE Tech. Inc.">ITE Tech. Inc.</option>
+
+												
+													<option value="jesslinkinternational|Jess-Link International">Jess-Link International</option>
+
+												
+													<option value="jmicrontechnologycorp|JMicron Technology Corp.">JMicron Technology Corp.</option>
+
+												
+													<option value="jnicorporation|JNI Corporation">JNI Corporation</option>
+
+												
+													<option value="lsilogiccorporation|LSI Logic Corporation">LSI Logic Corporation</option>
+
+												
+													<option value="matsushitakotobukielectronicsindltd|Matsushita-Kotobuki Electronics Ind.,Ltd.">Matsushita-Kotobuki Electronics Ind.,Ltd.</option>
+
+												
+													<option value="microsoftcorporation|Microsoft Corporation">Microsoft Corporation</option>
+
+												
+													<option value="mintonopticindustrycoltd|Minton Optic Industry Co., Ltd.">Minton Optic Industry Co., Ltd.</option>
+
+												
+													<option value="msystemsflashdiskpioneers|M-Systems Flash Disk Pioneers">M-Systems Flash Disk Pioneers</option>
+
+												
+													<option value="mylexcorporation|Mylex Corporation">Mylex Corporation</option>
+
+												
+													<option value="neccorporation|NEC Corporation">NEC Corporation</option>
+
+												
+													<option value="nstorcorporation|nstor corporation">nstor corporation</option>
+
+												
+													<option value="o2microinc|O2Micro Inc.">O2Micro Inc.</option>
+
+												
+													<option value="onstreamdatabv|OnStream Data B.V.">OnStream Data B.V.</option>
+
+												
+													<option value="premierimagetechnologycorp|Premier image technology corp.">Premier image technology corp.</option>
+
+												
+													<option value="promisetechnology|Promise Technology">Promise Technology</option>
+
+												
+													<option value="qlogiccorporation|QLogic Corporation">QLogic Corporation</option>
+
+												
+													<option value="qualstarcorporation|Qualstar Corporation">Qualstar Corporation</option>
+
+												
+													<option value="quantumcorporation|Quantum Corporation">Quantum Corporation</option>
+
+												
+													<option value="samsungelectromechanics|Samsung Electro-Mechanics">Samsung Electro-Mechanics</option>
+
+												
+													<option value="samsungelectronicscoltd|Samsung Electronics CO., LTD.">Samsung Electronics CO., LTD.</option>
+
+												
+													<option value="scmmicrosystemsinc508|SCM Microsystems Inc">SCM Microsystems Inc</option>
+
+												
+													<option value="scmmicrosystemsinc|SCM Microsystems, Inc">SCM Microsystems, Inc</option>
+
+												
+													<option value="seikoepsoncorporation|SEIKO EPSON Corporation">SEIKO EPSON Corporation</option>
+
+												
+													<option value="siliconimageinc|Silicon Image, Inc.">Silicon Image, Inc.</option>
+
+												
+													<option value="sonycorporationpsncbroadbandcommunicationcompany643|SONY Corporation  PSNC Broadband Communication Company">SONY Corporation  PSNC Broadband Communication Company</option>
+
+												
+													<option value="sonycorporationmsncmemorystickbusinesscenter|Sony Corporation MSNC MemoryStick Business Center">Sony Corporation MSNC MemoryStick Business Center</option>
+
+												
+													<option value="sonycorporationpsncbroadbandcommunicationcompany|SONY Corporation PSNC Broadband Communication Company">SONY Corporation PSNC Broadband Communication Company</option>
+
+												
+													<option value="sonyelectronics|Sony Electronics">Sony Electronics</option>
+
+												
+													<option value="storagetechnologycorporation|Storage Technology Corporation">Storage Technology Corporation</option>
+
+												
+													<option value="tandbergdataasa|Tandberg Data ASA">Tandberg Data ASA</option>
+
+												
+													<option value="tekramtechnologycoltd|Tekram Technology Co., Ltd.">Tekram Technology Co., Ltd.</option>
+
+												
+													<option value="texasinstrumentsincorporated|Texas Instruments Incorporated">Texas Instruments Incorporated</option>
+
+												
+													<option value="troikanetworks|Troika Networks">Troika Networks</option>
+
+												
+													<option value="trustinternationalbv|Trust International BV">Trust International BV</option>
+
+												
+													<option value="unisyscorp|Unisys Corp">Unisys Corp</option>
+
+												
+													<option value="viatechnologiesinc|VIA Technologies Inc.">VIA Technologies Inc.</option>
+
+												
+													<option value="viewquesttechnologiesinc|VIEWQUEST TECHNOLOGIES INC.">VIEWQUEST TECHNOLOGIES INC.</option>
+
+												
+													<option value="winbondelectronicscorp|Winbond Electronics Corp.">Winbond Electronics Corp.</option>
+
+												
+													<option value="xyratexgrouplimited|Xyratex Group Limited">Xyratex Group Limited</option>
+
+												
+							</select>
+						</span></td>
+					</tr>
+
+
+					<tr><td class="8pt sys-font-body sys-color-body">作業系統:</td></tr>
+					<tr>
+						<td>
+							<select name="selOS" id="selOS">
+								<option value="" selected>選擇作業系統</option>
+								<option value='ver_platform_win32_nt.5.2.ia64.ver_nt_server.ver_suite_datacenter.3790.0.0'><pre>64-bit version of Windows Server 2003, DTC RTM</pre></option>
+<option value='ver_platform_win32_nt.5.2.ia64.ver_nt_server.ver_suite_enterprise.3790.0.0'><pre>64-bit version of Windows Server 2003, Enterprise Edition</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.ver_suite_enterprise.2195.0.0'><pre>Windows 2000 Advanced Server RTM</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.ver_suite_enterprise.2195.1.0'><pre>Windows 2000 Advanced Server SP1</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.ver_suite_enterprise.2195.2.0'><pre>Windows 2000 Advanced Server SP2</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.ver_suite_enterprise.2195.3.0'><pre>Windows 2000 Advanced Server SP3</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.ver_suite_enterprise.2195.4.0'><pre>Windows 2000 Advanced Server SP4</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_workstation.n.2195.0.0'><pre>Windows 2000 Professional RTM</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_workstation.n.2195.1.0'><pre>Windows 2000 Professional SP1</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_workstation.n.2195.2.0'><pre>Windows 2000 Professional SP2</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_workstation.n.2195.3.0'><pre>Windows 2000 Professional SP3</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_workstation.n.2195.4.0'><pre>Windows 2000 Professional SP4</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.n.2195.0.0'><pre>Windows 2000 Server RTM</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.n.2195.1.0'><pre>Windows 2000 Server SP1</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.n.2195.2.0'><pre>Windows 2000 Server SP2</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.n.2195.3.0'><pre>Windows 2000 Server SP3</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.n.2195.4.0'><pre>Windows 2000 Server SP4</pre></option>
+<option value='ver_platform_win32_windows.4.10.x86.....'><pre>Windows 98 and Windows 98 Second Edition</pre></option>
+<option value='ver_platform_win32_windows.4.90.x86...3000..'><pre>Windows Millennium Edition</pre></option>
+<option value='ver_platform_win32_nt.5.2.x86.ver_nt_server.ver_suite_datacenter.3790.0.0'><pre>Windows Server 2003, Datacenter Edition RTM</pre></option>
+<option value='ver_platform_win32_nt.5.2.x86.ver_nt_server.ver_suite_enterprise.3790.0.0'><pre>Windows Server 2003, Enterprise Edition</pre></option>
+<option value='ver_platform_win32_nt.5.2.x86.ver_nt_server.n.3790.0.0'><pre>Windows Server 2003, Standard Edition</pre></option>
+<option value='ver_platform_win32_nt.5.2.x86.ver_nt_server.ver_suite_blade.3790.0.0'><pre>Windows Server 2003, Web Edition</pre></option>
+<option value='ver_platform_win32_nt.5.1.ia64.ver_nt_workstation.n.2600..'><pre>Windows XP 64-Bit Edition</pre></option>
+<option value='ver_platform_win32_nt.5.1.ia64.ver_nt_workstation.n.2600.0.0'><pre>Windows XP 64-Bit Edition RTM</pre></option>
+<option value='ver_platform_win32_nt.5.1.ia64.ver_nt_workstation.n.2600.1.0'><pre>Windows XP 64-Bit Edition SP1</pre></option>
+<option value='ver_platform_win32_nt.5.2.ia64.ver_nt_workstation.n.3790.0.0'><pre>Windows XP 64-Bit Edition Version 2003 RTM</pre></option>
+<option value='ver_platform_win32_nt.5.1.x86.ver_nt_workstation.ver_suite_personal.2600.0.0'><pre>Windows XP Home Edition RTM</pre></option>
+<option value='ver_platform_win32_nt.5.1.x86.ver_nt_workstation.ver_suite_personal.2600.1.0'><pre>Windows XP Home Edition SP1</pre></option>
+<option value='ver_platform_win32_nt.5.1.x86.ver_nt_workstation.n.2600.0.0'><pre>Windows XP Professional RTM</pre></option>
+<option value='ver_platform_win32_nt.5.1.x86.ver_nt_workstation.n.2600.1.0'><pre>Windows XP Professional SP1</pre></option>
+
+							</select></td>
+					</tr>
+					<tr><td class="8pt sys-font-body sys-color-body">語言:</td></tr>
+					<tr>
+						<td name="languagecont" id="languagecont">
+							<!--<select name="selLang" id="selLang">
+								<option VALUE="ar|1256">阿拉伯文</option>
+								<option VALUE="en_arabic|1252">阿拉伯文支援</option>
+								<option VALUE="zhcn|936">簡體中文</option>
+								<option VALUE="zhtw|950">繁體中文</option>
+								<option VALUE="cs|1250">捷克文</option>
+								<option VALUE="da|1252">丹麥文</option>
+								<option VALUE="nl|1252">荷蘭文</option>
+								<option VALUE="en|1252" selected>英文</option>
+								<option VALUE="fi|1252">芬蘭文</option>
+								<option VALUE="fr|1252">法文</option>
+								<option VALUE="de|1252">德文</option>
+								<option VALUE="el|1253">希臘文</option>
+								<option VALUE="el_ibm|869">希臘文 IBM</option>
+								<option VALUE="he|1255">希伯來文</option>
+								<option VALUE="en_hebrew|1252">希伯來文支援</option>
+								<option VALUE="hu|1250">匈牙利文</option>
+								<option VALUE="it|1252">義大利文</option>
+								<option VALUE="ja|932">日文</option>
+								<option VALUE="nec|932">日文 NEC</option>
+								<option VALUE="ko|949">韓文</option>
+								<option VALUE="no|1252">挪威文</option>
+								<option VALUE="pl|1250">波蘭文</option>
+								<option VALUE="ptbr|1252">葡萄牙文 (巴西的)</option>
+								<option VALUE="pt|1252">葡萄牙文 (標準的)</option>
+								<option VALUE="ru|1251">俄文</option>
+								<option VALUE="sk|1250">斯洛伐克文</option>
+								<option VALUE="sl|1250">斯洛維尼亞文</option>
+								<option VALUE="es|1252">西班牙文</option>
+								<option VALUE="sv|1252">瑞典文</option>
+								<option VALUE="en_thai|1252">泰文支援</option>
+								<option VALUE="tr|1254">土耳其文</option>
+							</select>-->
+						</td>
+					</tr>
+					<tr><td class="8pt sys-font-body sys-color-body">張貼到網站的日期：</td></tr>
+					<tr>
+						<td>
+							<select id="selPostDate" name="selPostDate">
+								<option value="0">所有張貼的日期</option>
+								<option value="7">上星期</option>
+								<option value="14">前兩個星期</option>
+								<option value="30">上個月</option>
+								<option value="60">前兩個月</option>
+								<option value="180">前六個月</option>
+								<option value="365">去年</option>
+							</select></td>
+					</tr>
+					<tr>
+						<td>
+							包含這些文字:&nbsp;&nbsp;
+							<a class='sys-link-normal' href="javascript:goLearnKeywords()">請告訴我如何使用文字來限制我的搜尋範圍</a></td>
+					</tr>
+					<tr>
+						<td class="8pt sys-font-body sys-color-body">
+							<input type="text" name="eKeyWord" SIZE=60 maxlength=100 oncontextmenu=checkrightclick()></td>
+					</tr>
+					<tr><td>&nbsp;</td></tr>
+					<tr >
+						<td align="right" class="osbutton sys-table-header-bgcolor1" valign=middle>
+							<!--<button onclick="history.go(-1);">&lt;&nbsp;Back</button>-->
+
+							<button onClick="javascript:Docheck()"onresize="document.recalc('true')" style="width:expression(buttonspan.offsetWidth + 10)"><span id="buttonspan" name="buttonspan">搜尋</span></button>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	
+
+</form>
+</body>
+</html>
+<script language="javascript">
+function window.onload(){
+	var NoResults = 0
+	frmMan.speed.value=parent.g_iConnectionSpeed;
+	SetItemCount()
+	if(NoResults == 0) {
+		sortlanguage("selLang","frmMan")
+
+	}
+}
+</script>

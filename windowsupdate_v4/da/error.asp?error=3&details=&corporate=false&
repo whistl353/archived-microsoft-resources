@@ -1,0 +1,51 @@
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<meta http-equiv="Content-Type" content="text/html;charset=windows-1252" />
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta name="MSSmartTagsPreventParsing" content="yes" />
+		<script language="JScript" type="text/javascript">function window.onerror(sMessage, sURL, sLine){ return true; }</script><script language="JScript" type="text/javascript" src="/shared/js/content.js"></script><link rel="stylesheet" type="text/css" href="/shared/css/hcp.css" />
+		<link rel="stylesheet" type="text/css" href="/shared/css/content.css" />
+		
+		<title>Indholdsramme</title>
+	</head>
+	<body onload="if(self != top && 'function' ==  typeof(fnInit)) fnInit(0, 3);">
+		<img src="/shared/images/info_icon.gif" class="icon32" alt="Vigtige oplysninger." /><span class="sys-font-heading3 sys-rhp-color-title">Kun administratorer</span><br /><br />
+		<div class="error">
+Hvis du vil installere elementer fra Windows Update, skal du være logget på som administrator eller som medlem af gruppen Administratorer. Hvis computeren har forbindelse til et netværk, kan netværkets sikkerhedsindstillinger også forhindre dig i et færdiggøre denne procedure.<br /><br />
+<b><b>Bemærk!</b></b> Hvis du kører operativsystemet Windows 2000 (undtagen DataCenter), Windows XP eller Windows&nbspServer 2003&nbsp;, kan du køre kontoen til den lokale administrator på computeren uden at skulle logge af eller på.<br /><br />
+Sådan kører du som lokal administrator under Windows XP eller Windows&nbsp;Server&nbsp;2003:<br /><br />
+<ol>
+	<li>Klik på <b>Start</b>, og klik derefter på <b>Alle programmer</b> (eller højreklik på <b>Windows Update</b>, hvis den er tilgængelig).</li>
+	<li>Højreklik på <b>Windows Update</b>.</li>
+	<li>Klik på <b>Kør som</b> i den menu, der bliver vist.</li>
+	<li>Benyt en af følgende fremgangsmåder:
+		<ul>
+			<li>Indtast adgangskoden for administratoren.</li>
+			<li>Indtast brugernavnet, domænenavnet og adgangskoden for en anden brugerkonto, der har administrative rettigheder på denne computer.</li>
+		</ul>
+	</li>
+</ol><br />
+Sådan kører du som lokal administrator under Windows 2000:<br /><br />
+<ol>
+	<li>Klik på <b>Start</b>, højreklik på <b>Windows Update</b>, og klik derefter på <b>Kør som</b> i den menu, der vises.</li>
+	<li>Benyt en af følgende fremgangsmåder:
+		<ul>
+			<li>Indtast adgangskoden for administratoren.</li>
+			<li>Indtast brugernavnet, domænenavnet og adgangskoden for en anden brugerkonto, der har administrative rettigheder på denne computer.</li>
+		</ul>
+	</li>
+</ol><br />
+Hvis indstillingen til at køre som lokal administrator ikke er tilgængelig:<br /><br />
+<ol>
+	<li>Klik på <b>Start</b>, højreklik på <b>Windows Update</b>, og højreklik derefter på <b>Egenskaber</b>.</li>
+	<li>Klik på fanen <b>Genvej</b>, og marker derefter afkrydsningsfeltet <b>Kør som anden bruger</b>.
+</ol><br />
+
+		</div>
+		<br /><br />
+		Du kan også få <a href="support.asp" class="sys-link-normal">onlinesupport</a>, hvis du har problemer med Windows Update.<br /><br />
+
+	</body>
+</html>

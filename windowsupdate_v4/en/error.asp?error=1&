@@ -1,0 +1,38 @@
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<meta http-equiv="Content-Type" content="text/html;charset=windows-1252" />
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta name="MSSmartTagsPreventParsing" content="yes" />
+		<script language="JScript" type="text/javascript">function window.onerror(sMessage, sURL, sLine){ return true; }</script><script language="JScript" type="text/javascript" src="/shared/js/content.js"></script><link rel="stylesheet" type="text/css" href="/shared/css/hcp.css" />
+		<link rel="stylesheet" type="text/css" href="/shared/css/content.css" />
+		
+		<title>Content Frame</title>
+	</head>
+	<body onload="if(self != top && 'function' ==  typeof(fnInit)) fnInit(0, 1);">
+		<img src="/shared/images/info_icon.gif" class="icon32" alt="Important information." /><span class="sys-font-heading3 sys-rhp-color-title">Internet Explorer security settings must be changed</span><br /><br />
+		<div class="error">
+Windows Update uses ActiveX Controls and active scripting to display content correctly and to determine which updates apply to your computer. <a href="dialog_learnabout.asp?topic=0&noscripting=true" onclick="if('function' == typeof(parent.fnDisplayLearnAbout)){ parent.fnDisplayLearnAbout(0);return false;}" class="sys-link-normal"><br />Tell me about active scripting and ActiveX controls</a><br /><br />
+<b>To view and download updates for your computer, Windows Update should be listed as a Trusted Site in Internet Explorer</b><br /><br />
+<b>To add Windows Update to the trusted sites zone:</b><br />
+<ol style='margin-left:40 px'>
+	<li>On the <b>Tools</b> menu in Internet Explorer, click <b>Internet Options</b>.</li>
+	<li>Click the <b>Security</b> tab.</li>
+	<li>Click the Trusted Sites icon and then click <b>Sites</b>...<br />
+	<li>Uncheck the "require server verification" checkbox. <br />
+	<li>Make sure the following URLs are listed in the Web Sites list box:<br />
+</ol>
+<ul style='margin-left:65 px'>
+	<li>http://*.windowsupdate.microsoft.com</li>
+	<li>https://*.windowsupdate.microsoft.com</li>
+	<li>http://*.windowsupdate.com</li>
+</ul>
+<span><b>Note:</b> If you need to add a URL to the Web Sites list and the <b>Add</b> button is disabled, contact your system administrator.</span><br />
+<div><form action="default.asp" method="post" target="_parent"><input type="submit" value="Continue" /></form></div>
+		</div>
+		<br /><br />
+		You can also get <a href="support.asp" class="sys-link-normal">online support</a> if you are having problems with Windows Update.<br /><br />
+
+	</body>
+</html>

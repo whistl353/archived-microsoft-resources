@@ -20,7 +20,7 @@ jobs:
       run: gem install wayback_machine_downloader
 
     - name: Download archived website
-      run: wayback_machine_downloader https://v4.windowsupdate.microsoft.com --directory windowsupdate_v4
+      run: wayback_machine_downloader https://v4.windowsupdate.microsoft.com/shared/ --directory windowsupdate_v4
       # Replace https://example.com with the website you want to download
 
     - name: Create Pull Request

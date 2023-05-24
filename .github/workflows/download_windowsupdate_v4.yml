@@ -1,4 +1,4 @@
-name: Download Archive and Commit
+name: Download Windows Update V4 from Wayback Machine
 
 on:
   workflow_dispatch:

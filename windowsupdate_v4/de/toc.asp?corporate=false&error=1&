@@ -1,0 +1,57 @@
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<meta http-equiv="Content-Type" content="text/html;charset=windows-1252" />
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta name="MSSmartTagsPreventParsing" content="yes" />
+		<script language="JScript" type="text/javascript">function window.onerror(sMessage, sURL, sLine){ return true; }</script><script language="JScript" type="text/javascript" src="/shared/js/toc.js"></script><link rel="stylesheet" type="text/css" href="/shared/css/hcp.css" />
+		<link rel="stylesheet" type="text/css" href="/shared/css/toc.css" />
+		
+		<title>Frame für Inhaltsverzeichnis</title>
+		<base target="eContent" />
+	</head>
+	<body class="toc sys-lhp-bgcolor">
+		<div id="eUserData"></div>
+		<form name="ePostForm" id="ePostForm" method="post"><input name="ePostData" id="ePostData" type="hidden" /></form>
+		<table cellspacing="0" class="sys-toppane-bgcolor sys-toppane-color-border">
+			<tbody>
+				<tr>
+					<td class="sys-toppane-header-bgcolor sys-font-body-bold sys-toppane-header-color toppane-header">
+						<span id="eConsumerTitle">Windows Update</span>
+						<span id="eCatalogTitle" style="display: none;">Weitere Update-Katalog</span>
+					</td>
+				</tr>
+				<tr>
+					<td style="height: 100%;">
+						<div class="sys-font-body toppane-body">
+
+							<a href="error.asp?error=1&" class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" /><i>Willkommen</i></a><br />
+							<a class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" /><i>Updates auswählen</i></a><br />
+							<a class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />Updates überprüfen und installieren</a><br />
+
+
+							<div class="subHeader sys-bottompane-header-color sys-font-body-bold">Weitere Optionen</div>
+
+
+							<a class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />Installationsverlauf anzeigen</a><br />
+							<a class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />Windows Update anpassen</a><br />
+	
+
+							<div class="subHeader sys-bottompane-header-color sys-font-body-bold">Siehe auch</div>
+							<div id="eConsumerDiv3">
+								<div id="eCatalogLink" style="display: none;"><a id="eSwitchSites" title="Updates für Ihren Computer und andere Computer im Netzwerk suchen" class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />Windows Update-Katalog</a><br /></div>
+								<a id="eAbout" href="about.asp?" title="Informationen über Windows Update-Dienste anzeigen" class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />Info</a><br />
+							</div>
+							<div id="eCatalogDiv3" style="display: none;">
+								<a id="eCatalogSwitchSites" title="Wechseln Sie auf die Windows Update-Willkommensseite, um die verfügbaren Updates für diesen Computer anzuzeigen." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />Windows Update</a><br />
+								<a id="eCatalogAbout" href="about.asp?corporate=true&" title="Informationen über Windows Update-Dienste anzeigen" class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />Info</a><br />
+							</div>
+							<a id="eHardwareSupport" target="_blank" class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />Hardwaresupport</a>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

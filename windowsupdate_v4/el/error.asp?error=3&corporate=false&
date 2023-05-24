@@ -1,0 +1,51 @@
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<meta http-equiv="Content-Type" content="text/html;charset=windows-1253" />
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta name="MSSmartTagsPreventParsing" content="yes" />
+		<script language="JScript" type="text/javascript">function window.onerror(sMessage, sURL, sLine){ return true; }</script><script language="JScript" type="text/javascript" src="/shared/js/content.js"></script><link rel="stylesheet" type="text/css" href="/shared/css/hcp.css" />
+		<link rel="stylesheet" type="text/css" href="/shared/css/content.css" />
+		
+		<title>Πλαίσιο περιεχομένων</title>
+	</head>
+	<body onload="if(self != top && 'function' ==  typeof(fnInit)) fnInit(0, 3);">
+		<img src="/shared/images/info_icon.gif" class="icon32" alt="Σημαντικές πληροφορίες." /><span class="sys-font-heading3 sys-rhp-color-title">Μόνο για διαχειριστές</span><br /><br />
+		<div class="error">
+Για να εγκαταστήσετε στοιχεία από το Windows Update, πρέπει να είστε συνδεδεμένοι ως διαχειριστής ή ως μέλος της ομάδας διαχειριστών. Εάν ο υπολογιστής σας είναι συνδεδεμένος σε δίκτυο, οι ρυθμίσεις πολιτικής του δικτύου μπορεί επίσης να μην σας επιτρέπουν να ολοκληρώσετε αυτήν τη διαδικασία.<br /><br />
+<b><b>Σημείωση</b></b> Εάν χρησιμοποιείτε λειτουργικό σύστημα Windows 2000 (εκτός του DataCenter), Windows XP ή Windows&nbsp;Server 2003, μπορείτε να εκτελέσετε το πρόγραμμα ως τοπικός διαχειριστής στον υπολογιστή σας, χωρίς να χρειάζεται να αποσυνδεθείτε και στη συνέχεια να συνδεθείτε ξανά.<br /><br />
+Για να εκτελέσετε το πρόγραμμα ως τοπικός διαχειριστής στον υπολογιστή σας στα Windows XP ή το Windows&nbsp;Server&nbsp;2003:<br /><br />
+<ol>
+	<li>Κάντε κλικ στο κουμπί <b>Έναρξη</b> (Start) και στην επιλογή <b>Όλα τα προγράμματα</b> (All Programs) ή, αν είναι διαθέσιμη, κάντε δεξιό κλικ στην επιλογή <b>Windows Update</b>.</li>
+	<li>Κάντε δεξιό κλικ στην επιλογή <b>Windows Update</b>.</li>
+	<li>Κάντε κλικ στην επιλογή <b>Εκτέλεση ως</b> (Run as) στο μενού που θα εμφανιστεί.</li>
+	<li>Κάντε μία από τις εξής ενέργειες:
+		<ul>
+			<li>Εισαγάγετε τον κωδικό πρόσβασης του διαχειριστή.</li>
+			<li>Εισαγάγετε το όνομα χρήστη, το όνομα τομέα και τον κωδικό πρόσβασης ενός άλλου λογαριασμού χρήστη, ο οποίος διαθέτει προνόμια διαχειριστή για αυτόν τον υπολογιστή.</li>
+		</ul>
+	</li>
+</ol><br />
+Για να εκτελέσετε το πρόγραμμα ως τοπικός διαχειριστής στον υπολογιστή σας στα Windows 2000:<br /><br />
+<ol>
+	<li>Κάντε κλικ στο κουμπί <b>Έναρξη</b>, κάντε δεξιό κλικ στην επιλογή <b>Windows Update</b> και κάντε κλικ στην επιλογή <b>Εκτέλεση ως</b> στο μενού που θα εμφανιστεί.</li>
+	<li>Κάντε μία από τις εξής ενέργειες:
+		<ul>
+			<li>Εισαγάγετε τον κωδικό πρόσβασης του διαχειριστή.</li>
+			<li>Εισαγάγετε το όνομα χρήστη, το όνομα τομέα και τον κωδικό πρόσβασης ενός άλλου λογαριασμού χρήστη, ο οποίος διαθέτει προνόμια διαχειριστή για αυτόν τον υπολογιστή.</li>
+		</ul>
+	</li>
+</ol><br />
+Εάν η επιλογή εκτέλεσης ως τοπικός διαχειριστής δεν είναι διαθέσιμη:<br /><br />
+<ol>
+	<li>Κάντε κλικ στο κουμπί <b>Έναρξη</b>, κάντε δεξιό κλικ στην επιλογή <b>Windows Update</b> και κάντε κλικ στην εντολή <b>Ιδιότητες</b>.</li>
+	<li>Κάντε κλικ στην καρτέλα <b>Συντόμευση</b> και επιλέξτε το πλαίσιο ελέγχου <b>Εκτέλεση ως διαφορετικός χρήστης</b>.
+</ol><br />
+
+		</div>
+		<br /><br />
+		Μπορείτε επίσης να λάβετε <a href="support.asp" class="sys-link-normal">ηλεκτρονική υποστήριξη</a> αν αντιμετωπίσετε προβλήματα με το Windows Update.<br /><br />
+
+	</body>
+</html>

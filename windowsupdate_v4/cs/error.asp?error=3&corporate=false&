@@ -1,0 +1,51 @@
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<meta http-equiv="Content-Type" content="text/html;charset=windows-1250" />
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta name="MSSmartTagsPreventParsing" content="yes" />
+		<script language="JScript" type="text/javascript">function window.onerror(sMessage, sURL, sLine){ return true; }</script><script language="JScript" type="text/javascript" src="/shared/js/content.js"></script><link rel="stylesheet" type="text/css" href="/shared/css/hcp.css" />
+		<link rel="stylesheet" type="text/css" href="/shared/css/content.css" />
+		
+		<title>Rámec obsahu</title>
+	</head>
+	<body onload="if(self != top && 'function' ==  typeof(fnInit)) fnInit(0, 3);">
+		<img src="/shared/images/info_icon.gif" class="icon32" alt="Důležité informace" /><span class="sys-font-heading3 sys-rhp-color-title">Pouze skupina Administrators</span><br /><br />
+		<div class="error">
+Chcete-li instalovat položky ze systému Windows Update, musíte být přihlášeni jako správce systému nebo člen skupiny Administrators. Jestliže je váš počítač připojen k síti, může vám v dokončení tohoto postupu zabránit také nastavení síťových zásad.<br /><br />
+<b><b>Poznámka</b></b> V počítači se systémem Windows 2000 (kromě verze DataCenter), Windows XP nebo Windows&nbsp;Server 2003 můžete spouštět programy jako místní správce, aniž by bylo nutné se odhlásit a znovu přihlásit.<br /><br />
+Spouštění programů jako místní správce v systému Windows XP nebo Windows&nbsp;Server&nbsp2003:<br /><br />
+<ol>
+	<li>Klepněte na tlačítko <b>Start</b> a dále na příkaz <b>Všechny programy</b> (nebo klepněte pravým tlačítkem na položku <b>Windows Update</b>, pokud je k dispozici).</li>
+	<li>Klepněte pravým tlačítkem na položku <b>Windows Update</b>.</li>
+	<li>V zobrazené nabídce vyberte možnost <b>Spustit jako</b>.</li>
+	<li>Proveďte jednu z následujících akcí:
+		<ul>
+			<li>Zadejte heslo pro správce.</li>
+			<li>Zadejte uživatelské jméno, název domény a heslo jiného uživatelského účtu, který má pro tento počítač oprávnění správce.</li>
+		</ul>
+	</li>
+</ol><br />
+Spouštění programů jako místní správce v systému Windows 2000:<br /><br />
+<ol>
+	<li>Klepněte na tlačítko <b>Start</b>, pravým tlačítkem klepněte na příkaz <b>Windows Update</b> a v zobrazené nabídce vyberte možnost <b>Spustit jako</b>.</li>
+	<li>Proveďte jednu z následujících akcí:
+		<ul>
+			<li>Zadejte heslo pro správce.</li>
+			<li>Zadejte uživatelské jméno, název domény a heslo jiného uživatelského účtu, který má pro tento počítač oprávnění správce.</li>
+		</ul>
+	</li>
+</ol><br />
+Pokud není k dispozici možnost spouštět programy jako místní správce:<br /><br />
+<ol>
+	<li>Klepněte na tlačítko <b>Start</b>, pravým tlačítkem klepněte na příkaz <b>Windows Update</b> a vyberte položku <b>Vlastnosti</b>.</li>
+	<li>Přejděte na kartu <b>Zástupce</b> a zaškrtněte políčko <b>Spustit jako jiný uživatel</b>.
+</ol><br />
+
+		</div>
+		<br /><br />
+		Máte-li potíže se systémem Windows Update, můžete využít <a href="support.asp" class="sys-link-normal">odbornou pomoc online</a>.<br /><br />
+
+	</body>
+</html>

@@ -1,0 +1,77 @@
+
+<html dir="rtl">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<meta http-equiv="Content-Type" content="text/html;charset=windows-1256" />
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta name="MSSmartTagsPreventParsing" content="yes" />
+		<script language="JScript" type="text/javascript">function window.onerror(sMessage, sURL, sLine){ return true; }</script><script language="JScript" type="text/javascript" src="/shared/js/toc.js"></script><link rel="stylesheet" type="text/css" href="/shared/css/hcp.css" />
+		<link rel="stylesheet" type="text/css" href="/shared/css/toc.css" />
+		<link rel="stylesheet" type="text/css" href="/shared/css/rtl.css" />
+		<title>إطار جدول المحتويات</title>
+		<base target="eContent" />
+	</head>
+	<body class="toc sys-lhp-bgcolor">
+		<div id="eUserData"></div>
+		<form name="ePostForm" id="ePostForm" method="post"><input name="ePostData" id="ePostData" type="hidden" /></form>
+		<table cellspacing="0" class="sys-toppane-bgcolor sys-toppane-color-border">
+			<tbody>
+				<tr>
+					<td class="sys-toppane-header-bgcolor sys-font-body-bold sys-toppane-header-color toppane-header">
+						<span id="eConsumerTitle" style="display: none;">Windows Update</span>
+						<span id="eCatalogTitle">نشرة Windows Update</span>
+					</td>
+				</tr>
+				<tr>
+					<td style="height: 100%;">
+						<div class="sys-font-body toppane-body">
+
+							<div id="eConsumerDiv1" style="display: none;">
+								<a id="eWelcome" href="" onclick="parent.fnDisplaySplashPage(3);return false;" title="الانتقال إلى صفحة الترحيب لـ Windows Update." class="sys-toppane-selection sys-link-normal"><img src="/shared/images/toc_endnode.gif" /><i>مرحباً بك</i></a><br />
+								<a id="eAvailableUpdates" title="البحث عن التحديثات المتوفرة لجهازك. قد يحتاج Windows Update إلى تفحص جهازك أولاً." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" /><i>انتقاء التحديثات لتثبيتها</i></a><br />
+								<div id="eAvailableUpdatesDiv">
+									<a id="eCriticalUpdates" title="عرض قائمة بالإصلاحات الضرورية والتحديثات الأمنية التي تم تحديدها تلقائياً لتقوم أنت بتثبيتها." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />التحديثات الضرورية والحزم الخدمية<i></i></a><br />
+									<a id="eWindowsUpdates" title="‏‏اختر من قائمة التحديثات لـ Windows." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" /><i>Windows</i><i></i></a><br />
+									<a id="eDriverUpdates"  title="الانتقاء من قائمة تحديثات للأجهزة على الكمبيوتر الخاص بك (أجهزة مودم وبطاقات شبكة الاتصال والطابعات وهكذا)." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />تحديثات برامج التشغيل<i></i></a><br />
+								</div>
+								<a id="eBasketUpdates" title="عرض التحديثات التي حددتها وبدء عملية التثبيت." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />مراجعة التحديثات وتثبيتها<i></i></a><br />
+							</div>
+							<div id="eCatalogDiv1">
+								<a id="eCatalogWelcome" href="/catalog/ar/initial.asp" title="انتقل إلى صفحة الترحيب لنشرة Windows Update." class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />مرحباً بك</a><br />
+								<a id="eCatalogOperatingSystems" href="/catalog/ar/ossearch.asp" title="قم بإعداد معايير البحث للعثور على حزم الخدمات والتصليحات الأمنية وتحديثات أخرى لنظام تشغيل Windows" class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />البحث عن تحديثات Windows</a><br />
+								<a id="eCatalogHardwareDrivers" href="/catalog/ar/corp_drivers.asp" title="قم بإعداد معايير البحث للعثور على تحديثات لبرامج التشغيل المثبتة على أجهزة كمبيوتر تقوم بتشغيل Windows." class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />البحث عن تحديثات برامج تشغيل الأجهزة</a><br />
+								<a id="eCatalogBasket" title="عرض التحديثات التي حددتها وبدء عملية التحميل." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />الانتقال إلى سلة التحميل<i></i></a><br />
+							</div>
+
+
+							<div class="subHeader sys-bottompane-header-color sys-font-body-bold">خيارات أخرى</div>
+
+
+							<div id="eConsumerDiv2" style="display: none;">
+								<a id="eHistory" title="تعقب ما قمت بتثبيته من Windows Update." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />عرض محفوظات التثبيت</a><br />
+								<a id="ePersonalization" title="تخصيص ما تراه عند استخدام Windows Update." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />تخصيص Windows Update</a><br />
+								<a id="eSupport" href="support.asp?" title="تعلم كيفية الحصول على الدعم الفوري للمشاكل المتعلقة بموقع Windows Update أو العناصر التي قمت بتثبيتها من هذا الموقع." class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />الحصول على التعليمات والدعم</a><br />
+							</div>
+							<div id="eCatalogDiv2">
+								<a id="eCatalogHistory" title="تعقب ما قمت بتحميله من نشرة Windows Update." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />عرض محفوظات التحميل</a><br />
+								<a id="eCatalogSupport" href="support.asp?corporate=true&" title="تعلم كيفية الحصول على الدعم الفوري للمشاكل المتعلقة بموقع Windows Update أو العناصر التي قمت بتثبيتها من هذا الموقع." class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />الحصول على التعليمات والدعم</a><br />
+							</div>
+
+
+							<div class="subHeader sys-bottompane-header-color sys-font-body-bold">انظر أيضاً</div>
+							<div id="eConsumerDiv3" style="display: none;">
+								<div id="eCatalogLink" style="display: none;"><a id="eSwitchSites" title="البحث عن التحديثات لجهازك والأجهزة الأخرى على شبكة الاتصال الخاصة بك." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />نشرة Windows Update</a><br /></div>
+								<a id="eAbout" href="about.asp?" title="قراءة المعلومات حول خدمات Windows Update." class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />حول Windows Update</a><br />
+							</div>
+							<div id="eCatalogDiv3">
+								<a id="eCatalogSwitchSites" title="الانتقال إلى صفحة الترحيب إلى Windows Update ورؤية التحديثات المتوفرة لهذا الكمبيوتر." class="sys-link-disabled"><img src="/shared/images/toc_endnode.gif" />Windows Update</a><br />
+								<a id="eCatalogAbout" href="about.asp?corporate=true&" title="قراءة المعلومات حول خدمات Windows Update." class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />حول Windows Update</a><br />
+							</div>
+							<a id="eHardwareSupport" target="_blank" class="sys-link-normal"><img src="/shared/images/toc_endnode.gif" />دعم الأجهزة</a>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

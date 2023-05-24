@@ -1,0 +1,497 @@
+
+<script language="javascript">
+
+/*function window::onResize() {
+	fnPositionCopyrightLink()
+}*/
+function window::onload(){
+	
+if(!parent.conDevServer){
+		document.ondragstart = new Function("return false;");
+		document.oncontextmenu = new Function("return false;");
+	}
+	//document.oncontextmenu = new Function("return false;");
+}
+function checkrightclick(){
+event.cancelBubble=true;
+return true;
+}
+/*function fnPositionCopyrightLink(){
+	eCopyright.style.position = "static";
+	var tmr = window.setTimeout("fnPCL()",1000);
+	eCopyright.style.display = "none";
+}*/
+
+
+function fnPCL() {
+	var iContentHeight, iAvailableHeight;
+	
+	eCopyright.style.position = "static";
+	iContentHeight = document.body.scrollHeight;
+	iAvailableHeight = document.body.offsetHeight;
+
+	if(iContentHeight <= (iAvailableHeight - 25)){
+		eCopyright.style.position = "absolute";
+		eCopyright.style.top = "auto";
+		eCopyright.style.bottom = "0px";
+	}else{
+		eCopyright.style.position = "static";
+	}
+	eCopyright.style.display = "block"
+	//window.status = "contentHeight=" + iContentHeight + ", AvailableHeight=" + iAvailableHeight + ", position=" + eCopyright.style.position
+}
+
+
+/* for sorting the the language*/
+function sortlanguage(selectname,formname){
+	var iTxt = new Array();
+	var sTxt = new Array();
+	var nLang = 25;
+
+	iTxt[0]="ערבית" + "@" + "ar|1256"
+	//iTxt[1]="תומך בערבית" + "@" + "en_arabic|1252"
+	iTxt[1]="טורקית" + "@" + "tr|1254"
+	iTxt[2]="סינית פשוטה " + "@" + "zhcn|936"
+	iTxt[3]="סינית טאיוונית (מסורתית)" + "@" + "zhtw|950"
+	iTxt[4]="צ'כית" + "@" + "cs|1250"
+	iTxt[5]="דנית" + "@" + "da|1252"
+	iTxt[6]="הולנדית" + "@" + "nl|1252"
+	iTxt[7]="אנגלית" + "@" + "en|1252"
+	iTxt[8]="פינית" + "@" + "fi|1252"
+	iTxt[9]="צרפתית" + "@" + "fr|1252"
+	iTxt[10]="גרמנית" + "@" + "de|1252"
+	iTxt[11]="יוונית" + "@" + "el|1253"
+	//iTxt[12]="יוונית IBM" + "@" + "el_ibm|869"
+	iTxt[12]="שוודית" + "@" + "sv|1252"
+	iTxt[13]="עברית" + "@" + "he|1255"
+	//iTxt[14]="תומך עברית" + "@" + "en_hebrew|1252"
+	iTxt[14]="ספרדית" + "@" + "es|1252"
+	iTxt[15]="הונגרית" + "@" + "hu|1250"
+	iTxt[16]="איטלקית" + "@" + "it|1252"
+	iTxt[17]="יפנית" + "@" + "ja|932"
+	iTxt[18]="יפנית NEC" + "@" + "nec|932"
+	iTxt[19]="קוריאנית" + "@" + "ko|949"
+	iTxt[20]="נורווגית" + "@" + "no|1252"
+	iTxt[21]="פולנית" + "@" + "pl|1250"
+	iTxt[22]="פורטוגזית (ברזילאית)" + "@" + "ptbr|1252"
+	iTxt[23]="פורטוגזית (תקנית)" + "@" + "pt|1252"
+	iTxt[24]="רוסית" + "@" + "ru|1251"
+	//iTxt[25]="סלובקית" + "@" + "sk|1250"
+	//iTxt[26]="סלובנית" + "@" + "sl|1250"
+	
+	
+	//iTxt[29]="תומך תאיית" + "@" + "en_thai|1252"
+	
+
+	jTxt = iTxt.sort();
+
+	var s, i, a
+
+	s = ""
+	lan="he"
+	
+	s += "<select NAME='" + selectname + "' ID='" + selectname + "' onchange='sethiddendata(" + selectname + "," + formname + ")'>"
+	for(i=0; i < nLang; i++) {	
+		a = jTxt[i].split("@")
+		aa=a[1].split("|")
+		if (aa[0].toLowerCase( )== lan.toLowerCase( )){
+			s += "<option VALUE=" + a[1] + " Selected>" + a[0] + "</option>"
+		}
+		else{
+			s += "<option VALUE=" + a[1] + ">" + a[0] + "</option>"
+		}
+		
+	}
+	s += "</select>"	
+	
+	languagecont.innerHTML=s
+	HSelLang = eval(formname + ".HSelLang")
+	if (HSelLang.value != 0 ){
+		selecttext=eval(formname + "."  + selectname)		
+		selecttext.value=HSelLang.value
+	}
+	
+}
+
+
+/*for sorting the the language*/
+
+function sethiddendata(selectname,formname){
+	HSelLang = eval(formname.name + ".HSelLang")	
+	HSelLang.value=selectname.value	
+}
+
+</script><html dir='rtl'>
+<head>
+<title>Microsoft Windows Update</title>
+<meta NAME="robots" CONTENT="noindex">
+<meta http-equiv="Content-Type" content="text/html;charset=windows-1255" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))'>
+<meta http-equiv="MSThemeCompatible" content="Yes">
+<link rel="stylesheet" type="text/css" href="/catalog/shared/css/content.css">
+<link rel="stylesheet" type="text/css" href="hcp://system/css/shared.css" />
+
+
+
+<style type="text/css">
+<!--
+	body { margin: 15px; }
+	td { font-family: Verdana;font-size: 68.25%; }
+	td a { font-weight:normal;text-decoration:none }
+	hr {  color:gray;height:1px; }
+	select { margin-top:5px; margin-bottom:5px;width:300px;}
+	form { margin-top:0px; margin-bottom: 4px; }
+	h4.clsHeader { color:gray;font-family:verdana; }
+-->
+</style>
+
+<script language="javascript" src="/catalog/shared/js/content.js"></script>
+<script language="javascript" defer="true">
+<!--
+
+function Docheck(){
+	var selected=0
+	if (frmMan.selOS.value == ""){
+		alert("בחר מערכת הפעלה");
+		return false;
+	}
+	else{
+		document.frmMan.submit();
+		return true;
+	}
+}
+function frmsubmitcheck(){
+
+	return Docheck()
+}
+var g_oLearnMoreDlg;
+function goLearnKeywords(){
+	if (g_oLearnMoreDlg == null) {
+		g_oLearnMoreDlg = window.showModelessDialog("LearnKeywords.asp",window,"help:no;status:no;resizable:no;dialogWidth:500px;dialogHeight:450px" );
+	}
+}
+
+
+//-->
+var fraLEFT = parent.frames["eTOC"];
+
+	function SetItemCount()
+	{
+		eBasketStats.innerText = 0;
+
+		if( "" != fraLEFT.sBasketString )
+		{
+			var aBasketItems = fraLEFT.sBasketString.split( "," );
+			var iLen = aBasketItems.length - 1;
+			eBasketStats.innerText = parseInt( iLen );
+
+		}
+	}
+function gobasket()
+	{
+		basketform.os_sBasket.value=parent.frames["eTOC"].os_sBasket;
+		basketform.driver_sBasket.value=parent.frames["eTOC"].driver_sBasket;
+		basketform.speed.value=parent.g_iConnectionSpeed;
+		basketform.submit();
+
+	}
+</script>
+</head>
+<body   style="MARGIN-TOP: 11px;MARGIN-LEFT: 16px;MARGIN-RIGHT: 16px;">
+
+
+<form name="basketform" id="basketform" action="downloadbasket.asp" method="post">
+		<input type="hidden" name="os_sBasket" id="os_sBasket">
+		<input type="hidden" name="driver_sBasket" id="driver_sBasket">
+		<input type="hidden" name="speed" id="speed">
+</form>
+<form name="frmMan" id="frmMan" action="driverDetails.asp" onsubmit="return frmsubmitcheck()">
+	<input type="hidden" name="hdnCat" value="Monitors" />
+	<input type="hidden" name="lCat" value="" />
+	<input type="hidden" name="clan" value="" />
+	<input type="hidden" name="speed" id="speed">
+	<input type="hidden" name="HSelLang" id="HSelLang" value=0>
+
+
+
+
+
+<span id="eBasketStats" name="eBasketStats" style="display:none"></span>
+<span class="title sys-font-heading3 sys-rhp-color-title">מנהלי התקני חומרה - </span><br>
+<div class="8pt sys-font-body sys-color-body">מקד את החיפוש שלך לעדכוני התקנים על ידי בחירת יצרן. לאחר מכן ציין את שאר הקריטריונים שלך למטה, ואז לחץ על <b>חפש</b>.<br><br></div>
+	<table cellspacing="0" border="0" width="100%" class="tblborder sys-table-color-border sys-table-cell-bgcolor2">
+		<tr><td>
+		<table cellpadding="0" cellspacing="0" border="0" class="innertbl" height="100%"width="100%">
+				<tr>
+					<td><img src="/catalog/images/ts.gif" height=5 width=1><br>
+						<span id="spnDesc">שם היצרן:</span><br>
+						<span>
+							<select name="selMan" size=6>
+								
+													<option value="acerincorporated|Acer Incorporated" SELECTED>Acer Incorporated</option>
+
+												
+													<option value="amtrantechnologycoltd|AmTRAN Technology Co., Ltd.">AmTRAN Technology Co., Ltd.</option>
+
+												
+													<option value="aocinternationaleuropegmbh|AOC International (Europe) GmbH">AOC International (Europe) GmbH</option>
+
+												
+													<option value="associatedindustrieschinainc|Associated Industries China Inc">Associated Industries China Inc</option>
+
+												
+													<option value="associatedindustrieschinalnc|Associated Industries China, lnc">Associated Industries China, lnc</option>
+
+												
+													<option value="asustekcomputerinc|ASUSTeK Computer Inc.">ASUSTeK Computer Inc.</option>
+
+												
+													<option value="benqcorporation|Benq Corporation">Benq Corporation</option>
+
+												
+													<option value="chuntexelectroniccoltd|Chuntex Electronic Co.,Ltd.">Chuntex Electronic Co.,Ltd.</option>
+
+												
+													<option value="compaqcomputercorporation|Compaq Computer Corporation">Compaq Computer Corporation</option>
+
+												
+													<option value="daewooelectronicscoltd|DAEWOO ELECTRONICS CO., LTD.">DAEWOO ELECTRONICS CO., LTD.</option>
+
+												
+													<option value="dellcomputercorporation|Dell Computer Corporation">Dell Computer Corporation</option>
+
+												
+													<option value="dellinc|Dell Inc.">Dell Inc.</option>
+
+												
+													<option value="diconcoltd|DiCON Co.,Ltd.">DiCON Co.,Ltd.</option>
+
+												
+													<option value="eizonanaocorporation|EIZO NANAO CORPORATION">EIZO NANAO CORPORATION</option>
+
+												
+													<option value="envisionperipheralsinc|Envision Peripherals, Inc.">Envision Peripherals, Inc.</option>
+
+												
+													<option value="fujitsusiemenscomputers|Fujitsu Siemens Computers">Fujitsu Siemens Computers</option>
+
+												
+													<option value="gatewayinc|Gateway, Inc.">Gateway, Inc.</option>
+
+												
+													<option value="hclinfosystemslimited|HCL Infosystems Limited">HCL Infosystems Limited</option>
+
+												
+													<option value="hewlettpackardcompany|Hewlett-Packard Company">Hewlett-Packard Company</option>
+
+												
+													<option value="hyundaiimagequest|Hyundai ImageQuest">Hyundai ImageQuest</option>
+
+												
+													<option value="ibm|IBM">IBM</option>
+
+												
+													<option value="iinfracoltd|iINFRA Co.,Ltd">iINFRA Co.,Ltd</option>
+
+												
+													<option value="imagequest|Imagequest">Imagequest</option>
+
+												
+													<option value="koreadatasystemsusainc|Korea Data Systems (USA) Inc">Korea Data Systems (USA) Inc</option>
+
+												
+													<option value="koreadatasystemscoltd|Korea Data Systems Co.,Ltd">Korea Data Systems Co.,Ltd</option>
+
+												
+													<option value="lgelectronicsinc|LG Electronics Inc.">LG Electronics Inc.</option>
+
+												
+													<option value="maxdataag|MAXDATA AG">MAXDATA AG</option>
+
+												
+													<option value="medionag|Medion AG">Medion AG</option>
+
+												
+													<option value="mitsubishielectricaustraliaptyltd|Mitsubishi Electric Australia Pty Ltd">Mitsubishi Electric Australia Pty Ltd</option>
+
+												
+													<option value="neccomputersinternationalbv|NEC Computers International B.V.">NEC Computers International B.V.</option>
+
+												
+													<option value="neccorporation|NEC Corporation">NEC Corporation</option>
+
+												
+													<option value="necdisplaysolutionsltd|NEC Display Solutions,Ltd.">NEC Display Solutions,Ltd.</option>
+
+												
+													<option value="necmitsubishielectricvisualsystemscorporation|NEC-Mitsubishi Electric Visual Systems Corporation">NEC-Mitsubishi Electric Visual Systems Corporation</option>
+
+												
+													<option value="necmitsubishielectronicsdisplayofamericainc|NEC-Mitsubishi Electronics Display of America Inc">NEC-Mitsubishi Electronics Display of America Inc</option>
+
+												
+													<option value="philipselectronicsindustriestaiwanltdconsumerelectronics|Philips Electronics Industries (Taiwan)Ltd.-Consumer Electronics">Philips Electronics Industries (Taiwan)Ltd.-Consumer Electronics</option>
+
+												
+													<option value="proarchtechnologyinc|Pro Arch Technology Inc.">Pro Arch Technology Inc.</option>
+
+												
+													<option value="proviewelectronicscoltd|Proview Electronics Co, Ltd.">Proview Electronics Co, Ltd.</option>
+
+												
+													<option value="samsungelectronicscoltd|Samsung Electronics CO., LTD.">Samsung Electronics CO., LTD.</option>
+
+												
+													<option value="sharpcorp|Sharp Corp,">Sharp Corp,</option>
+
+												
+													<option value="sonycorporationhomenetworkcompany|Sony Corporation Home Network Company">Sony Corporation Home Network Company</option>
+
+												
+													<option value="soteccoltd|SOTEC CO., LTD.">SOTEC CO., LTD.</option>
+
+												
+													<option value="topvictoryelectronicsfujiancoltd|Top Victory Electronics(Fujian)Co., Ltd.">Top Victory Electronics(Fujian)Co., Ltd.</option>
+
+												
+													<option value="trigemcomputerinc|TriGem Computer Inc.">TriGem Computer Inc.</option>
+
+												
+													<option value="viewsoniccorporation|ViewSonic Corporation">ViewSonic Corporation</option>
+
+												
+													<option value="vprmatrix|vpr Matrix">vpr Matrix</option>
+
+												
+							</select>
+						</span></td>
+					</tr>
+
+
+					<tr><td class="8pt sys-font-body sys-color-body">מערכת הפעלה:</td></tr>
+					<tr>
+						<td>
+							<select name="selOS" id="selOS">
+								<option value="" selected>בחר מערכת הפעלה</option>
+								<option value='ver_platform_win32_nt.5.2.ia64.ver_nt_server.ver_suite_datacenter.3790.0.0'><pre>64-bit version of Windows Server 2003, DTC RTM</pre></option>
+<option value='ver_platform_win32_nt.5.2.ia64.ver_nt_server.ver_suite_enterprise.3790.0.0'><pre>64-bit version of Windows Server 2003, Enterprise Edition</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.ver_suite_enterprise.2195.0.0'><pre>Windows 2000 Advanced Server RTM</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.ver_suite_enterprise.2195.1.0'><pre>Windows 2000 Advanced Server SP1</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.ver_suite_enterprise.2195.2.0'><pre>Windows 2000 Advanced Server SP2</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.ver_suite_enterprise.2195.3.0'><pre>Windows 2000 Advanced Server SP3</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.ver_suite_enterprise.2195.4.0'><pre>Windows 2000 Advanced Server SP4</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_workstation.n.2195.0.0'><pre>Windows 2000 Professional RTM</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_workstation.n.2195.1.0'><pre>Windows 2000 Professional SP1</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_workstation.n.2195.2.0'><pre>Windows 2000 Professional SP2</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_workstation.n.2195.3.0'><pre>Windows 2000 Professional SP3</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_workstation.n.2195.4.0'><pre>Windows 2000 Professional SP4</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.n.2195.0.0'><pre>Windows 2000 Server RTM</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.n.2195.1.0'><pre>Windows 2000 Server SP1</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.n.2195.2.0'><pre>Windows 2000 Server SP2</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.n.2195.3.0'><pre>Windows 2000 Server SP3</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.n.2195.4.0'><pre>Windows 2000 Server SP4</pre></option>
+<option value='ver_platform_win32_windows.4.10.x86.....'><pre>Windows 98 and Windows 98 Second Edition</pre></option>
+<option value='ver_platform_win32_windows.4.90.x86...3000..'><pre>Windows Millennium Edition</pre></option>
+<option value='ver_platform_win32_nt.5.2.x86.ver_nt_server.ver_suite_datacenter.3790.0.0'><pre>Windows Server 2003, Datacenter Edition RTM</pre></option>
+<option value='ver_platform_win32_nt.5.2.x86.ver_nt_server.ver_suite_enterprise.3790.0.0'><pre>Windows Server 2003, Enterprise Edition</pre></option>
+<option value='ver_platform_win32_nt.5.2.x86.ver_nt_server.n.3790.0.0'><pre>Windows Server 2003, Standard Edition</pre></option>
+<option value='ver_platform_win32_nt.5.2.x86.ver_nt_server.ver_suite_blade.3790.0.0'><pre>Windows Server 2003, Web Edition</pre></option>
+<option value='ver_platform_win32_nt.5.1.ia64.ver_nt_workstation.n.2600..'><pre>Windows XP 64-Bit Edition</pre></option>
+<option value='ver_platform_win32_nt.5.1.ia64.ver_nt_workstation.n.2600.0.0'><pre>Windows XP 64-Bit Edition RTM</pre></option>
+<option value='ver_platform_win32_nt.5.1.ia64.ver_nt_workstation.n.2600.1.0'><pre>Windows XP 64-Bit Edition SP1</pre></option>
+<option value='ver_platform_win32_nt.5.2.ia64.ver_nt_workstation.n.3790.0.0'><pre>Windows XP 64-Bit Edition Version 2003 RTM</pre></option>
+<option value='ver_platform_win32_nt.5.1.x86.ver_nt_workstation.ver_suite_personal.2600.0.0'><pre>Windows XP Home Edition RTM</pre></option>
+<option value='ver_platform_win32_nt.5.1.x86.ver_nt_workstation.ver_suite_personal.2600.1.0'><pre>Windows XP Home Edition SP1</pre></option>
+<option value='ver_platform_win32_nt.5.1.x86.ver_nt_workstation.n.2600.0.0'><pre>Windows XP Professional RTM</pre></option>
+<option value='ver_platform_win32_nt.5.1.x86.ver_nt_workstation.n.2600.1.0'><pre>Windows XP Professional SP1</pre></option>
+
+							</select></td>
+					</tr>
+					<tr><td class="8pt sys-font-body sys-color-body">שפה:</td></tr>
+					<tr>
+						<td name="languagecont" id="languagecont">
+							<!--<select name="selLang" id="selLang">
+								<option VALUE="ar|1256">ערבית</option>
+								<option VALUE="en_arabic|1252">תומך בערבית</option>
+								<option VALUE="zhcn|936">סינית פשוטה </option>
+								<option VALUE="zhtw|950">סינית טאיוונית (מסורתית)</option>
+								<option VALUE="cs|1250">צ'כית</option>
+								<option VALUE="da|1252">דנית</option>
+								<option VALUE="nl|1252">הולנדית</option>
+								<option VALUE="en|1252" selected>אנגלית</option>
+								<option VALUE="fi|1252">פינית</option>
+								<option VALUE="fr|1252">צרפתית</option>
+								<option VALUE="de|1252">גרמנית</option>
+								<option VALUE="el|1253">יוונית</option>
+								<option VALUE="el_ibm|869">יוונית IBM</option>
+								<option VALUE="he|1255">עברית</option>
+								<option VALUE="en_hebrew|1252">תומך עברית</option>
+								<option VALUE="hu|1250">הונגרית</option>
+								<option VALUE="it|1252">איטלקית</option>
+								<option VALUE="ja|932">יפנית</option>
+								<option VALUE="nec|932">יפנית NEC</option>
+								<option VALUE="ko|949">קוריאנית</option>
+								<option VALUE="no|1252">נורווגית</option>
+								<option VALUE="pl|1250">פולנית</option>
+								<option VALUE="ptbr|1252">פורטוגזית (ברזילאית)</option>
+								<option VALUE="pt|1252">פורטוגזית (תקנית)</option>
+								<option VALUE="ru|1251">רוסית</option>
+								<option VALUE="sk|1250">סלובקית</option>
+								<option VALUE="sl|1250">סלובנית</option>
+								<option VALUE="es|1252">ספרדית</option>
+								<option VALUE="sv|1252">שוודית</option>
+								<option VALUE="en_thai|1252">תומך תאיית</option>
+								<option VALUE="tr|1254">טורקית</option>
+							</select>-->
+						</td>
+					</tr>
+					<tr><td class="8pt sys-font-body sys-color-body">תאריך פרסום באינטרנט:</td></tr>
+					<tr>
+						<td>
+							<select id="selPostDate" name="selPostDate">
+								<option value="0">כל התאריכים המוצגים</option>
+								<option value="7">בשבוע האחרון</option>
+								<option value="14">בשבועיים האחרונים</option>
+								<option value="30">בחודש האחרון</option>
+								<option value="60">בחודשיים האחרונים</option>
+								<option value="180">בששת החודשים האחרונים</option>
+								<option value="365">בשנה האחרונה</option>
+							</select></td>
+					</tr>
+					<tr>
+						<td>
+							מכיל מילים אלה:&nbsp;&nbsp;
+							<a class='sys-link-normal' href="javascript:goLearnKeywords()">ספר לי כיצד מילים יכולות למקד את החיפוש שלי</a></td>
+					</tr>
+					<tr>
+						<td class="8pt sys-font-body sys-color-body">
+							<input type="text" name="eKeyWord" SIZE=60 maxlength=100 oncontextmenu=checkrightclick()></td>
+					</tr>
+					<tr><td>&nbsp;</td></tr>
+					<tr >
+						<td align="left" class="osbutton sys-table-header-bgcolor1" valign=middle>
+							<!--<button onclick="history.go(-1);">&lt;&nbsp;Back</button>-->
+
+							<button onClick="javascript:Docheck()"onresize="document.recalc('true')" style="width:expression(buttonspan.offsetWidth + 10)"><span id="buttonspan" name="buttonspan">חפש</span></button>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	
+
+</form>
+</body>
+</html>
+<script language="javascript">
+function window.onload(){
+	var NoResults = 0
+	frmMan.speed.value=parent.g_iConnectionSpeed;
+	SetItemCount()
+	if(NoResults == 0) {
+		sortlanguage("selLang","frmMan")
+
+	}
+}
+</script>

@@ -1,0 +1,67 @@
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<meta http-equiv="Content-Type" content="text/html;charset=windows-1253" />
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta name="MSSmartTagsPreventParsing" content="yes" />
+		<script language="JScript" type="text/javascript">function window.onerror(sMessage, sURL, sLine){ return true; }</script><script language="JScript" type="text/javascript" src="/shared/js/content.js"></script><link rel="stylesheet" type="text/css" href="/shared/css/hcp.css" />
+		<link rel="stylesheet" type="text/css" href="/shared/css/content.css" />
+		
+		<title>Πλαίσιο περιεχομένων</title>
+		
+	</head>
+	<body onload="if('function' == typeof(fnInitSplashPage)) fnInitSplashPage(1, 3);" class="splash">
+
+		<div id="eSplashWelcome">
+		<table cellspacing="0" border="0" style="height:100%;width:95%;margin-top:-8px;margin-left:-5px;">
+		<tbody>
+			<tr style="height:10%;">
+				<td width="75%" style="padding-left:5px;">
+					<span class="sys-font-heading3 sys-rhp-color-title">Καλώς ορίσατε στο Windows Update</span><br /><br />
+						Αποκτήστε τις πιο πρόσφατες ενημερωμένες εκδόσεις που είναι διαθέσιμες για το λειτουργικό σύστημα, το λογισμικό και το υλικό του υπολογιστή σας.<br /><br />
+						Το Windows Update ελέγχει τον υπολογιστή σας και σας παρέχει μια σειρά ενημερωμένων εκδόσεων που είναι προσαρμοσμένες μόνο για εσάς.<br /><br /><br />
+				</td>
+				
+				<td align="right" style="padding-right:3px;padding-left:3px;">
+					<div onclick="window.open('http://go.microsoft.com/fwlink/?LinkId=21655','_blank')"  title="Προστατέψτε τον υπολογιστή σας" align="left" style="background-color:#F3F5E5;border:1px solid #DDE2C6;height:95%;width:70%;padding-left:10px;padding-top:8px;padding-right:10px;cursor:hand;">
+						<img src="/shared/images/protect.gif" /><br>
+						<div style="margin-top:5px;">
+						<b>Προστατέψτε τον υπολογιστή σας</b> <br>
+						<b>3</b> βήματα για να διασφαλίσετε την προστασία του υπολογιστή σας
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td colSpan="2" style="padding-left:5px;height:10%">
+					
+					<a href="javascript:parent.fnScan();" title="Ξεκινήστε τον έλεγχο του υπολογιστή σας από το Windows Update, για να προσδιορίσετε ποιες ενημερωμένες εκδόσεις χρειάζεστε." class="sys-link-normal"><img src="/shared/images/arrow.gif" class="arrow" align="absmiddle" alt="[Πράσινο βέλος.]"  title="Ξεκινήστε τον έλεγχο του υπολογιστή σας από το Windows Update, για να προσδιορίσετε ποιες ενημερωμένες εκδόσεις χρειάζεστε." />Έλεγχος για ενημερωμένες εκδόσεις</a><br /><br /><br />
+						
+
+						<b><b>Σημείωση</b></b> Το Windows Update δεν συλλέγει καμία μορφή προσωπικά αναγνωρίσιμων πληροφοριών από τον υπολογιστή σας.<br />
+						<a href="about.asp#privacypolicy" class="sys-link-normal">Διαβάστε τη δήλωση προστασίας ιδιωτικού απορρήτου</a><br /><br />
+
+						
+						<br>
+						<br>
+					
+				</td>
+			</tr>	
+			<tr>
+				<td colSpan="2" style="padding-left:5px;height:100%" valign="top">		
+					<iframe id="newsframe" src="" style="width:100%;height:280px;border:1px solid #6487DC;margin-left:1px;display:none" frameborder="0"></iframe>
+				</td>
+			</tr>
+		</tbody>	
+		</table>	
+		</div>
+							
+		
+		<div id="eSplashScanning" style="display: none;">
+			<span class="sys-font-heading3 sys-rhp-color-title">Το Windows Update αναζητά διαθέσιμες ενημερωμένες εκδόσεις... <nobr id="ePercentComplete">0% ολοκληρώθηκε</nobr></span><br />
+		</div>
+	
+	</body>
+</html>
+

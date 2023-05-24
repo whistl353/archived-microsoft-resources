@@ -1,0 +1,30 @@
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<meta http-equiv="Content-Type" content="text/html;charset=windows-1252" />
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta name="MSSmartTagsPreventParsing" content="yes" />
+		<script language="JScript" type="text/javascript">function window.onerror(sMessage, sURL, sLine){ return true; }</script><script language="JScript" type="text/javascript" src="/shared/js/content.js"></script><link rel="stylesheet" type="text/css" href="/shared/css/hcp.css" />
+		<link rel="stylesheet" type="text/css" href="/shared/css/content.css" />
+		
+		<title>Content Frame</title>
+	</head>
+	<body onload="if(self != top && 'function' ==  typeof(fnInit)) fnInit(0, 9);">
+		<img src="/shared/images/info_icon.gif" class="icon32" alt="Important information." /><span class="sys-font-heading3 sys-rhp-color-title">Software Update Incomplete</span><br /><br />
+		<div class="error">
+The Windows Update software did not update successfully. Below are some suggestions to help you proceed:
+<ul>
+	<li>You may have clicked No when prompted to accept the Trust Certificate. To allow the Windows Update site software to install, click Yes when presented with the Security Warning dialog box.</li>
+	<li>Your Internet Explorer security settings may be set too high. To install the updated software and access Windows Update, Internet Explorer security must be set to medium or lower, and active scripting and the download and initialization of ActiveX controls must be enabled.<br /><br /><b><b>Note</b></b> These are the default settings for Internet Explorer. For more information about Internet Explorer security and instructions on how to change your security settings, read <a href="http://go.microsoft.com/fwlink/?linkid=9579&clcid=0x409" target="_blank" class="sys-link-normal">Microsoft Knowledge Base (KB) Article Q174360</a>.</li>
+</ul>
+<br />Were these suggestions helpful? <a href="mailto:winupsup@microsoft.com?Subject=Windows Update Feedback" target="_blank" class="sys-link-normal">Send us your feedback</a>.<br />
+<br />
+<div><button onclick="parent.fnDisplaySplashPage(1);">Try Again</button></div>
+		</div>
+		<br /><br />
+		You can also get <a href="support.asp" class="sys-link-normal">online support</a> if you are having problems with Windows Update.<br /><br />
+<div style="margin: 2px;"><a href="mailto:winupsup@microsoft.com?Subject=Windows Update Feedback   (ERROR 0x80070005)" class="sys-link-normal">Send error number to Microsoft</a> (0x80070005)<br />
+<b><b>Note</b></b> This sends error information but does not create a support incident; you may or may not receive a response.<br /></div>
+	</body>
+</html>

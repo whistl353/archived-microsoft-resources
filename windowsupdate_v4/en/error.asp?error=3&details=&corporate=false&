@@ -1,0 +1,51 @@
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<meta http-equiv="Content-Type" content="text/html;charset=windows-1252" />
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta name="MSSmartTagsPreventParsing" content="yes" />
+		<script language="JScript" type="text/javascript">function window.onerror(sMessage, sURL, sLine){ return true; }</script><script language="JScript" type="text/javascript" src="/shared/js/content.js"></script><link rel="stylesheet" type="text/css" href="/shared/css/hcp.css" />
+		<link rel="stylesheet" type="text/css" href="/shared/css/content.css" />
+		
+		<title>Content Frame</title>
+	</head>
+	<body onload="if(self != top && 'function' ==  typeof(fnInit)) fnInit(0, 3);">
+		<img src="/shared/images/info_icon.gif" class="icon32" alt="Important information." /><span class="sys-font-heading3 sys-rhp-color-title">Administrators Only</span><br /><br />
+		<div class="error">
+To install items from Windows Update, you must be logged on as an administrator or a member of the Administrators group. If your computer is connected to a network, network policy settings may also prevent you from completing this procedure.<br /><br />
+<b><b>Note</b></b> If you are running a Windows 2000 (except DataCenter), Windows XP, or Windows&nbsp;Server 2003&nbsp;operating system, you can run the local administrator account on your computer without having to log off and then log on again.<br /><br />
+To run as the local administrator in Windows XP or Windows&nbsp;Server&nbsp;2003:<br /><br />
+<ol>
+	<li>Click <b>Start</b>, and then click <b>All Programs</b> (or right-click <b>Windows Update</b> if it is available).</li>
+	<li>Right-click <b>Windows Update</b>.</li>
+	<li>Click <b>Run as</b> on the menu that appears.</li>
+	<li>Do one of the following:
+		<ul>
+			<li>Enter the password for the administrator.</li>
+			<li>Enter the user name, domain name, and password of a different user account that has administrative permissions on this computer.</li>
+		</ul>
+	</li>
+</ol><br />
+To run as the local administrator in Windows 2000:<br /><br />
+<ol>
+	<li>Click <b>Start</b>, right-click <b>Windows Update</b>, and then click <b>Run As</b> on the menu that appears.</li>
+	<li>Do one of the following:
+		<ul>
+			<li>Enter the password for the administrator.</li>
+			<li>Enter the user name, domain name, and password of a different user account that has administrative permissions on this computer.</li>
+		</ul>
+	</li>
+</ol><br />
+If the option to run as the local administrator is not available:<br /><br />
+<ol>
+	<li>Click <b>Start</b>, right-click <b>Windows Update</b>, and then click <b>Properties</b>.</li>
+	<li>Click the <b>Shortcut</b> tab, and then select the <b>Run as different user</b> check box.
+</ol><br />
+
+		</div>
+		<br /><br />
+		You can also get <a href="support.asp" class="sys-link-normal">online support</a> if you are having problems with Windows Update.<br /><br />
+
+	</body>
+</html>

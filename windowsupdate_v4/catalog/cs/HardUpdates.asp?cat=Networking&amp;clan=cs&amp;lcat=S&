@@ -1,0 +1,731 @@
+
+<script language="javascript">
+
+/*function window::onResize() {
+	fnPositionCopyrightLink()
+}*/
+function window::onload(){
+	
+if(!parent.conDevServer){
+		document.ondragstart = new Function("return false;");
+		document.oncontextmenu = new Function("return false;");
+	}
+	//document.oncontextmenu = new Function("return false;");
+}
+function checkrightclick(){
+event.cancelBubble=true;
+return true;
+}
+/*function fnPositionCopyrightLink(){
+	eCopyright.style.position = "static";
+	var tmr = window.setTimeout("fnPCL()",1000);
+	eCopyright.style.display = "none";
+}*/
+
+
+function fnPCL() {
+	var iContentHeight, iAvailableHeight;
+	
+	eCopyright.style.position = "static";
+	iContentHeight = document.body.scrollHeight;
+	iAvailableHeight = document.body.offsetHeight;
+
+	if(iContentHeight <= (iAvailableHeight - 25)){
+		eCopyright.style.position = "absolute";
+		eCopyright.style.top = "auto";
+		eCopyright.style.bottom = "0px";
+	}else{
+		eCopyright.style.position = "static";
+	}
+	eCopyright.style.display = "block"
+	//window.status = "contentHeight=" + iContentHeight + ", AvailableHeight=" + iAvailableHeight + ", position=" + eCopyright.style.position
+}
+
+
+/* for sorting the the language*/
+function sortlanguage(selectname,formname){
+	var iTxt = new Array();
+	var sTxt = new Array();
+	var nLang = 25;
+
+	iTxt[0]="Arabština" + "@" + "ar|1256"
+	//iTxt[1]="Umožòující použití arabštiny" + "@" + "en_arabic|1252"
+	iTxt[1]="Tureètina" + "@" + "tr|1254"
+	iTxt[2]="Zjednodušená èínština " + "@" + "zhcn|936"
+	iTxt[3]="Tradièní èínština " + "@" + "zhtw|950"
+	iTxt[4]="Èeština" + "@" + "cs|1250"
+	iTxt[5]="Dánština" + "@" + "da|1252"
+	iTxt[6]="Holandština" + "@" + "nl|1252"
+	iTxt[7]="Angliètina" + "@" + "en|1252"
+	iTxt[8]="Finština" + "@" + "fi|1252"
+	iTxt[9]="Francouzština" + "@" + "fr|1252"
+	iTxt[10]="Nìmèina" + "@" + "de|1252"
+	iTxt[11]="Øeètina" + "@" + "el|1253"
+	//iTxt[12]="Øeètina – IBM" + "@" + "el_ibm|869"
+	iTxt[12]="Švédština" + "@" + "sv|1252"
+	iTxt[13]="Hebrejština" + "@" + "he|1255"
+	//iTxt[14]="Umožòující použití hebrejštiny" + "@" + "en_hebrew|1252"
+	iTxt[14]="Španìlština" + "@" + "es|1252"
+	iTxt[15]="Maïarština" + "@" + "hu|1250"
+	iTxt[16]="Italština" + "@" + "it|1252"
+	iTxt[17]="Japonština" + "@" + "ja|932"
+	iTxt[18]="Japonština – NEC" + "@" + "nec|932"
+	iTxt[19]="Korejština" + "@" + "ko|949"
+	iTxt[20]="Norština" + "@" + "no|1252"
+	iTxt[21]="Polština" + "@" + "pl|1250"
+	iTxt[22]="Portugalština (Brazílie)" + "@" + "ptbr|1252"
+	iTxt[23]="Portugalština (standardní)" + "@" + "pt|1252"
+	iTxt[24]="Ruština" + "@" + "ru|1251"
+	//iTxt[25]="Slovenština" + "@" + "sk|1250"
+	//iTxt[26]="Slovinština" + "@" + "sl|1250"
+	
+	
+	//iTxt[29]="Umožòující použití thajštiny" + "@" + "en_thai|1252"
+	
+
+	jTxt = iTxt.sort();
+
+	var s, i, a
+
+	s = ""
+	lan="cs"
+	
+	s += "<select NAME='" + selectname + "' ID='" + selectname + "' onchange='sethiddendata(" + selectname + "," + formname + ")'>"
+	for(i=0; i < nLang; i++) {	
+		a = jTxt[i].split("@")
+		aa=a[1].split("|")
+		if (aa[0].toLowerCase( )== lan.toLowerCase( )){
+			s += "<option VALUE=" + a[1] + " Selected>" + a[0] + "</option>"
+		}
+		else{
+			s += "<option VALUE=" + a[1] + ">" + a[0] + "</option>"
+		}
+		
+	}
+	s += "</select>"	
+	
+	languagecont.innerHTML=s
+	HSelLang = eval(formname + ".HSelLang")
+	if (HSelLang.value != 0 ){
+		selecttext=eval(formname + "."  + selectname)		
+		selecttext.value=HSelLang.value
+	}
+	
+}
+
+
+/*for sorting the the language*/
+
+function sethiddendata(selectname,formname){
+	HSelLang = eval(formname.name + ".HSelLang")	
+	HSelLang.value=selectname.value	
+}
+
+</script><html >
+<head>
+<title>Microsoft Windows Update</title>
+<meta NAME="robots" CONTENT="noindex">
+<meta http-equiv="Content-Type" content="text/html;charset=windows-1250" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))'>
+<meta http-equiv="MSThemeCompatible" content="Yes">
+<link rel="stylesheet" type="text/css" href="/catalog/shared/css/content.css">
+<link rel="stylesheet" type="text/css" href="hcp://system/css/shared.css" />
+
+
+
+<style type="text/css">
+<!--
+	body { margin: 15px; }
+	td { font-family: Verdana;font-size: 68.25%; }
+	td a { font-weight:normal;text-decoration:none }
+	hr {  color:gray;height:1px; }
+	select { margin-top:5px; margin-bottom:5px;width:300px;}
+	form { margin-top:0px; margin-bottom: 4px; }
+	h4.clsHeader { color:gray;font-family:verdana; }
+-->
+</style>
+
+<script language="javascript" src="/catalog/shared/js/content.js"></script>
+<script language="javascript" defer="true">
+<!--
+
+function Docheck(){
+	var selected=0
+	if (frmMan.selOS.value == ""){
+		alert("Zvolte operaèní systém");
+		return false;
+	}
+	else{
+		document.frmMan.submit();
+		return true;
+	}
+}
+function frmsubmitcheck(){
+
+	return Docheck()
+}
+var g_oLearnMoreDlg;
+function goLearnKeywords(){
+	if (g_oLearnMoreDlg == null) {
+		g_oLearnMoreDlg = window.showModelessDialog("LearnKeywords.asp",window,"help:no;status:no;resizable:no;dialogWidth:500px;dialogHeight:450px" );
+	}
+}
+
+
+//-->
+var fraLEFT = parent.frames["eTOC"];
+
+	function SetItemCount()
+	{
+		eBasketStats.innerText = 0;
+
+		if( "" != fraLEFT.sBasketString )
+		{
+			var aBasketItems = fraLEFT.sBasketString.split( "," );
+			var iLen = aBasketItems.length - 1;
+			eBasketStats.innerText = parseInt( iLen );
+
+		}
+	}
+function gobasket()
+	{
+		basketform.os_sBasket.value=parent.frames["eTOC"].os_sBasket;
+		basketform.driver_sBasket.value=parent.frames["eTOC"].driver_sBasket;
+		basketform.speed.value=parent.g_iConnectionSpeed;
+		basketform.submit();
+
+	}
+</script>
+</head>
+<body   style="MARGIN-TOP: 11px;MARGIN-LEFT: 16px;MARGIN-RIGHT: 16px;">
+
+
+<form name="basketform" id="basketform" action="downloadbasket.asp" method="post">
+		<input type="hidden" name="os_sBasket" id="os_sBasket">
+		<input type="hidden" name="driver_sBasket" id="driver_sBasket">
+		<input type="hidden" name="speed" id="speed">
+</form>
+<form name="frmMan" id="frmMan" action="driverDetails.asp" onsubmit="return frmsubmitcheck()">
+	<input type="hidden" name="hdnCat" value="Networking" />
+	<input type="hidden" name="lCat" value="" />
+	<input type="hidden" name="clan" value="" />
+	<input type="hidden" name="speed" id="speed">
+	<input type="hidden" name="HSelLang" id="HSelLang" value=0>
+
+
+
+
+
+<span id="eBasketStats" name="eBasketStats" style="display:none"></span>
+<span class="title sys-font-heading3 sys-rhp-color-title">Ovladaèe hardwaru - </span><br>
+<div class="8pt sys-font-body sys-color-body">Hledání aktualizací ovladaèù zúžíte výbìrem výrobce. Potom nastavíte zbývající kritéria uvedená níže a klepnete na tlaèítko <b>Hledat</b>.<br><br></div>
+	<table cellspacing="0" border="0" width="100%" class="tblborder sys-table-color-border sys-table-cell-bgcolor2">
+		<tr><td>
+		<table cellpadding="0" cellspacing="0" border="0" class="innertbl" height="100%"width="100%">
+				<tr>
+					<td><img src="/catalog/images/ts.gif" height=5 width=1><br>
+						<span id="spnDesc">Název výrobce:</span><br>
+						<span>
+							<select name="selMan" size=6>
+								
+													<option value="2wireinc|2Wire, Inc" SELECTED>2Wire, Inc</option>
+
+												
+													<option value="3comcorporation|3Com Corporation">3Com Corporation</option>
+
+												
+													<option value="3m|3m">3m</option>
+
+												
+													<option value="abocomsystemsinc|AboCom Systems, Inc.">AboCom Systems, Inc.</option>
+
+												
+													<option value="acctontechnologycorporation|Accton Technology Corporation">Accton Technology Corporation</option>
+
+												
+													<option value="acerincorporated|Acer Incorporated">Acer Incorporated</option>
+
+												
+													<option value="actiontecelectronicsinc|Actiontec Electronics, Inc">Actiontec Electronics, Inc</option>
+
+												
+													<option value="adaptecincorporated|Adaptec, Incorporated">Adaptec, Incorporated</option>
+
+												
+													<option value="admtekincorporated|ADMtek Incorporated.">ADMtek Incorporated.</option>
+
+												
+													<option value="advancedmicrodevicesinc|Advanced Micro Devices, Inc.">Advanced Micro Devices, Inc.</option>
+
+												
+													<option value="airvasttechnologyinc|Airvast Technology Inc">Airvast Technology Inc</option>
+
+												
+													<option value="alicorporation|ALi Corporation">ALi Corporation</option>
+
+												
+													<option value="alliedtelesyninc|Allied Telesyn Inc.">Allied Telesyn Inc.</option>
+
+												
+													<option value="ambitmicrosystemscorp|Ambit Microsystems Corp">Ambit Microsystems Corp</option>
+
+												
+													<option value="analogdevicesincorporated|Analog Devices Incorporated">Analog Devices Incorporated</option>
+
+												
+													<option value="aopeninc|AOpen Inc.">AOpen Inc.</option>
+
+												
+													<option value="arcadyantechnologycorporation|Arcadyan Technology Corporation">Arcadyan Technology Corporation</option>
+
+												
+													<option value="arescominc|ARESCOM, INC.">ARESCOM, INC.</option>
+
+												
+													<option value="arrisgroup|ARRIS Group">ARRIS Group</option>
+
+												
+													<option value="asixelectronicscorp|ASIX Electronics Corp.">ASIX Electronics Corp.</option>
+
+												
+													<option value="askeycomputercorp|Askey Computer Corp.">Askey Computer Corp.</option>
+
+												
+													<option value="astartetechnology|Astarte Technology">Astarte Technology</option>
+
+												
+													<option value="asustekcomputerinc|ASUSTeK Computer Inc.">ASUSTeK Computer Inc.</option>
+
+												
+													<option value="avmcomputersystemevertriebsgmbh|AVM Computersysteme Vertriebs GmbH">AVM Computersysteme Vertriebs GmbH</option>
+
+												
+													<option value="bewansystems|BEWAN SYSTEMS">BEWAN SYSTEMS</option>
+
+												
+													<option value="broadcomcorporation|Broadcom Corporation">Broadcom Corporation</option>
+
+												
+													<option value="ccandctechnologiesinc|CC and C Technologies, Inc.">CC and C Technologies, Inc.</option>
+
+												
+													<option value="ciscosystemsinc|Cisco Systems, Inc.">Cisco Systems, Inc.</option>
+
+												
+													<option value="ciscolinksysllc510|Cisco-Linksys LLC">Cisco-Linksys LLC</option>
+
+												
+													<option value="ciscolinksysllc|Cisco-Linksys, LLC">Cisco-Linksys, LLC</option>
+
+												
+													<option value="cnettechnologyinc|CNET TECHNOLOGY, INC.">CNET TECHNOLOGY, INC.</option>
+
+												
+													<option value="comone|COM One">COM One</option>
+
+												
+													<option value="compaqcomputercorporation|Compaq Computer Corporation">Compaq Computer Corporation</option>
+
+												
+													<option value="conexantsystemsinc|Conexant Systems, Inc.">Conexant Systems, Inc.</option>
+
+												
+													<option value="creatixpolymediagesellschaftfuerkommunikationssystemembh|Creatix Polymedia Gesellschaft fuer Kommunikationssysteme mbH">Creatix Polymedia Gesellschaft fuer Kommunikationssysteme mbH</option>
+
+												
+													<option value="cybertantechnologyinc|CyberTAN Technology, Inc.">CyberTAN Technology, Inc.</option>
+
+												
+													<option value="davicomsemiconductorinc|DAVICOM Semiconductor, Inc.">DAVICOM Semiconductor, Inc.</option>
+
+												
+													<option value="dellinc|Dell Inc.">Dell Inc.</option>
+
+												
+													<option value="deutschetelekomag|Deutsche Telekom AG">Deutsche Telekom AG</option>
+
+												
+													<option value="devoloag|devolo AG">devolo AG</option>
+
+												
+													<option value="dlinkcorporation|D-Link Corporation">D-Link Corporation</option>
+
+												
+													<option value="dongguanchanganglobalsmartelectronicfactory|Dongguan Chang'an Global Smart Electronic Factory">Dongguan Chang'an Global Smart Electronic Factory</option>
+
+												
+													<option value="eiconnetworkscorporation|Eicon Networks Corporation">Eicon Networks Corporation</option>
+
+												
+													<option value="esstechnology|ESS Technology">ESS Technology</option>
+
+												
+													<option value="everbeenetworks|Everbee Networks">Everbee Networks</option>
+
+												
+													<option value="gemtektechnologycoltd|GemTek Technology Co., Ltd">GemTek Technology Co., Ltd</option>
+
+												
+													<option value="gigabytetechnology|Giga-Byte Technology">Giga-Byte Technology</option>
+
+												
+													<option value="globalsuntechnologyinc|Global Sun Technology Inc.">Global Sun Technology Inc.</option>
+
+												
+													<option value="greenpacketinc|Green Packet Inc">Green Packet Inc</option>
+
+												
+													<option value="hewlettpackardcompany|Hewlett-Packard Company">Hewlett-Packard Company</option>
+
+												
+													<option value="hiroinc|Hiro Inc.">Hiro Inc.</option>
+
+												
+													<option value="hitrontechnologiesinc|Hitron Technologies, Inc.">Hitron Technologies, Inc.</option>
+
+												
+													<option value="icpluscorporation|IC Plus Corporation">IC Plus Corporation</option>
+
+												
+													<option value="infineonadmtek|Infineon-ADMtek">Infineon-ADMtek</option>
+
+												
+													<option value="inprocomminc|Inprocomm, Inc.">Inprocomm, Inc.</option>
+
+												
+													<option value="intelcorporation|Intel Corporation">Intel Corporation</option>
+
+												
+													<option value="intelloncorporation|Intellon Corporation">Intellon Corporation</option>
+
+												
+													<option value="intersilamericasinc|Intersil Americas Inc.">Intersil Americas Inc.</option>
+
+												
+													<option value="joohonginformationandcommunicationltd|JOOHONG Information  and  Communication Ltd.">JOOHONG Information  and  Communication Ltd.</option>
+
+												
+													<option value="kawasakilsiusainc|Kawasaki LSI U.S.A. Inc.">Kawasaki LSI U.S.A. Inc.</option>
+
+												
+													<option value="komatsultd|Komatsu Ltd.">Komatsu Ltd.</option>
+
+												
+													<option value="legendbeijinglimited|Legend (Beijing) limited">Legend (Beijing) limited</option>
+
+												
+													<option value="lgelectronicsinc|LG Electronics Inc.">LG Electronics Inc.</option>
+
+												
+													<option value="linksysgroupinc|Linksys Group, Inc.">Linksys Group, Inc.</option>
+
+												
+													<option value="madgeltd|Madge Ltd">Madge Ltd</option>
+
+												
+													<option value="madgenetworks|Madge Networks">Madge Networks</option>
+
+												
+													<option value="marconicommunicationsinc|Marconi Communications, Inc.">Marconi Communications, Inc.</option>
+
+												
+													<option value="marvellsemiconductor|Marvell Semiconductor">Marvell Semiconductor</option>
+
+												
+													<option value="mcafeeinc|McAfee, Inc.">McAfee, Inc.</option>
+
+												
+													<option value="microsoftcorporation|Microsoft Corporation">Microsoft Corporation</option>
+
+												
+													<option value="microstarinternationalcoltd|MICRO-STAR INTERNATIONAL CO., LTD">MICRO-STAR INTERNATIONAL CO., LTD</option>
+
+												
+													<option value="moschipsemiconductortechnologyusa|MosChip Semiconductor Technology USA">MosChip Semiconductor Technology USA</option>
+
+												
+													<option value="motorolainc553|Motorola Inc">Motorola Inc</option>
+
+												
+													<option value="motorolainc|Motorola Inc.">Motorola Inc.</option>
+
+												
+													<option value="nationalsemiconductor|National Semiconductor">National Semiconductor</option>
+
+												
+													<option value="neccorporation|NEC Corporation">NEC Corporation</option>
+
+												
+													<option value="netchiptechnologyincorporated|NetChip Technology, Incorporated">NetChip Technology, Incorporated</option>
+
+												
+													<option value="netgearincorporated|Netgear Incorporated">Netgear Incorporated</option>
+
+												
+													<option value="nortelnetworks|Nortel Networks">Nortel Networks</option>
+
+												
+													<option value="novatelwirelesstechnologiesltd|Novatel Wireless Technologies Ltd.">Novatel Wireless Technologies Ltd.</option>
+
+												
+													<option value="nvidiacorporation|Nvidia Corporation">Nvidia Corporation</option>
+
+												
+													<option value="panasonicmobilecommunicationscoltd|Panasonic Mobile Communications Co., Ltd.">Panasonic Mobile Communications Co., Ltd.</option>
+
+												
+													<option value="philipselectronicsnorthamerica|PHILIPS ELECTRONICS NORTH AMERICA">PHILIPS ELECTRONICS NORTH AMERICA</option>
+
+												
+													<option value="primeelectronicsandsatelliticsinc|Prime Electronics and Satellitics Inc.">Prime Electronics and Satellitics Inc.</option>
+
+												
+													<option value="ralinktechnologycorporation|Ralink Technology Corporation">Ralink Technology Corporation</option>
+
+												
+													<option value="realteksemiconductorcorp|Realtek Semiconductor Corp">Realtek Semiconductor Corp</option>
+
+												
+													<option value="samsungelectromechanics|Samsung Electro-Mechanics">Samsung Electro-Mechanics</option>
+
+												
+													<option value="samsungelectronicscoltd|Samsung Electronics CO., LTD.">Samsung Electronics CO., LTD.</option>
+
+												
+													<option value="scientificatlantainc|Scientific Atlanta, Inc">Scientific Atlanta, Inc</option>
+
+												
+													<option value="senaointernationalltd|Senao International Ltd.">Senao International Ltd.</option>
+
+												
+													<option value="siemensag|Siemens AG">Siemens AG</option>
+
+												
+													<option value="sierrawirelessinc|Sierra Wireless Inc.">Sierra Wireless Inc.</option>
+
+												
+													<option value="siliconintegratedsystemscorp|SILICON INTEGRATED SYSTEMS CORP.">SILICON INTEGRATED SYSTEMS CORP.</option>
+
+												
+													<option value="sitecomeuropebv|Sitecom Europe BV">Sitecom Europe BV</option>
+
+												
+													<option value="smcnetworksinc|SMC Networks, Inc.">SMC Networks, Inc.</option>
+
+												
+													<option value="sonyericssonmobilecommunicationsab|Sony Ericsson Mobile Communications AB">Sony Ericsson Mobile Communications AB</option>
+
+												
+													<option value="sparklancommunicationsinc|SparkLAN Communications Inc.">SparkLAN Communications Inc.</option>
+
+												
+													<option value="symboltechnologies|Symbol Technologies">Symbol Technologies</option>
+
+												
+													<option value="syskonnectgmbh|SysKonnect GmbH">SysKonnect GmbH</option>
+
+												
+													<option value="tamarackmicroelectronicsinc|Tamarack Microelectronics Inc.">Tamarack Microelectronics Inc.</option>
+
+												
+													<option value="tdksystemseuropelimited|TDK Systems Europe Limited">TDK Systems Europe Limited</option>
+
+												
+													<option value="terayoncommunicationsystems|Terayon Communication Systems">Terayon Communication Systems</option>
+
+												
+													<option value="thomson|Thomson">Thomson</option>
+
+												
+													<option value="thomsonmultimediainc|Thomson multimedia Inc.">Thomson multimedia Inc.</option>
+
+												
+													<option value="toshibacorporation|TOSHIBA CORPORATION">TOSHIBA CORPORATION</option>
+
+												
+													<option value="trendwareinternationalinc|TRENDware International Inc.">TRENDware International Inc.</option>
+
+												
+													<option value="trustinternationalbv|Trust International BV">Trust International BV</option>
+
+												
+													<option value="twinheadinternationalcorp|Twinhead International Corp.">Twinhead International Corp.</option>
+
+												
+													<option value="usroboticscorporation|U.S. Robotics Corporation">U.S. Robotics Corporation</option>
+
+												
+													<option value="ulielectronicsinc|ULi Electronics Inc.">ULi Electronics Inc.</option>
+
+												
+													<option value="unextechnologycorporation|Unex Technology Corporation">Unex Technology Corporation</option>
+
+												
+													<option value="viatechnologiesinc|VIA Technologies Inc.">VIA Technologies Inc.</option>
+
+												
+													<option value="viewsoniccorporation|ViewSonic Corporation">ViewSonic Corporation</option>
+
+												
+													<option value="vtechtelecommunicationsltd|VTech Telecommunications Ltd.">VTech Telecommunications Ltd.</option>
+
+												
+													<option value="westellincorporated|Westell, Incorporated">Westell, Incorporated</option>
+
+												
+													<option value="winbondelectronicscorp|Winbond Electronics Corp.">Winbond Electronics Corp.</option>
+
+												
+													<option value="wistronnewebcorporation418|Wistron  NeWeb  Corporation">Wistron  NeWeb  Corporation</option>
+
+												
+													<option value="wistronnewebcorporation|Wistron NeWeb Corporation">Wistron NeWeb Corporation</option>
+
+												
+													<option value="xircominc|Xircom, Inc.">Xircom, Inc.</option>
+
+												
+													<option value="zcominc|Z-Com, Inc.">Z-Com, Inc.</option>
+
+												
+													<option value="zoomtelephonicsinc|Zoom Telephonics Inc">Zoom Telephonics Inc</option>
+
+												
+													<option value="zydastechnologycorporation|ZyDAS Technology Corporation">ZyDAS Technology Corporation</option>
+
+												
+													<option value="zyxelcommunicationscorporation|ZyXEL Communications Corporation">ZyXEL Communications Corporation</option>
+
+												
+							</select>
+						</span></td>
+					</tr>
+
+
+					<tr><td class="8pt sys-font-body sys-color-body">Operaèní systém:</td></tr>
+					<tr>
+						<td>
+							<select name="selOS" id="selOS">
+								<option value="" selected>Vybrat operaèní systém</option>
+								<option value='ver_platform_win32_nt.5.2.ia64.ver_nt_server.ver_suite_datacenter.3790.0.0'><pre>64-bit version of Windows Server 2003, DTC RTM</pre></option>
+<option value='ver_platform_win32_nt.5.2.ia64.ver_nt_server.ver_suite_enterprise.3790.0.0'><pre>64-bit version of Windows Server 2003, Enterprise Edition</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.ver_suite_enterprise.2195.0.0'><pre>Windows 2000 Advanced Server RTM</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.ver_suite_enterprise.2195.1.0'><pre>Windows 2000 Advanced Server SP1</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.ver_suite_enterprise.2195.2.0'><pre>Windows 2000 Advanced Server SP2</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.ver_suite_enterprise.2195.3.0'><pre>Windows 2000 Advanced Server SP3</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.ver_suite_enterprise.2195.4.0'><pre>Windows 2000 Advanced Server SP4</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_workstation.n.2195.0.0'><pre>Windows 2000 Professional RTM</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_workstation.n.2195.1.0'><pre>Windows 2000 Professional SP1</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_workstation.n.2195.2.0'><pre>Windows 2000 Professional SP2</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_workstation.n.2195.3.0'><pre>Windows 2000 Professional SP3</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_workstation.n.2195.4.0'><pre>Windows 2000 Professional SP4</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.n.2195.0.0'><pre>Windows 2000 Server RTM</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.n.2195.1.0'><pre>Windows 2000 Server SP1</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.n.2195.2.0'><pre>Windows 2000 Server SP2</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.n.2195.3.0'><pre>Windows 2000 Server SP3</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.n.2195.4.0'><pre>Windows 2000 Server SP4</pre></option>
+<option value='ver_platform_win32_windows.4.10.x86.....'><pre>Windows 98 and Windows 98 Second Edition</pre></option>
+<option value='ver_platform_win32_windows.4.90.x86...3000..'><pre>Windows Millennium Edition</pre></option>
+<option value='ver_platform_win32_nt.5.2.x86.ver_nt_server.ver_suite_datacenter.3790.0.0'><pre>Windows Server 2003, Datacenter Edition RTM</pre></option>
+<option value='ver_platform_win32_nt.5.2.x86.ver_nt_server.ver_suite_enterprise.3790.0.0'><pre>Windows Server 2003, Enterprise Edition</pre></option>
+<option value='ver_platform_win32_nt.5.2.x86.ver_nt_server.n.3790.0.0'><pre>Windows Server 2003, Standard Edition</pre></option>
+<option value='ver_platform_win32_nt.5.2.x86.ver_nt_server.ver_suite_blade.3790.0.0'><pre>Windows Server 2003, Web Edition</pre></option>
+<option value='ver_platform_win32_nt.5.1.ia64.ver_nt_workstation.n.2600..'><pre>Windows XP 64-Bit Edition</pre></option>
+<option value='ver_platform_win32_nt.5.1.ia64.ver_nt_workstation.n.2600.0.0'><pre>Windows XP 64-Bit Edition RTM</pre></option>
+<option value='ver_platform_win32_nt.5.1.ia64.ver_nt_workstation.n.2600.1.0'><pre>Windows XP 64-Bit Edition SP1</pre></option>
+<option value='ver_platform_win32_nt.5.2.ia64.ver_nt_workstation.n.3790.0.0'><pre>Windows XP 64-Bit Edition Version 2003 RTM</pre></option>
+<option value='ver_platform_win32_nt.5.1.x86.ver_nt_workstation.ver_suite_personal.2600.0.0'><pre>Windows XP Home Edition RTM</pre></option>
+<option value='ver_platform_win32_nt.5.1.x86.ver_nt_workstation.ver_suite_personal.2600.1.0'><pre>Windows XP Home Edition SP1</pre></option>
+<option value='ver_platform_win32_nt.5.1.x86.ver_nt_workstation.n.2600.0.0'><pre>Windows XP Professional RTM</pre></option>
+<option value='ver_platform_win32_nt.5.1.x86.ver_nt_workstation.n.2600.1.0'><pre>Windows XP Professional SP1</pre></option>
+
+							</select></td>
+					</tr>
+					<tr><td class="8pt sys-font-body sys-color-body">Jazyk:</td></tr>
+					<tr>
+						<td name="languagecont" id="languagecont">
+							<!--<select name="selLang" id="selLang">
+								<option VALUE="ar|1256">Arabština</option>
+								<option VALUE="en_arabic|1252">Umožòující použití arabštiny</option>
+								<option VALUE="zhcn|936">Zjednodušená èínština </option>
+								<option VALUE="zhtw|950">Tradièní èínština </option>
+								<option VALUE="cs|1250">Èeština</option>
+								<option VALUE="da|1252">Dánština</option>
+								<option VALUE="nl|1252">Holandština</option>
+								<option VALUE="en|1252" selected>Angliètina</option>
+								<option VALUE="fi|1252">Finština</option>
+								<option VALUE="fr|1252">Francouzština</option>
+								<option VALUE="de|1252">Nìmèina</option>
+								<option VALUE="el|1253">Øeètina</option>
+								<option VALUE="el_ibm|869">Øeètina – IBM</option>
+								<option VALUE="he|1255">Hebrejština</option>
+								<option VALUE="en_hebrew|1252">Umožòující použití hebrejštiny</option>
+								<option VALUE="hu|1250">Maïarština</option>
+								<option VALUE="it|1252">Italština</option>
+								<option VALUE="ja|932">Japonština</option>
+								<option VALUE="nec|932">Japonština – NEC</option>
+								<option VALUE="ko|949">Korejština</option>
+								<option VALUE="no|1252">Norština</option>
+								<option VALUE="pl|1250">Polština</option>
+								<option VALUE="ptbr|1252">Portugalština (Brazílie)</option>
+								<option VALUE="pt|1252">Portugalština (standardní)</option>
+								<option VALUE="ru|1251">Ruština</option>
+								<option VALUE="sk|1250">Slovenština</option>
+								<option VALUE="sl|1250">Slovinština</option>
+								<option VALUE="es|1252">Španìlština</option>
+								<option VALUE="sv|1252">Švédština</option>
+								<option VALUE="en_thai|1252">Umožòující použití thajštiny</option>
+								<option VALUE="tr|1254">Tureètina</option>
+							</select>-->
+						</td>
+					</tr>
+					<tr><td class="8pt sys-font-body sys-color-body">Datum zveøejnìní na webu:</td></tr>
+					<tr>
+						<td>
+							<select id="selPostDate" name="selPostDate">
+								<option value="0">Všechna data zveøejnìní</option>
+								<option value="7">Minulý týden</option>
+								<option value="14">Minulé 2 týdny</option>
+								<option value="30">Minulý mìsíc</option>
+								<option value="60">Minulé 2 mìsíce</option>
+								<option value="180">Minulých 6 mìsícù</option>
+								<option value="365">Minulý rok</option>
+							</select></td>
+					</tr>
+					<tr>
+						<td>
+							Obsahuje slova:&nbsp;&nbsp;
+							<a class='sys-link-normal' href="javascript:goLearnKeywords()">Informace o slovech používaných k omezení hledání</a></td>
+					</tr>
+					<tr>
+						<td class="8pt sys-font-body sys-color-body">
+							<input type="text" name="eKeyWord" SIZE=60 maxlength=100 oncontextmenu=checkrightclick()></td>
+					</tr>
+					<tr><td>&nbsp;</td></tr>
+					<tr >
+						<td align="right" class="osbutton sys-table-header-bgcolor1" valign=middle>
+							<!--<button onclick="history.go(-1);">&lt;&nbsp;Back</button>-->
+
+							<button onClick="javascript:Docheck()"onresize="document.recalc('true')" style="width:expression(buttonspan.offsetWidth + 10)"><span id="buttonspan" name="buttonspan">Hledat</span></button>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	
+
+</form>
+</body>
+</html>
+<script language="javascript">
+function window.onload(){
+	var NoResults = 0
+	frmMan.speed.value=parent.g_iConnectionSpeed;
+	SetItemCount()
+	if(NoResults == 0) {
+		sortlanguage("selLang","frmMan")
+
+	}
+}
+</script>

@@ -1,0 +1,26 @@
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<meta http-equiv="Content-Type" content="text/html;charset=windows-1252" />
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta name="MSSmartTagsPreventParsing" content="yes" />
+		<script language="JScript" type="text/javascript">function window.onerror(sMessage, sURL, sLine){ return true; }</script><script language="JScript" type="text/javascript" src="/shared/js/content.js"></script><link rel="stylesheet" type="text/css" href="/shared/css/hcp.css" />
+		<link rel="stylesheet" type="text/css" href="/shared/css/content.css" />
+		
+		<title>Indholdsramme</title>
+	</head>
+	<body onload="if(self != top && 'function' ==  typeof(fnInit)) fnInit(0, 17);">
+		<img src="/shared/images/info_icon.gif" class="icon32" alt="Vigtige oplysninger." /><span class="sys-font-heading3 sys-rhp-color-title">Windows Update-fejl</span><br /><br />
+		<div class="error">
+Windows Update har fundet en fejl. Denne kan skyldes en unøjagtighed i computerens indstillinger for klokkeslæt.<br /><br />
+Sådan kontrolleres indstillingerne for dato og klokkeslæt:<br /><ol>
+<li>Dobbeltklik på uret på proceslinjen.</li>
+<li>Kontroller, at dato og klokkeslæt er korrekt.</li>
+		</div>
+		<br /><br />
+		Du kan også få <a href="support.asp" class="sys-link-normal">onlinesupport</a>, hvis du har problemer med Windows Update.<br /><br />
+<div style="margin: 2px;"><a href="mailto:winupsup@microsoft.com?Subject=Windows Update Feedback   (ERROR 0x800C0008)" class="sys-link-normal">Send fejlnummer til Microsoft</a> (0x800C0008)<br />
+<b><b>Bemærk!</b></b> Dermed sendes oplysninger om fejlen, men der oprettes ikke en supportrapport. Du modtager måske eller måske ikke et svar.<br /></div>
+	</body>
+</html>

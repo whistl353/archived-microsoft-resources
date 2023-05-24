@@ -1,0 +1,99 @@
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<meta http-equiv="Content-Type"  content="text/html;charset=windows-1252" />
+		<meta http-equiv="MSThemeCompatible" content="Yes" />
+		<title>Microsoft Windows Update</title>
+		<object id="IUCtl"></object>
+		
+		<script language="javascript" >
+			var curSite = 4 ; // used for redirection logic in redirect.js 
+		</script>
+		<script language="javascript" type="text/javascript" src="/shared/js/redirect.js?201034221435"></script>
+		
+		<script language="javascript" type="text/javascript">
+			function fnSupressError(sMessage, sURL, sLine){ return true; }
+			window.onerror = fnSupressError ;
+		</script>
+		
+		<script language="JScript" type="text/javascript" defer="true" for="IUCtl" event="OnProgress(bstrUuidOperation, fItemCompleted, bstrDownloadProgress, plCommandRequest)">control_OnProgress(bstrUuidOperation, fItemCompleted, bstrDownloadProgress, plCommandRequest);</script>
+		<script language="JScript" type="text/javascript" defer="true" for="IUCtl" event="OnComplete(lErrorCode)">control_OnComplete(lErrorCode);</script>
+		<script language="JScript" type="text/javascript" defer="true" for="IUCtl" event="OnOperationComplete(bstrUuidOperation, bstrXmlItems)">control_OnOperationComplete(bstrUuidOperation, bstrXmlItems);</script>
+		<script language="JScript" type="text/javascript" defer="true" for="IUCtl" event="OnItemStart(bstrOperation, bstrItemID)">control_OnItemStart(bstrOperation, bstrItemID);</script>
+		<script language="JScript" type="text/javascript" src="/shared/js/top.js?201034221435"></script>
+		<script id="top2" language="JScript" type="text/javascript" defer="true" src="/shared/js/top2.js?201034221435"></script>
+		<script language="VBScript" type="text/vbscript" src="/shared/js/top.vbs?201034221435"></script>
+		<script language="JScript" type="text/javascript" src="/shared/js/survey.js?201034221435"></script>
+		<script language="JScript" type="text/javascript" defer="true">
+var conWinNT = ;
+var conQueryString = "";
+var conRTL = false;
+var conCriticalUpdatesMode = false;
+var conBrowserVersion = ;
+var conLangCode = "sv";
+var conConsumerURL = "/sv/";
+var conCatalogURL = "/catalog/sv/";
+var g_bCorporate = true;
+var g_sLang = "";
+var L_AlreadyDownloadedAddedText_Text = "Om du vill installera uppdateringen går du till <b>Granska och installera uppdateringar </b> och klickar sedan på <b>Installera</b>.";
+var L_AlreadyDownloadedRemovedText_Text = "Om du vill installera uppdateringen lägger du till den till dina valda uppdateringar. Klicka på <b>Granska och installera uppdateringar</b> och klicka sedan på <b>Installera</b>.";
+var L_InstallAlert_Text = "";
+var L_DependenciesShow_Text = "Visa installationskrav";
+var L_DependenciesHide_Text = "Dölj installationskrav";
+var L_DependenciesBoxText_Text = "Följande objekt installeras automatiskt när du installerar |UPDATE|:";
+var L_DependenciesBoxHidden_Text = "Ytterligare krav";
+var L_DependenciesTotal_Text = "Totalt:";
+var L_Total_Text = "Totalt:";
+var L_ScanForAvailableUpdates_Text = "Välj uppdateringar";
+var L_Complete_Text = "klart";
+var L_CriticalUpdates_Text = "Viktiga uppdateringar och Service Pack-versioner";
+var L_TOCUpdateBasket_Text = "";
+var L_ExclusivePopupText_Text = "|EXCLUSIVE| kan inte installeras samtidigt som andra uppdateringar.\n\nOm du lägger till |EXCLUSIVE| i listan på Windows Update tas alla andra objekt automatiskt bort från listan.\n\nOm du vill ta bort alla andra objekt och lägga till |EXCLUSIVE| klickar du på OK.\nOm du vill fortsätta utan att lägga till |EXCLUSIVE| klickar du på Avbryt.";
+var L_ExclusivePopupOverwriteText_Text = "Listan innehåller för närvarande |EXCLUSIVE|, som måste installeras separat.\n\nOm du vill ta bort |EXCLUSIVE| från listan och lägga till |UPDATE| i stället klickar du på OK.\nOm du vill behålla |EXCLUSIVE| och inte lägga till |UPDATE| klickar du på Avbryt.";
+var L_ExclusiveCriticalText_Text = "Listan över valda uppdateringar innehåller just nu |EXCLUSIVE|, som måste installeras separat.\n\nOm du vill fortsätta installera |EXCLUSIVE| klickar du på OK. Om du vill installera de andra uppdateringarna när installationen har slutförts klickar du på Granska och installera uppdateringar och sedan på Installera. Om du vill återgå till listan med valda uppdateringar utan att installera |EXCLUSIVE| klickar du på Avbryt.";
+var L_ReloadingSiteText_Text = "Webbplatsen Windows Update har inte laddats klart.\nOm du vill fortsätta att vänta klickar du på OK.\nOm du vill ladda webbplatsen igen klickar du på Avbryt.";
+var L_MB_Text = "MB";
+var L_KB_Text = "kB";
+var L_Hour_Text = "timme";
+var L_Hours_Text = "timmar";
+var L_Minute_Text = "minut";
+var L_Minutes_Text = "minuter";
+var L_ProgressInstallDesc_Text = "Vänta medan uppdateringarna installeras på din dator.";
+var L_ProgressPreparingToInstall_Text = "Hämtningen är slutförd. Förbereder installation...";
+var L_Reboot_Text = "Du måste starta om datorn för att slutföra installationen.\nOm du vill starta om datorn senare, eller avsluta andra program först, klickar du på Avbryt och startar sedan om datorn manuellt.\n\nVill du starta om datorn nu?";
+var L_CancelInstall_Text = "Om du går till en annan sida avbryts installationen. Klicka på Avbryt om du vill stanna kvar på den här sidan och slutföra installationen.";
+var L_CancelDownload_Text = "Om du går till en annan sida misslyckas hämtningen. Klicka på Avbryt om du vill stanna kvar på den här sidan och slutföra hämtningen.";
+var L_CorporateDownloadBasket_Text = "Gå till hämtningskorgen";
+var L_HistoryNoTitle_Text = "Det går inte att avgöra uppdateringens namn";
+var L_ReadMore_Text = "Mer information...";
+var L_ReadMoreNotEnglish_Text = "(Webbplatsen kan vara på engelska.)";
+var L_Details_Text = "Mer information...";
+var L_Location_Text = "Plats:";
+var L_FailedToDownload_Text = "Det gick inte att genomföra hämtningen";
+var L_CanceledDownload_Text = "Hämtningen avbröts";
+var L_StatusComplete_Text = "Lyckades";
+var L_StatusInProgress_Text = "Pågår";
+var L_StatusCanceled_Text = "Avbröts";
+var L_StatusFailed_Text = "Misslyckades";
+var L_SourceIUSite_Text = "Webbplats";
+var L_SourceCDM_Text = "Enhetshanteraren";
+var L_SourceWUV3_Text = "Webbplats";
+var L_SourceAU_Text = "Automatisk uppdatering";
+var L_SourceOther_Text = "Annat";
+var L_ProductUpdatesAlt_Text = "Välj i en lista över uppdateringar för |PRODUCT|.";
+var L_CancelInstall2_Text = "Om du lämnar den här sidan kommer installationen att avbrytas. Vissa objekt kommer inte att installeras.";
+var L_PersonalizationSaveSettingsPrompt_Text = "Du har ändrat inställningarna.\nKlicka på OK om du vill spara ändringarna. Om du vill fortsätta utan att spara klickar du på Avbryt.";
+var L_CanceledEULAText_Text = "Du accepterade inte licensavtalet för det här objektet. Om du inte vill installera det här objektet kan du ta bort det.";
+var L_SplashPickUpdatesCriticalText4_Text = "Ett fel uppstod vid sökning efter uppdaterade drivrutiner. Det går inte att visa någon lista över uppdaterade drivrutiner i din dator.";
+var L_ErrorSupport_Text = "Du kan även få <a href=\"support.asp\" class=\"sys-link-normal\">onlinesupport</a> om du har problem med Windows Update.";
+
+		</script>
+
+	</head>
+	<noscript>
+<frameset  rows="80, *, 24" border="0"><frame name="eToolbar" src="/sv/mstoolbar.asp?corporate=true&error=1&" noresize="yes" style="border-bottom: 1px solid white;" /><frameset  cols="250,*" framespacing="3"><frame name="eTOC" src="/sv/toc.asp?corporate=true&error=1&" /><frame name="eContent" src="/sv/error.asp?corporate=true&error=1&" /></frameset><frame name="eFooter" src="/sv/footer.asp" noresize="yes" style="border-top: 1px solid white;" /></frameset>
+	</noscript>
+<frameset  rows="80, *, 24" border="0"><frame name="eToolbar" src="/sv/mstoolbar.asp?corporate=true&" noresize="yes" style="border-bottom: 1px solid white;" /><frameset  cols="250,*" framespacing="3"><frame name="eTOC" src="/sv/toc.asp?corporate=true&" /><frame name="eContent" src="/sv/splash.asp?page=0&corporate=true&" /></frameset><frame name="eFooter" src="/sv/footer.asp" noresize="yes" style="border-top: 1px solid white;" /></frameset>
+</html>
+

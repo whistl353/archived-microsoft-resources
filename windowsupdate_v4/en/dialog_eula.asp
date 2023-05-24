@@ -1,0 +1,28 @@
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<meta http-equiv="Content-Type" content="text/html;charset=windows-1252" />
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta name="MSSmartTagsPreventParsing" content="yes" />
+		<script language="JScript" type="text/javascript">function window.onerror(sMessage, sURL, sLine){ return true; }</script><script language="JScript" type="text/javascript" src="/shared/js/dialog2.js"></script><link rel="stylesheet" type="text/css" href="/shared/css/hcp.css" />
+		<link rel="stylesheet" type="text/css" href="/shared/css/dialog2.css" />
+		
+		<title>Microsoft Windows Update</title>
+	</head>
+	<body onload="fnInitDialog(9);fnInitEULA('missingeula.asp');" class="eula">
+		For the following updates:<br />
+		<div id="eUpdateTitles" class="eulaUpdateTitles" tabindex="1"></div>
+		Please read the following license agreement. Press the PAGE DOWN key to see the rest of the agreement.<br />
+
+		<iframe id="eDefaultButton" src="missingeula.asp" style="margin-top: 3px;width:100%;height:150px;"></iframe><br /><br />
+
+		<b>Do you accept the terms of the pending License Agreement?</b><br /><br />
+If you choose Don't Accept, install will close. To install you must accept this agreement.
+		<br /><br />
+		<div class="buttons">
+			<button id="eAcceptEULA" onclick="window.dialogArguments[0].g_bEULAAccepted=true;window.close();" disabled="true">Accept</button>&nbsp;<button onclick="window.close();">Don't Accept</button>
+			<button id="btPrint"  onclick="window.frames('eDefaultButton').document.execCommand('Print',true);">Print</button>
+		</div>
+	</body>
+</html>

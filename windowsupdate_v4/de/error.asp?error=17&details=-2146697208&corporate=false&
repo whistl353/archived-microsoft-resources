@@ -1,0 +1,26 @@
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<meta http-equiv="Content-Type" content="text/html;charset=windows-1252" />
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta name="MSSmartTagsPreventParsing" content="yes" />
+		<script language="JScript" type="text/javascript">function window.onerror(sMessage, sURL, sLine){ return true; }</script><script language="JScript" type="text/javascript" src="/shared/js/content.js"></script><link rel="stylesheet" type="text/css" href="/shared/css/hcp.css" />
+		<link rel="stylesheet" type="text/css" href="/shared/css/content.css" />
+		
+		<title>Inhaltsframe</title>
+	</head>
+	<body onload="if(self != top && 'function' ==  typeof(fnInit)) fnInit(0, 17);">
+		<img src="/shared/images/info_icon.gif" class="icon32" alt="Wichtige Informationen" /><span class="sys-font-heading3 sys-rhp-color-title">Windows Update-Fehler</span><br /><br />
+		<div class="error">
+Windows Update hat einen Fehler festgestellt. Möglicherweise liegt ein Problem mit der Zeiteinstellung Ihres Computers vor.<br /><br />
+So überprüfen Sie die Datums- und Uhrzeiteinstellungen<br /><ol>
+<li>Doppelklicken Sie auf der Taskleiste auf die Uhrzeitanzeige.</li>
+<li>Stellen Sie sicher, dass die Datums- und Uhrzeitangaben richtig sind.</li>
+		</div>
+		<br /><br />
+		Nutzen Sie den <a href="support.asp" class="sys-link-normal">Onlinesupport</a>, falls bei Windows Update Fehler auftreten sollten.<br /><br />
+<div style="margin: 2px;"><a href="mailto:winupsup@microsoft.com?Subject=Windows Update Feedback   (ERROR 0x800C0008)" class="sys-link-normal">Fehlernummer an Microsoft senden</a> (0x800C0008)<br />
+<b><b>Hinweis</b></b> Hiermit werden Fehlerinformationen gesendet, jedoch kein Supportereignis erstellt. Möglicherweise erhalten Sie keine Antwort.<br /></div>
+	</body>
+</html>

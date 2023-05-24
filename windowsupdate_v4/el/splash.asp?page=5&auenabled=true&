@@ -1,0 +1,24 @@
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<meta http-equiv="Content-Type" content="text/html;charset=windows-1253" />
+		<meta http-equiv="MSThemeCompatible" content="yes" />
+		<meta name="MSSmartTagsPreventParsing" content="yes" />
+		<script language="JScript" type="text/javascript">function window.onerror(sMessage, sURL, sLine){ return true; }</script><script language="JScript" type="text/javascript" src="/shared/js/content.js"></script><link rel="stylesheet" type="text/css" href="/shared/css/hcp.css" />
+		<link rel="stylesheet" type="text/css" href="/shared/css/content.css" />
+		
+		<title>Πλαίσιο περιεχομένων</title>
+		
+	</head>
+	<body onload="if('function' == typeof(fnInitSplashPage)) fnInitSplashPage(1, 5);" class="splash">
+
+		<span class="sys-font-heading3 sys-rhp-color-title">Επιλογή ενημερωμένων εκδόσεων για εγκατάσταση</span><br /><br />
+
+		Το Windows Update έχει εντοπίσει &nbsp;<span id="eCriticalUpdates"></span>&nbsp;κρίσιμες ενημερωμένες εκδόσεις για τον υπολογιστή σας.<br /><br />
+
+		<a href="javascript:parent.fnDisplayBasketUpdates();" title="Προβάλετε τις κρίσιμες ενημερωμένες εκδόσεις για τον υπολογιστή σας και ξεκινήστε τη διαδικασία εγκατάστασης." class="sys-link-normal"><img src="/shared/images/arrow.gif" class="arrow" align="absmiddle" alt="[Πράσινο βέλος.]" title="Προβάλετε τις κρίσιμες ενημερωμένες εκδόσεις για τον υπολογιστή σας και ξεκινήστε τη διαδικασία εγκατάστασης." />Αναθεώρηση και εγκατάσταση κρίσιμων ενημερωμένων εκδόσεων</a><br /><br />
+	
+	</body>
+</html>
+

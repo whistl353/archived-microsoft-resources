@@ -1,0 +1,464 @@
+
+<script language="javascript">
+
+/*function window::onResize() {
+	fnPositionCopyrightLink()
+}*/
+function window::onload(){
+	
+if(!parent.conDevServer){
+		document.ondragstart = new Function("return false;");
+		document.oncontextmenu = new Function("return false;");
+	}
+	//document.oncontextmenu = new Function("return false;");
+}
+function checkrightclick(){
+event.cancelBubble=true;
+return true;
+}
+/*function fnPositionCopyrightLink(){
+	eCopyright.style.position = "static";
+	var tmr = window.setTimeout("fnPCL()",1000);
+	eCopyright.style.display = "none";
+}*/
+
+
+function fnPCL() {
+	var iContentHeight, iAvailableHeight;
+	
+	eCopyright.style.position = "static";
+	iContentHeight = document.body.scrollHeight;
+	iAvailableHeight = document.body.offsetHeight;
+
+	if(iContentHeight <= (iAvailableHeight - 25)){
+		eCopyright.style.position = "absolute";
+		eCopyright.style.top = "auto";
+		eCopyright.style.bottom = "0px";
+	}else{
+		eCopyright.style.position = "static";
+	}
+	eCopyright.style.display = "block"
+	//window.status = "contentHeight=" + iContentHeight + ", AvailableHeight=" + iAvailableHeight + ", position=" + eCopyright.style.position
+}
+
+
+/* for sorting the the language*/
+function sortlanguage(selectname,formname){
+	var iTxt = new Array();
+	var sTxt = new Array();
+	var nLang = 25;
+
+	iTxt[0]="«·⁄—»Ì…" + "@" + "ar|1256"
+	//iTxt[1]="œ⁄„ ··€… «·⁄—»Ì…" + "@" + "en_arabic|1252"
+	iTxt[1]=" —ﬂÌ" + "@" + "tr|1254"
+	iTxt[2]="’Ì‰Ì „»”¯ÿ " + "@" + "zhcn|936"
+	iTxt[3]="’Ì‰Ì  ﬁ·ÌœÌ " + "@" + "zhtw|950"
+	iTxt[4]="«· ‘ÌﬂÌ…" + "@" + "cs|1250"
+	iTxt[5]="«·œ«‰„«—ﬂÌ…" + "@" + "da|1252"
+	iTxt[6]="«·ÂÊ·‰œÌ…" + "@" + "nl|1252"
+	iTxt[7]="«·≈‰ﬂ·Ì“Ì…" + "@" + "en|1252"
+	iTxt[8]="«·›‰·‰œÌ…" + "@" + "fi|1252"
+	iTxt[9]="«·›—‰”Ì…" + "@" + "fr|1252"
+	iTxt[10]="«·√·„«‰Ì…" + "@" + "de|1252"
+	iTxt[11]="«·ÌÊ‰«‰Ì…" + "@" + "el|1253"
+	//iTxt[12]="IBM ÌÊ‰«Ì" + "@" + "el_ibm|869"
+	iTxt[12]="”ÊÌœÌ" + "@" + "sv|1252"
+	iTxt[13]="«·⁄»—Ì…" + "@" + "he|1255"
+	//iTxt[14]="œ⁄„ ··€… «·⁄»—Ì…" + "@" + "en_hebrew|1252"
+	iTxt[14]="«”»«‰Ì" + "@" + "es|1252"
+	iTxt[15]="«·Â‰€«—Ì…" + "@" + "hu|1250"
+	iTxt[16]="«·≈Ìÿ«·Ì…" + "@" + "it|1252"
+	iTxt[17]="«·Ì«»«‰Ì…" + "@" + "ja|932"
+	iTxt[18]="NEC Ì«»«‰Ì" + "@" + "nec|932"
+	iTxt[19]="«·ﬂÊ—Ì…" + "@" + "ko|949"
+	iTxt[20]="«·‰—ÊÌÃÌ…" + "@" + "no|1252"
+	iTxt[21]="«·»Ê·Ê‰Ì…" + "@" + "pl|1250"
+	iTxt[22]="»— €«·Ì («·»—«“Ì·)" + "@" + "ptbr|1252"
+	iTxt[23]="»— €«·Ì (ﬁÌ«”Ì)" + "@" + "pt|1252"
+	iTxt[24]="—Ê”Ì" + "@" + "ru|1251"
+	//iTxt[25]="”·Ê›«ﬂÌ" + "@" + "sk|1250"
+	//iTxt[26]="”·Ê›Ì‰Ì" + "@" + "sl|1250"
+	
+	
+	//iTxt[29]="œ⁄„ ··€… «· «Ì·«‰œÌ…" + "@" + "en_thai|1252"
+	
+
+	jTxt = iTxt.sort();
+
+	var s, i, a
+
+	s = ""
+	lan="ar"
+	
+	s += "<select NAME='" + selectname + "' ID='" + selectname + "' onchange='sethiddendata(" + selectname + "," + formname + ")'>"
+	for(i=0; i < nLang; i++) {	
+		a = jTxt[i].split("@")
+		aa=a[1].split("|")
+		if (aa[0].toLowerCase( )== lan.toLowerCase( )){
+			s += "<option VALUE=" + a[1] + " Selected>" + a[0] + "</option>"
+		}
+		else{
+			s += "<option VALUE=" + a[1] + ">" + a[0] + "</option>"
+		}
+		
+	}
+	s += "</select>"	
+	
+	languagecont.innerHTML=s
+	HSelLang = eval(formname + ".HSelLang")
+	if (HSelLang.value != 0 ){
+		selecttext=eval(formname + "."  + selectname)		
+		selecttext.value=HSelLang.value
+	}
+	
+}
+
+
+/*for sorting the the language*/
+
+function sethiddendata(selectname,formname){
+	HSelLang = eval(formname.name + ".HSelLang")	
+	HSelLang.value=selectname.value	
+}
+
+</script><html dir='rtl'>
+<head>
+<title>Microsoft Windows Update</title>
+<meta NAME="robots" CONTENT="noindex">
+<meta http-equiv="Content-Type" content="text/html;charset=windows-1256" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))'>
+<meta http-equiv="MSThemeCompatible" content="Yes">
+<link rel="stylesheet" type="text/css" href="/catalog/shared/css/content.css">
+<link rel="stylesheet" type="text/css" href="hcp://system/css/shared.css" />
+
+
+
+<style type="text/css">
+<!--
+	body { margin: 15px; }
+	td { font-family: Verdana;font-size: 68.25%; }
+	td a { font-weight:normal;text-decoration:none }
+	hr {  color:gray;height:1px; }
+	select { margin-top:5px; margin-bottom:5px;width:300px;}
+	form { margin-top:0px; margin-bottom: 4px; }
+	h4.clsHeader { color:gray;font-family:verdana; }
+-->
+</style>
+
+<script language="javascript" src="/catalog/shared/js/content.js"></script>
+<script language="javascript" defer="true">
+<!--
+
+function Docheck(){
+	var selected=0
+	if (frmMan.selOS.value == ""){
+		alert("«Œ — ‰Ÿ«„  ‘€Ì·");
+		return false;
+	}
+	else{
+		document.frmMan.submit();
+		return true;
+	}
+}
+function frmsubmitcheck(){
+
+	return Docheck()
+}
+var g_oLearnMoreDlg;
+function goLearnKeywords(){
+	if (g_oLearnMoreDlg == null) {
+		g_oLearnMoreDlg = window.showModelessDialog("LearnKeywords.asp",window,"help:no;status:no;resizable:no;dialogWidth:500px;dialogHeight:450px" );
+	}
+}
+
+
+//-->
+var fraLEFT = parent.frames["eTOC"];
+
+	function SetItemCount()
+	{
+		eBasketStats.innerText = 0;
+
+		if( "" != fraLEFT.sBasketString )
+		{
+			var aBasketItems = fraLEFT.sBasketString.split( "," );
+			var iLen = aBasketItems.length - 1;
+			eBasketStats.innerText = parseInt( iLen );
+
+		}
+	}
+function gobasket()
+	{
+		basketform.os_sBasket.value=parent.frames["eTOC"].os_sBasket;
+		basketform.driver_sBasket.value=parent.frames["eTOC"].driver_sBasket;
+		basketform.speed.value=parent.g_iConnectionSpeed;
+		basketform.submit();
+
+	}
+</script>
+</head>
+<body   style="MARGIN-TOP: 11px;MARGIN-LEFT: 16px;MARGIN-RIGHT: 16px;">
+
+
+<form name="basketform" id="basketform" action="downloadbasket.asp" method="post">
+		<input type="hidden" name="os_sBasket" id="os_sBasket">
+		<input type="hidden" name="driver_sBasket" id="driver_sBasket">
+		<input type="hidden" name="speed" id="speed">
+</form>
+<form name="frmMan" id="frmMan" action="driverDetails.asp" onsubmit="return frmsubmitcheck()">
+	<input type="hidden" name="hdnCat" value="Printers" />
+	<input type="hidden" name="lCat" value="" />
+	<input type="hidden" name="clan" value="" />
+	<input type="hidden" name="speed" id="speed">
+	<input type="hidden" name="HSelLang" id="HSelLang" value=0>
+
+
+
+
+
+<span id="eBasketStats" name="eBasketStats" style="display:none"></span>
+<span class="title sys-font-heading3 sys-rhp-color-title">»—«„Ã  ‘€Ì· «·√ÃÂ“… - </span><br>
+<div class="8pt sys-font-body sys-color-body">Õœœ „Ã«· «·»ÕÀ · ÕœÌÀ«  »—«„Ã «· ‘€Ì· »«Œ Ì«— «·„’‰¯⁄. À„ ﬁ„ » ⁄ÌÌ‰ »«ﬁÌ «·„⁄«ÌÌ— √œ‰«Â, Ê„‰ À„ «‰ﬁ— ›Êﬁ <b>«·»ÕÀ</b>.<br><br></div>
+	<table cellspacing="0" border="0" width="100%" class="tblborder sys-table-color-border sys-table-cell-bgcolor2">
+		<tr><td>
+		<table cellpadding="0" cellspacing="0" border="0" class="innertbl" height="100%"width="100%">
+				<tr>
+					<td><img src="/catalog/images/ts.gif" height=5 width=1><br>
+						<span id="spnDesc">”„ «·„’‰¯⁄:</span><br>
+						<span>
+							<select name="selMan" size=6>
+								
+													<option value="brotherindustriesltd|Brother Industries, ltd." SELECTED>Brother Industries, ltd.</option>
+
+												
+													<option value="compaqcomputercorporation|Compaq Computer Corporation">Compaq Computer Corporation</option>
+
+												
+													<option value="creoilltd|Creo IL Ltd.">Creo IL Ltd.</option>
+
+												
+													<option value="developgmbh|Develop GmbH">Develop GmbH</option>
+
+												
+													<option value="dymocorporation|DYMO Corporation">DYMO Corporation</option>
+
+												
+													<option value="eastmankodakcompany|Eastman Kodak Company">Eastman Kodak Company</option>
+
+												
+													<option value="fargoelectronicsinc|Fargo Electronics, Inc.">Fargo Electronics, Inc.</option>
+
+												
+													<option value="genicomtechnologyincorporated|Genicom Technology, Incorporated">Genicom Technology, Incorporated</option>
+
+												
+													<option value="gestetnercorporation|Gestetner Corporation">Gestetner Corporation</option>
+
+												
+													<option value="hewlettpackardcompany|Hewlett-Packard Company">Hewlett-Packard Company</option>
+
+												
+													<option value="internationalbusinessmachinesinc|International Business Machines, Inc">International Business Machines, Inc</option>
+
+												
+													<option value="kyoceratechnologydevelopmentinc|Kyocera Technology development, Inc.">Kyocera Technology development, Inc.</option>
+
+												
+													<option value="kyushumatsushitaelectriccoltd|Kyushu Matsushita Electric Co., Ltd.">Kyushu Matsushita Electric Co., Ltd.</option>
+
+												
+													<option value="lanierworldwideinc|Lanier Worldwide Inc.">Lanier Worldwide Inc.</option>
+
+												
+													<option value="legendbeijinglimited|Legend (Beijing) limited">Legend (Beijing) limited</option>
+
+												
+													<option value="lexmarkinternationalinc|Lexmark International, Inc.">Lexmark International, Inc.</option>
+
+												
+													<option value="matsushitagraphiccommunicationsystemsinc|Matsushita Graphic Communication Systems,Inc">Matsushita Graphic Communication Systems,Inc</option>
+
+												
+													<option value="minoltaqmsinc|Minolta-QMS, Inc.">Minolta-QMS, Inc.</option>
+
+												
+													<option value="nrgmanagementltd|NRG Management Ltd">NRG Management Ltd</option>
+
+												
+													<option value="okidatacorporation|Oki Data Corporation">Oki Data Corporation</option>
+
+												
+													<option value="olidataspa|Olidata S.p.A.">Olidata S.p.A.</option>
+
+												
+													<option value="panasoniccommunicationscoltd|Panasonic Communications Co., Ltd.">Panasonic Communications Co., Ltd.</option>
+
+												
+													<option value="peerlesssystemscorporation|Peerless Systems Corporation">Peerless Systems Corporation</option>
+
+												
+													<option value="pentaxofamerica|Pentax of America">Pentax of America</option>
+
+												
+													<option value="ricohcompanylimited|RICOH Company Limited">RICOH Company Limited</option>
+
+												
+													<option value="samsungelectronicscoltd|Samsung Electronics CO., LTD.">Samsung Electronics CO., LTD.</option>
+
+												
+													<option value="savincorporation|Savin Corporation">Savin Corporation</option>
+
+												
+													<option value="seikoepsoncorporation|SEIKO EPSON Corporation">SEIKO EPSON Corporation</option>
+
+												
+													<option value="sharpcorp|Sharp Corp,">Sharp Corp,</option>
+
+												
+													<option value="sindoricoh|Sindoricoh">Sindoricoh</option>
+
+												
+													<option value="sonycorporation|Sony Corporation">Sony Corporation</option>
+
+												
+													<option value="sonycorporationeprintcompany|Sony Corporation E-Print Company">Sony Corporation E-Print Company</option>
+
+												
+													<option value="trigemcomputerinc|TriGem Computer Inc.">TriGem Computer Inc.</option>
+
+												
+													<option value="xeroxcorporation|Xerox Corporation">Xerox Corporation</option>
+
+												
+							</select>
+						</span></td>
+					</tr>
+
+
+					<tr><td class="8pt sys-font-body sys-color-body">‰Ÿ«„ «· ‘€Ì·:</td></tr>
+					<tr>
+						<td>
+							<select name="selOS" id="selOS">
+								<option value="" selected>«Œ — ‰Ÿ«„  ‘€Ì·</option>
+								<option value='ver_platform_win32_nt.5.2.ia64.ver_nt_server.ver_suite_datacenter.3790.0.0'><pre>64-bit version of Windows Server 2003, DTC RTM</pre></option>
+<option value='ver_platform_win32_nt.5.2.ia64.ver_nt_server.ver_suite_enterprise.3790.0.0'><pre>64-bit version of Windows Server 2003, Enterprise Edition</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.ver_suite_enterprise.2195.0.0'><pre>Windows 2000 Advanced Server RTM</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.ver_suite_enterprise.2195.1.0'><pre>Windows 2000 Advanced Server SP1</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.ver_suite_enterprise.2195.2.0'><pre>Windows 2000 Advanced Server SP2</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.ver_suite_enterprise.2195.3.0'><pre>Windows 2000 Advanced Server SP3</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.ver_suite_enterprise.2195.4.0'><pre>Windows 2000 Advanced Server SP4</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_workstation.n.2195.0.0'><pre>Windows 2000 Professional RTM</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_workstation.n.2195.1.0'><pre>Windows 2000 Professional SP1</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_workstation.n.2195.2.0'><pre>Windows 2000 Professional SP2</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_workstation.n.2195.3.0'><pre>Windows 2000 Professional SP3</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_workstation.n.2195.4.0'><pre>Windows 2000 Professional SP4</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.n.2195.0.0'><pre>Windows 2000 Server RTM</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.n.2195.1.0'><pre>Windows 2000 Server SP1</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.n.2195.2.0'><pre>Windows 2000 Server SP2</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.n.2195.3.0'><pre>Windows 2000 Server SP3</pre></option>
+<option value='ver_platform_win32_nt.5.0.x86.ver_nt_server.n.2195.4.0'><pre>Windows 2000 Server SP4</pre></option>
+<option value='ver_platform_win32_windows.4.10.x86.....'><pre>Windows 98 and Windows 98 Second Edition</pre></option>
+<option value='ver_platform_win32_windows.4.90.x86...3000..'><pre>Windows Millennium Edition</pre></option>
+<option value='ver_platform_win32_nt.5.2.x86.ver_nt_server.ver_suite_datacenter.3790.0.0'><pre>Windows Server 2003, Datacenter Edition RTM</pre></option>
+<option value='ver_platform_win32_nt.5.2.x86.ver_nt_server.ver_suite_enterprise.3790.0.0'><pre>Windows Server 2003, Enterprise Edition</pre></option>
+<option value='ver_platform_win32_nt.5.2.x86.ver_nt_server.n.3790.0.0'><pre>Windows Server 2003, Standard Edition</pre></option>
+<option value='ver_platform_win32_nt.5.2.x86.ver_nt_server.ver_suite_blade.3790.0.0'><pre>Windows Server 2003, Web Edition</pre></option>
+<option value='ver_platform_win32_nt.5.1.ia64.ver_nt_workstation.n.2600..'><pre>Windows XP 64-Bit Edition</pre></option>
+<option value='ver_platform_win32_nt.5.1.ia64.ver_nt_workstation.n.2600.0.0'><pre>Windows XP 64-Bit Edition RTM</pre></option>
+<option value='ver_platform_win32_nt.5.1.ia64.ver_nt_workstation.n.2600.1.0'><pre>Windows XP 64-Bit Edition SP1</pre></option>
+<option value='ver_platform_win32_nt.5.2.ia64.ver_nt_workstation.n.3790.0.0'><pre>Windows XP 64-Bit Edition Version 2003 RTM</pre></option>
+<option value='ver_platform_win32_nt.5.1.x86.ver_nt_workstation.ver_suite_personal.2600.0.0'><pre>Windows XP Home Edition RTM</pre></option>
+<option value='ver_platform_win32_nt.5.1.x86.ver_nt_workstation.ver_suite_personal.2600.1.0'><pre>Windows XP Home Edition SP1</pre></option>
+<option value='ver_platform_win32_nt.5.1.x86.ver_nt_workstation.n.2600.0.0'><pre>Windows XP Professional RTM</pre></option>
+<option value='ver_platform_win32_nt.5.1.x86.ver_nt_workstation.n.2600.1.0'><pre>Windows XP Professional SP1</pre></option>
+
+							</select></td>
+					</tr>
+					<tr><td class="8pt sys-font-body sys-color-body">«··€…:</td></tr>
+					<tr>
+						<td name="languagecont" id="languagecont">
+							<!--<select name="selLang" id="selLang">
+								<option VALUE="ar|1256">«·⁄—»Ì…</option>
+								<option VALUE="en_arabic|1252">œ⁄„ ··€… «·⁄—»Ì…</option>
+								<option VALUE="zhcn|936">’Ì‰Ì „»”¯ÿ </option>
+								<option VALUE="zhtw|950">’Ì‰Ì  ﬁ·ÌœÌ </option>
+								<option VALUE="cs|1250">«· ‘ÌﬂÌ…</option>
+								<option VALUE="da|1252">«·œ«‰„«—ﬂÌ…</option>
+								<option VALUE="nl|1252">«·ÂÊ·‰œÌ…</option>
+								<option VALUE="en|1252" selected>«·≈‰ﬂ·Ì“Ì…</option>
+								<option VALUE="fi|1252">«·›‰·‰œÌ…</option>
+								<option VALUE="fr|1252">«·›—‰”Ì…</option>
+								<option VALUE="de|1252">«·√·„«‰Ì…</option>
+								<option VALUE="el|1253">«·ÌÊ‰«‰Ì…</option>
+								<option VALUE="el_ibm|869">IBM ÌÊ‰«Ì</option>
+								<option VALUE="he|1255">«·⁄»—Ì…</option>
+								<option VALUE="en_hebrew|1252">œ⁄„ ··€… «·⁄»—Ì…</option>
+								<option VALUE="hu|1250">«·Â‰€«—Ì…</option>
+								<option VALUE="it|1252">«·≈Ìÿ«·Ì…</option>
+								<option VALUE="ja|932">«·Ì«»«‰Ì…</option>
+								<option VALUE="nec|932">NEC Ì«»«‰Ì</option>
+								<option VALUE="ko|949">«·ﬂÊ—Ì…</option>
+								<option VALUE="no|1252">«·‰—ÊÌÃÌ…</option>
+								<option VALUE="pl|1250">«·»Ê·Ê‰Ì…</option>
+								<option VALUE="ptbr|1252">»— €«·Ì («·»—«“Ì·)</option>
+								<option VALUE="pt|1252">»— €«·Ì (ﬁÌ«”Ì)</option>
+								<option VALUE="ru|1251">—Ê”Ì</option>
+								<option VALUE="sk|1250">”·Ê›«ﬂÌ</option>
+								<option VALUE="sl|1250">”·Ê›Ì‰Ì</option>
+								<option VALUE="es|1252">«”»«‰Ì</option>
+								<option VALUE="sv|1252">”ÊÌœÌ</option>
+								<option VALUE="en_thai|1252">œ⁄„ ··€… «· «Ì·«‰œÌ…</option>
+								<option VALUE="tr|1254"> —ﬂÌ</option>
+							</select>-->
+						</td>
+					</tr>
+					<tr><td class="8pt sys-font-body sys-color-body"> «—ÌŒ «·‰‘— ≈·Ï ÊÌ»:</td></tr>
+					<tr>
+						<td>
+							<select id="selPostDate" name="selPostDate">
+								<option value="0">ﬂ«›… «· «—ÌŒ «·„‰‘Ê—</option>
+								<option value="7">«·√”»Ê⁄ «·”«»ﬁ</option>
+								<option value="14">«·√”»Ê⁄«‰ «·”«»ﬁ«‰</option>
+								<option value="30">«·‘Â— «·”«»ﬁ</option>
+								<option value="60">‘Â—«‰ ”«»ﬁ«‰</option>
+								<option value="180">6 √‘Â— ”«»ﬁ…</option>
+								<option value="365">«·⁄«„ «·”«»ﬁ</option>
+							</select></td>
+					</tr>
+					<tr>
+						<td>
+							 Õ ÊÌ ⁄·Ï Â–Â «·ﬂ·„« :&nbsp;&nbsp;
+							<a class='sys-link-normal' href="javascript:goLearnKeywords()">√Œ»—‰Ì ⁄‰ «” Œœ«„ «·ﬂ·„«  · ÕœÌœ „Ã«· ⁄„·Ì… «·»ÕÀ</a></td>
+					</tr>
+					<tr>
+						<td class="8pt sys-font-body sys-color-body">
+							<input type="text" name="eKeyWord" SIZE=60 maxlength=100 oncontextmenu=checkrightclick()></td>
+					</tr>
+					<tr><td>&nbsp;</td></tr>
+					<tr >
+						<td align="left" class="osbutton sys-table-header-bgcolor1" valign=middle>
+							<!--<button onclick="history.go(-1);">&lt;&nbsp;Back</button>-->
+
+							<button onClick="javascript:Docheck()"onresize="document.recalc('true')" style="width:expression(buttonspan.offsetWidth + 10)"><span id="buttonspan" name="buttonspan">«·»ÕÀ</span></button>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	
+
+</form>
+</body>
+</html>
+<script language="javascript">
+function window.onload(){
+	var NoResults = 0
+	frmMan.speed.value=parent.g_iConnectionSpeed;
+	SetItemCount()
+	if(NoResults == 0) {
+		sortlanguage("selLang","frmMan")
+
+	}
+}
+</script>

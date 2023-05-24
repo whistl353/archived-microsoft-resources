@@ -1,26 +1,32 @@
-name: Download Windows Update V3 from Wayback Machine
+name: Download Archive and Commit
 
 on:
   workflow_dispatch:
 
 jobs:
-  download_and_push:
+  download_and_commit:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-      - name: Install Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.1'
-      - name: Install Wayback Machine Downloader
-        run: gem install wayback_machine_downloader
-      - name: Download Site
-        run: wayback_machine_downloader http://v4.windowsupdate.microsoft.com -d ./windowsupdate_v4
-      - name: Commit and push changes
-        run: |
-          git config --local user.email "whistl353@github.com"
-          git config --local user.name "whistl353"
-          git add windowsupdate_v4
-          git commit -m "Update website archive from Wayback Machine"
-          git push
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.7
+
+    - name: Install wayback_machine_downloader
+      run: gem install wayback_machine_downloader
+
+    - name: Download archived website
+      run: wayback_machine_downloader https://v4.windowsupdate.microsoft.com --directory windowsupdate_v4
+      # Replace https://example.com with the website you want to download
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add -A
+        git commit -m "Download and update archived website" || echo "No changes to commit"
+        git push

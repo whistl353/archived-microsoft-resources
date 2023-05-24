@@ -1,0 +1,17 @@
+body {
+	color: white;
+	background-color: #6487DC;
+	font-family: Verdana;
+	margin: 0px 7px 0px 7px;
+	font-size: 62.5%;
+	line-height: 22px;
+	cursor: default;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: #AEB2FE;
+}

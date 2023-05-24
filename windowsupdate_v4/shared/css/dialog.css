@@ -1,0 +1,164 @@
+/* hcp modifications */
+
+.sys-font-heading3 {
+	font-family: Franklin Gothic Medium !important;
+	font-size: 175%;
+}
+
+/* hcp modifications */
+
+
+
+body {
+	margin: 10px;
+	color: windowtext;
+	background-color: threedface;
+}
+
+body, td, button, input, select {
+	font: messagebox;
+}
+
+table { table-layout: fixed; }	
+
+input { margin: 0px 0px -2px 0px; }
+
+ul, ol { margin: 5px 0px 5px 16px; /*rtl*/ }
+
+ol li { margin: 0px 0px 2px 8px; /*rtl*/ }
+
+button {
+	padding: 0px 4px 1px 4px;
+	margin: 0px 2px 0px 2px;
+	width: 80px;
+	height: 21px;
+	overflow: visible;
+	line-height: 15px;
+	cursor: default;
+}
+
+button#eDefaultButton {
+	float: center;
+}
+
+/* critical_alert.asp */
+
+body.criticalalert td {
+	padding: 0px;
+	font-weight: bold;
+}
+
+body.criticalalert img.icon32 {
+	width: 32px;
+	height: 32px;
+	margin: 0px 6px -2px 0px; /*rtl */
+	float: left;
+}
+
+/* critical_alert.asp */
+/* learnabout.asp */
+
+body.learnabout {
+	color: black;
+	background-color: white;
+	border-width: 0px;
+}
+
+body.learnabout button {
+	float: right; /*rtl */
+}
+
+body.learnabout div {
+	width: 100%;
+	height: 300px;
+	overflow: auto;
+}
+
+/* learnabout.asp */
+/* eula.asp */
+
+body.eula div.eulaUpdateTitles {
+	padding: 6px;
+	font-weight: bold;
+	height: 60px;
+	overflow: auto;
+	line-height: 12pt;
+}
+
+body.eula div.buttons {
+	 text-align: right;
+}
+
+/* eula.asp */
+/* progress.asp */
+
+body.progress {
+	margin: 9px 11px 8px 11px;
+}
+
+body.progress td#eWindowMessage {
+	vertical-align: top;
+}
+
+body.progress td.pageIcon {
+	width: 42;
+	padding: 0px;
+	padding-top: 6px;
+}
+
+body.progress td.pageIcon img {
+	width: 32px;
+	height: 32px;
+}
+
+body.progress div.progressDetails {
+	margin: 0px 6px 6px 6px;
+}
+
+body.progress td#eStatusMessage {
+	vertical-align: middle;
+	padding: 0px;
+	height: 36px;
+}
+
+body.progress div.progressDetails table {
+	margin: 0px 0px 0px 0px;
+}
+
+body.progress div.progressDetails col.left {
+	width: 60%;
+	padding: 0px 1px 0px 1px;
+}
+
+body.progress div.progressDetails col.right {
+	width: 40%;
+	text-align: right;
+	padding: 0px 4px 0px 4px;
+}
+
+body.progress div.progressDetails td {
+	vertical-align:top;
+}
+
+body.progress td.progressBar {
+	padding: 0px;
+}
+
+body.progress td.progressBar div {
+	margin: 3px 0px 4px 0px;
+	width: 100%;
+	height: 15px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: threedshadow threedhighlight threedhighlight threedshadow;
+}
+
+body.progress td.progressBar div span {
+	margin: 1px;
+	width: 7px;
+	height: 11px;
+	background-color: highlight;
+	overflow: hidden;
+}
+
+/* progress.asp */

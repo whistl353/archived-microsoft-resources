@@ -1,0 +1,539 @@
+//Copyright (c) Microsoft Corporation.  All rights reserved.
+
+//OS types
+var conOSUnsupported = "-1";
+var conOSWin2K = "5.0";
+var conOSWinXP = "5.1";
+var conOSWin2003 = "5.2";
+var conOSLonghorn = "6.0";
+
+//V5 Thanks page types
+var conThanksDown = 1;
+var conThanksBadOS = 2;
+var conThanksWinCE = 3;
+var conThanksDatacenter = 4;
+var conThanksBadBrowser = 5;
+var conThanksIE5 = 8;
+var conThanksLocale = 9;
+var conThanks64BitBrowser = 10;
+var conThanksVistaV4Catalog = 14;
+var conThanksNewCatalog = 15;
+var conThanksVistaNewCatalog = 16;
+
+var V3Site = "http://windowsupdate.microsoft.com"
+var V4Site = "http://v4.windowsupdate.microsoft.com";
+var V5Site = "http://v5.windowsupdate.microsoft.com";
+var V6Site = "http://update.microsoft.com/windowsupdate";
+
+//V6Site cursite value should be 6Live
+var conCurSite = "6Live";
+var conRedrThanks = V6Site + "/v6/" + "thanks.aspx?" ;
+
+var g_iOSType, g_iOSSPMajor;
+var g_bV4Catalog = false;
+var sWUServiceGuid = "9482f4b4-e343-43b6-b170-9a65bc822c77";
+
+var g_sOSLang = navigator.browserLanguage;
+if(typeof(g_sOSLang) == "undefined") g_sOSLang = "en";
+g_sOSLang = g_sOSLang.toLowerCase();
+var g_sUA;
+var sReturnQueryString = "";
+var g_bMUOptin = false;
+var g_bIE7 = false;
+
+fnRedirect();
+	
+function fnRedirect() {
+	var sURL;
+	var sQueryString, sClientVersion, aClientVersion;
+	var oControl;
+	var oXMLHTTP;
+	var oResponseXML, aResponseXML;
+	var oServiceManager;
+	var UpdateServices;
+	var cpuClass;
+	var aReturnQueryString;
+	var sSP = "";
+	var sCurrentURL = window.location.href.toLowerCase();
+//new code added for v6
+	sUrl = window.location.href.toLowerCase();
+	if(sUrl.indexOf("?") > -1) {
+		sReturnQueryString = sUrl.split("?")[1];		
+		aReturnQueryString = sReturnQueryString.split("&");
+		sReturnQueryString="";
+		for (i= 0 ;i < aReturnQueryString.length; i++){
+			if(aReturnQueryString[i].toLowerCase().substr(0, 3) != "ln=") {
+				sReturnQueryString += aReturnQueryString[i] + "&"; 
+			}
+		}
+		sReturnQueryString = sReturnQueryString.substr(0, sReturnQueryString.length-1);
+	}
+	
+	fnSetUA();
+	// Make initial checks and do redirection as necessary
+	if(fnV5DownForMaintenance() == false) return false;
+	if(fnCheckWinCE() == false) return false;
+	if(fnCheckDatacenter() == false) return false;
+	if(fnCheckBrowser() == false) return false;
+	
+	if(fnCheck95NT4() == false) return false;
+		
+	g_bV4Catalog = fnCheckV4Catalog() ;
+	if(fnCheck98() == false) return false;
+	
+	g_iOSType = fnCheckV5OS();
+	if(g_iOSType == conOSUnsupported) return false;	
+	
+	if(!g_bV4Catalog){		
+		if(sUrl.indexOf("g_sconsumersite") > -1) {
+			return false;
+		}
+			
+		try
+		{
+			g_sOSLang = fnGetLanID(g_sOSLang);
+			cpuClass = navigator.cpuClass.toLowerCase()
+			if((cpuClass == "x86") && (g_sUA.indexOf("wow") > 0)) cpuClass = "wow64";			
+	
+			sQueryString = "OS=" + g_iOSType + "&Processor=" + cpuClass + "&Lang=" + g_sOSLang ;
+			oXMLHTTP = new ActiveXObject("Microsoft.XMLHTTP");
+
+			if(sUrl.indexOf("betathanksurl") > -1) {
+				sQueryString += "&BetaThanksurl=true";
+			}
+			if(g_iOSType == conOSLonghorn){
+				try{
+					oControl = new ActiveXObject("SoftwareDistribution.VistaWebControl");	
+				}
+				catch(e) {
+				
+				// Setting the current site to blank if the vista control is not present
+				//so the user is taken to the WU site 
+				
+					curSite = ""; 
+					oControl = null;
+				}
+			}
+			else
+			{
+				try {				
+					if ("undefined" != typeof(g_bMUSite) && g_bMUSite == true)
+					{ 
+						//mu contol
+						oControl = new ActiveXObject("SoftwareDistribution.MicrosoftUpdateWebControl");			
+					}
+					else
+					{
+						//WU control
+						oControl = new ActiveXObject("SoftwareDistribution.WebControl");
+					}
+				}
+				catch(e) {
+					oControl = null;
+					try{
+
+					//WU control
+					oControl = new ActiveXObject("SoftwareDistribution.WebControl");
+					}
+					catch(e) {
+						oControl = null;
+					}
+				}
+			}
+			sQueryString += "&CurrentSite=" + curSite;
+			try{
+				//if  control is present get SP, control veriosn, managed and Opted in settings
+				if("object" == typeof(oControl)){
+					sQueryString += "&SP=" + oControl.GetOSVersionInfo(4,1);
+					sClientVersion =  oControl.GetOSVersionInfo(10,1);
+					sQueryString += "&control=" + sClientVersion;
+					if(g_iOSType == conOSLonghorn){
+						if(oControl.GetUpdateServiceOptInStatus("7971f918-a847-4430-9279-4a52d1efe18d")){
+							g_bMUOptin = true;
+							sQueryString += "&MUOptIn=true";
+						}
+					}
+					else
+					{
+						oServiceManager = oControl.CreateObject("Microsoft.Update.ServiceManager");
+						oUpdateServices = oServiceManager.Services;
+						for (i = 0; i < oUpdateServices.Count; i++) {
+							if((oUpdateServices.Item(i).IsRegisteredWithAU) &&
+								(!oUpdateServices.Item(i).IsManaged) && 
+									(oUpdateServices.Item(i).ServiceId.toLowerCase() != sWUServiceGuid)) {
+									sQueryString += "&MUOptIn=true" ;
+									g_bMUOptin = true;
+									break;
+							}					
+						}
+						for(i = 0; i < oUpdateServices.Count; i++) {
+							if (oUpdateServices.Item(i).IsManaged) {
+								sQueryString += "&IsManaged=true" ;
+								break;
+							}
+						}
+					}
+				}	
+			} 
+			catch(e) { }
+			//send the querystring data to redirect.asp
+			oXMLHTTP.open("POST", "redirect.asp?" + sQueryString , false);
+			oXMLHTTP.send("<send>Querystring</send>");
+			oResponseXML = oXMLHTTP.responseText;
+			
+			//the URL is delimited bt @| so when we get the xml back split it by @| and get the url
+			aResponseXML = oResponseXML.split("@|");
+			if(aResponseXML.length > 1) {				
+				sURL = fnCheckResponse(aResponseXML[1]);
+			} else {
+				if(curSite == conCurSite) {
+					sURL = "thanks.aspx?" + "ln=" + g_sOSLang;
+				} else{
+					sURL = conRedrThanks + "ln=" + g_sOSLang;
+				}
+			}
+			sURL = sURL.toLowerCase()
+			//If from IE7.0 and not on Vista
+			if(g_iOSType != conOSLonghorn && g_bIE7  
+				//doesn't belong on thanks page or on V4				
+				&& sURL.indexOf("thanks") == -1 && sURL.indexOf("v4.") == -1 
+				//and contains the iemode=noaddon querystring parameter
+				&& sCurrentURL.indexOf("iemode=noaddon") > -1 )
+			{
+				//if they are on WU don't redirect else take then to WU
+				if(curSite == conCurSite){
+					return;
+				}else{
+					location.href = V6Site + "?" + sReturnQueryString;
+					return;
+				}
+			}
+			
+			// Don’t redirect down-level 64-bit clients so long as they aren’t on the betathanks page 
+			// and they aren’t running in wow32/64 modes
+			if("undefined" != typeof(g_bMUSite) && g_bMUSite == true && g_iOSType != conOSLonghorn)
+			{
+				try{
+					if("object" == typeof(oControl)) sSP = oControl.GetOSVersionInfo(4,1);
+				} catch(e) {}
+				if("undefined" == typeof(cpuClass)) cpuClass = "";
+				if(fnCheck64MU(sSP, cpuClass)) return false;
+				
+				if(sURL.indexOf("betathanks") == -1)
+				{
+					if(!g_bMUOptin )
+					{
+						g_sOSLang = conLangCode;
+						if(cpuClass != "x86") {
+							if((g_sUA.indexOf("wow32") == -1) && (g_sUA.indexOf("wow64") == -1)) {
+								//location.href = "thanks.aspx?thankspage=" + conThanks64BitBrowser + "&"ln= + g_sOSLang;	
+								return;
+							}
+						}							
+					}
+				}
+			}
+			
+			if(sURL.toLowerCase() == "service url") {
+				var sServiceUrl = "";
+				try {
+					if("object" == typeof(oControl)) {
+						for(var i = 0; i < oUpdateServices.Count; i++) {
+							if((oUpdateServices.Item(i).IsRegisteredWithAU) &&
+							(!oUpdateServices.Item(i).IsManaged) && 
+								(oUpdateServices.Item(i).ServiceId.toLowerCase() != sWUServiceGuid)) {
+									sServiceUrl = oUpdateServices.Item(i).ServiceUrl;
+									break;
+							}
+						}
+					}				
+				} catch(e) { }
+				if(sServiceUrl != "") {
+					if(window.location.href.indexOf(sServiceUrl) > -1)
+					{
+						sURL = "ok";
+					}
+					else
+					{
+						sURL = sServiceUrl
+					}
+				} else {
+					if(curSite == conCurSite) {
+						sURL = "thanks.aspx?" + "ln=" + g_sOSLang ;
+					} else{
+						sURL = conRedrThanks + "ln=" + g_sOSLang;
+					}
+				}
+			}
+			oUpdateServices = "";
+			oUpdateServices = null;
+			oServiceManager = "";
+			oServiceManager = null;
+			g_oControl = null;
+			oControl = null;		
+			if(sURL.toLowerCase() != "ok") {
+				if(sReturnQueryString.length > 0){
+					if(sURL.indexOf("?") > -1) {
+						sURL += "&" + sReturnQueryString;
+					}else {
+						sURL += "?" + sReturnQueryString;
+					}
+				}
+				location.href = sURL;
+			}
+		}
+		catch (e)
+		{
+		}
+	//If V4 Catalog
+	}else {
+		// if on vista redirect to thanks page.
+		//once the MU catalog is ready need to change 
+		//conThanksVistaV4Catalog to conThanksVistaNewCatalog
+		if(g_iOSType == conOSLonghorn){
+			location.href = conRedrThanks + "ln=" + g_sOSLang + "&" + sReturnQueryString
+							 + "&thankspage=" + conThanksVistaV4Catalog;
+			return;
+		}
+		//if they come to catalog on winxp, win2k3, win2k 
+		//and haven't been to this page previously then give them thanks page
+		//if((g_iOSType == conOSWin2K 
+		//		|| g_iOSType == conOSWinXP 
+		//		|| g_iOSType == conOSWin2003) 
+		//	&& (sCurrentURL.indexOf("allowv4cat=true") == -1)){
+			//location.href = conRedrThanks + "ln=" + g_sOSLang + "&" + sReturnQueryString 
+			//					+ "&thankspage=" + conThanksNewCatalog;
+			//return;
+		//}
+	}
+	return false;
+}
+
+function fnCheck64MU(sSP, cpuClass){
+	if((g_sUA.indexOf("windows nt 5.1") > 0 || g_sUA.indexOf("windows nt 5.2") > 0) && (sSP == "" || sSP == 0) &&  (cpuClass == "ia64" || cpuClass == "wow64")) {
+		location.href = V4Site  + "?" + sReturnQueryString;
+		return true;
+	}
+	return false;
+	
+}
+function fnSetUA(){
+	var oUAXMLHTTP, oUAResponseXML, aUAResponseXML;
+	try
+	{
+		g_sUA = navigator.userAgent.toLowerCase();
+		oUAXMLHTTP = new ActiveXObject("Microsoft.XMLHTTP");
+		oUAXMLHTTP.open("POST", "redirect.asp?UA=true", false);
+		oUAXMLHTTP.send("<send></send>");
+		oUAResponseXML = oUAXMLHTTP.responseText;
+		//the UA is delimited bt @| so when we get the xml back split it by @| and get the UA
+		aUAResponseXML = oUAResponseXML.split("@|");
+		if(aUAResponseXML.length > 1) {		
+			g_sUA = fnCheckResponse(aUAResponseXML[1].toLowerCase());
+		} 
+	}
+	catch(e)
+	{
+		
+	}
+}
+function fnGetLanID(sLanID){
+	var sAllSupported = "ar,cs,da,de,el,en,es,fi,fr,he,hu,it,ja,ko,nl,no,pt,pl,ru,sv,tr,";
+	switch(sLanID)
+	{
+		case "en":
+		case "en-us":
+			return "en" ;
+		case "be":
+		case "uk":
+			return "ru" ;
+		case "el_ms":
+		case "el":
+			return "el" 
+		case "eu":
+		case "ca":
+			return "es" ;
+		case "zh-sg":
+			return "zh-cn" ;
+		case "fo":
+			return "da" ;
+		case "sz":
+			return "no" ;
+		case "sk":
+			return "cs" ;
+		case "sb":
+			return "de" ;
+		case "nb-no":
+		case "nn-no":
+			return "no" ;
+		case "iw-il":
+			return "he" ;
+	}
+	if((sLanID == "zh-tw") || (sLanID == "zh-cn") || (sLanID == "pt-br") || (sLanID == "zh-hk")) return sLanID;	
+	sLanID = sLanID.substr(0,2);	
+	if(sAllSupported.search(sLanID + ",") < 0 ) sLanID = "en";
+	return sLanID;
+}
+
+function fnV5DownForMaintenance() {
+	// V5 - Check the down-for-maintenance indicator
+	if(curSite != "3" && curSite != "4" ) {
+		var sURL = "thanks.aspx?" + "ln=" + g_sOSLang + "&thankspage=" + conThanksDown + "&os=";
+		try{
+			if((g_sUA.indexOf("windows nt 5.0") > 0) && (g_sDownForMaintenance2K.length > 0)) {
+				location.href = sURL + conOSWin2K + "&" + sReturnQueryString;
+				return false;
+			} else if((g_sUA.indexOf("windows nt 5.1") > 0) && (g_sDownForMaintenanceXP.length > 0)) {
+				location.href = sURL + conOSWinXP + "&" + sReturnQueryString;
+				return false;
+			} else if((g_sUA.indexOf("windows nt 5.2") > 0) && (g_sDownForMaintenance2003.length > 0)) {
+				location.href = sURL + conOSWin2003 + "&" + sReturnQueryString;
+				return false;
+			} else if((g_sUA.indexOf("windows nt 6.0") > 0) && (g_sDownForMaintenanceLonghorn.length > 0)) {
+				location.href = sURL + conOSLonghorn + "&" + sReturnQueryString;
+				return false;
+			}
+		} catch(e) {
+			return true;
+		}
+	}
+	return true;
+}
+
+function fnCheckBrowser() {
+	// Check for IE5 or IE6
+	var bIE5or6;
+	var bunsupported = false;
+	var sUserAgent = navigator.userAgent.toLowerCase();
+	bIE5or6 = (((g_sUA.indexOf("msie 5") > 0) || (g_sUA.indexOf("msie 6") > 0) || (g_sUA.indexOf("msie 7") > 0)) && ((sUserAgent.indexOf("msie 5") > 0) || (sUserAgent.indexOf("msie 6") > 0) || (sUserAgent.indexOf("msie 7") > 0)));
+	g_bIE7 = (g_sUA.indexOf("msie 7") > 0 && sUserAgent.indexOf("msie 7") > 0);
+	if(g_sUA.indexOf("opera/") != -1 || g_sUA.indexOf(" opera ") != -1) bunsupported = true;
+	if(!bIE5or6 || bunsupported) {
+		g_oControl = null;
+		if (curSite != conCurSite) {
+			location.href = conRedrThanks + "ln=" + g_sOSLang + "&" + sReturnQueryString + "&thankspage=" + conThanksBadBrowser;
+		} else {
+			location.href = "thanks.aspx" + "?ln=" + g_sOSLang + "&" + sReturnQueryString + "&thankspage=" + conThanksBadBrowser;
+		}
+		return false;
+	}
+	return true;
+}
+
+function fnCheckWinCE() {
+	// Check for Windows CE
+	if(g_sUA.indexOf("; mspie") != -1) {
+		g_oControl = null;
+		if(curSite == conCurSite) {
+			// Windows CE thanks page
+			location.href = "thanks.aspx?" + "ln=" + g_sOSLang + "&thankspage=" + conThanksWinCE + "&" + sReturnQueryString;
+		}else{
+			location.href = conRedrThanks + "ln=" + g_sOSLang + "&thankspage=" + conThanksWinCE + "&" + sReturnQueryString;
+		}
+		return false;
+	}
+	return true;
+}
+
+function fnCheckDatacenter() {
+	// Check for Windows 2000 Datacenter
+	if((g_sUA.indexOf("windows nt 5.0") != -1) && (g_sUA.indexOf("; data center") != -1) && !g_bV4Catalog) {
+		g_oControl = null;
+		if(curSite == conCurSite) {
+			// Windows 2000 Datacenter thanks page
+			location.href = "thanks.aspx?" + "ln=" + g_sOSLang + "&thankspage=" + conThanksDatacenter + "&" + sReturnQueryString;
+		}else{
+			location.href = conRedrThanks + "ln=" + g_sOSLang + "&thankspage=" + conThanksDatacenter + "&" + sReturnQueryString;
+		}
+		return false;
+	}
+	return true;
+}
+	
+function fnCheck95NT4() {
+    if((g_sUA.indexOf("windows 95") > 0) || ( g_sUA.indexOf("windows nt)") >0 ) || ( g_sUA.indexOf("windows nt;") >0 )  || ( g_sUA.indexOf("windows nt 4") > 0 ) ) {
+		fnGoToV3();
+		return false;
+    } 
+	return true;
+}
+function fnCheckV4Catalog() {
+    var sLocation = location.href.toLowerCase();
+	if((sLocation.search("/catalog") > 0) && (curSite == 4)) return true;
+    
+	return false;
+}
+ 			
+function fnCheck98() {	
+	if(g_sUA.indexOf("windows 98") > 0) {
+		if (curSite != 4) location.href = V4Site  + "?" + sReturnQueryString;
+		return false;
+	}
+	return true;
+}
+function fnCheckV5OS() {
+	var iOS = conOSUnsupported;
+	if(g_sUA.indexOf("windows nt 5.0") > 0)	iOS = conOSWin2K;
+	else if(g_sUA.indexOf("windows nt 5.1") > 0) iOS = conOSWinXP;
+	else if(g_sUA.indexOf("windows nt 5.2") > 0) iOS = conOSWin2003;
+	else if(g_sUA.indexOf("windows nt 6.0") > 0) iOS = conOSLonghorn;
+	if(iOS == conOSUnsupported) {
+		g_oControl = null;
+		if(curSite == conCurSite) {
+			location.href = "thanks.aspx?" + "ln=" + g_sOSLang + "&thankspage=" + conThanksBadOS + "&" + sReturnQueryString;
+		}else{
+			location.href = conRedrThanks + "ln=" + g_sOSLang + "&thankspage=" + conThanksBadOS + "&" + sReturnQueryString;
+		}
+	}
+	return iOS;
+}
+
+function fnGoToV3() {
+	if(curSite == 3) {
+		//YOU ARE ON V3
+		document.open();
+		document.write("<FRAMESET ROWS=100%>");
+		if(g_sUA.indexOf("windows 95") > 0) { // Windows 95
+			document.write("<FRAME SRC=\"Static_w95/V31site/default.htm" + location.search + "\">");
+		}
+		else { // Windows NT
+			if(location.search == "" || location.search == null) {
+				document.write("<FRAME SRC=\"scripts/redir.dll?\">");
+			}
+			else {
+				document.write("<FRAME SRC=\"R1150/V31site/default.htm" + location.search + "\">");
+			}
+		}
+		document.write("</FRAMESET>");
+		document.close();
+	} else {
+		// not on v3, go there
+		location.href = V3Site + "?" + sReturnQueryString;
+	}
+	return false;
+}
+function fnCheckResponse(sResponse){
+	if (sResponse.length > 255)
+	{
+		sResponse = sResponse.substring(0,255);
+	}	
+	// need to remove document.write & response.write
+	
+	while(sResponse.indexOf("document.write") > -1)
+	{
+		sResponse = sResponse.replace("document.write","");
+	}		
+	while(sResponse.indexOf("response.write") > -1)
+	{
+		sResponse = sResponse.replace("response.write","");
+	}	
+	while(sResponse.indexOf("<%") > -1)
+	{
+		sResponse = sResponse.replace("<%","");
+	}
+	while(sResponse.indexOf("%>") > -1)
+	{
+		sResponse = sResponse.replace("%>","");
+	}
+	return sResponse;
+}

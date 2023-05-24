@@ -1,0 +1,87 @@
+/* hcp modifications */
+
+.toppane-header {
+	vertical-align: middle;
+	padding: .45em 11px .45em 11px;
+}
+
+.toppane-body {
+	padding: 11px;
+	height: 100%;
+	overflow-y: auto;
+}
+
+.sys-toppane-color-border {
+	border-width: 1px;
+	border-style: solid;
+}
+
+.sys-link-disabled {
+	cursor: default !important;
+	color: #999999 !important;
+}
+
+.sys-link-disabled img {
+	filter: alpha(opacity=40);
+}
+
+/* hcp modifications */
+
+body {
+	margin: 11px;
+	overflow: hidden;
+	border-right: 3px solid #2459C3;
+}
+
+body, td, button, input, select {
+	font: messagebox;
+}
+
+form { margin: 0px; }
+
+table {
+	width: 100%;
+	height: 100%;
+	table-layout: fixed;
+}
+
+td {
+	width: 100%;
+	vertical-align: top;
+	padding: 0px;
+}
+
+div#eUserData {
+	behavior: url(#default#userData);
+	display: none;
+}
+
+a#eHardwareSupport {
+	display: none;
+}
+
+div#eAvailableUpdatesDiv, div#eCorporateDiv {
+	display: none;
+	margin: 0px 0px 0px 16px; /* rtl */
+}
+
+.subHeader {
+	margin: 18px 4px 4px 4px;
+}
+
+/* links */
+
+a {
+	width: 100%;
+	padding: .35em 5px .35em 21px; /* rtl */
+}
+
+a i { font-style: normal; }
+a u { text-decoration: none; }
+
+a img {
+	border-width: 0px;
+	margin: 0px 0px -1px -17px; /* rtl */
+	width: 11px;
+	height: 11px;
+}

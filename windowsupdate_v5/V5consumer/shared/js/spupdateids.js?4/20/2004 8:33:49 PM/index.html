@@ -1,0 +1,16 @@
+//Copyright (c) Microsoft Corporation.  All rights reserved.
+var g_bSPDetectOn = false; // turn SP detection  
+var spUpdateIds = new Array();
+fnInitSPArray();
+
+function fnInitSPArray(){
+	
+	if (g_bSPDetectOn){
+		spUpdateIds[0] = "147f93ee-1192-457d-8261-7d0da53ae78f";
+		spUpdateIds[1] = "30a654c6-dfc4-49f7-a8c7-45b46ddb0e98";
+		spUpdateIds[2] = "5eef04ab-bd27-42a1-8fd7-a78cac00e71d";
+	}
+	else {
+		spUpdateIds.length = 0 ;
+	}	
+}	

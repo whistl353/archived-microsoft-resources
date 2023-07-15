@@ -1,0 +1,448 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1250' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+<body onload="fnInit(5, -1);">
+	<span class="sys-font-heading3 sys-rhp-color-title">
+		Windows Update: Gyakran ismételt kérdések
+	</span><br>
+	<br>
+	
+		<div class="8pt">
+		
+			<li><A class='sys-link-normal' HREF='#usingWU'><b>A Windows Update használata</b></a></li>
+			<li><A class='sys-link-normal' HREF='#SupportVL'><b>Támogatott verziók és nyelvek</b></a></li>
+			<li><A class='sys-link-normal' HREF='#TShooter'><b>Hibaelhárítás</b></a></li>
+			<li><A class='sys-link-normal' HREF='#NWAD'><b>Hálózati és tapasztalt felhasználóknak szóló információk</b></a></li>
+		
+		<p>
+			<A class="aboutHeader" name='usingWU' >A Windows Update használata</a>
+			
+			<p>
+				<b>Mi az a Windows Update?</b><br>
+				A Microsoft egy webhelye, amely frissítéseket biztosít a Windows operációs rendszerekhez, illetve a Windows alapú hardvereszközökhöz. A frissítések megoldást nyújtanak az ismert problémára, és elősegítik az ismert biztonsági fenyegetésekkel szembeni védelmet. 
+				<p>
+				Tipp:<bt>
+				<ul style='margin-left:40px'> 
+					<li>Ha bekapcsolja az Automatikus frissítés funkciót, a Windows Update azonnal letölti a számítógépre a sürgős frissítéseket, amint azok elérhetővé válnak. Ön döntheti el, hogy mikor és hogyan kerüljön sor a frissítések telepítésére.</li>
+				</ul>
+			</p>
+		
+			<p>
+				<b>Hogyan működik frissítés?</b><br>
+				A Windows Update a webhely felkeresése alkalmával megvizsgálja a számítógépet, majd közli, hogy az adott szoftver- és hardverkonfigurációhoz milyen frissítések érhetők el. Ön pedig kiválaszthatja, hogy melyik frissítést és hogyan telepíti. 
+			</p>
+		
+			<p>
+				<b>Milyen típusú frissítések tölthetők le?</b><br>
+					A Microsoft sokféle <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=22935' target='_blank' >típusú frissítést</a> bocsát ki, amelyek a problémák változatos körére nyújtanak megoldást. A legfontosabb frissítések – a számítógépet és az adatokat védő frissítések – könnyebb felismerhetősége érdekében a Windows Update a következő kategóriákat alkalmazza:
+				<ul style='margin-left:40px'> 
+				<li><b>Sürgős</b><br>
+					Ide olyan fontos frissítések, biztonsági frissítések, szervizcsomagok és frissítésgyűjtemények tartoznak, amelyeket kibocsátásuk után azonnal, minden más frissítés telepítése előtt telepíteni kell.</li>
+				<li><b>Szoftver (választható)</b><br> 
+					Ide a Windows-programok (például a Windows Media® Player és a Windows Journal Viewer 1.5) nem nélkülözhetetlen frissítései tartoznak.</li>
+				<li><b>Hardver (választható)</b><br>
+					Ide hardvereszközök (videokártyák, hangkártyák, képolvasók, nyomtatók és fényképezőgépek) illesztőprogramjának és egyéb szoftvereinek javításai tartoznak.</li> 
+				</ul>
+			</p>
+		
+			<p>
+				<b>Mi a különbség a gyorstelepítés és az egyéni telepítés között?</b><br>
+				<ul style='margin-left:40px'>
+					<li>A <b>Gyorstelepítés (ajánlott)</b> lehetőség választása esetén az adott számítógéphez szükséges sürgős frissítések jelennek meg, hogy egyetlen kattintással lehessen telepíteni őket. Ezzel a módszerrel lehet a leggyorsabban és a legkönnyebben megőrizni a számítógép naprakészségét.
+					<li>Az <b>Egyéni telepítés</b> választása esetén egyaránt megjelennek a számítógéphez való sürgős és választható frissítések. A felhasználó áttekintheti a rendelkezésre álló frissítéseket, és egyenként kiválogathatja közülük azokat, amelyeket telepíteni szeretne.
+				</ul>
+			</p>
+		
+			<p>
+				<b>Telepítenem kell a választható frissítéseket?</b><br>
+				Nem. A választható frissítések kisebb problémákra nyújtanak megoldást, vagy nem nélkülözhetetlen funkciókkal bővítik a számítógép szolgáltatásait. Ennél fontosabb azonban a sürgős frissítéseket telepíteni, hogy a számítógépre rákerüljenek a legújabb fontos és a biztonság területére tartozó frissítések. 
+			</p>
+		
+			<p>
+				<b>Hozzá lehet jutni automatikusan a frissítésekhez?</b><br>
+				Igen, az <b>Automatikus frissítés</b> funkció bekapcsolásával. Ez esetben a Windows ellenőrzi, hogy vannak-e új, a számítógéphez való frissítések, és az Automatikus frissítés beállításai szerint telepíti őket. 
+			</p>
+		
+			<p>
+				<b>Ugyanaz az Automatikus frissítés, mint a Windows Update?</b><br>
+				Igen, de az Automatikus frissítés csak a sürgős frissítéseket tölti le. A választható frissítések letöltéséhez így is el kell látogatni a Windows Update webhelyre.
+			</p>
+		
+			<p>
+				<b>Mi az az Automatikus frissítés?</b><br>
+				Egy olyan szolgáltatás, amely a Windows Update webhellyel együttműködve azonnal eljuttatja a számítógépre a fontos és biztonsági frissítéseket, amint azok elérhetővé válnak. Ha az ajánlásoknak megfelelően bekapcsolja az Automatikus frissítés szolgáltatást, a Windows automatikusan megkeresi a számítógéphez való fontos frissítéseket. Ön döntheti el, hogy mikor és hogyan kerüljön sor a frissítések telepítésére. 
+			</p>
+		
+			<p>
+				<b>Hogyan szerezhetek részletesebb tájékoztatást a frissítésekről, mielőtt telepíteném őket?</b><br>
+				Ha rákattint a frissítések nevére, megjelenik a leírásuk. Ha meg szeretné tekinteni a frissítések rendszerkövetelményeit és támogatási információit, kattintson a leírásokban található <b>Részletek</b> hivatkozásra.
+			</p>
+		
+			<p>
+				<b>Kell bármit is tennem azért, hogy települjenek a frissítések?</b><br>
+				Előfordul. Vannak frissítések, amelyek telepítése előtt el kell fogadni a végfelhasználói licencszerződést (EULA), válaszolni kell a telepítési folyamattal kapcsolatos kérdésre, vagy újra kell indítani a számítógépet. 
+			</p>
+		
+			<p>
+				<b>Mi történik, ha "A frissítés elrejtése" lehetőséget választom?</b><br>
+				Ezután nem kéri meg Önt a Windows Update, hogy válassza ki vagy telepítse ezt a frissítést. Ha viszont egy sürgős frissítést rejt el, megtörténhet, hogy később figyelmeztetést kap arra, hogy hiányzik egy a számítógép védettségéhez nélkülözhetetlen frissítés.
+			</p>
+		
+			<p>
+				<b>Hogyan juthatok hozzá a korábban elrejtett frissítésekhez?</b><br>
+				Kattintson a Windows Update webhely <b>A rejtett frissítések visszaállítása</b> parancsára. Ezt követően kiválaszthatja és telepítheti a kívánt frissítéseket. 
+			</p>
+		
+			<p>
+				<b>Milyen gyakran jelennek meg új frissítések a Windows Update webhelyen?</b><br>
+				A biztonság területére tartozó frissítéseket havonta egyszer tesszük közzé. Ha viszont komoly biztonsági fenyegetés lép fel, amikor például egy gyorsan terjedő vírus vagy féreg fertőzi a Windows rendszerű számítógépeket, a Microsoft a lehető leghamarabb kibocsátja az ennek megfelelő frissítést. 
+				<p>
+				Az egyéb típusokba tartozó frissítéseket akkor bocsátjuk ki, amikor elkészülnek. Hasznos, ha bekapcsolja az Automatikus frissítés funkciót, mert akkor a számítógép azonnal hozzájut a sürgős frissítésekhez, amint azok elérhetővé válnak.
+				</p>
+			</p>
+		
+			<p>
+				<b>Hogyan lehet felvenni a Windows Update webhelyet a megbízható helyek listájára?</b><br>
+				<ul style='margin-left:40px'> 
+					<li > Kattintson az Internet Explorer <b>Eszközök</b> menüjének <b>Internetbeállítások</b> parancsára.</li >
+					<li > Kattintson a <b>Biztonság</b> fülre, azután a <b>Megbízható helyek</b> ikonra, végül a <b>Helyek</b> gombra.</li >
+					<li > Írja be (vagy másolja be) a következő URL-címet a <b>Webhely hozzáadása a zónához</b> mezőbe: https://windowsupdate.microsoft.com.</li >
+					<li > Kattintson a <b>Hozzáadás</b>, majd az <b>OK</b> gombra.</li >
+				</ul > 
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='SupportVL' >Támogatott verziók és nyelvek</a>
+			<p>
+				<b>Milyen operációs rendszereket támogat a Windows Update?</b><br>
+				A Windows Update és az Automatikus frissítés a következő Windows-verziókkal használható:
+			</p>
+		
+			<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+				<colgroup>
+					<col style='WIDTH: 33%;padding-left:15px'>
+					<col style='WIDTH: 33%;text-align: center'>
+					<col style='WIDTH: 33%;text-align: center'>
+				</colgroup>
+				<tbody>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">Jelenlegi és folyamatos frissítések</td>
+						<td class="FAQtd4">Windows Update webhely</td>
+						<td class="FAQtd3">Automatikus frissítések</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows Millennium Edition</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows 2000</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows XP</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows NT Server</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows Server 2003</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">Archivált frissítések<br/>
+			(nem kerül sor új frissítések kibocsátására)</td>
+						<td class="FAQtd4">Windows Update webhely</td>
+						<td class="FAQtd3">Automatikus frissítések</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows 98</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows NT Workstation</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					
+				</tbody>
+			</table>
+			
+			<p>
+				<b>Milyen verziójú böngésző használható a Windows Update webhely elérésére?</b><br>
+				A Microsoft Internet Explorer 5-ös és újabb változatai. A hely optimálisan az <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24748' target='_blank' >Internet Explorer 6</a>-os változatával tekinthető meg..
+			</p>
+		
+			<p>
+				<b>Hogyan tudhatom meg, hogy melyik verzióját használom az Internet Explorernek?</b><br>
+				Kattintson az Internet Explorer <b>Súgó</b> menüjének <b>Névjegy</b> parancsára.
+			</p>
+		
+			<p>
+				<b>Más nyelven is megtekinthetem a Windows Update webhely tartalmát? </b><br>
+				Igen, de ezt követően a frissítések nyelve nem lesz azonos azzal a nyelvvel, amelyen a webhely hivatkozásait, választási lehetőségeit és utasításait megtekinti. A frissítések címe és részletei továbbra is a számítógép alapértelmezett nyelvén jelennek meg.
+			</p>
+		
+			<p>
+				<b>Hogyan módosíthatók a nyelvi beállítások?</b><br>
+				<ul style='margin-left:40px'> 
+					<li >Kattintson a Windows Update webhelyen a <b>Beállítások</b> elemre.</li >
+					<li >Válassza ki, hogy milyen nyelven szeretné használni a Windows Update webhelyet, majd kattintson <b>A változtatások alkalmazása</b> elemre.</li >
+					<li >Amikor felszólítást kap a változtatás megerősítésére, válasszon a következő lehetőségek közül:</li >
+					<ul style='margin-left:40px'>
+						<li >Ha azonnal módosítja a nyelvi beállításokat, kattintson az <b>OK</b> gombra. <br >
+							(Ez esetben újra meg kell tekintenie és ki kell választania a frissítéseket.)</li >
+						<li >Ha csak az esetleg már kijelölt frissítések telepítése után kívánja az új nyelvet használni, kattintson a <b>Mégse gombra</b>. <br>
+							(Amikor következő alkalommal ellátogat a Windows Update webhelyre, az új nyelvi beállítások lesznek érvényben.)</li >
+					</ul >
+				</ul>
+			</p>
+		
+			<p>
+				<b>Miért ajánlja a Windows Update egy adott nyelv használatát?</b><br>
+				A számítógép alapértelmezett nyelvi beállításával megegyező nyelvet javasolja. Ha ezt használja, ugyanazon a nyelven tekintheti meg a webhely tartalmát, mint a számítógépéhez való esetleges frissítések címét és részleteit. 
+			</p>
+		
+			<p>
+				<b>Többféle nyelvű frissítéseket is le lehet tölteni?</b><br>
+				Igen. A Windows Update automatikusan észleli a számítógépen futó programok nyelvét. Ha többféle nyelvet használ, minden programhoz az annak megfelelő nyelvű frissítéseket kínálja fel a webhely.
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='TShooter' >Hibaelhárítás</a>
+			<p>
+				<b>Mi történik, ha megszakítom a letöltési folyamatot, vagy ha még az előtt bontom az internetkapcsolatot, hogy teljesen letöltődne egy frissítés? </b><br>
+				Amikor legközelebb kapcsolódik az internethez, onnan fog folytatódni a frissítés, ahol megszakadt.
+			</p>
+		
+			<p>
+				<b>Az Internet Explorer hibaüzenetet ad – hogyan módosíthatom a beállításait, hogy működjön a Windows Update?</b><br>
+				Használja az alapértelmezett biztonsági beállításokat.:				
+				<ul style='margin-left:40px'> 
+					<li>Kattintson az Internet Explorer <b>Eszközök</b> menüjének <b>Internetbeállítások</b> parancsára.</li>
+					<li>Kattintson a <b>Biztonság</b> fülre, az <b>Internet</b> ikonra, majd az <b>Alapértelmezett szint</b> gombra.</li>
+				</ul>
+				<p>A problémák megelőzése végett fel is veheti a Windows Update webhelyet a megbízható webhelyek listára (erre vonatkozó útmutatás A Windows Update használata című rovatban található). </p>
+			</p>
+		
+			<p>
+				<b>ActiveX-, illetve a parancsfájl-figyelmeztetéseket kapok a Windows Update használata közben. Problémát jelent ez?</b><br>
+				Nem. A Windows Update ezekkel a technológiákkal állapítja meg, hogy milyen frissítésre van szükség a számítógéphez. A Windows Update ActiveX vezérlőit digitálisan aláírta a Microsoft. De előfordul, hogy a támadók ugyanezeket a technológiát használják fel arra, hogy kárt tegyenek a számítógépekben. Az Internet Explorer azért figyelmezteti, hogy Ön eldönthesse, megbízik-e az ilyen vezérlőket használó webhelyekben.
+				<p>
+				A digitális tanúsítványokról, a webhelyek megbízhatóvá minősítéséről, valamint a biztonsági beállításokról az Internet Explorer súgójában történő kereséssel szerezhet további információt. (Ha nem szeretne figyelmeztetéseket látni a Windows Update használata közben, módosíthatja a biztonsági beállításokat, bár ezt nem ajánljuk. Ha csökkenti a beállítások szintjét, a számítógépe védtelenebbé válik a vírusokkal és más biztonsági fenyegetésekkel szemben.) 
+				</p>
+			</p>
+		
+			<p>
+				<b>Miért nem tudom megjeleníteni a frissítések részleteit, a korábbi telepítések részleteit, illetve a hibaelhárítási cikkeket?</b><br>
+				Olyan szoftvert vagy beállításokat használ, amelyek megakadályozzák, hogy új böngészőablak nyíljon meg a webhelyeken használt hivatkozások hatására. 
+				<p>
+				Az előugró ablakokat gátló beállítások módosítása (csak a Windows XP SP2 szoftveren futó Internet Explorer 6 böngészővel érhető el):				
+				<ul style='margin-left:40px'> 
+					<li>Mutasson az Internet Explorer <b>Eszközök</b> menüjének <b>Előugró ablakok blokkolása</b> parancsára, majd kattintson az <b>Előugró ablakok blokkolásának beállításai</b> parancsra.</li>
+					<li>Tegye az alábbiak valamelyikét:</li>
+					<ul style='margin-left:40px'>
+						<li>Ha csak a Windows Update használata során szeretné engedélyezni az előugró ablakokat, írja be (vagy másolja be) a következő URL-címet az <b>Engedélyezett webhely címe</b> mezőbe: https://windowsupdate.microsoft.com. Ezután kattintson a <b>Hozzáadás</b> gombra. </li>
+						<p>
+						<li>Ha engedélyezni szeretné, hogy minden védett (https://) webhelyen megnyílhassanak az új böngészőablakok, válassza a <b>Szűrési szint</b> lista <b>Alacsony: a biztonságos helyek előugró ablakainak engedélyezése</b> elemét.</li>
+					</ul>
+				</ul>
+				<p>
+				Ha más szoftvert használ az előugró ablakok zárolására, tudja meg, hogyan módosíthatja a webhelyen belülre mutató hivatkozásokra történő rákattintás beállításait. Ha ez nem sikerül, lehet, hogy engedélyeznie kell az előugró ablakokat a Windows Update használata idejére. 
+
+			</p>
+		
+			<p>
+				<b>Hova fordulhatok, ha problémám adódik egy frissítés telepítése közben?</b><br>
+				A 
+		
+			<a  class="sys-link-normal" href="support.aspx?ln=hu" target="eContent">
+				Windows Update Súgó és támogatás
+		
+			</a>
+			 oldalán érhetők el információk, az alábbi lehetőségek formájában:				
+				<ul style='margin-left:40px'> 
+					<li>
+		
+			<a  class="sys-link-normal" href="troubleshoot.aspx?ln=hu" target="eContent">
+				Windows Update hibaelhárító 
+		
+			</a>
+			</li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=25127' target='_blank' >Windows Update Support Center</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=9581' target='_blank' >Windows Update hírcsoportok</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21608' target='_blank' >Microsoft online személyes tanácsadás</a> (Windows Update-problémák esetében díjmentes)</li>
+				</ul>
+			</p>
+		
+			<p>
+				<b>Miért nem találok egy adott frissítést azután, hogy megjelenítettem a rejtett frissítéseket?</b><br>
+				Egy korábban telepített frissítés már kijavította a hibát. Ha például telepített egy szervizcsomagot vagy frissítésgyűjteményt, lehet, hogy a számítógépnek ezután már nincs szüksége a korábban elrejtett frissítésre. 
+			</p>
+		
+			<p>
+				<b>Miért nem lehet bizonyos frissítéseket más frissítésekkel egyszerre telepíteni?</b><br>
+				Vannak olyan frissítések (például a szervizcsomagok és a frissítésgyűjtemények), amelyek több frissítést foglalnak magukban, illetve amelyek ugyanazokra a problémákra nyújtanak megoldást. 
+				<p>
+					Olyan típusú frissítések is vannak, amelyek csak a számítógép újraindítását követően válnak működőképessé. Az ilyen frissítéseket egyenként kell telepíteni. Ezt követően visszatérhet a Windows Update webhelyre, és ellenőrizheti, hogy vannak-e még telepítendő frissítések. 
+				<p>
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='NWAD' >Hálózati és tapasztalt felhasználóknak szóló információk</a>
+			<p>
+				<b>Mi a megoldás, ha egynél több számítógépet kell frissítenem?</b><br>
+				Ha otthoni vagy kis munkahelyi hálózatról van szó, egyenként kell frissíteni mindegyik számítógépet. 
+				<p>
+					Amennyiben Ön hálózati rendszergazda, nyissa meg a 
+		
+			<a  class="sys-link-normal" href="administrators.aspx?ln=hu" target="eContent">
+				Lehetőségek rendszergazdáknak
+		
+			</a>
+			 oldalt, ahol további tájékoztatást szerezhet az egyéb frissítési szolgáltatásokról, például a Windows Update katalógusról, valamint a Windows Update Services szolgáltatásról.
+				<p>
+			</p>
+		
+			<p>
+				<b>Mi az a Microsoft Baseline Security Analyzer (MBSA)?</b><br>
+				Az MBSA olyan eszköz, amely megvizsgálja a hálózati, Windows rendszerű számítógépeket, hogy milyen, gyakran előforduló téves biztonsági beállításokat tartalmaznak, és milyen biztonsági frissítések hiányoznak róluk. Grafikus és parancssoros felülettel is vezérelhető, helyi és távoli ellenőrzésre egyaránt képes. Biztonsági jelentést is tud generálni a hálózaton belül megvizsgált számítógépekről. További tájékoztatás a <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27549' target='_blank' >Microsoft Baseline Security Analyzer</a> áttekintésében olvasható. 
+			</p>
+		
+			<p>
+				<b>Mi az a Windows Update Services?</b><br>
+				A Windows Update Services (korábbi nevén a Software Update Services (SUS)) a Windows Server 2003 termékcsalád frissítéskezelési összetevője. Megvizsgálja minden, a hálózatba tartozó számítógép biztonsági beállításait, erről jelentést készít, illetve szinkronizálja a frissítéseket. Hozzájárul a közepes és nagy méretű hálózatok frissítésével jellemzően együtt járó kockázatok és költségek csökkentéséhez is. További tájékoztatás a Windows Server Rendszer webhelyén, a <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24462' target='_blank' >Windows Update Services</a> rovatban található. 
+			</p>
+		
+			<p>
+				<b>Milyen típusú frissítéseket biztosít az Automatikus frissítés, a Windows Update és a Windows Update Services funkció?</b><br>
+		
+			<br>
+			<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+				<colgroup>
+					<col style='WIDTH: 20%;padding-left:15px'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+				</colgroup>
+				<tbody>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">&nbsp;</td>
+						<td class="FAQtd4">Automatikus frissítések</td>
+						<td class="FAQtd4" colspan="2">
+							Windows Update webhely
+							<table class="sys-table-cell-bgcolor2 sys-toppane-color-border"cellpadding="0" cellpadding ="0" border="0">
+								<tr>
+									<td style='font-weight: bold;WIDTH: 50%;text-align: center'>
+										Gyorstelepítés
+									</td>
+									<td style='font-weight: bold;BORDER-left: 1px solid;WIDTH: 50%;text-align: center'>
+										Egyéni telepítés
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td class="FAQtd3">Windows Update Services*</td>
+					</tr>
+					<tr >
+						<td colspan="5"  class="FAQtd3"">Sürgős frissítések</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Fontos frissítések</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Biztonsági javítások</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Frissítésgyűjtemények</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Szervizcsomagok</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td colspan="5"  class="FAQtd3">Választható frissítések</td>
+					</tr>
+					<tr >
+						<td class="FAQtd1">Szoftver</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Hardver</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Bétaszoftver</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">Adatszolgáltatási döntés</td>
+						<td  class="FAQtd2">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<div><br>    *A hálózati rendszergazdák eldönthetik, hogy melyeket terjesztik a támogatott frissítések közül.</div>
+
+			<p>
+				<b>Hogyan juthatok további frissítésekhez, illetve olyan frissítésekhez, amelyek nem érhetők el a Windows Update webhelyen?</b><br>
+				Keresse fel a következő webhelyeket:				
+				<ul style='margin-left:40px'> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21601' target='_blank' >Microsoft Letöltőközpont</a><br> 
+					Innen letölthetők a Microsoft-termékek frissítései. 30 nyelven érhetők el letölthető fájlok. </li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=8973' target='_blank' >Windows Update katalógus</a><br>
+					Itt a Windows operációs rendszert használó kiszolgálókhoz és más számítógépekhez érhetők el frissítések, kereshető formában.</li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24459' target='_blank' >Microsoft Office Online</a><br>
+					Itt megtalálhatók a Microsoft Office rendszer 97-es, 98-as és annál újabb verzióinak frissítései. A letölthető elemek között sablonok, segítő anyagok és ClipArt-fájlok is találhatók. </li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27098' target='_blank' >Microsoft Premier támogatás</a><br>
+					Megismerkedhet a Premier támogatás előnyeivel, amelyek többek között további frissítésekre (például még ki nem bocsátott szoftververziókra) terjednek ki.</li> 
+				</ul>
+			</p>
+		
+		</p>
+		
+	</div>
+	<iframe name='eReporting' src='blank.aspx' noresize height='0' width='0' style='DISPLAY:none'>
+</body>
+</html> </IFRAME> </BODY></HTML>

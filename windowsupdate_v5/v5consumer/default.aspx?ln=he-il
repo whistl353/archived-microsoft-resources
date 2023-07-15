@@ -1,0 +1,158 @@
+
+
+<html dir="rtl">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<META http-equiv="Content-Type"  content="text/html;charset=windows-1255" />
+		<META http-equiv="MSThemeCompatible" content="Yes" />
+		<META NAME="DESCRIPTION" CONTENT="קבל את העדכונים האחרונים הזמינים למערכת ההפעלה, התוכנות והחומרה של המחשב שלך. Windows Update סורק את המחשב שלך ומספק מבחר עדכונים המותאמים במיוחד עבורך."> 
+		<META NAME="MS.LOCALE" CONTENT="he">
+		<META NAME="keywords" CONTENT="Windows Update; update; security; secure; up-to-date; download; driver; patch; fix; hotfix; QFE; bug; critical; high priority; service pack; Automatic Updates; Windows XP; Windows 2000; Windows Server 2003; WinXP; Win2k; Win2000; WS2k3; WS2003; .NET Server; SP">
+		<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+		<title>Microsoft Windows Update </title>
+		<object id="SusWebCtl" VIEWASTEXT></object>
+		<script language="javascript" type="text/javascript">
+			var curSite = 5;
+			var g_sDownForMaintenance2K = "";
+			var g_sDownForMaintenanceXP = "";
+			var g_sDownForMaintenance2003 = "";
+			var g_sDownForMaintenanceLonghorn = "";
+			var g_sUA = "ia_archiver".toLowerCase();
+					
+			
+		</script>
+		<script language="javascript" type="text/javascript" src="shared/js/tgar.js?02/04/2005 21:43:41"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/redirect.js?02/04/2005 21:43:41"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/commontop.js?02/04/2005 21:43:41"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/webcomtop.js?02/04/2005 21:43:41"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/spupdateids.js?02/04/2005 21:43:41"></script>
+		
+		 
+			<script language="javascript" type="text/javascript">
+				function fnSupressError(sMessage, sURL, sLine){ return true; }
+				window.onerror = fnSupressError ;
+			</script>
+		
+		<script language="javascript" type="text/javascript" defer="true">
+			var conQueryString = "ln=he-il"; 
+			var conRTL = true;
+			var conDevServer = false;
+			var conCriticalUpdatesMode = false;
+			var conLangCode = "he";
+			var conConsumerURL = "/v5consumer/";
+			var L_ScanForAvailableUpdates_Text = "קבל עדכוני תוכניות";
+var L_ReloadingSiteText_Text = "פתיחת אתר Windows Update לא הסתיימה.\n			כדי להמשיך להמתין, לחץ על 'אישור'.\n			כדי לבקש מ- Windows Update לנסות לפתוח שוב את האתר, לחץ על 'ביטול'.";
+var L_MB_Text = "MB ";
+var L_KB_Text = "KB ";
+var L_Hour_Text = "שעה";
+var L_Hours_Text = "שעות";
+var L_InstallTitle_Text = "מתקין עדכונים";
+var L_Minute_Text = "דקה";
+var L_Minutes_Text = "דקות";
+var L_RListNoUpdatesToInstall_Text = "לא נבחרו עדכונים להתקנה.";
+var L_StatusSucceeded_Text = "הותקן בהצלחה";
+var L_StatusFailed_Text = "נכשל";
+var L_StatusAborted_Text = "בוטל";
+var L_UpdateName_Text = "שם עדכון";
+var L_Status_Text = "מצב";
+var L_Date_Text = "תאריך";
+var L_Source_Text = "מקור";
+var L_AutomaticUpdates_Text = "עדכונים אוטומטיים";
+var L_WindowsUpdate_Text = "אתר האינטרנט Windows Update";
+var L_ManagedServer_Text = "אתר לקוח שירותי Windows Update";
+var L_DynamicUpdate_Text = "עדכונים דינאמיים";
+var L_DeviceManager_Text = "מנהל ההתקנים";
+var L_OperationModeDownload_Text = "מוריד";
+var L_OperationModeCopying_Text = "מעתיק קבצים";
+var L_OperationModeRegister_Text = "מבצע רישום";
+var L_OtherSource_Text = "מקור אחר";
+var L_PersonalizationSaveSettingsPrompt_Text = "ביצעת שינויים בהגדרות. כדי לשמור את ההגדרות כעת, לחץ על 'אישור'. כדי להמשיך מבלי לשמור, לחץ על 'ביטול'.";
+var L_Next_Text = "הבא";
+var L_RListBasketUpdatesNotAvailableText_Text = "לא נבחרו עדכונים.";
+var L_NeedUserData_Text = "עבור תכונה זו, יש להפוך נתוני משתמש לזמינים";
+var L_UserDataSaved_Text = "ההגדרות שלך נשמרו";
+var L_PersonalizationReloadSite_Text = "הגדרות השפה שלך נשמרו. כדי להציג את האתר בשפה החדשה, על Windows Update לרעננו, פעולה שתגרום לאיפוס העדכונים שבחרת. האם ברצונך לבצע זאת כעת?";
+var L_Previous_Text = "הקודם";
+var L_ProxyTitle_Text = "הזן אישורי Proxy";
+var L_ExpressModeHidden_Text = "Windows Update ועדכונים אוטומטיים מאפשרים להסתיר עדכון שאין ברצונך שיוצע לך יותר. העדכון שנדרש כעת הוסתר קודם לכן. האם ברצונך לשחזר עדכון זה על מנת להתקינו?";
+var L_WerUpdateInstalled_Text = "העדכון הדרוש כבר הותקן. לחץ על 'אישור' כדי להמשיך בהתקנת עדכונים אחרים הזמינים עבור המחשב שלך.";
+var L_RListBetaDescription_Text = "עדכוני הביתא הבאים זמינים עבור המחשב שלך. בחר את העדכונים שברצונך להתקין ולאחר מכן לחץ על הקישור 'עבור להתקנת עדכונים'.";
+var L_RListBetaTitle_Text = "בחר עדכוני ביתא אופציונליים";
+var L_RListBetaWarning1_Text = "<b>תוכנת ביתא עלולה להזיק למחשב שלך</b><br>";
+var L_RListBetaWarning2_Text = "מוצרי (תוכנות) קדם-הפצה או \"ביתא\", או עדכונים לתוכנת ביתא עלולים להזיק למחשב שלך וייתכן שרק תמיכה מוגבלת תוצע על-ידי Microsoft.";
+var L_RListClickForDescription_Text = "לחץ כדי להציג את התיאור של עדכון זה";
+var L_RListClickToHideDescription_Text = "לחץ כדי להסתיר את התיאור של עדכון זה";
+var L_RListCriticalUpdates_Text = "עדכונים בעדיפות גבוהה";
+var L_RListCriticalUpdatesBar_Text = "עדכונים בעדיפות גבוהה";
+var L_RListCriticalUpdatesTitle_Text = "סקור עדכונים בעדיפות גבוהה";
+var L_RListDeviceUnknown_Text = "Windows Update ממליץ להתקין עדכון זה מכיוון שעבור ההתקן במחשב שלך, שמנהל התקן זה חל עליו, כנראה לא מותקן מנהל התקן.";
+var L_RListDeviceDisabled_Text = "Windows Update ממליץ להתקין עדכון זה מכיוון שההתקן במחשב שלך, שמנהל התקן זה חל עליו, אינו זמין כנראה.";
+var L_RListDeviceProblem_Text = "Windows Update ממליץ להתקין עדכון זה מכיוון שההתקן במחשב שלך, שמנהל התקן זה חל עליו, כנראה אינו פועל כשורה.";
+var L_RListDownloadSize_Text = "גודל הורדה: ";
+var L_RListDownloadSizeTypical_Text = "גודל הורדה טיפוסי: ";
+var L_RListDriversDescription_Text = "העדכונים האופציונליים הבאים זמינים עבור המחשב שלך. בחר את העדכונים שברצונך להתקין ולאחר מכן לחץ על הקישור 'עבור להתקנת עדכונים'.";
+var L_RListDriversTitle_Text = "בחר עדכוני חומרה אופציונליים";
+var L_RListHiddenTitle_Text = "שחזר עדכונים מוסתרים";
+var L_RListHiddenUpdatesBar_Text = "עדכונים מוסתרים";
+var L_RListHideThisUpdate_Text = "הסתר עדכון זה";
+var L_RListInfoGifAlt_Text = "עדכון זה כבר הורד למחשב שלך. אם פריט זה נבחר, התקנתו תושלם על-ידי Windows Update.";
+var L_RListItems_Text = "פריטים";
+var L_RListLessThan_Text = "קטן מ";
+var L_RListNoUpdatesAvailable_Text = "אין עדכונים זמינים";
+var L_RListOptionalBetaUpdatesBar_Text = "עדכוני ביתא אופציונליים";
+var L_RListOptionalHardwareUpdatesBar_Text = "עדכוני חומרה אופציונליים";
+var L_RListOptionalSoftwareUpdatesBar_Text = "עדכוני תוכנה אופציונליים";
+var L_RListOptionalUpdates_Text = "עדכונים אופציונליים";
+var L_RListOtherUpdates_Text = "עדכונים אחרים";
+var L_RListOtherOptionalUpdates_Text = "עדכונים אופציונליים אחרים";
+var L_RListOtherCriticalUpdates_Text = "עדכונים אחרים בעדיפות גבוהה";
+var L_RListProductTitle_Text = "בחר עדכוני תוכנה אופציונליים";
+var L_RListReadMore_Text = "פרטים...";
+var L_RListSingleInstallation_Text = "<b>עדכון התקנה בודדת נבחר להתקנה </b><br/>עדכונים בדף זה אינם זמינים כעת, כיוון שנבחר עדכון התקנה בודדת להתקנה ולא ניתן להתקינו יחד עם עדכונים אחרים. לאחר ההתקנה, באפשרותך לחזור אל Windows Update כדי לבחור עדכונים אחרים עבור המחשב שלך.";
+var L_RListSingleInstallationTitle_Text = "התקנה בודדת: ";
+var L_RListUpdates_Text = "עדכונים";
+var L_RListHiddenCriticalPresent1_Text = "<b>מספר עדכונים בעדיפות גבוהה מוסתרים </b><br/>Microsoft ממליצה להתקין את כל העדכונים בעדיפות גבוהה, כדי לסייע בשמירת המחשב שלך במצב מאובטח. כדי להתקין עדכונים שהוסתרו, עבור אל ";
+var L_RListHiddenCriticalPresent2_Text = "שחזר עדכונים מוסתרים";
+var L_RListHiddenCriticalPresent3_Text = " דף.";
+var L_RListSelectall_Text = "בחר הכל";
+var L_RList100_Text = "עדכונים בעדיפות גבוהה הם עדכונים קריטיים והקשורים לאבטחה.";
+var L_RList101_Text = "לא נבחרו עדכונים בעדיפות גבוהה להתקנה. Microsoft ממליצה שתתקין עדכונים בעדיפות גבוהה, כדי לסייע בשמירת המחשב שלך במצב עדכני ומאובטח. כדי להציג עדכונים אופציונליים הזמינים עבור המחשב שלך, לחץ על אחד מקישורי העדכונים האופציונליים שתחת הקישור 'דף הבית'.";
+var L_RList102a_Text = "Microsoft ממליצה מאוד שתתקין את העדכונים בעדיפות גבוהה הבאים, כדי לסייע בשמירת המחשב שלך במצב עדכני ומאובטח.";
+var L_RList102b_Text = "<b>לא ניתן להתקין עדכונים של התקנה בודדת יחד עם עדכונים אחרים.</b> <br>בחר אם להתקין תחילה עדכון של התקנה בודדת או את כל שאר העדכונים בעדיפות גבוהה ולאחר מכן לחץ על הקישור 'עבור להתקנת עדכונים'. לאחר ההתקנה, חזור אל Windows Update כדי להתקין את העדכונים הנותרים.";
+var L_RList103_Text = "Microsoft ממליצה מאוד שתתקין את עדכון ההתקנה היחידה בעדיפות גבוהה הבא, כדי לסייע בשמירת המחשב שלך במצב עדכני ומאובטח. לשם כך, לחץ על הקישור 'עבור להתקנת עדכונים'.";
+var L_RList104_Text = "Microsoft ממליצה מאוד שתתקין את העדכונים בעדיפות גבוהה הבאים, כדי לסייע בשמירת המחשב שלך במצב עדכני ומאובטח. כדי להתקין עדכונים אלה, לחץ על הקישור 'עבור להתקנת עדכונים'.";
+var L_RList105a_Text = "Microsoft ממליצה מאוד שתתקין את העדכונים בעדיפות גבוהה הבאים, כדי לסייע בשמירת המחשב שלך במצב עדכני ומאובטח.";
+var L_RList105b_Text = "<b>לא ניתן להתקין עדכונים של התקנה בודדת יחד עם עדכונים אחרים.</b> <br>בחר את עדכון ההתקנה הבודדת שברצונך להתקין ולאחר מכן לחץ על 'עבור להתקנת עדכונים'. לאחר ההתקנה, חזור אל Windows Update כדי להתקין את העדכונים הנותרים.";
+var L_RList200_Text = "עדכונים אופציונליים הם עדכונים לא קריטיים שייתכן שתרצה להתקין.";
+var L_RList201_Text = "לא זמינים עדכונים אופציונליים.";
+var L_RList202a_Text = "העדכונים האופציונליים הבאים זמינים עבור המחשב שלך.";
+var L_RList202b_Text = "<b>לא ניתן להתקין עדכונים של התקנה בודדת יחד עם עדכונים אחרים.</b> <br>בחר אם להתקין תחילה עדכון של התקנה בודדת או עדכונים אופציונליים אחרים ולאחר מכן לחץ על הקישור 'עבור להתקנת עדכונים'. לאחר ההתקנה, חזור אל Windows Update כדי להתקין את העדכונים הנותרים.";
+var L_RList203_Text = "העדכון האופציונלי הבא זמין עבור המחשב שלך. לא ניתן להתקין עדכונים של התקנה בודדת יחד עם עדכונים אחרים. בחר את העדכונים שברצונך להתקין ולאחר מכן לחץ על הקישור 'עבור להתקנת עדכונים'. לאחר ההתקנה, באפשרותך לחזור אל Windows Update כדי לבחור עדכונים אחרים עבור המחשב שלך.";
+var L_RList204_Text = "העדכונים האופציונליים הבאים זמינים עבור המחשב שלך. בחר את העדכונים שברצונך להתקין ולאחר מכן לחץ על הקישור 'עבור להתקנת עדכונים'.";
+var L_RList205a_Text = "העדכונים האופציונליים הבאים זמינים עבור המחשב שלך.";
+var L_RList205b_Text = "<b>לא ניתן להתקין עדכונים של התקנה בודדת יחד עם עדכונים אחרים.</b> <br>בחר את עדכון ההתקנה הבודדת שברצונך להתקין ולאחר מכן לחץ על הקישור 'עבור להתקנת עדכונים'. לאחר ההתקנה, חזור אל Windows Update כדי להתקין את העדכונים הנותרים.";
+var L_RList300_Text = "דף זה מספק סיכום של העדכונים שנבחרו להתקנה.";
+var L_RList301_Text = "לא נבחרו עדכונים להתקנה כעת. כדי להציג עדכונים הזמינים עבור המחשב שלך, לחץ על אחד מקישורי העדכונים בעדיפות גבוהה או העדכונים האופציונליים שתחת הקישור 'דף הבית'.";
+var L_RList302_Text = "Microsoft ממליצה מאוד שתתקין את העדכונים בעדיפות גבוהה הבאים, כדי לסייע בשמירת המחשב שלך במצב עדכני ומאובטח. כדי להתקין עדכונים אלה, לחץ על 'התקן'.";
+var L_RList303_Text = "כדי להתקין את העדכונים האופציונליים הבאים, לחץ על 'התקן'.";
+var L_RList304_Text = "Microsoft ממליצה שתתקין את העדכונים בעדיפות גבוהה והאופציונליים הבאים, כדי לסייע בשמירת המחשב שלך במצב עדכני ומאובטח. כדי להתקין עדכונים אלה, לחץ על 'התקן'.";
+var L_RList400_Text = "עדכונים מוסתרים הם עדכונים שהוסרו מרשימת העדכונים הזמינים.";
+var L_RList401_Text = "אין עדכונים מוסתרים. באפשרותך להסתיר עדכון על-ידי לחיצה על הכותרת שלו ולאחר מכן בחירה בתיבת הסימון 'הסתר עדכון זה'.";
+var L_RList402_Text = "<P><b>לא ניתן להתקין עדכונים של התקנה בודדת יחד עם עדכונים אחרים.</b><br> בחר את עדכון ההתקנה הבודדת להתקנה ולאחר מכן לחץ על הקישור 'עבור להתקנת עדכונים'. לאחר ההתקנה, חזור אל Windows Update כדי להתקין את העדכונים הנותרים.";
+var L_RList403_Text = "<P><b>לא ניתן להתקין עדכונים של התקנה בודדת יחד עם עדכונים אחרים.</b><br> בחר את עדכון ההתקנה הבודדת שברצונך להתקין ולאחר מכן לחץ על הקישור 'עבור להתקנת עדכונים'. לאחר ההתקנה, חזור אל Windows Update כדי להתקין את העדכונים הנותרים.";
+var L_RList404_Text = "אם ברצונך להתקין עדכון מוסתר, בחר בתיבת הסימון שלו ולאחר מכן לחץ על הקישור 'עבור להתקנת עדכונים'.";
+var L_RList405_Text = "<P><b>לא ניתן להתקין עדכונים של התקנה בודדת יחד עם עדכונים אחרים.</b><br> בחר אם להתקין תחילה עדכון של התקנה בודדת או עדכונים אחרים ולאחר מכן לחץ על הקישור 'עבור להתקנת עדכונים'. לאחר ההתקנה, חזור אל Windows Update כדי להתקין את העדכונים הנותרים.";
+var L_RList500_Text = "התקנה מהירה מאפשרת להוריד ולהתקין במהירות רק את העדכונים הקריטיים ועדכוני האבטחה הדרושים למחשב שלך.";
+var L_RList501_Text = "Microsoft ממליצה מאוד שתתקין את העדכונים בעדיפות גבוהה הבאים, כדי לסייע בשמירת המחשב שלך במצב עדכני ומאובטח. כדי להתקין עדכונים אלה, לחץ על 'התקן'.";
+var L_RList502_Text = "נראה שהמחשב מעודכן; לא זמינים עדכונים קריטיים או עדכוני אבטחה כעת. כדי להציג עדכונים אופציונליים עבור המחשב שלך, לחץ על הקישור 'דף הבית' ולאחר מכן לחץ על 'התקנה מותאמת אישית'. Windows Update יחפש עדכונים אופציונליים. באפשרותך לסקור את העדכונים לפני ההורדה.";
+var L_RList600_Text = "העדכונים בדף זה הם תוכנת ביתא בעצמם, או עדכונים לתוכנת ביתא המותקנת במחשב שלך.";
+var L_RList700_Text = "דף זה מכיל עדכונים של מנהלי התקנים...";
+var g_sControlVersion = '3790.2182';
+
+		</script>
+	</head>
+	<noscript>
+		<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=he-il&error=1' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='*,180,0' framespacing='0'><frame name='eContent' src='errorinformation.aspx?ln=he-il&error=1' /><frame name='eTOC' src='toc.aspx?ln=he-il&error=1' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=he-il&error=1' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+	</noscript>
+	<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=he-il' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='*,180,0' framespacing='0'><frame name='eContent' src='splash.aspx?page=0&ln=he-il' /><frame name='eTOC' src='toc.aspx?ln=he-il' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=he-il' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+</html>

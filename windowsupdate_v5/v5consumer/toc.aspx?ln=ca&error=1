@@ -1,0 +1,64 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/toc.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/toc.css' />
+
+<script language ="javascript">
+	                var L_Toc_Critical_Text = "Revisar actualizaciones de alta prioridad";
+                var L_Toc_Beta_Text = "Seleccionar actualizaciones beta opcionales";
+                var L_Toc_Hardware_Text = "Seleccionar actualizaciones de hardware opcionales";
+                var L_Toc_Software_Text = "Seleccionar actualizaciones de software opcionales";
+                var L_Toc_CriticalUpdatesAlt_Text = "Revise una lista de actualizaciones de seguridad y de alta prioridad.";
+                var L_Toc_SoftwareUpdatesAlt_Text = "Revise una lista de actualizaciones de software opcionales.";
+                var L_Toc_HardwareUpdatesAlt_Text = "Revise una lista de actualizaciones de hardware opcionales.";
+                var L_Toc_BetaUpdatesAlt_Text = "Revise una lista de actualizaciones beta opcionales.";
+                var L_TocProductAlt_Text = "Revisar una lista de actualizaciones de ";
+
+</script>
+</head>
+	<body class="toc sys-lhp-bgcolor"> 
+		<base target="eContent" />
+		<div id="eUserData"></div> 
+		<form name="ePostForm" id="ePostForm" method="post"><input name="ePostData" id="ePostData" type="hidden" /></form>
+		<table cellspacing="0" class="sys-toppane-bgcolor" >
+			<tbody>
+				<tr> 
+					<td style="height: 100%;"> 
+						<div class="sys-font-body toppane-body"> 
+
+							<a id="eBasketUpdates" title="Revise las actualizaciones seleccionadas para su instalación e inicie el proceso de instalación." class="sys-link-disabled"><img src="shared/images/icon_wu_installnow_16x.gif" style = "width : 16px; height: 16px;" />Instalar actualizaciones<i></i></a><br />
+
+
+							<div class="subHeader sys-bottompane-header-color sys-font-body-bold">Otras opciones</div>
+
+
+							<a class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />Ver historial de instalación</a><br />
+							<a class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />Configuración</a><br />
+							<a class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />Restaurar actualizaciones ocultas</a><br />
+
+
+							
+							<div id="eConsumerDiv3">
+								<a id="eAdmin" href="administrators.aspx?ln=ca" title="Leer información para usuarios avanzados." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Opciones de administrador</a><br />
+								<a id="eSupport" href="support.aspx?ln=ca" title="Aprenda cómo obtener soporte técnico en línea para solucionar los problemas con el sitio de Windows Update o con los elementos instalados desde el mismo." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Ayuda y soporte técnico</a><br />
+								<a id="eAbout" href="about.aspx?ln=ca" title="Encuentre las respuestas a las preguntas más frecuentes acerca de Windows Update." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Preguntas más frecuentes</a><br />
+								
+							</div>
+							<a id="eHardwareSupport" target="_blank" class="sys-link-normal" title="Vaya al sitio de soporte técnico del fabricante del equipo."><img src="shared/images/toc_endnode.gif" />Compatibilidad de hardware</a>
+						</div>
+						
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

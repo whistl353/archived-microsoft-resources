@@ -1,0 +1,158 @@
+
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<META http-equiv="Content-Type"  content="text/html;charset=windows-1252" />
+		<META http-equiv="MSThemeCompatible" content="Yes" />
+		<META NAME="DESCRIPTION" CONTENT="Hämta de senaste uppdateringarna för datorns operativsystem, programvara och maskinvara. Windows Update genomsöker din dator och visar en anpassad lista med uppdateringar."> 
+		<META NAME="MS.LOCALE" CONTENT="sv">
+		<META NAME="keywords" CONTENT="Windows Update; update; security; secure; up-to-date; download; driver; patch; fix; hotfix; QFE; bug; critical; high priority; service pack; Automatic Updates; Windows XP; Windows 2000; Windows Server 2003; WinXP; Win2k; Win2000; WS2k3; WS2003; .NET Server; SP">
+		<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+		<title>Microsoft Windows Update</title>
+		<object id="SusWebCtl" VIEWASTEXT></object>
+		<script language="javascript" type="text/javascript">
+			var curSite = 5;
+			var g_sDownForMaintenance2K = "";
+			var g_sDownForMaintenanceXP = "";
+			var g_sDownForMaintenance2003 = "";
+			var g_sDownForMaintenanceLonghorn = "";
+			var g_sUA = "ia_archiver".toLowerCase();
+					
+			
+		</script>
+		<script language="javascript" type="text/javascript" src="shared/js/tgar.js?2006-02-18 20:29:58"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/redirect.js?2006-02-18 20:29:58"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/commontop.js?2006-02-18 20:29:58"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/webcomtop.js?2006-02-18 20:29:58"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/spupdateids.js?2006-02-18 20:29:58"></script>
+		
+		 
+			<script language="javascript" type="text/javascript">
+				function fnSupressError(sMessage, sURL, sLine){ return true; }
+				window.onerror = fnSupressError ;
+			</script>
+		
+		<script language="javascript" type="text/javascript" defer="true">
+			var conQueryString = "ln=sv"; 
+			var conRTL = false;
+			var conDevServer = false;
+			var conCriticalUpdatesMode = false;
+			var conLangCode = "sv";
+			var conConsumerURL = "/v5consumer/";
+			var L_ScanForAvailableUpdates_Text = "Hämta uppdateringar för programvara";
+var L_ReloadingSiteText_Text = "Webbplatsen för Windows Update har inte öppnats.\n			Klicka på OK om du vill fortsätta vänta.\n			Om du vill försöka öppna webbplatsen för Windows Update på nytt klickar du på Avbryt.";
+var L_MB_Text = "MB";
+var L_KB_Text = "kB";
+var L_Hour_Text = "timme";
+var L_Hours_Text = "timmar";
+var L_InstallTitle_Text = "Installerar uppdateringar";
+var L_Minute_Text = "minut";
+var L_Minutes_Text = "minuter";
+var L_RListNoUpdatesToInstall_Text = "Inga uppdateringar har markerats för installation.";
+var L_StatusSucceeded_Text = "Lyckades";
+var L_StatusFailed_Text = "Misslyckades";
+var L_StatusAborted_Text = "Avbröts";
+var L_UpdateName_Text = "Uppdateringens namn";
+var L_Status_Text = "Status";
+var L_Date_Text = "Datum";
+var L_Source_Text = "Källa";
+var L_AutomaticUpdates_Text = "Automatiska uppdateringar";
+var L_WindowsUpdate_Text = "Webbplatsen Windows Update";
+var L_ManagedServer_Text = "Klientwebbplatsen Windows Update Services";
+var L_DynamicUpdate_Text = "Dynamiska uppdateringar";
+var L_DeviceManager_Text = "Enhetshanteraren";
+var L_OperationModeDownload_Text = "Hämtar";
+var L_OperationModeCopying_Text = "Kopierar filer";
+var L_OperationModeRegister_Text = "Registrerar";
+var L_OtherSource_Text = "Annan källa";
+var L_PersonalizationSaveSettingsPrompt_Text = "Du har ändrat inställningarna. Klicka på OK om du vill spara inställningarna. Om du vill fortsätta utan att spara klickar du på Avbryt.";
+var L_Next_Text = "Nästa";
+var L_RListBasketUpdatesNotAvailableText_Text = "Det finns inga valda uppdateringar.";
+var L_NeedUserData_Text = "Funktionen kräver att användardata aktiveras";
+var L_UserDataSaved_Text = "Dina inställningar sparades";
+var L_PersonalizationReloadSite_Text = "Dina språkinställningar har sparats. Windows Update måste uppdateras för att kunna visas på ett nytt språk. Om du har markerat några uppdateringar försvinner markeringarna när du uppdaterar. Vill du göra detta nu?";
+var L_Previous_Text = "Föregående";
+var L_ProxyTitle_Text = "Ange inloggningsuppgifter för proxy";
+var L_ExpressModeHidden_Text = "För Windows Update och automatiska uppdateringar kan du välja att dölja en uppdatering som du inte längre vill få erbjudande om att installera. Uppdateringen som nu krävs var tidigare dold. Vill du återställa uppdateringen så att det går att installera den?";
+var L_WerUpdateInstalled_Text = "Den nödvändiga uppdateringen har redan installerats. Klicka på OK om du vill fortsätta installera andra tillgängliga uppdateringar för din dator.";
+var L_RListBetaDescription_Text = "Följande betauppdateringar är tillgängliga. Välj önskade uppdateringar och klicka därefter på länken Gå vidare och installera uppdateringar.";
+var L_RListBetaTitle_Text = "Markera tillvalsuppdateringar för betaprogramvara";
+var L_RListBetaWarning1_Text = "<b>Betaprogramvara kan skada din dator</b><br>";
+var L_RListBetaWarning2_Text = "Förhandsversioner, så kallad betaprogramvara och uppdateringar av betaprogramvara, kan skada din dator. Microsofts support för sådan programvara är begränsad.";
+var L_RListClickForDescription_Text = "Klicka om du vill visa en beskrivning av uppdateringen";
+var L_RListClickToHideDescription_Text = "Klicka om du vill dölja beskrivningen av uppdateringen";
+var L_RListCriticalUpdates_Text = "Prioriterade uppdateringar";
+var L_RListCriticalUpdatesBar_Text = "Prioriterade uppdateringar";
+var L_RListCriticalUpdatesTitle_Text = "Granska prioriterade uppdateringar";
+var L_RListDeviceUnknown_Text = "Windows Update rekommenderar att du installerar den här uppdateringen, eftersom det verkar som om det inte finns någon drivrutin installerad för den enhet som drivrutinen gäller.";
+var L_RListDeviceDisabled_Text = "Windows Update rekommenderar att du installerar den här uppdateringen, eftersom den enhet för vilken den här drivrutinen gäller verkar vara inaktiverad.";
+var L_RListDeviceProblem_Text = "Windows Update rekommenderar att du installerar den här uppdateringen, eftersom den enhet för vilken den här drivrutinen gäller inte verkar fungera korrekt.";
+var L_RListDownloadSize_Text = "Hämtningsstorlek: ";
+var L_RListDownloadSizeTypical_Text = "Typisk hämtningsstorlek: ";
+var L_RListDriversDescription_Text = "Följande tillvalsuppdateringar hittades för din dator. Markera de uppdateringar du vill installera och klicka sedan på länken Gå vidare och installera uppdateringar.";
+var L_RListDriversTitle_Text = "Markera tillvalsuppdateringar för maskinvara";
+var L_RListHiddenTitle_Text = "Återställ dolda uppdateringar";
+var L_RListHiddenUpdatesBar_Text = "Dolda uppdateringar";
+var L_RListHideThisUpdate_Text = "Dölj den här uppdateringen";
+var L_RListInfoGifAlt_Text = "Den här uppdateringen har redan hämtats till din dator. Om du markerar den kommer Windows Update att slutföra installationen.";
+var L_RListItems_Text = "objekt";
+var L_RListLessThan_Text = "mindre än";
+var L_RListNoUpdatesAvailable_Text = "Inga uppdateringar är tillgängliga";
+var L_RListOptionalBetaUpdatesBar_Text = "Tillvalsuppdateringar för betaprogramvara";
+var L_RListOptionalHardwareUpdatesBar_Text = "Tillvalsuppdateringar för maskinvara";
+var L_RListOptionalSoftwareUpdatesBar_Text = "Tillvalsuppdateringar för programvara";
+var L_RListOptionalUpdates_Text = "Tillvalsuppdateringar";
+var L_RListOtherUpdates_Text = "Övriga uppdateringar";
+var L_RListOtherOptionalUpdates_Text = "Övriga tillvalsuppdateringar";
+var L_RListOtherCriticalUpdates_Text = "Övriga prioriterade uppdateringar";
+var L_RListProductTitle_Text = "Markera tillvalsuppdateringar för programvara";
+var L_RListReadMore_Text = "Information...";
+var L_RListSingleInstallation_Text = "<b>En enskild uppdatering har markerats för installation </b><br/>Uppdateringarna på den här sidan är inte tillgängliga, eftersom en enskild uppdatering har markerats för installation. Enskilda uppdateringar kan inte installeras samtidigt som andra uppdateringar. När du är klar med installationen kan du gå tillbaka till Windows Update och markera andra uppdateringar för din dator.";
+var L_RListSingleInstallationTitle_Text = "Enskild installation: ";
+var L_RListUpdates_Text = "uppdateringar";
+var L_RListHiddenCriticalPresent1_Text = "<b>En del prioriterade uppdateringar är dolda </b><br/>Microsoft rekommenderar att du skyddar din dator genom att installera alla prioriterade uppdateringar. Om du vill installera dolda uppdateringar går du till sidan ";
+var L_RListHiddenCriticalPresent2_Text = "Återställ dolda uppdateringar";
+var L_RListHiddenCriticalPresent3_Text = ".";
+var L_RListSelectall_Text = "Markera alla";
+var L_RList100_Text = "Prioriterade uppdateringar är viktiga uppdateringar och säkerhetsuppdateringar.";
+var L_RList101_Text = "Inga prioriterade uppdateringar har markerats för installation. Microsoft rekommenderar att du skyddar din dator genom att installera prioriterade uppdateringar. Om du vill visa ytterligare tillgängliga uppdateringar klickar du på någon av länkarna till tillvalsuppdateringar under länken Startsida.";
+var L_RList102a_Text = "Microsoft rekommenderar att du uppdaterar och skyddar din dator genom att installera följande prioriterade uppdateringar.";
+var L_RList102b_Text = "<b>Enskilda uppdateringar kan inte installeras samtidigt som andra uppdateringar.</b> <br>Välj om du först vill installera en enskild uppdatering eller alla andra prioriterade uppdateringar. Klicka på Gå vidare och installera uppdateringar. Gå tillbaka till Windows Update och installera övriga uppdateringar när den första installationen är slutförd.";
+var L_RList103_Text = "Microsoft rekommenderar att du uppdaterar och skyddar din dator genom att installera följande prioriterade uppdateringar. Klicka på länken Gå vidare och installera uppdateringar.";
+var L_RList104_Text = "Microsoft rekommenderar att du uppdaterar och skyddar din dator genom att installera följande prioriterade uppdateringar. Klicka på länken Gå vidare och installera uppdateringar.";
+var L_RList105a_Text = "Microsoft rekommenderar att du uppdaterar och skyddar din dator genom att installera följande prioriterade uppdateringar.";
+var L_RList105b_Text = "<b>Enskilda uppdateringar kan inte installeras samtidigt som andra uppdateringar.</b> <br>Välj en enskild uppdatering och klicka på Gå vidare och installera uppdateringar. Gå tillbaka till Windows Update och installera övriga uppdateringar när den första installationen är slutförd.";
+var L_RList200_Text = "Tillvalsuppdateringar är mindre viktiga uppdateringar som du kanske vill installera ändå.";
+var L_RList201_Text = "Inga tillvalsuppdateringar hittades.";
+var L_RList202a_Text = "Följande tillvalsuppdateringar finns tillgängliga.";
+var L_RList202b_Text = "<b>Enskilda uppdateringar kan inte installeras samtidigt som andra uppdateringar.</b> <br>Välj om du först vill installera en enskild uppdatering eller alla andra tillvalsuppdateringar. Klicka på Gå vidare och installera uppdateringar. Gå tillbaka till Windows Update och installera övriga uppdateringar när den första installationen är slutförd.";
+var L_RList203_Text = "Följande tillvalsuppdatering hittades för din dator. Enskilda uppdateringar kan inte installeras samtidigt som andra uppdateringar. Välj vilken uppdatering som du vill installera och klicka på Gå vidare och installera uppdateringar. Gå tillbaka till Windows Update och installera övriga uppdateringar när den första installationen är slutförd.";
+var L_RList204_Text = "Följande tillvalsuppdateringar hittades för din dator. Markera de uppdateringar du vill installera och klicka sedan på länken Gå vidare och installera uppdateringar.";
+var L_RList205a_Text = "Följande tillvalsuppdateringar finns tillgängliga.";
+var L_RList205b_Text = "<b>Enskilda uppdateringar kan inte installeras samtidigt som andra uppdateringar.</b> <br>Välj en enskild uppdatering och klicka på Gå vidare och installera uppdateringar. Gå tillbaka till Windows Update och installera övriga uppdateringar när den första installationen är slutförd.";
+var L_RList300_Text = "Den här sidan visar en sammanfattning över de uppdateringar du har valt att installera.";
+var L_RList301_Text = "Inga uppdateringar har markerats för installation just nu. Om du vill visa tillgängliga uppdateringar för din dator klickar du på någon av länkarna till prioriterade eller viktiga uppdateringar under länken Startsida.";
+var L_RList302_Text = "Microsoft rekommenderar att du uppdaterar och skyddar din dator genom att installera följande prioriterade uppdateringar. Klicka på Installera om du vill installera uppdateringarna.";
+var L_RList303_Text = "Klicka på Installera om du vill installera följande tillvalsuppdateringar.";
+var L_RList304_Text = "Microsoft rekommenderar att du uppdaterar och skyddar din dator genom att installera följande prioriterade uppdateringar och tillvalsuppdateringar. Klicka på Installera om du vill installera uppdateringarna.";
+var L_RList400_Text = "Dolda uppdateringar är de uppdateringar som finns i listan över tillgängliga uppdateringar, men som är dolda.";
+var L_RList401_Text = "Inga uppdateringar är dolda. Du kan dölja en uppdatering genom att klicka på rubriken och sedan markera kryssrutan \"Dölj den här uppdateringen\".";
+var L_RList402_Text = "<P><b>Enskilda uppdateringar kan inte installeras samtidigt som andra uppdateringar.</b><br> Välj vilken uppdatering som du vill installera och klicka på Gå vidare och installera uppdateringar. Gå tillbaka till Windows Update och installera övriga uppdateringar när den första installationen är slutförd.";
+var L_RList403_Text = "<P><b>Enskilda uppdateringar kan inte installeras samtidigt som andra uppdateringar.</b><br> Välj vilken uppdatering som du vill installera och klicka på Gå vidare och installera uppdateringar. Gå tillbaka till Windows Update och installera övriga uppdateringar när den första installationen är slutförd.";
+var L_RList404_Text = "Om du vill installera en dold uppdatering markerar du dess kryssruta. Klicka sedan på länken Gå vidare och installera uppdateringar.";
+var L_RList405_Text = "<P><b>Enskilda uppdateringar kan inte installeras samtidigt som andra uppdateringar.</b><br> Välj vilken uppdatering som du vill installera och klicka på Gå vidare och installera uppdateringar. Gå tillbaka till Windows Update och installera övriga uppdateringar när den första installationen är slutförd.";
+var L_RList500_Text = "Med Snabb installation kan du snabbt hämta och installera endast de prioriterade och viktiga uppdateringar som finns för din dator.";
+var L_RList501_Text = "Microsoft rekommenderar att du uppdaterar och skyddar din dator genom att installera följande prioriterade uppdateringar. Klicka på Installera om du vill installera uppdateringarna.";
+var L_RList502_Text = "Din dator är uppdaterad. Just nu finns inga viktiga eller prioriterade uppdateringar. Om du vill visa tillgängliga tillvalsuppdateringar för din dator klickar du på länken Startsida och sedan på Anpassad installation. Windows Update söker efter tillvalsuppdateringar. Du kan granska uppdateringarna innan de hämtas.";
+var L_RList600_Text = "Uppdateringarna på den här sidan är betaprogramvara eller uppdateringar av betaprogramvara som har installerats på datorn.";
+var L_RList700_Text = "Den här sidan innehåller drivrutinsuppdateringar…";
+var g_sControlVersion = '3790.2182';
+
+		</script>
+	</head>
+	<noscript>
+		<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=sv&error=1' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=sv&error=1' /><frame name='eContent'  src='errorinformation.aspx?ln=sv&error=1' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=sv&error=1' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+	</noscript>
+	<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=sv' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=sv' /><frame name='eContent'  src='splash.aspx?page=0&ln=sv' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=sv' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+</html>

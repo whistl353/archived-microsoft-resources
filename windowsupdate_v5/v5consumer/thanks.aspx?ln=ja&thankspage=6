@@ -1,0 +1,50 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=shift_jis' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+		<style type='text/css'>
+			table { table-layout: fixed; }
+		</style>
+</head>
+	<body onload="fnInit(3, 6);" bgcolor="white" link="#587EDC" alink="#587EDC" vlink="#587EDC">
+	
+		<font face="Tahoma, Arial, Helvetica">
+
+			<font size="3" color="#587EDC">
+			<b>Windows Update Version 5 プレビューへようこそ</b>
+			</font>
+			<font size="2">
+			<p>
+			Microsoft Windows Update Version 5 プレビュー プログラムにご関心をいただき、ありがとうございます。このサイトは、Windows Update の次期バージョンのプレビューです。続行する前に、以下の情報をよく読んでください。
+			<p>
+			<img src="shared/images/warning_icon.gif">
+			<b>警告と注意</B> Windows Update 5 には、リリース前のソフトウェア、およびリリース前の更新プログラム サービスが含まれています。これらは、テスト目的にのみ提供され、技術的なサポートを受けることができません。これらの使用は<A href="http://go.microsoft.com/fwlink/?linkid=9482&clcid=0x409" target=_blank>使用条件</A>に従う必要があり、ソフトウェアについては、ソフトウェアに付随する使用許諾契約書に従う必要があります。更新プログラムは、Windows Update Version 5 プレビュー サイトと Windows Update Version 4 サイトで同時に使用可能になります。更新プログラムによっては Windows Update Version 5 プレビュー サイトよりも Windows Update Version 4 サイトで先に掲載される場合があります。
+			
+				<p>
+				<img src="shared/images/info_16x.gif">
+				<a href="http://www.beta.microsoft.com" target=_blank>
+				<b>登録ベータ ユーザーではないが、Microsoft Beta プログラムの詳細を知りたい</b></a>
+			
+			<p><img src="shared/images/arrow.gif">
+			<a href="default.aspx?rc1=true">
+			<b>Microsoft Windows Update Beta ユーザーに登録済みで、Windows Update Version 5 プレビュー サイトにアクセスしたい</b></a>
+			</font>
+			<p>&nbsp;</p>
+			<font size="1">
+			(C) 2004 Microsoft Corporation. All rights reserved. <A href="http://go.microsoft.com/fwlink/?linkid=9482&clcid=0x409" target=_blank>使用条件</A>
+			</font>
+
+		</font>
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' /> 
+	</body>
+</html>

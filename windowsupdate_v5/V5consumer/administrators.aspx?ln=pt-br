@@ -1,0 +1,50 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+ 
+	</head>
+	<body onload="fnInit(14, -1);">
+	
+		<span class="sys-font-heading3 sys-rhp-color-title">Opções do Administrador</span><br />
+	        <br>
+			<div class="8pt">
+
+			<b>Atualizar vários sistemas operacionais<br /></b>
+			Para fazer sua seleção a partir das atualizações lançadas para todos os sistemas operacionais Windows, incluindo atualizações de software para servidores e atualizações de drivers (hardware), pesquise o <a href="http://go.microsoft.com/fwlink/?LinkId=8973" target="_blank" class="sys-link-normal">Catálogo do Windows Update</a>.<br /><br />
+			<b>Gerenciar o processo de atualização para redes<br /></b>
+			Para atualizar os sistemas operacionais Windows e outros produtos da Microsoft executados dentro do firewall da sua empresa, use os <a href="http://go.microsoft.com/fwlink/?LinkId=24462" target="_blank" class="sys-link-normal">Serviços do Windows Update</a>. Essa solução, anteriormente conhecida como SUS (Software Update Services) 2.0, ajuda os administradores a identificar os sistemas para implantação, controlar as interações dos usuários, remover atualizações, agendar a freqüência e a prioridade das atualizações e muito mais.<br /><br />
+			Observação:<br />
+			<ul style="margin-left:40px">
+				<li>O <a href="http://go.microsoft.com/fwlink/?LinkId=27549" target="_blank" class="sys-link-normal">MBSA (Microsoft Baseline Security Analyzer)</a> também examina e informa erros comuns de configuração relacionados à segurança e pode ajudá-lo a instalar as atualizações de segurança que estão faltando nos computadores baseados no Windows. </li>
+				<li>
+					Para exibir rapidamente as atualizações fornecidas pelas Atualizações Automáticas, pelo Windows Update e pelos Serviços do Windows Update, leia as 
+					<a  class="sys-link-normal" href="about.aspx?ln=pt-br" target="eContent">Perguntas freqüentes do Windows Update</a>
+					.
+				</li>
+			</ul>
+			<br/><b>Obter mais atualizações<br /></b>
+			<ul style="margin-left:40px">
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=21601" target="_blank" class="sys-link-normal">Pesquise o Centro de Download da Microsoft</a>
+			<br>Obtenha downloads para todos os produtos da Microsoft com suporte. Os downloads estão disponíveis em 30 idiomas.  
+		</li>
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=24459" target="_blank" class="sys-link-normal">Visite o Microsoft Office Online</a>
+			<br>Encontre atualizações para o Microsoft Office System, versões 97/98 e posteriores. Os downloads incluem modelos, conteúdo de ajuda e clip-arts.
+		</li>
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=27098" target="_blank" class="sys-link-normal">Torne-se um cliente do Microsoft Premier Support</a>
+			<br>Obtenha informações sobre os benefícios do Premier Support, incluindo atualizações adicionais, como software de pré-lançamento.   
+		</li>
+			</ul>
+			</div> 
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+	</body>
+</html>

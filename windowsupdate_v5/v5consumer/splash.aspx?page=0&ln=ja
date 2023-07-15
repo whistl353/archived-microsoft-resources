@@ -1,0 +1,34 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=shift_jis' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+<script language ="javascript">
+	var iSubPage = 0;	
+	var sDir = "ltr" ;
+	if(iSubPage == parent.conSplashMandatoryUpdates){
+		var sMandatoryUpdateIndexes = "";
+	}
+	
+</script>
+<script language="javascript" type="text/javascript" src="shared/js/survey.js?632454551490435581"></script>
+	<style>.storeUserData{behavior: url(#default#userData);}</style>
+   	</head>
+	<body onload="if('function' == typeof(fnInitSplashPage)) fnInitSplashPage(1, 0);">
+	<DIV STYLE="behavior:url('#default#userData')" ID="divWebIQUserData"></DIV>
+
+		<span class="sys-font-heading3 sys-rhp-color-title">最新バージョンの Windows Update ソフトウェアを確認しています...</span><br /><br />
+		接続速度によっては、この作業にしばらく時間がかかる可能性があります。この間に、1 つまたは複数のセキュリティ警告が表示される場合があります。各セキュリティ警告を参照して、コンテンツが Microsoft によって署名されていることを確認してください。その後、[インストール] または [はい] をクリックしてソフトウェアをインストールします。<br /><br />
+	
+<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+	</body>
+</html>

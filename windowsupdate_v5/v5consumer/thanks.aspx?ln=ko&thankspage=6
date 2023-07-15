@@ -1,0 +1,49 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=ks_c_5601-1987' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+		<style type='text/css'>
+			table { table-layout: fixed; }
+		</style>
+</head>
+	<body onload="fnInit(3, 6);" bgcolor="white" link="#587EDC" alink="#587EDC" vlink="#587EDC">
+	
+		<font face="Tahoma, Arial, Helvetica">
+
+			<font size="3" color="#587EDC">
+			<b>Windows Update 버전 5 베타입니다.</b>
+			</font>
+			<font size="2">
+			<p>
+			Microsoft Windows Update 버전 5 베타 프로그램을 이용해 주셔서 감사합니다. 이 사이트에서는 다음 버전의 Windows Update를 미리 볼 수 있습니다. 계속하려면 아래 정보를 주의깊게 읽어 보십시오.<P>프로그램을 사용하려면 Windows Update 베타 사용자로 등록해야 합니다. 사용자로 등록하면 이 베타 릴리스를 완벽하게 경험하는 데 필요한 도구, 정보 및 계약이 제공됩니다. Windows Update 베타 프로그램의 구성원이 아닌 경우 계속하려면 먼저 등록이 필요합니다. 자세한 내용을 보려면 <a href="http://www.beta.microsoft.com" target="_blank">Microsoft Beta</a> 홈 페이지를 방문하거나 <A href="mailto:mubeta@microsoft.com">mubeta@microsoft.com</A>으로 전자 메일을 보내십시오.
+			<p>
+			<img src="shared/images/warning_icon.gif">
+			<b>경고 및 유의 사항</B> Windows Update 5에는 시험판 소프트웨어와 시험판 업데이트 서비스가 포함됩니다. 이러한 제품은 등록된 Microsoft 베타 테스터들만 사용할 수 있으며 테스트용으로만 제공됩니다. 이러한 제품의 사용은 <A href="http://go.microsoft.com/fwlink/?linkid=9482&clcid=0x409" target=_blank>사용권에 대한 고지 사항</A>의 적용을 받으며 소프트웨어는 함께 제공되는 사용권 계약의 적용을 받습니다. 
+			
+			<p>
+			<img src="shared/images/info_16x.gif">
+			<a href="http://www.beta.microsoft.com" target=_blank>
+			<b>등록된 베타 사용자는 아니지만 Microsoft 베타 프로그램에 대한 자세한 정보를 보고 싶습니다.</b></a>
+			
+			<p><img src="shared/images/arrowsquare.gif">
+			<a href="default.aspx?rc1=true">
+			<b>위의 정보를 모두 읽었으며 현재 Microsoft Windows Update 베타 사용자로 등록되어 있습니다.</b></a>
+			</font>
+			<p>&nbsp;</p>
+			<font size="1">
+			(c) 2004 Microsoft Corporation. All rights reserved. <A href="http://go.microsoft.com/fwlink/?linkid=9482&clcid=0x409" target=_blank>사용권에 대한 고지 사항</A>
+			</font>
+
+		</font>
+	</body>
+</html>

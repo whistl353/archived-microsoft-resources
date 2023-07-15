@@ -1,0 +1,56 @@
+
+
+		<script language="JScript" type="text/javascript">
+			function fnPingback() {
+				var errnumber = 0xF;
+				var queryString;
+				var pingbackURL = "http://supportstats.windowsupdate.com/v5track.bin" 
+				queryString = "?v5_b1_1367_err=0x" + errnumber; 
+				pingback.location.replace(pingbackURL + queryString);
+			}
+		</script>
+
+
+<title>
+	Microsoft Windows Update
+</title>
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+<body onload="fnPingback();if(self != top &amp;&amp; 'function' ==  typeof(fnInit)) fnInit(0, 15);">
+	<br>
+	<div class='tblExclusiveSection'>
+	<table border="0" width=*>
+	<tr>
+	    <td width="20" valign="top">
+			<img src="shared/images/warning.gif" alt="Error Icon" ><span class="sys-font-heading3 sys-rhp-color-title"></span>
+		</td>
+		<td width=* valign="top">
+		HTTP Error 404 - File or directory not found.<br>
+<br>
+Cannot find the page you are looking for. It might have been removed, had its name changed, or is temporarily unavailable. <br>
+<br>
+<br>
+Please try the following:<br>
+<ul style='margin-left = 40'>
+<li>Ensure that the Web site address displayed in the address bar of your browser is spelled and formatted correctly.</li>
+<li>If you reached this page by clicking a link, contact the Web site administrator to alert them that the link is incorrectly formatted.</li>
+<li>Click the <a href="javascript:history.back(1)">Back</a> button to try another link.</li>
+</ul>
+<br>Error Number: 0xF<br>
+		</td>
+	</tr>
+	</table> 
+	</div>
+	<IFRAME ID="pingback" src="" HEIGHT=0 WIDTH=0></IFRAME> 
+	<br>
+	<br>
+</body>

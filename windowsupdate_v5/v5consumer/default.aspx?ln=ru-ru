@@ -1,0 +1,158 @@
+
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<META http-equiv="Content-Type"  content="text/html;charset=windows-1251" />
+		<META http-equiv="MSThemeCompatible" content="Yes" />
+		<META NAME="DESCRIPTION" CONTENT="Получите последние имеющиеся обновления для операционной системы, программ и драйверов оборудования вашего компьютера.  Windows Update проверяет состояние компьютера и предоставляет информацию о специально подобранных для него обновлениях."> 
+		<META NAME="MS.LOCALE" CONTENT="ru">
+		<META NAME="keywords" CONTENT="Windows Update; update; security; secure; up-to-date; download; driver; patch; fix; hotfix; QFE; bug; critical; high priority; service pack; Automatic Updates; Windows XP; Windows 2000; Windows Server 2003; WinXP; Win2k; Win2000; WS2k3; WS2003; .NET Server; SP">
+		<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+		<title>Microsoft Windows Update</title>
+		<object id="SusWebCtl" VIEWASTEXT></object>
+		<script language="javascript" type="text/javascript">
+			var curSite = 5;
+			var g_sDownForMaintenance2K = "";
+			var g_sDownForMaintenanceXP = "";
+			var g_sDownForMaintenance2003 = "";
+			var g_sDownForMaintenanceLonghorn = "";
+			var g_sUA = "ia_archiver".toLowerCase();
+					
+			
+		</script>
+		<script language="javascript" type="text/javascript" src="shared/js/tgar.js?09.02.2005 16:14:11"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/redirect.js?09.02.2005 16:14:11"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/commontop.js?09.02.2005 16:14:11"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/webcomtop.js?09.02.2005 16:14:11"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/spupdateids.js?09.02.2005 16:14:11"></script>
+		
+		 
+			<script language="javascript" type="text/javascript">
+				function fnSupressError(sMessage, sURL, sLine){ return true; }
+				window.onerror = fnSupressError ;
+			</script>
+		
+		<script language="javascript" type="text/javascript" defer="true">
+			var conQueryString = "ln=ru-ru"; 
+			var conRTL = false;
+			var conDevServer = false;
+			var conCriticalUpdatesMode = false;
+			var conLangCode = "ru";
+			var conConsumerURL = "/v5consumer/";
+			var L_ScanForAvailableUpdates_Text = "Получить обновления программ";
+var L_ReloadingSiteText_Text = "Открытие веб-узла Windows Update не завершено.\n			Чтобы продолжить ожидание, нажмите кнопку ''ОК''.\n			Чтобы попробовать еще раз открыть веб-узел из Windows Update, нажмите кнопку \"Отмена\".";
+var L_MB_Text = "МБ";
+var L_KB_Text = "КБ";
+var L_Hour_Text = "ч";
+var L_Hours_Text = "ч";
+var L_InstallTitle_Text = "Установка обновлений";
+var L_Minute_Text = "мин.";
+var L_Minutes_Text = "мин.";
+var L_RListNoUpdatesToInstall_Text = "Не выбраны обновления для установки.";
+var L_StatusSucceeded_Text = "Успешно";
+var L_StatusFailed_Text = "Ошибка";
+var L_StatusAborted_Text = "Отменена";
+var L_UpdateName_Text = "Название обновления";
+var L_Status_Text = "Состояние";
+var L_Date_Text = "Дата";
+var L_Source_Text = "Источник";
+var L_AutomaticUpdates_Text = "Автообновления";
+var L_WindowsUpdate_Text = "Веб-узел Windows Update";
+var L_ManagedServer_Text = "Клиентский веб-узел служб Windows Update";
+var L_DynamicUpdate_Text = "Динамические обновления";
+var L_DeviceManager_Text = "Диспетчер устройств";
+var L_OperationModeDownload_Text = "Загрузка";
+var L_OperationModeCopying_Text = "Копирование файлов";
+var L_OperationModeRegister_Text = "Регистрация";
+var L_OtherSource_Text = "Другой источник";
+var L_PersonalizationSaveSettingsPrompt_Text = "Настройки были изменены. Чтобы сохранить настройки, нажмите кнопку \"ОК\". Чтобы продолжить без сохранения, нажмите кнопку \"Отмена\".";
+var L_Next_Text = "Далее";
+var L_RListBasketUpdatesNotAvailableText_Text = "Нет выбранных обновлений";
+var L_NeedUserData_Text = "Для использования этой функции необходимо включить данные пользователей";
+var L_UserDataSaved_Text = "Настройки были сохранены";
+var L_PersonalizationReloadSite_Text = "Настройки языка были сохранены.  Чтобы отобразить этот узел на другом языке, необходимо обновить страницу. При этом текущий выбор обновлений будет отменен.  Продолжить?";
+var L_Previous_Text = "Предыдущая";
+var L_ProxyTitle_Text = "Введите учетные данные прокси-сервера";
+var L_ExpressModeHidden_Text = "Веб-узел Windows Update и функция автоматических обновлений позволяет скрыть обновление, которое больше не нужно предлагать. Требуемое сейчас обновление ранее было скрыто. Восстановить это обновление для его установки?";
+var L_WerUpdateInstalled_Text = "Необходимое обновление уже установлено. Нажмите кнопку \"ОК\", чтобы продолжить установку других обновлений, имеющихся для вашего компьютера.";
+var L_RListBetaDescription_Text = "Для вашего компьютера имеются следующие обновления бета-версий.  Выберите обновления для установки и щелкните ссылку \"Установить обновления\".";
+var L_RListBetaTitle_Text = "Выберите дополнительные бета-версии обновлений";
+var L_RListBetaWarning1_Text = "<b>Бета-версии программ могут представлять опасность для компьютера</b><br>";
+var L_RListBetaWarning2_Text = "Ознакомительные или \"бета-версии\" продуктов (программ) или обновления для бета-версий программного обеспечения могут представлять опасность для компьютера, а корпорация Майкрософт может предоставлять для них только ограниченную поддержку.";
+var L_RListClickForDescription_Text = "Щелкните, чтобы отобразить описание этого обновления";
+var L_RListClickToHideDescription_Text = "Щелкните, чтобы скрыть описание этого обновления";
+var L_RListCriticalUpdates_Text = "Высокоприоритетные обновления";
+var L_RListCriticalUpdatesBar_Text = "Высокоприоритетные обновления";
+var L_RListCriticalUpdatesTitle_Text = "Просмотреть высокоприоритетные обновления";
+var L_RListDeviceUnknown_Text = "Рекомендуется установить это обновление, поскольку устройство на компьютере, к которому относится этот драйвер, не имеет установленного драйвера.";
+var L_RListDeviceDisabled_Text = "Рекомендуется установить это обновление, поскольку устройство на компьютере, для которого предназначен этот драйвер, вероятно, отключено.";
+var L_RListDeviceProblem_Text = "Рекомендуется установить это обновление, поскольку устройство на компьютере, для которого предназначен этот драйвер, неправильно работает.";
+var L_RListDownloadSize_Text = "Размер файла: ";
+var L_RListDownloadSizeTypical_Text = "Типичный размер файла: ";
+var L_RListDriversDescription_Text = "Для вашего компьютера имеются следующие дополнительные обновления. Выберите обновления для установки и щелкните ссылку \"Установить обновления\".";
+var L_RListDriversTitle_Text = "Выберите дополнительные обновления для устройств";
+var L_RListHiddenTitle_Text = "Восстановить скрытые обновления";
+var L_RListHiddenUpdatesBar_Text = "Скрытые обновления";
+var L_RListHideThisUpdate_Text = "Скрыть это обновление";
+var L_RListInfoGifAlt_Text = "Это обновление  уже было загружено на ваш компьютер. Если выбрать этот элемент, Windows Update выполнит его установку.";
+var L_RListItems_Text = "элементов";
+var L_RListLessThan_Text = "менее";
+var L_RListNoUpdatesAvailable_Text = "Обновления отсутствуют";
+var L_RListOptionalBetaUpdatesBar_Text = "Дополнительные обновления бета-версий";
+var L_RListOptionalHardwareUpdatesBar_Text = "Дополнительные обновления для устройств";
+var L_RListOptionalSoftwareUpdatesBar_Text = "Дополнительные обновления программного обеспечения";
+var L_RListOptionalUpdates_Text = "Дополнительные обновления";
+var L_RListOtherUpdates_Text = "Другие обновления";
+var L_RListOtherOptionalUpdates_Text = "Другие дополнительные обновления";
+var L_RListOtherCriticalUpdates_Text = "Другие высокоприоритетные обновления";
+var L_RListProductTitle_Text = "Выберите дополнительные обновления для программ";
+var L_RListReadMore_Text = "Подробности...";
+var L_RListSingleInstallation_Text = "<b>Для установки выбрано обновление одиночной установки </b><br/>Обновления на этой странице в настоящее время недоступны, поскольку выбрано обновление одиночной установки, которое нельзя устанавливать одновременно с другими обновлениями. После установки можно вернуться на веб-узел Windows Update, чтобы выбрать другие обновления для компьютера.";
+var L_RListSingleInstallationTitle_Text = "Одиночная установка: ";
+var L_RListUpdates_Text = "обновлений";
+var L_RListHiddenCriticalPresent1_Text = "<b>Некоторые высокоприоритетные обновления скрыты </b><br/>Корпорация Майкрософт рекомендует установить все высокоприоритетные обновления, чтобы обеспечить безопасность компьютера. Чтобы установить обновления, которые были скрыты, перейдите на страницу ";
+var L_RListHiddenCriticalPresent2_Text = "Восстановить скрытые обновления";
+var L_RListHiddenCriticalPresent3_Text = " .";
+var L_RListSelectall_Text = "Выбрать все";
+var L_RList100_Text = "Высокоприоритетными являются критические обновления и обновления, связанные с системой безопасности.";
+var L_RList101_Text = "Не выбраны высокоприоритетные обновления для установки. Корпорация Майкрософт рекомендует установить высокоприоритетные обновления, чтобы обновить программные компоненты компьютера и обеспечить его безопасность. Чтобы просмотреть дополнительные обновления, имеющиеся для вашего компьютера, щелкните одну из ссылок на дополнительные обновления под ссылкой на домашнюю страницу.";
+var L_RList102a_Text = "Корпорация Майкрософт настоятельно рекомендует установить следующие высокоприоритетные обновления, чтобы обновить программные компоненты компьютера и обеспечить его безопасность. ";
+var L_RList102b_Text = "<b>Обновления одиночной установки нельзя устанавливать одновременно с другими обновлениями.</b> <br>Выберите, что необходимо установить сначала - обновление одиночной установки или все другие высокоприоритетные обновления, а затем щелкните ссылку \"Установить обновления\". После установки вернитесь на веб-узел Windows Update для установки остальных обновлений.";
+var L_RList103_Text = "Корпорация Майкрософт настоятельно рекомендует установить следующее высокоприоритетное обновление одиночной установки, чтобы обновить программные компоненты компьютера и обеспечить его безопасность.  Для этого щелкните ссылку \"Установить обновления\".";
+var L_RList104_Text = "Корпорация Майкрософт настоятельно рекомендует установить следующие высокоприоритетные обновления, чтобы обновить программные компоненты компьютера и обеспечить его безопасность.  Чтобы установить эти обновления, щелкните ссылку \"Установить обновления\".";
+var L_RList105a_Text = "Корпорация Майкрософт настоятельно рекомендует установить следующие высокоприоритетные обновления, чтобы обновить программные компоненты компьютера и обеспечить его безопасность. ";
+var L_RList105b_Text = "<b>Обновления одиночной установки нельзя устанавливать одновременно с другими обновлениями.</b> <br>Выберите обновление одиночной установки, а затем щелкните ссылку \"Установить обновления\". После установки вернитесь на веб-узел Windows Update для установки остальных обновлений.";
+var L_RList200_Text = "Дополнительными являются некритические обновления, которые также можно установить.";
+var L_RList201_Text = "Дополнительные обновления отсутствуют.";
+var L_RList202a_Text = "Для вашего компьютера имеются следующие дополнительные обновления.";
+var L_RList202b_Text = "<b>Обновления одиночной установки нельзя устанавливать одновременно с другими обновлениями.</b> <br>Выберите, что необходимо установить сначала - обновление одиночной установки или другие дополнительные обновления, а затем щелкните ссылку \"Установить обновления\". После установки вернитесь на веб-узел Windows Update для установки остальных обновлений.";
+var L_RList203_Text = "Для вашего компьютера имеется следующее дополнительное обновление.  Обновления одиночной установки нельзя устанавливать одновременно с другими обновлениями. Выберите обновления для установки и щелкните ссылку \"Установить обновления\". После установки можно вернуться на веб-узел Windows Update, чтобы выбрать другие обновления для компьютера.";
+var L_RList204_Text = "Для вашего компьютера имеются следующие дополнительные обновления. Выберите обновления для установки и щелкните ссылку \"Установить обновления\".";
+var L_RList205a_Text = "Для вашего компьютера имеются следующие дополнительные обновления.";
+var L_RList205b_Text = "<b>Обновления одиночной установки нельзя устанавливать одновременно с другими обновлениями.</b> <br>Выберите обновление одиночной установки, а затем щелкните ссылку \"Установить обновления\". После установки вернитесь на веб-узел Windows Update для установки остальных обновлений.";
+var L_RList300_Text = "На этой странице приведен краткий перечень обновлений, которые выбраны для установки.";
+var L_RList301_Text = "В настоящее время обновления не выбраны. Чтобы просмотреть имеющиеся обновления для вашего компьютера, щелкните одну из ссылок высокоприоритетных или дополнительных обновлений под ссылкой на домашнюю страницу.";
+var L_RList302_Text = "Корпорация Майкрософт настоятельно рекомендует установить следующие высокоприоритетные обновления, чтобы обновить программные компоненты компьютера и обеспечить его безопасность.  Чтобы установить эти обновления, щелкните \"Установить\".";
+var L_RList303_Text = "Чтобы установить следующие дополнительные обновления, щелкните \"Установить\".";
+var L_RList304_Text = "Корпорация Майкрософт рекомендует установить следующие высокоприоритетные и дополнительные обновления, чтобы обновить программные компоненты компьютера и обеспечить его безопасность. Чтобы установить эти обновления, щелкните \"Установить\".";
+var L_RList400_Text = "Скрытыми являются обновления, которые были удалены из списка имеющихся обновлений.";
+var L_RList401_Text = "Нет скрытых обновлений. Чтобы скрыть обновление, щелкните его название, а затем установите флажок \"Скрыть это обновление\".";
+var L_RList402_Text = "<P><b>Обновления одиночной установки нельзя устанавливать одновременно с другими обновлениями.</b><br> Выберите обновление одиночной установки, а затем щелкните ссылку \"Установить обновления\". После установки вернитесь на веб-узел Windows Update для установки остальных обновлений.";
+var L_RList403_Text = "<P><b>Обновления одиночной установки нельзя устанавливать одновременно с другими обновлениями.</b><br> Выберите обновление одиночной установки, а затем щелкните ссылку \"Установить обновления\". После установки вернитесь на веб-узел Windows Update для установки остальных обновлений.";
+var L_RList404_Text = "Если требуется установить скрытое обновление, установите его флажок, а затем щелкните ссылку \"Установить обновления\".";
+var L_RList405_Text = "<P><b>Обновления одиночной установки нельзя устанавливать одновременно с другими обновлениями.</b><br> Выберите, что необходимо установить сначала - обновление одиночной установки или другие обновления, а затем щелкните ссылку \"Установить обновления\". После установки вернитесь на веб-узел Windows Update для установки остальных обновлений.";
+var L_RList500_Text = "Быстрая установка позволяет быстро загрузить и установить только критические обновления и обновления системы безопасности, необходимые для вашего компьютера.";
+var L_RList501_Text = "Корпорация Майкрософт настоятельно рекомендует установить следующие высокоприоритетные обновления, чтобы обновить программные компоненты компьютера и обеспечить его безопасность.  Чтобы установить эти обновления, щелкните \"Установить\".";
+var L_RList502_Text = "Программные компоненты компьютера обновлены. В настоящее время критические обновления и обновления для системы безопасности отсутствуют. Чтобы просмотреть имеющиеся дополнительные обновления для вашего компьютера, щелкните ссылку \"Домашняя\", а затем щелкните \"Выборочная установка\". Windows Update выполнит поиск дополнительных обновлений. Можно просмотреть обновления перед загрузкой.";
+var L_RList600_Text = "Обновления на этой странице представляют собой либо бета-версии программ или являются обновлениями для бета-версий программ, установленных на компьютере.";
+var L_RList700_Text = "На этой странице приведены обновления для драйверов…";
+var g_sControlVersion = '3790.2182';
+
+		</script>
+	</head>
+	<noscript>
+		<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=ru-ru&error=1' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=ru-ru&error=1' /><frame name='eContent'  src='errorinformation.aspx?ln=ru-ru&error=1' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=ru-ru&error=1' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+	</noscript>
+	<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=ru-ru' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=ru-ru' /><frame name='eContent'  src='splash.aspx?page=0&ln=ru-ru' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=ru-ru' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+</html>

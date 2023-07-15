@@ -1,0 +1,90 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+<script language='JScript' type='text/javascript' src='shared/js/history.js'></script>
+<script language="vbscript">
+Function vbsDateAdd(iIntervel,sDate)
+	If Not IsDate(sDate) Then
+		vbsDateAdd = ""
+	Else
+		vbsDateAdd = DateAdd("n",iIntervel,sDate)
+	End If
+End Function
+</script>
+</head>
+<body  class="history"  onload = "fnInitHistory(4,-1);">
+	<table id="tbHistory" border="0" cellspacing="0" style="height:84%;width:97%;">
+			<tbody>
+				<tr>
+					<td id="Title" style="height:105px;vertical-align:top;" > 
+						<div id="eNoUpdatesAvailable" style="display:none;height:105px;overflow:auto">
+							<span class="sys-font-heading3 sys-rhp-color-title">View Installation History</span><br /><br/> 
+								Keep track of what you've installed from Windows Update.<br /><br />
+								<b>You have not installed any updates.</b><br />
+				 		</div> 
+						<div id="eUpdatesAvailable" style="display:none;height:105px;overflow:auto"> 
+							<span class="sys-font-heading3 sys-rhp-color-title">View Installation History</span><br /><br/>  
+					 		You can view a list of installations and related actions that you’ve performed. You can also see more detailed information about updates for which an installation attempt failed.<br />
+					 		In the event that you want to uninstall software you’ve downloaded and installed, or see a full listing of your currently installed updates, you can do so by using Add or Remove Programs, in Control Panel.<br />			
+						</div> 
+					</td> 
+				</tr>
+				<tr><td style="height:30px;text-align:right;vertical-align:middle;padding-right:12px;"><span id="ePrint" style="visibility:hidden;"><img align="absmiddle" style="width:20px;padding-right:20px;" src="shared/images/print.gif" /><span style="padding:1px;"></span><a href="javascript:window.print();" class="sys-link-normal">Print Current</a> | <a href="javascript:fnPrintAll();" class="sys-link-normal">Print All</a></span></td></tr>
+				<tr> 
+					<td id="eSortTableHeaderContainer" style="background-color:#6681D9;visibility:hidden;" >
+						<table cellspacing='0' class='sys-table-header-bgcolor1'  >
+							<colgroup>
+								<col style='width: 42%;' />
+								<col style='width: 12%;' />
+								<col style='width: 25%;' />
+								<col style='width: 21%;' />
+							</colgroup>
+							<tbody id='eSortTableHeader' firstrow='0' applystyles='false'>
+								<tr>
+									<td nowrap='1'><a href='' onclick='fnSortTable(0);fnHighlightCells(0);return false;' title='Sort by Update Name' class='sys-table-color-border sys-font-body-bold'>Update Name<img id='eCol0' src='/consumer/shared/images/sortTableD.gif'</a></td>
+									<td nowrap='1' style='border-left: 1px solid white;'><a href='' onclick='fnSortTable(1);fnHighlightCells(0);return false;' title='Sort by Status' class='sys-table-color-border sys-font-body-bold'>Status<img id='eCol1' src='/consumer/shared/images/sortTableD.gif'</a></td>
+									<td nowrap='1' style='border-left: 1px solid white;border-right-width:0px'><a href='' onclick='fnSortTable(2);fnHighlightCells(0);return false;' title='Sort by Date'  class='sys-table-color-border sys-font-body-bold' sortby='value'>Date<img id='eCol2' src='/consumer/shared/images/sortTableD.gif'</a></td>
+									<td nowrap='1' style='border-left: 1px solid white;border-right:3px solid #6681D9'><a href='' onclick='fnSortTable(3);fnHighlightCells(0);return false;' title='Sort by Source'  class='sys-table-color-border sys-font-body-bold'>Source<img id='eCol3' src='/consumer/shared/images/sortTableD.gif'</a></td>
+								</tr>
+							</tbody> 
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td id="eSortTableContainer" style="padding-top:0px;padding-bottom:0px;visibility:hidden;" valign="top" >
+						<table cellspacing="0" class="sys-table-color-border" border="0" >
+							<colgroup>
+								<col style="width: 42%;" class="sys-table-color-border" />
+								<col style="width: 12%;" class="sys-table-color-border" />
+								<col style="width: 25%;" class="sys-table-color-border" />
+								<col style="width: 21%;" class="sys-table-color-border" />
+							</colgroup>
+							<tbody id="eSortTable">
+							</tbody>
+						</table>	
+					</td>
+				</tr>
+				<tr>
+					<td id="ePagingContainer" style="height:40px;"valign="top">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<iframe id="PrintAllFrame" name="PrintAllFrame" src="blank.aspx" scrolling="yes" frameborder="1" width="0" height="0" style="overflow-y:auto;"></iframe>
+					</td>
+				</tr>										
+			</tbody>
+		</table>
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+	</body> 
+</html>

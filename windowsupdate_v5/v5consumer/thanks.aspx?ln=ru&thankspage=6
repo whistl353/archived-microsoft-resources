@@ -1,0 +1,50 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1251' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+		<style type='text/css'>
+			table { table-layout: fixed; }
+		</style>
+</head>
+	<body onload="fnInit(3, 6);" bgcolor="white" link="#587EDC" alink="#587EDC" vlink="#587EDC">
+	
+		<font face="Tahoma, Arial, Helvetica">
+
+			<font size="3" color="#587EDC">
+			<b>Вас приветствует Windows Update версии 5 (бета)</b>
+			</font>
+			<font size="2">
+			<p>
+			Благодарим вас за интерес, проявленный к программе бета-тестирования Microsoft Windows Update версии 5. Этот веб-узел предоставляет возможность ознакомиться со следующей версией Windows Update. Прежде чем продолжить, внимательно прочитайте следующие сведения.<P>Для участия допускаются только зарегистрированные пользователи программы бета-тестирования Windows Update Beta. Регистрация позволяет получить средства, данные и соглашения, необходимые для максимального использования возможностей этой бета-версии. Если вы не являетесь участником программы Windows Update Beta, необходимо сначала зарегистрироваться.  Для получения дополнительных сведений посетите домашнюю страницу <a href="http://www.beta.microsoft.com" target="_blank">Microsoft Beta</a> или отправьте сообщение по адресу <A href="mailto:mubeta@microsoft.com">mubeta@microsoft.com</A>.
+			<p>
+			<img src="shared/images/warning_icon.gif">
+			<b>Предупреждение и замечание</B> Windows Update 5 включает предварительную версию программного обеспечения, а также предварительную версию службы обновления. Они предназначены для использования только зарегистрированными участниками бета-тестирования Microsoft и предоставляются только для тестирования. Использование этих программ должно осуществляться в соответствии с <A href="http://go.microsoft.com/fwlink/?linkid=9482&clcid=0x409" target=_blank>условиями использования</A> и условиями прилагаемых лицензионных соглашений.
+			
+				<p>
+				<img src="shared/images/info_16x.gif">
+				<a href="http://www.beta.microsoft.com" target=_blank>
+				<b>Я не являюсь зарегистрированным пользователем, но хочу получить дополнительные сведения о программе Microsoft Beta</b></a>
+			
+			<p><img src="shared/images/arrow.gif">
+			<a href="default.aspx?rc1=true">
+			<b>Я прочитал указанную ранее информацию и подтверждаю, что являюсь зарегистрированным пользователем Microsoft Windows Update Beta</b></a>
+			</font>
+			<p>&nbsp;</p>
+			<font size="1">
+			© Корпорация Майкрософт (Microsoft Corp.), 2004. Все права защищены. <A href="http://go.microsoft.com/fwlink/?linkid=9482&clcid=0x409" target=_blank>Условия использования</A>
+			</font>
+
+		</font>
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' /> 
+	</body>
+</html>

@@ -1,0 +1,49 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1250' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+ 
+<script language="JScript" type="text/javascript" src="shared/js/personalize.js"></script>
+<script language ="javascript">
+	var sLan = "arabština@|zjednodušená čínština@|tradiční čínština@|čínština (Hongkong - zvláštní správní oblast Čínské lidové republiky)@|čeština@|dánština@|holandština@|angličtina@|finština@|francouzština@|němčina@|řečtina@|hebrejština@|maďarština@|italština@|japonština@|korejština@|norština@|polština@|portugalština (Brazílie)@|portugalština (Portugalsko)@|ruština@|španělština@|švédština@|turečtina"
+	var sRecommended = "(Doporučeno)"
+	var sLN = "cs-cz";
+</script>
+</head>
+<body onload="fnInitPersonalization(13, -1);" onclick="fnUpdatePersonalization();" onbeforeunload="fnUnloadPersonalization();" class="personalization">
+	<span class="sys-font-heading3 sys-rhp-color-title">
+		Nastavení systému Windows Update
+	</span><br>	
+	<br>
+	<hr style="color:#cccccc;height:3px">
+	<b>Jazyk</b> <br /><br/>
+	Systém Windows Update zobrazuje webové stránky ve stejném jazyce, který je použit pro zobrazení v systému Windows. Jazyk používaný k zobrazování stránek systému Windows Update lze změnit, ale některé stránky mohou zobrazovat informace ve více jazycích.
+		<p>
+		<b>Důležité:</b> Změníte-li doporučené nastavení jazyka, <b>musíte nainstalovat odpovídající jazykovou sadu pro prohlížeč Internet Explorer</b>.
+	<br>
+	<br>
+	<div id="LanDiv"></div>
+	<br>
+	<hr style="color:#cccccc;height:3px">
+	<b>Upřesnit</b> <br />
+	<input type="checkbox" id="eBetaLink" class="checkbox"><label for="eBetaLink">Zobrazit produkty beta a příslušné aktualizace</label><br>
+	Systém Windows Update vám může nabídnout předběžné verze beta produktů, jakmile budou zveřejněny.
+	<br><br>
+	<div >POZNÁMKA: Software beta používáte na vlastní zodpovědnost; tento software je určen pouze pro testovací a zkušební účely. Neinstalujte software beta do primárního počítače ani v provozním prostředí.</div>
+	<br /> 
+	<hr style="color:#cccccc;height:3px">
+
+	<button id="eSaveSettings" onclick="fnSaveSettings();" disabled type="button">
+		Použít změny
+	</button>
+	<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+</body>

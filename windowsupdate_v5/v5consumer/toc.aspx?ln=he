@@ -1,0 +1,73 @@
+<html dir='rtl'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1255' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update </title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/toc.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/toc.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/rtl.css' />
+
+<script language ="javascript">
+	                var L_Toc_Critical_Text = "סקור עדכונים בעדיפות גבוהה";
+                var L_Toc_Beta_Text = "בחר עדכוני ביתא אופציונליים";
+                var L_Toc_Hardware_Text = "בחר עדכוני חומרה אופציונליים";
+                var L_Toc_Software_Text = "בחר עדכוני תוכנה אופציונליים";
+                var L_Toc_CriticalUpdatesAlt_Text = "סקור רשימה של עדכונים בעדיפות גבוהה ועדכוני אבטחה.";
+                var L_Toc_SoftwareUpdatesAlt_Text = "סקור רשימה של עדכוני תוכנה אופציונליים.";
+                var L_Toc_HardwareUpdatesAlt_Text = "סקור רשימה של עדכוני חומרה אופציונליים.";
+                var L_Toc_BetaUpdatesAlt_Text = "סקור רשימה של עדכוני ביתא אופציונליים.";
+                var L_TocProductAlt_Text = "סקור רשימת עדכונים עבור";
+
+</script>
+</head>
+	<body class="toc sys-lhp-bgcolor"> 
+		<base target="eContent" />
+		<div id="eUserData"></div> 
+		<form name="ePostForm" id="ePostForm" method="post"><input name="ePostData" id="ePostData" type="hidden" /></form>
+		<table cellspacing="0" class="sys-toppane-bgcolor" >
+			<tbody>
+				<tr> 
+					<td style="height: 100%;"> 
+						<div class="sys-font-body toppane-body"> 
+
+							<div id="eConsumerDiv1">
+								<a id="eBasketUpdates" href="" title="סקור את העדכונים שנבחרו להתקנה והתחל את תהליך ההתקנה." class="sys-link-disabled"><img src="shared/images/icon_wu_installnow_16x.gif" style = "width : 16px; height: 16px;" />התקן עדכונים<i></i></a><br />
+								<!--<a id="eAvailableUpdates" title="בדוק אילו עדכונים זמינים עבור המחשב שלך. ייתכן ש- Windows Update יצטרך לסרוק את המחשב שלך תחילה." class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" /><i>קבל עדכוני תוכניות</i></a>-->
+								<table style="width:91%;height:0px;cellspacing:0;" border= "0" id="eAvailableUpdatesTable"><tr><td style="padding:0px"><div id="eAvailableUpdatesDiv"></div></td></tr></table>
+							</div>
+
+
+
+							<div class="subHeader sys-bottompane-header-color sys-font-body-bold">אפשרויות אחרות</div>
+
+
+							<div id="eConsumerDiv2">
+								<a id="eHistory" url="history.aspx?ln=he" title="סקור את רשימת העדכונים שהתקנת מתוך Windows Update." class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />הצג היסטוריית התקנות</a><br />
+								<a id="eAdvancedSettings" href="personalize.aspx?ln=he"  url ="personalize.aspx?ln=he" title="התאם אישית את מראה Windows Update כאשר תשתמש בו." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />הגדרות</a><br />
+								<a id="eHidden"  title="סקור רשימת עדכונים שבחרת להסתיר." class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />שחזר עדכונים מוסתרים</a><br />
+							</div>
+
+
+
+							
+							<div id="eConsumerDiv3">
+								<a id="eAdmin" href="administrators.aspx?ln=he" title="קרא מידע עבור משתמשים מתקדמים." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />אפשרויות מנהל</a><br />
+								<a id="eSupport" href="support.aspx?ln=he" title="למד כיצד לקבל תמיכה מקוונת לבעיות באתר Windows Update או בפריטים שהתקנת ממנו." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />עזרה ותמיכה</a><br />
+								<a id="eAbout" href="about.aspx?ln=he" title="חיפוש תשובות לשאלות נפוצות אודות Windows Update." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />שאלות נפוצות</a><br />
+								
+							</div>
+							<a id="eHardwareSupport" target="_blank" class="sys-link-normal" title="עבור לאתר התמיכה של יצרן המחשב שלך."><img src="shared/images/toc_endnode.gif" />תמיכה בחומרה</a>
+						</div>
+						
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,158 @@
+
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<META http-equiv="Content-Type"  content="text/html;charset=big5" />
+		<META http-equiv="MSThemeCompatible" content="Yes" />
+		<META NAME="DESCRIPTION" CONTENT="為您的電腦作業系統、軟體和硬體取得最新的更新。Windows Update 會掃描您的電腦並提供專為您電腦提供的更新選擇。"> 
+		<META NAME="MS.LOCALE" CONTENT="zh-tw">
+		<META NAME="keywords" CONTENT="Windows Update; update; security; secure; up-to-date; download; driver; patch; fix; hotfix; QFE; bug; critical; high priority; service pack; Automatic Updates; Windows XP; Windows 2000; Windows Server 2003; WinXP; Win2k; Win2000; WS2k3; WS2003; .NET Server; SP">
+		<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+		<title>Microsoft Windows Update</title>
+		<object id="SusWebCtl" VIEWASTEXT></object>
+		<script language="javascript" type="text/javascript">
+			var curSite = 5;
+			var g_sDownForMaintenance2K = "";
+			var g_sDownForMaintenanceXP = "";
+			var g_sDownForMaintenance2003 = "";
+			var g_sDownForMaintenanceLonghorn = "";
+			var g_sUA = "ia_archiver".toLowerCase();
+					
+			
+		</script>
+		<script language="javascript" type="text/javascript" src="shared/js/tgar.js?2005/5/17 上午 11:06:13"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/redirect.js?2005/5/17 上午 11:06:13"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/commontop.js?2005/5/17 上午 11:06:13"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/webcomtop.js?2005/5/17 上午 11:06:13"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/spupdateids.js?2005/5/17 上午 11:06:13"></script>
+		
+		 
+			<script language="javascript" type="text/javascript">
+				function fnSupressError(sMessage, sURL, sLine){ return true; }
+				window.onerror = fnSupressError ;
+			</script>
+		
+		<script language="javascript" type="text/javascript" defer="true">
+			var conQueryString = "ln=zh-tw"; 
+			var conRTL = false;
+			var conDevServer = false;
+			var conCriticalUpdatesMode = false;
+			var conLangCode = "zh-tw";
+			var conConsumerURL = "/v5consumer/";
+			var L_ScanForAvailableUpdates_Text = "取得程式更新";
+var L_ReloadingSiteText_Text = "Windows Update 網站尚未完成開啟。\n			若要繼續等待，請按一下 [確定]。\n			若要提示 Windows Update 再次嘗試開啟網站，請按一下 [取消]。";
+var L_MB_Text = "MB";
+var L_KB_Text = "KB";
+var L_Hour_Text = "小時";
+var L_Hours_Text = "小時";
+var L_InstallTitle_Text = "正在安裝更新";
+var L_Minute_Text = "分";
+var L_Minutes_Text = "分";
+var L_RListNoUpdatesToInstall_Text = "沒有選取要安裝的更新。";
+var L_StatusSucceeded_Text = "成功";
+var L_StatusFailed_Text = "失敗";
+var L_StatusAborted_Text = "已取消";
+var L_UpdateName_Text = "更新名稱";
+var L_Status_Text = "狀態";
+var L_Date_Text = "日期";
+var L_Source_Text = "來源";
+var L_AutomaticUpdates_Text = "自動更新";
+var L_WindowsUpdate_Text = "Windows Update 網站";
+var L_ManagedServer_Text = "Windows Update Services 用戶端網站";
+var L_DynamicUpdate_Text = "動態更新";
+var L_DeviceManager_Text = "裝置管理員";
+var L_OperationModeDownload_Text = "正在下載";
+var L_OperationModeCopying_Text = "正在複製檔案";
+var L_OperationModeRegister_Text = "正在註冊";
+var L_OtherSource_Text = "其他來源";
+var L_PersonalizationSaveSettingsPrompt_Text = "您已經變更設定。若要立即儲存設定，請按一下 [確定]。若要不儲存變更並繼續，則請按一下 [取消]。";
+var L_Next_Text = "下一頁";
+var L_RListBasketUpdatesNotAvailableText_Text = "沒有選取任何更新。";
+var L_NeedUserData_Text = "使用此功能必須啟用使用者資料";
+var L_UserDataSaved_Text = "已經儲存的您的設定";
+var L_PersonalizationReloadSite_Text = "已經儲存您的語言設定。Windows Update 必須重新整理網站才能使用新的語言顯示內容，這將會重新設定您選取的更新。是否要立即執行？";
+var L_Previous_Text = "上一頁";
+var L_ProxyTitle_Text = "輸入 Proxy 認證";
+var L_ExpressModeHidden_Text = "Windows Update 與自動更新讓您可以隱藏不再希望提供的更新。現在需要的更新之前設為隱藏。是否要還原此更新以便安裝？";
+var L_WerUpdateInstalled_Text = "已經安裝必備的更新。按一下 [確定] 可以繼續安裝其他適用於您電腦的更新。";
+var L_RListBetaDescription_Text = "可以取得下列適用於您電腦的 Beta 更新。請選取要安裝的更新，然後按一下 [移至安裝更新] 連結。";
+var L_RListBetaTitle_Text = "選取選用的 Beta 更新";
+var L_RListBetaWarning1_Text = "<b>Beta 軟體可能對您的電腦有害</b><br>";
+var L_RListBetaWarning2_Text = "發行前版本或 Beta 產品 (軟體)、或 Beta 軟體的更新可能對您的電腦有害，且 Microsoft 可能僅提供有限的支援。";
+var L_RListClickForDescription_Text = "按一下可以顯示此更新的描述";
+var L_RListClickToHideDescription_Text = "按一下可以隱藏此更新的描述";
+var L_RListCriticalUpdates_Text = "高優先順序的更新";
+var L_RListCriticalUpdatesBar_Text = "高優先順序的更新";
+var L_RListCriticalUpdatesTitle_Text = "檢視高優先順序的更新";
+var L_RListDeviceUnknown_Text = "因為適用於您電腦裝置的驅動程式尚未安裝，Windows Update 建議安裝此更新。";
+var L_RListDeviceDisabled_Text = "因為似乎已停用適用於您電腦裝置的此驅動程式，Windows Update 建議安裝此更新。";
+var L_RListDeviceProblem_Text = "因為適用於您電腦裝置的此驅動程式似乎無法順利運作，Windows Update 建議安裝此更新。";
+var L_RListDownloadSize_Text = "下載大小：";
+var L_RListDownloadSizeTypical_Text = "一般下載大小：";
+var L_RListDriversDescription_Text = "可以取得下列適用於您電腦的選用更新。請選取您想要安裝的更新，然後按一下 [移至安裝更新] 連結。";
+var L_RListDriversTitle_Text = "選取選用的硬體更新";
+var L_RListHiddenTitle_Text = "還原隱藏的更新";
+var L_RListHiddenUpdatesBar_Text = "隱藏的更新";
+var L_RListHideThisUpdate_Text = "隱藏此更新";
+var L_RListInfoGifAlt_Text = "已經將此更新下載到您的電腦。如果選取此項目，Windows Update 將完成其安裝。";
+var L_RListItems_Text = "個項目";
+var L_RListLessThan_Text = "小於";
+var L_RListNoUpdatesAvailable_Text = "沒有可用的更新";
+var L_RListOptionalBetaUpdatesBar_Text = "選用的 Beta 更新";
+var L_RListOptionalHardwareUpdatesBar_Text = "選用的硬體更新";
+var L_RListOptionalSoftwareUpdatesBar_Text = "選用的軟體更新";
+var L_RListOptionalUpdates_Text = "選用的更新";
+var L_RListOtherUpdates_Text = "其他更新";
+var L_RListOtherOptionalUpdates_Text = "其他選用的更新";
+var L_RListOtherCriticalUpdates_Text = "其他高優先順序的更新";
+var L_RListProductTitle_Text = "選取選用的軟體更新";
+var L_RListReadMore_Text = "詳細資料...";
+var L_RListSingleInstallation_Text = "<b>已經選取要安裝的單一安裝更新</b><br/>因為已經選取要安裝的單一安裝更新，且不可以與其他更新一起安裝，所以目前無法使用此網頁上的更新。安裝完成後，您可以返回 Windows Update 選取其他適用於您電腦的更新。";
+var L_RListSingleInstallationTitle_Text = "單一安裝：";
+var L_RListUpdates_Text = "更新";
+var L_RListHiddenCriticalPresent1_Text = "<b>已經隱藏某些高優先順序的更新</b><br/>Microsoft 建議安裝所有高優先順序的更新以協助保障您的安全。若要安裝已經隱藏的更新，請移至";
+var L_RListHiddenCriticalPresent2_Text = "還原隱藏的更新";
+var L_RListHiddenCriticalPresent3_Text = "網頁。";
+var L_RListSelectall_Text = "全部選取";
+var L_RList100_Text = "高優先順序的更新是重大且與安全性相關的更新。";
+var L_RList101_Text = "沒有選取要安裝的高優先順序更新。Microsoft 建議您安裝高優先順序的更新以協助讓您的電腦保持在最新與安全的狀態。若要檢視適用於您電腦的選用更新，請按一下 [首頁] 連結下的其中一種選用更新。";
+var L_RList102a_Text = "Microsoft 強烈建議您安裝下列高優先順序的更新，以便協助您的電腦保持在最新與安全的狀態。";
+var L_RList102b_Text = "<b>單一安裝更新無法與其他更新同時安裝。</b> <br>請選取要先安裝某個單一安裝更新或先安裝高優先順序的更新，然後按一下 [移至安裝更新] 連結。安裝後，再返回 Windows Update 安裝剩下的更新。";
+var L_RList103_Text = "Microsoft 強烈建議您安裝下列高優先順序的單一安裝更新，以便協助您的電腦保持在最新與安全的狀態。若要安裝這些更新，請按一下 [移至安裝更新] 連結。";
+var L_RList104_Text = "Microsoft 強烈建議您安裝下列高優先順序的更新，以便協助您的電腦保持在最新與安全的狀態。若要安裝這些更新，請按一下 [移至安裝更新] 連結。";
+var L_RList105a_Text = "Microsoft 強烈建議您安裝下列高優先順序的更新，以便協助您的電腦保持在最新與安全的狀態。";
+var L_RList105b_Text = "<b>單一安裝更新無法與其他更新同時安裝。</b> <br>請選取要安裝的單一安裝更新，然後按一下 [移至安裝更新]。安裝後，再返回 Windows Update 安裝剩下的更新。";
+var L_RList200_Text = "選用的更新是您可能想安裝但是不重要的更新。";
+var L_RList201_Text = "無法取得選用的更新。";
+var L_RList202a_Text = "可以取得下列適用於您電腦的選用更新。";
+var L_RList202b_Text = "<b>單一安裝更新無法與其他更新同時安裝。</b> <br>請選取要先安裝某個單一安裝更新或先安裝其他選用的更新，然後按一下 [移至安裝更新] 連結。安裝後，再返回 Windows Update 安裝剩下的更新。";
+var L_RList203_Text = "可以取得下列適用於您電腦的選用更新。無法同時單一安裝更新與其他更新。請選取您想要安裝的更新，然後按一下 [移至安裝更新] 連結。安裝完成後，您可以返回 Windows Update 選取其他適用於您電腦的更新。";
+var L_RList204_Text = "可以取得下列適用於您電腦的選用更新。請選取您想要安裝的更新，然後按一下 [移至安裝更新] 連結。";
+var L_RList205a_Text = "可以取得下列適用於您電腦的選用更新。";
+var L_RList205b_Text = "<b>單一安裝更新無法與其他更新同時安裝。</b> <br>請選取要安裝的單一安裝更新，然後按一下 [移至安裝更新] 連結。安裝後，再返回 Windows Update 安裝剩下的更新。";
+var L_RList300_Text = "此網頁提供已選取要安裝之更新的摘要資訊。";
+var L_RList301_Text = "此時沒有選取要安裝的更新。若要檢視適用於您電腦的更新，請按一下 [首頁] 連結下高優先順序的更新或選用的更新。";
+var L_RList302_Text = "Microsoft 強烈建議您安裝下列高優先順序的更新，以便協助您的電腦保持在最新與安全的狀態。若要安裝這些更新，請按一下 [安裝]。";
+var L_RList303_Text = "若要安裝下列選用的更新，請按一下 [安裝]。";
+var L_RList304_Text = "Microsoft 建議您安裝下列高優先順序的更新與選用的更新，以協助讓您的電腦保持在最新與安全的狀態。若要安裝這些更新，請按一下 [安裝]。";
+var L_RList400_Text = "隱藏的更新是已經從可取得更新清單中移除的更新。";
+var L_RList401_Text = "沒有隱藏的更新。您可以按一下更新的標題，然後選取 [隱藏] 核取方塊，以隱藏該更新。";
+var L_RList402_Text = "<P><b>單一安裝更新無法與其他更新一起安裝。</b><br>請選取要安裝的單一安裝更新，然後按一下 [移至安裝更新] 連結。安裝後，再返回 Windows Update 安裝剩下的更新。";
+var L_RList403_Text = "<P><b>單一安裝更新無法與其他更新一起安裝。</b><br>請選取要安裝哪個單一安裝更新，然後按一下 [移至安裝更新] 連結。安裝後，再返回 Windows Update 安裝剩下的更新。";
+var L_RList404_Text = "如果您想要安裝隱藏的更新，請選取其核取方塊，然後按一下 [移至安裝更新] 連結。";
+var L_RList405_Text = "<P><b>單一安裝更新無法與其他更新一起安裝。</b><br>請選擇是否先安裝單一安裝更新或是安裝其他更新，然後按一下 [移至安裝更新] 連結。安裝後，再返回 Windows Update 安裝剩下的更新。";
+var L_RList500_Text = "快速安裝讓您可以只快速下載並安裝您電腦所需的重大更新與安全性更新。";
+var L_RList501_Text = "Microsoft 強烈建議您安裝下列高優先順序的更新，以便協助您的電腦保持在最新與安全的狀態。若要安裝這些更新，請按一下 [安裝]。";
+var L_RList502_Text = "您的電腦似乎保持在最新的狀態；此時沒有可安裝的重大或安全性更新。若要檢視適用於您電腦的選用更新，請按一下 [首頁] 連結，然後按一下 [自訂安裝]。Windows Update 將會掃描選用的更新。下載前，您可以先檢視這些更新。";
+var L_RList600_Text = "此網頁上的更新是 Beta 軟體或用來更新您電腦上 Beta 軟體的更新。";
+var L_RList700_Text = "此網頁包含驅動程式的更新…";
+var g_sControlVersion = '3790.2182';
+
+		</script>
+	</head>
+	<noscript>
+		<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=zh-tw&error=1' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=zh-tw&error=1' /><frame name='eContent'  src='errorinformation.aspx?ln=zh-tw&error=1' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=zh-tw&error=1' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+	</noscript>
+	<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=zh-tw' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=zh-tw' /><frame name='eContent'  src='splash.aspx?page=0&ln=zh-tw' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=zh-tw' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+</html>

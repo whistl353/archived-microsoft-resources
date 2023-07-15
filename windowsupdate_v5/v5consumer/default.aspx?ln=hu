@@ -1,0 +1,158 @@
+
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<META http-equiv="Content-Type"  content="text/html;charset=windows-1250" />
+		<META http-equiv="MSThemeCompatible" content="Yes" />
+		<META NAME="DESCRIPTION" CONTENT="Szerezze be a számítógép operációs rendszeréhez, programjaihoz és hardveréhez elérhető legújabb frissítéseket. A Windows Update megvizsgálja a számítógépet, és kiválasztja a megfelelő frissítéseket."> 
+		<META NAME="MS.LOCALE" CONTENT="hu">
+		<META NAME="keywords" CONTENT="Windows Update; update; security; secure; up-to-date; download; driver; patch; fix; hotfix; QFE; bug; critical; high priority; service pack; Automatic Updates; Windows XP; Windows 2000; Windows Server 2003; WinXP; Win2k; Win2000; WS2k3; WS2003; .NET Server; SP">
+		<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+		<title>Microsoft Windows Update</title>
+		<object id="SusWebCtl" VIEWASTEXT></object>
+		<script language="javascript" type="text/javascript">
+			var curSite = 5;
+			var g_sDownForMaintenance2K = "";
+			var g_sDownForMaintenanceXP = "";
+			var g_sDownForMaintenance2003 = "";
+			var g_sDownForMaintenanceLonghorn = "";
+			var g_sUA = "ia_archiver".toLowerCase();
+					
+			
+		</script>
+		<script language="javascript" type="text/javascript" src="shared/js/tgar.js?2005. 12. 23. 7:56:47"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/redirect.js?2005. 12. 23. 7:56:47"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/commontop.js?2005. 12. 23. 7:56:47"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/webcomtop.js?2005. 12. 23. 7:56:47"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/spupdateids.js?2005. 12. 23. 7:56:47"></script>
+		
+		 
+			<script language="javascript" type="text/javascript">
+				function fnSupressError(sMessage, sURL, sLine){ return true; }
+				window.onerror = fnSupressError ;
+			</script>
+		
+		<script language="javascript" type="text/javascript" defer="true">
+			var conQueryString = "ln=hu"; 
+			var conRTL = false;
+			var conDevServer = false;
+			var conCriticalUpdatesMode = false;
+			var conLangCode = "hu";
+			var conConsumerURL = "/v5consumer/";
+			var L_ScanForAvailableUpdates_Text = "Programfrissítések letöltése";
+var L_ReloadingSiteText_Text = "Még nem nyílt meg teljesen a Windows Update webhely.\n			Ha tovább vár, kattintson az OK gombra.\n			Ha azt szeretné, hogy a Windows Update újra próbálja meg megnyitni a webhelyet, kattintson a Mégse gombra.";
+var L_MB_Text = "MB";
+var L_KB_Text = "KB";
+var L_Hour_Text = "óra";
+var L_Hours_Text = "óra";
+var L_InstallTitle_Text = "Frissítések telepítése";
+var L_Minute_Text = "perc";
+var L_Minutes_Text = "perc";
+var L_RListNoUpdatesToInstall_Text = "Nincsenek telepítésre kijelölt frissítések.";
+var L_StatusSucceeded_Text = "Sikeres";
+var L_StatusFailed_Text = "Sikertelen";
+var L_StatusAborted_Text = "Megszakadt";
+var L_UpdateName_Text = "Frissítés neve";
+var L_Status_Text = "Állapot";
+var L_Date_Text = "Dátum";
+var L_Source_Text = "Forrás";
+var L_AutomaticUpdates_Text = "Automatikus frissítés";
+var L_WindowsUpdate_Text = "Windows Update webhely";
+var L_ManagedServer_Text = "Windows Update Services ügyféloldali webhelye";
+var L_DynamicUpdate_Text = "Dinamikus frissítések";
+var L_DeviceManager_Text = "Eszközkezelő";
+var L_OperationModeDownload_Text = "Letöltés";
+var L_OperationModeCopying_Text = "Fájlok másolása";
+var L_OperationModeRegister_Text = "Regisztrálás";
+var L_OtherSource_Text = "Más forrás";
+var L_PersonalizationSaveSettingsPrompt_Text = "Módosította a beállításait. Ha menti a beállításokat, kattintson az OK gombra. Ha mentés nélkül lép tovább, kattintson a Mégse gombra.";
+var L_Next_Text = "Tovább";
+var L_RListBasketUpdatesNotAvailableText_Text = "Nincsenek kijelölt frissítések.";
+var L_NeedUserData_Text = "Ehhez a funkcióhoz engedélyezni kell a felhasználói adatokat";
+var L_UserDataSaved_Text = "A beállítások mentése megtörtént";
+var L_PersonalizationReloadSite_Text = "A nyelvi beállítások mentése megtörtént. A Windows Update webhely új nyelven való megjelenítéséhez frissíteni kell a webhelyet. Ennek során a kiválasztott frissítések törlődnek. Szeretné ezt most megtenni?";
+var L_Previous_Text = "Előző";
+var L_ProxyTitle_Text = "Proxy hitelesítő adatok megadása";
+var L_ExpressModeHidden_Text = "A Windows Update és az Automatikus frissítés szolgáltatás lehetővé teszi, hogy elrejtse azokat a frissítéseket, amelyeket később nem szeretne a felkínáltak között látni. A most szükséges frissítést korábban elrejtette. Visszaállítja ezt a frissítést, hogy telepíthesse?";
+var L_WerUpdateInstalled_Text = "A kért frissítés már telepítve van. A számítógéphez elérhető frissítések telepítésének folytatásához kattintson az OK gombra.";
+var L_RListBetaDescription_Text = "Az Ön számítógépéhez a következő béta verziójú frissítések érhetők el. Jelölje ki a telepíteni kívánt frissítéseket, majd kattintson a Frissítések telepítése hivatkozásra.";
+var L_RListBetaTitle_Text = "Választható bétafrissítések kijelölése";
+var L_RListBetaWarning1_Text = "<b>A bétaszoftverek kárt okozhatnak a számítógépben</b><br>";
+var L_RListBetaWarning2_Text = "Az előzetesen kibocsátott, más néven \"béta\" termékek (szoftverek), illetve a bétaszoftverek frissítései kárt okozhatnak a számítógépen, és a Microsoft sem nyújt hozzájuk teljes körű támogatást.";
+var L_RListClickForDescription_Text = "Kattintásra megjelenik a frissítés leírása";
+var L_RListClickToHideDescription_Text = "Kattintásra eltűnik a frissítés leírása";
+var L_RListCriticalUpdates_Text = "Sürgős frissítések";
+var L_RListCriticalUpdatesBar_Text = "Sürgős frissítések";
+var L_RListCriticalUpdatesTitle_Text = "A sürgős frissítések áttekintése";
+var L_RListDeviceUnknown_Text = "A Windows Update azt ajánlja, hogy telepítse ezt a frissítést, mert nincs telepítve illesztőprogram a számítógép azon eszközének, amelyhez ez az illesztőprogram való.";
+var L_RListDeviceDisabled_Text = "A Windows Update azt ajánlja, hogy telepítse ezt a frissítést, mert le van tiltva a számítógépnek az az eszköze, amelyhez ez az illesztőprogram való.";
+var L_RListDeviceProblem_Text = "A Windows Update azt ajánlja, hogy telepítse ezt a frissítést, mert nem működik kielégítően a számítógépnek az az eszköze, amelyhez ez az illesztőprogram való.";
+var L_RListDownloadSize_Text = "Letöltési méret: ";
+var L_RListDownloadSizeTypical_Text = "Átlagos letöltési méret: ";
+var L_RListDriversDescription_Text = "Az Ön számítógépéhez a következő választható frissítések érhetők el. Jelölje ki a telepíteni kívánt frissítéseket, majd kattintson a Frissítések telepítése hivatkozásra.";
+var L_RListDriversTitle_Text = "Választható hardverfrissítések kijelölése";
+var L_RListHiddenTitle_Text = "A rejtett frissítések visszaállítása";
+var L_RListHiddenUpdatesBar_Text = "Rejtett frissítések";
+var L_RListHideThisUpdate_Text = "A frissítés elrejtése";
+var L_RListInfoGifAlt_Text = "Ez a frissítés már le van töltve a számítógépre. Ha be van jelölve ez az elem, a Windows Update be fogja fejezni a telepítését.";
+var L_RListItems_Text = "elem";
+var L_RListLessThan_Text = "kevesebb, mint";
+var L_RListNoUpdatesAvailable_Text = "Nem érhetők el frissítések";
+var L_RListOptionalBetaUpdatesBar_Text = "Választható bétafrissítések";
+var L_RListOptionalHardwareUpdatesBar_Text = "Választható hardverfrissítések";
+var L_RListOptionalSoftwareUpdatesBar_Text = "Választható szoftverfrissítések";
+var L_RListOptionalUpdates_Text = "Választható frissítések";
+var L_RListOtherUpdates_Text = "Más frissítések";
+var L_RListOtherOptionalUpdates_Text = "Más választható frissítések";
+var L_RListOtherCriticalUpdates_Text = "Más sürgős frissítések";
+var L_RListProductTitle_Text = "Választható szoftverfrissítések kijelölése";
+var L_RListReadMore_Text = "Részletek...";
+var L_RListSingleInstallation_Text = "<b>Egyedi telepítésű frissítés van kijelölve telepítésre </b><br/>Az ezen a lapon látható frissítések egyelőre nem érhetők el, mert egy egyedi telepítésű frissítés ki van jelölve telepítésre, és az ilyen frissítések nem telepíthetők más frissítésekkel egyidejűleg. A telepítés után visszatérhet a Windows Update webhelyre, és más frissítéseket is kiválaszthat a számítógépe számára.";
+var L_RListSingleInstallationTitle_Text = "Egyedi telepítésű: ";
+var L_RListUpdates_Text = "frissítések";
+var L_RListHiddenCriticalPresent1_Text = "<b>Egyes sürgős frissítések el vannak rejtve </b><br/>A Microsoft azt javasolja, hogy a tartós biztonság érdekében minden sürgős frissítést telepítsen. Az elrejtett frissítések telepítéséhez nyissa meg ";
+var L_RListHiddenCriticalPresent2_Text = "A rejtett frissítések visszaállítása";
+var L_RListHiddenCriticalPresent3_Text = " oldalt.";
+var L_RListSelectall_Text = "Az összes kijelölése";
+var L_RList100_Text = "A sürgős frissítések közé a fontos és a biztonsági frissítések tartoznak.";
+var L_RList101_Text = "Nincsenek sürgős frissítések kiválasztva telepítésre. A Microsoft azt ajánlja, hogy a számítógép naprakészségének és biztonságának megőrzése érdekében telepítse a sürgős frissítéseket. Ha a számítógéphez elérhető választható frissítéseket is meg szeretné tekinteni, kattintson a Kezdőlap hivatkozás alatt látható, választható frissítésekre mutató hivatkozások valamelyikére.";
+var L_RList102a_Text = "A Microsoft kifejezetten ajánlja, hogy a számítógép naprakészségének és biztonságának megőrzése érdekében telepítse a következő sürgős frissítéseket.";
+var L_RList102b_Text = "<b>Az egyedi telepítésű frissítések nem telepíthetők más frissítésekkel egyszerre.</b> <br>Válasszon, hogy előbb egy egyedi telepítésű frissítést vagy minden más sürgős frissítést telepít, majd kattintson a Frissítések telepítése hivatkozásra. A telepítés után látogasson el ismét a Windows Update webhelyre, hogy telepítse a hátralévő frissítéseket.";
+var L_RList103_Text = "A Microsoft kifejezetten ajánlja, hogy a számítógép naprakészségének és biztonságának megőrzése érdekében telepítse a következő egyedi telepítésű frissítést. Ehhez kattintson a Frissítések telepítése hivatkozásra.";
+var L_RList104_Text = "A Microsoft kifejezetten ajánlja, hogy a számítógép naprakészségének és biztonságának megőrzése érdekében telepítse a következő sürgős frissítéseket. A frissítések telepítéséhez kattintson a Frissítések telepítése hivatkozásra.";
+var L_RList105a_Text = "A Microsoft kifejezetten ajánlja, hogy a számítógép naprakészségének és biztonságának megőrzése érdekében telepítse a következő sürgős frissítéseket.";
+var L_RList105b_Text = "<b>Az egyedi telepítésű frissítések nem telepíthetők más frissítésekkel egyszerre.</b> <br>Jelölje ki a telepíteni kívánt egyedi telepítésű frissítést, majd kattintson a Frissítések telepítése hivatkozásra. A telepítés után látogasson el ismét a Windows Update webhelyre, hogy telepítse a hátralévő frissítéseket.";
+var L_RList200_Text = "A választható frissítések nem fontos frissítések; ezek telepítéséről tetszése szerint dönthet.";
+var L_RList201_Text = "Nem érhetők el választható frissítések.";
+var L_RList202a_Text = "Az Ön számítógépéhez a következő választható frissítések érhetők el.";
+var L_RList202b_Text = "<b>Az egyedi telepítésű frissítések nem telepíthetők más frissítésekkel egyszerre.</b> <br>Válasszon, hogy előbb egy egyedi telepítésű frissítést vagy más választható frissítéseket telepít, majd kattintson a Frissítések telepítése hivatkozásra. A telepítés után látogasson el ismét a Windows Update webhelyre, hogy telepítse a hátralévő frissítéseket.";
+var L_RList203_Text = "Az Ön számítógépéhez a következő választható frissítés érhető el. Az egyedi telepítésű frissítések nem telepíthetők más frissítésekkel egyszerre. Jelölje ki a telepíteni kívánt frissítéseket, majd kattintson a Frissítések telepítése hivatkozásra. A telepítés után visszatérhet a Windows Update webhelyre, és más frissítéseket is kiválaszthat a számítógépe számára.";
+var L_RList204_Text = "Az Ön számítógépéhez a következő választható frissítések érhetők el. Jelölje ki a telepíteni kívánt frissítéseket, majd kattintson a Frissítések telepítése hivatkozásra.";
+var L_RList205a_Text = "Az Ön számítógépéhez a következő választható frissítések érhetők el.";
+var L_RList205b_Text = "<b>Az egyedi telepítésű frissítések nem telepíthetők más frissítésekkel egyszerre.</b> <br>Jelölje ki a telepíteni kívánt egyedi telepítésű frissítést, majd kattintson a Frissítések telepítése hivatkozásra. A telepítés után látogasson el ismét a Windows Update webhelyre, hogy telepítse a hátralévő frissítéseket.";
+var L_RList300_Text = "Ezen az oldalon a telepítésre kijelölt frissítések összegzése látható.";
+var L_RList301_Text = "Ezúttal nincs kijelölve frissítés telepítésre. Ha meg szeretné tekinteni a számítógéphez elérhető frissítéseket, kattintson a Kezdőlap hivatkozás alatt látható, sürgős vagy választható frissítésekre mutató hivatkozások valamelyikére.";
+var L_RList302_Text = "A Microsoft kifejezetten ajánlja, hogy a számítógép naprakészségének és biztonságának megőrzése érdekében telepítse a következő sürgős frissítéseket. A frissítések telepítéséhez kattintson a Telepítés gombra.";
+var L_RList303_Text = "A következő választható frissítések telepítéséhez kattintson a Telepítés gombra.";
+var L_RList304_Text = "A Microsoft azt ajánlja, hogy a számítógép naprakészségének és biztonságának megőrzése érdekében telepítse a következő sürgős és választható frissítéseket. A frissítések telepítéséhez kattintson a Telepítés gombra.";
+var L_RList400_Text = "A rejtett frissítések közé azok tartoznak, amelyeket korábban eltávolítottak az elérhető frissítések listájáról.";
+var L_RList401_Text = "Nincs elrejtve frissítés. Ha el szeretne rejteni egy frissítést, kattintson a címére, majd jelölje be A frissítés elrejtése jelölőnégyzetet.";
+var L_RList402_Text = "<P><b>Az egyedi telepítésű frissítések nem telepíthetők más frissítésekkel egyszerre.</b><br> Jelölje ki a telepíteni kívánt egyedi telepítésű frissítést, majd kattintson a Frissítések telepítése hivatkozásra. A telepítés után látogasson el ismét a Windows Update webhelyre, hogy telepítse a hátralévő frissítéseket.";
+var L_RList403_Text = "<P><b>Az egyedi telepítésű frissítések nem telepíthetők más frissítésekkel egyszerre.</b><br> Jelölje ki a telepíteni kívánt egyedi telepítésű frissítést, majd kattintson a Frissítések telepítése hivatkozásra. A telepítés után látogasson el ismét a Windows Update webhelyre, hogy telepítse a hátralévő frissítéseket.";
+var L_RList404_Text = "Ha telepíteni szeretne egy elrejtett frissítést, jelölje be a jelölőnégyzetét, majd kattintson a Frissítések telepítése hivatkozásra.";
+var L_RList405_Text = "<P><b>Az egyedi telepítésű frissítések nem telepíthetők más frissítésekkel egyszerre.</b><br> Válasszon, hogy előbb egy egyedi telepítésű frissítést vagy más frissítéseket telepít, majd kattintson a Frissítések telepítése hivatkozásra. A telepítés után látogasson el ismét a Windows Update webhelyre, hogy telepítse a hátralévő frissítéseket.";
+var L_RList500_Text = "A gyorstelepítés segítségével gyorsan letölthetők és telepíthetők csak azok a fontos és biztonsági frissítések, amelyekre a számítógépnek szüksége van.";
+var L_RList501_Text = "A Microsoft kifejezetten ajánlja, hogy a számítógép naprakészségének és biztonságának megőrzése érdekében telepítse a következő sürgős frissítéseket. A frissítések telepítéséhez kattintson a Telepítés gombra.";
+var L_RList502_Text = "A számítógép naprakésznek látszik. Jelenleg nincsenek hozzá sem fontos, sem biztonsági frissítések. Ha meg szeretné tekinteni a számítógéphez elérhető választható frissítéseket, kattintson a Kezdőlap hivatkozásra, majd válassza az Egyéni telepítés lehetőséget. A Windows Update megkeresi a választható frissítéseket. Mielőtt letöltené a frissítéseket, áttekintheti őket.";
+var L_RList600_Text = "Az ezen az oldalon látható frissítések vagy maguk is bétaszoftverek, vagy a számítógépére már telepített bétaszoftverek frissítésére szolgálnak.";
+var L_RList700_Text = "Ezen az oldalon illesztőprogram-frissítések láthatók…";
+var g_sControlVersion = '3790.2182';
+
+		</script>
+	</head>
+	<noscript>
+		<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=hu&error=1' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=hu&error=1' /><frame name='eContent'  src='errorinformation.aspx?ln=hu&error=1' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=hu&error=1' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+	</noscript>
+	<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=hu' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=hu' /><frame name='eContent'  src='splash.aspx?page=0&ln=hu' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=hu' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+</html>

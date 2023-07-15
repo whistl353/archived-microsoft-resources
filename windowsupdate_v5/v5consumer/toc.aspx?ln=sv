@@ -1,0 +1,72 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/toc.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/toc.css' />
+
+<script language ="javascript">
+	                var L_Toc_Critical_Text = "Granska prioriterade uppdateringar";
+                var L_Toc_Beta_Text = "Markera tillvalsuppdateringar för betaprogramvara";
+                var L_Toc_Hardware_Text = "Markera tillvalsuppdateringar för maskinvara";
+                var L_Toc_Software_Text = "Markera tillvalsuppdateringar för programvara";
+                var L_Toc_CriticalUpdatesAlt_Text = "Granska en lista med prioriterade uppdateringar och säkerhetsuppdateringar.";
+                var L_Toc_SoftwareUpdatesAlt_Text = "Visa en lista över tillvalsuppdateringar för programvara.";
+                var L_Toc_HardwareUpdatesAlt_Text = "Visa en lista över tillvalsuppdateringar för maskinvara.";
+                var L_Toc_BetaUpdatesAlt_Text = "Visa en lista över tillvalsuppdateringar för betaprogramvara.";
+                var L_TocProductAlt_Text = "Visa en lista med uppdateringar för ";
+
+</script>
+</head>
+	<body class="toc sys-lhp-bgcolor"> 
+		<base target="eContent" />
+		<div id="eUserData"></div> 
+		<form name="ePostForm" id="ePostForm" method="post"><input name="ePostData" id="ePostData" type="hidden" /></form>
+		<table cellspacing="0" class="sys-toppane-bgcolor" >
+			<tbody>
+				<tr> 
+					<td style="height: 100%;"> 
+						<div class="sys-font-body toppane-body"> 
+
+							<div id="eConsumerDiv1">
+								<a id="eBasketUpdates" href="" title="Granska de valda uppdateringarna och starta installationsprocessen." class="sys-link-disabled"><img src="shared/images/icon_wu_installnow_16x.gif" style = "width : 16px; height: 16px;" />Installera uppdateringar<i></i></a><br />
+								<!--<a id="eAvailableUpdates" title="Visa uppdateringarna som finns tillgängliga för datorn. I vissa fall genomförs en kontroll av din dator." class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" /><i>Hämta uppdateringar för programvara</i></a>-->
+								<table style="width:91%;height:0px;cellspacing:0;" border= "0" id="eAvailableUpdatesTable"><tr><td style="padding:0px"><div id="eAvailableUpdatesDiv"></div></td></tr></table>
+							</div>
+
+
+
+							<div class="subHeader sys-bottompane-header-color sys-font-body-bold">Andra alternativ</div>
+
+
+							<div id="eConsumerDiv2">
+								<a id="eHistory" url="history.aspx?ln=sv" title="Visa en lista över installerade uppdateringar från Windows Update." class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />Visa tidigare installationer</a><br />
+								<a id="eAdvancedSettings" href="personalize.aspx?ln=sv"  url ="personalize.aspx?ln=sv" title="Ange vad som ska visas när du använder Windows Update." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Inställningar</a><br />
+								<a id="eHidden"  title="Visa en lista över uppdateringar som du har valt att dölja." class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />Återställ dolda uppdateringar</a><br />
+							</div>
+
+
+
+							
+							<div id="eConsumerDiv3">
+								<a id="eAdmin" href="administrators.aspx?ln=sv" title="Läs informationen för avancerade användare." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Administratörsalternativ</a><br />
+								<a id="eSupport" href="support.aspx?ln=sv" title="Få information om hur du får support online, om du får problem med webbplatsen Windows Update eller de objekt som du har installerat från den." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Hjälp och support</a><br />
+								<a id="eAbout" href="about.aspx?ln=sv" title="Här hittar du svar på de vanligaste frågorna om Windows Update." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Vanliga frågor</a><br />
+								
+							</div>
+							<a id="eHardwareSupport" target="_blank" class="sys-link-normal" title="Gå till din datortillverkares supportwebbplats."><img src="shared/images/toc_endnode.gif" />Maskinvarusupport</a>
+						</div>
+						
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

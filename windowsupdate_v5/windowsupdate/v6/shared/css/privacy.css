@@ -1,0 +1,36 @@
+.Privacy .Heading 
+{
+	font-family: Franklin Gothic Medium !important;
+	font-size: 175%;
+	color: #6B6B6B;
+}
+.Privacy .Title 
+{
+	font-weight: bold;
+	margin-top: 1.5em;
+} 
+.Privacy #LastUpdated 
+{
+    margin-bottom: 2.0em;
+    color: #6B6B6B;
+}
+.Privacy #ContactStatement
+{
+    margin-top: 1.5em;
+}
+ul
+{
+    margin-bottom: 1.0em;
+}
+ul li
+{
+    margin-left: 1.0em;
+}
+.Privacy p
+{
+    margin: 0.2em 0em 0.5em 0em;
+}
+#WUServiceName, #MUServiceName
+{
+    font-weight: bold;
+}

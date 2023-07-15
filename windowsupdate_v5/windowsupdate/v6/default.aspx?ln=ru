@@ -1,0 +1,181 @@
+
+
+<html dir="ltr">
+	<head>
+		<!-- Mimic Internet Explorer 7 -->
+		<meta http-equiv='X-UA-Compatible' content='IE=5; requiresActiveX=true' />
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<META http-equiv="Content-Type"  content="text/html;charset=windows-1251" />
+		<META http-equiv="MSThemeCompatible" content="Yes" /> 
+		<META NAME="DESCRIPTION" CONTENT="Получите последние имеющиеся обновления для операционной системы, программ и драйверов оборудования. После проверки компьютера будет предоставлена информация о специально подобранных для него обновлениях."> 
+		<META NAME="MS.LOCALE" CONTENT="ru">
+		<META NAME="keywords" CONTENT="Windows Update; update; security; secure; up-to-date; download; driver; patch; fix; hotfix; QFE; bug; critical; high priority; service pack; Automatic Updates; Windows XP; Windows 2000; Windows Server 2003; WinXP; Win2k; Win2000; WS2k3; WS2003; .NET Server; SP">
+		<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+		
+			<title>Центр обновления Windows (Майкрософт)</title>
+			<link rel='shortcut icon' href='shared/images/banners/favicon.ico' type='image/x-icon'/>
+		
+		<object id="SusWebCtl" VIEWASTEXT></object>
+		<object id="SunriseCtl" VIEWASTEXT></object>
+		<script language="javascript" type="text/javascript">
+			var g_bWGAEnablePingback = true;
+			var g_sQSProductName = '';
+
+		</script>
+		
+		<script language="javascript" type="text/javascript" src="shared/js/tgar.js?634808676694099571"></script>
+		<script language="javascript" type="text/javascript">
+var g_bMUSite = false;
+var curSite = "6Live";
+var g_sDownForMaintenance2K = "";
+var g_sDownForMaintenanceXP = "";
+var g_sDownForMaintenance2003 = "";
+var g_sDownForMaintenanceLonghorn = "";
+var g_sUA = "ia_archiver(OS-Wayback)";
+var conLangCode = "ru";
+</script>
+<script language="javascript" type="text/javascript" src="shared/js/redirect.js?634808676694099571"></script>
+
+		<script language="javascript" type="text/javascript" src="shared/js/commontop.js?634808676694099571"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/webcomtop.js?634808676694099571"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/spupdateids.js?634808676694099571"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/resultslist.js?634808676694099571"></script>
+
+		 
+			<script language="javascript" type="text/javascript">
+				function fnSupressError(sMessage, sURL, sLine){ return true; }
+				window.onerror = fnSupressError ;
+			</script>
+		
+		<script language="javascript" type="text/javascript" defer="true">
+			var conQueryString = "ln=ru"; 
+			conQueryString = conQueryString.replace("&amp;","&");
+			var conRTL = false;
+			var conDevServer = false;
+			var conConsumerURL = "/windowsupdate/v6/"; 
+			var muSelfUpdate = false;
+			var L_SplashExpressScanAltText_Text = "Можно выполнить поиск и установку только наиболее важных обновлений для этого компьютера ";
+var L_SplashCustomScanAltText_Text = "Можно выполнить поиск и выбрать имеющиеся обновления для данного компьютера ";
+var L_SplashWelcomeExpressButton_Text = "Быстрая ";
+var L_SplashWelcomeCustomButton_Text = "Выборочная ";
+var L_ReloadingSiteText_Text = "Открытие веб-сайта Центра обновления Windows не завершено.\n			Чтобы продолжить ожидание, нажмите кнопку ''ОК''.\n			Чтобы попробовать еще раз открыть сайт Центра обновления Windows, нажмите кнопку \"Отмена\". ";
+var L_MB_Text = "МБ ";
+var L_KB_Text = "КБ ";
+var L_Hour_Text = "ч ";
+var L_Hours_Text = "ч ";
+var L_InstallTitle_Text = "Установка обновлений ";
+var L_Minute_Text = "мин ";
+var L_Minutes_Text = "мин ";
+var L_RListSpeed_Text = "Приблизительное время при текущей скорости соединения:  ";
+var L_RListDownloadSizeTotal_Text = "Размер загружаемых файлов (общий):  ";
+var L_RListMandatoryTotalUpdates_Text = "Всего:  ";
+var L_SucceededAlt_Text = "Успешно ";
+var L_CancelledAlt_Text = "Отменено ";
+var L_FailAlt_Text = "Ошибка ";
+var L_Product_Text = "Продукт ";
+var L_OtherProduct_Text = "Windows ";
+var L_UpdateName_Text = "Обновление ";
+var L_Status_Text = "Состояние ";
+var L_Date_Text = "Дата ";
+var L_Source_Text = "Источник ";
+var L_SuccessfulAlt_Text = "Просмотр успешно установленных обновлений ";
+var L_FailedAlt_Text = "Просмотр обновлений, которые не были установлены ";
+var L_RemainingAlt_Text = "Просмотр высокоприоритетных обновлений, которые по-прежнему необходимо установить ";
+var L_AutomaticUpdates_Text = "Автоматическое обновление ";
+var L_WindowsUpdate_Text = "Центр обновления Windows ";
+var L_MicrosoftUpdate_Text = "Центр обновления Майкрософт ";
+var L_ManagedServer_Text = "Клиентский веб-сайт служб Windows Server Update Services ";
+var L_DynamicUpdate_Text = "Динамические обновления ";
+var L_DeviceManager_Text = "Диспетчер устройств ";
+var L_OperationModeDownload_Text = "Загрузка ";
+var L_OperationModeCopying_Text = "Копирование файлов ";
+var L_OperationModeRegister_Text = "Регистрация ";
+var L_OtherSource_Text = "Другой источник ";
+var L_PersonalizationSaveSettingsPrompt_Text = "Настройки были изменены. Чтобы сохранить настройки, нажмите кнопку \"ОК\". Чтобы продолжить без сохранения, нажмите кнопку \"Отмена\". ";
+var L_Next_Text = "Далее ";
+var L_RListBasketUpdatesNotAvailableText_Text = "Нет выбранных обновлений ";
+var L_NeedUserData_Text = "Для использования этой функции необходимо включить данные пользователей ";
+var L_UserDataSaved_Text = "Настройки были сохранены ";
+var L_PersonalizationReloadSite_Text = "Обновите сайт, чтобы просмотреть его на другом языке. Выбор обновлений будет отменен. Нажмите кнопку \"Отмена\", чтобы продолжить установку и просмотреть сайт на другом языке при следующем посещении. ";
+var L_Previous_Text = "Предыдущая ";
+var L_ProxyTitle_Text = "Введите учетные данные прокси-сервера ";
+var L_ExpressModeHidden_Text = "Скрыта ссылка на обновление, которое исправляет эту проблему. Восстановить его в списке важных обновлений, чтобы сделать доступным для установки? ";
+var L_WerUpdateInstalled_Text = "Необходимое обновление уже установлено. Нажмите кнопку \"ОК\", чтобы продолжить установку других обновлений, имеющихся для вашего компьютера. ";
+var L_RListBetaTitle_Text = "Выбор бета-версии программного обеспечения и обновлений ";
+var L_RListProductJumpTitle_Text = "Выбор обновлений для  ";
+var L_RListProductJumpDesc_Text = "Для защиты компьютера настоятельно рекомендуется установить все высокоприоритетные обновления. Чтобы выбрать обновления для других продуктов, используйте варианты слева. ";
+var L_RListBetaWarning1_Text = "<b>Внимание!</b><br> ";
+var L_RListBetaWarning2_Text = "Не устанавливайте бета-версию программы на основной компьютер или в рабочей среде. ";
+var L_RListHighPriWarinng1_Text = "<b>Имеются другие высокоприоритетные обновления</b><br/>Необходимо установить на ваш компьютер важные обновления для других продуктов. Настоятельно рекомендуется установить эти обновления для защиты компьютера и программ.  ";
+var L_RListHighPriWarinng2_Text = "Просмотреть обновления ";
+var L_RListClickForDescription_Text = "Щелкните, чтобы отобразить описание этого обновления ";
+var L_RListClickToHideDescription_Text = "Щелкните, чтобы скрыть описание этого обновления ";
+var L_RListCriticalUpdates_Text = "Высокоприоритетные обновления ";
+var L_RListNoCritical_Text = "Высокоприоритетные обновления для вашего компьютера отсутствуют. Чтобы выбрать другие обновления, используйте варианты слева. ";
+var L_RListNOBaketUpdates_Text = "Вы не выбрали ни одного обновления. Чтобы выбрать имеющиеся обновления, используйте варианты слева. Настоятельно рекомендуется установить все высокоприоритетные обновления для вашего компьютера. ";
+var L_RListNOProductUpdates1_Text = "Обновления для  ";
+var L_RListNOProductUpdates2_Text = " отсутствуют. Чтобы выбрать обновления для других продуктов, используйте варианты слева. ";
+var L_RListNOProductCriticalUpdates1_Text = "Высокоприоритетные обновления для  ";
+var L_RListNOProductCriticalUpdates2_Text = " отсутствуют. ";
+var L_RListNOBaketCriticalUpdates_Text = "Вы не выбрали ни одного высокоприоритетного обновления. ";
+var L_RListNoCriticalExpress_Text = "Высокоприоритетные обновления для вашего компьютера отсутствуют. Чтобы выполнить поиск дополнительных обновлений, вернитесь на домашнюю страницу и щелкните <b>Выборочная</b>. ";
+var L_RListNoHidden_Text = "В настоящее время отсутствуют скрытые высокоприоритетные обновления. ";
+var L_RListOptionalHWUpdates_Text = "Дополнительные обновления для устройств ";
+var L_RListNoOptionalHW_Text = "Дополнительные обновления для оборудования вашего компьютера отсутствуют. Чтобы выбрать другие обновления, используйте варианты слева. ";
+var L_RListOptionalBetaUpdates_Text = "Бета-версии программного обеспечения и обновлений ";
+var L_RListNoOptionalBeta_Text = "Отсутствуют бета-версии программного обеспечения и обновлений. Чтобы выбрать другие обновления, используйте варианты слева. ";
+var L_RListOptionalUpdates_Text = "Дополнительные обновления программного обеспечения ";
+var L_RListNoOptional_Text = "Дополнительные обновления программного обеспечения для вашего компьютера отсутствуют. Чтобы выбрать другие обновления, используйте варианты слева. ";
+var L_RListCriticalUpdatesTitle_Text = "Выбрать высокоприоритетные обновления ";
+var L_RListDeviceUnknown_Text = "Центр обновления Windows рекомендует установить это обновление, поскольку устройство, к которому относится этот драйвер, не имеет установленного драйвера на данном компьютере. ";
+var L_RListDeviceDisabled_Text = "Центр обновления Windows рекомендует установить это обновление, поскольку устройство, для которого предназначен этот драйвер, вероятно, отключено на данном компьютере. ";
+var L_RListDeviceProblem_Text = "Центр обновления Windows рекомендует установить это обновление, поскольку устройство, для которого предназначен этот драйвер, неправильно работает на данном компьютере. ";
+var L_RListDownloadSize_Text = "Размер файла:  ";
+var L_RListDownloadSizeTypical_Text = "Типичный размер файла:  ";
+var L_RListDriversTitle_Text = "Выбрать дополнительные обновления для устройств ";
+var L_RListHiddenTitle_Text = "Выбрать обновления для восстановления ";
+var L_RListExpressTitle_Text = "Просмотр и установка обновлений ";
+var L_RListProductTitle_Text = "Выбрать дополнительные обновления для программ ";
+var L_RListBasketTitle_Text = "Просмотр и установка обновлений ";
+var L_RListHideThisUpdate_Text = "Больше не показывать это обновление  ";
+var L_RListInfoGifAlt_Text = "Это обновление уже было загружено на ваш компьютер, но при его выборе установка будет завершена (рекомендуется). ";
+var L_RListItems_Text = "обновлений ";
+var L_RListLessThan_Text = "менее ";
+var L_RListOtherUpdates_Text = "Выбор и установка других обновлений ";
+var L_RListOtherUpdatesExp_Text = "Другие обновления можно выбрать только после установки (или отмены выбора) любых выбранных выше обновлений. Если ниже не отображаются обновления, см. варианты слева. ";
+var L_RListxpressUpdates_Text = "Высокоприоритетные обновления ";
+var L_RListBasketExclusiveDescUpdates_Text = "После установки не забудьте снова выполнить поиск дополнительных обновлений, которые могут потребоваться для вашего компьютера. ";
+var L_RListBasketExclusiveUpdates_Text = "Это обновление необходимо установить отдельно ";
+var L_RListExpressxclusive_Text = "Это обновление может влиять на работу всей системы и решать сразу несколько проблем. Его необходимо установить отдельно от других обновлений <br/><b>Рекомендуется установить его, а затем вернуться на нашу домашнюю страницу, чтобы проверить, не требуются ли другие высокоприоритетные обновления для вашего компьютера.</b> ";
+var L_RListReadMore_Text = "Подробности... ";
+var L_RListSingleInstallationCritical_Text = "<b>Выбрано обновление, которое должно быть установлено отдельно </b><br/>Это обновление является критическим для безопасности и производительности компьютера. Рекомендуется установить его сейчас.<br/>Если сначала требуется установить другие обновления, воспользуйтесь вариантами, показанными слева, чтобы найти их, а затем выберите на этой же странице <b>Выбор и установка других обновлений</b>. ";
+var L_RListSingleInstallationOptional_Text = "<b>Выбрано обновление, которое должно быть установлено отдельно </b><br/>Если сначала требуется установить другие обновления, воспользуйтесь вариантами, расположенными слева, чтобы найти их, а затем выберите на этой же странице <b>Выбор и установка других обновлений</b>. ";
+var L_RListSingleInstallationTitle_Text = "Высокоприоритетное обновление ";
+var L_RListHiddenCriticalPresent1_Text = "<b>Важные обновления скрыты</b><br/>Вы отключили отображение одного или нескольких высокоприоритетных обновлений, однако безопасность компьютера может быть под угрозой, пока они не будут установлены.  ";
+var L_RListHiddenCriticalPresent2_Text = "Восстановить отображение ";
+var L_RListYellowBoxTitle_Text = "Внимание! ";
+var L_RListSelectall_Text = "Выбрать все ";
+var L_RListClearall_Text = "Очистить все ";
+var L_RListExclusiveSubHeading_Text = "Эти обновления необходимо установить отдельно ";
+var L_RListExclusiveExp_Text = "Имеющиеся в этом списке обновления могут влиять на работу всей системы и решать сразу несколько проблем. Рекомендуется незамедлительно установить их, а затем выполнить еще один поиск оставшихся обновлений, начиная с домашней страницы. ";
+var L_RListWerText_Text = "Решает указанную проблему ";
+var L_RListVeryHighPriority_Text = "Устраняет критическую ошибку системы безопасности ";
+var L_RListSourceRequired_Text = "Для установки этого обновления, возможно, потребуются исходные файлы установки ";
+var L_RListZeroSize_Text = "(Загружено; готово к установке) ";
+var L_RListZeroSizeAsterisk_Text = "(*Загружено; готово к установке) ";
+var L_RList100_Text = "Для защиты компьютера от угроз безопасности и проблем с производительностью настоятельно рекомендуется установить все высокоприоритетные обновления. ";
+var L_RList200_Text = "Эти обновления не являются критическими для безопасности или производительности компьютера, однако они могут оптимизировать некоторые функции, программы или работу устройств. Для защиты компьютера обязательно установите все высокоприоритетные обновления. ";
+var L_RList200a_Text = "Эти обновления не являются критическими для безопасности или производительности компьютера, однако они могут оптимизировать некоторые функции, программы или работу устройств. Для защиты компьютера обязательно установите все высокоприоритетные обновления. ";
+var L_RList400_Text = "Для защиты компьютера настоятельно рекомендуется восстановить все скрытые высокоприоритетные обновления, а затем выполнить повторную проверку, чтобы определить, какие обновления все же необходимо установить на компьютер. ";
+var L_RList600_Text = "Бета-версия программного обеспечения и обновления для нее предназначены только для тестирования и пробной эксплуатации. Не устанавливайте бета-версию программы на основной компьютер или в рабочей среде. ";
+var g_sWUControlVersion = '1.0.0.0';
+var g_sMUControlVersion = '1.0.0.0';
+var g_sSelfupdateUrl = 'http://update.microsoft.com/windowsupdate/v6/selfupdate.aspx';
+
+		</script>
+	</head>
+	<noscript>
+		<frameset rows='116, *, 60' border='0'><frame name='eToolbar'  class='storeUserData' src='mstoolbar.aspx?ln=ru&error=1' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='200,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=ru&error=1' /><frame name='eContent'  src='errorinformation.aspx?ln=ru&error=1' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=ru&error=1' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+	</noscript>
+	<frameset rows='116, *, 60' border='0'><frame name='eToolbar'  class='storeUserData' src='mstoolbar.aspx?ln=ru' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='200,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=ru' /><frame name='eContent'  src='splash.aspx?page=0&ln=ru' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=ru' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+</html>

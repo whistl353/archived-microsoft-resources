@@ -1,0 +1,60 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<link rel='shortcut icon' href='shared/images/banners/favicon.ico' type='image/x-icon'/>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='javascript' type='text/javascript'>
+window.onerror = new Function('Message' ,'sURL' ,'sLine' , 'return true;')
+</script>
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js?633251295527176650'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js?633251295527176650'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+<style type='text/css'>button {padding: 0px 14px 1px 14px;width: 80px;height: 21px;overflow: visible;line-height: 15px;cursor: default;}</style>
+<style type='text/css'> table { table-layout: fixed; }
+	</style>
+</head>		 
+<body style="overflow:visible;" onload="fnInit(3, 100);" bgcolor="white" link="#587edc" alink="#587edc" vlink="#587edc">
+	
+	<font size="3" color="#587edc"><b>
+			Thank you for your interest in obtaining updates from our site.
+		</b></font>
+	<br>
+	<br>
+	Windows Update is the online extension of Microsoft Windows that helps you get the most out of your computer.
+	<br>
+	<br>
+	<font size="2">
+		Follow these steps to access Windows Update through the Help and support Center:
+		<ul>
+			<li>
+				Click <b>Start</b>, and then click <b>Help and support</b>.
+			<li>
+				If you are running Windows XP, click <b>Keep your computer up-to-date with Windows Update</b>.
+			<li>
+				If you are running a Windows Server 2003 family product, click <b>Windows Update</b>.
+			</li>
+		</ul>
+	</font>
+	
+	</FONT>
+	
+<SCRIPT TYPE="text/javascript">
+var gProductionDomains="update.microsoft.com";
+var gDomain="c.microsoft.com";
+var gTrackEvents=0;
+var a=gProductionDomains.split(',');var b=0;for(var i=0;i<a.length;i++){if(window.location.host.indexOf(a[i])!=-1){b++;}}if(b!=0){var gDcsId="dcsyg6oep00000stdwm7iu4rf_2t8p";}if(b==0){var gDcsId="dcs96ueef10000w8gz3okt4rf_8g2k";}
+var gFpc="WT_FPC";
+</SCRIPT>
+<SCRIPT SRC="shared/js/update_webtrends.js" TYPE="text/javascript"></SCRIPT>
+<NOSCRIPT>
+<IMG ALT="" BORDER="0" ID="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://c.microsoft.com/wupixel/wt_pixel.aspx?WT.dcs_id=dcsyg6oep00000stdwm7iu4rf_2t8p&dcscfg=1&dcsuri=/nojavascript&amp;WT.js=No">
+</NOSCRIPT>
+	<iframe name='eReporting' src='blank.aspx' noresize height='0' width='0' style='DISPLAY:none'>
+</body>
+</html> 

@@ -1,0 +1,49 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+ 
+<script language="JScript" type="text/javascript" src="shared/js/personalize.js"></script>
+<script language ="javascript">
+	var sLan = "arabia@|kiina (yksinkertaistettu)@|kiina (perinteinen)@|kiina (Hongkong)@|tsekki@|tanska@|hollanti@|englanti@|suomi@|ranska@|saksa@|kreikka@|heprea@|unkari@|italia@|japani@|korea@|norja@|puola@|portugali (Brasilia)@|portugali (Portugali)@|venäjä@|espanja@|ruotsi@|turkki"
+	var sRecommended = "(suositus)"
+	var sLN = "fi-fi";
+</script>
+</head>
+<body onload="fnInitPersonalization(13, -1);" onclick="fnUpdatePersonalization();" onbeforeunload="fnUnloadPersonalization();" class="personalization">
+	<span class="sys-font-heading3 sys-rhp-color-title">
+		Windows Update -asetukset
+	</span><br>	
+	<br>
+	<hr style="color:#cccccc;height:3px">
+	<b>Kieli</b> <br /><br/>
+	Windows Update näyttää Web-sivut samalla kielellä, jolla käytät Windowsia. Voit vaihtaa Windows Update -sivuston kielen, mutta joillakin sivuilla voi näkyä tietoja useilla eri kielillä.
+		<p>
+		<b>Tärkeää:</b> Jos käytät jotakin muuta kuin suositeltua kieliasetusta, <b>sinun on asennettava valitsemaasi asetusta vastaava Internet Explorerin kielitukipaketti</b>.
+	<br>
+	<br>
+	<div id="LanDiv"></div>
+	<br>
+	<hr style="color:#cccccc;height:3px">
+	<b>Lisäasetukset</b> <br />
+	<input type="checkbox" id="eBetaLink" class="checkbox"><label for="eBetaLink">Näytä beetatuotteet ja niihin liittyvät päivitykset</label><br>
+	Windows Update -palvelu voi tarjota käyttäjille ennakkoon julkaistuja beetaversioita tuotteista, kun niitä tulee saataville.
+	<br><br>
+	<div >HUOMAUTUS: Käytät ohjelmiston beetaversiota omalla vastuullasi. Beetaversio on tarkoitettu ainoastaan testaamista ja arviointia varten. Älä asenna ohjelmiston beetaversiota ensisijaisesti käytettävään tietokoneeseen tai tuotantoympäristöön.</div>
+	<br /> 
+	<hr style="color:#cccccc;height:3px">
+
+	<button id="eSaveSettings" onclick="fnSaveSettings();" disabled type="button">
+		Käytä
+	</button>
+	<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+</body>

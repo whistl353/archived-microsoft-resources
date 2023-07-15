@@ -1,0 +1,158 @@
+
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<META http-equiv="Content-Type"  content="text/html;charset=windows-1252" />
+		<META http-equiv="MSThemeCompatible" content="Yes" />
+		<META NAME="DESCRIPTION" CONTENT="Hanki uusimmat päivitykset tietokoneesi käyttöjärjestelmään, sovelluksiin ja laitteisiin. Windows Update tutkii tietokoneesi ja noutaa sinulle päivitysvalikoiman, joka on räätälöity juuri sinun tietokonettasi varten."> 
+		<META NAME="MS.LOCALE" CONTENT="fi">
+		<META NAME="keywords" CONTENT="Windows Update; update; security; secure; up-to-date; download; driver; patch; fix; hotfix; QFE; bug; critical; high priority; service pack; Automatic Updates; Windows XP; Windows 2000; Windows Server 2003; WinXP; Win2k; Win2000; WS2k3; WS2003; .NET Server; SP">
+		<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+		<title>Microsoft Windows Update</title>
+		<object id="SusWebCtl" VIEWASTEXT></object>
+		<script language="javascript" type="text/javascript">
+			var curSite = 5;
+			var g_sDownForMaintenance2K = "";
+			var g_sDownForMaintenanceXP = "";
+			var g_sDownForMaintenance2003 = "";
+			var g_sDownForMaintenanceLonghorn = "";
+			var g_sUA = "ia_archiver".toLowerCase();
+					
+			
+		</script>
+		<script language="javascript" type="text/javascript" src="shared/js/tgar.js?8.9.2005 2:51:25"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/redirect.js?8.9.2005 2:51:25"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/commontop.js?8.9.2005 2:51:25"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/webcomtop.js?8.9.2005 2:51:25"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/spupdateids.js?8.9.2005 2:51:25"></script>
+		
+		 
+			<script language="javascript" type="text/javascript">
+				function fnSupressError(sMessage, sURL, sLine){ return true; }
+				window.onerror = fnSupressError ;
+			</script>
+		
+		<script language="javascript" type="text/javascript" defer="true">
+			var conQueryString = "ln=fi-fi"; 
+			var conRTL = false;
+			var conDevServer = false;
+			var conCriticalUpdatesMode = false;
+			var conLangCode = "fi";
+			var conConsumerURL = "/v5consumer/";
+			var L_ScanForAvailableUpdates_Text = "Nouda ohjelmapäivitykset";
+var L_ReloadingSiteText_Text = "Windows Update -sivuston avaaminen on vielä meneillään.\n			Jos haluat jatkaa odottamista, valitse OK.\n			Jos haluat määrittää Windows Update -toiminnon yrittämään sivuston avaamista uudelleen, valitse Peruuta.";
+var L_MB_Text = "Mt";
+var L_KB_Text = "kt";
+var L_Hour_Text = "tunti";
+var L_Hours_Text = "tuntia";
+var L_InstallTitle_Text = "Asennetaan päivityksiä";
+var L_Minute_Text = "minuutti";
+var L_Minutes_Text = "minuuttia";
+var L_RListNoUpdatesToInstall_Text = "Yhtään päivitystä ei ole valittu asennettavaksi.";
+var L_StatusSucceeded_Text = "Onnistui";
+var L_StatusFailed_Text = "Epäonnistui";
+var L_StatusAborted_Text = "Peruutettu";
+var L_UpdateName_Text = "Päivityksen nimi";
+var L_Status_Text = "Tila";
+var L_Date_Text = "Päivämäärä";
+var L_Source_Text = "Lähde";
+var L_AutomaticUpdates_Text = "Automaattiset päivitykset";
+var L_WindowsUpdate_Text = "Windows Update -sivusto";
+var L_ManagedServer_Text = "Windows Update -palvelujen asiakassivusto";
+var L_DynamicUpdate_Text = "Dynaamiset päivitykset";
+var L_DeviceManager_Text = "Laitehallinta";
+var L_OperationModeDownload_Text = "Ladataan";
+var L_OperationModeCopying_Text = "Kopioidaan tiedostoja";
+var L_OperationModeRegister_Text = "Rekisteröidään";
+var L_OtherSource_Text = "Muu lähde";
+var L_PersonalizationSaveSettingsPrompt_Text = "Olet muuttanut asetuksia. Jos haluat tallentaa asetukset, valitse OK. Jos haluat jatkaa tallentamatta muutoksia, valitse Peruuta.";
+var L_Next_Text = "Seuraava";
+var L_RListBasketUpdatesNotAvailableText_Text = "Yhtään päivitystä ei ole valittu.";
+var L_NeedUserData_Text = "Toimintoa varten on otettava käyttöön käyttäjätiedot";
+var L_UserDataSaved_Text = "Asetuksesi on tallennettu";
+var L_PersonalizationReloadSite_Text = "Kieliasetukset on tallennettu. Windows Updaten on päivitettävä sivustonäkymä, ennen kuin sivusto näkyy uudella kielellä. Päivittäminen poistaa kaikki päivitysten valinnat. Haluatko päivittää sivustonäkymän nyt?";
+var L_Previous_Text = "Edellinen";
+var L_ProxyTitle_Text = "Syötä valtuutustiedot";
+var L_ExpressModeHidden_Text = "Windows Update- ja Automaattiset päivitykset -toiminnot mahdollistavat sellaisen päivityksen piilottamisen, jota et enää halua vastaanottaa. Nyt tarvittava päivitys on aiemmin ollut piilotettu. Haluatko palauttaa tämän päivityksen, jotta voit asentaa sen?";
+var L_WerUpdateInstalled_Text = "Tarvittava päivitys on jo asennettu. Valitse OK, jos haluat asentaa muita päivityksiä, joita on saatavilla tietokoneeseesi.";
+var L_RListBetaDescription_Text = "Seuraavat beetapäivitykset ovat saatavana tietokoneeseen. Valitse haluamasi asennettavat päivitykset ja napsauta sitten Siirry päivitysten asennukseen -linkkiä.";
+var L_RListBetaTitle_Text = "Valitse valinnaiset beetapäivitykset";
+var L_RListBetaWarning1_Text = "<b>Beetaohjelmistot voivat olla haitallisia tietokoneellesi</b><br>";
+var L_RListBetaWarning2_Text = "Esijulkaistut tuotteet tai beetaversiot (ohjelmistot) ja päivitykset beetaohjelmistoihin voivat olla haitallisia tietokoneellesi, ja Microsoft voi tarjota niihin liittyvää tukea vain rajoitetusti.";
+var L_RListClickForDescription_Text = "Tuo tämän päivityksen kuvaus näkyviin napsauttamalla tätä";
+var L_RListClickToHideDescription_Text = "Piilota tämän päivityksen kuvaus napsauttamalla tätä";
+var L_RListCriticalUpdates_Text = "Ensisijaiset päivitykset";
+var L_RListCriticalUpdatesBar_Text = "Ensisijaiset päivitykset";
+var L_RListCriticalUpdatesTitle_Text = "Tarkasta ensisijaiset päivitykset";
+var L_RListDeviceUnknown_Text = "Windows Update suosittelee tämän päivityksen asentamista, koska laitteelle, johon tämä ohjain liittyy, ei näytä olevan ohjainta asennettuna tietokoneessasi.";
+var L_RListDeviceDisabled_Text = "Windows Update suosittelee tämän päivityksen asentamista, koska laite, johon tämä ohjain liittyy, näyttää olevan poissa käytöstä tietokoneessasi.";
+var L_RListDeviceProblem_Text = "Windows Update suosittelee tämän päivityksen asentamista, koska laite, johon tämä ohjain liittyy, ei näytä toimivan asianmukaisesti tietokoneessasi.";
+var L_RListDownloadSize_Text = "Latauskoko: ";
+var L_RListDownloadSizeTypical_Text = "Tavanomainen latauskoko: ";
+var L_RListDriversDescription_Text = "Tietokoneeseesi on saatavilla seuraavat valinnaiset päivitykset. Valitse päivitykset, jotka haluat asentaa, ja napsauta sitten Siirry päivitysten asennukseen -linkkiä.";
+var L_RListDriversTitle_Text = "Valitse valinnaiset laitteistopäivitykset";
+var L_RListHiddenTitle_Text = "Palauta piilotetut päivitykset";
+var L_RListHiddenUpdatesBar_Text = "Piilotetut päivitykset";
+var L_RListHideThisUpdate_Text = "Piilota tämä päivitys";
+var L_RListInfoGifAlt_Text = "Tämä päivitys on jo ladattu tietokoneeseesi. Jos tämä päivitys valitaan, Windows Update suorittaa loppuun sen asennuksen.";
+var L_RListItems_Text = "kohdetta";
+var L_RListLessThan_Text = "alle";
+var L_RListNoUpdatesAvailable_Text = "Päivityksiä ei ole saatavilla";
+var L_RListOptionalBetaUpdatesBar_Text = "Valinnaiset beetapäivitykset";
+var L_RListOptionalHardwareUpdatesBar_Text = "Valinnaiset laitteistopäivitykset";
+var L_RListOptionalSoftwareUpdatesBar_Text = "Valinnaiset ohjelmistopäivitykset";
+var L_RListOptionalUpdates_Text = "Valinnaiset päivitykset";
+var L_RListOtherUpdates_Text = "Muut päivitykset";
+var L_RListOtherOptionalUpdates_Text = "Muut valinnaiset päivitykset";
+var L_RListOtherCriticalUpdates_Text = "Muut ensisijaiset päivitykset";
+var L_RListProductTitle_Text = "Valitse valinnaiset päivitykset";
+var L_RListReadMore_Text = "Lisätietoja...";
+var L_RListSingleInstallation_Text = "<b>Yksittäin asennettava päivitys on valittu asennettavaksi </b><br/>Tällä sivulla luetellut päivitykset eivät ole tällä hetkellä käytettävissä, koska asennettavaksi on valittu yksittäin asennettava päivitys, jota ei voi asentaa samaan aikaan muiden päivitysten kanssa. Kun asennus on suoritettu, voit palata takaisin Windows Update -sivustoon ja valita asennettavaksi muita päivityksiä.";
+var L_RListSingleInstallationTitle_Text = "Yksittäisasennus: ";
+var L_RListUpdates_Text = "päivitystä";
+var L_RListHiddenCriticalPresent1_Text = "<b>Osa ensisijaisista päivityksistä on piilotettu </b><br/>Microsoft suosittelee kaikkien ensisijaisten päivitysten asentamista, jotta tietokoneesi suojaus voitaisiin taata. Jos haluat asentaa piilotetut päivitykset, siirry ";
+var L_RListHiddenCriticalPresent2_Text = "Palauta piilotetut päivitykset";
+var L_RListHiddenCriticalPresent3_Text = " -sivulle.";
+var L_RListSelectall_Text = "Valitse kaikki";
+var L_RList100_Text = "Ensisijaiset päivitykset ovat tietokoneesi toiminnan kannalta merkittäviä ja suojaukseen liittyviä päivityksiä.";
+var L_RList101_Text = "Yhtään ensisijaista päivitystä ei ole valittu asennettavaksi. Microsoft suosittelee ensisijaisten päivitysten asentamista, jotta tietokoneen toiminta ja suojaus pysyvät ajanmukaisina. Jos haluat tarkastella tietokoneeseesi sopivia valinnaisia päivityksiä, napsauta jotakin Kotisivu-linkin alapuolella olevista valinnaisten päivitysten linkeistä.";
+var L_RList102a_Text = "Microsoft suosittelee ehdottomasti seuraavien ensisijaisten päivitysten asentamista, jotta tietokoneen toiminta ja suojaus pysyvät ajanmukaisina.";
+var L_RList102b_Text = "<b>Yksittäin asennettavia päivityksiä ei voi asentaa samanaikaisesti muiden päivitysten kanssa.</b> <br>Valitse, asennatko ensin yksittäin asennettavan päivityksen vai kaikki muut ensisijaiset päivitykset. Napsauta sitten Siirry päivitysten asennukseen -linkkiä. Kun asennus on suoritettu, palaa takaisin Windows Update -sivustoon ja asenna jäljellä olevat päivitykset.";
+var L_RList103_Text = "Microsoft suosittelee ehdottomasti seuraavien yksittäin asennettavien ensisijaisten päivitysten asentamista, jotta tietokoneen toiminta ja suojaus pysyvät ajanmukaisina. Asenna päivitykset napsauttamalla Siirry päivitysten asennukseen -linkkiä.";
+var L_RList104_Text = "Microsoft suosittelee ehdottomasti seuraavien ensisijaisten päivitysten asentamista, jotta tietokoneen toiminta ja suojaus pysyvät ajanmukaisina. Asenna päivitykset napsauttamalla Siirry päivitysten asennukseen -linkkiä.";
+var L_RList105a_Text = "Microsoft suosittelee ehdottomasti seuraavien ensisijaisten päivitysten asentamista, jotta tietokoneen toiminta ja suojaus pysyvät ajanmukaisina.";
+var L_RList105b_Text = "<b>Yksittäin asennettavia päivityksiä ei voi asentaa samanaikaisesti muiden päivitysten kanssa.</b> <br>Valitse asennettavaksi haluamasi yksittäin asennettava päivitys ja napsauta sitten Siirry päivitysten asennukseen -linkkiä. Kun asennus on suoritettu, palaa takaisin Windows Update -sivustoon ja asenna jäljellä olevat päivitykset.";
+var L_RList200_Text = "Valinnaiset päivitykset eivät ole tietokoneesi toiminnan kannalta tärkeitä päivityksiä. Voit asentaa niitä halutessasi.";
+var L_RList201_Text = "Yhtään valinnaista päivitystä ei ole saatavilla.";
+var L_RList202a_Text = "Tietokoneeseesi on saatavilla seuraavat valinnaiset päivitykset:";
+var L_RList202b_Text = "<b>Yksittäin asennettavia päivityksiä ei voi asentaa samanaikaisesti muiden päivitysten kanssa.</b> <br>Valitse, asennatko ensin yksittäin asennettavan päivityksen vai muut valinnaiset päivitykset. Napsauta sitten Siirry päivitysten asennukseen -linkkiä. Kun asennus on suoritettu, palaa takaisin Windows Update -sivustoon ja asenna jäljellä olevat päivitykset.";
+var L_RList203_Text = "Tietokoneeseesi on saatavilla seuraavat valinnaiset päivitykset. Yksittäin asennettavia päivityksiä ei voi asentaa samanaikaisesti muiden päivitysten kanssa. Valitse päivitykset, jotka haluat asentaa, ja napsauta sitten Siirry päivitysten asennukseen -linkkiä. Kun asennus on suoritettu, voit palata takaisin Windows Update -sivustoon ja valita asennettavaksi muita päivityksiä.";
+var L_RList204_Text = "Tietokoneeseesi on saatavilla seuraavat valinnaiset päivitykset. Valitse päivitykset, jotka haluat asentaa, ja napsauta sitten Siirry päivitysten asennukseen -linkkiä.";
+var L_RList205a_Text = "Tietokoneeseesi on saatavilla seuraavat valinnaiset päivitykset:";
+var L_RList205b_Text = "<b>Yksittäin asennettavia päivityksiä ei voi asentaa samanaikaisesti muiden päivitysten kanssa..</b> <br>Valitse asennettavaksi haluamasi yksittäin asennettava päivitys ja napsauta sitten Siirry päivitysten asennukseen -linkkiä. Kun asennus on suoritettu, palaa takaisin Windows Update -sivustoon ja asenna jäljellä olevat päivitykset.";
+var L_RList300_Text = "Tällä sivulla näkyy yhteenveto asennettaviksi valituista päivityksistä.";
+var L_RList301_Text = "Yhtään päivitystä ei tällä hetkellä ole valittu asennettavaksi. Jos haluat tarkastella päivityksiä, jotka ovat saatavilla tietokoneeseesi, napsauta jotakin Kotisivu-linkin alapuolella olevista ensisijaisten päivitysten tai valinnaisten päivitysten linkeistä.";
+var L_RList302_Text = "Microsoft suosittelee ehdottomasti seuraavien ensisijaisten päivitysten asentamista, jotta tietokoneen toiminta ja suojaus pysyvät ajanmukaisina. Jos haluat asentaa nämä päivitykset, valitse Asenna.";
+var L_RList303_Text = "Jos haluat asentaa seuraavat valinnaiset päivitykset, valitse Asenna.";
+var L_RList304_Text = "Microsoft suosittelee ehdottomasti seuraavien ensisijaisten ja valinnaisten päivitysten asentamista, jotta tietokoneen toiminta ja suojaus pysyvät ajanmukaisina. Jos haluat asentaa nämä päivitykset, valitse Asenna.";
+var L_RList400_Text = "Piilotetut päivitykset ovat päivityksiä, jotka on poistettu saatavilla olevien päivitysten luettelosta.";
+var L_RList401_Text = "Yhtään päivitystä ei ole piilotettuna. Voit piilottaa haluamasi päivityksen napsauttamalla sen nimeä ja valitsemalla sitten Piilota-valintaruudun.";
+var L_RList402_Text = "<P><b>Yksittäin asennettavia päivityksiä ei voi asentaa samanaikaisesti muiden päivitysten kanssa.</b><br> Valitse haluamasi yksittäin asennettava päivitys ja napsauta sitten Siirry päivitysten asennukseen -linkkiä. Kun asennus on suoritettu, palaa takaisin Windows Update -sivustoon ja asenna jäljellä olevat päivitykset.";
+var L_RList403_Text = "<P><b>Yksittäin asennettavia päivityksiä ei voi asentaa samanaikaisesti muiden päivitysten kanssa.</b><br> Valitse asennettavaksi haluamasi yksittäin asennettava päivitys ja napsauta sitten Siirry päivitysten asennukseen -linkkiä. Kun asennus on suoritettu, palaa takaisin Windows Update -sivustoon ja asenna jäljellä olevat päivitykset.";
+var L_RList404_Text = "Jos haluat asentaa piilotetun päivityksen, valitse sen vieressä oleva valintaruutu ja napsauta sitten Siirry päivitysten asennukseen -linkkiä.";
+var L_RList405_Text = "<P><b>Yksittäin asennettavia päivityksiä ei voi asentaa samanaikaisesti muiden päivitysten kanssa.</b><br> Valitse, haluatko asentaa ensin yksittäin asennettavan päivityksen vai muut päivitykset, ja napsauta sitten Siirry päivitysten asennukseen -linkkiä. Kun asennus on suoritettu, palaa takaisin Windows Update -sivustoon ja asenna jäljellä olevat päivitykset.";
+var L_RList500_Text = "Pika-asennuksen avulla voit ladata nopeasti vain ne tärkeät päivitykset ja suojauspäivitykset, joita tietokoneessasi tarvitaan.";
+var L_RList501_Text = "Microsoft suosittelee ehdottomasti seuraavien ensisijaisten päivitysten asentamista, jotta tietokoneen toiminta ja suojaus pysyvät ajanmukaisina. Jos haluat asentaa nämä päivitykset, valitse Asenna.";
+var L_RList502_Text = "Tietokoneesi näyttää olevan ajan tasalla. Siihen ei tällä hetkellä ole saatavilla tärkeitä päivityksiä tai suojauspäivityksiä. Jos haluat tarkastella tietokoneeseesi saatavilla olevia valinnaisia päivityksiä, napsauta Kotisivu-linkkiä ja valitse sitten Mukautettu asennus. Windows Update etsii valinnaisia päivityksiä tietokoneeseesi. Voit tarkastella päivityksiä ennen niiden lataamista.";
+var L_RList600_Text = "Tällä sivulla olevat päivitykset ovat itsessään beetaohjelmia tai päivityksiä tietokoneessasi oleviin beetaohjelmiin.";
+var L_RList700_Text = "Tällä sivulla olevat päivitykset ovat ohjainpäivityksiä…";
+var g_sControlVersion = '3790.2182';
+
+		</script>
+	</head>
+	<noscript>
+		<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=fi-fi&error=1' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=fi-fi&error=1' /><frame name='eContent'  src='errorinformation.aspx?ln=fi-fi&error=1' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=fi-fi&error=1' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+	</noscript>
+	<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=fi-fi' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=fi-fi' /><frame name='eContent'  src='splash.aspx?page=0&ln=fi-fi' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=fi-fi' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+</html>

@@ -1,0 +1,45 @@
+
+<script language ="javascript">
+	var iSubPage = 8;	
+	var sDir = "ltr" ;
+	if(iSubPage == parent.conSplashMandatoryUpdates){
+		var sMandatoryUpdateIndexes = "";
+	}
+	
+</script>
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+   	</head>
+	<body onload="if('function' == typeof(fnInitSplashPage)) fnInitSplashPage(1, 8);">
+ 
+		<span class="sys-font-heading3 sys-rhp-color-title">Windows Update</span><br /><br />
+		For at du skal kunne bruke denne siste versjonen av Windows Update, må du oppgradere noen av komponentene. Denne versjonen inneholder følgende forbedringer av tjenesten:<br /><br />
+		<ul> 
+			<li><b>Hurtiginstallasjon og egendefinert installasjon:</b>&nbsp;&nbsp;Velg bare de nyeste kritiske oppdateringene, eller velg blant alle tilgjengelige oppdateringer.</li>
+			<li><b>Smartere nedlastinger:</b>&nbsp;&nbsp;Hvis nedlastingen blir avbrutt, vil prosessen fortsette der den stoppet neste gang du laster ned den oppdateringen.</li>
+			<li><b>Mindre nedlastinger:</b>&nbsp;&nbsp;Bare de filene datamaskinen behøver, blir lastet ned, noe som sparer nedlastingstid og kostnader ved tilkobling.</li>
+			<li><b>En versjon:</b>&nbsp;&nbsp;Du blir bare tilbudt de nyeste oppdateringene.</li>
+			<li><b>Mindre rot:</b>&nbsp;&nbsp;Du kan nå skjule de oppdateringene du ikke vil se.</li>
+			<li><b>Nyheter om oppdateringer:</b>&nbsp;&nbsp;En del med nyheter fra Microsoft på hjemmesiden for Windows Update viser tips og den siste informasjonen.</li>
+		</ul>
+		<br />
+		<img src="shared/images/icon.plus.gif" id="imgDetailsHeader" onclick="fnHeaderClicked()" style="height:11px; width:11px;cursor:hand;" /><span style="width:5px;"></span><span id="eHeader" style="font-weight:bold;cursor:hand;color:#C7D8FA;" onclick="fnHeaderClicked();">Detaljer</span><br />
+		<div id="eMandatoryUpdates" style="display:none;Left:16px;Position:relative;border-width:1px;border-style:solid;border-color:#C7D8FA;">
+		</div><br /><br />
+		<button id="eDownload" onclick="parent.fnShowResultlist();">Last ned og installer nå</button> 
+	
+<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+	</body>
+</html>

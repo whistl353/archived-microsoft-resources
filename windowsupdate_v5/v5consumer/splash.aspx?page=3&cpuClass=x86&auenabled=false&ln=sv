@@ -1,0 +1,223 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+<script language ="javascript">
+	var iSubPage = 3;	
+	var sDir = "ltr" ;
+	if(iSubPage == parent.conSplashMandatoryUpdates){
+		var sMandatoryUpdateIndexes = "";
+	}
+	
+</script>
+   	</head>
+	<body onload="if('function' == typeof(fnInitSplashPage)) fnInitSplashPage(1, 3);">
+
+		<table cellpadding=5 cellspacing=5 border=0>
+			<tr>
+				<td width=100% align="left" valign="top">
+				
+					<table cellpadding=0 cellspacing=0 border=0 style="position:relative;left:-26;top:-21;">
+						<tr>
+							<td align="left" valign="top" width=337><img src="shared/images/Banners/sv/Hdr_Welcome.jpg"></td>
+							<td align="left" valign="top" width=100% style="background-image:url(shared/images/Hdr_Tall_Middle.gif);background-repeat:repeat-x"></td>
+							<td align="left" valign="top" width=73><img src="shared/images/Hdr_Tall_Right.jpg"></td>
+						</tr>
+					</table>
+				
+					<div id="eSplashWelcome" align="left">
+						Skaffa de senaste uppdateringarna för datorns operativsystem, programvara och maskinvara.
+						Windows Update genomsöker din dator och kontrollerar vilka uppdateringar som behövs. Därefter visas en lista med uppdateringar som har anpassats för din dator.<br /><br /><br /><br />
+						<table cellpadding=5 cellspacing=0 border=0>
+							<tr height=45%>
+								<td width=21 align="left" valign="top">
+									<a name ="aExpress" id="aExpress" href="javascript:parent.fnExpressScan();" title="Kontrollera vilka prioriterade uppdateringar som din dator behöver genom att starta Windows Updates genomsökning av din dator." class="sys-link-normal">
+									<img src="shared/images/arrow.gif" style="position:relative;top:-5px;left:-8px" alt="[Klicka när du vill fortsätta.]" title="Kontrollera vilka prioriterade uppdateringar som din dator behöver genom att starta Windows Updates genomsökning av din dator."></a>
+								</td>
+								<td width=100% align="left" valign="top">
+									<a href="javascript:parent.fnExpressScan();" title="Kontrollera vilka prioriterade uppdateringar som din dator behöver genom att starta Windows Updates genomsökning av din dator." class="sys-link-normal">
+									<b>Snabb installation (rekommenderas):</b>
+									Prioriterade uppdateringar för din dator</a><br />
+									<div style="padding-top:3px;">Välj det här alternativet för snabb uppdatering. Sök efter, hämta och installera endast viktiga uppdateringar och säkerhetsuppdateringar som behövs för din dator.</div>
+								</td>
+							</tr>
+							<tr height=10><td colspan=2>&nbsp;</td></tr>
+							<tr height=45%>
+								<td align="left" valign="top">
+									<a href="javascript:parent.fnScan();" title="Sök efter nödvändiga viktiga uppdateringar och tillvalsuppdateringar genom att starta Windows Updates genomsökning av din dator." class="sys-link-normal">
+									<img src="shared/images/arrow.gif" style="position:relative;top:-5px;left:-8px" alt="[Klicka när du vill fortsätta.]"  title="Sök efter nödvändiga viktiga uppdateringar och tillvalsuppdateringar genom att starta Windows Updates genomsökning av din dator."></a>
+								</td>
+								<td align="left" valign="top">
+									<a href="javascript:parent.fnScan();" title="Sök efter nödvändiga viktiga uppdateringar och tillvalsuppdateringar genom att starta Windows Updates genomsökning av din dator." class="sys-link-normal">
+									<b>Anpassad installation:</b>
+									Prioriterade uppdateringar och tillvalsuppdateringar för din dator<br></a>
+									<div style="padding-top:3px;">Välj det här alternativet om du vill söka efter tillvalsuppdateringar, prioriterade uppdateringar och säkerhetsuppdateringar som behövs för din dator, välj mellan alla uppdateringar på webbplatsen och granska uppdateringarna innan de hämtas.</div>
+								</td>
+							</tr>
+						</table>
+						
+					</div>
+					<div id="eSplashScanning" style="display: none;">
+						<span class="sys-font-heading3 sys-rhp-color-title">Windows Update söker efter tillgängliga uppdateringar...</span><br />
+						<br>
+						<div name="fileprogress" id="fileprogress" class="progressdiv">
+					</div>
+				</td>
+				<td align="left" valign="top" width=200>
+					<div id="audivDontNotify" style="display:none;">
+						<table cellpadding=0 cellspacing=0 border=0>
+							<tr>
+								<td align="left" valign="top" height=40 width=5><img src="shared/images/AU_bg_LeftTop.gif"></td>
+								<td align="left" valign="top" height=40 width=27><img src="shared/images/AU_ShieldYellow.gif"></td>
+								<td align="left" valign="middle" height=40 width=153 style="color:white;font-weight:bold;padding-left:10px;background-image:url(shared/images/AU_bg_TopMiddle.gif);background-repeat:repeat-x">
+									Skydda din dator</td>
+								<td align="left" valign="top" height=40 width=5><img src="shared/images/AU_bg_RightTop.gif"></td>
+							</tr>
+							<tr>
+								<td align="left" valign="top" style="background-image:url(shared/images/AU_bg_LeftMiddle.gif);background-repeat:repeat-y;"></td>
+								<td align="left" valign="top" colspan=2>
+									<div style="margin-top:14px;margin-bottom:14px;" align="left">
+										Med <b>automatiska uppdateringar</b> kan Windows automatiskt söka efter och installera nya säkerhetsuppdateringar i datorn.
+										<br /><br />
+										<center>
+											<table cellpadding=0 cellspacing=0 border=0 style="margin-left:10px;margin-right:10px;">
+												<tr>
+													<td align="left" valign="top"><img src="shared/images/AU_Button_Left.gif"></td>
+													<td align="center" valign="middle" width=152 style="background-image:url(shared/images/AU_Button_Middle.gif);background-repeat:repeat;">
+														<center>
+														<a href="javascript:parent.fnConfigureAutomaticUpdates()" style="color:black;" class="sys-link-normal">
+														Aktivera automatiska uppdateringar</center></a></td>
+													<td align="left" valign="top"><img src="shared/images/AU_Button_Right.gif"></td>
+											</table>
+										</center>
+									</div></td>
+								<td align="left" valign="top" width=5 style="background-image:url(shared/images/AU_bg_RightMiddle.gif);background-repeat:repeat-y;"></td>
+							</tr>							
+							<tr>
+								<td align="left" valign="top" width=5><img src="shared/images/AU_bg_LeftBottom.gif"></td>
+								<td align="left" valign="top" width=27 colspan=2 style="background-image:url(shared/images/AU_bg_BottomMiddle.gif);background-repeat:repeat-x;"></td>
+								<td align="left" valign="top" width=5><img src="shared/images/AU_bg_RightBottom.gif"></td>
+							</tr>
+						</table>
+					</div>
+					<div id="audivNotifyButDontDownlaod" style="display:none;">
+						<table cellpadding=0 cellspacing=0 border=0>
+							<tr>
+								<td align="left" valign="top" height=40 width=5><img src="shared/images/AU_bg_LeftTop.gif"></td>
+								<td align="left" valign="top" height=40 width=27><img src="shared/images/AU_ShieldYellow.gif"></td>
+								<td align="left" valign="middle" height=40 width=153 style="color:white;font-weight:bold;padding-left:10px;background-image:url(shared/images/AU_bg_TopMiddle.gif);background-repeat:repeat-x">
+									Automatiska uppdateringar:<br>Aktivt.</td>
+								<td align="left" valign="top" height=40 width=5><img src="shared/images/AU_bg_RightTop.gif"></td>
+							</tr>
+							<tr>
+								<td align="left" valign="top" style="background-image:url(shared/images/AU_bg_LeftMiddle.gif);background-repeat:repeat-y;"></td>
+								<td align="left" valign="top" colspan=2>
+									<div style="margin-top:14px;margin-bottom:14px;" align="left">
+										Datorn är inställd på att visa meddelanden när det finns nya uppdateringar.<br /><br />
+										<a href="javascript:parent.fnConfigureAutomaticUpdates();" class="sys-link-normal">
+										Ange själv när uppdateringar ska installeras.</a>
+									</div></td>
+								<td align="left" valign="top" width=5 style="background-image:url(shared/images/AU_bg_RightMiddle.gif);background-repeat:repeat-y;"></td>
+							</tr>							
+							<tr>
+								<td align="left" valign="top" width=5><img src="shared/images/AU_bg_LeftBottom.gif"></td>
+								<td align="left" valign="top" width=27 colspan=2 style="background-image:url(shared/images/AU_bg_BottomMiddle.gif);background-repeat:repeat-x;""></td>
+								<td align="left" valign="top" width=5><img src="shared/images/AU_bg_RightBottom.gif"></td>
+							</tr>
+						</table>
+					</div>
+					<div id="audivDownloadAndNotify" style="display:none;">
+						<table cellpadding=0 cellspacing=0 border=0>
+							<tr>
+								<td align="left" valign="top" height=40 width=5><img src="shared/images/AU_bg_LeftTop.gif"></td>
+								<td align="left" valign="top" height=40 width=27><img src="shared/images/AU_ShieldYellow.gif"></td>
+								<td align="left" valign="middle" height=40 width=153 style="color:white;font-weight:bold;padding-left:10px;background-image:url(shared/images/AU_bg_TopMiddle.gif);background-repeat:repeat-x">
+									Automatiska uppdateringar:<br>Aktivt.</td>
+								<td align="left" valign="top" height=40 width=5><img src="shared/images/AU_bg_RightTop.gif"></td>
+							</tr>
+							<tr>
+								<td align="left" valign="top" style="background-image:url(shared/images/AU_bg_LeftMiddle.gif);background-repeat:repeat-y;"></td>
+								<td align="left" valign="top" colspan=2>
+									<div style="margin-top:14px;margin-bottom:14px;" align="left">
+										Datorn är inställd på att visa meddelanden när det finns nya uppdateringar.
+										<br /><br />
+										<a href="javascript:parent.fnConfigureAutomaticUpdates();" class="sys-link-normal">
+										Ange själv när uppdateringar ska installeras.</a>
+									</div></td>
+								<td align="left" valign="top" width=5 style="background-image:url(shared/images/AU_bg_RightMiddle.gif);background-repeat:repeat-y;"></td>
+							</tr>							
+							<tr>
+								<td align="left" valign="top" width=5><img src="shared/images/AU_bg_LeftBottom.gif"></td>
+								<td align="left" valign="top" width=27 colspan=2 style="background-image:url(shared/images/AU_bg_BottomMiddle.gif);background-repeat:repeat-x;""></td>
+								<td align="left" valign="top" width=5><img src="shared/images/AU_bg_RightBottom.gif"></td>
+							</tr>
+						</table>
+					</div>
+					<div id="audivScheduledOK" style="display:none;">
+						<table cellpadding=0 cellspacing=0 border=0>
+							<tr>
+								<td align="left" valign="top" height=40 width=5><img src="shared/images/AU_bg_LeftTop_Green.gif"></td>
+								<td align="left" valign="top" height=40 width=27><img src="shared/images/AU_ShieldGreen.gif"></td>
+								<td align="left" valign="middle" height=40 width=153 style="color:white;font-weight:bold;padding-left:10px;background-image:url(shared/images/AU_bg_TopMiddle_Green.gif);background-repeat:repeat-x">
+									Automatiska uppdateringar:<br>Aktivt.</td>
+								<td align="left" valign="top" height=40 width=5><img src="shared/images/AU_bg_RightTop_Green.gif"></td>
+							</tr>
+							<tr>
+								<td align="left" valign="top" style="background-image:url(shared/images/AU_bg_LeftMiddle.gif);background-repeat:repeat-y;"></td>
+								<td align="left" valign="top" colspan=2>
+									<div style="margin-top:14px;margin-bottom:14px;" align="left">
+										Datorn är inställd på att automatiskt hämta säkerhetsuppdateringar och viktiga uppdateringar.
+										<br /><br />
+										<a href="javascript:parent.fnConfigureAutomaticUpdates();" class="sys-link-normal">
+										Ange själv när uppdateringar ska installeras.</a>
+									</div></td>
+								<td align="left" valign="top" width=5 style="background-image:url(shared/images/AU_bg_RightMiddle.gif);background-repeat:repeat-y;"></td>
+							</tr>							
+							<tr>
+								<td align="left" valign="top" width=5><img src="shared/images/AU_bg_LeftBottom.gif"></td>
+								<td align="left" valign="top" width=27 colspan=2 style="background-image:url(shared/images/AU_bg_BottomMiddle.gif);background-repeat:repeat-x;""></td>
+								<td align="left" valign="top" width=5><img src="shared/images/AU_bg_RightBottom.gif"></td>
+							</tr>
+						</table>
+					</div>					
+					<br>
+					<div id="newsframediv" style="display:none;">
+						<table cellpadding=0 cellspacing=0 border=0>
+							<tr>
+								<td align="left" valign="top" height=33 width=5><img src="shared/images/News_bg_LeftTop.gif"></td>
+								<td align="left" valign="top" height=33 width=27><img src="shared/images/News_Info.gif"></td>
+								<td align="left" valign="middle" height=33 width=153 style="color:black;font-weight:bold;padding-left:10px;background-image:url(shared/images/News_bg_TopMiddle.gif);background-repeat:repeat">
+									Nyheter</td>
+								<td align="left" valign="top" height=33 width=5><img src="shared/images/News_bg_RightTop.gif"></td>
+							</tr>
+							<tr>
+								<td align="left" valign="top" style="background-image:url(shared/images/News_bg_LeftMiddle.gif);background-repeat:repeat-y;"></td>
+								<td align="left" valign="top" colspan=2 style="padding:0px;">
+									<iframe id="newsframe" style="width:100%;margin-left:-5px;" frameborder="0"></iframe>
+								</td>
+								<td align="left" valign="top" width=5 style="background-image:url(shared/images/News_bg_RightMiddle.gif);background-repeat:repeat-y;"></td>
+							</tr>							
+							<tr>
+								<td align="left" valign="top" width=5><img src="shared/images/News_bg_LeftBottom.gif"></td>
+								<td align="left" valign="top" width=27 colspan=2 style="background-image:url(shared/images/News_bg_BottomMiddle.gif);background-repeat:repeat-x;""></td>
+								<td align="left" valign="top" width=5><img src="shared/images/News_bg_RightBottom.gif"></td>
+							</tr>
+						</table>					
+					</div>
+				</td>
+			</tr>
+		</table>
+	
+<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+	</body>
+</html>

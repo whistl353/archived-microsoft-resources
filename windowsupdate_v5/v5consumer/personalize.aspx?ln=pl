@@ -1,0 +1,49 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1250' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+ 
+<script language="JScript" type="text/javascript" src="shared/js/personalize.js"></script>
+<script language ="javascript">
+	var sLan = "Arabski@|Chiński (uproszczony)@|Chiński (tradycyjny)@|Chiński (Hongkong SAR)@|Czeski@|Duński@|Holenderski@|Angielski@|Fiński@|Francuski@|Niemiecki@|Grecki@|Hebrajski@|Węgierski@|Włoski@|Japoński@|Koreański@|Norweski@|Polski@|Portugalski (Brazylia)@|Portugalski (Portugalia)@|Rosyjski@|Hiszpański@|Szwedzki@|Turecki"
+	var sRecommended = "(Zalecane)"
+	var sLN = "pl";
+</script>
+</head>
+<body onload="fnInitPersonalization(13, -1);" onclick="fnUpdatePersonalization();" onbeforeunload="fnUnloadPersonalization();" class="personalization">
+	<span class="sys-font-heading3 sys-rhp-color-title">
+		Ustawienia rozszerzenia Windows Update
+	</span><br>	
+	<br>
+	<hr style="color:#cccccc;height:3px">
+	<b>Język</b> <br /><br/>
+	W witrynie Windows Update strony sieci Web wyświetlane są przy użyciu ustawień językowych systemu Windows. Ustawienia języka, w którym przeglądana jest witryna Windows Update, można zmienić, ale na niektórych stronach informacje mogą być wyświetlane w więcej niż jednym języku.
+		<p>
+		<b>Ważne:</b> W przypadku zmiany zalecanych ustawień języka <b>należy zainstalować odpowiedni pakiet językowy programu Internet Explorer</b>.
+	<br>
+	<br>
+	<div id="LanDiv"></div>
+	<br>
+	<hr style="color:#cccccc;height:3px">
+	<b>Zaawansowane</b> <br />
+	<input type="checkbox" id="eBetaLink" class="checkbox"><label for="eBetaLink">Pokaż produkty beta i aktualizacje pokrewne</label><br>
+	Rozszerzenie Windows Update może oferować wstępne wersje beta produktów w miarę ich udostępniania.
+	<br><br>
+	<div >UWAGA: Oprogramowania beta używasz na własne ryzyko. Jest ono przeznaczone wyłącznie do testowania i oceny. Oprogramowania beta nie należy instalować w podstawowym komputerze ani środowisku produkcyjnym.</div>
+	<br /> 
+	<hr style="color:#cccccc;height:3px">
+
+	<button id="eSaveSettings" onclick="fnSaveSettings();" disabled type="button">
+		Zastosuj zmiany teraz
+	</button>
+	<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+</body>

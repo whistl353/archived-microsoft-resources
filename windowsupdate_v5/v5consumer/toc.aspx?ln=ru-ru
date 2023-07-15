@@ -1,0 +1,72 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1251' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/toc.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/toc.css' />
+
+<script language ="javascript">
+	                var L_Toc_Critical_Text = "Просмотрите высокоприоритетные обновления";
+                var L_Toc_Beta_Text = "Выберите дополнительные бета-версии обновлений";
+                var L_Toc_Hardware_Text = "Выберите дополнительные обновления для устройств";
+                var L_Toc_Software_Text = "Выберите дополнительные обновления для программ";
+                var L_Toc_CriticalUpdatesAlt_Text = "Просмотрите список высокоприоритетных обновлений и обновлений системы безопасности.";
+                var L_Toc_SoftwareUpdatesAlt_Text = "Просмотрите список дополнительных обновлений программ.";
+                var L_Toc_HardwareUpdatesAlt_Text = "Просмотрите список дополнительных обновлений устройств.";
+                var L_Toc_BetaUpdatesAlt_Text = "Просмотрите список дополнительных обновлений бета-версий.";
+                var L_TocProductAlt_Text = "Просмотрите список обновлений для ";
+
+</script>
+</head>
+	<body class="toc sys-lhp-bgcolor"> 
+		<base target="eContent" />
+		<div id="eUserData"></div> 
+		<form name="ePostForm" id="ePostForm" method="post"><input name="ePostData" id="ePostData" type="hidden" /></form>
+		<table cellspacing="0" class="sys-toppane-bgcolor" >
+			<tbody>
+				<tr> 
+					<td style="height: 100%;"> 
+						<div class="sys-font-body toppane-body"> 
+
+							<div id="eConsumerDiv1">
+								<a id="eBasketUpdates" href="" title="Просмотрите обновления, выбранные для установки, и запустите процесс установки." class="sys-link-disabled"><img src="shared/images/icon_wu_installnow_16x.gif" style = "width : 16px; height: 16px;" />Установить обновления<i></i></a><br />
+								<!--<a id="eAvailableUpdates" title="Просмотр обновлений, подходящих для данного компьютера. Возможно, сначала программе Windows Update понадобится проверить конфигурацию компьютера." class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" /><i>Получить обновления программ</i></a>-->
+								<table style="width:91%;height:0px;cellspacing:0;" border= "0" id="eAvailableUpdatesTable"><tr><td style="padding:0px"><div id="eAvailableUpdatesDiv"></div></td></tr></table>
+							</div>
+
+
+
+							<div class="subHeader sys-bottompane-header-color sys-font-body-bold">Другие параметры</div>
+
+
+							<div id="eConsumerDiv2">
+								<a id="eHistory" url="history.aspx?ln=ru-ru" title="Просмотр списка обновлений, установленных с веб-узла Windows Update." class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />Просмотр журнала установок</a><br />
+								<a id="eAdvancedSettings" href="personalize.aspx?ln=ru-ru"  url ="personalize.aspx?ln=ru-ru" title="Настройка элементов, отображаемых при использовании веб-узла Windows Update." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Настройки</a><br />
+								<a id="eHidden"  title="Просмотрите список обновлений, которые ранее были скрыты." class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />Восстановить скрытые обновления</a><br />
+							</div>
+
+
+
+							
+							<div id="eConsumerDiv3">
+								<a id="eAdmin" href="administrators.aspx?ln=ru-ru" title="Сведения для опытных пользователей." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Настройки для администраторов</a><br />
+								<a id="eSupport" href="support.aspx?ln=ru-ru" title="Можно получить сведения о службе поддержки пользователей по вопросам, касающимся веб-узла Windows Update или элементов, установленных с него." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Справка и поддержка</a><br />
+								<a id="eAbout" href="about.aspx?ln=ru-ru" title="Познакомьтесь с ответами на вопросы о Windows Update." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Вопросы и ответы</a><br />
+								
+							</div>
+							<a id="eHardwareSupport" target="_blank" class="sys-link-normal" title="Перейдите на веб-узел изготовителя компьютера."><img src="shared/images/toc_endnode.gif" />Поддержка устройств</a>
+						</div>
+						
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

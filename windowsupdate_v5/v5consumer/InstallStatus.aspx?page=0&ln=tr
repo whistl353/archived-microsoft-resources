@@ -1,0 +1,67 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1254' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+</head>
+<body onload="if('function' == typeof(fnWriteInstallResult)) fnWriteInstallResult(0);">
+	<div name= "DivPageTitle" id="DivPageTitle" class="sys-font-heading3 sys-rhp-color-title">
+		Yükleme Özeti
+	</div>
+	<br />
+	
+	<div id="Successfulupdates" style="display:none;">
+		<span><img src="shared/images/ok.gif" align="absmiddle" />&nbsp;Aşağıdaki güncelleştirmeler başarıyla yüklendi:</span><br/><br/>
+		<b>
+		<ul id="SuccessfulUpdatesList" style="margin-left:35px;">
+		</ul>
+		</b>
+	</div>
+	<br/><br/> 
+	
+	<div id="Failedupdates" style="display:none;">
+		<span><img src="shared/images/warning.gif" align="absmiddle" />&nbsp;Aşağıdaki güncelleştirmelerin yüklemesi başarısız oldu:</span><br/><br/>
+		<b>
+		<ul id="FailedUpdatesList" style="margin-left:35px;">
+		</ul>
+		</b><br/>
+		Başarısızlık hakkında daha fazla bilgi için, bkz: <a href="history.aspx?ln=tr" class="sys-link-normal">Yükleme geçmişi sayfasını görüntüle</a>.
+	</div>
+	<br/><br/>
+	
+	<div id="Declinedupdates" style="display:none;">
+		<span><img src="shared/images/warning.gif" align="absmiddle" />&nbsp;Son Kullanıcı Lisans Sözleşmesi’ni (EULA) kabul etmediğinizden aşağıdaki güncelleştirmeler yüklenmedi. Güncelleştirmeyi yeniden yükleyin ve Windows Update size bildirdiğinde EULA’yı kabul edin.</span><br/><br/>
+		<b>
+		<ul id="DeclinedUpdatesList" style="margin-left:35px;">
+		</ul>
+		</b>
+	</div>
+	<br/><br/>
+	<div id="RemainingUpdates" style="display:none;">
+		<span><img src="shared/images/info_16x.gif" align="absmiddle" />&nbsp;Aşağıdaki Yüksek Öncelikli güncelleştirmeler yüklenmek üzere bekliyor olabilir:</span><br/><br/>
+		<b>
+			<ul id="RemainingUpdatesList" style="margin-left:35px;"> 
+			</ul>
+		</b>
+		<br/><br/>
+	</div>
+	
+	<div id="ScanButton" style="display:none;">
+		<span><img src="shared/images/arrow.gif" align="absmiddle" />&nbsp;<a id="eScan" class="sys-link-normal">Kalan güncelleştirmeleri şimdi gözden geçir ve yükle</a>
+	</div>
+	
+	<div id="RebootInstructions" style="display:none;">
+		Windows yeniden başlatıncaya kadar yükleme tamamlanmayacak. Windows'u şimdi yeniden başlatmak istiyorsanız, önce çalışmanızı kaydedin ve tüm programları kapatın. Ardından Başlat'ı ve Bilgisayarı Kapat'ı tıklatın, sonra da Yeniden Başlat'ı seçin.
+	</div>
+	 <iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' /> 
+  </body>
+</html>

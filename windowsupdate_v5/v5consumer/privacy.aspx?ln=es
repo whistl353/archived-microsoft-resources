@@ -1,0 +1,57 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+	<script language="javascript">
+	var oWindow
+		function fnOpenDriverInfo(){
+			oWindow = window.open("driversquery.xml","DriverInfo","toolbar=0,menubar=0,scrollbars=1");
+			oWindow.focus();
+		}
+	</script>
+	</head>
+	<body onload="fnInit(-1, -1);">
+		<span class="sys-font-heading3 sys-rhp-color-title">Declaración de privacidad de Windows Update</span><br />
+		Última actualización 15/04/04<P>			
+		Microsoft se compromete a proteger su privacidad.<P>
+		<b>¿Qué datos se recopilan y por qué?</b><br />
+		Windows Update recopila información del sistema general del equipo en cada visita, de forma que reciba las actualizaciones que mejor funcionan en el equipo. Esta información también se utiliza para generar estadísticas de agregado acerca del uso del sitio Web de Windows Update y de los sistemas que necesitan soporte, de manera que podamos mejorar nuestro servicio. Esta información incluye:<br /><br />
+		<div style="margin-left:5px;">
+		<UL>
+			<li>Fabricante y modelo de equipo</li>
+			<li>Información de la versión del sistema operativo, del explorador, así como de cualquier otro software de Microsoft para el que pueda haber actualizaciones disponibles.</li>
+			<li>Números de identificación Plug and Play de los dispositivos de hardware</li>
+			<li>Configuración de región e idioma</li>
+			<li><span title="Número extenso creado por Windows que identifica un equipo de forma única. El GUID no contiene ninguna información que se pueda utilizar para identificarle.">Identificador único global (GUID)</span></li>
+			<li>Id. y clave de producto</li>
+			<li>Nombre de BIOS, número de revisión y fecha de revisión</li>
+		</UL><P></div>
+		<span title="Conjunto de estándares de tecnología y especificaciones técnicas que permiten el envío de información de una red a otra a través de Internet. De esta forma, las redes pueden intercambiar datos entre sí.">Cuando se conecta al sitio de Windows Update, la dirección IP (protocolo Internet) inicia sesión, pero esta dirección se utiliza solamente para generar estadísticas de agregado.</span><P>
+		<b>¿Cómo se utilizan los datos?</b><br />
+		Windows Update recopila el Id. y la clave de producto para confirmar que ejecuta una copia con licencia válida de Windows. El Id. y la clave de producto que se recopilan no se retienen una vez que ha terminado de utilizar Windows Update, a menos que el Id. de producto no sea válido.<p>Para generar estadísticas precisas, Windows Update evalúa un Identificador único global (GUID) que se almacena en el equipo para identificarlo de forma única. El GUID no contiene ninguna información que se pueda utilizar para identificarle. Se asigna un GUID y se realiza un seguimiento de él en los siguientes casos:<P>
+		<div style="margin-left:30px;">
+		<ul>
+			<li>Para proporcionar el mejor servicio posible al cliente, Windows Update realiza un seguimiento y registra el número de equipos distintos que visitan su sitio, y si la descarga y la instalación de actualizaciones concretas se realiza correctamente. Windows Update registra el GUID del equipo que intenta realizar la descarga, el Id. del elemento solicitado, si eran necesarias actualizaciones y la información de configuración antes especificada.<p></li>
+			<li>Windows Update registra un GUID adicional si proporciona respuestas acerca de si los artículos de ayuda y de solución de problemas le ayudaron a resolver el problema. De esta forma, Windows Update puede proporcionarle información cada vez más importante y útil.<p></li>
+			<li>Microsoft recopila información acerca de las páginas que visitan nuestros clientes en el sitio www.microsoft.com, entre las que se incluye Windows Update. Esta información puede incluir: la dirección IP, el tipo de explorador, el sistema operativo, el nombre de dominio, la hora a la que tuvo acceso al sitio y las direcciones del sitio Web desde donde se realizó el acceso. Esta información acerca de la visita al sitio sólo se identifica por un número de Id. único que se utiliza exclusivamente con este fin.<p></li>
+		</ul>
+		</div>
+		<b>Acerca de las encuestas</b><br />
+		En algunas ocasiones, puede que se le invite a participar en una encuesta opcional acerca del uso del sitio Web de Windows Update. Cada encuesta incluye una declaración de privacidad que detalla las condiciones y el uso de todos los datos que se envían junto con dicha encuesta.<P>
+		<b>Ver datos de ejemplo</b><br />
+		Si tiene cualquier duda acerca de los datos que se evalúan para determinar las actualizaciones que se aplican a su equipo, puede 
+		<a class="sys-link-normal" href="javascript:fnOpenDriverInfo();"> ver un ejemplo de la información que Microsoft recopilará de su equipo</a>
+		. Observe que los datos que se proporcionan son únicamente de muestra, por lo que puede que los resultados individuales varíen en función de la configuración concreta del equipo.<P>
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+	</body>
+</html>

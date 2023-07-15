@@ -1,0 +1,51 @@
+<html dir='rtl'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1255' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update </title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/rtl.css' />
+ 
+	</head>
+	<body onload="fnInit(14, -1);">
+	
+		<span class="sys-font-heading3 sys-rhp-color-title">אפשרויות מנהל</span><br />
+	        <br>
+			<div class="8pt">
+
+			<b>עדכון מערכות הפעלה מרובות<br /></b>
+			כדי לבחור עדכונים המונפקים עבור כל מערכות ההפעלה של Windows, כולל עדכוני תוכנה עבור שרתים ועדכונים של מנהלי התקנים (חומרה), חפש ב<a href="http://go.microsoft.com/fwlink/?LinkId=8973" target="_blank" class="sys-link-normal">קטלוג Windows Update</a>.<br /><br />
+			<b>ניהול תהליך העדכון עבור רשתות<br /></b>
+			כדי לעדכן מערכות הפעלה של Windows ומוצרי Microsoft אחרים הפועלים בתוך חומת אש ארגונית, השתמש ב<a href="http://go.microsoft.com/fwlink/?LinkId=24462" target="_blank" class="sys-link-normal">שירותי Windows Update</a>. פתרון זה (אשר היה ידוע בעבר כשירותי עדכון תוכנה (SUS) 2.0) מסייע למנהלים ליעד מערכות לפריסה, לשלוט באינטראקציה של משתמשים, להסיר עדכונים, לתזמן את התדירות והעדיפות של עדכונים ועוד.<br /><br />
+			הערה:<br />
+			<ul style="margin-left:40px">
+				<li>כמו כן, ה- <a href="http://go.microsoft.com/fwlink/?LinkId=27549" target="_blank" class="sys-link-normal">(Microsoft Baseline Security Analyzer (MBSA</a> סורק אחר הגדרות תצורה שגויות נפוצות הקשורות לאבטחה ומדווח עליהן ויכול לסייע בהתקנת עדכוני אבטחה חסרים עבור מחשבים מבוססי Windows. </li>
+				<li>
+					כדי להציג במהירות את העדכונים המסופקים באמצעות עדכונים אוטומטיים, Windows Update ושירותי Windows Update, קרא את 
+					<a  class="sys-link-normal" href="about.aspx?ln=he" target="eContent">שאלות נפוצות אודות Windows Update</a>
+					.
+				</li>
+			</ul>
+			<br/><b>קבל עדכונים נוספים<br /></b>
+			<ul style="margin-left:40px">
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=21601" target="_blank" class="sys-link-normal">ערוך חיפוש במרכז ההורדות של Microsoft</a>
+			<br>קבל הורדות עבור כל מוצרי Microsoft הנתמכים. הורדות זמינות ב- 30 שפות. 
+		</li>
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=24459" target="_blank" class="sys-link-normal">בקר ב- Microsoft Office Online</a>
+			<br>חפש עדכונים עבור מערכת Microsoft Office, גירסאות 97/98 ומתקדמות יותר. ההורדות כוללות תבניות, תוכן סיוע ואוסף תמונות.
+		</li>
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=27098" target="_blank" class="sys-link-normal">הפוך ללקוח Microsoft Premier Support</a>
+			<br>למד אודות יתרונות Premier Support, כולל עדכונים נוספים כגון תוכנת קדם-הפצה. 
+		</li>
+			</ul>
+			</div> 
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+	</body>
+</html>

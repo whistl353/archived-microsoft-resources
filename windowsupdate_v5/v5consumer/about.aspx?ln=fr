@@ -1,0 +1,448 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+<body onload="fnInit(5, -1);">
+	<span class="sys-font-heading3 sys-rhp-color-title">
+		Windows Update : Forum Aux Questions
+	</span><br>
+	<br>
+	
+		<div class="8pt">
+		
+			<li><A class='sys-link-normal' HREF='#usingWU'><b>Utilisation de Windows Update</b></a></li>
+			<li><A class='sys-link-normal' HREF='#SupportVL'><b>Versions et langues prises en charge</b></a></li>
+			<li><A class='sys-link-normal' HREF='#TShooter'><b>Résolution des problèmes</b></a></li>
+			<li><A class='sys-link-normal' HREF='#NWAD'><b>Informations sur les réseaux et informations avancées</b></a></li>
+		
+		<p>
+			<A class="aboutHeader" name='usingWU' >Utilisation de Windows Update</a>
+			
+			<p>
+				<b>Qu'est-ce que Windows Update ?</b><br>
+				Windows Update est un site Web qui fournit des mises à jour pour les systèmes d'exploitation Windows et le matériel utilisé avec ces systèmes. Les mises à jour concernent des problèmes connus et vous aident à vous protéger contre les menaces de sécurité connues. 
+				<p>
+				Conseil :<bt>
+				<ul style='margin-left:40px'> 
+					<li>Si vous activez l'option Mises à jour automatiques, Windows Update peut installer sur votre ordinateur les mises à jour prioritaires dès que celles-ci sont disponibles. Vous pouvez décider quand et comment les mises à jour sont installées.</li>
+				</ul>
+			</p>
+		
+			<p>
+				<b>Comment fonctionne le système Windows Update ?</b><br>
+				Lorsque vous visitez le site Web, Windows Update analyse votre ordinateur et vous indique les mises à jour qui s'appliquent à vos logiciels et à votre matériel. Vous devez ensuite choisir celles que vous souhaitez installer ainsi que leurs modalités d'installation. 
+			</p>
+		
+			<p>
+				<b>Quels types de mises à jour puis-je obtenir ?</b><br>
+					Microsoft publie de nombreux <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=22935' target='_blank' >types de mises à jour</a> qui concernent un large éventail de questions ou de problèmes. Pour vous aider à récupérer les mises à jour les plus importantes (qui vous aident à protéger votre ordinateur et vos informations), Windows Update utilise les catégories suivantes :
+				<ul style='margin-left:40px'> 
+				<li><b>Mises à jour prioritaires</b><br>
+					Mises à jour critiques, mises à jour de sécurité, service packs et correctifs cumulatifs à installer dès leur mise à disposition et avant l'installation de toute autre mise à jour.</li>
+				<li><b>Mises à jour de logiciels (facultatives)</b><br> 
+					Correctifs non critiques destinés aux programmes Windows (Lecteur Windows Media® et Visionneuse du Journal Windows 1.5, par exemple).</li>
+				<li><b>Mises à jour du matériel (facultatives)</b><br>
+					Correctifs non critiques destinés aux pilotes et à d'autres périphériques matériels (cartes vidéo, cartes son, scanneurs, imprimantes et appareils photo, par exemple).</li> 
+				</ul>
+			</p>
+		
+			<p>
+				<b>Quelle est la différence entre une installation rapide et personnalisée ?</b><br>
+				<ul style='margin-left:40px'>
+					<li>L'<b>Installation rapide (recommandée)</b> présente toutes les mises à jour prioritaires destinées à votre ordinateur afin de vous permettre de les installer en un seul clic. C'est le moyen le plus facile et le plus rapide de maintenir votre ordinateur à jour.
+					<li>L'<b>Installation personnalisée</b> présente les mises à jour prioritaires et facultatives destinées à votre ordinateur. Vous devez ensuite vérifier lesquelles vous souhaitez installer et les sélectionner une par une.
+				</ul>
+			</p>
+		
+			<p>
+				<b>Suis-je obligé d'installer les mises à jour facultatives ?</b><br>
+				Non. Les mises à jour facultatives concernent des problèmes mineurs ou ajoutent des fonctionnalités non indispensables à votre ordinateur. Il est plus important d'installer les mises à jour prioritaires afin de vous assurer que votre ordinateur dispose des tout derniers éléments logiciels critiques et liés à la sécurité. 
+			</p>
+		
+			<p>
+				<b>Puis-je obtenir les mises à jour automatiquement ?</b><br>
+				Oui, si vous activez l'option <b>Mises à jour automatiques</b>. Windows recherchera les dernières mises à jour prioritaires destinées à votre ordinateur et les installera conformément à vos paramètres de  mise à jour automatique. 
+			</p>
+		
+			<p>
+				<b>L'option Mises à jour automatiques fonctionne-t-elle de la même façon que Windows Update ?</b><br>
+				Oui, mais elle fournit uniquement les mises à jour prioritaires. Pour bénéficier des mises à jour facultatives, vous devez toujours visiter le site Web de Windows Update.
+			</p>
+		
+			<p>
+				<b>Quel est le rôle de l'option Mises à jour automatiques ?</b><br>
+				Cette option fonctionne avec Windows Update et consiste à vous fournir les mises à jour critiques et de sécurité dès que celles-ci sont disponibles. Lorsque vous activez l'option Mises à jour automatiques (option recommandée), Windows recherche automatiquement les mises à jour prioritaires destinées à votre ordinateur. Vous devez ensuite décider quand et comment ces mises à jour sont installées. 
+			</p>
+		
+			<p>
+				<b>Comment puis-je obtenir des informations supplémentaires sur une mise à jour avant de l'installer ?</b><br>
+				Cliquez sur le nom d'une mise à jour pour découvrir la description correspondante. Pour connaître la configuration requise et obtenir des informations de support, cliquez sur le lien <b>Détails</b> associé à chaque description.
+			</p>
+		
+			<p>
+				<b>Dois-je effectuer des opérations particulières lors de l'installation d'une mise à jour ?</b><br>
+				Parfois. Dans certains cas, vous devrez accepter un Contrat de Licence Utilisateur Final (CLUF), répondre à une question sur le processus d'installation ou encore redémarrer votre ordinateur avant de procéder à l'installation de la mise à jour. 
+			</p>
+		
+			<p>
+				<b>Que se passe-t-il si je sélectionne Masquer cette mise à jour ?</b><br>
+				Windows Update ne vous demandera plus de vérifier ou d'installer cette mise à jour. Cependant, si vous masquez une mise à jour prioritaire, un message risque de vous rappeler qu'il vous manque une mise à jour indispensable à la sécurité de votre ordinateur.
+			</p>
+		
+			<p>
+				<b>Si je masque une mise à jour, comment puis-je l'afficher de nouveau par la suite ?</b><br>
+				Sur le site Web de Windows Update, cliquez sur <b>Restaurer les mises à jour masquées</b>, puis vérifiez et installez les mises à jour dont vous avez besoin. 
+			</p>
+		
+			<p>
+				<b>Quelle est la fréquence de publication des mises à jour sur  Windows Update ?</b><br>
+				Les mises à jour liées à la sécurité sont publiées une fois par mois. Cependant, en cas de menace pour la sécurité, lors de l'apparition d'un virus ou d'un ver informatique puissant susceptible de se répandre rapidement sur les ordinateurs Windows par exemple, Microsoft publie la mise à jour correspondante aussi vite que possible. 
+				<p>
+				D'autres types de mises à jour sont également publiés dès leur mise au point. Nous vous conseillons d'activer l'option Mises à jour automatiques afin que votre ordinateur puisse bénéficier des mises à jour prioritaires dès que celles-ci sont disponibles.
+				</p>
+			</p>
+		
+			<p>
+				<b>Comment puis-je ajouter Windows Update à ma liste de sites Web de confiance ?</b><br>
+				<ul style='margin-left:40px'> 
+					<li > Dans Internet Explorer, choisissez <b>Options Internet</b> dans le menu <b>Outils</b>.</li >
+					<li > Dans l'onglet <b>Sécurité</b>, cliquez sur <b>Sites de confiance</b>, puis sur <b>Sites</b>.</li >
+					<li > Sous <b>Ajouter ce site Web à la zone</b>, entrez (ou copiez et collez) cette URL : https://windowsupdate.microsoft.com.</li >
+					<li > Cliquez sur <b>Ajouter</b>, puis sur <b>OK</b>.</li >
+				</ul > 
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='SupportVL' >Versions et langues prises en charge</a>
+			<p>
+				<b>Quels sont les systèmes d'exploitation pris en charge par Windows Update ?</b><br>
+				Windows Update et l'option Mises à jour automatiques prennent en charge les versions de Windows suivantes :
+			</p>
+		
+			<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+				<colgroup>
+					<col style='WIDTH: 33%;padding-left:15px'>
+					<col style='WIDTH: 33%;text-align: center'>
+					<col style='WIDTH: 33%;text-align: center'>
+				</colgroup>
+				<tbody>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">Mises à jour actuelles et à venir</td>
+						<td class="FAQtd4">Site Web Windows Update</td>
+						<td class="FAQtd3">Mises à jour auto.</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows Millennium Edition</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows 2000</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows XP</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows NT Server</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows Server 2003</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">Mises à jour archivées<br/>
+			(aucune nouvelle mise à jour ne sera publiée)</td>
+						<td class="FAQtd4">Site Web Windows Update</td>
+						<td class="FAQtd3">Mises à jour auto.</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows 98</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows NT Workstation</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					
+				</tbody>
+			</table>
+			
+			<p>
+				<b>Quelle version du navigateur puis-je utiliser pour accéder à Windows Update ?</b><br>
+				Microsoft Internet Explorer versions 5 et ultérieures. Pour bénéficier d'un affichage optimal lors de la consultation du site, nous vous recommandons d'utiliser <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24748' target='_blank' >Internet Explorer 6</a>.
+			</p>
+		
+			<p>
+				<b>Comment puis-je savoir quelle version de Internet Explorer j'utilise ?</b><br>
+				Dans Internet Explorer, choisissez <b>À propos de Internet Explorer</b> dans le menu d'aide <b>?</b>.
+			</p>
+		
+			<p>
+				<b>Puis-je afficher le site Web Windows Update dans une autre langue ? </b><br>
+				Oui, mais les mises à jour n'apparaîtront plus dans la même langue que celle employée pour les liens, les options et les instructions fournis sur le site Web. Les titres et les informations détaillées associés aux mises à jour sont affichés dans la langue définie par défaut sur votre ordinateur.
+			</p>
+		
+			<p>
+				<b>Comment puis-je modifier mes paramètres de langue ?</b><br>
+				<ul style='margin-left:40px'> 
+					<li >Sur le site Web Windows Update, cliquez sur <b>Paramètres</b>.</li >
+					<li >Sélectionnez la langue d'affichage du site et cliquez sur <b>Appliquer les modifications</b>.</li >
+					<li >Lorsqu'un message vous invite à confirmer la modification, effectuez l'une des opérations suivantes :</li >
+					<ul style='margin-left:40px'>
+						<li >Pour changer de langue immédiatement, cliquez sur <b>OK</b>. <br >
+							(Vous devrez alors vérifier et sélectionner les mises à jour de nouveau.)</li >
+						<li >Pour utiliser la nouvelle langue après l'installation des mises à jour sélectionnées, cliquez sur <b>Annuler</b>. <br>
+							(Le changement de langue interviendra dans ce cas lors de votre prochaine visite sur le site Windows Update.)</li >
+					</ul >
+				</ul>
+			</p>
+		
+			<p>
+				<b>Pourquoi est-il préférable que j'utilise la langue recommandée par Windows Update ?</b><br>
+				Cette langue correspond à la langue définie par défaut sur votre ordinateur. Si vous l'adoptez, vous pourrez afficher le site Web dans la même langue que celle des titres et des informations détaillées des mises à jour destinées à votre ordinateur. 
+			</p>
+		
+			<p>
+				<b>Puis-je obtenir des mises à jour en plusieurs langues ?</b><br>
+				Oui. Windows Update détecte automatiquement les paramètres de langue des différents programmes figurant sur votre ordinateur. Si vous utilisez des langues différentes, les mises à jour vous seront proposées dans les langues correspondantes.
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='TShooter' >Résolution des problèmes</a>
+			<p>
+				<b>Que se passe-t-il si j'annule le processus de téléchargement ou si j'interromps la connexion Internet avant la fin du téléchargement de la mise à jour ? </b><br>
+				Le téléchargement reprendra à partir du point où vous vous êtes arrêté lors de votre prochaine connexion à Internet.
+			</p>
+		
+			<p>
+				<b>Je reçois un message d'erreur Internet Explorer. Comment puis-je modifier mes paramètres afin qu'ils fonctionnent avec Windows Update ?</b><br>
+				Utilisez les paramètres de sécurité par défaut :				
+				<ul style='margin-left:40px'> 
+					<li>Dans Internet Explorer, choisissez <b>Options Internet</b> dans le menu <b>Outils</b>.</li>
+					<li>Dans l'onglet <b>Sécurité</b>, cliquez sur <b>Zone Internet</b>, puis sur <b>Niveau par défaut</b>.</li>
+				</ul>
+				<p>Pour éviter les problèmes, vous pouvez ajouter Windows Update à votre liste de sites de confiance (reportez-vous aux instructions fournies dans la section Utilisation de Windows Update). </p>
+			</p>
+		
+			<p>
+				<b>J'obtiens des avertissements liés à ActiveX ou aux scripts lorsque j'utilise Windows Update. Cela pose-t-il problème ?</b><br>
+				Non. Windows Update utilise ces technologies pour déterminer les mises à jour nécessaires à votre ordinateur. Par mesure de sécurité, les contrôles ActiveX Windows Update sont associés à une signature numérique par Microsoft. Certaines personnes malveillantes utilisent toutefois les mêmes techniques pour endommager votre ordinateur. Internet Explorer vous avertit simplement que vous pouvez approuver ou non les sites Web qui utilisent ces contrôles.
+				<p>
+				Pour plus d'informations sur les certificats numériques, l'approbation des sites Web et le choix des paramètres de sécurité, consultez l'aide de Internet Explorer. Si vous souhaitez éviter l'affichage des avertissements lorsque vous utilisez Windows Update, vous pouvez modifier vos paramètres de sécurité mais nous vous le déconseillons. Si vous diminuez le niveau de sécurité associé à votre ordinateur, celui-ci sera davantage exposé aux virus et autres menaces de sécurité. 
+				</p>
+			</p>
+		
+			<p>
+				<b>Pourquoi ne puis-je pas afficher d'informations détaillées sur les mises à jour, d'informations sur l'historique des installations ou encore d'articles de résolution des problèmes ?</b><br>
+				Votre logiciel ou vos paramètres de blocage des fenêtres publicitaires intempestives ne vous autorisent pas à ouvrir de fenêtres de navigateur supplémentaires à partir des liens sur lesquels vous cliquez lors de la consultation d'un site Web. 
+				<p>
+				Pour modifier les paramètres de l'option Bloqueur de fenêtres publicitaires intempestives (disponible uniquement pour Internet Explorer 6 sur Windows XP SP2) :				
+				<ul style='margin-left:40px'> 
+					<li>Dans Internet Explorer, pointez sur <b>Bloqueur de fenêtres publicitaires intempestives</b> dans le menu <b>Outils</b> et choisissez <b>Paramètres du bloqueur de fenêtres publicitaires intempestives</b>.</li>
+					<li>Effectuez ensuite l'une des opérations suivantes :</li>
+					<ul style='margin-left:40px'>
+						<li>Pour autoriser les fenêtres publicitaires intempestives uniquement sur le site Windows Update, entrez (ou copiez et collez) cette URL : https://windowsupdate.microsoft.com sous <b>Adresse du site Web à autoriser</b> et cliquez sur <b>Ajouter</b>. </li>
+						<p>
+						<li>Pour autoriser l'ouverture de fenêtres de navigateur supplémentaires pour tous les sites Web sécurisés (https://), cliquez sur <b>Bas : autoriser les fenêtres publicitaires intempestives des sites sécurisés</b> dans <b>Niveau de filtre</b>.</li>
+					</ul>
+				</ul>
+				<p>
+				Si vous utilisez d'autres logiciels de blocage des fenêtres publicitaires intempestives, recherchez s'il est possible de modifier les paramètres associés aux liens sur lesquels vous cliquez à partir d'un site Web. Si tel n'est pas le cas, vous devrez peut-être autoriser les fenêtres publicitaires intempestives lors de l'utilisation de Windows Update. 
+
+			</p>
+		
+			<p>
+				<b>Que dois-je faire si je rencontre des problèmes lors de l'installation d'une mise à jour ?</b><br>
+				Consultez la page 
+		
+			<a  class="sys-link-normal" href="support.aspx?ln=fr" target="eContent">
+				Aide et support Windows Update
+		
+			</a>
+			 pour obtenir des informations sur ces options ou sur d'autres fonctionnalités :				
+				<ul style='margin-left:40px'> 
+					<li>
+		
+			<a  class="sys-link-normal" href="troubleshoot.aspx?ln=fr" target="eContent">
+				Utilitaire de résolution des problèmes de Windows Update
+		
+			</a>
+			</li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=25127' target='_blank' >Centre de support de Windows Update</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=9581' target='_blank' >Groupes de discussion de Windows Update</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21608' target='_blank' >Support assisté en ligne Microsoft</a> (gratuit pour les questions liées à Windows Update)</li>
+				</ul>
+			</p>
+		
+			<p>
+				<b>Je ne parviens pas à retrouver une mise à jour après avoir restauré les mises à jour masquées. Pourquoi ?</b><br>
+				Ce problème a été réglé par l'installation d'une autre mise à jour. Si vous installez un service pack ou un correctif cumulatif, par exemple, votre ordinateur ne devrait plus avoir besoin de la mise à jour qui a été masquée. 
+			</p>
+		
+			<p>
+				<b>Je ne parviens pas à installer certaines mises à jour en même temps que d'autres. Pourquoi ?</b><br>
+				Certaines mises à jour, telles que les service packs et les correctifs cumulatifs, comprennent plusieurs mises à jour ou concernent les mêmes problèmes. 
+				<p>
+					D'autres types de mises à jour nécessitent le redémarrage de l'ordinateur avant d'entrer en vigueur. Vous devez installer ces mises à jour séparément. Vous pouvez ensuite revenir à Windows Update afin de vérifier si d'autres mises à jour vous concernent. 
+				<p>
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='NWAD' >Informations sur les réseaux et informations avancées</a>
+			<p>
+				<b>Comment dois-je procéder pour mettre à jour plusieurs ordinateurs ?</b><br>
+				Si vous possédez un réseau familial ou un réseau de petite entreprise, vous devez mettre à jour chaque ordinateur séparément. 
+				<p>
+					Si vous êtes un administrateur de réseau, accédez aux 
+		
+			<a  class="sys-link-normal" href="administrators.aspx?ln=fr" target="eContent">
+				options Administrateur
+		
+			</a>
+			 pour obtenir des informations sur les services de mise à jour supplémentaires, tels que le Catalogue Windows Update et Windows Update Services.
+				<p>
+			</p>
+		
+			<p>
+				<b>Qu'est-ce que le Microsoft Baseline Security Analyzer (MBSA) ?</b><br>
+				MBSA est un outil qui analyse les ordinateurs Windows en réseau afin de déceler les éventuels problèmes de configuration et les mises à jour de sécurité manquantes. Il comprend une interface graphique et une interface de ligne de commande, et peut réaliser des analyses locales ou à distance. Cet outil permet également de générer un rapport de sécurité pour chacun des ordinateurs du réseau qu'il analyse. Pour plus d'informations, lisez la présentation <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27549' target='_blank' >Microsoft Baseline Security Analyzer</a> (en anglais). 
+			</p>
+		
+			<p>
+				<b>Qu'est ce que Windows Update Services ?</b><br>
+				Windows Update Services, précédemment appelé Software Update Services (SUS), fournit un composant de gestion des mises à jour destiné à la gamme Windows Server 2003. Ces services permettent d'analyser les paramètres de sécurité et d'établir des rapports pour tous les ordinateurs d'un réseau ou encore de synchroniser les mises à jour. Windows Update Services aide également à diminuer les risques et les coûts inhérents à la mise à jour des moyens et grands réseaux. Pour plus d'informations, consultez la section <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24462' target='_blank' >Windows Update Services</a> sur le site Windows Server System (en anglais). 
+			</p>
+		
+			<p>
+				<b>Quels types de mises à jour l'option Mises à jour automatiques, le site Windows Update et le produit Windows Update Services permettent-ils d'obtenir ?</b><br>
+		
+			<br>
+			<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+				<colgroup>
+					<col style='WIDTH: 20%;padding-left:15px'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+				</colgroup>
+				<tbody>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">&nbsp;</td>
+						<td class="FAQtd4">Mises à jour auto.</td>
+						<td class="FAQtd4" colspan="2">
+							Site Web Windows Update
+							<table class="sys-table-cell-bgcolor2 sys-toppane-color-border"cellpadding="0" cellpadding ="0" border="0">
+								<tr>
+									<td style='font-weight: bold;WIDTH: 50%;text-align: center'>
+										Installation rapide
+									</td>
+									<td style='font-weight: bold;BORDER-left: 1px solid;WIDTH: 50%;text-align: center'>
+										Installation personnalisée
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td class="FAQtd3">Windows Update Services*</td>
+					</tr>
+					<tr >
+						<td colspan="5"  class="FAQtd3"">Mises à jour prioritaires</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Mises à jour critiques</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Correctifs de sécurité</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Correctifs cumulatifs</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Service Packs</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td colspan="5"  class="FAQtd3">Mises à jour facultatives</td>
+					</tr>
+					<tr >
+						<td class="FAQtd1">Logiciels</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Matériel</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Logiciels bêta</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">Inscription préalable de l'utilisateur</td>
+						<td  class="FAQtd2">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<div><br>    *Les administrateurs réseau peuvent distribuer toutes les mises à jour ou certaines d'entre elles uniquement.</div>
+
+			<p>
+				<b>Puis-je obtenir des mises à jour supplémentaires ou des mises à jour non proposées par Windows Update ?</b><br>
+				Visitez les sites Web suivants :				
+				<ul style='margin-left:40px'> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21601' target='_blank' >Centre de téléchargement Microsoft</a><br> 
+					Ce site permet de télécharger des fichiers destinés aux produits Microsoft. Les téléchargements sont disponibles en 30 langues. </li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=8973' target='_blank' >Catalogue Windows Update</a><br>
+					Recherchez les mises à jour destinées aux serveurs et autres ordinateurs utilisant les systèmes d'exploitation Windows.</li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24459' target='_blank' >Microsoft Office Online</a><br>
+					Recherchez les mises à jour destinées à Microsoft Office System, versions 97, 98 et ultérieures. Vous pouvez notamment télécharger des modèles, des informations d'aide et des images clipart. </li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27098' target='_blank' >Support Premier Microsoft</a><br>
+					Découvrez les avantages offerts par le Support Premier. Vous pouvez notamment bénéficier de mises à jour supplémentaires ou encore de logiciels en version précommerciale.</li> 
+				</ul>
+			</p>
+		
+		</p>
+		
+	</div>
+	<iframe name='eReporting' src='blank.aspx' noresize height='0' width='0' style='DISPLAY:none'>
+</body>
+</html> </IFRAME> </BODY></HTML>

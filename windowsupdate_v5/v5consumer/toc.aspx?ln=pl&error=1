@@ -1,0 +1,64 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1250' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/toc.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/toc.css' />
+
+<script language ="javascript">
+	                var L_Toc_Critical_Text = "Przejrzyj aktualizacje o wysokim priorytecie";
+                var L_Toc_Beta_Text = "Wybierz opcjonalne aktualizacje beta";
+                var L_Toc_Hardware_Text = "Wybierz opcjonalne aktualizacje sprzętu";
+                var L_Toc_Software_Text = "Wybierz opcjonalne aktualizacje oprogramowania";
+                var L_Toc_CriticalUpdatesAlt_Text = "Przejrzyj listę aktualizacji o wysokim priorytecie i aktualizacji zabezpieczeń.";
+                var L_Toc_SoftwareUpdatesAlt_Text = "Przejrzyj listę opcjonalnych aktualizacji oprogramowania.";
+                var L_Toc_HardwareUpdatesAlt_Text = "Przejrzyj listę opcjonalnych aktualizacji sprzętu.";
+                var L_Toc_BetaUpdatesAlt_Text = "Przejrzyj listę opcjonalnych aktualizacji beta.";
+                var L_TocProductAlt_Text = "Przejrzyj listę aktualizacji następujących elementów";
+
+</script>
+</head>
+	<body class="toc sys-lhp-bgcolor"> 
+		<base target="eContent" />
+		<div id="eUserData"></div> 
+		<form name="ePostForm" id="ePostForm" method="post"><input name="ePostData" id="ePostData" type="hidden" /></form>
+		<table cellspacing="0" class="sys-toppane-bgcolor" >
+			<tbody>
+				<tr> 
+					<td style="height: 100%;"> 
+						<div class="sys-font-body toppane-body"> 
+
+							<a id="eBasketUpdates" title="Przejrzyj aktualizacje wybrane do zainstalowania i rozpocznij proces instalacji." class="sys-link-disabled"><img src="shared/images/icon_wu_installnow_16x.gif" style = "width : 16px; height: 16px;" />Zainstaluj aktualizacje<i></i></a><br />
+
+
+							<div class="subHeader sys-bottompane-header-color sys-font-body-bold">Inne opcje</div>
+
+
+							<a class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />Wyświetl historię instalacji</a><br />
+							<a class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />Ustawienia</a><br />
+							<a class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />Przywróć ukryte aktualizacje</a><br />
+
+
+							
+							<div id="eConsumerDiv3">
+								<a id="eAdmin" href="administrators.aspx?ln=pl" title="Przeczytaj informacje dla użytkowników zaawansowanych." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Opcje administratora</a><br />
+								<a id="eSupport" href="support.aspx?ln=pl" title="Dowiedz się, jak uzyskać pomoc techniczną online dotyczącą problemów związanych z witryną Windows Update lub zainstalowanych z niej elementów." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Pomoc i obsługa techniczna</a><br />
+								<a id="eAbout" href="about.aspx?ln=pl" title="Znajdź odpowiedzi na często zadawane pytania dotyczące rozszerzenia Windows Update." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Często zadawane pytania</a><br />
+								
+							</div>
+							<a id="eHardwareSupport" target="_blank" class="sys-link-normal" title="Przejdź do witryny pomocy technicznej producenta komputera."><img src="shared/images/toc_endnode.gif" />Pomoc techniczna do sprzętu</a>
+						</div>
+						
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

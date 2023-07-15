@@ -1,0 +1,158 @@
+
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<META http-equiv="Content-Type"  content="text/html;charset=windows-1252" />
+		<META http-equiv="MSThemeCompatible" content="Yes" />
+		<META NAME="DESCRIPTION" CONTENT="Récupérez les dernières mises à jour disponibles pour le système d'exploitation, les logiciels et les composants matériels de votre ordinateur. Windows Update analyse votre ordinateur et vous fournit une sélection de mises à jour adaptées à vos besoins."> 
+		<META NAME="MS.LOCALE" CONTENT="fr">
+		<META NAME="keywords" CONTENT="Windows Update; update; security; secure; up-to-date; download; driver; patch; fix; hotfix; QFE; bug; critical; high priority; service pack; Automatic Updates; Windows XP; Windows 2000; Windows Server 2003; WinXP; Win2k; Win2000; WS2k3; WS2003; .NET Server; SP">
+		<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+		<title>Microsoft Windows Update</title>
+		<object id="SusWebCtl" VIEWASTEXT></object>
+		<script language="javascript" type="text/javascript">
+			var curSite = 5;
+			var g_sDownForMaintenance2K = "";
+			var g_sDownForMaintenanceXP = "";
+			var g_sDownForMaintenance2003 = "";
+			var g_sDownForMaintenanceLonghorn = "";
+			var g_sUA = "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Wanadoo 6.0)".toLowerCase();
+					
+			
+		</script>
+		<script language="javascript" type="text/javascript" src="shared/js/tgar.js?22/03/2006 22:03:53"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/redirect.js?22/03/2006 22:03:53"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/commontop.js?22/03/2006 22:03:53"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/webcomtop.js?22/03/2006 22:03:53"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/spupdateids.js?22/03/2006 22:03:53"></script>
+		
+		 
+			<script language="javascript" type="text/javascript">
+				function fnSupressError(sMessage, sURL, sLine){ return true; }
+				window.onerror = fnSupressError ;
+			</script>
+		
+		<script language="javascript" type="text/javascript" defer="true">
+			var conQueryString = "ln=fr"; 
+			var conRTL = false;
+			var conDevServer = false;
+			var conCriticalUpdatesMode = false;
+			var conLangCode = "fr";
+			var conConsumerURL = "/v5consumer/";
+			var L_ScanForAvailableUpdates_Text = "Récupérer les mises à jour de programme";
+var L_ReloadingSiteText_Text = "L'ouverture du site Windows Update n'est pas terminée.\n			Pour patienter, cliquez sur OK.\n			Pour demander à Windows Update de réessayer d'ouvrir le site, cliquez sur Annuler.";
+var L_MB_Text = "Mo";
+var L_KB_Text = "Ko";
+var L_Hour_Text = "heure";
+var L_Hours_Text = "heures";
+var L_InstallTitle_Text = "Installation des mises à jour";
+var L_Minute_Text = "minute";
+var L_Minutes_Text = "minutes";
+var L_RListNoUpdatesToInstall_Text = "Aucune mise à jour à installer n'est sélectionnée.";
+var L_StatusSucceeded_Text = "Installée";
+var L_StatusFailed_Text = "Non installée";
+var L_StatusAborted_Text = "Annulée";
+var L_UpdateName_Text = "Nom de la mise à jour";
+var L_Status_Text = "État";
+var L_Date_Text = "Date";
+var L_Source_Text = "Source";
+var L_AutomaticUpdates_Text = "Mises à jour auto.";
+var L_WindowsUpdate_Text = "Site Web Windows Update";
+var L_ManagedServer_Text = "Site Web client Windows Update Services";
+var L_DynamicUpdate_Text = "Mises à jour dynamiques";
+var L_DeviceManager_Text = "Gestionnaire de périphériques";
+var L_OperationModeDownload_Text = "Téléchargement";
+var L_OperationModeCopying_Text = "Copie des fichiers";
+var L_OperationModeRegister_Text = "Inscription";
+var L_OtherSource_Text = "Autre source";
+var L_PersonalizationSaveSettingsPrompt_Text = "Vous avez modifié vos paramètres. Pour enregistrer les nouveaux paramètres maintenant, cliquez sur OK. Pour continuer sans les enregistrer, cliquez sur Annuler.";
+var L_Next_Text = "Suivant";
+var L_RListBasketUpdatesNotAvailableText_Text = "Aucune mise à jour n'est sélectionnée.";
+var L_NeedUserData_Text = "Vous avez besoin d'activer des données utilisateur pour cette fonctionnalité";
+var L_UserDataSaved_Text = "Vos paramètres ont été enregistrés.";
+var L_PersonalizationReloadSite_Text = "Vos paramètres de langue ont été enregistrés. Windows Update doit actualiser le site pour afficher le site dans la nouvelle langue. L'actualisation de l'affichage entraînera la réinitialisation de toutes les mises à jour sélectionnées. Voulez-vous effectuer cette opération maintenant ?";
+var L_Previous_Text = "Précédent";
+var L_ProxyTitle_Text = "Entrez les informations d'identification de proxy";
+var L_ExpressModeHidden_Text = "Windows Update et l'option Mises à jour automatiques permettent de masquer les mises à jour dont vous ne souhaitez plus bénéficier. La mise à jour demandée ici était masquée précédemment. Voulez-vous restaurer cette mise à jour afin de l'installer ?";
+var L_WerUpdateInstalled_Text = "La mise à jour demandée a déjà été installée. Cliquez sur OK pour installer d'autres mises à jour disponibles pour votre ordinateur.";
+var L_RListBetaDescription_Text = "Les mises à jour bêta suivantes sont disponibles pour votre ordinateur. Sélectionnez celles que vous voulez installer et cliquez sur le lien Installation des mises à jour.";
+var L_RListBetaTitle_Text = "Sélectionner les mises à jour bêta facultatives";
+var L_RListBetaWarning1_Text = "<b>Les logiciels bêta peuvent endommager votre ordinateur</b><br>";
+var L_RListBetaWarning2_Text = "Les logiciels en version précommerciale ou &laquo; bêta &raquo; ou les mises à jour de ces logiciels peuvent endommager votre ordinateur et font parfois l'objet d'un support technique restreint de la part Microsoft.";
+var L_RListClickForDescription_Text = "Cliquez ici pour afficher la description de cette mise à jour";
+var L_RListClickToHideDescription_Text = "Cliquez ici pour masquer la description de cette mise à jour";
+var L_RListCriticalUpdates_Text = "Mises à jour prioritaires";
+var L_RListCriticalUpdatesBar_Text = "Mises à jour prioritaires";
+var L_RListCriticalUpdatesTitle_Text = "Consulter les mises à jour prioritaires";
+var L_RListDeviceUnknown_Text = "Windows Update vous recommande d'installer cette mise à jour, car le périphérique auquel ce pilote s'applique ne semble être associé à aucun périphérique installé.";
+var L_RListDeviceDisabled_Text = "Windows Update vous recommande d'installer cette mise à jour, car le périphérique auquel ce pilote s'applique semble être désactivé.";
+var L_RListDeviceProblem_Text = "Windows Update vous recommande d'installer cette mise à jour, car le périphérique auquel ce pilote s'applique ne semble pas fonctionner correctement sur votre ordinateur.";
+var L_RListDownloadSize_Text = "Taille du téléchargement : ";
+var L_RListDownloadSizeTypical_Text = "Taille habituelle du téléchargement : ";
+var L_RListDriversDescription_Text = "Les mises à jour facultatives suivantes sont disponibles pour votre ordinateur. Sélectionnez les mises à jour à installer et cliquez sur le lien Installation des mises à jour.";
+var L_RListDriversTitle_Text = "Sélectionner les mises à jour de matériel facultatives";
+var L_RListHiddenTitle_Text = "Restaurer les mises à jour masquées";
+var L_RListHiddenUpdatesBar_Text = "Mise à jour masquées";
+var L_RListHideThisUpdate_Text = "Masquer cette mise à jour";
+var L_RListInfoGifAlt_Text = "Cette mise à jour a déjà été téléchargée sur votre ordinateur. Si cet élément est sélectionné, Windows Update procédera à son installation.";
+var L_RListItems_Text = "éléments";
+var L_RListLessThan_Text = "inférieur à";
+var L_RListNoUpdatesAvailable_Text = "Aucune mise jour disponible";
+var L_RListOptionalBetaUpdatesBar_Text = "Mises à jour bêta facultatives";
+var L_RListOptionalHardwareUpdatesBar_Text = "Mises à jour de matériel facultatives";
+var L_RListOptionalSoftwareUpdatesBar_Text = "Mises à jour de logiciels facultatives";
+var L_RListOptionalUpdates_Text = "Mises à jour facultatives";
+var L_RListOtherUpdates_Text = "Autres mises à jour";
+var L_RListOtherOptionalUpdates_Text = "Autres mises à jour facultatives";
+var L_RListOtherCriticalUpdates_Text = "Autres mises à jour prioritaires";
+var L_RListProductTitle_Text = "Sélectionner les mises à jour de logiciels facultatives";
+var L_RListReadMore_Text = "Détails...";
+var L_RListSingleInstallation_Text = "<b>L'installation d'une mise à jour indépendante a été sélectionnée </b><br/>Les mises à jour de cette page ne sont pas disponibles actuellement. L'installation d'une mise à jour indépendante a en effet été sélectionnée et il n'est pas possible d'installer ce type de mise à jour en même temps que d'autres mises à jour. Une fois l'installation terminée, vous pouvez revenir à Windows Update afin de sélectionner d'autres mises à jour pour votre ordinateur.";
+var L_RListSingleInstallationTitle_Text = "Installation indépendante : ";
+var L_RListUpdates_Text = "mises à jour";
+var L_RListHiddenCriticalPresent1_Text = "<b>Certaines mises à jour prioritaires sont masquées </b><br/>Microsoft vous recommande d'installer toutes les mises à jour prioritaires pour renforcer la sécurité de votre ordinateur. Pour installer les mises à jour qui ont été masquées, accédez à la page ";
+var L_RListHiddenCriticalPresent2_Text = "Restaurer les mises à jour masquées";
+var L_RListHiddenCriticalPresent3_Text = ".";
+var L_RListSelectall_Text = "Sélectionner tout";
+var L_RList100_Text = "Les mises à jour prioritaires sont indispensables et liées à la sécurité de votre ordinateur.";
+var L_RList101_Text = "Aucune mise à jour prioritaire à installer n'est sélectionnée. Microsoft vous recommande d'installer les mises à jour prioritaires pour maintenir votre ordinateur à jour et renforcer la sécurité de celui-ci. Pour découvrir les autres mises à jour que vous pouvez installer sur votre ordinateur, cliquez sur l'un des liens de mises à jour facultatives présentés sous le lien Accueil.";
+var L_RList102a_Text = "Microsoft vous recommande vivement d'installer les mises à jour prioritaires suivantes pour maintenir votre ordinateur à jour et vous aider à renforcer la sécurité de celui-ci.";
+var L_RList102b_Text = "<b>Les mises à jour indépendantes ne peuvent pas être installées en même temps que les autres mises à jour.</b> <br>Choisissez d'installer une mise à jour indépendante ou d'installer toutes les autres mises à jour prioritaires et cliquez sur le lien Installation des mises à jour. Une fois l'installation terminée, revenez à Windows Update pour installer les mises à jour restantes.";
+var L_RList103_Text = "Microsoft vous recommande vivement d'installer la mise à jour indépendante prioritaire suivante pour maintenir votre ordinateur à jour et renforcer la sécurité de celui-ci. Pour lancer l'opération, cliquez sur le lien Installation des mises à jour.";
+var L_RList104_Text = "Microsoft vous recommande vivement d'installer les mises à jour prioritaires suivantes pour maintenir votre ordinateur à jour et vous aider à renforcer la sécurité de celui-ci. Pour installer ces mises à jour, cliquez sur le lien Installation des mises à jour.";
+var L_RList105a_Text = "Microsoft vous recommande vivement d'installer les mises à jour prioritaires suivantes pour maintenir votre ordinateur à jour et vous aider à renforcer la sécurité de celui-ci.";
+var L_RList105b_Text = "<b>Les mises à jour indépendantes ne peuvent pas être installées en même temps que les autres mises à jour.</b> <br>Sélectionnez la mise à jour indépendante à installer et cliquez sur le lien Installation des mises à jour. Une fois l'installation terminée, revenez à Windows Update pour installer les mises à jour restantes.";
+var L_RList200_Text = "Les mises à jour facultatives sont des mises à jour non critiques que vous pouvez installer si vous le souhaitez.";
+var L_RList201_Text = "Aucune mise à jour facultative n'est disponible.";
+var L_RList202a_Text = "Les mises à jour facultatives suivantes sont disponibles pour votre ordinateur.";
+var L_RList202b_Text = "<b>Les mises à jour indépendantes ne peuvent pas être installées en même temps que les autres mises à jour.</b> <br>Choisissez d'installer une mise à jour indépendante ou d'installer d'autres mises à jour facultatives et cliquez sur le lien Installation des mises à jour. Une fois l'installation terminée, revenez à Windows Update pour installer les mises à jour restantes.";
+var L_RList203_Text = "La mise à jour facultative suivante est disponible pour votre ordinateur. Les mises à jour indépendantes ne peuvent pas être installées en même temps que les autres mises à jour. Sélectionnez les mises à jour à installer et cliquez sur le lien Installation des mises à jour. Une fois l'installation terminée, vous pouvez revenir à Windows Update afin de sélectionner d'autres mises à jour pour votre ordinateur.";
+var L_RList204_Text = "Les mises à jour facultatives suivantes sont disponibles pour votre ordinateur. Sélectionnez les mises à jour à installer et cliquez sur le lien Installation des mises à jour.";
+var L_RList205a_Text = "Les mises à jour facultatives suivantes sont disponibles pour votre ordinateur.";
+var L_RList205b_Text = "<b>Les mises à jour indépendantes ne peuvent pas être installées en même temps que les autres mises à jour.</b> <br>Sélectionnez la mise à jour indépendante à installer et cliquez sur le lien Installation des mises à jour. Une fois l'installation terminée, revenez à Windows Update pour installer les mises à jour restantes.";
+var L_RList300_Text = "Cette page fournit la liste des mises à jour à installer qui sont sélectionnées.";
+var L_RList301_Text = "Aucune mise à jour à installer n'est sélectionnée actuellement. Pour découvrir les mises à jour disponibles pour votre ordinateur, cliquez l'un des liens de mise à jour prioritaire ou facultative figurant sous le lien Accueil.";
+var L_RList302_Text = "Microsoft vous recommande vivement d'installer les mises à jour prioritaires suivantes pour maintenir votre ordinateur à jour et vous aider à renforcer la sécurité de celui-ci. Pour lancer l'installation de ces mises à jour, cliquez sur Installer.";
+var L_RList303_Text = "Pour installer les mises à jour facultatives suivantes, cliquez sur Installer.";
+var L_RList304_Text = "Microsoft vous recommande d'installer les mises à jour prioritaires et facultatives suivantes pour maintenir votre ordinateur à jour et renforcer la sécurité de celui-ci. Pour lancer l'installation de ces mises à jour, cliquez sur Installer.";
+var L_RList400_Text = "Les mises à jour masquées sont celles qui ont été supprimées de la liste des mises à jour disponibles.";
+var L_RList401_Text = "Aucune mise à jour n'est masquée. Pour masquer une mise à jour, cliquez sur son titre et activez la case à cocher Masquer cette mise à jour.";
+var L_RList402_Text = "<P><b>Les mises à jour indépendantes ne peuvent pas être installées en même temps que les autres mises à jour.</b><br> Sélectionnez la mise à jour indépendante à installer et cliquez sur le lien Installation des mises à jour. Une fois l'installation terminée, revenez à Windows Update pour installer les mises à jour restantes.";
+var L_RList403_Text = "<P><b>Les mises à jour indépendantes ne peuvent pas être installées en même temps que les autres mises à jour.</b><br> Sélectionnez la mise à jour indépendante à installer et cliquez sur le lien Installation des mises à jour. Une fois l'installation terminée, revenez à Windows Update pour installer les mises à jour restantes.";
+var L_RList404_Text = "Pour installer une mise à jour masquée, activez la case à cocher qui lui est associée et cliquez sur le lien Installation des mises à jour.";
+var L_RList405_Text = "<P><b>Les mises à jour indépendantes ne peuvent pas être installées en même temps que les autres mises à jour.</b><br> Choisissez d'installer une mise à jour indépendante ou d'installer d'autres mises à jour et cliquez sur le lien Installation des mises à jour. Une fois l'installation terminée, revenez à Windows Update pour installer les mises à jour restantes.";
+var L_RList500_Text = "L'installation rapide permet de télécharger et d'installer rapidement les mises à jour critiques et de sécurité dont votre ordinateur a besoin.";
+var L_RList501_Text = "Microsoft vous recommande vivement d'installer les mises à jour prioritaires suivantes pour maintenir votre ordinateur à jour et vous aider à renforcer la sécurité de celui-ci. Pour lancer l'installation de ces mises à jour, cliquez sur Installer.";
+var L_RList502_Text = "Votre ordinateur semble à jour ; aucune mise à jour critique ou de sécurité n'est disponible actuellement. Pour afficher les mises à jour facultatives disponibles pour votre ordinateur, cliquez sur le lien Accueil, puis sur Installation personnalisée. Windows Update recherchera automatiquement les éventuelles mises à jour facultatives que vous pouvez installer. Vous pouvez vérifier la liste de ces mises à jour avant de les télécharger.";
+var L_RList600_Text = "Les mises à jour proposées sur cette page sont au stade bêta ou s'appliquent à des logiciels bêta présents sur votre ordinateur.";
+var L_RList700_Text = "Cette page contient des mises à jour de pilotes…";
+var g_sControlVersion = '3790.2182';
+
+		</script>
+	</head>
+	<noscript>
+		<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=fr&error=1' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=fr&error=1' /><frame name='eContent'  src='errorinformation.aspx?ln=fr&error=1' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=fr&error=1' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+	</noscript>
+	<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=fr' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=fr' /><frame name='eContent'  src='splash.aspx?page=0&ln=fr' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=fr' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+</html>

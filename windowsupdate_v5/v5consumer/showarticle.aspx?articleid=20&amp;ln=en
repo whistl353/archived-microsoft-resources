@@ -1,0 +1,117 @@
+<script language='JScript' type='text/javascript'>
+ var sArticleId = 20;
+var sTimeAtTarget = '02/06/2006';
+var sOSLocale =  'en';
+</script><html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+
+<script language="JScript" type="text/javascript" src="shared/js/troubleshooter.js"></script>		
+
+	</HEAD>
+	<body>
+
+	<table height=100%>
+		<tr valign=top>
+			<td>	
+				<div align=right>
+					<a class="sys-link-normal" href="javascript:window.print();">Print</a> | <a class="sys-link-normal" href="javascript:window.close();" id="closelink">Close</a>
+				</div>
+				<form name="Form1" method="post" action="showarticle.aspx?articleid=20&amp;amp;ln=en" id="Form1">
+<input type="hidden" name="__VIEWSTATE" value="dDw2NjgyNzYyNzs7Pg==" />
+
+					<span id="problemtitle" style="FONT-SIZE:120%">When searching for available updates on the Windows Update site, you receive the 0x800A0046 error.</span>
+					<br>
+					<br>
+					<span id="problemtext"><b>Problem description</b><br><br>This error can occur if the user logon account is part of the Guests account or a limited-user acount, if the security descriptor does not allow have the Authenticated Users to run Windows Update, or if the Impersonate a client after authentication policy is missing Service and Administrators from the Users and Groups list.</span>
+					<br>
+					<br>
+					<span id="operatingsystems"><b>Applicable operating systems</b><br><br><UL><LI>Windows 2000</LI><br><LI>Windows XP</LI><br><LI>Windows Server 2003</LI><br></UL></span>
+					<br>
+					<br>
+					<table id="resolutions" border="0">
+	<tr>
+		<td><b>Resolutions</b></td>
+	</tr><tr>
+		<td><div style='margin-bottom:-30px;'>1. Set the Security Descriptor
+<ol style='margin-left:30px'><li>Click <b>Start</b>.</li>
+<li>Choose <b>Run</b>.</li>
+<li>In the <b>Run</b> box, type <b>cmd</b>. </li>
+<li>Click <b>OK</b>.</li>
+<li>At the command prompt, type <b>sc sdset wuauserv  D:(A;;CCLCSWRPWPDTLOCRRC;;;SY)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)(A;;CCLCSWLOCRRC;;;AU)(A;;CCLCSWRPWPDTLOCRRC;;;PU)</b></li>
+<li>Press <b>Enter</b>; you should receive a <b>Success</b> message. </li>
+<li>At the command prompt, type <b>Exit</b> to close the command prompt window.</li>
+<li>Try Windows Update again.</li></ol> <br><br>Did this resolve your problem?</div><br></td>
+	</tr><tr>
+		<td><INPUT type=button style='width:100;padding-top:-20px' value='Yes' id='btnYes120' onclick='fnPingback(&quot;yes&quot;,120)'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT type='button' style='width:100;padding-top:-20px' value='No' id='btnNo120' onclick='fnPingback(&quot;no&quot;,120)'><br><br></td>
+	</tr><tr>
+		<td><div style='margin-bottom:-30px;'>2. Please remove the user account experiencing difficulty from the Guests or Limited user account
+<ol style='margin-left:30px'><li>Click <b>Start</b>.</li>
+<li>Click <b>Settings</b>.</li>
+<li>Click <b>Control Panel</b>.</li>
+<li>Select <b>Administrative Tools</b>.</li>
+<li>Choose C<b>omputer Management</b>.</li>
+<li>Expand <b>Local Users and Groups</b>.</li>
+<li>Select <b>Users</b>.</li>
+<li>Open the account used to access Windows Update.</li>
+<li>Click the <b>Member Of</b> tab.</li>
+<li>Highlight the user account you want to remove and click <b>Remove</b>.</li></ol><br><br>Did this resolve your problem?</div><br></td>
+	</tr><tr>
+		<td><INPUT type=button style='width:100;padding-top:-20px' value='Yes' id='btnYes121' onclick='fnPingback(&quot;yes&quot;,121)'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT type='button' style='width:100;padding-top:-20px' value='No' id='btnNo121' onclick='fnPingback(&quot;no&quot;,121)'><br><br></td>
+	</tr><tr>
+		<td><div style='margin-bottom:-30px;'>3. Verify the Local Administrator and Service account are added to the &quot;Impersonate a client after authentication&quot; security policy.
+<ol style='margin-left:30px'><li>Click <b>Start</b>.</li>
+<li>Point to <b>Programs</b>.</li>
+<li>Point to <b>Administrative Tools</b>.</li>
+<li>Choose <b>Local Security Policy</b>.</li>
+<li>Expand <b>Local Policies</b>.</li>
+<li>Choose <b>User Rights Assignment</b>.</li>
+<li>Double-click to open the <b>Impersonate a client after authentication policy</b>.</li>
+<li>On the Local Security Setting tab, add the <b>Service</b> and <b>Administrator</b> to the list of Users and Groups. </li>
+<li>Click <b>OK</b>.</li>
+<li>Restart the system.</li></ol> <br><br>Did this resolve your problem?</div><br></td>
+	</tr><tr>
+		<td><INPUT type=button style='width:100;padding-top:-20px' value='Yes' id='btnYes122' onclick='fnPingback(&quot;yes&quot;,122)'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT type='button' style='width:100;padding-top:-20px' value='No' id='btnNo122' onclick='fnPingback(&quot;no&quot;,122)'><br><br></td>
+	</tr><tr>
+		<td><div style='margin-bottom:-30px;'>4. Enable Userdata Persistence in Internet Explorer
+<ol style='margin-left:30px'><li>Start <b>Internet Explorer</b>.</li>
+<li>On the <b>Tools</b> menu, click <b>Internet Options</b>.</li>
+<li>Select the <b>Security</b> tab.</li>
+<li>Select the <b>Internet</b> Web zone icon.</li>
+<li>To adjust the security level, click <b>Custom Level</b>.</li>
+<li>Under <b>Miscellaneous</b> enable <b>Userdata persistence</b>.</li>
+<li>The <b>Are you sure you want to change the security settings for this zone</b> dialog box opens.</li>
+<li>Click <b>Yes</b>.</li>
+<li>Click <b>OK</b>.</li>
+<li>Try Windows Update again.</li></ol><br><br>Did this resolve your problem?</div><br></td>
+	</tr><tr>
+		<td><INPUT type=button style='width:100;padding-top:-20px' value='Yes' id='btnYes123' onclick='fnPingback(&quot;yes&quot;,123)'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT type='button' style='width:100;padding-top:-20px' value='No' id='btnNo123' onclick='fnPingback(&quot;no&quot;,123)'><br><br></td>
+	</tr>
+</table>
+					<br>
+					<br>
+					<span id="KBArticleText"></span>
+					<br>
+				</form>
+				<br>
+				</div>	
+			</td>
+		</tr>	
+		<tr HEIGHT="20">
+			<td>Your answer is anonymous and  is used to help improve content on this site.</td>		
+		</tr>		
+	</table>	
+		<IFRAME ID="pingback2" src="blank.aspx" HEIGHT=0 WIDTH=0></IFRAME> 
+	</body>
+</HTML>

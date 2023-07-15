@@ -1,0 +1,18 @@
+//Copyright (c) Microsoft Corporation.  All rights reserved.
+var g_bSPDetectOn = true; // turn SP detection  
+var spUpdateIds = new Array();
+fnInitSPArray();
+
+function fnInitSPArray(){
+	
+	if (g_bSPDetectOn){
+		spUpdateIds[0] = "fc39f252-6c1e-40be-a633-22729fc2eba7"; // 2126
+		spUpdateIds[0] = "fc420a3e-f41f-4d17-b0d5-907558d01884"; // 2138
+		spUpdateIds[0] = "7fa06f56-db87-42b3-9bd7-af43a3461298"; // 2142
+		spUpdateIds[0] = "f451709f-d402-4e32-96cc-7ae0c61c6111"; // 2149
+		spUpdateIds[0] = "f4a2d888-d280-4b23-a64f-16259ef7973f"; // 2174
+	}
+	else {
+		spUpdateIds.length = 0 ;
+	}	
+}	

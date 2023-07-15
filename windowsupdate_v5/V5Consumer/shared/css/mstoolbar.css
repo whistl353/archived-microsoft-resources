@@ -1,0 +1,126 @@
+body {
+	color: white;
+	background-color: #6487DC;
+	font-family: Verdana;
+	overflow: hidden;
+	cursor: default;
+	margin: 0px;
+}
+
+body, td {
+	font-size: 62.5%;
+}
+
+a img {
+	border-width: 0px;
+}
+
+table#eToolbar {
+	width: 100%;
+	table-layout: fixed;
+}
+
+table#eToolbar td {
+	padding: 0px;
+	vertical-align: top;
+}
+
+table#eToolbar a {
+	color: white;
+	text-decoration: none;
+}
+
+table#eToolbar a:hover {
+	color: #AEB2FE;
+}
+
+td#eICPBanner {
+	width: 337px;
+	height: 60px;
+}
+
+td#eICPBanner img {
+	width: 337px;
+	height: 60px;
+}
+
+div#eMSCBanner {
+	position: absolute;
+	right: 20px; /* rtl */
+	top: 30px;
+}
+
+div#eMSCBanner img {
+	margin: 0px;
+	width: 87px;
+	height: 15px;
+}
+
+/* MENUS */
+
+div#eMSMenuPane {
+	height: 20px;
+	float: right; /* rtl */
+}
+
+div#eMSMenuPane img { /* rtl */
+	width: 17px;
+	height: 17px;
+	vertical-align: top;
+}
+
+span#eMenus {
+	height: 20px;
+	background-color: black;
+	line-height: 20px;
+	padding: 0px 12px 0px 6px; /* rtl */
+}
+
+/* MENUS */
+/* SUB MENUS */
+
+div#eSubMenus div {
+	visibility: hidden;
+	position: absolute;
+	width: auto;
+	background-color: black;
+	z-index: 9;
+	border-top: 1px solid white;
+	padding: 2px 20px 6px 4px; /* rtl */
+}
+
+/* SUB MENUS */
+/* ICP BAR */
+
+div.icpBar {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 20px;
+	padding: 0px 0px 0px 15px; /* rtl */
+}
+
+div.icpBar a {
+	line-height: 20px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+div.icpBar a:hover {
+	color: #AEB2FE;
+}
+
+/* ICP BAR */
+
+div.tmp {
+	position: absolute;
+	color: white;
+	font-weight: bold;
+	margin: -4px 0px 0px 0px;
+	right: 10px; /* rtl */
+}
+
+div.tmp input {
+	margin: 0px 0px -1px 0px;
+}

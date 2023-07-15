@@ -1,0 +1,66 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+<script language="javascript" type="text/javascript" src="shared/js/itemdetails.js"></script> 
+<script language ="javascript">
+	var L_DataNotAvailable_Text = "Ikke angivet.";
+	var L_PublishedDate_Text = "Dato for sidste udgivelse:";
+	var L_RecommendedCPU_Text = "Anbefalet CPU";
+	var L_RecommendedMemory_Text = "Anbefalet hukommelse";
+	var L_RecommendedSpace_Text = "Anbefalet harddiskplads"; 
+	var L_HowToUnInstall_Text = "Sådan foregår fjernelse";
+	var L_SupportInformation_Text = "Hjælp og support";
+	var L_Web_Text = "web";
+	var L_MoreInformation_Text = "Yderligere oplysninger";
+	var L_RListDownloadSizeTypical_Text = "Typisk overførselsstørrelse: ";
+	var L_RListDownloadSize_Text = "Overførselsstørrelse: ";
+	var L_SystemRequirements_Text = "Systemkrav";
+	var L_RecommendedCPU_Text = "Anbefalet CPU";
+	var L_RecommendedMemory_Text = "Anbefalet hukommelse";
+	var L_RecommendedSpace_Text = "Anbefalet harddiskplads";
+	var L_DataNotAvailable_Text = "Ikke angivet.";
+	var L_HowToUnInstall_Text = "Sådan foregår fjernelse";
+	var L_SupportInformation_Text = "Hjælp og support";
+	var L_Web_Text = "web";
+	var L_MoreInformation_Text = "Yderligere oplysninger";
+	var L_DateFormat_Text = "%DD-%MM-%YYYY";
+	
+	var ipage = 1;
+	var index = 0;
+	var userlang = "da" ;
+	
+	function window.onload(){ 
+		window.focus();
+		writeDetails();
+	}
+	function fnLinkToTshooter(){
+		window.opener.parent.eContent.location.href = "troubleshoot.aspx?ln=" + userlang;
+	
+	}
+</script>
+</head>
+  <body MS_POSITIONING="GridLayout" >
+	<div id="details"></div>
+	 <table border =0 > 
+		<tbody id="DetailsTable">
+		 
+		</tbody>
+		<tr>
+		<td  align=right>
+		<a class="sys-link-normal" href="javascript:window.print();">Udskriv</a> | <a class="sys-link-normal" href="javascript:window.close();">Luk</a>
+		</td> 
+		</tr>
+    </table>
+  </body>
+</html>

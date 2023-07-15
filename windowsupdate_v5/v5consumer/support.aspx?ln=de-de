@@ -1,0 +1,55 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+	</head>
+	<body onload="fnInit(6, -1);">
+		<span class="sys-font-heading3 sys-rhp-color-title">Hilfe und Support zur Verwendung von Windows Update</span><br />
+		<br>
+		<div class="8pt">
+			<a name="SolveProblems"><b>Versuchen Sie die Selbsthilfe</b></a><br /><br />
+			<div style = "margin-left : 40">
+				<a href="about.aspx?ln=de" target="eContent" class="sys-link-normal"> Lesen Sie die häufig gestellten Fragen zu Windows Update				
+		</a>
+				 <br> Hier finden Sie Antworten auf häufig gestellte Fragen zur Verwendung der Windows Update-Website, zur Problembehandlung, zum Aktualisieren von Netzwerken und viele andere Informationen.
+		
+				<br> <br><a href="troubleshoot.aspx?ln=de" target="eContent" class="sys-link-normal">Besuchen Sie die Windows Update-Problembehandlung
+		</a>
+				<br>Hier finden Sie schrittweise Lösungsansätze, wenn Sie nach der Fehlerbeschreibung oder -nummer suchen, die in jeder Fehlermeldung von Windows Update angezeigt wird.
+		
+				<br> <br><a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=9581' target='_blank' >Besuchen Sie die Microsoft-Newsgroups</a><br>
+				Hier finden Sie heraus, ob jemand anders eine Lösung für Ihr Problem gefunden hat. Außerdem können Sie Ihr Problem beschreiben und Hilfe von anderen Benutzern anfordern. (Einige Diskussionen werden nur in englischer Sprache geführt.)
+		
+			</div>
+			<br><br>
+			<a name="Assistance"><b>Fordern Sie Hilfe an</b></a><br /><br />
+			<div style = "margin-left : 40">
+				 <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=25127' target='_blank'>Besuchen Sie das Windows Update-Supportcenter</a><br>
+				Hier finden Sie Links zu Knowledge Base-Artikeln (KB) und anderen Ressourcen, einschließlich E-Mail-, Online- und Telefonsupport. (In bestimmten Fällen können Gebühren anfallen.) Wenn Informationen nur in englischer Sprache zur Verfügung stehen, können Sie weitergehende Hilfe von Microsoft in <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=27099' target='_blank' >Ihrem Land oder Ihrer Region</a> anfordern.
+		
+				<br><br> <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=21608' target='_blank'>Senden Sie einen Problembericht</a><br>
+				Wenn Sie ein Problem mit den oben genannten Optionen nicht lösen können, füllen Sie einen Onlinebericht aus und informieren unsere Supportmitarbeiter über Ihre gewünschte Kommunikationsmethode. Wenn das Formular in Ihrem Land oder Ihrer Region nicht zur Verfügung steht, fordern Sie Support <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=27099' target='_blank' >per Telefon</a> an.
+						 
+			</div>
+			<br><br>
+			<hr style="color:#cccccc;height:3px">
+			<br><br>
+			<a name="Beta"><b>Support für Vorabversionssoftware (Betasoftware)</b></a><br /><br />
+			<div style = "margin-left : 40">
+				Support für Vorabversionssoftware ist abhängig vom Produkt verfügbar. Sie sollten die Informationen zu Vorabversionssoftware oder Updates unbedingt lesen, bevor Sie diese installieren.
+		
+			</div>
+		</div>
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' /> 
+	</body>
+</html>

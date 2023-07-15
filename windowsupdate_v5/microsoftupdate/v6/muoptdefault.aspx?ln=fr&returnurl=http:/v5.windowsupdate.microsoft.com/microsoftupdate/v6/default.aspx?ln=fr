@@ -1,0 +1,45 @@
+
+
+<html dir="ltr">
+	<head>
+		<META http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<META http-equiv="Content-Type"  content="text/html;charset=windows-1252" />
+		<META http-equiv="MSThemeCompatible" content="Yes" />
+		<META NAME="DESCRIPTION" CONTENT="Récupérez les dernières mises à jour disponibles pour le système d'exploitation, les logiciels et les composants matériels de votre ordinateur. Nous analyserons votre ordinateur et vous fournirons une sélection de mises à jour adaptées à vos besoins."> 
+		<META NAME="MS.LOCALE" CONTENT="fr">
+		<META name='ROBOTS' content='NOINDEX'>
+		<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+		<title>Microsoft Update</title>
+		<object id="SusWebCtl" VIEWASTEXT></object>
+		
+		<script language="javascript" type="text/javascript" src="shared/js/tgar.js?633418222724189890"></script>
+		<script language="javascript" type="text/javascript">
+var g_bMUSite = false;
+var curSite = "6LiveWWW";
+var g_sDownForMaintenance2K = "";
+var g_sDownForMaintenanceXP = "";
+var g_sDownForMaintenance2003 = "";
+var g_sDownForMaintenanceLonghorn = "";
+var g_sUA = "ia_archiver";
+var conLangCode = "fr";
+</script>
+<script language="javascript" type="text/javascript" src="shared/js/redirect.js?633418222724189890"></script>
+
+		<script language="javascript" type="text/javascript" src="shared/js/muopt.js?633418222724189890"></script>
+		<script language="javascript" type="text/javascript">
+			var conQueryString = "rawurl=http://v5.windowsupdate.microsoft.com/microsoftupdate/v6/default.aspx?ln=fr&amp;ln=fr"; 
+			conQueryString = conQueryString.replace("&amp;","&");
+			conQueryString = conQueryString.replace("|@|","&"); 
+			var conRTL = false;
+			var conURL = "/microsoftupdate/v6/";  
+			var g_bMUOpt = true;
+			//window.setTimeout("fnDoReporting('" + window.location.pathname + "')",1000);
+			var g_sReturnUrl = "http://v5.windowsupdate.microsoft.com/microsoftupdate/v6/default.aspx?ln=fr";
+var g_sSelfupdateUrl = "http://www.update.microsoft.com/windowsupdate/v6/selfupdate.aspx";
+var g_sMUOpt = "0";
+						
+			var g_sMUControlVersion = "7.0.6000.381"
+		</script>
+	</head>
+	<frameset rows='92, *, 60' border='0'><frame name='eToolbar' src='mstoolbar.aspx?rawurl=http://v5.windowsupdate.microsoft.com/microsoftupdate/v6/default.aspx?ln=fr&ln=fr' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='*,0' framespacing='0'><frame name='eContent' src='muopt.aspx?rawurl=http://v5.windowsupdate.microsoft.com/microsoftupdate/v6/default.aspx?ln=fr&ln=fr' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?rawurl=http://v5.windowsupdate.microsoft.com/microsoftupdate/v6/default.aspx?ln=fr&ln=fr' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+</html>

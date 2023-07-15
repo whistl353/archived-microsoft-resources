@@ -1,0 +1,273 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1250' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<link rel='shortcut icon' href='shared/images/banners/favicon.ico' type='image/x-icon'/>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='javascript' type='text/javascript'>
+window.onerror = new Function('Message' ,'sURL' ,'sLine' , 'return true;')
+</script>
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js?633275913217043724'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js?633275913217043724'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+<style type='text/css'>button {padding: 0px 14px 1px 14px;width: 80px;height: 21px;overflow: visible;line-height: 15px;cursor: default;}</style>
+<script language="JScript" type="text/javascript" src="shared/js/troubleshooter.js?633275913217043724"></script>
+<script language="JScript" type="text/javascript">
+
+	var sUserLang = parent.conLangCode;
+	var iArticlesPerPage = 10;
+	var sContentWindow = new Array(iArticlesPerPage);
+	var iWindowCounter = 0;
+	var iDivCountJs = 2;
+	var sPingBackUrl = "http://stats.update.microsoft.com/v5sitereporting/report.aspx";
+	var iCurrentDiv = 1;
+	var bIsMu = "False";
+	var iArticleCount = 16;
+	var iPrevDiv = 0;
+
+		
+	function fnProblemHeaderClicked(articleId){
+		sContentWindow[iWindowCounter++] = window.open('showarticle.aspx?articleid=' + articleId + '&ln=' + sUserLang + '&IsMu=' + bIsMu,"window" + articleId,"directories=no,width=650,height=500,location=no,menubar=no,status=no,toolbar=no,resizable=yes,scrollbars=yes,top = 100,left = 100");
+		if (iWindowCounter > 10){
+			sContentWindow = sContentWindow.concat(iWindowCounter);
+		}
+	}
+	function fnClearText () { 
+		if (TroubleshooterForm.TextBoxSearch.value == "Zde zadejte klíčové slovo:"){
+			TroubleshooterForm.TextBoxSearch.value = "";
+		}
+	}
+	function fnPurify(){
+		var inputstring;
+		inputstring = TroubleshooterForm.TextBoxSearch.value
+		while(inputstring.indexOf("<") != -1 ){
+			inputstring = inputstring.replace(/</,"");
+		}
+		while(inputstring.indexOf(">") != -1){
+			inputstring = inputstring.replace(/>/,"");
+		}
+		if (inputstring != TroubleshooterForm.TextBoxSearch.value) {
+			TroubleshooterForm.TextBoxSearch.value = inputstring;
+		}
+	}
+	
+	function fnunload(){
+		for (var i = 0; i < iWindowCounter; i++)
+		{
+			sContentWindow[i].close();
+		}
+	}
+	function fnShowOtherIssues(iCurrentDiv){
+		//iCurrentDiv = the page number that was clicked on, what the user wants to see
+		//iDivCountJs = total number of pages
+		//iPrevDiv = set to page previously shown
+
+		// hide all of the divs
+		for(var a = 1; a < iDivCountJs + 1; a++)
+		{
+			document.all["divMainIssuesContents" + a].style.display="none";
+		}
+		// show the desired div	
+		document.all["divMainIssuesContents" + iCurrentDiv].style.display="block";
+
+		// build whole set of anchor tags anew:
+		// if we are showing the end page, include the final page count, otherwise show the full values
+		if (iCurrentDiv + 1 >= iDivCountJs )
+		{
+			// if we're at the first page
+			if (iCurrentDiv ==1){
+				LabelMainIssuesPages.innerHTML  =((iCurrentDiv * iArticlesPerPage) - (iArticlesPerPage - 1)) + "-" + (iCurrentDiv * iArticlesPerPage) + "&nbsp" +
+											"&nbsp;<a href='javascript:fnShowOtherIssues(" + (iCurrentDiv + 1) + ")'  class='sys-link-normal'>" + (((iCurrentDiv + 1) * iArticlesPerPage) - (iArticlesPerPage - 1)) + "-" + ((iCurrentDiv + 1) * iArticlesPerPage) + "</a>&nbsp;" +    
+											"&nbsp;<a href='javascript:fnShowOtherIssues(2)'  class='sys-link-normal'>Další&gt;&gt;</a>"
+			}
+			// if we're at the last page
+			if (iCurrentDiv == iDivCountJs){
+				LabelMainIssuesPages.innerHTML  = "<a  href='javascript:fnShowOtherIssues(" + (iCurrentDiv - 1) + ")' class='sys-link-normal'>&lt;&lt;Předchozí</a>&nbsp;" +
+												"&nbsp;<a href='javascript:fnShowOtherIssues(" + (iCurrentDiv - 1) + ")'  class='sys-link-normal'>" + (((iCurrentDiv - 1) * iArticlesPerPage) - (iArticlesPerPage - 1)) + "-" + ((iCurrentDiv - 1) * iArticlesPerPage) + "</a>&nbsp;" +
+												"&nbsp;" + ((iCurrentDiv * iArticlesPerPage)-(iArticlesPerPage - 1)) + "-" + iArticleCount + "&nbsp";
+			}
+			// if we're in the middle	
+			if (iCurrentDiv != 1 && iCurrentDiv != iDivCountJs){
+				if(iCurrentDiv + 1 <= iDivCountJs){
+					LabelMainIssuesPages.innerHTML  = "<a  href='javascript:fnShowOtherIssues(" + (iCurrentDiv - 1) + ")' class='sys-link-normal'>&lt;&lt;Předchozí</a>&nbsp;" +
+												"&nbsp;" + ((iCurrentDiv * iArticlesPerPage)-(iArticlesPerPage - 1)) + "-" + (iCurrentDiv * iArticlesPerPage) + "&nbsp" +
+												"&nbsp;<a href='javascript:fnShowOtherIssues(" + (iCurrentDiv + 1) + ")'  class='sys-link-normal'>" + (((iCurrentDiv + 1) * iArticlesPerPage) - (iArticlesPerPage - 1)) + "-" + iArticleCount + "</a>&nbsp;" +
+												"&nbsp;<a href='javascript:fnShowOtherIssues(" + (iCurrentDiv + 1) + ")'  class='sys-link-normal'>Další&gt;&gt;</a>"
+				}
+				else
+				{
+					LabelMainIssuesPages.innerHTML  = "<a  href='javascript:fnShowOtherIssues(" + (iCurrentDiv - 1) + ")' class='sys-link-normal'>&lt;&lt;Předchozí</a>&nbsp;" +
+												"&nbsp;<a href='javascript:fnShowOtherIssues(" + (iCurrentDiv - 1) + ")'  class='sys-link-normal'>" + (((iCurrentDiv - 1) * iArticlesPerPage) - (iArticlesPerPage - 1)) + "-" + ((iCurrentDiv - 1) * iArticlesPerPage) + "</a>&nbsp;" +
+												"&nbsp;" + ((iCurrentDiv * iArticlesPerPage)-(iArticlesPerPage - 1)) + "-" + (iCurrentDiv * iArticlesPerPage) + "&nbsp" +
+												"&nbsp;<a href='javascript:fnShowOtherIssues(" + (iCurrentDiv + 1) + ")'  class='sys-link-normal'>Další&gt;&gt;</a>"
+				}
+			}
+		}
+ 		else
+		{	// not showing the end page
+			// if we're at the first page
+			if (iCurrentDiv ==1){
+				LabelMainIssuesPages.innerHTML  =((iCurrentDiv * iArticlesPerPage)-(iArticlesPerPage - 1)) + "-" + (iCurrentDiv * iArticlesPerPage) + "&nbsp" +
+											"&nbsp;<a href='javascript:fnShowOtherIssues(" + (iCurrentDiv + 1) + ")'  class='sys-link-normal'>" + (((iCurrentDiv + 1) * iArticlesPerPage) - (iArticlesPerPage - 1)) + "-" + ((iCurrentDiv + 1)*iArticlesPerPage) + "</a>&nbsp;" +    
+											"&nbsp;<a href='javascript:fnShowOtherIssues(2)'  class='sys-link-normal'>Další&gt;&gt;</a>"
+			}
+			// if we're at the last page
+			if (iCurrentDiv == iDivCountJs){
+				LabelMainIssuesPages.innerHTML  = "<a  href='javascript:fnShowOtherIssues(" + (iCurrentDiv - 1) + ")' class='sys-link-normal'>&lt;&lt;Předchozí</a>&nbsp;" +
+												"&nbsp;<a href='javascript:fnShowOtherIssues(" + (iCurrentDiv - 1) + ")'  class='sys-link-normal'>" + (((iCurrentDiv - 1) * iArticlesPerPage) - (iArticlesPerPage - 1)) + "-" + ((iCurrentDiv - 1)*iArticlesPerPage) + "</a>&nbsp;" +
+												"&nbsp;" + ((iCurrentDiv * iArticlesPerPage)-(iArticlesPerPage - 1)) + "-" + (iCurrentDiv * iArticlesPerPage) + "&nbsp";
+			}
+			// if we're in the middle	
+			if (iCurrentDiv != 1 && iCurrentDiv != iDivCountJs){
+				
+				if (iCurrentDiv > iPrevDiv)
+				{
+					LabelMainIssuesPages.innerHTML  = "<a  href='javascript:fnShowOtherIssues(" + (iCurrentDiv - 1) + ")' class='sys-link-normal'>&lt;&lt;Předchozí</a>&nbsp;" +
+												"&nbsp;" + ((iCurrentDiv * iArticlesPerPage)-(iArticlesPerPage - 1)) + "-" + (iCurrentDiv * iArticlesPerPage) + "&nbsp" +
+												"&nbsp;<a href='javascript:fnShowOtherIssues(" + (iCurrentDiv + 1) + ")'  class='sys-link-normal'>" + (((iCurrentDiv + 1)*iArticlesPerPage) - (iArticlesPerPage - 1)) + "-" + ((iCurrentDiv + 1) * iArticlesPerPage) + "</a>&nbsp;" +
+												"&nbsp;<a href='javascript:fnShowOtherIssues(" + (iCurrentDiv + 1) + ")'  class='sys-link-normal'>Další&gt;&gt;</a>"
+				}
+				else
+				{
+					LabelMainIssuesPages.innerHTML  = "<a  href='javascript:fnShowOtherIssues(" + (iCurrentDiv - 1) + ")' class='sys-link-normal'>&lt;&lt;Předchozí</a>&nbsp;" +
+												"&nbsp;<a href='javascript:fnShowOtherIssues(" + (iCurrentDiv - 1) + ")'  class='sys-link-normal'>" + (((iCurrentDiv) * iArticlesPerPage) - (iArticlesPerPage - 1)) + "-" + ((iCurrentDiv) * iArticlesPerPage) + "</a>&nbsp;" +
+												"&nbsp;" + (((iCurrentDiv + 1) * iArticlesPerPage)-(iArticlesPerPage - 1)) + "-" + ((iCurrentDiv + 1) * iArticlesPerPage) + "&nbsp" +
+												"&nbsp;<a href='javascript:fnShowOtherIssues(" + (iCurrentDiv + 1) + ")'  class='sys-link-normal'>Další&gt;&gt;</a>"
+				}
+			}
+		}
+		iPrevDiv = iCurrentDiv;   
+	}
+
+</script>
+</head>
+<body id="bodyTag" leftmargin="0" topmargin="0" height="100%" onunload="fnunload();">
+
+	
+		<table cellpadding=0 cellspacing=0 border=0 style="position:relative;left:-16;top:-10;">
+			<tr>
+				<td align="left" valign="top" width=290><img src="shared/images/bannersmu/cs/hdr_options_left.jpg"></td>
+				<td align="left" valign="top" width=100% style="background-image:url(shared/images/banner-bg.jpg);background-repeat:repeat-x"></td>
+				<td align="left" valign="top" width=158><img src="shared/images/bannersmu/cs/banner-right.jpg"></td>
+			</tr>
+		</table>
+	
+	<table cellpadding=0 cellspacing=0 border=0 >
+		<tr height="0">
+			<td width="464"></td>
+			<td width="100%"></td>
+		</tr>
+		<tr><td colspan="2" width="100%">
+			<span class="sys-font-heading3 sys-rhp-color-title">
+				Hledání řešení
+			</span><br>
+			Zadejte slovo nebo spojení, které chcete vyhledat, a klepněte na tlačítko Hledat.
+			<br>
+			<br>
+			<div class="sys-toppane-bgcolor" STYLE="PADDING-RIGHT:10px; PADDING-LEFT:15px; PADDING-BOTTOM:10px;  WIDTH:80%; PADDING-TOP:15px"><!--STYLE="BORDER-RIGHT:blue 1px solid; PADDING-RIGHT:10px; BORDER-TOP:blue 1px solid; PADDING-LEFT:15px; PADDING-BOTTOM:10px; BORDER-LEFT:blue 1px solid; WIDTH:90%; PADDING-TOP:15px; BORDER-BOTTOM:blue 1px solid"> -->
+				<form name="TroubleshooterForm" method="post" action="troubleshoot.aspx?ln=cs" id="TroubleshooterForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJODM0MTIwMzE1ZGQ=" />
+
+					
+					<nobr>
+						<table cellpadding="0" cellspacing="0" border="0" width ="400">
+							<tr>
+								<td width=320>
+									Zde zadejte klíčové slovo:
+									<br>
+									<input name="TextBoxSearch" type="text" maxlength="100" id="TextBoxSearch" onclick="fnClearText();" onChange="fnPurify();" onKeyUp="fnPurify();" style="FONT-SIZE:100%" /></td>
+								<td valign="bottom" width=60>
+									<input type="submit" name="SearchButton" value="Hledat" id="SearchButton" /></td>
+							</tr>
+						</table >
+						
+						<br>
+						<table cellpadding="0" cellspacing="0" border="0" width ="600">
+							
+							<tr>
+								<td align="left"><span id="LabelSelectOS" style="display:inline-block;MARGIN-BOTTOM:3px">Vyberte operační systém:</span></td>
+							</tr>
+							<tr>
+								<td align="left"><select name="DropdownSelectOs" id="DropdownSelectOs">
+	<option value="0">Všechny operačn&#237; syst&#233;my</option>
+	<option value="1">Windows 2000</option>
+	<option value="2">Windows XP</option>
+	<option value="3">Windows Server 2003</option>
+
+</select></td>
+							</tr>	
+							<tr><td height = "8px">&nbsp;</td></tr>
+							<tr>
+								<td align="left"><span id="LabelSelectCategory" style="display:inline-block;MARGIN-BOTTOM:3px">Vyberte kategorii:</span></td>
+							</tr>
+							<tr>
+								<td align="left"><select name="DropdownSelectCategory" id="DropdownSelectCategory">
+	<option value="0">Všechny kategorie</option>
+	<option value="1">Chyba při stahov&#225;n&#237; ovladače</option>
+	<option value="2">Chyba při instalaci ovladače</option>
+	<option value="3">Chyba po instalaci ovladače</option>
+	<option value="4">Pot&#237;že při př&#237;stupu k syst&#233;mu Windows Update</option>
+	<option value="5">Pot&#237;že při použ&#237;v&#225;n&#237; funkce automatick&#253;ch aktualizac&#237;</option>
+	<option value="6">Pot&#237;že při použ&#237;v&#225;n&#237; katalogu syst&#233;mu Windows Update</option>
+	<option value="7">Pot&#237;že při hled&#225;n&#237;</option>
+	<option value="8">Chyba při stahov&#225;n&#237; softwaru</option>
+	<option value="9">Chyba při instalaci softwaru</option>
+	<option value="10">Chyba po instalaci softwaru</option>
+	<option value="11">Jin&#233;</option>
+
+</select></td>
+							</tr>
+						</table>
+					</nobr>
+				
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWEwLzqITXCwK57MfCBALR1viaCQLOgIyWBALRgIyWBALQgIyWBALTgIyWBAKXtLGzCgKItLGzCgKJtLGzCgKKtLGzCgKLtLGzCgKMtLGzCgKNtLGzCgKOtLGzCgKftLGzCgKQtLGzCgKItPGwCgKItP2wCg==" /></form>
+			</div>
+			<div STYLE="WIDTH:80%">
+				<br>
+				Následující informace pomohly odstranit uživatelům potíže, které ohlásili odborné pomoci společnosti Microsoft. Podmínky pro používání těchto informací stanovené společností Microsoft jsou uvedeny na stránce <A href="http://go.microsoft.com/fwlink/?LinkId=9482"  class='sys-link-normal' target="_blank" >Podmínky použití</A>.
+				<br>
+			</div>
+			<br>
+			
+			<table cellpadding="0" cellspacing="0" border="0" width = 80%>
+				<tr>
+					<td width = 65% valign="top">Výsledky pro:&nbsp;<span id="LabelOS"><b> - </b></span><span id="LabelCategory"><b>Všechny kategorie</b></span></td>
+					<td width = 35% valign="top" align="right"><a href='http://go.microsoft.com/fwlink/?LinkId=27095' target='_blank' class='sys-link-normal'>Přejít k článkům znalostní báze Knowledge Base</a></td>
+				</tr>
+			</table>
+			<br>
+			<span id="LabelMainIssuesContents" style="display:inline-block;"><div id=divMainIssuesContents1 style='DISPLAY:block'><table width="90%" border="0" cellspacing="1" cellpadding="1"><tbody><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('21');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('21');" >Při hled&#225;n&#237; dostupn&#253;ch aktualizac&#237; na webu Update se zobrazuje chyba 0x80248011.</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('19');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('19');" >Při hled&#225;n&#237; dostupn&#253;ch aktualizac&#237; na webu Update se zobrazuje chyba 0x8007043B.</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('14');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('14');" >Při hled&#225;n&#237; dostupn&#253;ch aktualizac&#237; na webu Update se zobrazuje chyba 0x80244001.</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('13');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('13');" >Při hled&#225;n&#237; dostupn&#253;ch aktualizac&#237; na webu Update se zobrazuje chyba 0x800A01AD.</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('11');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('11');" >Při hled&#225;n&#237; dostupn&#253;ch aktualizac&#237; na webu Update se zobrazuje chyba 0x80248013.</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('7');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('7');" >Při pokusu o př&#237;stup k webu Update se zobrazuje chyba Syst&#233;m Windows Update byl vypnut spr&#225;vcem syst&#233;mu vaš&#237; společnosti.</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('5');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('5');" >Při pokusu o př&#237;stup k webu Update se zobrazuje chyba Pouze pro spr&#225;vce. Text zn&#237;: Aktu&#225;ln&#237; nastaven&#237; zabezpečen&#237; zakazuj&#237; spouštět ovl&#225;dac&#237; prvky ActiveX.</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('4');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('4');" >Při pokusu o př&#237;stup k webu Update se zobrazuje str&#225;nka s poděkov&#225;n&#237;m.</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('3');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('3');" >Při pokusu uložit upřesňuj&#237;c&#237; nastaven&#237; na webu Update se zobrazuje chyba Pro tuto funkci je třeba povolit uživatelsk&#225; data.</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('1');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('1');" >Při pokusu o př&#237;stup k webu Update se zobrazuje pr&#225;zdn&#225; str&#225;nka.</a></td></tr></tbody></table><br></div><div id=divMainIssuesContents2 style='DISPLAY:none'><table width="90%" border="0" cellspacing="1" cellpadding="1"><tbody><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('28');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('28');" >Při př&#237;stupu k webu Update se zobrazuje chyba 0x8007045A.</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('24');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('24');" >Po klepnut&#237; na odkazy Podrobnosti a Historie se nestane nic.</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('23');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('23');" >Po klepnut&#237; na odkaz se zobraz&#237; HTTP Chyba 500 - Intern&#237; chyba serveru, chyba 0x8ddd0010.</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('25');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('25');" >Po klepnut&#237; na odkaz na str&#225;nce Zobrazit historii instalac&#237; se domovsk&#225; str&#225;nka zobraz&#237; uvnitř hlavn&#237;ho okna.</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('18');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('18');" >Chyba skriptu Javascript na str&#225;nce, Ř&#225;dek: 59, Znak: 2</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('2');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('2');" >Po klepnut&#237; na př&#237;kaz Podrobnosti se zobrazuje pr&#225;zdn&#233; dialogov&#233; okno.</a></td></tr></tbody></table><br></div></span>
+			<div>
+			<span id="LabelMainIssuesPages" align="left">1 - 10 &nbsp;&nbsp;<a href='javascript:fnShowOtherIssues(2)'  class='sys-link-normal'>11-16</a>&nbsp&nbsp;<a href='javascript:fnShowOtherIssues(2)'  class='sys-link-normal'>Další&gt;&gt;</a></span>
+			</div>
+		</td></tr>
+	</table>
+	<iframe src="blank.aspx" name='eReporting' noresize height='0' width='0' style='DISPLAY:none' />
+	<iframe ID="iframeForPingBack" BORDER="0" HEIGHT="0" WIDTH="0" FRAMEBORDER="0" SCROLLING="no"
+		style="VISIBILITY:hidden"></IFRAME>
+	<script language="JavaScript"> 
+		function window::onLoad() {
+			fnLoadTshoot();
+			document.all["TextBoxSearch"].focus();
+			document.all["TextBoxSearch"].value = document.all["TextBoxSearch"].value;
+		}
+	</script>
+	
+<SCRIPT TYPE="text/javascript">
+var gProductionDomains="update.microsoft.com";
+var gDomain="c.microsoft.com";
+var gTrackEvents=0;
+var a=gProductionDomains.split(',');var b=0;for(var i=0;i<a.length;i++){if(window.location.host.indexOf(a[i])!=-1){b++;}}if(b!=0){var gDcsId="dcsyg6oep00000stdwm7iu4rf_2t8p";}if(b==0){var gDcsId="dcs96ueef10000w8gz3okt4rf_8g2k";}
+var gFpc="WT_FPC";
+</SCRIPT>
+<SCRIPT SRC="shared/js/update_webtrends.js" TYPE="text/javascript"></SCRIPT>
+<NOSCRIPT>
+<IMG ALT="" BORDER="0" ID="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://c.microsoft.com/wupixel/wt_pixel.aspx?WT.dcs_id=dcsyg6oep00000stdwm7iu4rf_2t8p&dcscfg=1&dcsuri=/nojavascript&amp;WT.js=No">
+</NOSCRIPT>	
+</body>
+</html>

@@ -1,0 +1,50 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+		<style type='text/css'>
+			table { table-layout: fixed; }
+		</style>
+</head>
+	<body onload="fnInit(3, 6);" bgcolor="white" link="#587EDC" alink="#587EDC" vlink="#587EDC">
+	
+		<font face="Tahoma, Arial, Helvetica">
+
+			<font size="3" color="#587EDC">
+			<b>Willkommen bei Windows Update Version 5-Vorschau</b>
+			</font>
+			<font size="2">
+			<p>
+			Vielen Dank für Ihr Interesse am Microsoft Windows Update Version 5-Vorschauprogramm. Auf dieser Site finden Sie eine Vorschau auf die nächste Version von Windows Update. Lesen Sie vor dem Fortfahren die folgenden Informationen aufmerksam durch.
+			<p>
+			<img src="shared/images/warning_icon.gif">
+			<b>Anmerkungen und rechtliche Hinweise</B> Windows Update Version 5 beinhaltet Vorabversionssoftware und Vorabversions-Updatedienste. Diese werden nur zu Testzwecken zur Verfügung gestellt und beinhalten keinen technischen Support. Die Updates unterliegen den <A href="http://go.microsoft.com/fwlink/?linkid=9482&clcid=0x409" target=_blank>Nutzungsbedingungen</A>, und die Software unterliegt den jeweiligen zugehörigen Lizenzverträgen. Microsoft beabsichtigt, die auf der Windows Update Version 4-Site verfügbaren Updates auch auf der Windows Update Version 5-Vorschausite anzubieten. In manchen Fällen können Updates jedoch möglicherweise nicht so schnell auf der Windows Update Version 5-Vorschausite bereitgestellt werden wie auf der Windows Update Version 4-Site.
+			
+				<p>
+				<img src="shared/images/info_16x.gif">
+				<a href="http://www.beta.microsoft.com" target=_blank>
+				<b>Ich bin kein registrierter Betabenutzer und würde gerne mehr über das Microsoft Betaprogramm erfahren.</b></a>
+			
+			<p><img src="shared/images/arrow.gif">
+			<a href="default.aspx?rc1=true">
+			<b>Ich habe die oben aufgeführten Informationen gelesen und möchte die Windows Update Version 5-Vorschausite aufrufen.</b></a>
+			</font>
+			<p>&nbsp;</p>
+			<font size="1">
+			© 2004 Microsoft Corporation. Alle Rechte vorbehalten. <A href="http://go.microsoft.com/fwlink/?linkid=9482&clcid=0x409" target=_blank>Nutzungsbedingungen</A>
+			</font>
+
+		</font>
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' /> 
+	</body>
+</html>

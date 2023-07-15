@@ -1,0 +1,158 @@
+
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<META http-equiv="Content-Type"  content="text/html;charset=ks_c_5601-1987" />
+		<META http-equiv="MSThemeCompatible" content="Yes" />
+		<META NAME="DESCRIPTION" CONTENT="사용자 컴퓨터의 운영 체제, 소프트웨어 및 하드웨어에 사용할 수 있는 최신 업데이트를 다운로드하십시오. Windows Update는 사용자의 컴퓨터를 검색하여 사용자에게 적합한 업데이트만 선택하여 제공합니다."> 
+		<META NAME="MS.LOCALE" CONTENT="ko">
+		<META NAME="keywords" CONTENT="Windows Update; update; security; secure; up-to-date; download; driver; patch; fix; hotfix; QFE; bug; critical; high priority; service pack; Automatic Updates; Windows XP; Windows 2000; Windows Server 2003; WinXP; Win2k; Win2000; WS2k3; WS2003; .NET Server; SP">
+		<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+		<title>Microsoft Windows Update</title>
+		<object id="SusWebCtl" VIEWASTEXT></object>
+		<script language="javascript" type="text/javascript">
+			var curSite = 5;
+			var g_sDownForMaintenance2K = "";
+			var g_sDownForMaintenanceXP = "";
+			var g_sDownForMaintenance2003 = "";
+			var g_sDownForMaintenanceLonghorn = "";
+			var g_sUA = "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)".toLowerCase();
+					
+			
+		</script>
+		<script language="javascript" type="text/javascript" src="shared/js/tgar.js?2005-11-18 오전 10:49:21"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/redirect.js?2005-11-18 오전 10:49:21"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/commontop.js?2005-11-18 오전 10:49:21"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/webcomtop.js?2005-11-18 오전 10:49:21"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/spupdateids.js?2005-11-18 오전 10:49:21"></script>
+		
+		 
+			<script language="javascript" type="text/javascript">
+				function fnSupressError(sMessage, sURL, sLine){ return true; }
+				window.onerror = fnSupressError ;
+			</script>
+		
+		<script language="javascript" type="text/javascript" defer="true">
+			var conQueryString = "ln=ko"; 
+			var conRTL = false;
+			var conDevServer = false;
+			var conCriticalUpdatesMode = false;
+			var conLangCode = "ko";
+			var conConsumerURL = "/v5consumer/";
+			var L_ScanForAvailableUpdates_Text = "프로그램 업데이트 검색";
+var L_ReloadingSiteText_Text = "Windows Update 사이트가 완전히 열리지 않았습니다.\n			계속 기다리려면 [확인]을 클릭하십시오.\n			사이트를 다시 열려면 [취소]를 클릭하십시오.";
+var L_MB_Text = "MB";
+var L_KB_Text = "KB";
+var L_Hour_Text = "시간";
+var L_Hours_Text = "시간";
+var L_InstallTitle_Text = "업데이트 설치";
+var L_Minute_Text = "분";
+var L_Minutes_Text = "분";
+var L_RListNoUpdatesToInstall_Text = "설치할 업데이트를 선택하지 않았습니다.";
+var L_StatusSucceeded_Text = "성공";
+var L_StatusFailed_Text = "실패";
+var L_StatusAborted_Text = "취소";
+var L_UpdateName_Text = "업데이트 이름";
+var L_Status_Text = "상태";
+var L_Date_Text = "날짜";
+var L_Source_Text = "원본";
+var L_AutomaticUpdates_Text = "자동 업데이트";
+var L_WindowsUpdate_Text = "Windows Update 웹 사이트";
+var L_ManagedServer_Text = "Windows Update Services 클라이언트 웹 사이트";
+var L_DynamicUpdate_Text = "동적 업데이트";
+var L_DeviceManager_Text = "장치 관리자";
+var L_OperationModeDownload_Text = "다운로드 중";
+var L_OperationModeCopying_Text = "파일 복사 중";
+var L_OperationModeRegister_Text = "등록 중";
+var L_OtherSource_Text = "기타 원본";
+var L_PersonalizationSaveSettingsPrompt_Text = "설정을 변경했습니다. 지금 설정을 저장하려면 [확인]을 클릭하고, 저장하지 않고 계속하려면 [취소]를 클릭하십시오.";
+var L_Next_Text = "다음";
+var L_RListBasketUpdatesNotAvailableText_Text = "업데이트를 선택하지 않았습니다.";
+var L_NeedUserData_Text = "이 기능에 대한 사용자 데이터를 사용할 수 있어야 합니다.";
+var L_UserDataSaved_Text = "설정이 저장되었습니다.";
+var L_PersonalizationReloadSite_Text = "언어 설정을 저장했습니다. Windows Update 사이트를 새 언어로 표시하려면 페이지를 새로 고쳐야 합니다. 그러면 모든 업데이트 선택 항목이 다시 설정됩니다. 페이지를 새로 고치시겠습니까?";
+var L_Previous_Text = "이전";
+var L_ProxyTitle_Text = "프록시 자격 증명 입력";
+var L_ExpressModeHidden_Text = "Windows Update와 자동 업데이트를 사용하여 더 이상 제공받지 않을 업데이트를 숨길 수 있습니다. 현재 필요한 업데이트는 이전에 숨겨진 업데이트입니다. 이 업데이트를 복원하여 설치하시겠습니까?";
+var L_WerUpdateInstalled_Text = "필요한 업데이트가 이미 설치되어 있습니다. 사용자의 컴퓨터에 적합한 다른 업데이트를 계속 설치하려면 [확인]을 클릭하십시오.";
+var L_RListBetaDescription_Text = "다음과 같은 베타 업데이트를 사용자의 컴퓨터에 설치할 수 있습니다. 설치할 업데이트를 선택하고 [업데이트 설치로 이동] 링크를 클릭하십시오.";
+var L_RListBetaTitle_Text = "선택적 베타 업데이트 선택";
+var L_RListBetaWarning1_Text = "<b>베타 소프트웨어는 사용자의 컴퓨터를 손상시킬 수 있습니다.</b><br>";
+var L_RListBetaWarning2_Text = "시험판이나 \"베타\" 제품(소프트웨어) 또는 베타 소프트웨어의 업데이트는 사용자의 컴퓨터를 손상시킬 수 있습니다. Microsoft는 이러한 제품에 대해서는 제한적으로 지원하고 있습니다.";
+var L_RListClickForDescription_Text = "이 업데이트에 대한 설명을 표시하려면 클릭합니다.";
+var L_RListClickToHideDescription_Text = "이 업데이트에 대한 설명을 숨기려면 클릭합니다.";
+var L_RListCriticalUpdates_Text = "중요 업데이트";
+var L_RListCriticalUpdatesBar_Text = "중요 업데이트";
+var L_RListCriticalUpdatesTitle_Text = "중요 업데이트 검토";
+var L_RListDeviceUnknown_Text = "Windows Update는 사용자 컴퓨터에서 이 드라이버가 적용되는 장치에 드라이버가 설치되어 있지 않기 때문에 이 업데이트를 설치할 것을 권장합니다.";
+var L_RListDeviceDisabled_Text = "Windows Update는 사용자 컴퓨터에서 이 드라이버가 적용되는 장치를 사용할 수 없기 때문에 이 업데이트를 설치할 것을 권장합니다.";
+var L_RListDeviceProblem_Text = "Windows Update는 사용자 컴퓨터에서 이 드라이버가 적용되는 장치가 제대로 작동하지 않기 때문에 이 업데이트를 설치할 것을 권장합니다.";
+var L_RListDownloadSize_Text = "다운로드 크기: ";
+var L_RListDownloadSizeTypical_Text = "일반적인 다운로드 크기: ";
+var L_RListDriversDescription_Text = "다음과 같은 선택적 업데이트를 사용자의 컴퓨터에 설치할 수 있습니다. 설치할 업데이트를 선택하고 [업데이트 설치로 이동] 링크를 클릭하십시오.";
+var L_RListDriversTitle_Text = "선택적 하드웨어 업데이트 선택";
+var L_RListHiddenTitle_Text = "숨겨진 업데이트 복원";
+var L_RListHiddenUpdatesBar_Text = "숨겨진 업데이트";
+var L_RListHideThisUpdate_Text = "이 업데이트 숨기기";
+var L_RListInfoGifAlt_Text = "이 업데이트는 사용자의 컴퓨터에 이미 다운로드되었습니다. 이 항목을 선택하면 Windows Update에서 설치를 완료합니다.";
+var L_RListItems_Text = "항목";
+var L_RListLessThan_Text = "필요 시간";
+var L_RListNoUpdatesAvailable_Text = "사용 가능한 업데이트가 없습니다.";
+var L_RListOptionalBetaUpdatesBar_Text = "선택적 베타 업데이트";
+var L_RListOptionalHardwareUpdatesBar_Text = "선택적 하드웨어 업데이트";
+var L_RListOptionalSoftwareUpdatesBar_Text = "선택적 소프트웨어 업데이트";
+var L_RListOptionalUpdates_Text = "선택적 업데이트";
+var L_RListOtherUpdates_Text = "기타 업데이트";
+var L_RListOtherOptionalUpdates_Text = "기타 선택적 업데이트";
+var L_RListOtherCriticalUpdates_Text = "기타 중요 업데이트";
+var L_RListProductTitle_Text = "선택적 소프트웨어 업데이트 선택";
+var L_RListReadMore_Text = "자세한 정보...";
+var L_RListSingleInstallation_Text = "<b>단일 설치 업데이트를 선택했습니다. </b><br/>단일 설치 업데이트가 설치되도록 선택되어 있고 단일 설치 업데이트는 다른 업데이트와 함께 설치될 수 없기 때문에 이 페이지의 업데이트는 현재 사용할 수 없습니다. 설치를 완료한 후 Windows Update로 돌아와 다른 업데이트를 선택하십시오.";
+var L_RListSingleInstallationTitle_Text = "단일 설치: ";
+var L_RListUpdates_Text = "업데이트";
+var L_RListHiddenCriticalPresent1_Text = "<b>일부 중요 업데이트가 숨겨져 있습니다. </b><br/>Microsoft는 보안을 유지하기 위해 모든 중요 업데이트를 설치할 것을 권장합니다. 숨겨진 업데이트를 설치하려면 ";
+var L_RListHiddenCriticalPresent2_Text = "숨겨진 업데이트 복원";
+var L_RListHiddenCriticalPresent3_Text = " 페이지로 이동하십시오.";
+var L_RListSelectall_Text = "모두 선택";
+var L_RList100_Text = "중요 업데이트는 중요한 업데이트와 보안 관련 업데이트입니다.";
+var L_RList101_Text = "설치할 중요 업데이트를 선택하지 않았습니다. Microsoft는 컴퓨터를 최신으로 유지하고 컴퓨터의 보안을 유지하기 위해 중요 업데이트를 설치할 것을 권장합니다. 사용자의 컴퓨터에 사용할 수 있는 선택적 업데이트를 보려면 [홈] 링크 아래에 있는 선택적 업데이트 링크 중 하나를 클릭하십시오.";
+var L_RList102a_Text = "Microsoft는 컴퓨터를 최신으로 유지하고 컴퓨터의 보안을 유지하기 위해 다음 중요 업데이트를 설치할 것을 권장합니다.";
+var L_RList102b_Text = "<b>단일 설치 업데이트는 다른 업데이트와 함께 설치할 수 없습니다.</b> <br>단일 설치 업데이트를 먼저 설치할지 다른 중요 업데이트를 모두 설치할지 선택하고 [업데이트 설치로 이동] 링크를 클릭하십시오. 설치를 완료한 후 Windows Update로 돌아와 남은 업데이트를 설치하십시오.";
+var L_RList103_Text = "Microsoft는 컴퓨터를 최신으로 유지하고 컴퓨터의 보안을 유지하기 위해 다음과 같은 단일 설치 중요 업데이트를 설치할 것을 권장합니다. 해당 업데이트를 설치하려면 [업데이트 설치로 이동] 링크를 클릭하십시오.";
+var L_RList104_Text = "Microsoft는 컴퓨터를 최신으로 유지하고 컴퓨터의 보안을 유지하기 위해 다음 중요 업데이트를 설치할 것을 권장합니다. 해당 업데이트를 설치하려면 [업데이트 설치로 이동] 링크를 클릭하십시오.";
+var L_RList105a_Text = "Microsoft는 컴퓨터를 최신으로 유지하고 컴퓨터의 보안을 유지하기 위해 다음 중요 업데이트를 설치할 것을 권장합니다.";
+var L_RList105b_Text = "<b>단일 설치 업데이트는 다른 업데이트와 함께 설치할 수 없습니다.</b> <br>설치할 단일 설치 업데이트를 선택하고 [업데이트 설치로 이동] 링크를 클릭하십시오. 설치를 완료한 후 Windows Update로 돌아와 남은 업데이트를 설치하십시오.";
+var L_RList200_Text = "선택적 업데이트는 중요도가 낮은 업데이트입니다.";
+var L_RList201_Text = "선택적 업데이트가 없습니다.";
+var L_RList202a_Text = "다음과 같은 선택적 업데이트를 사용자의 컴퓨터에 설치할 수 있습니다.";
+var L_RList202b_Text = "<b>단일 설치 업데이트는 다른 업데이트와 함께 설치할 수 없습니다.</b> <br>단일 설치 업데이트를 먼저 설치할지 다른 선택적 업데이트를 설치할지 선택하고 [업데이트 설치로 이동] 링크를 클릭하십시오. 설치를 완료한 후 Windows Update로 돌아와 남은 업데이트를 설치하십시오.";
+var L_RList203_Text = "다음과 같은 선택적 업데이트를 사용자의 컴퓨터에 설치할 수 있습니다. 단일 설치 업데이트는 다른 업데이트와 함께 설치할 수 없습니다. 설치할 업데이트를 선택하고 [업데이트 설치로 이동] 링크를 클릭하십시오. 설치를 완료한 후 Windows Update로 돌아와 다른 업데이트를 선택하십시오.";
+var L_RList204_Text = "다음과 같은 선택적 업데이트를 사용자의 컴퓨터에 설치할 수 있습니다. 설치할 업데이트를 선택하고 [업데이트 설치로 이동] 링크를 클릭하십시오.";
+var L_RList205a_Text = "다음과 같은 선택적 업데이트를 사용자의 컴퓨터에 설치할 수 있습니다.";
+var L_RList205b_Text = "<b>단일 설치 업데이트는 다른 업데이트와 함께 설치할 수 없습니다.</b> <br>설치할 단일 설치 업데이트를 선택하고 [업데이트 설치로 이동] 링크를 클릭하십시오. 설치를 완료한 후 Windows Update로 돌아와 남은 업데이트를 설치하십시오.";
+var L_RList300_Text = "이 페이지에서는 설치하도록 선택한 업데이트에 대한 요약을 제공합니다.";
+var L_RList301_Text = "현재 설치할 업데이트를 선택하지 않았습니다. 사용자의 컴퓨터에 사용할 수 있는 업데이트를 보려면 [홈] 링크 아래에 있는 중요 업데이트나 선택적 업데이트 링크 중 하나를 클릭하십시오.";
+var L_RList302_Text = "Microsoft는 컴퓨터를 최신으로 유지하고 컴퓨터의 보안을 유지하기 위해 다음 중요 업데이트를 설치할 것을 권장합니다. 해당 업데이트를 설치하려면 [설치]를 클릭하십시오.";
+var L_RList303_Text = "다음 선택적 업데이트를 설치하려면 [설치]를 클릭하십시오.";
+var L_RList304_Text = "Microsoft는 컴퓨터를 최신으로 유지하고 컴퓨터의 보안을 유지하기 위해 다음과 같은 중요 업데이트와 선택적 업데이트를 설치할 것을 권장합니다. 해당 업데이트를 설치하려면 [설치]를 클릭하십시오.";
+var L_RList400_Text = "숨겨진 업데이트는 사용 가능한 업데이트 목록에서 제거한 업데이트입니다.";
+var L_RList401_Text = "숨겨진 업데이트가 없습니다. 제목을 클릭한 다음 [이 업데이트 숨기기] 확인란을 선택하여 업데이트를 숨길 수 있습니다.";
+var L_RList402_Text = "<P><b>단일 설치 업데이트는 다른 업데이트와 함께 설치할 수 없습니다.</b><br> 설치할 단일 설치 업데이트를 선택하고 [업데이트 설치로 이동] 링크를 클릭하십시오. 설치를 완료한 후 Windows Update로 돌아와 남은 업데이트를 설치하십시오.";
+var L_RList403_Text = "<P><b>단일 설치 업데이트는 다른 업데이트와 함께 설치할 수 없습니다.</b><br> 설치할 단일 설치 업데이트를 선택하고 [업데이트 설치로 이동] 링크를 클릭하십시오. 설치를 완료한 후 Windows Update로 돌아와 남은 업데이트를 설치하십시오.";
+var L_RList404_Text = "숨겨진 업데이트를 설치하려면 해당 확인란을 선택하고 [업데이트 설치로 이동] 링크를 클릭하십시오.";
+var L_RList405_Text = "<P><b>단일 설치 업데이트는 다른 업데이트와 함께 설치할 수 없습니다.</b><br> 단일 설치 업데이트를 먼저 설치할지 다른 업데이트를 설치할지 선택하고 [업데이트 설치로 이동] 링크를 클릭하십시오. 설치를 완료한 후 Windows Update로 돌아와 남은 업데이트를 설치하십시오.";
+var L_RList500_Text = "[빠른 설치]를 사용하면 사용자의 컴퓨터에 필요한 중요 업데이트와 보안 업데이트만 신속하게 다운로드하여 설치할 수 있습니다.";
+var L_RList501_Text = "Microsoft는 컴퓨터를 최신으로 유지하고 컴퓨터의 보안을 유지하기 위해 다음 중요 업데이트를 설치할 것을 권장합니다. 해당 업데이트를 설치하려면 [설치]를 클릭하십시오.";
+var L_RList502_Text = "사용자의 컴퓨터는 최신 상태이며 현재 사용 가능한 중요 업데이트나 보안 업데이트가 없습니다. 사용자의 컴퓨터에 사용할 수 있는 선택적 업데이트를 보려면 [홈] 링크를 클릭하고 [사용자 지정 설치]를 클릭하십시오. Windows Update는 선택적 업데이트를 검색해 줍니다. 업데이트를 검토한 후 다운로드할 수 있습니다.";
+var L_RList600_Text = "이 페이지에 있는 업데이트는 그 자체로 베타 소프트웨어이거나 사용자의 컴퓨터에 있는 베타 소프트웨어에 대한 업데이트입니다.";
+var L_RList700_Text = "이 페이지에서는 드라이버 업데이트 목록을 제공합니다.";
+var g_sControlVersion = '3790.2182';
+
+		</script>
+	</head>
+	<noscript>
+		<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=ko&error=1' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=ko&error=1' /><frame name='eContent'  src='errorinformation.aspx?ln=ko&error=1' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=ko&error=1' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+	</noscript>
+	<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=ko' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=ko' /><frame name='eContent'  src='splash.aspx?page=0&ln=ko' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=ko' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+</html>

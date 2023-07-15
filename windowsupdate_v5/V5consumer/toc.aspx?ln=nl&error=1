@@ -1,0 +1,72 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/toc.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/toc.css' />
+
+<script language ="javascript">
+	                var L_Toc_Critical_Text = "Essentiële updates controleren";
+                var L_Toc_Beta_Text = "Optionele bèta-updates selecteren";
+                var L_Toc_Hardware_Text = "Optionele hardware-updates selecteren";
+                var L_Toc_Software_Text = "Optionele software-updates selecteren";
+                var L_Toc_CriticalUpdatesAlt_Text = "Bekijk een lijst met essentiële updates en beveiligingspatches.";
+                var L_Toc_SoftwareUpdatesAlt_Text = "Bekijk een lijst met optionele software-updates.";
+                var L_Toc_HardwareUpdatesAlt_Text = "Bekijk een lijst met optionele hardware-updates.";
+                var L_Toc_BetaUpdatesAlt_Text = "Bekijk de lijst met optionele bèta-updates.";
+                var L_TocProductAlt_Text = "Bekijk een lijst met updates voor de ";
+
+</script>
+</head>
+	<body class="toc sys-lhp-bgcolor"> 
+		<base target="eContent" />
+		<div id="eUserData"></div> 
+		<form name="ePostForm" id="ePostForm" method="post"><input name="ePostData" id="ePostData" type="hidden" /></form>
+		<table cellspacing="0" class="sys-toppane-bgcolor" >
+			<tbody>
+				<tr> 
+					<td style="height: 100%;"> 
+						<div class="sys-font-body toppane-body"> 
+
+							<div id="eConsumerDiv1">
+								<a id="eBasketUpdates" href="" title="Geef de geselecteerde updates voor de installatie weer en start het installatieproces." class="sys-link-disabled"><img src="shared/images/icon_wu_installnow_16x.gif" style = "width : 16px; height: 16px;" />Updates installeren<i></i></a><br />
+								<!--<a id="eAvailableUpdates" title="Hiermee kunt u weergeven welke updates er beschikbaar zijn voor de computer. Uw computer moet wellicht eerst worden gescand." class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" /><i>Updates voor programma's</i></a>-->
+								<table style="width:91%;height:0px;cellspacing:0;" border= "0" id="eAvailableUpdatesTable"><tr><td style="padding:0px"><div id="eAvailableUpdatesDiv"></div></td></tr></table>
+							</div>
+
+
+
+							<div class="subHeader sys-bottompane-header-color sys-font-body-bold">Overige opties</div>
+
+
+							<div id="eConsumerDiv2">
+								<a id="eHistory" url="history.aspx?ln=nl" title="Bekijk het overzicht van de updates die u van Windows Update hebt geïnstalleerd." class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />Installatiegeschiedenis weergeven</a><br />
+								<a id="eAdvancedSettings" href="personalize.aspx?ln=nl"  url ="personalize.aspx?ln=nl" title="Hier kunt u de weergave van Windows Update aan uw wensen aanpassen." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Instellingen</a><br />
+								<a id="eHidden"  title="Bekijk de lijst met updates die u hebt verborgen." class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />Verborgen updates herstellen</a><br />
+							</div>
+
+
+
+							
+							<div id="eConsumerDiv3">
+								<a id="eAdmin" href="administrators.aspx?ln=nl" title="Lees informatie voor ervaren gebruikers." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Opties voor beheerders</a><br />
+								<a id="eSupport" href="support.aspx?ln=nl" title="Lees hoe u on line ondersteuning krijgt voor problemen met de site Windows Update of de onderdelen die u van de site hebt geïnstalleerd." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Help en ondersteuning</a><br />
+								<a id="eAbout" href="about.aspx?ln=nl" title="Hier vindt u antwoorden op vragen die veel over Windows Update worden gesteld." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Veelgestelde vragen</a><br />
+								
+							</div>
+							<a id="eHardwareSupport" target="_blank" class="sys-link-normal" title="Ga naar de ondersteuningssite voor de computerfabrikant."><img src="shared/images/toc_endnode.gif" />Hardwareondersteuning</a>
+						</div>
+						
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

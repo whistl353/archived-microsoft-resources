@@ -1,0 +1,50 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+ 
+	</head>
+	<body onload="fnInit(14, -1);">
+	
+		<span class="sys-font-heading3 sys-rhp-color-title">Palvelut järjestelmänvalvojille</span><br />
+	        <br>
+			<div class="8pt">
+
+			<b>Päivitä useita käyttöjärjestelmiä<br /></b>
+			Jos haluat valita kaikista Windows-käyttöjärjestelmiin julkaistuista päivityksistä, mukaan lukien palvelimien ohjelmistopäivitykset ja (laitteiden) ohjainpäivitykset, etsi päivityksiä <a href="http://go.microsoft.com/fwlink/?LinkId=8973" target="_blank" class="sys-link-normal">Windows Update Catalog</a> -sivustosta.<br /><br />
+			<b>Hallitse verkkojen päivitysprosessia<br /></b>
+			Jos haluat päivittää Windows-käyttöjärjestelmät ja muut yrityksen palomuurin sisäpuolella käytettävät Microsoft-tuotteet, käytä <a href="http://go.microsoft.com/fwlink/?LinkId=24462" target="_blank" class="sys-link-normal">Windows Update Services</a> -palvelua. Tämä ratkaisu, joka tunnettiin aiemmin nimellä Software Update Services (SUS) 2.0, auttaa järjestelmänvalvojia kohdentamaan päivitettävät järjestelmät, hallitsemaan käyttäjien vuorovaikutusta, poistamaan päivityksiä, määrittämään päivitysten asennustiheyden ja -prioriteetin sekä paljon muuta.<br /><br />
+			Huomautus:<br />
+			<ul style="margin-left:40px">
+				<li>Myös <a href="http://go.microsoft.com/fwlink/?LinkId=27549" target="_blank" class="sys-link-normal">Microsoft Baseline Security Analyzer (MBSA)</a> -työkalu etsii yleisiä suojausongelmia ja ilmoittaa niistä käyttäjälle. Ohjelma voi auttaa sinua asentamaan puuttuvat suojauspäivitykset Windows-tietokoneisiin. </li>
+				<li>
+					Jos haluat tarkastaa nopeasti, mitä päivityksiä Automaattiset päivitykset-, Windows Update- ja Windows Update Services -palvelut toimittavat, lue 
+					<a  class="sys-link-normal" href="about.aspx?ln=fi" target="eContent">Windows Update -sivuston usein kysyttyjä kysymyksiä</a>
+					.
+				</li>
+			</ul>
+			<br/><b>Hanki lisää päivityksiä<br /></b>
+			<ul style="margin-left:40px">
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=21601" target="_blank" class="sys-link-normal">Etsi päivityksiä Microsoft Download Centeristä</a>
+			<br>Voit ladata kaikkien tuettujen Microsoft-tuotteiden päivityksiä. Päivitykset julkaistaan 30 kielellä.  
+		</li>
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=24459" target="_blank" class="sys-link-normal">Tutustu Microsoft Office Online -sivustoon</a>
+			<br>Voit etsiä Microsoft Office System -järjestelmän (versiot 97, 98 ja uudemmat versiot) päivityksiä. Voit ladata esimerkiksi malleja, tukisisältöä ja ClipArt-kuvia.
+		</li>
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=27098" target="_blank" class="sys-link-normal">Liity Microsoft Premier Support -asiakkaaksi</a>
+			<br>Lue lisää Premier Support -palvelun eduista, joita ovat muun muassa lisäpäivitykset (esimerkiksi ennakkoon julkaistut ohjelmistot).   
+		</li>
+			</ul>
+			</div> 
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+	</body>
+</html>

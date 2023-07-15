@@ -1,0 +1,115 @@
+<script language='JScript' type='text/javascript'>
+ var sArticleId = 21;
+var sTimeAtTarget = '11/17/2005';
+var sOSLocale =  'en';
+</script><html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+
+<script language="JScript" type="text/javascript" src="shared/js/troubleshooter.js"></script>		
+
+	</HEAD>
+	<body>
+
+	<table height=100%>
+		<tr valign=top>
+			<td>	
+				<div align=right>
+					<a class="sys-link-normal" href="javascript:window.print();">Print</a> | <a class="sys-link-normal" href="javascript:window.close();" id="closelink">Close</a>
+				</div>
+				<form name="Form1" method="post" action="showarticle.aspx?articleid=21&amp;ln=en" id="Form1">
+<input type="hidden" name="__VIEWSTATE" value="dDw2NjgyNzYyNzs7Pg==" />
+
+					<span id="problemtitle" style="FONT-SIZE:120%">When searching for available updates on the Windows Update site, you receive the 0x80248011 error.</span>
+					<br>
+					<br>
+					<span id="problemtext"><b>Problem description</b><br><br>This error can occur due to an issue with the Internet cache or corruption in the Data store.</span>
+					<br>
+					<br>
+					<span id="operatingsystems"><b>Applicable operating systems</b><br><br><UL><LI>Windows 2000</LI><br><LI>Windows XP</LI><br><LI>Windows Server 2003</LI><br></UL></span>
+					<br>
+					<br>
+					<table id="resolutions" border="0">
+	<tr>
+		<td><b>Resolutions</b></td>
+	</tr><tr>
+		<td><div style='margin-bottom:-30px;'>1. Delete the datastore and allow it to rebuild itself.
+First stop the <b>Automatic Update Service</b>
+<ol style='margin-left:30px'><li>Click <b>Start</b>.</li>
+<li>Choose <b>Run</b>.</li>
+<li>In the <b>Run</b> box, type <b>services.msc</b>.</li>
+<li>Click <b>OK</b>.</li>
+<li>Right-click the <b>Automatic Updates Service</b>.</li>
+<li>Click <b>Stop</b>.</li>
+</ol>
+
+After Stopping the Service please rename the folder <b>c:\Windows\SoftwareDistribution</b>
+<ol style='margin-left:30px'>
+<li>Open <b>Windows Explorer</b></li>
+<li>Navigate to the <b>Windows</b> folder </li>
+<li>Click on the <b>+</b> next to the <b>Windows</b> folder</li>
+<li>Navigate to <b>SoftwareDistribution</b> folder</li>
+<li>Right Click on the <b>SoftwareDistribution</b> folder</li>
+<li>Select <b>rename</b> from the Menu</li>
+<li>Rename the folder to <b>SoftwareDistribution.old</b> and click <b>Enter</b></li>
+</ol>
+
+Now restart the <b>Automatic Update Service</b>
+<ol style='margin-left:30px'>
+<li>Click <b>Start</b>.</li>
+<li>Choose <b>Run</b>.</li>
+<li>In the <b>Run</b> box, type <b>services.msc</b>.</li>
+<li>Click <b>OK</b>.</li>
+<li>Right-click the <b>Automatic Updates Service</b>.</li>
+<li>Click <b>Start</b>.</li>
+</ol>
+<br>
+Starting the service will take a moment.<br>
+<br>
+Retry Windows Update again<br><br>Did this resolve your problem?</div><br></td>
+	</tr><tr>
+		<td><INPUT type=button style='width:100;padding-top:-20px' value='Yes' id='btnYes81' onclick='fnPingback(&quot;yes&quot;,81)'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT type='button' style='width:100;padding-top:-20px' value='No' id='btnNo81' onclick='fnPingback(&quot;no&quot;,81)'><br><br></td>
+	</tr><tr>
+		<td><div style='margin-bottom:-30px;'>2. Clear the Internet Explorer cache
+<ol style='margin-left:30px'><li>Start Internet Explorer.</li>
+<li>On the <b>Tools</b> menu, click <b>Internet Options</b>.</li>
+<li>Click the <b>General</b> tab.</li>
+<li>In the <b>Temporary Internet files</b> section, click <b>Delete Cookies</b>.</li>
+<li>Click <b>OK</b> in the <b>Delete Cookies</b> box.</li>
+<li>In the <b>Temporary Internet Files</b> section, click <b>Delete Files</b>.</li>
+<li>Select the <b>Delete all offline content</b> check box in the <b>Delete Files</b> dialog box.</li>
+<li>Click <b>OK</b>.</li>
+<li>In the <b>History</b> section, click the <b>Clear History</b> button.</li>
+<li>Click <b>Yes</b>.</li>
+<li>Click <b>OK</b>.</li></ol><br><br>Did this resolve your problem?</div><br></td>
+	</tr><tr>
+		<td><INPUT type=button style='width:100;padding-top:-20px' value='Yes' id='btnYes82' onclick='fnPingback(&quot;yes&quot;,82)'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT type='button' style='width:100;padding-top:-20px' value='No' id='btnNo82' onclick='fnPingback(&quot;no&quot;,82)'><br><br></td>
+	</tr>
+</table>
+					<br>
+					<br>
+					<span id="KBArticleText">For more information about When searching for available updates on the Windows Update site, you receive the 0x80248011 error., see article 883821 in the <a href='http://support.microsoft.com?kbid=883821' class='sys-link-normal' target='_blank' >Microsoft Knowledge Base</a>.</span>
+					<br>
+				</form>
+				<br>
+				</div>	
+			</td>
+		</tr>	
+		<tr HEIGHT="20">
+			<td>Your answer is anonymous and  is used to help improve content on this site.</td>		
+		</tr>		
+	</table>	
+		<IFRAME ID="pingback2" src="blank.aspx" HEIGHT=0 WIDTH=0></IFRAME> 
+	</body>
+</HTML>

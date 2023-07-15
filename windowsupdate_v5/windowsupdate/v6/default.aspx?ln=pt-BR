@@ -1,0 +1,181 @@
+
+
+<html dir="ltr">
+	<head>
+		<!-- Mimic Internet Explorer 7 -->
+		<meta http-equiv='X-UA-Compatible' content='IE=5; requiresActiveX=true' />
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<META http-equiv="Content-Type"  content="text/html;charset=windows-1252" />
+		<META http-equiv="MSThemeCompatible" content="Yes" /> 
+		<META NAME="DESCRIPTION" CONTENT="Obtenha as últimas atualizações disponíveis para o sistema operativo, software e hardware do seu computador. Este será pesquisado e ser-lhe-á fornecida uma seleção de atualizações próprias para o seu computador."> 
+		<META NAME="MS.LOCALE" CONTENT="pt-br">
+		<META NAME="keywords" CONTENT="Windows Update; update; security; secure; up-to-date; download; driver; patch; fix; hotfix; QFE; bug; critical; high priority; service pack; Automatic Updates; Windows XP; Windows 2000; Windows Server 2003; WinXP; Win2k; Win2000; WS2k3; WS2003; .NET Server; SP">
+		<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+		
+			<title>Microsoft Windows Update</title>
+			<link rel='shortcut icon' href='shared/images/banners/favicon.ico' type='image/x-icon'/>
+		
+		<object id="SusWebCtl" VIEWASTEXT></object>
+		<object id="SunriseCtl" VIEWASTEXT></object>
+		<script language="javascript" type="text/javascript">
+			var g_bWGAEnablePingback = true;
+			var g_sQSProductName = '';
+
+		</script>
+		
+		<script language="javascript" type="text/javascript" src="shared/js/tgar.js?637182566604359496"></script>
+		<script language="javascript" type="text/javascript">
+var g_bMUSite = false;
+var curSite = "6Live";
+var g_sDownForMaintenance2K = "";
+var g_sDownForMaintenanceXP = "";
+var g_sDownForMaintenance2003 = "";
+var g_sDownForMaintenanceLonghorn = "";
+var g_sUA = "Mozilla/5.0 (Windows NT 6.3//; WOW64//; Trident/7.0//; rv:11.0) like Gecko";
+var conLangCode = "pt-br";
+</script>
+<script language="javascript" type="text/javascript" src="shared/js/redirect.js?637182566604359496"></script>
+
+		<script language="javascript" type="text/javascript" src="shared/js/commontop.js?637182566604359496"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/webcomtop.js?637182566604359496"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/spupdateids.js?637182566604359496"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/resultslist.js?637182566604359496"></script>
+
+		 
+			<script language="javascript" type="text/javascript">
+				function fnSupressError(sMessage, sURL, sLine){ return true; }
+				window.onerror = fnSupressError ;
+			</script>
+		
+		<script language="javascript" type="text/javascript" defer="true">
+			var conQueryString = "ln=pt-BR"; 
+			conQueryString = conQueryString.replace("&amp;","&");
+			var conRTL = false;
+			var conDevServer = false;
+			var conConsumerURL = "/windowsupdate/v6/"; 
+			var muSelfUpdate = false;
+			var L_SplashExpressScanAltText_Text = "Localize e instale apenas as atualizações mais importantes para o seu computador ";
+var L_SplashCustomScanAltText_Text = "Localize e escolha quais as atualizações que pretende de entre todas as que estão disponíveis para o seu computador ";
+var L_SplashWelcomeExpressButton_Text = "Rápida ";
+var L_SplashWelcomeCustomButton_Text = "Personalizada ";
+var L_ReloadingSiteText_Text = "O site do Windows Update ainda não foi totalmente carregado.\n			Para aguardar, clique em OK.\n			Para que o Windows Update tente abrir novamente o site, clique em Cancelar. ";
+var L_MB_Text = "MB ";
+var L_KB_Text = "KB ";
+var L_Hour_Text = "hora ";
+var L_Hours_Text = "horas ";
+var L_InstallTitle_Text = "A Instalar as Atualizações ";
+var L_Minute_Text = "minuto ";
+var L_Minutes_Text = "minutos ";
+var L_RListSpeed_Text = "Estimativa do tempo com a sua velocidade de ligação:  ";
+var L_RListDownloadSizeTotal_Text = "Tamanho da transferência (total):  ";
+var L_RListMandatoryTotalUpdates_Text = "Total:  ";
+var L_SucceededAlt_Text = "Bem sucedidas ";
+var L_CancelledAlt_Text = "Cancelado ";
+var L_FailAlt_Text = "Falhada(s) ";
+var L_Product_Text = "Produto ";
+var L_OtherProduct_Text = "Windows ";
+var L_UpdateName_Text = "Atualizar ";
+var L_Status_Text = "Estado ";
+var L_Date_Text = "Data ";
+var L_Source_Text = "Origem ";
+var L_SuccessfulAlt_Text = "Veja quais as atualizações cuja instalação foi bem sucedida ";
+var L_FailedAlt_Text = "Veja quais as atualizações que não se conseguiram instalar ";
+var L_RemainingAlt_Text = "Veja quais as atualizações prioritárias que ainda necessita de instalar ";
+var L_AutomaticUpdates_Text = "Atualizações Automáticas ";
+var L_WindowsUpdate_Text = "Windows Update ";
+var L_MicrosoftUpdate_Text = "Microsoft Update ";
+var L_ManagedServer_Text = "Web site do cliente do Windows Server Update Services ";
+var L_DynamicUpdate_Text = "Atualizações Dinâmicas ";
+var L_DeviceManager_Text = "Gestor de Dispositivos ";
+var L_OperationModeDownload_Text = "A transferir ";
+var L_OperationModeCopying_Text = "A Copiar Ficheiros ";
+var L_OperationModeRegister_Text = "A registar ";
+var L_OtherSource_Text = "Outra Origem ";
+var L_PersonalizationSaveSettingsPrompt_Text = "Alterou as suas definições. Para guardar as definições agora, clique em OK. Para continuar sem as guardar, clique em Cancelar. ";
+var L_Next_Text = "Seguinte ";
+var L_RListBasketUpdatesNotAvailableText_Text = "Não há atualizações selecionadas. ";
+var L_NeedUserData_Text = "É necessário ativar os dados de utilizador para esta funcionalidade ";
+var L_UserDataSaved_Text = "As definições foram guardadas ";
+var L_PersonalizationReloadSite_Text = "Terá de atualizar o site para o ver no novo idioma. As atualizações que tenha selecionado serão desmarcadas. Clique em Cancelar para continuar a instalar as atualizações e ver o site no novo idioma na próxima vez que o visitar. ";
+var L_Previous_Text = "Anterior ";
+var L_ProxyTitle_Text = "Introduzir Credenciais de Proxy ";
+var L_ExpressModeHidden_Text = "A atualização que trata deste problema está oculta. Deseja repô-la na lista de atualizações importantes para que a possa instalar agora? ";
+var L_WerUpdateInstalled_Text = "A atualização pedida já foi instalada. Clique em OK para continuar a instalar outras atualizações disponíveis para o computador. ";
+var L_RListBetaTitle_Text = "Selecionar o Software Beta e Atualizações ";
+var L_RListProductJumpTitle_Text = "Selecionar Atualizações para o  ";
+var L_RListProductJumpDesc_Text = "Para ajudar a proteger o computador, é francamente recomendável instalar todas as atualizações prioritárias. Para selecionar atualizações para outras atualizações de produtos, utilize as opções à esquerda. ";
+var L_RListBetaWarning1_Text = "<b>Aviso</b><br> ";
+var L_RListBetaWarning2_Text = "Não instale software beta no seu computador principal ou no ambiente de produção principal. ";
+var L_RListHighPriWarinng1_Text = "<b>Estão disponíveis mais atualizações prioritárias</b><br/>O computador necessita de atualizações importantes para os outros produtos. É recomendável instalá-las agora para ajudar a proteger o seu computador e programas.  ";
+var L_RListHighPriWarinng2_Text = "Revê-las agora ";
+var L_RListClickForDescription_Text = "Clique aqui para visualizar a descrição desta atualização ";
+var L_RListClickToHideDescription_Text = "Clique aqui para ocultar a descrição desta atualização ";
+var L_RListCriticalUpdates_Text = "Atualizações prioritárias ";
+var L_RListNoCritical_Text = "Não estão disponíveis atualizações prioritárias para o computador. Para selecionar outras atualizações, utilize as opções à esquerda. ";
+var L_RListNOBaketUpdates_Text = "Não selecionou nenhuma atualização. Utilize as opções à esquerda para selecionar de entre as atualizações disponíveis. É francamente recomendável instalar todas as atualizações prioritárias no computador. ";
+var L_RListNOProductUpdates1_Text = "Não está disponível nenhuma atualização para o  ";
+var L_RListNOProductUpdates2_Text = ". Para selecionar atualizações para outros produtos, utilize as opções à esquerda. ";
+var L_RListNOProductCriticalUpdates1_Text = "Não está disponível nenhuma atualização prioritária para o  ";
+var L_RListNOProductCriticalUpdates2_Text = ". ";
+var L_RListNOBaketCriticalUpdates_Text = "Não selecionou nenhuma atualização prioritária. ";
+var L_RListNoCriticalExpress_Text = "Não estão disponíveis atualizações prioritárias para o computador. Para ver se existem atualizações opcionais, volte à home page e clique em <b>Personalizada</b>. ";
+var L_RListNoHidden_Text = "Atualmente não tem atualizações prioritárias ocultas. ";
+var L_RListOptionalHWUpdates_Text = "Atualizações opcionais de hardware ";
+var L_RListNoOptionalHW_Text = "Não está disponível nenhuma atualização opcional de hardware para o computador. Para selecionar outras atualizações, utilize as opções à esquerda. ";
+var L_RListOptionalBetaUpdates_Text = "Software beta e atualizações ";
+var L_RListNoOptionalBeta_Text = "Não está disponível nenhum software beta nem atualizações beta. Para selecionar outras atualizações, utilize as opções à esquerda. ";
+var L_RListOptionalUpdates_Text = "Atualizações opcionais de software ";
+var L_RListNoOptional_Text = "Não está disponível nenhuma atualização opcional de software para o computador. Para selecionar outras atualizações, utilize as opções à esquerda. ";
+var L_RListCriticalUpdatesTitle_Text = "Selecionar Atualizações Prioritárias ";
+var L_RListDeviceUnknown_Text = "O Windows Update recomenda a instalação desta atualização, porque o dispositivo a que este controlador se aplica parece não ter um controlador instalado. ";
+var L_RListDeviceDisabled_Text = "O Windows Update recomenda a instalação desta atualização, porque o dispositivo a que este controlador se aplica parece estar desativado. ";
+var L_RListDeviceProblem_Text = "O Windows Update recomenda a instalação desta atualização, porque o dispositivo a que este controlador se aplica parece não estar a funcionar corretamente. ";
+var L_RListDownloadSize_Text = "Tamanho da transferência:  ";
+var L_RListDownloadSizeTypical_Text = "Tamanho típico da transferência:  ";
+var L_RListDriversTitle_Text = "Selecionar Atualizações de Hardware Opcionais ";
+var L_RListHiddenTitle_Text = "Selecionar Atualizações para Restaurar ";
+var L_RListExpressTitle_Text = "Rever e Instalar Atualizações ";
+var L_RListProductTitle_Text = "Selecionar Atualizações Opcionais de Software ";
+var L_RListBasketTitle_Text = "Rever e Instalar Atualizações ";
+var L_RListHideThisUpdate_Text = "Não voltar a mostrar esta atualização  ";
+var L_RListInfoGifAlt_Text = "Esta atualização já foi transferida para o computador mas, se a selecionar, a sua instalação será concluída (recomendado). ";
+var L_RListItems_Text = "atualizações ";
+var L_RListLessThan_Text = "menos de ";
+var L_RListOtherUpdates_Text = "Selecionar e instalar outras atualizações ";
+var L_RListOtherUpdatesExp_Text = "Só pode selecionar outras atualizações depois de instalar, ou de ter optado por não instalar, as atualizações acima selecionadas. Se não aparecerem atualizações em baixo, veja as opções à esquerda. ";
+var L_RListxpressUpdates_Text = "Atualizações prioritárias ";
+var L_RListBasketExclusiveDescUpdates_Text = "Depois de a instalar, não se esqueça de verificar se existem mais atualizações necessárias ao seu computador. ";
+var L_RListBasketExclusiveUpdates_Text = "Esta atualização tem de ser instalada separadamente ";
+var L_RListExpressxclusive_Text = "Esta atualização é mais abrangente ou aborda mais do que um problema do sistema. Tem de ser instalada separadamente. <br/><b>É aconselhável instalá-la agora e voltar à home page para ver se o computador necessita de outras atualizações prioritárias.</b> ";
+var L_RListReadMore_Text = "Detalhes... ";
+var L_RListSingleInstallationCritical_Text = "<b>Selecionou uma atualização que tem de ser instalada separadamente </b><br/>Essa atualização é de alta prioridade para a segurança e desempenho do computador. É recomendável instalá-la agora.<br/>Para, em vez dessa, instalar outras atualizações, terá de utilizar as opções à esquerda para localizar a atualização selecionada e, nessa página, escolher <b>Selecionar e instalar outras atualizações</b>. ";
+var L_RListSingleInstallationOptional_Text = "<b>Selecionou uma atualização que tem de ser instalada separadamente </b><br/>Se deseja instalar outras atualizações primeiro, terá de utilizar as opções à esquerda para localizar esta atualização e, na mesma página, escolher <b>Selecionar e instalar outras atualizações</b>. ";
+var L_RListSingleInstallationTitle_Text = "Atualização prioritária ";
+var L_RListHiddenCriticalPresent1_Text = "<b>Ocultou algumas atualizações importantes </b><br/>Optou por não ver uma ou mais atualizações prioritárias, mas o seu computador pode estar em risco se não as instalar.  ";
+var L_RListHiddenCriticalPresent2_Text = "Restaurá-las agora ";
+var L_RListYellowBoxTitle_Text = "Importante ";
+var L_RListSelectall_Text = "Selecionar Todas ";
+var L_RListClearall_Text = "Desmarcar Tudo ";
+var L_RListExclusiveSubHeading_Text = "Estas atualizações têm de ser instaladas separadamente ";
+var L_RListExclusiveExp_Text = "As atualizações aqui listadas são mais abrangentes ou abordam mais do que um problema do sistema. É aconselhável instalá-las agora e voltar à home page para ver as restantes atualizações. ";
+var L_RListWerText_Text = "Trata de um problema que reportou ";
+var L_RListVeryHighPriority_Text = "Trata de um problema de segurança de alta prioridade ";
+var L_RListSourceRequired_Text = "É possível que venha a necessitar dos ficheiros de instalação originais para instalar esta atualização ";
+var L_RListZeroSize_Text = "(Transferida; pronta para instalar) ";
+var L_RListZeroSizeAsterisk_Text = "(*Transferida; pronta para instalar) ";
+var L_RList100_Text = "Para ajudar a proteger o computador de ameaças à segurança e de problemas no desempenho, é recomendável instalar todas as atualizações prioritárias. ";
+var L_RList200_Text = "Estas atualizações não são de alta prioridade para a segurança ou desempenho do computador, mas podem melhorar o funcionamento de algumas funcionalidades, programas ou dispositivos. Para ajudar a proteger o computador, instale todas as atualizações prioritárias. ";
+var L_RList200a_Text = "Estas atualizações não são de alta prioridade para a segurança ou desempenho do computador, mas podem melhorar o funcionamento de algumas funcionalidades, programas ou dispositivos. Para ajudar a proteger o computador, instale todas as atualizações prioritárias. ";
+var L_RList400_Text = "Para ajudar a proteger o computador é recomendável restaurar quaisquer atualizações prioritárias que tenha ocultado e ver novamente quais as atualizações de que o computador ainda necessita. ";
+var L_RList600_Text = "O software beta bem como as respetivas atualizações destinam-se apenas para fins de teste e avaliação. Não instale software beta no seu computador principal ou no ambiente de produção principal. ";
+var g_sWUControlVersion = 'TOK_WUCONTROLVERSION';
+var g_sMUControlVersion = 'TOK_MUCONTROLVERSION';
+var g_sSelfupdateUrl = 'http://update.microsoft.com/windowsupdate/v6/selfupdate.aspx';
+
+		</script>
+	</head>
+	<noscript>
+		<frameset rows='116, *, 60' border='0'><frame name='eToolbar'  class='storeUserData' src='mstoolbar.aspx?ln=pt-BR&error=1' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='200,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=pt-BR&error=1' /><frame name='eContent'  src='errorinformation.aspx?ln=pt-BR&error=1' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=pt-BR&error=1' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+	</noscript>
+	<frameset rows='116, *, 60' border='0'><frame name='eToolbar'  class='storeUserData' src='mstoolbar.aspx?ln=pt-BR' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='200,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=pt-BR' /><frame name='eContent'  src='splash.aspx?page=0&ln=pt-BR' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=pt-BR' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+</html>

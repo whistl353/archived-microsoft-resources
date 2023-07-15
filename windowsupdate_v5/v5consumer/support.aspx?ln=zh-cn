@@ -1,0 +1,55 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=gb2312' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+	</head>
+	<body onload="fnInit(6, -1);">
+		<span class="sys-font-heading3 sys-rhp-color-title">关于使用 Windows Update 的帮助和支持</span><br />
+		<br>
+		<div class="8pt">
+			<a name="SolveProblems"><b>自行解决问题</b></a><br /><br />
+			<div style = "margin-left : 40">
+				<a href="about.aspx?ln=zh-cn" target="eContent" class="sys-link-normal"> 阅读 Windows Update FAQ				
+		</a>
+				 <br> 查看关于使用 Windows Update 网站、故障排除、如何更新网络等常见问题的解答。
+		
+				<br> <br><a href="troubleshoot.aspx?ln=zh-cn" target="eContent" class="sys-link-normal">尝试 Windows Update 疑难解答
+		</a>
+				<br>根据错误说明或每个 Windows Update 错误消息中显示的错误号搜索帮助信息以获取解决方法的详细操作步骤。
+		
+				<br> <br><a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=9581' target='_blank' >查看 Microsoft 新闻组</a><br>
+				查看是否有人提供能够解决您的问题的方法，或发布问题相关信息以求助于其他用户。(有些讨论只有英文版。)
+		
+			</div>
+			<br><br>
+			<a name="Assistance"><b>获取帮助</b></a><br /><br />
+			<div style = "margin-left : 40">
+				 <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=25127' target='_blank'>访问 Windows Update 支持中心</a><br>
+				查找指向知识库(KB)文章和其他资源(包括电子邮件支持、在线支持和电话支持)的链接。(某些情况下可能需要付费。)如果所有信息都只有英文版，您可以从<a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=27099' target='_blank' >您所在的国家或地区</a>的 Microsoft 获取其他帮助。
+		
+				<br><br> <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=21608' target='_blank'>发送问题报告</a><br>
+				如果通过上述方式不能解决问题，请填写在线报告，告知技术支持人员与您联系的最佳方式。如果该表单不适用于您所在的国家或地区，请<a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=27099' target='_blank' >通过电话</a>获取技术支持。
+						 
+			</div>
+			<br><br>
+			<hr style="color:#cccccc;height:3px">
+			<br><br>
+			<a name="Beta"><b>对于预发布的(试用版)软件的支持</b></a><br /><br />
+			<div style = "margin-left : 40">
+				对于预发布软件的支持因产品而异。我们强烈建议您在安装预发布的软件或更新程序之前阅读提供的详细信息。
+		
+			</div>
+		</div>
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' /> 
+	</body>
+</html>

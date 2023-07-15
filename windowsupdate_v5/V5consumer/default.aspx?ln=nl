@@ -1,0 +1,157 @@
+
+
+<html dir="ltr">
+	<head>
+		<META http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+		<META http-equiv="Content-Type"  content="text/html;charset=windows-1252" />
+		<META http-equiv="MSThemeCompatible" content="Yes" />
+		<META NAME="DESCRIPTION" CONTENT="Haal de laatste updates voor het besturingssysteem, de software en de hardware van uw computer op. Windows Update scant uw computer en toont de updates die voor uw computer van belang zijn."> 
+		<META NAME="MS.LOCALE" CONTENT="nl">
+		<META NAME="keywords" CONTENT="Windows Update; update; security; secure; up-to-date; download; driver; patch; fix; hotfix; QFE; bug; critical; high priority; service pack; Automatic Updates; Windows XP; Windows 2000; Windows Server 2003; WinXP; Win2k; Win2000; WS2k3; WS2003; .NET Server; SP">
+		<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+		<title>Microsoft Windows Update</title>
+		<object id="SusWebCtl" VIEWASTEXT></object>
+		<script language="javascript" type="text/javascript">
+			var curSite = 5;
+			var g_sDownForMaintenance2K = "";
+			var g_sDownForMaintenanceXP = "";
+			var g_sDownForMaintenance2003 = "";
+			var g_sDownForMaintenanceLonghorn = "";
+			
+		</script>
+		<script language="javascript" type="text/javascript" src="shared/js/tgar.js?16-6-2004 2:30:39"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/redirect.js?16-6-2004 2:30:39"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/commontop.js?16-6-2004 2:30:39"></script>
+		<script id="top2" language="javascript" type="text/javascript" defer="true"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/survey.js?16-6-2004 2:30:39"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/spupdateids.js?16-6-2004 2:30:39"></script>
+		
+		 
+			<script language="javascript" type="text/javascript">
+				function fnSupressError(sMessage, sURL, sLine){ return true; }
+				window.onerror = fnSupressError ;
+			</script>
+		
+		<script language="javascript" type="text/javascript" defer="true">
+			var conQueryString = "ln=nl"; 
+			var conRTL = false;
+			var conDevServer = false;
+			var conCriticalUpdatesMode = false;
+			var conLangCode = "nl";
+			var conConsumerURL = "/v5consumer/";
+			var L_ScanForAvailableUpdates_Text = "Updates voor programma's";
+var L_ReloadingSiteText_Text = "De site Windows Update is nog niet helemaal geopend.\n			Klik op OK als u wilt wachten.\n			Klik op Annuleren als u wilt dat Windows Update de site nogmaals probeert te openen.";
+var L_MB_Text = "MB";
+var L_KB_Text = "kB";
+var L_Hour_Text = "uur";
+var L_Hours_Text = "uren";
+var L_InstallTitle_Text = "Updates installeren";
+var L_Minute_Text = "minuut";
+var L_Minutes_Text = "minuten";
+var L_RListNoUpdatesToInstall_Text = "Er zijn geen updates geselecteerd om te installeren";
+var L_StatusSucceeded_Text = "Geslaagd";
+var L_StatusFailed_Text = "Mislukt";
+var L_StatusAborted_Text = "Geannuleerd";
+var L_UpdateName_Text = "Updatenaam";
+var L_Status_Text = "Status";
+var L_Date_Text = "Datum";
+var L_Source_Text = "Bron";
+var L_AutomaticUpdates_Text = "Automatische updates";
+var L_WindowsUpdate_Text = "Website Windows Update";
+var L_ManagedServer_Text = "Clientwebsite van Windows Update Services";
+var L_DynamicUpdate_Text = "Dynamische updates";
+var L_DeviceManager_Text = "Apparaatbeheer";
+var L_OperationModeDownload_Text = "Downloaden";
+var L_OperationModeCopying_Text = "Bestanden kopiëren";
+var L_OperationModeRegister_Text = "Registreren";
+var L_OtherSource_Text = "Andere bron";
+var L_PersonalizationSaveSettingsPrompt_Text = "U hebt de instellingen gewijzigd. Klik nu op OK om de instellingen op te slaan. Klik op Annuleren om door te gaan zonder de instellingen op te slaan.";
+var L_Next_Text = "Volgende";
+var L_RListBasketUpdatesNotAvailableText_Text = "Er zijn geen updates geselecteerd.";
+var L_NeedUserData_Text = "Need to enable userdata for this feature";
+var L_UserDataSaved_Text = "De instellingen zijn opgeslagen";
+var L_PersonalizationReloadSite_Text = "De taalinstellingen zijn opgeslagen. Windows Update moet de site vernieuwen om de nieuwe taal te kunnen weergeven. De keus van uw updates wordt opnieuw ingesteld. Wilt u dit nu doen?";
+var L_Previous_Text = "Vorige";
+var L_ProxyTitle_Text = "Gebruikersnaam en wachtwoord voor proxy invoeren";
+var L_ExpressModeHidden_Text = "U kunt met Windows Update en Automatische updates de updates verbergen die u niet meer wenst. De update die nu nodig is, was verborgen. Wilt u de update herstellen zodat u deze kunt installeren?";
+var L_WerUpdateInstalled_Text = "De vereiste update is al geïnstalleerd. Klik op OK om door te gaan met het installeren van andere updates die voor uw computer beschikbaar zijn.";
+var L_RListBetaDescription_Text = "Voor uw computer zijn de volgende bèta-updates beschikbaar. Selecteer de updates die u wilt installeren en klik vervolgens op de koppeling Updates installeren.";
+var L_RListBetaTitle_Text = "Optionele bèta-updates selecteren";
+var L_RListBetaWarning1_Text = "<b>Bètasoftware kan schadelijk zijn voor uw computer</b><br>";
+var L_RListBetaWarning2_Text = "Voorlopige versies of bètaproducten (software), of updates voor bètasoftware kunnen schadelijk zijn voor uw computer, en Microsoft biedt hiervoor wellicht slechts beperkte ondersteuning.";
+var L_RListClickForDescription_Text = "Klik om de beschrijving van deze update weer te geven";
+var L_RListClickToHideDescription_Text = "Klik om de beschrijving van deze update te verbergen";
+var L_RListCriticalUpdates_Text = "Essentiële updates";
+var L_RListCriticalUpdatesBar_Text = "Essentiële updates";
+var L_RListCriticalUpdatesTitle_Text = "Essentiële updates controleren";
+var L_RListDeviceUnknown_Text = "Windows Update raadt u aan deze update te installeren omdat voor het apparaat dat op uw computer is aangesloten waarop dit stuurprogramma van toepassing is, geen stuurprogramma is geïnstalleerd.";
+var L_RListDeviceDisabled_Text = "Windows Update raadt u aan deze update te installeren omdat het apparaat dat op uw computer is aangesloten waarop dit stuurprogramma van toepassing is, lijkt te zijn uitgeschakeld.";
+var L_RListDeviceProblem_Text = "Windows Update raadt u aan deze update te installeren omdat het apparaat dat op uw computer is aangesloten waarop dit stuurprogramma van toepassing is, niet goed werkt.";
+var L_RListDownloadSize_Text = "Downloadgrootte: ";
+var L_RListDownloadSizeTypical_Text = "Normale downloadgrootte: ";
+var L_RListDriversDescription_Text = "Voor uw computer zijn de volgende optionele updates beschikbaar. Selecteer de updates die u wilt installeren en klik vervolgens op de koppeling Updates installeren.";
+var L_RListDriversTitle_Text = "Optionele hardware-updates selecteren";
+var L_RListHiddenTitle_Text = "Verborgen updates herstellen";
+var L_RListHiddenUpdatesBar_Text = "Verborgen updates";
+var L_RListHideThisUpdate_Text = "Deze update verbergen";
+var L_RListInfoGifAlt_Text = "Deze updates is al naar uw computer gedownload. Als dit onderdeel is geselecteerd, wordt de installatie door Windows Update voltooid.";
+var L_RListItems_Text = "items";
+var L_RListLessThan_Text = "kleiner dan";
+var L_RListNoUpdatesAvailable_Text = "Er zijn geen updates beschikbaar";
+var L_RListOptionalBetaUpdatesBar_Text = "Optionele bèta-updates";
+var L_RListOptionalHardwareUpdatesBar_Text = "Optionele hardware-updates";
+var L_RListOptionalSoftwareUpdatesBar_Text = "Optionele software-updates";
+var L_RListOptionalUpdates_Text = "Optionele updates";
+var L_RListOtherUpdates_Text = "Overige updates";
+var L_RListOtherOptionalUpdates_Text = "Overige optionele updates";
+var L_RListOtherCriticalUpdates_Text = "Overige essentiële updates";
+var L_RListProductTitle_Text = "Optionele software-updates selecteren";
+var L_RListReadMore_Text = "Details...";
+var L_RListSingleInstallation_Text = "<b>Voor deze installatie is een aparte update geselecteerd </b><br/>De updates op deze pagina zijn momenteel niet beschikbaar omdat een aparte update voor de installatie is geselecteerd. Deze update kan niet tegelijk met andere updates worden geïnstalleerd. Na de installatie kunt u terugkeren naar Windows Update om andere updates voor uw computer te selecteren.";
+var L_RListSingleInstallationTitle_Text = "Aparte installatie:";
+var L_RListUpdates_Text = "updates";
+var L_RListHiddenCriticalPresent1_Text = "<b>Sommige essentiële updates zijn verborgen</b><br/>Microsoft raadt u aan alle essentiële updates te installeren om de beveiliging te waarborgen. Ga naar de pagina ";
+var L_RListHiddenCriticalPresent2_Text = "Verborgen updates herstellen";
+var L_RListHiddenCriticalPresent3_Text = " om de verborgen updates te installeren.";
+var L_RListSelectall_Text = "Alles selecteren";
+var L_RList100_Text = "Updates met een hoge prioriteit zijn essentiële updates en updates voor de beveiliging.";
+var L_RList101_Text = "Er zijn geen essentiële updates voor de installatie geselecteerd. Microsoft raadt u aan essentiële updates te installeren om uw computer up-to-date en beveiligd te houden. Klik op een van de koppelingen voor optionele updates onder de koppeling Introductiepagina als u optionele updates voor uw computer wilt zien.";
+var L_RList102a_Text = "Microsoft raadt u ten zeerste aan om de volgende essentiële updates te installeren om uw computer up-to-date en beveiligd te houden.";
+var L_RList102b_Text = "<b>Aparte installatie-updates kunnen niet tegelijk met andere updates worden geïnstalleerd.</b> <br>Selecteer of u eerst een aparte installatie-update wilt installeren of alle andere essentiële updates wilt installeren en klik vervolgens op de koppeling Updates installeren. Keer na de installatie terug naar Windows Update om de resterende updates te installeren.";
+var L_RList103_Text = "Microsoft raadt u ten zeerste aan de volgende aparte essentiële updates te installeren om uw computer up-to-date en beveiligd te houden. Klik hiertoe op de koppeling Updates installeren.";
+var L_RList104_Text = "Microsoft raadt u ten zeerste aan de volgende essentiële updates te installeren om uw computer up-to-date en beveiligd te houden. Klik hiertoe op de koppeling Updates installeren.";
+var L_RList105a_Text = "Microsoft raadt u ten zeerste aan om de volgende essentiële updates te installeren om uw computer up-to-date en beveiligd te houden.";
+var L_RList105b_Text = "<b>Aparte installatie-updates kunnen niet tegelijk met andere updates worden geïnstalleerd.</b> <br>Selecteer de aparte installatie-updates die u wilt installeren en klik vervolgens op de koppeling Updates installeren. Keer na de installatie terug naar Windows Update om de resterende updates te installeren.";
+var L_RList200_Text = "Optionele updates zijn niet-essentiële updates die u wellicht wilt installeren.";
+var L_RList201_Text = "Er zijn geen optionele updates beschikbaar.";
+var L_RList202a_Text = "Voor uw computer zijn de volgende optionele updates beschikbaar.";
+var L_RList202b_Text = "<b>Aparte installatie-updates kunnen niet tegelijk met andere updates worden geïnstalleerd.</b> <br>Selecteer of u eerst een aparte installatie-update wilt installeren of alle andere optionele updates wilt installeren en klik vervolgens op de koppeling Updates installeren. Keer na de installatie terug naar Windows Update om de resterende updates te installeren.";
+var L_RList203_Text = "Voor uw computer zijn de volgende optionele updates beschikbaar. Aparte installatie-updates kunnen niet tegelijk met andere updates worden geïnstalleerd. Selecteer eerst de updates die u wilt installeren en klik vervolgens op de koppeling Updates installeren. Na de installatie kunt u de resterende updates installeren.";
+var L_RList204_Text = "Voor uw computer zijn de volgende optionele updates beschikbaar. Selecteer de updates die u wilt installeren en klik vervolgens op de koppeling Updates installeren.";
+var L_RList205a_Text = "Voor uw computer zijn de volgende optionele updates beschikbaar.";
+var L_RList205b_Text = "<b>Aparte installatie-updates kunnen niet tegelijk met andere updates worden geïnstalleerd.</b> <br>Selecteer de aparte installatie-update die u wilt installeren en klik vervolgens op de koppeling Updates installeren. Keer na de installatie terug naar Windows Update om de resterende updates te installeren.";
+var L_RList300_Text = "Op deze pagina vindt u een overzicht van de geselecteerde updates die nog moeten worden geïnstalleerd.";
+var L_RList301_Text = "Er zijn geen te installeren updates geselecteerd. Als u de beschikbare updates voor uw computer wilt zien, klikt u onder de koppeling Introductiepagina op de koppeling Essentiële update of Optionele update.";
+var L_RList302_Text = "Microsoft raadt u ten zeerste aan de volgende essentiële updates te installeren om uw computer up-to-date en beveiligd te houden. Klik op Installeren om deze updates te installeren.";
+var L_RList303_Text = "Klik op Installeren om de volgende optionele updates te installeren.";
+var L_RList304_Text = "Microsoft raadt u ten zeerste aan de volgende essentiële en optionele updates te installeren om uw computer up-to-date en beveiligd te houden. Klik op Installeren om deze updates te installeren.";
+var L_RList400_Text = "Verborgen updates zijn updates die uit de lijst met beschikbare updates zijn verwijderd.";
+var L_RList401_Text = "Er zijn geen verborgen updates. U kunt een update verbergen door op de naam van de update te klikken en het selectievakje 'Deze update verbergen' in te schakelen.";
+var L_RList402_Text = "<P><b>Aparte installatie-updates kunnen niet tegelijk met andere updates worden geïnstalleerd.</b><br> Selecteer eerst de aparte updates die u wilt installeren en klik vervolgens op de koppeling Updates installeren. Na de installatie kunt u de resterende updates installeren.";
+var L_RList403_Text = "<P><b>Aparte installatie-updates kunnen niet tegelijk met andere updates worden geïnstalleerd.</b><br> Selecteer eerst de aparte updates die u wilt installeren en klik vervolgens op de koppeling Updates installeren. Na de installatie kunt u de resterende updates installeren.";
+var L_RList404_Text = "Als u een verborgen update wilt installeren, schakelt u het selectievakje in en klikt u vervolgens op de koppeling Updates installeren.";
+var L_RList405_Text = "<P><b>Aparte installatie-updates kunnen niet tegelijk met andere updates worden geïnstalleerd.</b><br> Selecteer eerst de aparte updates die u wilt installeren of installeer andere updates en klik vervolgens op de koppeling Updates installeren. Na de installatie kunt u de resterende updates installeren.";
+var L_RList500_Text = "Met de Snelle installatie kunt u de essentiële updates en beveiligingsupdates die uw computer nodig heeft snel downloaden en installeren.";
+var L_RList501_Text = "Microsoft raadt u ten zeerste aan de volgende essentiële updates te installeren om uw computer up-to-date en beveiligd te houden. Klik op Installeren om deze updates te installeren.";
+var L_RList502_Text = "Uw computer lijkt up-to-date. Er zijn op dit moment geen essentiële updates of beveiligingsupdates beschikbaar. Als u de optionele updates voor uw computer wilt bekijken, klikt u op de koppeling Introductiepagina en klikt u vervolgens op Aangepaste installatie. Windows Update zoekt vervolgens naar optionele updates. U kunt de updates controleren voordat deze worden gedownload.";
+var L_RList600_Text = "De updates op deze pagina zijn bètasoftware of updates voor bètasoftware die op uw computer is geïnstalleerd.";
+var L_RList700_Text = "Op deze pagina vindt u updates die updates voor stuurprogramma's zijn…";
+var g_sControlVersion = '3790.2150';
+
+		</script>
+	</head>
+	<noscript>
+		<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=nl&error=1' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=nl&error=1' /><frame name='eContent'  src='errorinformation.aspx?ln=nl&error=1' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=nl&error=1' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+	</noscript>
+	<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=nl' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=nl' /><frame name='eContent'  src='splash.aspx?page=0&ln=nl' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=nl' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+</html>

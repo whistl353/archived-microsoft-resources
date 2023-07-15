@@ -1,0 +1,128 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+ 
+<script language="javascript">
+	var iUpdate = parent.g_iSPPresentIndex; 
+	function fnDisplaySP() {
+		var oUpdate = parent.g_UpdateCol(iUpdate);
+		var aUpdate = parent.g_aUpdate[iUpdate];
+		parent.eTOC.eHidden.onclick = null;
+		parent.eTOC.fnEnableLink(parent.eTOC.eHidden, false);
+		parent.eTOC.fnLinkSelect(parent.eTOC.eBasketUpdates);
+		
+		if(aUpdate.IsHidden) {
+			Why.style.display = "block";
+		}
+		
+		var sTitle = parent.fnSanitize(oUpdate.Title);
+		title1.innerText = title2.innerText = title3.innerText = sTitle;
+		
+		var sUpdateDescription = parent.fnSanitize(oUpdate.Description);
+		var sUpdateDetails = "&nbsp;&nbsp;<a href='javascript:fnDisplaySPDetails(\"" + iUpdate + "\");' style='color:blue;text-decoration:underline' >" + parent.L_RListReadMore_Text + "</a>";
+
+		var	vSize = aUpdate.Size;
+		if (vSize == null) {
+			vSize = "1000";
+		}
+		var iSize = parseInt(vSize);
+		var sSizeText = parent.fnGetDownloadSizeText(iSize);
+		if(iSize == 0) {
+			sSizeText += "&nbsp;<img src='shared/images/info_16x.gif' title='" + parent.L_RListInfoGifAlt_Text + "'>";
+		}
+
+		var	str = "Downloadgröße: " + sSizeText + "<div class='update'>" + sUpdateDescription;
+		str += sUpdateDetails + "</div>"; 
+		SPDiv.innerHTML = str;
+	}
+
+	function fnDisplaySPDetails(iUpdate) {
+		parent.fnTrace("fnDisplayDetails");
+		var sWindowName = "window" + iUpdate;
+		var sURL= "itemdetails.aspx?iPage=0&index=" + iUpdate + "&"  +  parent.conQueryString;
+		window.open(sURL, sWindowName, "directories=no,width=400,height=400,location=no,menubar=no,status=no,toolbar=no,resizable=yes,scrollbars=yes,top = 100,left = 100");
+	}
+	function fnInstallSP() {
+		parent.fnInstallUpdates(iUpdate);
+	}
+	function fnRescanSP() {
+		parent.g_bSPMode = true;
+		parent.fnInitScan();
+	}
+
+</script>
+</head>
+<body onLoad="fnDisplaySP()">
+
+<table id="SPBnr" cellpadding=0 cellspacing=0 border=0 style="position:relative;left:-16;top:-10;">
+
+	<tr>
+		<td align="left" valign="top" height=40 width=170><img src="shared/images/SP2_banner.jpg"></td>
+		<td align="left" valign="top" height=40 width=100% style="background-color:#0067a1">
+		<nobr><div style="font-size:16px;color:#ffffff;padding-left:20px;">			
+		<b>Windows XP Service Pack 2<br>mit Advanced Security Technologies</b></div></nobr></td>
+	</tr>
+</table>
+<br />
+<div style="position:relative;top:-10;"
+	<p>Microsoft empfiehlt besonders, Folgendes zu installieren:<br />
+	<span id="title1" style="margin-left:20px;font-weight:bold"></span><br/><br/>
+	<div id="Why" style="display:none;">
+		<div style="padding:3px;border:1px solid #CECECE;background-color:#ffffce">
+			<table cellpadding=5 cellspacing=0 border=0>
+				<tr><td width=23 align="left" valign="top">
+					<img src="shared/images/info_16x.gif"></td>
+					<td align="left" valign="top">
+					<b>Warum wird mir ein Update angeboten, das ich zuvor ausgeblendet habe?</b><br />
+					<span id="title2"></span>&nbsp; ist ein wichtiges Update, damit Sie nicht nur in Bezug auf Sicherheit auf dem neuesten Stand bleiben. Microsoft empfiehlt besonders, dieses Update zu installieren. </td>
+				</tr>
+			</table>
+		</div><br />
+	</div>
+	
+	Die Features in diesem Service Pack wurden entwickelt, um Viren, Würmer und andere Sicherheitsrisiken abzuwehren.
+	<a href="http://go.microsoft.com/fwlink/?LinkId=26348" target="_blank" class="sys-link-normal">Was ist in SP2 neu?</a><br/><br/>
+	Um Ihren Computer auf dem neuesten Stand zu halten, können Sie:<br/><br/>
+	<div style="padding-left:20px;">
+		<table cellpadding=0 cellspacing=0 border=0>
+			<tr><td	width="60%"	align="left" valign="bottom">
+					<b>Downloaden und installieren Sie es jetzt.</b><br>
+		<ul><li>Optimal für Hochgeschwindigkeits- und Breitband-Internetverbindungen.</li>
+		<li>Nach Unterbrechungen wird der Downloadvorgang bei der nächsten Internetverbindung fortgesetzt.</li>
+		<li><a href="http://go.microsoft.com/fwlink/?LinkId=26347" target="_blank" class="sys-link-normal">Was Sie vor der Installation wissen sollten...</a></li></td>
+				<td width="40%" align="right" valign="top">
+					<button style="width:220" onclick="fnInstallSP();">Jetzt downloaden und installieren</button></td>
+			</tr>
+		</table>
+		<div class="gradGray" style="margin-top:8px;margin-bottom:-5px;"></div>
+		<div id="SPDiv" style="padding:3px;" class="gradYellow"></div>
+		<div class="gradGray"></div><br />
+	</div>
+	<hr style="color:#CECECE;height:2px;"><br />
+	<div style="padding-left:20px;">
+		<table cellpadding=0 cellspacing=0 border=0>
+			<tr><td	width="60%" align="left" valign="top">
+					<b>Andere Updates installieren</b><br />
+					Wenn Sie &nbsp;<span id="title3"></span>&nbsp;nicht installieren, sind möglicherweise dennoch andere Updates für Ihren Computer geeignet.</td>			
+				<td width="40%" align="right" valign="top">
+					<button style="width:220" onclick="fnRescanSP();">Andere Updates überprüfen</button></td>
+			</tr>
+		</table>
+	</div>
+	<P>
+	<hr style="color:#0067a1;height:2px;"><br />
+	</P>
+</div>	
+<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+</body>
+</html>

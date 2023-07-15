@@ -1,0 +1,57 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+	<script language="javascript">
+	var oWindow
+		function fnOpenDriverInfo(){
+			oWindow = window.open("driversquery.xml","DriverInfo","toolbar=0,menubar=0,scrollbars=1");
+			oWindow.focus();
+		}
+	</script>
+	</head>
+	<body onload="fnInit(-1, -1);">
+		<span class="sys-font-heading3 sys-rhp-color-title">Datenschutzrichtlinie von Windows Update</span><br />
+		Letzte Aktualisierung 15.4.2004<P>			
+		Microsoft tritt für den Schutz Ihrer Privatsphäre ein.<P>
+		<b>Welche Daten werden abgerufen - und warum?</b><br />
+		Windows Update ruft bei jedem Besuch allgemeine Systeminformationen von Ihrem Computer ab, damit Sie die am besten geeigneten Updates für den Computer erhalten. Die Informationen werden auch dazu verwendet, Statistiken über die Verwendung der Site und die zu unterstützenden Systeme zu führen. Mit diesen Statistiken können wir den Service verbessern. Diese Informationen umfassen:<br /><br />
+		<div style="margin-left:5px;">
+		<UL>
+			<li>Computerfabrikat und -modell</li>
+			<li>Versionsinformationen für das Betriebssystem, den Browser und andere Microsoft-Software, für die Updates verfügbar sein könnten</li>
+			<li>Plug & Play-Kennungsnummern für Hardwaregeräte </li>
+			<li>Einstellungen für Sprache und Gebietsschema </li>
+			<li><span title="Eine lange Nummer, die von Windows zur eindeutigen Identifikation Ihres Computers erzeugt wird. Der GUID enthält keine Informationen, mit denen Sie identifiziert werden können.">GUID (Globally Unique Identifier)</span></li>
+			<li>Product ID und Product Key </li>
+			<li>BIOS-Name, -Versionsnummer und -Versionsdatum </li>
+		</UL><P></div>
+		<span title="Die Technologiestandards und technischen Spezifikationen, mit denen Informationen von einem Netzwerk zu einem anderen Netzwerk über das Internet weitergeleitet werden können. Auf diese Weise tauschen Netzwerke Daten untereinander aus.">Ihre IP-Adresse wird protokolliert, wenn Sie eine Verbindung mit der Windows Update-Site herstellen. Diese Adresse wird jedoch nur zum Erstellen von Statistiken verwendet.</span><P>
+		<b>Wie werden die Daten verwendet?</b><br />
+		Von Windows Update werden die Product ID und der Product Key abgerufen, um sicherzustellen, dass Sie über eine gültig lizenzierte Version von Windows verfügen. Die abgerufene Product ID und der Product Key werden nur für die Zeit der Windows Update-Sitzung benötigt, wenn die Product ID gültig ist.<p>Um korrekte Statistiken erstellen zu können, überprüft Windows Update einen GUID (Globally Unique Identifier), der auf Ihrem Computer gespeichert ist, um diesen eindeutig zu identifizieren. Der GUID enthält keine Informationen, mit denen Sie identifiziert werden können. Ein GUID wird in folgenden Fällen zugewiesen und protokolliert:<P>
+		<div style="margin-left:30px;">
+		<ul>
+			<li>Um den Kunden den bestmöglichen Service bieten zu können, protokolliert Windows Update, wie viele unterschiedliche Computer auf die Site zugreifen und ob Download und Installation bestimmter Updates erfolgreich durchgeführt werden oder fehlschlagen. Windows Update zeichnet den GUID des Computers auf, der den Download gestartet hat, die ID des Elements, das angefordert werden sollte, ob Updates erforderlich waren, und die oben genannten Konfigurationsinformationen.<p></li>
+			<li>Windows Update protokolliert einen weiteren GUID, wenn Sie Antworten über die Nützlichkeit der Hilfe und der Artikel zur Problembehandlung bei der Fehlerbehebung übermitteln. Dadurch kann Ihnen Windows Update immer bessere und zutreffendere Informationen zur Verfügung stellen.<p></li>
+			<li>Microsoft sammelt Informationen darüber, welche Seiten unsere Kunden bei microsoft.com besuchen, einschließlich der Seiten von Windows Update. Diese Informationen können folgende Daten beinhalten: Ihre IP-Adresse, Browsertyp, Betriebssystem, Domänenname, Zugriffszeiten und verweisende Websiteadressen. Diese Daten zum Sitebesuch werden nur durch eine eindeutige ID-Nummer identifiziert, die ausschließlich für diesen Zweck verwendet wird.<p></li>
+		</ul>
+		</div>
+		<b>Informationen zu Umfragen</b><br />
+		Möglicherweise werden Sie gelegentlich eingeladen, an einer freiwilligen Umfrage über Ihre Verwendung der Windows Update-Website teilzunehmen. Zu jeder Umfrage gehört eine Datenschutzrichtlinie, in der die Bedingungen und die Verwendung aller Informationen beschrieben werden, die Sie im Rahmen der Umfrage übermitteln.<P>
+		<b>Beispieldaten anzeigen</b><br />
+		Wenn Sie dennoch Bedenken wegen der Daten haben, die zum Ermitteln der geeigneten Updates für Ihren Computer ausgewertet werden, können Sie 
+		<a class="sys-link-normal" href="javascript:fnOpenDriverInfo();"> sich ein Beispiel der Informationen anzeigen lassen, die von Microsoft von Ihrem Computer abgerufen werden</a>
+		. Die gezeigten Daten sind Beispieldaten. Die einzelnen Ergebnisse sind je nach spezifischer Computerkonfiguration unterschiedlich.<P>
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+	</body>
+</html>

@@ -1,0 +1,85 @@
+<script language='JScript' type='text/javascript'>
+ var sArticleId = 11;
+var sTimeAtTarget = '02/06/2006';
+var sOSLocale =  'es';
+</script><html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+
+<script language="JScript" type="text/javascript" src="shared/js/troubleshooter.js"></script>		
+
+	</HEAD>
+	<body>
+
+	<table height=100%>
+		<tr valign=top>
+			<td>	
+				<div align=right>
+					<a class="sys-link-normal" href="javascript:window.print();">Imprimir</a> | <a class="sys-link-normal" href="javascript:window.close();" id="closelink">Cerrar</a>
+				</div>
+				<form name="Form1" method="post" action="showarticle.aspx?articleid=11&amp;ln=es" id="Form1">
+<input type="hidden" name="__VIEWSTATE" value="dDw2NjgyNzYyNzs7Pg==" />
+
+					<span id="problemtitle" style="FONT-SIZE:120%">Al buscar actualizaciones disponibles en el sitio de Windows Update, aparece el error 0x80248013</span>
+					<br>
+					<br>
+					<span id="problemtext"><b>Descripción del problema</b><br><br>Este error se puede producir porque el contenido de las carpetas Almac&#233;n de datos o Descarga no coincide</span>
+					<br>
+					<br>
+					<span id="operatingsystems"><b>Sistemas operativos aplicables</b><br><br><UL><LI>Windows 2000</LI><br><LI>Windows XP</LI><br><LI>Windows Server 2003</LI><br></UL></span>
+					<br>
+					<br>
+					<table id="resolutions" border="0">
+	<tr>
+		<td><b>Resoluciones</b></td>
+	</tr><tr>
+		<td><div style='margin-bottom:-30px;'>1. 
+Detenga el servicio Actualizaciones autom&#225;ticas, borre el contenido de las carpetas Almac&#233;n de datos o Descarga y reinicie el servicio Actualizaciones autom&#225;ticas.<br>
+<ol style='margin-left:30px'><li>Detenga el servicio Actualizaciones autom&#225;ticas.</li>
+<ol style='margin-left:30px'><li>Haga clic en <b>Inicio</b>.</li>
+<li>Seleccione <b>Ejecutar</b>.</li>
+<li>En el cuadro <b>Ejecutar</b>, escriba <b>services.msc</b>.</li>
+<li>Haga clic en <b>Aceptar</b>.</li>
+<li>Haga clic con el bot&#243;n secundario en el servicio <b>Actualizaciones autom&#225;ticas</b>.</li>
+<li>Seleccione <b>Propiedades</b>.</li>
+<li>En <b>Estado del servicio</b>, haga clic en <b>Detener</b>.</li>
+<li>Haga clic en <b>Aceptar</b>.</li></ol>
+<li>Borre el contenido de las carpetas Almac&#233;n de datos o Descarga.</li>
+<ol style='margin-left:30px'><li>Haga clic en <b>Inicio</b>.</li>
+<li>Seleccione <b>Ejecutar</b>.</li>
+<li>En el cuadro <b>Ejecutar</b>, escriba <b>%windir%\SoftwareDistribution</b>.</li>
+<li>Haga clic en <b>Aceptar</b>.</li>
+<li>Borre el contenido de las carpetas Almac&#233;n de datos y Descarga.</li></ol>
+<li>Inicie el servicio Actualizaciones autom&#225;ticas</li>
+<ol style='margin-left:30px'><li>Haga <br><br>¿Consiguió resolver así el problema?</div><br></td>
+	</tr><tr>
+		<td><INPUT type=button style='width:100;padding-top:-20px' value='Sí' id='btnYes13' onclick='fnPingback(&quot;yes&quot;,13)'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT type='button' style='width:100;padding-top:-20px' value='No' id='btnNo13' onclick='fnPingback(&quot;no&quot;,13)'><br><br></td>
+	</tr>
+</table>
+					<br>
+					<br>
+					<span id="KBArticleText"></span>
+					<br>
+				</form>
+				<br>
+				</div>	
+			</td>
+		</tr>	
+		<tr HEIGHT="20">
+			<td>Su respuesta es anónima y se utilizará para mejorar el contenido del sitio.</td>		
+		</tr>		
+	</table>	
+		<IFRAME ID="pingback2" src="blank.aspx" HEIGHT=0 WIDTH=0></IFRAME> 
+	</body>
+</HTML>

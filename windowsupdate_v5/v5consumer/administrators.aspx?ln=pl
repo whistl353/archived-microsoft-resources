@@ -1,0 +1,50 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1250' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+ 
+	</head>
+	<body onload="fnInit(14, -1);">
+	
+		<span class="sys-font-heading3 sys-rhp-color-title">Opcje administratora</span><br />
+	        <br>
+			<div class="8pt">
+
+			<b>Zaktualizuj wiele systemów operacyjnych<br /></b>
+			Aby wybrać aktualizację spośród wydanych dla wszystkich systemów operacyjnych Windows, w tym aktualizacji oprogramowania serwerów i aktualizacji sterowników (sprzętu), przeszukaj <a href="http://go.microsoft.com/fwlink/?LinkId=8973" target="_blank" class="sys-link-normal">Katalog rozszerzenia Windows Update</a>.<br /><br />
+			<b>Zarządzaj procesem aktualizacji w sieciach<br /></b>
+			Aby zaktualizować systemy operacyjne Windows i inne produkty firmy Microsoft chronione zaporą firmową, skorzystaj z <a href="http://go.microsoft.com/fwlink/?LinkId=24462" target="_blank" class="sys-link-normal">Usług Windows Update</a>. Rozwiązanie to (poprzednio znane jako Usługi aktualizacji oprogramowania, SUS, 2.0) pomaga administratorom określać systemy do rozmieszczenia, sterować interakcją użytkowników, usuwać aktualizacje, planować częstotliwość i priorytet aktualizacji, a także wykonywać inne czynności.<br /><br />
+			Uwaga:<br />
+			<ul style="margin-left:40px">
+				<li>Narzędzie <a href="http://go.microsoft.com/fwlink/?LinkId=27549" target="_blank" class="sys-link-normal">Microsoft Baseline Security Analyzer (MBSA)</a> wyszukuje ponadto i zgłasza najczęściej występujące błędy konfiguracji związane z zabezpieczeniami oraz może pomóc w zainstalowaniu brakujących aktualizacji zabezpieczeń dla komputerów z systemem Windows. </li>
+				<li>
+					Aby szybko sprawdzić, jakie aktualizacje są dostarczane przez Aktualizacje automatyczne, rozszerzenie Windows Update i Usługi Windows Update, przeczytaj 
+					<a  class="sys-link-normal" href="about.aspx?ln=pl" target="eContent">Często zadawane pytania dotyczące rozszerzenia Windows Update</a>
+					.
+				</li>
+			</ul>
+			<br/><b>Uzyskaj więcej aktualizacji<br /></b>
+			<ul style="margin-left:40px">
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=21601" target="_blank" class="sys-link-normal">Przeszukaj Centrum pobierania firmy Microsoft </a>
+			<br>Pobierz pliki przeznaczone dla wszystkich obsługiwanych produktów firmy Microsoft. Pliki do pobrania są dostępne w 30 językach.  
+		</li>
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=24459" target="_blank" class="sys-link-normal">Odwiedź witrynę Microsoft Office Online</a>
+			<br>Znajdź aktualizacje dla pakietu Microsoft Office System w wersjach 97/98 i nowszych. Pliki do pobrania obejmują szablony, zawartość pomocniczą i obiekty clipart.
+		</li>
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=27098" target="_blank" class="sys-link-normal">Zostań klientem Pomocy technicznej Premier firmy Microsoft</a>
+			<br>Dowiedz się więcej o korzyściach z Pomocy technicznej Premier, w tym o dodatkowych aktualizacjach, takich jak oprogramowanie w wersji wstępnej.   
+		</li>
+			</ul>
+			</div> 
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+	</body>
+</html>

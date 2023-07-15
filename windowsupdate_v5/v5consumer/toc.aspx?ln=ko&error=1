@@ -1,0 +1,64 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=ks_c_5601-1987' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/toc.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/toc.css' />
+
+<script language ="javascript">
+	                var L_Toc_Critical_Text = "중요 업데이트 검토";
+                var L_Toc_Beta_Text = "선택적 베타 업데이트 선택";
+                var L_Toc_Hardware_Text = "선택적 하드웨어 업데이트 선택";
+                var L_Toc_Software_Text = "선택적 소프트웨어 업데이트 선택";
+                var L_Toc_CriticalUpdatesAlt_Text = "중요 업데이트 및 보안 업데이트 목록을 검토합니다.";
+                var L_Toc_SoftwareUpdatesAlt_Text = "선택적 소프트웨어 업데이트 목록을 검토합니다.";
+                var L_Toc_HardwareUpdatesAlt_Text = "선택적 하드웨어 업데이트 목록을 검토합니다.";
+                var L_Toc_BetaUpdatesAlt_Text = "선택적 베타 업데이트 목록을 검토합니다.";
+                var L_TocProductAlt_Text = "업데이트 목록을 검토합니다. ";
+
+</script>
+</head>
+	<body class="toc sys-lhp-bgcolor"> 
+		<base target="eContent" />
+		<div id="eUserData"></div> 
+		<form name="ePostForm" id="ePostForm" method="post"><input name="ePostData" id="ePostData" type="hidden" /></form>
+		<table cellspacing="0" class="sys-toppane-bgcolor" >
+			<tbody>
+				<tr> 
+					<td style="height: 100%;"> 
+						<div class="sys-font-body toppane-body"> 
+
+							<a id="eBasketUpdates" title="선택한 업데이트를 검토하고 설치를 시작합니다." class="sys-link-disabled"><img src="shared/images/icon_wu_installnow_16x.gif" style = "width : 16px; height: 16px;" />업데이트 설치<i></i></a><br />
+
+
+							<div class="subHeader sys-bottompane-header-color sys-font-body-bold">기타 옵션</div>
+
+
+							<a class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />설치 내역 보기</a><br />
+							<a class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />설정</a><br />
+							<a class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />숨겨진 업데이트 복원</a><br />
+
+
+							
+							<div id="eConsumerDiv3">
+								<a id="eAdmin" href="administrators.aspx?ln=ko" title="고급 사용자를 위한 정보를 제공합니다." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />관리자 옵션</a><br />
+								<a id="eSupport" href="support.aspx?ln=ko" title="Windows Update 사이트 또는 이 사이트에서 설치한 항목과 관련된 문제가 있는 경우 온라인으로 지원받는 방법에 대해 알아봅니다." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />도움말 및 지원</a><br />
+								<a id="eAbout" href="about.aspx?ln=ko" title="Windows Update에 대한 질문과 대답을 확인할 수 있습니다." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />질문과 대답</a><br />
+								
+							</div>
+							<a id="eHardwareSupport" target="_blank" class="sys-link-normal" title="컴퓨터 제조업체에 대한 지원 사이트로 이동합니다."><img src="shared/images/toc_endnode.gif" />하드웨어 지원</a>
+						</div>
+						
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,64 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/toc.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/toc.css' />
+
+<script language ="javascript">
+	                var L_Toc_Critical_Text = "Tarkasta ensisijaiset päivitykset";
+                var L_Toc_Beta_Text = "Valitse valinnaiset beetapäivitykset";
+                var L_Toc_Hardware_Text = "Valitse valinnaiset laitteistopäivitykset";
+                var L_Toc_Software_Text = "Valitse valinnaiset päivitykset";
+                var L_Toc_CriticalUpdatesAlt_Text = "Tarkastele ensisijaisten päivitysten ja suojauspäivitysten luetteloa.";
+                var L_Toc_SoftwareUpdatesAlt_Text = "Tarkastele luetteloa valinnaisista ohjelmistopäivityksistä.";
+                var L_Toc_HardwareUpdatesAlt_Text = "Tarkastele luetteloa valinnaisista laitteistopäivityksistä.";
+                var L_Toc_BetaUpdatesAlt_Text = "Tarkastele luetteloa valinnaisista beetapäivityksistä.";
+                var L_TocProductAlt_Text = "Tarkastele päivitysluetteloa tuotteelle ";
+
+</script>
+</head>
+	<body class="toc sys-lhp-bgcolor"> 
+		<base target="eContent" />
+		<div id="eUserData"></div> 
+		<form name="ePostForm" id="ePostForm" method="post"><input name="ePostData" id="ePostData" type="hidden" /></form>
+		<table cellspacing="0" class="sys-toppane-bgcolor" >
+			<tbody>
+				<tr> 
+					<td style="height: 100%;"> 
+						<div class="sys-font-body toppane-body"> 
+
+							<a id="eBasketUpdates" title="Tarkasta asennettavaksi valitut päivitykset ja käynnistä asennus." class="sys-link-disabled"><img src="shared/images/icon_wu_installnow_16x.gif" style = "width : 16px; height: 16px;" />Asenna päivitykset<i></i></a><br />
+
+
+							<div class="subHeader sys-bottompane-header-color sys-font-body-bold">Muut vaihtoehdot</div>
+
+
+							<a class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />Tarkastele asennushistoriaa</a><br />
+							<a class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />Asetukset</a><br />
+							<a class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />Palauta piilotetut päivitykset</a><br />
+
+
+							
+							<div id="eConsumerDiv3">
+								<a id="eAdmin" href="administrators.aspx?ln=fi-fi" title="Lue kokeneille käyttäjille tarkoitetut tiedot." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Palvelut järjestelmänvalvojille</a><br />
+								<a id="eSupport" href="support.aspx?ln=fi-fi" title="Lue lisätietoja siitä, miten voit saada online-tukea Windows Update -sivustoa sekä siitä asennettuja päivityksiä koskeviin ongelmiin." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Ohjeita ja tukitietoja</a><br />
+								<a id="eAbout" href="about.aspx?ln=fi-fi" title="Etsi vastauksia usein kysyttyihin kysymyksiin Windows Update -sivustosta." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Usein kysyttyjä kysymyksiä</a><br />
+								
+							</div>
+							<a id="eHardwareSupport" target="_blank" class="sys-link-normal" title="Siirry tietokoneesi valmistajan tukisivustoon."><img src="shared/images/toc_endnode.gif" />Laitteistotuki</a>
+						</div>
+						
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

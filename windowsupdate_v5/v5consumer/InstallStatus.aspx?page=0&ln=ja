@@ -1,0 +1,72 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=shift_jis' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+</head>
+<body onload="if('function' == typeof(fnWriteInstallResult)) fnWriteInstallResult(0);">
+	<div name= "DivPageTitle" id="DivPageTitle" class="sys-font-heading3 sys-rhp-color-title">
+		インストールの結果
+	</div>
+	<br />
+	
+	<div id="Successfulupdates" style="display:none;">
+		<span><img src="shared/images/ok.gif" align="absmiddle" />&nbsp;次の更新プログラムは正常にインストールされました:</span><br/><br/>
+		<b>
+		<ul id="SuccessfulUpdatesList" style="margin-left:35px;">
+		</ul>
+		</b>
+	</div>
+	<br/><br/> 
+	
+	<div id="Failedupdates" style="display:none;">
+		<span><img src="shared/images/warning.gif" align="absmiddle" />&nbsp;以下の更新プログラムは、正常にインストールできませんでした:</span><br/><br/>
+		<b>
+		<ul id="FailedUpdatesList" style="margin-left:35px;">
+		</ul>
+		</b>
+		<div id="LowDiskSpaceInstructions" style="display:none;">
+			<br><b>エラー:</b> ディスク領域が足りないため、更新プログラムをインストールできません。 ハード ディスクの空き領域をさらに確保し、もう一度やり直してください。
+		</div><br/>
+		エラーの詳細については、次の内容を参照してください。 <a href="history.aspx?ln=ja" class="sys-link-normal">[インストールの履歴を表示] ページ</a>.
+	</div>
+	
+	<br/><br/>
+	
+	<div id="Declinedupdates" style="display:none;">
+		<span><img src="shared/images/warning.gif" align="absmiddle" />&nbsp;使用許諾契約書 (EULA) に同意されなかったため、次の更新プログラムはインストールされませんでした。更新プログラムを再度インストールして、Windows Update による通知が表示されたら、EULA に同意してください。</span><br/><br/>
+		<b>
+		<ul id="DeclinedUpdatesList" style="margin-left:35px;">
+		</ul>
+		</b>
+	</div>
+	<br/><br/>
+	<div id="RemainingUpdates" style="display:none;">
+		<span><img src="shared/images/info_16x.gif" align="absmiddle" />&nbsp;次の優先度の高い更新プログラムは、まだインストールされていません:</span><br/><br/>
+		<b>
+			<ul id="RemainingUpdatesList" style="margin-left:35px;"> 
+			</ul>
+		</b>
+		<br/><br/>
+	</div>
+	
+	<div id="ScanButton" style="display:none;">
+		<span><img src="shared/images/arrow.gif" align="absmiddle" />&nbsp;<a id="eScan" class="sys-link-normal">残りの更新プログラムを今すぐ確認し、インストールする</a>
+	</div>
+	
+	<div id="RebootInstructions" style="display:none;">
+		Windows を再起動すると、インストールが完了します。今すぐ Windows を再起動する場合は、作業中の内容を保存して、すべてのプログラムを閉じてください。次に、[スタート] ボタンをクリックして、[シャットダウン] をクリックし、[再起動] をクリックします。
+	</div>
+	
+	 <iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' /> 
+  </body>
+</html>

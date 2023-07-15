@@ -1,0 +1,50 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=gb2312' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+		<style type='text/css'>
+			table { table-layout: fixed; }
+		</style>
+</head>
+	<body onload="fnInit(3, 6);" bgcolor="white" link="#587EDC" alink="#587EDC" vlink="#587EDC">
+	
+		<font face="Tahoma, Arial, Helvetica">
+
+			<font size="3" color="#587EDC">
+			<b>欢迎使用 Windows Update 5 试用版</b>
+			</font>
+			<font size="2">
+			<p>
+			衷心感谢您参与 Microsoft Windows Update 5 的试用版计划。此站点将预先展示 Windows Update 的下一个版本。继续操作之前，请仔细阅读以下信息。
+			<p>
+			<img src="shared/images/warning_icon.gif">
+			<b>警告和通知</B> Windows Update 版本 5 包括预发布的软件和一个预发布的更新程序服务。它们仅能用于测试目的，并且不提供技术支持。使用这些程序受<A href="http://go.microsoft.com/fwlink/?linkid=9482(&c)clcid=0x409" target=_blank>使用条款</A>的约束，并且软件的使用受所提供的任何相关许可协议的约束。Microsoft 打算同时在 Windows Update 5 试用站点上提供 Windows Update 版本 4 站点上所提供的更新程序。有时，更新程序发布到 Windows Update 5 试用站点的速度不如发布到 Windows Update 版本 4 站点上的速度快。
+			
+				<p>
+				<img src="shared/images/info_16x.gif">
+				<a href="http://www.beta.microsoft.com" target=_blank>
+				<b>我不是试用版的注册用户，但想了解有关 Microsoft 试用版计划的详细信息</b></a>
+			
+			<p><img src="shared/images/arrow.gif">
+			<a href="default.aspx?rc1=true">
+			<b>我已经阅读了前面的信息，并希望访问 Windows Update 5 试用站点</b></a>
+			</font>
+			<p>&nbsp;</p>
+			<font size="1">
+			© 2004 Microsoft Corporation。保留所有权利。<A href="http://go.microsoft.com/fwlink/?linkid=9482(&c)clcid=0x409" target=_blank>使用条款</A>
+			</font>
+
+		</font>
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' /> 
+	</body>
+</html>

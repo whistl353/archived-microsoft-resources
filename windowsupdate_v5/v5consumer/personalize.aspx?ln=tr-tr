@@ -1,0 +1,49 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1254' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+ 
+<script language="JScript" type="text/javascript" src="shared/js/personalize.js"></script>
+<script language ="javascript">
+	var sLan = "Arapça@|Çince (Basitleştirilmiş)@|Çince (Geleneksel)@|Çince (Hong Kong ÖİB)@|Çekçe@|Danca@|Felemenkçe@|İngilizce@|Fince@|Fransızca@|Almanca@|Yunanca@|İbranice@|Macarca@|İtalyanca@|Japonca@|Kore Dili@|Norveç Dili@|Lehçe@|Portekizce (Brezilya)@|Portekizce (Portekiz)@|Rusça@|İspanyolca@|İsveç Dili@|Türkçe"
+	var sRecommended = "(Önerilen)"
+	var sLN = "tr-tr";
+</script>
+</head>
+<body onload="fnInitPersonalization(13, -1);" onclick="fnUpdatePersonalization();" onbeforeunload="fnUnloadPersonalization();" class="personalization">
+	<span class="sys-font-heading3 sys-rhp-color-title">
+		Windows Update ayarları
+	</span><br>	
+	<br>
+	<hr style="color:#cccccc;height:3px">
+	<b>Dil</b> <br /><br/>
+	Windows Update, web sayfalarını Windows'da kullandığınız dilde görüntüler. Windows Update'i görüntülemek için kullandığınız dili değiştirebilirsiniz, ancak bazı sayfalarda birden fazla dilde bilgi görüntülenebilir.
+		<p>
+		<b>Önemli:</b>  Önerilen dil ayarını değiştirirseniz, <b>karşılık gelen Internet Explorer dil paketini yüklemeniz gerekir</b>.
+	<br>
+	<br>
+	<div id="LanDiv"></div>
+	<br>
+	<hr style="color:#cccccc;height:3px">
+	<b>Gelişmiş</b> <br />
+	<input type="checkbox" id="eBetaLink" class="checkbox"><label for="eBetaLink">Beta ürünleri ve ilgili güncelleştirmeleri göster</label><br>
+	Windows Update, yayın öncesi "beta" ürünleri hazır olduğunda size sunabilir.
+	<br><br>
+	<div >NOT: Beta yazılımın kullanım riski size aittir; yalnızca sınama ve değerlendirme amacıyla tasarlanmıştır. Beta yazılımı birincil bilgisayarınıza veya ürün ortamınıza yüklemeyin.</div>
+	<br /> 
+	<hr style="color:#cccccc;height:3px">
+
+	<button id="eSaveSettings" onclick="fnSaveSettings();" disabled type="button">
+		Değişiklikleri şimdi uygula
+	</button>
+	<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+</body>

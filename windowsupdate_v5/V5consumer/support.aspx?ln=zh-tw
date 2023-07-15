@@ -1,0 +1,54 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=big5' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+	</head>
+	<body onload="fnInit(6, -1);">
+		<span class="sys-font-heading3 sys-rhp-color-title">使用 Windows Update 的說明與支援</span><br />
+		<br>
+		<div class="8pt">
+			<a name="SolveProblems"><b>您自行解決問題</b></a><br /><br />
+			<div style = "margin-left : 40">
+				<a href="about.aspx?ln=zh-tw" target="eContent" class="sys-link-normal"> 閱讀 Windows Update 常見問題集				
+		</a>
+				 <br> 請參閱有關使用 Windows Update 網站、疑難排解問題、如何更新網路等等的常見問題集答案。
+		
+				<br> <br><a href="troubleshoot.aspx?ln=zh-tw" target="eContent" class="sys-link-normal">嘗試使用 Windows Update 疑難排解
+		</a>
+				<br>在說明中，針對每個 Windows Update 錯誤訊息中所顯示的錯誤描述或錯誤編號進行搜尋，取得逐步解決方案。
+		
+				<br> <br><a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=9581' target='_blank' >檢查 Microsoft 新聞群組</a><br>
+				搜尋是否有其他人有您問題的解決方案，或是寫下問題尋求其他使用者的協助。(某些討論只能使用英文)。
+		
+			</div>
+			<br><br>
+			<a name="Assistance"><b>取得協助</b></a><br /><br />
+			<div style = "margin-left : 40">
+				 <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=25127' target='_blank'>瀏覽 Windows Update 支援中心</a><br>
+				搜尋連到知識庫 (KB) 文件的連結與其他資源，包括電子郵件、線上支援與電話支援。(某些狀況下可能需要收費)。如果只能取得英文的資訊，則您可以從 Microsoft 位於<a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=27099' target='_blank' >您國家或地區</a>的分公司取得額外的協助。
+		
+				<br><br> <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=21608' target='_blank'>傳送問題報告</a><br>
+				如果無法使用上述選項解決您的問題，請完成線上報告並讓支援服務專業人員知道連絡您的最佳方式。如果無法取得您國家或地區的格式，請<a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=27099' target='_blank' >使用電話</a>取得支援。
+						 
+			</div>
+			<br><br>
+			<hr style="color:#cccccc;height:3px">
+			<br><br>
+			<a name="Beta"><b>尚未出版 (Beta) 軟體的支援</b></a><br /><br />
+			<div style = "margin-left : 40">
+				對尚未出版軟體的支援會依照產品的不同而有所不同。我們強烈建議在安裝這類產品前，先閱讀尚未出版軟體或更新提供的詳細說明。
+		
+			</div>
+		</div>
+	</body>
+</html>

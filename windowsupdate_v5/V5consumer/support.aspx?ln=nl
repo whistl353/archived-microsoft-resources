@@ -1,0 +1,53 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+	</head>
+	<body onload="fnInit(6, -1);">
+		<span class="sys-font-heading3 sys-rhp-color-title">Help en ondersteuning bij het gebruik van Windows Update.</span><br />
+		<br>
+		<div class="8pt">
+			<a name="SolveProblems"><b>Zelf problemen oplossen</b></a><br /><br />
+			<div style = "margin-left : 40">
+				<a href="about.aspx?ln=nl" target="eContent" class="sys-link-normal"> Lees de veelgestelde vragen over Windows Update</a>
+				 <br> Lees de antwoorden op veelgestelde vragen over het gebruik van de Windows Update-website, het oplossen van problemen, hoe u netwerken bijwerkt, enzovoort.
+				<br> <br><a href="troubleshoot.aspx?ln=nl" target="eContent" class="sys-link-normal">Probeer Windows Update-probleemoplosser
+		</a>
+				<br>Zoek op een foutbeschrijving of foutnummer, dat in elk foutbericht van Windows Update wordt weergegeven, voor stapsgewijze oplossingen.
+		
+				<br> <br><a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=9581' target='_blank' >Controleer de Microsoft-nieuwsgroepen</a><br>
+				Kijk of iemand anders een oplossing voor het probleem heeft gevonden, of schrijf over een probleem als u hulp van andere gebruikers wenst. (Sommige discussies zijn alleen in het Engels beschikbaar.)
+		
+			</div>
+			<br><br>
+			<a name="Assistance"><b>Hulp inschakelen</b></a><br /><br />
+			<div style = "margin-left : 40">
+				 <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=25127' target='_blank'>Bezoek het Windows Update Support Center</a><br>
+				U vindt hier koppelingen naar artikelen in de Knowledge Base (KB) en andere bronnen, zoals ondersteuning via e-mail, on line ondersteuning en telefonische ondersteuning. (In sommige gevallen worden kosten in rekening gebracht.) Als de informatie alleen in het Engels beschikbaar is, kunt u extra hulp van Microsoft krijgen in <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=27099' target='_blank' >uw land of regio</a>.
+		
+				<br><br> <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=21608' target='_blank'>Verzend een probleemrapport</a><br>
+				Als u het probleem niet kunt oplossen met de bovenstaande opties, vult u een on line rapport in en vermeldt u hoe de medewerkers van de ondersteuningsdienst het beste contact met u kunnen opnemen. Als in uw regio of land het formulier niet beschikbaar is, kunt u <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=27099' target='_blank' >telefonische</a> ondersteuning krijgen.
+						 
+			</div>
+			<br><br>
+			<hr style="color:#cccccc;height:3px">
+			<br><br>
+			<a name="Beta"><b>Ondersteuning voor bètasoftware</b></a><br /><br />
+			<div style = "margin-left : 40">
+				De ondersteuning voor bètasoftware verschilt per product. Wij raden u ten zeerste aan om de informatie over bètasoftware of -updates te lezen voordat u deze installeert.
+		
+			</div>
+		</div>
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' /> 
+	</body>
+</html>

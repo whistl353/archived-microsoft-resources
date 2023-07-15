@@ -1,0 +1,50 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+ 
+	</head>
+	<body onload="fnInit(14, -1);">
+	
+		<span class="sys-font-heading3 sys-rhp-color-title">Administratorindstillinger</span><br />
+	        <br>
+			<div class="8pt">
+
+			<b>Opdater flere operativsystemer<br /></b>
+			Søg i <a href="http://go.microsoft.com/fwlink/?LinkId=8973" target="_blank" class="sys-link-normal">Windows Update-kataloget</a> for at vælge mellem opdateringer, som er udsendt til alle Windows-operativsystemer, herunder softwareopdateringer til servere og driveropdateringer (hardware).<br /><br />
+			<b>Administrer opdateringsprocessen for netværk<br /></b>
+			Hvis du vil opdatere Windows-operativsystemer og andre Microsoft-produkter, der kører bag din virksomheds firewall, skal du bruge <a href="http://go.microsoft.com/fwlink/?LinkId=24462" target="_blank" class="sys-link-normal">Windows Update-tjenester</a>. Denne løsning (tidligere kendt som SUS 2.0 (Software Update Services)) hjælper administratorer med at vælge systemer til implementering, styre brugerindgriben, fjerne opdateringer, planlægge opdateringernes hyppighed og prioritet og meget mere.<br /><br />
+			Bemærk!<br />
+			<ul style="margin-left:40px">
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=27549" target="_blank" class="sys-link-normal">MBSA (Microsoft Baseline Security Analyzer)</a> scanner også efter og rapporterer almindelige sikkerhedsrelaterede fejlkonfigurationer og kan hjælpe dig med at installere manglede sikkerhedsopdateringer til Windows-baserede computere. </li>
+				<li>
+					Hvis du hurtigt vil se, hvilke opdateringer der leveres af Automatiske opdateringer, Windows Update og Windows Update-tjenester, kan du læse i 
+					<a  class="sys-link-normal" href="about.aspx?ln=da" target="eContent">ofte stillede spørgsmål om Windows Update</a>
+					.
+				</li>
+			</ul>
+			<br/><b>Hent flere opdateringer<br /></b>
+			<ul style="margin-left:40px">
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=21601" target="_blank" class="sys-link-normal">Søg på Microsoft Download Center</a>
+			<br>Hent filer og programmer til alle understøttede Microsoft-produkter. Filerne og programmerne er tilgængelige på 30 sprog.  
+		</li>
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=24459" target="_blank" class="sys-link-normal">Besøg Microsoft Office Online</a>
+			<br>Find opdateringer til Microsoft Office System, version 97/98 og nyere. Filerne og programmerne omfatter skabeloner, assistanceindhold og multimedieklip.
+		</li>
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=27098" target="_blank" class="sys-link-normal">Bliv Microsoft Premier Support-kunde</a>
+			<br>Lær om fordelene ved Premier Support, herunder yderligere opdateringer, som f.eks. foreløbige versioner af software.   
+		</li>
+			</ul>
+			</div> 
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+	</body>
+</html>

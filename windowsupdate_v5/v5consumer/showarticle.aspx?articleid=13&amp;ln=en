@@ -1,0 +1,83 @@
+<script language='JScript' type='text/javascript'>
+ var sArticleId = 13;
+var sTimeAtTarget = '12/25/2005';
+var sOSLocale =  'en';
+</script><html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+
+<script language="JScript" type="text/javascript" src="shared/js/troubleshooter.js"></script>		
+
+	</HEAD>
+	<body>
+
+	<table height=100%>
+		<tr valign=top>
+			<td>	
+				<div align=right>
+					<a class="sys-link-normal" href="javascript:window.print();">Print</a> | <a class="sys-link-normal" href="javascript:window.close();" id="closelink">Close</a>
+				</div>
+				<form name="Form1" method="post" action="showarticle.aspx?articleid=13&amp;amp;ln=en" id="Form1">
+<input type="hidden" name="__VIEWSTATE" value="dDw2NjgyNzYyNzs7Pg==" />
+
+					<span id="problemtitle" style="FONT-SIZE:120%">When searching for available updates on the Windows Update site, you see the  0x800A01AD error while looking for updates</span>
+					<br>
+					<br>
+					<span id="problemtext"><b>Problem description</b><br><br>This error message may occur if you have insufficient permissions to the Windows Update registry keys. The WindowsUpdate.log file will also read errors 0x80070005 and 0x80080005.</span>
+					<br>
+					<br>
+					<span id="operatingsystems"><b>Applicable operating systems</b><br><br><UL><LI>Windows XP</LI><br><LI>Windows Server 2003</LI><br></UL></span>
+					<br>
+					<br>
+					<table id="resolutions" border="0">
+	<tr>
+		<td><b>Resolutions</b></td>
+	</tr><tr>
+		<td><div style='margin-bottom:-30px;'>1. 
+Check permissions on the Windows Update registry key
+<ol style='margin-left:30px'><li>Click <b>Start</b>.</li>
+<li>Choose <b>Run</b>.</li>
+<li>In the <b>Run</b> box, type <b>REGEDIT</b>.</li>
+<li>Click <b>OK</b>.</li>
+ The Registry Editor opens.
+<br><b>*WARNING*</b><br>
+Using Registry Editor incorrectly can cause serious problems that may require you to reinstall your operating system. Microsoft cannot guarantee that problems resulting from the incorrect use of Registry Editor can be solved. Use Registry Editor at your own risk.
+<li>Navigate to the following key: <b>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate</b>.</li>
+<li>On the menu, click <b>Edit</b>. Click <b>Permissions</b>.</li>
+<li>For Administrator and System, select the <b>Allow</b> check boxes next to <b>Full Control</b> and <b>Read permissions</b>. NOTE: In certain instances, these check boxes are grayed out. Ensure all accounts have appropriate permissions.</li>
+<li>Click <b>Apply</b>. </li>
+<li>Click <b>OK</b>.</li>
+<li>Close the <b>Registry Editor</b>.</li>
+<li>Restart the system.</li></ol>
+<br><br>Did this resolve your problem?</div><br></td>
+	</tr><tr>
+		<td><INPUT type=button style='width:100;padding-top:-20px' value='Yes' id='btnYes16' onclick='fnPingback(&quot;yes&quot;,16)'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT type='button' style='width:100;padding-top:-20px' value='No' id='btnNo16' onclick='fnPingback(&quot;no&quot;,16)'><br><br></td>
+	</tr>
+</table>
+					<br>
+					<br>
+					<span id="KBArticleText"></span>
+					<br>
+				</form>
+				<br>
+				</div>	
+			</td>
+		</tr>	
+		<tr HEIGHT="20">
+			<td>Your answer is anonymous and  is used to help improve content on this site.</td>		
+		</tr>		
+	</table>	
+		<IFRAME ID="pingback2" src="blank.aspx" HEIGHT=0 WIDTH=0></IFRAME> 
+	</body>
+</HTML>

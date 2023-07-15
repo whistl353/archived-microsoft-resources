@@ -1,0 +1,248 @@
+//Copyright (c) Microsoft Corporation.  All rights reserved.
+var UA = navigator.userAgent.toLowerCase();
+var iControlType, iOSType, iOSSPMajor;
+
+//Control types
+var conOSUnsupported = -1;
+var conOSWin2K = 0;
+var conOSWinXP = 1;
+var conOSWin2003 = 2;
+var conOSLonghorn = 3;
+//OS types
+var conCtlNone = 0;
+var conCtlBeta = 1;
+var conCtlRC1 = 2;
+//V5 Thanks page types
+var conThanksDown = 1;
+var conThanksBadOS = 2;
+var conThanksWinCE = 3;
+var conThanksDatacenter = 4;
+var conThanksBadBrowser = 5;
+var conThanksRC1Intro = 6;
+var conThanksBeta = 7;
+var conThanksIE5 = 8;
+var conThanksLocale = 9;
+
+fnRedirect();
+	
+function fnRedirect() {
+	// Make initial checks and do redirection as necessary
+	if(fnV5DownForMaintenance() == false) return false;
+	if(fnCheckBrowser() == false) return false;
+	if(fnCheckWinCE() == false) return false;
+	if(fnCheckDatacenter() == false) return false;
+	if(fnCheck95NT4() == false) return false;
+	if(fnCheck98() == false) return false;
+	if(fnCheckX86() == false) return false;
+	iOSType = fnCheckV5OS();
+	if(iOSType == conOSUnsupported) return false;
+
+	// We now have a good browser, and good OS
+	// See if we have a control and get control type
+	fnCheckControlType();
+
+	// Go to appropriate site
+	fnGoToSite();
+	return false;
+}
+
+function fnGoToSite() {
+	var sQuery;
+	
+	// Beta control installed -- XP SP2 --> V5 Beta site
+	//[7 part 1]
+	if((iOSType == conOSWinXP) && (iControlType == conCtlBeta)) {
+		if(iOSSPMajor == 2) {
+			location.href = "http://v5.windowsupdate.microsoft.com";
+			return false;
+		}
+	} 
+
+	// Beta control or Longhorn on V3
+	//[5][7 part 2]
+	if((iControlType == conCtlBeta) || (iOSType == conOSLonghorn)) { 
+		if(curSite == 3) {
+			location.href = "http://test.v5.windowsupdate.microsoft.com";
+			return false;
+		} 
+	}
+	
+	// No control installed or beta control installed -- any supported platform
+	//[6]
+	if((iControlType == conCtlNone) || (iControlType == conCtlBeta)) {
+		if(curSite == 3) {
+			location.href = "http://v4.windowsupdate.microsoft.com";
+			return false;
+		} else if(curSite == 5) {	
+			//Need to check query string to make sure the user doesn't see the thanks page a second time
+			sQuery = window.location.href.toLowerCase();
+			if(sQuery.indexOf("rc1=true") == -1) {
+				location.href = "thanks.aspx?ThanksPage=" + conThanksRC1Intro;
+				return false;
+			}
+		}
+	}
+	
+	// RC1 control installed -- any supproted platform
+	// [1][2][3][4]
+	var OSLang = navigator.browserLanguage.toLowerCase();
+	if(OSLang.length > 2) {
+		OSLang = OSLang.substring(0,2);
+	}
+	if(curSite == 3) {
+		location.href = "http://test.v5.windowsupdate.microsoft.com/v5consumer/default.aspx?ln=" + OSLang;
+	}  else if((OSLang != "en") && (OSLang != "ja") && (OSLang != "de")) {
+		location.href = "thanks.aspx?ThanksPage=" + conThanksLocale;
+		return false;
+	}
+	return false;
+}
+
+function fnCheckControlType() {
+	var oWUWeb
+	//See if user has V5 control
+	iControlType = conCtlNone;
+	try {
+		oWUWeb = new ActiveXObject("SoftwareDistribution.WebControl");
+	}
+	catch(e) {
+		// No V5 control
+		oWUWeb = "";
+	}
+	// If user has control, see if beta or RC1
+	if("object" == typeof(oWUWeb)) {
+		iControlType = conCtlBeta;
+		iOSSPMajor = -1;
+		try {
+			iOSSPMajor = oWUWeb.GetOSVersionInfo(4,1);
+			var iTmp = oWUWeb.GetDownloadSpeed();
+			iControlType = conCtlRC1; 
+		} 
+		catch(e) {
+			if(e.number == -2147418113) { // 0x8000FFFF
+				iControlType = conCtlRC1; // RC1 control
+			}
+		}
+	}
+	oWUWeb = null;
+}
+
+function fnCheckBrowser() {
+	// Check for IE5 or IE6
+	var unsupported = false;
+	IE5or6 = ((UA.indexOf("msie 5") > 0) || (UA.indexOf("msie 6") > 0));
+	if(UA.indexOf("opera") != -1) unsupported = true;
+	if(!IE5or6 || unsupported) {
+		if(curSite == 3) {
+			location.href = "http://v4.windowsupdate.microsoft.com";
+		} else if(curSite == 5) {
+			// Browser thanks page for V5
+			location.href = "thanks.aspx?ThanksPage=" + conThanksBadBrowser;
+		}
+		return false;
+	}
+	return true;
+}
+
+function fnCheckWinCE() {
+	// Check for Windows CE
+	if(UA.indexOf("; mspie") != -1) {
+		if(curSite == 3) {
+			location.href = "http://v4.windowsupdate.microsoft.com";
+		} else if(curSite == 5) {
+			// Windows CE thanks page for V5
+			location.href = "thanks.aspx?ThanksPage=" + conThanksWinCE;
+		}
+		return false;
+	}
+	return true;
+}
+
+function fnCheckDatacenter() {
+	// Check for Windows 2000 Datacenter
+	if((UA.indexOf("windows nt 5.0") != -1) && (UA.indexOf("; data center") != -1)) {
+		if(curSite == 3) {
+			location.href = "http://v4.windowsupdate.microsoft.com";
+		} else if(curSite == 5) {
+			// Windows 2000 Datacenter thanks page for V5
+			location.href = "thanks.aspx?ThanksPage=" + conThanksDatacenter;
+		}
+		return false;
+	}
+	return true;
+}	
+
+function fnV5DownForMaintenance() {
+	// V5 - Check the down-for-maintenance indicator
+	if((curSite == 5) && (g_sDownForMaintenance.length > 0)) {
+		location.href = "thanks.aspx?ThanksPage=" + conThanksDown;
+		return false;
+	}
+	return true;
+}
+
+function fnCheck95NT4() {
+	if((UA.indexOf("windows 95") > 0) || (UA.indexOf("windows nt 4.0") > 0)) {
+		fnGoToV3();
+		return false;
+	}
+	return true;
+}
+			
+function fnCheck98() {	
+	if(UA.indexOf("windows 98") > 0) {
+		location.href = "http://v4.windowsupdate.microsoft.com";
+		return false;
+	}
+	return true;
+}
+
+function fnCheckV5OS() {
+	var iOS = conOSUnsupported;
+	if(UA.indexOf("windows nt 5.0") > 0) iOS = conOSWin2K;
+	else if(UA.indexOf("windows nt 5.1") > 0) iOS = conOSWinXP;
+	else if(UA.indexOf("windows nt 5.2") > 0) iOS = conOSWin2003;
+	else if(UA.indexOf("windows nt 6.0") > 0) iOS = conOSLonghorn;
+	if(iOS == conOSUnsupported) {
+		if(curSite == 3) {
+			location.href = "http://v4.windowsupdate.microsoft.com";
+		} else if(curSite == 5) {
+			// Bad OS thanks page for V5
+			location.href = "thanks.aspx?ThanksPage=" + conThanksBadOS;
+		}
+	}
+	return iOS;
+}
+
+function fnCheckX86() {
+	if(navigator.cpuClass.toLowerCase() != "x86") {
+		location.href = "http://v4.windowsupdate.microsoft.com";
+		return false;
+	}
+	return true;
+}
+
+function fnGoToV3() {
+	if(curSite == 3) {
+		//YOU ARE ON V3
+		document.open();
+		document.write("<FRAMESET ROWS=100%>");
+		if(UA.indexOf("windows 95") > 0) { // Windows 95
+			document.write("<FRAME SRC=\"Static_w95/V31site/default.htm" + location.search + "\">");
+		}
+		else { // Windows NT
+			if(location.search == "" || location.search == null) {
+				document.write("<FRAME SRC=\"scripts/redir.dll?\">");
+			}
+			else {
+				document.write("<FRAME SRC=\"R1150/V31site/default.htm" + location.search + "\">");
+			}
+		}
+		document.write("</FRAMESET>");
+		document.close();
+	} else {
+		// not on v3, go there
+		location.href = "http://windowsupdate.microsoft.com";
+	}
+	return false;
+}

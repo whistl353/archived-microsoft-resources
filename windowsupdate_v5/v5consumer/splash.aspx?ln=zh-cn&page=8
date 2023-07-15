@@ -1,0 +1,44 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=gb2312' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+<script language ="javascript">
+	var iSubPage = 8;	
+	var sDir = "ltr" ;
+	if(iSubPage == parent.conSplashMandatoryUpdates){
+		var sMandatoryUpdateIndexes = "";
+	}
+	
+</script>
+   	</head>
+	<body onload="if('function' == typeof(fnInitSplashPage)) fnInitSplashPage(1, 8);">
+ 
+		<span class="sys-font-heading3 sys-rhp-color-title">Windows Update</span><br /><br />
+		要使用此最新版本的 Windows Update，您需要升级它的某些组件。此版本包含以下加强的服务:<br /><br />
+		<ul> 
+			<li><b>快速安装和自定义安装:</b>&nbsp;&nbsp;仅选择最新的关键更新程序或从所有可用更新程序中进行选择。</li>
+			<li><b>下载更智能:</b>&nbsp;&nbsp;如果下载被中断，则在下次下载更新程序时，下载进程将从此次中断的地方开始。</li>
+			<li><b>下载量更小:</b>&nbsp;&nbsp;只 下载 您的计算机需要的文件， 节约了下载时间以及与连接速度相关的成本。</li>
+			<li><b>版本单一:</b>&nbsp;&nbsp;仅为您提供最新的更新程序。</li>
+			<li><b>页面简洁:</b>&nbsp;&nbsp;您现在可以隐藏不想看见的更新程序。</li>
+			<li><b>有关更新程序的新闻:</b>&nbsp;&nbsp;Windows Update 主页上的 Microsoft 新闻部分给出了提示和最新信息。</li>
+		</ul>
+		<br />
+		<img src="shared/images/icon.plus.gif" id="imgDetailsHeader" onclick="fnHeaderClicked()" style="height:11px; width:11px;cursor:hand;" /><span style="width:5px;"></span><span id="eHeader" style="font-weight:bold;cursor:hand;color:#C7D8FA;" onclick="fnHeaderClicked();">详细信息</span><br />
+		<div id="eMandatoryUpdates" style="display:none;Left:16px;Position:relative;border-width:1px;border-style:solid;border-color:#C7D8FA;">
+		</div><br /><br />
+		<button id="eDownload" onclick="parent.fnShowResultlist();">立即下载和安装</button> 
+	
+<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+	</body>
+</html>

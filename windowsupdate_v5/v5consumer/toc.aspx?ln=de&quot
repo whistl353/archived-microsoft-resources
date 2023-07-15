@@ -1,0 +1,72 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/toc.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/toc.css' />
+
+<script language ="javascript">
+	                var L_Toc_Critical_Text = "Wichtige Updates überprüfen";
+                var L_Toc_Beta_Text = "Optionale Beta-Updates auswählen";
+                var L_Toc_Hardware_Text = "Optionale Hardwareupdates auswählen";
+                var L_Toc_Software_Text = "Optionale Softwareupdates auswählen";
+                var L_Toc_CriticalUpdatesAlt_Text = "Zeigt eine Liste der wichtigen Updates und Sicherheitsupdates an.";
+                var L_Toc_SoftwareUpdatesAlt_Text = "Zeigt eine Liste der optionalen Softwareupdates an.";
+                var L_Toc_HardwareUpdatesAlt_Text = "Zeigt eine Liste der optionalen Hardwareupdates an.";
+                var L_Toc_BetaUpdatesAlt_Text = "Zeigt eine Liste der optionalen Beta-Updates an.";
+                var L_TocProductAlt_Text = "Anzeigen einer Updateliste für ";
+
+</script>
+</head>
+	<body class="toc sys-lhp-bgcolor"> 
+		<base target="eContent" />
+		<div id="eUserData"></div> 
+		<form name="ePostForm" id="ePostForm" method="post"><input name="ePostData" id="ePostData" type="hidden" /></form>
+		<table cellspacing="0" class="sys-toppane-bgcolor" >
+			<tbody>
+				<tr> 
+					<td style="height: 100%;"> 
+						<div class="sys-font-body toppane-body"> 
+
+							<div id="eConsumerDiv1">
+								<a id="eBasketUpdates" href="" title="Zeigt die zur Installation ausgewählten Updates an, und startet den Installationsvorgang." class="sys-link-disabled"><img src="shared/images/icon_wu_installnow_16x.gif" style = "width : 16px; height: 16px;" />Updates installieren<i></i></a><br />
+								<!--<a id="eAvailableUpdates" title="Zeigt verfügbare, geeignete Updates an. Der Computer muss möglicherweise vorher überprüft werden." class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" /><i>Programmupdates abrufen</i></a>-->
+								<table style="width:91%;height:0px;cellspacing:0;" border= "0" id="eAvailableUpdatesTable"><tr><td style="padding:0px"><div id="eAvailableUpdatesDiv"></div></td></tr></table>
+							</div>
+
+
+
+							<div class="subHeader sys-bottompane-header-color sys-font-body-bold">Weitere Optionen</div>
+
+
+							<div id="eConsumerDiv2">
+								<a id="eHistory" url="history.aspx?ln=de" title="Überprüfen Sie die Liste der Updates, die Sie von Windows Update installiert haben." class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />Installationsverlauf anzeigen</a><br />
+								<a id="eAdvancedSettings" href="personalize.aspx?ln=de"  url ="personalize.aspx?ln=de" title="Passen Sie die angezeigten Windows Update-Elemente an." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Einstellungen</a><br />
+								<a id="eHidden"  title="Überprüfen Sie die Liste der von Ihnen ausgeblendeten Updates." class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />Ausgeblendete Updates wiederherstellen</a><br />
+							</div>
+
+
+
+							
+							<div id="eConsumerDiv3">
+								<a id="eAdmin" href="administrators.aspx?ln=de" title="Informationen für fortgeschrittene Benutzer" class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Administrator-Optionen</a><br />
+								<a id="eSupport" href="support.aspx?ln=de" title="Weitere Informationen über den Onlinesupport für Windows Update-Probleme oder installierte Windows Update-Komponenten" class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Hilfe und Support</a><br />
+								<a id="eAbout" href="about.aspx?ln=de" title="Hier finden Sie Antworten auf häufig gestellte Fragen zu Windows Update." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />FAQ (Häufig gestellte Fragen)</a><br />
+								
+							</div>
+							<a id="eHardwareSupport" target="_blank" class="sys-link-normal" title="Zur Supportsite für Ihren Computerhersteller"><img src="shared/images/toc_endnode.gif" />Hardwaresupport</a>
+						</div>
+						
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

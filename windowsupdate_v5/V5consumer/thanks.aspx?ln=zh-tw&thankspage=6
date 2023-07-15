@@ -1,0 +1,49 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=big5' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+		<style type='text/css'>
+			table { table-layout: fixed; }
+		</style>
+</head>
+	<body onload="fnInit(3, 6);" bgcolor="white" link="#587EDC" alink="#587EDC" vlink="#587EDC">
+	
+		<font face="Tahoma, Arial, Helvetica">
+
+			<font size="3" color="#587EDC">
+			<b>歡迎使用 Windows Update 版本 5 Beta 版</b>
+			</font>
+			<font size="2">
+			<p>
+			感謝您對 Microsoft Windows Update 版本 5 Beta 版計劃有興趣。此網站可以讓您預覽下一版本的 Windows Update。繼續進行前，請仔細閱讀下列資訊。<P>若要參與，您必須是註冊過的 Windows Update Beta 版使用者。註冊可以提供您完整體驗此 Beta 版網站所需的工具、資訊與合約。如果您尚未參與 Windows Update Beta 版計劃，您應該先註冊，然後才繼續進行下面的程序。若需更多資訊，請瀏覽 <a href="http://www.beta.microsoft.com" target="_blank">Microsoft Beta</a> 首頁或傳送電子郵件到 <A href="mailto:mubeta@microsoft.com">mubeta@microsoft.com</A>。
+			<p>
+			<img src="shared/images/warning_icon.gif">
+			<b>警告與注意事項</B>：Windows Update 5 包含發行前版本的軟體與發行前版本的更新服務。均僅供註冊過的 Microsoft Beta 版測試者使用，且僅供測試目的使用。使用時需遵守<A href="http://go.microsoft.com/fwlink/?linkid=9482(&c)clcid=0x409" target=_blank>使用規定</A>，且軟體受任何伴隨提供的授權合約所限制。
+			
+			<p>
+			<img src="shared/images/info_16x.gif">
+			<a href="http://www.beta.microsoft.com" target=_blank>
+			<b>我不是註冊過的 Beta 版使用者，但是想要取得更多有關 Microsoft Beta 版計劃的資訊</b></a>
+			
+			<p><img src="shared/images/arrowsquare.gif">
+			<a href="default.aspx?rc1=true">
+			<b>我已經閱讀過前述資訊並確認我目前已經註冊為 Microsoft Windows Update Beta 版使用者</b></a>
+			</font>
+			<p>&nbsp;</p>
+			<font size="1">
+			© 2004 Microsoft Corporation. 著作權所有，並保留一切權利。<A href="http://go.microsoft.com/fwlink/?linkid=9482(&c)clcid=0x409" target=_blank>使用規定</A>
+			</font>
+
+		</font>
+	</body>
+</html>

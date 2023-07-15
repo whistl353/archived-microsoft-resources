@@ -1,0 +1,64 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/toc.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/toc.css' />
+
+<script language ="javascript">
+	                var L_Toc_Critical_Text = "Se gjennom høyt prioriterte oppdateringer";
+                var L_Toc_Beta_Text = "Velg valgfrie betaoppdateringer";
+                var L_Toc_Hardware_Text = "Velg valgfrie maskinvare-oppdateringer";
+                var L_Toc_Software_Text = "Velg valgfrie programvare-oppdateringer";
+                var L_Toc_CriticalUpdatesAlt_Text = "Se gjennom en liste over høyt prioriterte oppdateringer og sikkerhetsoppdateringer.";
+                var L_Toc_SoftwareUpdatesAlt_Text = "Se gjennom en liste over valgfrie programvareoppdateringer.";
+                var L_Toc_HardwareUpdatesAlt_Text = "Se gjennom en liste over valgfrie maskinvareoppdateringer.";
+                var L_Toc_BetaUpdatesAlt_Text = "Se gjennom en liste over valgfrie betaoppdateringer.";
+                var L_TocProductAlt_Text = "Se gjennom en liste over oppdateringer for ";
+
+</script>
+</head>
+	<body class="toc sys-lhp-bgcolor"> 
+		<base target="eContent" />
+		<div id="eUserData"></div> 
+		<form name="ePostForm" id="ePostForm" method="post"><input name="ePostData" id="ePostData" type="hidden" /></form>
+		<table cellspacing="0" class="sys-toppane-bgcolor" >
+			<tbody>
+				<tr> 
+					<td style="height: 100%;"> 
+						<div class="sys-font-body toppane-body"> 
+
+							<a id="eBasketUpdates" title="Se gjennom oppdateringene som er valgt for installasjon, og start installasjonsprosessen." class="sys-link-disabled"><img src="shared/images/icon_wu_installnow_16x.gif" style = "width : 16px; height: 16px;" />Installer oppdateringer<i></i></a><br />
+
+
+							<div class="subHeader sys-bottompane-header-color sys-font-body-bold">Andre alternativer</div>
+
+
+							<a class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />Vis installasjonslogg</a><br />
+							<a class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />Innstillinger</a><br />
+							<a class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />Gjenopprett skjulte oppdateringer</a><br />
+
+
+							
+							<div id="eConsumerDiv3">
+								<a id="eAdmin" href="administrators.aspx?ln=no" title="Les informasjon for avanserte brukere." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Alternativer for administrator</a><br />
+								<a id="eSupport" href="support.aspx?ln=no" title="Lær hvordan du får elektronisk støtte for problemer med Windows Update-området eller elementer du har lastet ned fra det." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Hjelp og støtte</a><br />
+								<a id="eAbout" href="about.aspx?ln=no" title="Få svar på vanlige spørsmål om Windows Update." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Vanlige spørsmål</a><br />
+								
+							</div>
+							<a id="eHardwareSupport" target="_blank" class="sys-link-normal" title="Gå til kundestøttesiden for datamaskinprodusenten."><img src="shared/images/toc_endnode.gif" />Støtte for maskinvare</a>
+						</div>
+						
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

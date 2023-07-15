@@ -1,0 +1,179 @@
+
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<META http-equiv="Content-Type"  content="text/html;charset=big5" />
+		<META http-equiv="MSThemeCompatible" content="Yes" /> 
+		<META NAME="DESCRIPTION" CONTENT="為您的電腦作業系統、軟體與硬體取得最新的可用更新。我們會掃描您的電腦並提供專為您電腦提供的更新選擇。"> 
+		<META NAME="MS.LOCALE" CONTENT="zh-tw">
+		<META NAME="keywords" CONTENT="Windows Update; update; security; secure; up-to-date; download; driver; patch; fix; hotfix; QFE; bug; critical; high priority; service pack; Automatic Updates; Windows XP; Windows 2000; Windows Server 2003; WinXP; Win2k; Win2000; WS2k3; WS2003; .NET Server; SP">
+		<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+		
+			<title>Microsoft Windows Update</title>
+			<link rel='shortcut icon' href='shared/images/banners/favicon.ico' type='image/x-icon'/>
+		
+		<object id="SusWebCtl" VIEWASTEXT></object>
+		<object id="SunriseCtl" VIEWASTEXT></object>
+		<script language="javascript" type="text/javascript">
+			var g_bWGAEnablePingback = false;
+			var g_sQSProductName = '';
+
+		</script>
+		
+		<script language="javascript" type="text/javascript" src="shared/js/tgar.js?633411883397494202"></script>
+		<script language="javascript" type="text/javascript">
+var g_bMUSite = false;
+var curSite = "6LiveWWW";
+var g_sDownForMaintenance2K = "";
+var g_sDownForMaintenanceXP = "";
+var g_sDownForMaintenance2003 = "";
+var g_sDownForMaintenanceLonghorn = "";
+var g_sUA = "ia_archiver";
+var conLangCode = "zh-tw";
+</script>
+<script language="javascript" type="text/javascript" src="shared/js/redirect.js?633411883397494202"></script>
+
+		<script language="javascript" type="text/javascript" src="shared/js/commontop.js?633411883397494202"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/webcomtop.js?633411883397494202"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/spupdateids.js?633411883397494202"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/resultslist.js?633411883397494202"></script>
+
+		 
+			<script language="javascript" type="text/javascript">
+				function fnSupressError(sMessage, sURL, sLine){ return true; }
+				window.onerror = fnSupressError ;
+			</script>
+		
+		<script language="javascript" type="text/javascript" defer="true">
+			var conQueryString = "ln=zh-tw"; 
+			conQueryString = conQueryString.replace("&amp;","&");
+			var conRTL = false;
+			var conDevServer = false;
+			var conConsumerURL = "/windowsupdate/v6/"; 
+			var muSelfUpdate = false;
+			var L_SplashExpressScanAltText_Text = "僅尋找並安裝適用於您電腦的重要更新 ";
+var L_SplashCustomScanAltText_Text = "尋找並選擇適用於您電腦的更新 ";
+var L_SplashWelcomeExpressButton_Text = "快速 ";
+var L_SplashWelcomeCustomButton_Text = "自訂 ";
+var L_ReloadingSiteText_Text = "Windows Update 網站尚未完成開啟。\n			若要繼續等待，請按一下 [確定]。\n			若要提示 Windows Update 再次嘗試開啟網站，請按一下 [取消]。 ";
+var L_MB_Text = "MB ";
+var L_KB_Text = "KB ";
+var L_Hour_Text = "小時 ";
+var L_Hours_Text = "小時 ";
+var L_InstallTitle_Text = "正在安裝更新 ";
+var L_Minute_Text = "分 ";
+var L_Minutes_Text = "分 ";
+var L_RListSpeed_Text = "以您目前連線速度所預估下載時間： ";
+var L_RListDownloadSizeTotal_Text = "下載大小 (總計)： ";
+var L_RListMandatoryTotalUpdates_Text = "總計： ";
+var L_SucceededAlt_Text = "成功 ";
+var L_CancelledAlt_Text = "已取消 ";
+var L_FailAlt_Text = "失敗 ";
+var L_Product_Text = "產品 ";
+var L_OtherProduct_Text = "Windows ";
+var L_UpdateName_Text = "更新 ";
+var L_Status_Text = "狀態 ";
+var L_Date_Text = "日期 ";
+var L_Source_Text = "來源 ";
+var L_SuccessfulAlt_Text = "檢視已成功安裝的更新 ";
+var L_FailedAlt_Text = "檢視安裝失敗的更新 ";
+var L_RemainingAlt_Text = "檢視您還需要安裝的高優先順序更新 ";
+var L_AutomaticUpdates_Text = "[自動更新] ";
+var L_WindowsUpdate_Text = "Windows Update ";
+var L_MicrosoftUpdate_Text = "Microsoft Update ";
+var L_ManagedServer_Text = "Windows Server Update Services 用戶端網站 ";
+var L_DynamicUpdate_Text = "動態更新 ";
+var L_DeviceManager_Text = "裝置管理員 ";
+var L_OperationModeDownload_Text = "正在下載 ";
+var L_OperationModeCopying_Text = "正在複製檔案 ";
+var L_OperationModeRegister_Text = "正在註冊 ";
+var L_OtherSource_Text = "其他來源 ";
+var L_PersonalizationSaveSettingsPrompt_Text = "您已經變更設定。若要立即儲存設定，請按一下 [確定]。若要不儲存變更並繼續，則請按一下 [取消]。 ";
+var L_Next_Text = "下一頁 ";
+var L_RListBasketUpdatesNotAvailableText_Text = "沒有選取任何更新。 ";
+var L_NeedUserData_Text = "使用此功能必須啟用使用者資料 ";
+var L_UserDataSaved_Text = "已經儲存的您的設定 ";
+var L_PersonalizationReloadSite_Text = "您必須重新整理網頁，才能使用新的語言來檢視。這將會清除您已選取的任何更新。請按一下 [取消] 繼續安裝更新，並在您下次瀏覽時使用新的語言來檢視網站。 ";
+var L_Previous_Text = "上一頁 ";
+var L_ProxyTitle_Text = "輸入 Proxy 認證 ";
+var L_ExpressModeHidden_Text = "您已隱藏可解決該問題的更新。是否要將該更新還原到您的重大更新清單，以便立即安裝該更新？ ";
+var L_WerUpdateInstalled_Text = "已經安裝必備的更新。按一下 [確定] 可以繼續安裝其他適用於您電腦的更新。 ";
+var L_RListBetaTitle_Text = "選取 Beta 版軟體與更新 ";
+var L_RListProductJumpTitle_Text = "選取更新，針對  ";
+var L_RListProductJumpDesc_Text = "為協助保護您的電腦，我們強烈建議您安裝所有高優先順序的更新。若要選取其他產品更新的更新，請使用左邊的選項。 ";
+var L_RListBetaWarning1_Text = "<b>警告</b><br> ";
+var L_RListBetaWarning2_Text = "請勿將 Beta 版軟體安裝在您的主要電腦或您的主要生產環境中。 ";
+var L_RListHighPriWarinng1_Text = "<b>有更多高優先順序的更新可用</b><br/>您的電腦需要其他產品的高優先順序更新。我們強烈建議您安裝這些更新，以協助保護您的電腦與程式。 ";
+var L_RListHighPriWarinng2_Text = "立即檢視這些更新 ";
+var L_RListClickForDescription_Text = "按一下可以顯示此更新的描述 ";
+var L_RListClickToHideDescription_Text = "按一下可以隱藏此更新的描述 ";
+var L_RListCriticalUpdates_Text = "高優先順序的更新 ";
+var L_RListNoCritical_Text = "沒有適用於您電腦的高優先順序更新。若要選取其他更新，請使用左邊的選項。 ";
+var L_RListNOBaketUpdates_Text = "您尚未選取任何更新。請使用左邊的選項，從可用的更新中選擇要安裝的項目。我們強烈建議您安裝適用於您電腦的所有高優先順序更新。 ";
+var L_RListNOProductUpdates1_Text = "沒有適用於  ";
+var L_RListNOProductUpdates2_Text = " 的更新。若要選取其他產品的更新，請使用左邊的選項。 ";
+var L_RListNOProductCriticalUpdates1_Text = "沒有適用於  ";
+var L_RListNOProductCriticalUpdates2_Text = " 的高優先順序更新。 ";
+var L_RListNOBaketCriticalUpdates_Text = "您並未選取任何高優先順序的更新。 ";
+var L_RListNoCriticalExpress_Text = "沒有適用於您電腦的高優先順序更新。若要檢查選用的更新，請返回首頁並按一下 [自訂]。 ";
+var L_RListNoHidden_Text = "目前沒有隱藏的高優先順序更新。 ";
+var L_RListOptionalHWUpdates_Text = "選用的硬體更新 ";
+var L_RListNoOptionalHW_Text = "沒有適用於您電腦的選用硬體更新。若要選取其他更新，請使用左邊的選項。 ";
+var L_RListOptionalBetaUpdates_Text = "Beta 版軟體與更新 ";
+var L_RListNoOptionalBeta_Text = "沒有可用的 Beta 版軟體或 Beta 版更新。若要選取其他更新，請使用左邊的選項。 ";
+var L_RListOptionalUpdates_Text = "選用的軟體更新 ";
+var L_RListNoOptional_Text = "沒有適用於您電腦的選用更新。若要選取其他更新，請使用左邊的選項。 ";
+var L_RListCriticalUpdatesTitle_Text = "選取高優先順序的更新 ";
+var L_RListDeviceUnknown_Text = "Windows Update 建議安裝此更新，因為您電腦上適用此驅動程式的裝置似乎尚未安裝驅動程式。 ";
+var L_RListDeviceDisabled_Text = "Windows Update 建議安裝此更新，因為您電腦上適用此驅動程式的裝置似乎已停用。 ";
+var L_RListDeviceProblem_Text = "Windows Update 建議安裝此更新，因為您電腦上適用此驅動程式的裝置似乎無法正確運作。 ";
+var L_RListDownloadSize_Text = "下載大小： ";
+var L_RListDownloadSizeTypical_Text = "一般下載大小： ";
+var L_RListDriversTitle_Text = "選取選用的硬體更新 ";
+var L_RListHiddenTitle_Text = "選取要還原的更新 ";
+var L_RListExpressTitle_Text = "檢視並安裝更新 ";
+var L_RListProductTitle_Text = "選取選用的軟體更新 ";
+var L_RListBasketTitle_Text = "檢視並安裝更新 ";
+var L_RListHideThisUpdate_Text = "不要再顯示此更新  ";
+var L_RListInfoGifAlt_Text = "此更新已下載到您的電腦，但如果您選取它，它將會完成安裝 (建議使用)。 ";
+var L_RListItems_Text = "更新 ";
+var L_RListLessThan_Text = "小於 ";
+var L_RListOtherUpdates_Text = "選取並安裝其他更新 ";
+var L_RListOtherUpdatesExp_Text = "只有在安裝 (或選擇不安裝) 上面所選的更新後，才能選取其他更新。如果下面沒有出現任何更新，請參閱左邊的選項。 ";
+var L_RListxpressUpdates_Text = "高優先順序的更新 ";
+var L_RListBasketExclusiveDescUpdates_Text = "安裝之後，請記得再檢查一次，看看是否還有任何您電腦需要的更新。 ";
+var L_RListBasketExclusiveUpdates_Text = "此更新必須分開安裝 ";
+var L_RListExpressxclusive_Text = "此更新會影響整個系統，或解決多個問題。此更新必須與其他更新分開安裝。<br/><b>建議您安裝此更新，然後再從首頁檢查您的電腦是否還需要其他高優先順序的更新。</b> ";
+var L_RListReadMore_Text = "詳細資料... ";
+var L_RListSingleInstallationCritical_Text = "<b>您已選取必須分開安裝的更新 </b><br/>此更新對於您電腦的安全性與效能而言是重大更新。我們建議您立即安裝此更新。<br/>若要先安裝其他更新，您必須使用左邊的選項來尋找您已選取的更新，然後在該頁上，選擇 [選取並安裝其他更新]。 ";
+var L_RListSingleInstallationOptional_Text = "<b>您已選取必須分開安裝的更新  </b><br/>若想要先安裝其他更新，您必須使用左邊的選項來尋找此更新，並在同一頁上選擇 [選取並安裝其他更新]。 ";
+var L_RListSingleInstallationTitle_Text = "高優先順序的更新 ";
+var L_RListHiddenCriticalPresent1_Text = "<b>您已經隱藏高優先順序更新 </b><br/>您已經要求不要顯示一或多個高優先順序的更新，除非安裝這些更新，否則您的電腦可能有危險。 ";
+var L_RListHiddenCriticalPresent2_Text = "立即還原它們 ";
+var L_RListYellowBoxTitle_Text = "重要 ";
+var L_RListSelectall_Text = "全部選取 ";
+var L_RListClearall_Text = "全部清除 ";
+var L_RListExclusiveSubHeading_Text = "這些更新必須分開安裝 ";
+var L_RListExclusiveExp_Text = "此處列出的更新會影響整個系統，或解決多個問題。建議您立即安裝這些更新，然後再從首頁檢查是否還有剩餘的更新。 ";
+var L_RListWerText_Text = "解決您報告的問題 ";
+var L_RListVeryHighPriority_Text = "解決重大安全性問題 ";
+var L_RListSourceRequired_Text = "必須有安裝來源檔案才能安裝此更新 ";
+var L_RListZeroSize_Text = "(已下載; 準備安裝) ";
+var L_RListZeroSizeAsterisk_Text = "(*已下載; 準備安裝) ";
+var L_RList100_Text = "為協助保護您的電腦免於安全性威脅與避免效能問題，我們強烈建議您安裝所有高優先順序的更新。 ";
+var L_RList200_Text = "這些更新對於您電腦的安全性或效能而言並非重大更新，但可以改善某些功能、程式或裝置的運作方式。為協助保護您的電腦，請確定您已安裝所有高優先順序的更新。 ";
+var L_RList200a_Text = "這些更新對於您電腦的安全性或效能而言並非重大更新，但可以改善某些功能、程式或裝置的運作方式。為協助保護您的電腦，請確定您已安裝所有高優先順序的更新。 ";
+var L_RList400_Text = "為協助保護您的電腦，我們強烈建議您還原您已隱藏的任何高優先順序的更新並再次檢查，以判斷您的電腦還需要哪些更新。 ";
+var L_RList600_Text = "Beta 版軟體與 Beta 版軟體的更新僅用於測試與評估。請勿將 Beta 版軟體安裝在您的主要電腦或您主要的生產環境中。 ";
+var g_sWUControlVersion = '7.0.6000.381';
+var g_sMUControlVersion = '7.0.6000.381';
+var g_sSelfupdateUrl = 'http://www.update.microsoft.com/windowsupdate/v6/selfupdate.aspx';
+
+		</script>
+	</head>
+	<noscript>
+		<frameset rows='116, *, 60' border='0'><frame name='eToolbar'  class='storeUserData' src='mstoolbar.aspx?ln=zh-tw&error=1' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='200,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=zh-tw&error=1' /><frame name='eContent'  src='errorinformation.aspx?ln=zh-tw&error=1' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=zh-tw&error=1' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+	</noscript>
+	<frameset rows='116, *, 60' border='0'><frame name='eToolbar'  class='storeUserData' src='mstoolbar.aspx?ln=zh-tw' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='200,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=zh-tw' /><frame name='eContent'  src='splash.aspx?page=0&ln=zh-tw' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=zh-tw' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+</html>

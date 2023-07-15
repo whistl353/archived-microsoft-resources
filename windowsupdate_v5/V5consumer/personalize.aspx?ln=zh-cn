@@ -1,0 +1,46 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=gb2312' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+ 
+<script language="JScript" type="text/javascript" src="shared/js/personalize.js"></script>
+<script language ="javascript">
+	var sLan = "Arabic@|Chinese (Simplified)@|Chinese (Traditional)@|Chinese (Hong Kong)@|Czech@|Danish@|Dutch@|English@|Finnish@|French@|German@|Greek@|Hebrew@|Hungarian@|Italian@|Japanese@|Korean@|Norwegian@|Polish@|Portuguese (Brazil)@|Portuguese (Portugal)@|Russian@|Spanish@|Swedish@|Turkish"
+	var sRecommended = "(推荐)"
+	var sLN = "zh-cn";
+</script>
+</head>
+<body onload="fnInitPersonalization(13, -1);" onclick="fnUpdatePersonalization();" onbeforeunload="fnUnloadPersonalization();" class="personalization">
+	<span class="sys-font-heading3 sys-rhp-color-title">
+		Windows Update 设置
+	</span><br>	
+	<br>
+	<hr style="color:#cccccc;height:3px">
+	<b>语言</b> <br /><br/>
+	您可以用另一种语言查看 Windows Update 页。默认情况下，Windows Update 使用您的 Windows 语言设置。<br><br>请注意，如果您更改下面推荐的语言设置，则可以用多种语言显示页面。
+	<br>
+	<br>
+	<div id="LanDiv"></div>
+	<br>
+	<hr style="color:#cccccc;height:3px">
+	<b>高级</b> <br />
+	<input type="checkbox" id="eBetaLink" class="checkbox"><label for="eBetaLink">显示试用版产品和相关更新</label><br>
+	Windows Update 可以提供预发布的“试用版”产品(如果有)。
+	<br><br>
+	<div >注意: 您需要承担使用试用版软件带来的风险；试用版只用于测试和评估。不应当在您的主计算机或产品环境中安装试用版软件。</div>
+	<br /> 
+	<hr style="color:#cccccc;height:3px">
+
+	<button id="eSaveSettings" onclick="fnSaveSettings();" disabled type="button">
+		立即应用更改
+	</button>
+	<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+</body>

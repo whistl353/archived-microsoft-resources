@@ -1,0 +1,72 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1254' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/toc.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/toc.css' />
+
+<script language ="javascript">
+	                var L_Toc_Critical_Text = "Yüksek öncelikli güncelleştirmeleri gözden geçir";
+                var L_Toc_Beta_Text = "İsteğe bağlı beta güncelleştirmelerini seç";
+                var L_Toc_Hardware_Text = "İsteğe bağlı donanım güncelleştirmelerini seç";
+                var L_Toc_Software_Text = "İsteğe bağlı yazılım güncelleştirmelerini seç";
+                var L_Toc_CriticalUpdatesAlt_Text = "Yüksek öncelikli güncelleştirmelerle güvenlik güncelleştirmelerinin listesini gözden geçirin.";
+                var L_Toc_SoftwareUpdatesAlt_Text = "İsteğe bağlı yazılım güncelleştirmelerinin listesini gözden geçirin.";
+                var L_Toc_HardwareUpdatesAlt_Text = "İsteğe bağlı donanım güncelleştirmelerinin listesini gözden geçirin.";
+                var L_Toc_BetaUpdatesAlt_Text = "İsteğe bağlı beta güncelleştirmelerinin listesini gözden geçirin.";
+                var L_TocProductAlt_Text = "Güncelleştirme listelerini gözden geçirin: ";
+
+</script>
+</head>
+	<body class="toc sys-lhp-bgcolor"> 
+		<base target="eContent" />
+		<div id="eUserData"></div> 
+		<form name="ePostForm" id="ePostForm" method="post"><input name="ePostData" id="ePostData" type="hidden" /></form>
+		<table cellspacing="0" class="sys-toppane-bgcolor" >
+			<tbody>
+				<tr> 
+					<td style="height: 100%;"> 
+						<div class="sys-font-body toppane-body"> 
+
+							<div id="eConsumerDiv1">
+								<a id="eBasketUpdates" href="" title="Yükleme için seçilen güncelleştirmeleri gözden geçirin ve yükleme işlemini başlatın." class="sys-link-disabled"><img src="shared/images/icon_wu_installnow_16x.gif" style = "width : 16px; height: 16px;" />Güncelleştirmeleri yükle<i></i></a><br />
+								<!--<a id="eAvailableUpdates" title="Bilgisayarınız için kullanılabilir güncelleştirmelere bakın. Windows Update'in önce bilgisayarınızı taraması gerekebilir." class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" /><i>Program güncelleştirmelerini al</i></a>-->
+								<table style="width:91%;height:0px;cellspacing:0;" border= "0" id="eAvailableUpdatesTable"><tr><td style="padding:0px"><div id="eAvailableUpdatesDiv"></div></td></tr></table>
+							</div>
+
+
+
+							<div class="subHeader sys-bottompane-header-color sys-font-body-bold">Diğer Seçenekler</div>
+
+
+							<div id="eConsumerDiv2">
+								<a id="eHistory" url="history.aspx?ln=tr" title="Windows Update'ten yüklediğiniz güncelleştirmelerin listesini gözden geçirin." class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />Yükleme geçmişini görüntüle</a><br />
+								<a id="eAdvancedSettings" href="personalize.aspx?ln=tr"  url ="personalize.aspx?ln=tr" title="Windows Update'i kullandığınızda görüntülenecek bilgileri özelleştirin." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Ayarlar</a><br />
+								<a id="eHidden"  title="Gizlemeyi seçtiğiniz güncelleştirmelerin listesini gözden geçirin." class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />Gizli güncelleştirmeleri geri yükle</a><br />
+							</div>
+
+
+
+							
+							<div id="eConsumerDiv3">
+								<a id="eAdmin" href="administrators.aspx?ln=tr" title="İleri düzey kullanıcılar için sağlanan bilgileri okuyun." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Yönetici seçenekleri</a><br />
+								<a id="eSupport" href="support.aspx?ln=tr" title="Windows Update sitesiyle veya bu siteden yüklediğiniz öğelerle ilgili sorunlarda nasıl çevrimiçi destek alabileceğinizi öğrenin." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Yardım ve destek</a><br />
+								<a id="eAbout" href="about.aspx?ln=tr" title="Windows Update hakkında sık sorulan soruların yanıtlarını bulun." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Sık sorulan sorular</a><br />
+								
+							</div>
+							<a id="eHardwareSupport" target="_blank" class="sys-link-normal" title="Bilgisayar üreticinizin destek sitesine gidin."><img src="shared/images/toc_endnode.gif" />Donanım desteği</a>
+						</div>
+						
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

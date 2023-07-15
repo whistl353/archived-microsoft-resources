@@ -1,0 +1,47 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=big5' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+ 
+<script language="JScript" type="text/javascript" src="shared/js/personalize.js"></script>
+<script language ="javascript">
+	var sLan = "阿拉伯文@|中文 (簡體)@|中文 (繁體)@|中文 (香港特別行政區)@|捷克文@|丹麥文@|荷蘭文@|英文@|芬蘭文@|法文@|德文@|希臘文@|希伯來文@|匈牙利文@|義大利文@|日文@|韓文@|挪威文@|波蘭文@|葡萄牙文 (巴西)@|葡萄牙文 (葡萄牙)@|俄文@|西班牙文@|瑞典文@|土耳其文"
+	var sRecommended = "(建議使用)"
+	var sLN = "zh-tw";
+</script>
+</head>
+<body onload="fnInitPersonalization(13, -1);" onclick="fnUpdatePersonalization();" onbeforeunload="fnUnloadPersonalization();" class="personalization">
+	<span class="sys-font-heading3 sys-rhp-color-title">
+		Windows Update 設定
+	</span><br>	
+	<br>
+	<hr style="color:#cccccc;height:3px">
+	<b>語言</b> <br /><br/>
+	您可以使用另一種語言檢視 Windows Update 網頁。依照預設，Windows Update 會使用您 Windows 的語言設定。<br><br>請注意，如果您變更下列建議的語言設定，可能會在同一頁上顯示一種以上的語言。
+	<br>
+	<br>
+	<div id="LanDiv"></div>
+	<br>
+	<hr style="color:#cccccc;height:3px">
+	<b>進階</b> <br />
+	<input type="checkbox" id="eBetaLink" class="checkbox"><label for="eBetaLink">顯示 Beta 產品與相關的更新</label><br>
+	在可以取得正式產品前，Windows Update 能夠提供您產品尚未正式發行的 Beta 版。
+	<br><br>
+	<div >注意：使用 Beta 軟體必須自行負擔風險；這類軟體僅適用於測試與評估目的使用。請不要在您的主要電腦或生產環境上安裝 Beta 軟體。</div>
+	<br /> 
+	<hr style="color:#cccccc;height:3px">
+
+	<button id="eSaveSettings" onclick="fnSaveSettings();" disabled type="button">
+		立即套用變更
+	</button>
+	<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+</body>

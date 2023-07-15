@@ -1,0 +1,179 @@
+
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<META http-equiv="Content-Type"  content="text/html;charset=windows-1252" />
+		<META http-equiv="MSThemeCompatible" content="Yes" /> 
+		<META NAME="DESCRIPTION" CONTENT="Récupérez les dernières mises à jour disponibles pour le système d'exploitation, les logiciels et les composants matériels de votre ordinateur. Nous analyserons votre ordinateur et vous fournirons une sélection de mises à jour adaptées à vos besoins."> 
+		<META NAME="MS.LOCALE" CONTENT="fr">
+		<META NAME="keywords" CONTENT="Windows Update; update; security; secure; up-to-date; download; driver; patch; fix; hotfix; QFE; bug; critical; high priority; service pack; Automatic Updates; Windows XP; Windows 2000; Windows Server 2003; WinXP; Win2k; Win2000; WS2k3; WS2003; .NET Server; SP">
+		<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+		
+			<title>Microsoft Windows Update</title>
+			<link rel='shortcut icon' href='shared/images/banners/favicon.ico' type='image/x-icon'/>
+		
+		<object id="SusWebCtl" VIEWASTEXT></object>
+		<object id="SunriseCtl" VIEWASTEXT></object>
+		<script language="javascript" type="text/javascript">
+			var g_bWGAEnablePingback = false;
+			var g_sQSProductName = '';
+
+		</script>
+		
+		<script language="javascript" type="text/javascript" src="shared/js/tgar.js?633985726299092323"></script>
+		<script language="javascript" type="text/javascript">
+var g_bMUSite = false;
+var curSite = "6Live";
+var g_sDownForMaintenance2K = "";
+var g_sDownForMaintenanceXP = "";
+var g_sDownForMaintenance2003 = "";
+var g_sDownForMaintenanceLonghorn = "";
+var g_sUA = "ia_archiver (+http://www.alexa.com/site/help/webmasters//; crawler@alexa.com)";
+var conLangCode = "fr";
+</script>
+<script language="javascript" type="text/javascript" src="shared/js/redirect.js?633985726299092323"></script>
+
+		<script language="javascript" type="text/javascript" src="shared/js/commontop.js?633985726299092323"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/webcomtop.js?633985726299092323"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/spupdateids.js?633985726299092323"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/resultslist.js?633985726299092323"></script>
+
+		 
+			<script language="javascript" type="text/javascript">
+				function fnSupressError(sMessage, sURL, sLine){ return true; }
+				window.onerror = fnSupressError ;
+			</script>
+		
+		<script language="javascript" type="text/javascript" defer="true">
+			var conQueryString = "ln=fr"; 
+			conQueryString = conQueryString.replace("&amp;","&");
+			var conRTL = false;
+			var conDevServer = false;
+			var conConsumerURL = "/windowsupdate/v6/"; 
+			var muSelfUpdate = false;
+			var L_SplashExpressScanAltText_Text = "Recherchez et installez uniquement les mises à jour les plus importantes destinées à votre ordinateur. ";
+var L_SplashCustomScanAltText_Text = "Recherchez et choisissez les mises à jour disponibles destinées à votre ordinateur. ";
+var L_SplashWelcomeExpressButton_Text = "Rapide ";
+var L_SplashWelcomeCustomButton_Text = "Personnalisée ";
+var L_ReloadingSiteText_Text = "L'ouverture du site Windows Update n'est pas terminée.\n			Pour patienter, cliquez sur OK.\n			Pour demander à Windows Update de réessayer d'ouvrir le site, cliquez sur Annuler. ";
+var L_MB_Text = "Mo ";
+var L_KB_Text = "Ko ";
+var L_Hour_Text = "heure ";
+var L_Hours_Text = "heures ";
+var L_InstallTitle_Text = "Installation des mises à jour ";
+var L_Minute_Text = "minute ";
+var L_Minutes_Text = "minutes ";
+var L_RListSpeed_Text = "Durée estimée en fonction de votre vitesse de connexion :  ";
+var L_RListDownloadSizeTotal_Text = "Taille du téléchargement (totale) :  ";
+var L_RListMandatoryTotalUpdates_Text = "Total :  ";
+var L_SucceededAlt_Text = "Installée ";
+var L_CancelledAlt_Text = "Annulée ";
+var L_FailAlt_Text = "Non installée ";
+var L_Product_Text = "Produit ";
+var L_OtherProduct_Text = "Windows ";
+var L_UpdateName_Text = "Mise à jour ";
+var L_Status_Text = "État ";
+var L_Date_Text = "Date ";
+var L_Source_Text = "Source ";
+var L_SuccessfulAlt_Text = "Consulter les mises à jour installées correctement ";
+var L_FailedAlt_Text = "Rechercher les mises à jour dont l'installation a échoué ";
+var L_RemainingAlt_Text = "Vérifier les mises à jour prioritaires qu'il vous reste à installer ";
+var L_AutomaticUpdates_Text = "Mises à jour auto. ";
+var L_WindowsUpdate_Text = "Windows Update ";
+var L_MicrosoftUpdate_Text = "Microsoft Update ";
+var L_ManagedServer_Text = "Site Web client Windows Server Update Services ";
+var L_DynamicUpdate_Text = "Mises à jour dynamiques ";
+var L_DeviceManager_Text = "Gestionnaire de périphériques ";
+var L_OperationModeDownload_Text = "Téléchargement ";
+var L_OperationModeCopying_Text = "Copie des fichiers ";
+var L_OperationModeRegister_Text = "Inscription ";
+var L_OtherSource_Text = "Autre source ";
+var L_PersonalizationSaveSettingsPrompt_Text = "Vous avez modifié vos paramètres. Pour enregistrer les nouveaux paramètres maintenant, cliquez sur OK. Pour continuer sans les enregistrer, cliquez sur Annuler. ";
+var L_Next_Text = "Suivant ";
+var L_RListBasketUpdatesNotAvailableText_Text = "Aucune mise à jour n'est sélectionnée. ";
+var L_NeedUserData_Text = "Vous avez besoin d'activer des données utilisateur pour cette fonctionnalité ";
+var L_UserDataSaved_Text = "Vos paramètres ont été enregistrés. ";
+var L_PersonalizationReloadSite_Text = "Vous devez actualiser le site pour l'afficher dans la nouvelle langue. Toutes les mises à jour que vous aviez sélectionnées seront effacées. Cliquez sur Annuler pour continuer l'installation des mises à jour et afficher le site dans la nouvelle langue lors de votre prochaine visite. ";
+var L_Previous_Text = "Précédent ";
+var L_ProxyTitle_Text = "Entrez les informations d'identification de proxy ";
+var L_ExpressModeHidden_Text = "Vous avez masqué la mise à jour qui concerne ce problème. Voulez-vous la réintégrer dans la liste des mises à jour importantes afin de l'installer maintenant ? ";
+var L_WerUpdateInstalled_Text = "La mise à jour demandée a déjà été installée. Cliquez sur OK pour installer d'autres mises à jour disponibles pour votre ordinateur. ";
+var L_RListBetaTitle_Text = "Sélectionner les logiciels et mises à jour en version bêta ";
+var L_RListProductJumpTitle_Text = "Sélectionner les mises à jour pour  ";
+var L_RListProductJumpDesc_Text = "Pour renforcer la protection de votre ordinateur, nous vous recommandons vivement d'installer toutes les mises à jour prioritaires. Pour sélectionner les mises à jour d'autres produits, utilisez les options situées à gauche. ";
+var L_RListBetaWarning1_Text = "<b>Avertissement</b><br> ";
+var L_RListBetaWarning2_Text = "N'installez pas de logiciels en version bêta sur votre ordinateur principal ou dans votre environnement de production. ";
+var L_RListHighPriWarinng1_Text = "<b>D'autres mises à jour prioritaires sont disponibles</b><br/>Votre ordinateur nécessite des mises à jour importantes pour d'autres produits. Nous vous recommandons vivement de les installer pour renforcer la protection de votre ordinateur et de vos programmes.  ";
+var L_RListHighPriWarinng2_Text = "Rechercher les autres mises à jour ";
+var L_RListClickForDescription_Text = "Cliquez ici pour afficher la description de cette mise à jour ";
+var L_RListClickToHideDescription_Text = "Cliquez ici pour masquer la description de cette mise à jour ";
+var L_RListCriticalUpdates_Text = "Mises à jour prioritaires ";
+var L_RListNoCritical_Text = "Aucune mise à jour prioritaire n'est disponible pour votre ordinateur. Pour sélectionner d'autres mises à jour, utilisez les options situées à gauche. ";
+var L_RListNOBaketUpdates_Text = "Vous n'avez sélectionné aucune mise à jour. Utilisez les options situées à gauche pour sélectionner les mises à jour disponibles. Nous vous recommandons vivement d'installer toutes les mises à jour prioritaires destinées à votre ordinateur. ";
+var L_RListNOProductUpdates1_Text = "Aucune mise à jour pour  ";
+var L_RListNOProductUpdates2_Text = " n'est disponible. Pour sélectionner les mises à jour d'autres produits, utilisez les options situées à gauche. ";
+var L_RListNOProductCriticalUpdates1_Text = "Aucune mise à jour prioritaire pour  ";
+var L_RListNOProductCriticalUpdates2_Text = " n'est disponible. ";
+var L_RListNOBaketCriticalUpdates_Text = "Vous n'avez sélectionné aucune mise à jour prioritaire. ";
+var L_RListNoCriticalExpress_Text = "Aucune mise à jour prioritaire n'est disponible pour votre ordinateur. Pour rechercher la présence d'éventuelles mises à jour facultatives, revenez à la page d'accueil et cliquez sur <b>Personnalisée</b>. ";
+var L_RListNoHidden_Text = "Aucune mise à jour prioritaire n'est masquée actuellement. ";
+var L_RListOptionalHWUpdates_Text = "Mises à jour de matériel facultatives ";
+var L_RListNoOptionalHW_Text = "Aucune mise à jour matérielle facultative n'est disponible pour votre ordinateur. Pour sélectionner d'autres mises à jour, utilisez les options situées à gauche. ";
+var L_RListOptionalBetaUpdates_Text = "Logiciels et mises à jour en version bêta ";
+var L_RListNoOptionalBeta_Text = "Aucun logiciel et aucune mise à jour en version bêta ne sont disponibles. Pour sélectionner d'autres mises à jour, utilisez les options situées à gauche. ";
+var L_RListOptionalUpdates_Text = "Mises à jour de logiciels facultatives ";
+var L_RListNoOptional_Text = "Aucune mise à jour facultative n'est disponible pour votre ordinateur. Pour sélectionner d'autres mises à jour, utilisez les options situées à gauche. ";
+var L_RListCriticalUpdatesTitle_Text = "Sélectionner les mises à jour prioritaires ";
+var L_RListDeviceUnknown_Text = "Windows Update vous recommande d'installer cette mise à jour, car le périphérique auquel ce pilote s'applique ne semble être associé à aucun périphérique installé. ";
+var L_RListDeviceDisabled_Text = "Windows Update vous recommande d'installer cette mise à jour, car le périphérique auquel ce pilote s'applique semble être désactivé. ";
+var L_RListDeviceProblem_Text = "Windows Update vous recommande d'installer cette mise à jour, car le périphérique auquel ce pilote s'applique ne semble pas fonctionner correctement sur votre ordinateur. ";
+var L_RListDownloadSize_Text = "Taille du téléchargement :  ";
+var L_RListDownloadSizeTypical_Text = "Taille habituelle du téléchargement :  ";
+var L_RListDriversTitle_Text = "Sélectionner les mises à jour facultatives relatives au matériel ";
+var L_RListHiddenTitle_Text = "Sélectionner les mises à jour à restaurer ";
+var L_RListExpressTitle_Text = "Vérifier et installer les mises à jour ";
+var L_RListProductTitle_Text = "Sélectionner les mises à jour de logiciels facultatives ";
+var L_RListBasketTitle_Text = "Vérifier et installer les mises à jour ";
+var L_RListHideThisUpdate_Text = "Ne plus afficher cette mise à jour  ";
+var L_RListInfoGifAlt_Text = "Cette mise à jour a déjà été téléchargée sur votre ordinateur. Sélectionnez-la pour achever son installation (recommandé). ";
+var L_RListItems_Text = "mises à jour ";
+var L_RListLessThan_Text = "inférieur à ";
+var L_RListOtherUpdates_Text = "Sélectionner et installer d'autres mises à jour ";
+var L_RListOtherUpdatesExp_Text = "Vous pourrez sélectionner d'autres mises à jour uniquement après avoir installé, ou choisi de ne pas installer, les mises à jour sélectionnées ci-dessus. Si aucune mise à jour n'apparaît ci-dessous, consultez les options situées à gauche. ";
+var L_RListxpressUpdates_Text = "Mises à jour prioritaires ";
+var L_RListBasketExclusiveDescUpdates_Text = "Une fois l'installation terminée, n'oubliez pas de rechercher d'autres mises à jour susceptibles de s'appliquer à votre ordinateur. ";
+var L_RListBasketExclusiveUpdates_Text = "Cette mise à jour doit être installée séparément. ";
+var L_RListExpressxclusive_Text = "Cette mise à jour peut avoir des effets sur l'ensemble du système ou concerner plusieurs problèmes. Elle doit être installée séparément des autres mises à jour. <br/><b>Nous vous recommandons de l'installer et de revenir à notre page d'accueil pour vérifier si votre ordinateur nécessite d'autres mises à jour prioritaires.</b> ";
+var L_RListReadMore_Text = "Détails... ";
+var L_RListSingleInstallationCritical_Text = "<b>Vous avez sélectionné une mise à jour qui doit être installée séparément. </b><br/>Cette mise à jour est critique pour la sécurité et les performances de votre ordinateur. Nous vous recommandons de l'installer maintenant.<br/>Pour installer d'autres mises à jour, utilisez les options situées à gauche pour accéder à la mise à jour sélectionnée et choisissez, sur la même page, l'option <b>Sélectionner et installer d'autres mises à jour</b>. ";
+var L_RListSingleInstallationOptional_Text = "<b>Vous avez sélectionné une mise à jour qui doit être installée séparément. </b><br/>Pour installer d'autres mises à jour avant celle-ci, utilisez les options situées à gauche afin d'accéder à cette mise à jour et choisissez, sur la même page, l'option <b>Sélectionner et installer d'autres mises à jour</b>. ";
+var L_RListSingleInstallationTitle_Text = "Mise à jour prioritaire ";
+var L_RListHiddenCriticalPresent1_Text = "<b>Vous avez masqué des mises à jour importantes. </b><br/>Vous nous avez demandé de ne pas vous présenter une ou plusieurs mises à jour prioritaires, mais votre ordinateur est davantage exposé tant que vous les avez pas installées.  ";
+var L_RListHiddenCriticalPresent2_Text = "Restaurer les mises à jour ";
+var L_RListYellowBoxTitle_Text = "Important ";
+var L_RListSelectall_Text = "Sélectionner tout ";
+var L_RListClearall_Text = "Effacer tout ";
+var L_RListExclusiveSubHeading_Text = "Ces mises à jour doivent être installées séparément. ";
+var L_RListExclusiveExp_Text = "Les mises à jour mentionnées ici peuvent avoir des effets sur l'ensemble du système ou concerner plusieurs problèmes. Il est recommandé de les installer maintenant et de vérifier, à partir de la page d'accueil, la disponibilité d'éventuelles autres mises à jour. ";
+var L_RListWerText_Text = "Concerne un problème que vous avez signalé ";
+var L_RListVeryHighPriority_Text = "Concerne un problème de sécurité critique ";
+var L_RListSourceRequired_Text = "Vous aurez peut-être besoin des fichiers sources de l'installation pour installer cette mise à jour. ";
+var L_RListZeroSize_Text = "(Téléchargé(e) ; prêt(e) à installer) ";
+var L_RListZeroSizeAsterisk_Text = "(*Téléchargé(e) ; prêt(e) à installer) ";
+var L_RList100_Text = "Pour vous aider à protéger votre ordinateur contre les menaces de sécurité et les problèmes de performances, nous vous recommandons vivement d'installer toutes les mises à jour prioritaires. ";
+var L_RList200_Text = "Ces mises à jour ne sont pas critiques pour la sécurité ou les performances de votre ordinateur, mais elles peuvent améliorer le fonctionnement de certains composants, programmes ou périphériques. Pour renforcer la protection de l'ordinateur, veillez à installer toutes les mises à jour prioritaires. ";
+var L_RList200a_Text = "Ces mises à jour ne sont pas critiques pour la sécurité ou les performances de votre ordinateur, mais elles peuvent améliorer le fonctionnement de certains composants, programmes ou périphériques. Pour renforcer la protection de l'ordinateur, veillez à installer toutes les mises à jour prioritaires. ";
+var L_RList400_Text = "Pour renforcer la protection de votre ordinateur, nous vous recommandons vivement de restaurer les mises à jour prioritaires masquées et de rechercher de nouveau les mises à jour dont votre ordinateur a besoin. ";
+var L_RList600_Text = "Les logiciels et les mises à jour en version bêta sont proposés à des fins de test ou d'évaluation uniquement. N'installez pas de logiciels en version bêta sur votre ordinateur principal ou dans votre environnement de production. ";
+var g_sWUControlVersion = '7.4.7600.226';
+var g_sMUControlVersion = '7.4.7600.226';
+var g_sSelfupdateUrl = 'http://www.update.microsoft.com/windowsupdate/v6/selfupdate.aspx';
+
+		</script>
+	</head>
+	<noscript>
+		<frameset rows='116, *, 60' border='0'><frame name='eToolbar'  class='storeUserData' src='mstoolbar.aspx?ln=fr&error=1' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='200,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=fr&error=1' /><frame name='eContent'  src='errorinformation.aspx?ln=fr&error=1' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=fr&error=1' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+	</noscript>
+	<frameset rows='116, *, 60' border='0'><frame name='eToolbar'  class='storeUserData' src='mstoolbar.aspx?ln=fr' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='200,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=fr' /><frame name='eContent'  src='splash.aspx?page=0&ln=fr' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=fr' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+</html>

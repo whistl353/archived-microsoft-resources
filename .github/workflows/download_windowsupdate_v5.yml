@@ -20,7 +20,7 @@ jobs:
       run: gem install wayback_machine_downloader
 
     - name: Download archived website
-      run: wayback_machine_downloader https://v5.windowsupdate.microsoft.com/shared/ --directory windowsupdate_v5
+      run: wayback_machine_downloader https://v5.windowsupdate.microsoft.com --directory windowsupdate_v5
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3

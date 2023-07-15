@@ -1,0 +1,32 @@
+name: Download Windows Update V4 from Wayback Machine
+
+on:
+  workflow_dispatch:
+
+jobs:
+  download_and_commit:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.7
+
+    - name: Install wayback_machine_downloader
+      run: gem install wayback_machine_downloader
+
+    - name: Download archived website
+      run: wayback_machine_downloader https://v5.windowsupdate.microsoft.com/shared/ --directory windowsupdate_v5
+
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v3
+      with:
+        token: ${{ secrets.GH_PAT }}
+        commit-message: "Download and update archived website"
+        title: "Download and update archived website"
+        body: "This PR updates the archived website content."
+        branch: "update-archived-website"

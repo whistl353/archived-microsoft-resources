@@ -1,0 +1,55 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1254' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+	</head>
+	<body onload="fnInit(6, -1);">
+		<span class="sys-font-heading3 sys-rhp-color-title">Windows Update’i kullanma hakkında yardım ve destek</span><br />
+		<br>
+		<div class="8pt">
+			<a name="SolveProblems"><b>Sorunları kendi başınıza çözün</b></a><br /><br />
+			<div style = "margin-left : 40">
+				<a href="about.aspx?ln=tr" target="eContent" class="sys-link-normal"> Windows Update ile ilgili Sık Sorulan Soruları okuyun				
+		</a>
+				 <br> Windows Update Web sitesini kullanma, sorun giderme, ağları güncelleştirme ve diğer konular hakkında sık sorulan soruların yanıtlarını okuyun.
+		
+				<br> <br><a href="troubleshoot.aspx?ln=tr" target="eContent" class="sys-link-normal">Windows Update Sorun Giderici’yi deneyin
+		</a>
+				<br>Her Windows Update hata iletisinde görüntülenen hata açıklamasına veya hata numarasına göre yardım ararken adımlar halinde çözümlere ulaşın.
+		
+				<br> <br><a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=9581' target='_blank' >Microsoft Newsgroups’u Denetleyin</a><br>
+				Başka birinin sorununuzun çözümünü bilip bilmediğini öğrenin veya sorununuzu yazıp diğer kullanıcılardan yardım alın. (Bazı tartışmalar yalnızca İngilizce’dir.)
+		
+			</div>
+			<br><br>
+			<a name="Assistance"><b>Yardım alın</b></a><br /><br />
+			<div style = "margin-left : 40">
+				 <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=25127' target='_blank'>Windows Update Destek Merkezi’ni ziyaret edin</a><br>
+				Knowledge Base (KB) makalelerine ve e-posta, çevrimiçi ve telefonla destek gibi diğer kaynaklara bağlantılar bulun. (Bazı durumlarda ücret alınabilir.) Yalnızca İngilizce bilgi veriliyorsa, <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=27099' target='_blank' >ülkenizdeki veya bölgenizdeki</a> Microsoft’tan ek yardım alabilirsiniz.
+		
+				<br><br> <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=21608' target='_blank'>Sorun raporu gönderin</a><br>
+				Sorunu yukarıdaki seçenekleri kullanarak çözemezseniz, bir çevrimiçi rapor hazırlayın ve destek uzmanlarına size en iyi şekilde ulaşabilecekleri yolu bildirin. Form ülkenizde veya bölgenizde bulunmuyorsa, <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=27099' target='_blank' >telefonla</a> destek alın.
+						 
+			</div>
+			<br><br>
+			<hr style="color:#cccccc;height:3px">
+			<br><br>
+			<a name="Beta"><b>Yayın öncesi (beta) yazılım desteği</b></a><br /><br />
+			<div style = "margin-left : 40">
+				Yayın öncesi yazılım desteği ürüne göre değişiklik gösterir. Yayın öncesi yazılım veya güncelleştirmeleri yüklemeden önce bunlar için sağlanan ayrıntıları okumanız önemle önerilir.
+		
+			</div>
+		</div>
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' /> 
+	</body>
+</html>

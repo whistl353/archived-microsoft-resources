@@ -1,0 +1,158 @@
+
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<META http-equiv="Content-Type"  content="text/html;charset=windows-1252" />
+		<META http-equiv="MSThemeCompatible" content="Yes" />
+		<META NAME="DESCRIPTION" CONTENT="Hent de seneste opdateringer, der er tilgængelige til computerens operativsystem, software og hardware. Windows Update scanner din computer og giver dig et udvalg af opdateringer, der passer lige til dig."> 
+		<META NAME="MS.LOCALE" CONTENT="da">
+		<META NAME="keywords" CONTENT="Windows Update; update; security; secure; up-to-date; download; driver; patch; fix; hotfix; QFE; bug; critical; high priority; service pack; Automatic Updates; Windows XP; Windows 2000; Windows Server 2003; WinXP; Win2k; Win2000; WS2k3; WS2003; .NET Server; SP">
+		<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+		<title>Microsoft Windows Update</title>
+		<object id="SusWebCtl" VIEWASTEXT></object>
+		<script language="javascript" type="text/javascript">
+			var curSite = 5;
+			var g_sDownForMaintenance2K = "";
+			var g_sDownForMaintenanceXP = "";
+			var g_sDownForMaintenance2003 = "";
+			var g_sDownForMaintenanceLonghorn = "";
+			var g_sUA = "ia_archiver".toLowerCase();
+					
+			
+		</script>
+		<script language="javascript" type="text/javascript" src="shared/js/tgar.js?18-02-2006 20:29:45"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/redirect.js?18-02-2006 20:29:45"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/commontop.js?18-02-2006 20:29:45"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/webcomtop.js?18-02-2006 20:29:45"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/spupdateids.js?18-02-2006 20:29:45"></script>
+		
+		 
+			<script language="javascript" type="text/javascript">
+				function fnSupressError(sMessage, sURL, sLine){ return true; }
+				window.onerror = fnSupressError ;
+			</script>
+		
+		<script language="javascript" type="text/javascript" defer="true">
+			var conQueryString = "ln=da"; 
+			var conRTL = false;
+			var conDevServer = false;
+			var conCriticalUpdatesMode = false;
+			var conLangCode = "da";
+			var conConsumerURL = "/v5consumer/";
+			var L_ScanForAvailableUpdates_Text = "Hent programopdateringer";
+var L_ReloadingSiteText_Text = "Webstedet Windows Update er endnu ikke åbnet.\n			Klik på OK for at fortsætte med at vente.\n			Klik på Annuller for at få Windows Update til at åbne webstedet igen.";
+var L_MB_Text = "MB";
+var L_KB_Text = "KB";
+var L_Hour_Text = "time";
+var L_Hours_Text = "timer";
+var L_InstallTitle_Text = "Installerer opdateringer";
+var L_Minute_Text = "minut";
+var L_Minutes_Text = "minutter";
+var L_RListNoUpdatesToInstall_Text = "Der er ikke valgt nogen opdateringer til installation.";
+var L_StatusSucceeded_Text = "Lykkedes";
+var L_StatusFailed_Text = "Mislykkedes";
+var L_StatusAborted_Text = "Annulleret";
+var L_UpdateName_Text = "Navn på opdatering";
+var L_Status_Text = "Status";
+var L_Date_Text = "Dato";
+var L_Source_Text = "Kilde";
+var L_AutomaticUpdates_Text = "Automatiske opdateringer";
+var L_WindowsUpdate_Text = "Webstedet Windows Update";
+var L_ManagedServer_Text = "Klientwebstedet Windows Update-tjenester";
+var L_DynamicUpdate_Text = "Dynamiske opdateringer";
+var L_DeviceManager_Text = "Enhedshåndtering";
+var L_OperationModeDownload_Text = "Henter";
+var L_OperationModeCopying_Text = "Kopierer filer";
+var L_OperationModeRegister_Text = "Registrerer";
+var L_OtherSource_Text = "Anden kilde";
+var L_PersonalizationSaveSettingsPrompt_Text = "Du har foretaget ændringer i indstillingerne. Klik på OK for at gemme indstillingerne nu. Hvis du vil fortsætte uden at gemme, skal du klikke på Annuller.";
+var L_Next_Text = "Næste";
+var L_RListBasketUpdatesNotAvailableText_Text = "Der er ikke valgt nogen opdateringer.";
+var L_NeedUserData_Text = "Brugerdata skal aktiveres for denne funktion";
+var L_UserDataSaved_Text = "Indstillingerne er blevet gemt";
+var L_PersonalizationReloadSite_Text = "Sprogindstillingerne er blevet gemt. Windows Update skal opdatere webstedet for at kunne vise det på det nye sprog. Herved nulstilles eventuelle valgte opdateringer. Vil du gøre dette nu?";
+var L_Previous_Text = "Forrige";
+var L_ProxyTitle_Text = "Angiv legitimationsoplysninger for proxy";
+var L_ExpressModeHidden_Text = "Windows Update og automatiske opdateringer giver dig mulighed for skjule en opdatering, som du ikke længere vil tilbydes. Opdateringen, som nu er påkrævet, var tidligere skjult. Vil du gendanne denne opdatering for at installere den?";
+var L_WerUpdateInstalled_Text = "Den nødvendige opdatering er allerede installeret. Klik på OK for at fortsætte med at installere andre opdateringer, som er tilgængelige til computeren.";
+var L_RListBetaDescription_Text = "Følgende betaopdateringer er tilgængelige til computeren. Vælg de opdateringer, som du vil installere, og klik derefter på linket Gå til installation af opdateringer.";
+var L_RListBetaTitle_Text = "Vælg valgfrie betaopdateringer";
+var L_RListBetaWarning1_Text = "<b>Betasoftware kan være skadelig for din computer</b><br>";
+var L_RListBetaWarning2_Text = "Foreløbige versioner eller \"beta\"-produkter (software), eller opdateringer til betasoftware kan være skadelige for computeren, og Microsoft yder muligvis kun begrænset support.";
+var L_RListClickForDescription_Text = "Klik for at vise opdateringens beskrivelse";
+var L_RListClickToHideDescription_Text = "Klik for at skjule opdateringens beskrivelse";
+var L_RListCriticalUpdates_Text = "Opdateringer med høj prioritet";
+var L_RListCriticalUpdatesBar_Text = "Opdateringer med høj prioritet";
+var L_RListCriticalUpdatesTitle_Text = "Gennemse opdateringer med høj prioritet";
+var L_RListDeviceUnknown_Text = "Windows Update anbefaler, at du installerer denne opdatering, da driveren til den pågældende enhed på computeren tilsyneladende ikke er installeret.";
+var L_RListDeviceDisabled_Text = "Windows Update anbefaler, at du installerer denne opdatering, da driveren til den pågældende enhed på computeren tilsyneladende er deaktiveret.";
+var L_RListDeviceProblem_Text = "Windows Update anbefaler, at du installerer denne opdatering, da driveren til den pågældende enhed på computeren tilsyneladende ikke fungerer korrekt.";
+var L_RListDownloadSize_Text = "Overførselsstørrelse: ";
+var L_RListDownloadSizeTypical_Text = "Typisk overførselsstørrelse: ";
+var L_RListDriversDescription_Text = "Følgende valgfrie opdateringer er tilgængelige til computeren. Vælg de opdateringer, som du vil installere, og klik derefter på linket Gå til installation af opdateringer.";
+var L_RListDriversTitle_Text = "Vælg valgfrie hardwareopdateringer";
+var L_RListHiddenTitle_Text = "Gendan skjulte opdateringer";
+var L_RListHiddenUpdatesBar_Text = "Skjulte opdateringer";
+var L_RListHideThisUpdate_Text = "Skjul denne opdatering";
+var L_RListInfoGifAlt_Text = "Denne opdatering er allerede blevet overført til computeren. Hvis elementet er markeret, fuldfører Windows Update installationen.";
+var L_RListItems_Text = "elementer";
+var L_RListLessThan_Text = "mindre end";
+var L_RListNoUpdatesAvailable_Text = "Ingen tilgængelige opdateringer";
+var L_RListOptionalBetaUpdatesBar_Text = "Valgfri betaopdateringer";
+var L_RListOptionalHardwareUpdatesBar_Text = "Valgfrie hardwareopdateringer";
+var L_RListOptionalSoftwareUpdatesBar_Text = "Valgfri softwareopdateringer";
+var L_RListOptionalUpdates_Text = "Valgfrie opdateringer";
+var L_RListOtherUpdates_Text = "Andre opdateringer";
+var L_RListOtherOptionalUpdates_Text = "Andre valgfrie opdateringer";
+var L_RListOtherCriticalUpdates_Text = "Andre opdateringer med høj prioritet";
+var L_RListProductTitle_Text = "Vælg valgfrie softwareopdateringer";
+var L_RListReadMore_Text = "Detaljer...";
+var L_RListSingleInstallation_Text = "<b>Opdatering med enkeltvis installation er valgt til installation </b><br/>Opdateringer på denne side er ikke tilgængelige på nuværende tidspunkt, fordi en opdatering med enkeltvis installation er valgt til installation, og den kan ikke installeres samtidigt med andre opdateringer. Efter installationen kan du vende tilbage til Windows Update for at vælge andre opdateringer til computeren.";
+var L_RListSingleInstallationTitle_Text = "Enkeltvis installation: ";
+var L_RListUpdates_Text = "opdateringer";
+var L_RListHiddenCriticalPresent1_Text = "<b>Nogle opdateringer med høj prioritet er skjulte </b><br/>Microsoft anbefaler, at du installerer alle opdateringer med høj prioritet for at sikre computeren. Hvis du vil installere skjulte opdateringer, skal du gå til siden ";
+var L_RListHiddenCriticalPresent2_Text = "Gendan skjulte";
+var L_RListHiddenCriticalPresent3_Text = " opdateringer.";
+var L_RListSelectall_Text = "Vælg alle";
+var L_RList100_Text = "Opdateringer med høj prioritet og sikkerhedsrelaterede opdateringer er vigtige.";
+var L_RList101_Text = "Der er ikke valgt nogen opdateringer med høj prioritet til installation. Microsoft anbefaler, at du installerer opdateringer med høj prioritet for at sikre computeren og holde den opdateret. Hvis du vil se de valgfrie opdateringer, der er tilgængelige til computeren, skal du klikke på et af linkene til de valgfrie opdateringer under linket Startside.";
+var L_RList102a_Text = "Microsoft anbefaler, at du installerer følgende opdateringer med høj prioritet for at sikre computeren og holde den opdateret.";
+var L_RList102b_Text = "<b>Opdateringer med enkeltvis installation kan ikke installeres samtidigt med andre opdateringer.</b> <br>Vælg, om du først vil installere en opdatering til enkeltvis installation eller installere alle andre opdateringer med høj prioritet, og klik derefter på linket Gå til installation af opdateringer. Efter installationen skal du vende tilbage til Windows Update for at installere de resterende opdateringer.";
+var L_RList103_Text = "Microsoft anbefaler, at du installerer følgende opdateringer med enkeltvis installation med høj prioritet for at sikre computeren og holde den opdateret. Klik på linket Gå til installation af opdateringer for at installere disse opdateringer.";
+var L_RList104_Text = "Microsoft anbefaler, at du installerer følgende opdateringer med høj prioritet for at sikre computeren og holde den opdateret. Klik på linket Gå til installation af opdateringer for at installere disse opdateringer.";
+var L_RList105a_Text = "Microsoft anbefaler, at du installerer følgende opdateringer med høj prioritet for at sikre computeren og holde den opdateret.";
+var L_RList105b_Text = "<b>Opdateringer med enkeltvis installation kan ikke installeres samtidigt med andre opdateringer.</b> <br>Vælg, hvilken opdatering med enkeltvis installation der skal installeres, og klik derefter på linket Gå til installation af opdateringer. Efter installationen skal du vende tilbage til Windows Update for at installere de resterende opdateringer.";
+var L_RList200_Text = "Valgfrie opdateringer og ikke-vigtige opdateringer, som du muligvis vil installere.";
+var L_RList201_Text = "Der er ingen tilgængelige valgfrie opdateringer.";
+var L_RList202a_Text = "Følgende valgfrie opdateringer er tilgængelige til computeren.";
+var L_RList202b_Text = "<b>Opdateringer med enkeltvis installation kan ikke installeres samtidigt med andre opdateringer.</b> <br>Vælg, om du først vil installere en opdatering til enkeltvis installation eller installere andre valgfrie opdateringer, og klik derefter på linket Gå til installation af opdateringer. Efter installationen skal du vende tilbage til Windows Update for at installere de resterende opdateringer.";
+var L_RList203_Text = "Følgende valgfrie opdatering er tilgængelig til computeren. Opdateringer med enkeltvis installation kan ikke installeres samtidigt med andre opdateringer. Vælg de opdateringer, som du vil installere, og klik derefter på linket Gå til installation af opdateringer. Efter installationen skal du vende tilbage til Windows Update for at installere de resterende opdateringer.";
+var L_RList204_Text = "Følgende valgfrie opdateringer er tilgængelige til computeren. Vælg de opdateringer, som du vil installere, og klik derefter på linket Gå til installation af opdateringer.";
+var L_RList205a_Text = "Følgende valgfrie opdateringer er tilgængelige til computeren.";
+var L_RList205b_Text = "<b>Opdateringer med enkeltvis installation kan ikke installeres samtidigt med andre opdateringer.</b> <br>Vælg, hvilken opdatering med enkeltvis installation der skal installeres, og klik derefter på linket Gå til installation af opdateringer. Efter installationen skal du vende tilbage til Windows Update for at installere de resterende opdateringer.";
+var L_RList300_Text = "Denne side viser en oversigt over de opdateringer, der er valgt til installation.";
+var L_RList301_Text = "Der er ikke valgt nogen opdateringer til installation på nuværende tidspunkt. Hvis du vil se de tilgængelige opdateringer til computeren, skal du klikke på et af linkene til opdateringerne med høj prioritet eller de valgfrie opdateringer under linket Startside.";
+var L_RList302_Text = "Microsoft anbefaler, at du installerer følgende opdateringer med høj prioritet for at sikre computeren og holde den opdateret. Klik på Installer for at installere disse opdateringer.";
+var L_RList303_Text = "Klik på Installer for at installere følgende valgfrie opdateringer.";
+var L_RList304_Text = "Microsoft anbefaler, at du installerer følgende opdateringer med høj prioritet og valgfrie opdateringer for at sikre og holde computeren opdateret. Klik på Installer for at installere disse opdateringer.";
+var L_RList400_Text = "Skjulte opdateringer er de opdateringer, der er blevet fjernet fra listen over tilgængelige opdateringer.";
+var L_RList401_Text = "Der er ingen skjulte opdateringer. Du kan skjule en opdatering ved at klikke på titlen og derefter markere afkrydsningsfeltet Skjul denne opdatering.";
+var L_RList402_Text = "<P><b>Opdateringer med enkeltvis installation kan ikke installeres samtidigt med andre opdateringer.</b><br> Vælg den opdatering med enkeltvis installation, der skal installeres, og klik derefter på linket Gå til installation af opdateringer. Efter installationen skal du vende tilbage til Windows Update for at installere de resterende opdateringer.";
+var L_RList403_Text = "<P><b>Opdateringer med enkeltvis installation kan ikke installeres samtidigt med andre opdateringer.</b><br> Vælg hvilken opdatering med enkeltvis installation, der skal installeres, og klik derefter på linket Gå til installation af opdateringer. Efter installationen skal du vende tilbage til Windows Update for at installere de resterende opdateringer.";
+var L_RList404_Text = "Hvis du vil installere en skjult opdatering, skal du markere opdateringens afkrydsningsfelt og derefter klikke på linket Gå til installation af opdateringer.";
+var L_RList405_Text = "<P><b>Opdateringer med enkeltvis installation kan ikke installeres samtidigt med andre opdateringer.</b><br> Vælg, om du først vil installere en opdatering med enkeltvis installation eller installere andre opdateringer, og klik derefter på linket Gå til installation af opdateringer. Efter installationen skal du vende tilbage til Windows Update for at installere de resterende opdateringer.";
+var L_RList500_Text = "Hurtig installation giver dig mulighed for hurtigt at hente og installere udelukkende de vigtige opdateringer og sikkerhedsopdateringer hurtigt, som computeren har behov for.";
+var L_RList501_Text = "Microsoft anbefaler, at du installerer følgende opdateringer med høj prioritet for at sikre computeren og holde den opdateret. Klik på Installer for at installere disse opdateringer.";
+var L_RList502_Text = "Computeren er tilsyneladende opdateret. Der er ingen vigtige opdateringer eller sikkerhedsopdateringer tilgængelige på nuværende tidspunkt. Hvis du vil se valgfrie opdateringer til computeren, skal du klikke på linket Startside og derefter klikke på Brugerdefineret installation. Windows Update scanner efter valgfrie opdateringer. Du kan gennemse opdateringerne, før de overføres.";
+var L_RList600_Text = "Opdateringerne på denne side er enten selv betasoftware eller opdaterer betasoftware på computeren.";
+var L_RList700_Text = "Denne side indeholder opdateringer, som er opdateringer til drivere…";
+var g_sControlVersion = '3790.2182';
+
+		</script>
+	</head>
+	<noscript>
+		<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=da&error=1' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=da&error=1' /><frame name='eContent'  src='errorinformation.aspx?ln=da&error=1' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=da&error=1' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+	</noscript>
+	<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=da' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=da' /><frame name='eContent'  src='splash.aspx?page=0&ln=da' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=da' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+</html>

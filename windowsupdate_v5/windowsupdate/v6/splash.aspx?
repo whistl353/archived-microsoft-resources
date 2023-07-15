@@ -1,0 +1,55 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<link rel='shortcut icon' href='shared/images/banners/favicon.ico' type='image/x-icon'/>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='javascript' type='text/javascript'>
+window.onerror = new Function('Message' ,'sURL' ,'sLine' , 'return true;')
+</script>
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js?633435400662315784'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js?633435400662315784'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+<style type='text/css'>button {padding: 0px 14px 1px 14px;width: 80px;height: 21px;overflow: visible;line-height: 15px;cursor: default;}</style>
+<script language ="javascript">
+	var iSubPage = 0;	
+	var sDir = "ltr" ;
+	if(iSubPage == parent.conSplashMandatoryUpdates){
+		var sMandatoryUpdateIndexes = "";
+	}
+	
+	function fnHideMUGetStarted()
+	{
+		// Some locales won't have this
+		if(typeof(MUGetStartedOuter) != "undefined") {
+			MUGetStartedOuter.style.display = "none"; 
+		}
+	}
+</script>
+	<style>.storeUserData{behavior: url(#default#userData);}</style>
+	</head>
+	<body onload="if('function' == typeof(fnInitSplashPage)) fnInitSplashPage(1, 0);">
+	<DIV STYLE="behavior:url('#default#userData')" ID="divWebIQUserData"></DIV>
+
+		<span class="sys-font-heading3 sys-rhp-color-title">Checking if your computer has the latest version of Windows updating software for use with the website…</span><br /><br />
+		The website uses ActiveX controls to determine which version of the software your computer is running. If you see an ActiveX warning, make sure the control is digitally signed by Microsoft before installing it or allowing it to run. <br /><br />
+	
+<SCRIPT TYPE="text/javascript">
+var gProductionDomains="update.microsoft.com";
+var gDomain="c.microsoft.com";
+var gTrackEvents=0;
+var a=gProductionDomains.split(',');var b=0;for(var i=0;i<a.length;i++){if(window.location.host.indexOf(a[i])!=-1){b++;}}if(b!=0){var gDcsId="dcsyg6oep00000stdwm7iu4rf_2t8p";}if(b==0){var gDcsId="dcs96ueef10000w8gz3okt4rf_8g2k";}
+var gFpc="WT_FPC";
+</SCRIPT>
+<SCRIPT SRC="shared/js/update_webtrends.js" TYPE="text/javascript"></SCRIPT>
+<NOSCRIPT>
+<IMG ALT="" BORDER="0" ID="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://c.microsoft.com/wupixel/wt_pixel.aspx?WT.dcs_id=dcsyg6oep00000stdwm7iu4rf_2t8p&dcscfg=1&dcsuri=/nojavascript&amp;WT.js=No">
+</NOSCRIPT>
+<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+	</body>
+</html>

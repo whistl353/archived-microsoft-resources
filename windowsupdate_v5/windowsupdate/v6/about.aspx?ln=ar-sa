@@ -1,0 +1,503 @@
+<html dir='rtl'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1256' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<link rel='shortcut icon' href='shared/images/banners/favicon.ico' type='image/x-icon'/>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='javascript' type='text/javascript'>
+window.onerror = new Function('Message' ,'sURL' ,'sLine' , 'return true;')
+</script>
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js?634240236499915467'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js?634240236499915467'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/rtl.css' />
+<style type='text/css'>button {padding: 0px 14px 1px 14px;width: 80px;height: 21px;overflow: visible;line-height: 15px;cursor: default;}</style>
+<body onload="fnInit(5, -1);">
+	
+	<table cellpadding=0 cellspacing=0 border=0 style="position:relative;left:8;top:-10;">
+		<tr>
+			<td align="right" valign="top" width=290><img src="shared/images/bannersmu/ar/hdr_options_left.jpg"></td>
+			<td align="right" valign="top" width=100% style="background-image:url(shared/images/banner-bg.jpg);background-repeat:repeat-x"></td>
+			<td align="right" valign="top" width=158><img src="shared/images/bannersmu/ar/banner-right.jpg"></td>
+		</tr>
+	</table>					
+		
+	<table cellpadding=0 cellspacing=0 border=0 >
+		<tr height="0">
+			<td width="464"></td>
+			<td width="100%"></td>
+		</tr>
+		<tr><td colspan="2" width="100%">
+			<span class="sys-font-heading3 sys-rhp-color-title">
+				الأسئلة المتداولة
+			</span>
+			<br>
+			<br>
+			
+			
+			<!--WU site text -->
+			<div class="8pt">
+				
+			<li><A class='sys-link-normal' HREF='#usingWU'><b>استخدام Windows Update</b></a></li>
+			<li><A class='sys-link-normal' HREF='#SupportVL'><b>الإصدارات واللغات المعتمدة</b></a></li>
+			<li><A class='sys-link-normal' HREF='#TShooter'><b>استكشاف الأخطاء وإصلاحها</b></a></li>
+			<li><A class='sys-link-normal' HREF='#NWAD'><b>الشبكات والمعلومات المتقدمة</b></a></li>
+		
+				<p>
+					<A class="aboutHeader" name='usingWU' >استخدام Windows Update</a>
+					
+			<p>
+				<b>ما هو Windows Update؟</b><br>
+				هو موقع ويب يتبع Microsoft ويقدم التحديثات لبرامج نظام التشغيل Windows والأجهزة التي تعمل على Windows. تتعامل التحديثات مع المشاكل المعروفة وتساعد في الحماية من تهديدات الأمان المعروفة. 
+				<p>
+				تلميح:<bt>
+				<ul style='margin-left:40px'> 
+					<li>إذا قمت بتشغيل التحديثات التلقائية، فبإمكان Windows Update تقديم التحديثات ذات الأولوية العليا للكمبيوتر الخاص بك عند توفرها. يمكنك تحديد الوقت الذي يتم فيه تثبيت التحديثات وكيفية ذلك.</li>
+				</ul>
+			</p>
+		
+					<p>
+				<b>كيف يعمل؟</b><br>
+				عندما تقوم بزيارة موقع ويب، يقوم Windows Update بتفحص جهاز الكمبيوتر ثم يخبرك عن التحديثات التي تنطبق على البرامج والأجهزة. اختر التحديثات التي تريد تثبيتها وكيفية تثبيتها. 
+			</p>
+		
+					<p>
+				<b>ما أنواع التحديثات التي يمكنني الحصول عليها؟</b><br>
+					تصدر Microsoft العديد من <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=22935' target='_blank' >أنواع التحديثات</a> التي تتناول مجموعة كبيرة من المشاكل. ولتسهيل الحصول على أهم التحديثات - التحديثات التي تساعدك في حماية جهاز الكمبيوتر والمعلومات الخاصة بك، فإن Windows Update يستخدم هذه الفئات:
+				<ul style='margin-left:40px'> 
+				<li><b>أولوية عليا</b><br>
+					تحديثات هامة وتحديثات أمان وحزم خدمات وتحديثات تراكمية والتي يجب تثبيتها فور توفرها قبل تثبيت أي تحديثات أخرى.</li>
+				<li><b>برامج )اختياري)</b><br> 
+					إصلاحات غير هامة لبرامج Windows، على سبيل المثال: Windows Media® Player وWindows Journal Viewer 1.5.</li>
+				<li><b>الأجهزة (اختياري)</b><br>
+					إصلاحات غير هامة لبرامج التشغيل والأجهزة الأخرى، على سبيل المثال، بطاقات الفيديو وبطاقات الصوت والماسحات الضوئية والطابعات والكاميرات.</li> 
+				</ul>
+			</p>
+		
+					<p>
+				<b>ما الفرق بين التثبيت السريع والمخصص؟</b><br>
+				<ul style='margin-left:40px'>
+					<li><b>التثبيت السريع (مستحسن)</b> لعرض كافة التحديثات ذات الأولوية العليا لجهاز الكمبيوتر الخاص بك كي تتمكن من تثبيتها بنقرة واحدة. هذه هي أسرع وأسهل طريقة للمحافظة على تحديث الكمبيوتر الخاص بك.
+					<li><b>التثبيت المخصص</b> لعرض التحديثات ذات الأولوية العليا والاختيارية لجهاز الكمبيوتر الخاص بك. ثم تقوم أنت بمراجعتها وتحديد التحديثات التي ترغب في تثبيتها واحدًا تلو الآخر.
+				</ul>
+			</p>
+		
+					<p>
+				<b>هل أنا بحاجة إلى تثبيت التحديثات الاختيارية؟</b><br>
+				لا. فالتحديثات الاختيارية تتناول المشاكل الثانوية أو تضيف وظيفة غير هامة إلى الكمبيوتر الخاص بك. إلا أنه من الأهمية بمكان تثبيت التحديثات ذات الأولوية العليا لكي يحصل جهاز الكمبيوتر الخاص بك على أحدث البرامج الهامة والمتعلقة بالأمان. 
+			</p>
+		
+					<p>
+				<b>هل يمكنني الحصول على التحديثات تلقائيًا؟</b><br>
+				نعم، إذا قمت بتشغيل <b>التحديثات التلقائية</b>. سوف يقوم Windows بالتحقق من آخر التحديثات ذات الأولوية العليا لجهاز الكمبيوتر الخاص بك ثم تثبيتها وفقًا لإعداد التحديثات التلقائية الخاص بك. 
+			</p>
+		
+					<p>
+				<b>هل التحديثات التلقائية هي ذاتها Windows Update؟</b><br>
+				نعم، إلا أن التحديثات التلقائية تقوم بتسليم التحديثات ذات الأولوية العليا فقط. وللحصول على التحديثات الاختيارية، فإنك لا تزال بحاجة لزيارة موقع ويب Windows Update.
+			</p>
+		
+					<p>
+				<b>ما التحديثات التلقائية؟</b><br>
+				هي ميزة تعمل مع Windows Update لتسليم التحديثات الهامة والمتعلقة بالأمان عند توفرها. عندما تقوم بتشغيل التحديثات التلقائية (مستحسن)؛ فإن Windows يقوم تلقائيًا بالبحث عن التحديثات ذات الأولوية العليا للكمبيوتر الخاص بك. وتقوم أنت بتحديد الوقت الذي يتم فيه تثبيت التحديثات وكيفية ذلك. 
+			</p>
+		
+					<p>
+				<b>كيف يمكنني الحصول على المزيد من المعلومات عن التحديث قبل أن أقوم بتثبيته؟</b><br>
+				انقر فوق اسم كل تحديث لعرض الوصف الخاص به. لعرض متطلبات النظام ومعلومات الدعم، انقر فوق الارتباط <b>تفاصيل</b> المتوفرة في كل وصف.
+			</p>
+		
+					<p>
+				<b>هل يجب علي القيام بأي شيء لتثبيت التحديث؟</b><br>
+				أحيانًا. تتطلب بعض التحديثات منك الموافقة على اتفاقية ترخيص المستخدم النهائي EULA والإجابة على سؤال حول عملية التثبيت أو إعادة تشغيل الكمبيوتر قبل التمكن من تثبيتها.
+			</p>
+		
+					<p>
+				<b>ما الذي سيحدث إذا قمت بتحديد"عدم إظهار هذا التحديث مرة أخرى"؟</b><br>
+				لن يطالبك Windows Update بعد ذلك بمراجعة ذلك التحديث أو تثبيته. ورغم ذلك، إذا قمت بإخفاء تحديث ذي أهمية عليا، فقد يتم تذكيرك بأن هنالك تحديثًا ضروريًا لأمان الكمبيوتر مفقودًا.
+			</p>
+		
+					<p>
+				<b>إذا قمت بإخفاء أحد التحديثات، فكيف يمكنني استعادته لاحقًا؟</b><br>
+				 في موقع ويب الخاص بـ Windows Update، انقر فوق <b>استعادة صفحة التحديثات المخفية</b>، ثم قم بمراجعة التحديثات المطلوبة وتثبيتها. 
+			</p>
+		
+					<p>
+				<b>متى يصدر Windows Update تحديثات جديدة؟</b><br>
+				تصدر التحديثات المتعلقة بالأمان مرة كل شهر. ولكن إذا حدث تهديد أمان، على سبيل المثال فيروس واسع الانتشار من الأنواع التي تؤثر على أجهزة الكمبيوتر التي تعمل على Windows، فإن Microsoft سوف تصدر تحديثًا مناسبًا بأسرع ما يمكن.  
+				<p>
+				تصدر أنواع التحديثات الأخرى عندما تكون جاهزة. وإنها لفكرة صائبة تشغيل التحديثات التلقائية بحيث يتمكن جهاز الكمبيوتر الخاص بك من تلقي التحديثات ذات الأولوية العليا فور توفرها.
+				</p>
+			</p>
+		
+					<p>
+				<b>كيف يمكنني إضافة Windows Update إلى قائمة المواقع الموثوق بها على ويب؟</b><br>
+				<ul style='margin-left:40px'> 
+					<li > في Internet Explorer، وفي القائمة <b>أدوات</b>، انقر فوق <b>خيارات إنترنت</b>.</li >
+					<li > في علامة التبويب <b>أمان</b>، انقر فوق <b>مواقع موثوق بها</b>، ثم انقر فوق <b>مواقع</b>.</li >
+					<li > وتحت <b>إضافة موقع ويب هذا إلى المنطقة</b>، اكتب (أو قم بنسخ ولصق) عنوان URL هذا: http:// www.update.microsoft.com/windowsupdate/.</li > 
+					<li > انقر فوق <b>إضافة</b>، ثم انقر فوق <b>موافق</b>.</li >
+				</ul > 
+			</p>
+				</p>
+				<p>
+					<A class="aboutHeader" name='SupportVL' >اللغات والإصدارات المعتمدة</a>
+					<p>
+				<b>ما أنظمة التشغيل التي يدعمها Windows Update؟</b><br>
+				يوفر موقع ويب Windows Update تحديثات لأنظمة التشغيل Windows فقط.
+			</p>
+		
+					<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+						<colgroup>
+							<col style='WIDTH: 50%;'>
+							<col style='WIDTH: 50%;'>
+						</colgroup>
+						<tbody>
+							<tr bgcolor="#6681D9" style="color:white;border-color:white">
+								<td  style='font-weight: bold;BORDER-left: 1px solid;border-color:white' class="FAQtd2">إصدار نظام التشغيل</td>
+								<td class="FAQtd2"><b>دعم Windows Update</b></td>
+							</tr>
+							<tr bgcolor="#99CCFF">
+								<td  colspan="2" class="FAQtd2"><b>Windows Server 2003</b></td>
+							</tr>
+							<tr >
+								<td  class="FAQtd1RTL"><ul><li>Windows Server 2003 مع Service Pack 1</li><ul></td>
+								<td  class="FAQtd2"><ul><li>مستمر</li><ul></td>
+							</tr>
+							<tr >
+								<td  class="FAQtd1RTL"><ul><li>Windows Server 2003</li><ul></td>
+								<td  class="FAQtd2"><ul><li>لن يتم عرض تحديثات جديدة بعد يونيو 2007</li><ul></td>
+							</tr>							
+							<tr bgcolor="#99CCFF">
+								<td  colspan="2" class="FAQtd2"><b>Windows XP</b></td>
+							</tr>
+							<tr >
+								<td  class="FAQtd1RTL"><ul><li>Windows XP مع Service Pack 2</li><ul></td>
+								<td  class="FAQtd2"><ul><li>مستمر</li><ul></td>
+							</tr>
+							<tr >
+								<td  class="FAQtd1RTL"><ul><li>Windows XP مع Service Pack 1</li><ul></td>
+								<td  class="FAQtd2"><ul><li>لن يتم عرض تحديثات جديدة بعد سبتمبر 2006؛ تتوفر تحديثات سابقة</li><ul></td>
+							</tr>
+							<tr >
+								<td  class="FAQtd1RTL"><ul><li>Windows XP</li><ul></td>
+								<td  class="FAQtd2"><ul><li>لن يتم عرض تحديثات جديدة بعد سبتمبر 2004؛ تتوفر تحديثات سابقة</li><ul></td>
+							</tr>
+							<tr bgcolor="#99CCFF">
+								<td  colspan="2" class="FAQtd2"><b>Windows 2000</b></td>
+							</tr>
+							<tr >
+								<td  class="FAQtd1RTL"><ul><li>Windows 2000 مع Service Pack 4</li><ul></td>
+								<td  class="FAQtd2"><ul><li>مستمر</li><ul></td>
+							</tr>
+							<tr >
+								<td  class="FAQtd1RTL"><ul><li>Windows 2000 مع Service Pack 3</li><ul></td>
+								<td  class="FAQtd2"><ul><li>لن يتم عرض تحديثات جديدة بعد يونيو 2005؛ تتوفر تحديثات سابقة</li><ul></td>
+							</tr>
+							<tr >
+								<td  class="FAQtd1RTL"><ul><li>Windows 2000 مع Service Pack 2</li><ul></td>
+								<td  class="FAQtd2"><ul><li>لن يتم عرض تحديثات جديدة بعد يونيو 2004؛ تتوفر تحديثات سابقة</li><ul></td>
+							</tr>							
+							<tr >
+								<td  class="FAQtd1RTL"><ul><li>Windows 2000 مع Service Pack 1</li><ul></td>
+								<td  class="FAQtd2"><ul><li>لن يتم عرض تحديثات جديدة بعد أغسطس 2004؛ تتوفر تحديثات سابقة</li><ul></td>
+							</tr>
+							<tr >
+								<td  class="FAQtd1RTL"><ul><li>Windows 2000</li><ul></td>
+								<td  class="FAQtd2"><ul><li>لم يعد معتمدًا</li><ul></td>
+							</tr>
+							<tr bgcolor="#99CCFF">
+								<td  colspan="2" class="FAQtd2"><b>أنظمة تشغيل إضافية</b></td>
+							</tr>
+							<tr >
+								<td  class="FAQtd1RTL"><ul><li>Windows Millennium Edition</li><ul></td>
+								<td  class="FAQtd2"><ul><li>التحديثات الضرورية وتحديثات الأمان فقط بعد ديسمبر 2003; لن يتم عرض تحديثات بعد يونيو 2006</li></ul></td>
+							</tr>
+							<tr >
+								<td  class="FAQtd1RTL"><ul><li>Windows 98</li><ul></td>
+								<td  class="FAQtd2"><ul><li>التحديثات الضرورية وتحديثات الأمان فقط بعد أغسطس 2002; لن يتم عرض تحديثات بعد يونيو 2006</li><ul></td>
+							</tr>
+							<tr >
+								<td  class="FAQtd1RTL"><ul><li>Windows NT Server</li><ul></td>
+								<td  class="FAQtd2"><ul><li>لن يتوفر الدعم بعد ديسمبر 2004</li><ul></td>
+							</tr>							
+							<tr >
+								<td  class="FAQtd1RTL"><ul><li>Windows NT Workstation</li><ul></td>
+								<td  class="FAQtd2"><ul><li>لن يتوفر الدعم بعد يونيو 2004</li></ul></td>
+							</tr>
+						</tbody>
+					</table>
+					<br><b>تلميح:</b> لست متأكدًا من إصدار Windows الذي يقوم الكمبيوتر بتشغيله? قم بزيارة موقع ويب <a href='http://go.microsoft.com/fwlink/?linkid=21655'class='sys-link-normal' target='_blank'>حماية الكمبيوتر الخاص بك</a> من Microsoft، وأسفل "الشروع في", انقر فوق <b>معرفة إصدار Windows الذي يستخدمه الكمبيوتر</b>.
+					
+					<br><br><b>إلى متى يمكن استلام التحديثات والدعم لمنتجي؟</b><br/>
+		للحصول على معلومات عن مدة إتاحة الدعم لمنتجات Microsoft، راجع <a href='http://go.microsoft.com/fwlink/?linkid=37139'class='sys-link-normal' target='_blank'>نهج دورة حياة الدعم من Microsoft</a> الحالي.
+		
+					
+					<p>
+				<b>ما إصدارات المستعرض التي يمكن استخدامها للوصول إلى Windows Update؟</b><br>
+				يمكن استخدام Microsoft Internet Explorer 5 ولكننا ننصح باستخدام <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24748' target='_blank' >Internet Explorer 6</a> أو إصدار أحدث.
+			</p>
+		
+					<p>
+				<b>كيف يمكنني معرفة إصدار Internet Explorer الذي أستخدمه؟</b><br>
+				في Internet Explorer؛ من القائمة <b>تعليمات</b>؛ انقر فوق <b>حول Internet Explorer</b>.
+			</p>
+		
+					<p>
+				<b>هل يمكنني عرض موقع ويب Windows Update باستخدام لغة أخرى؟ </b><br>
+				نعم، لكن التحديثات لن تظهر بنفس اللغة التي تستخدمها لعرض الارتباط والخيارات والإرشادات في موقع ويب. تظهر العناوين والتفاصيل الخاصة بأحد التحديثات باستخدام لغة جهاز الكمبيوتر الافتراضية.
+			</p>
+		
+					<p>
+				<b>كيف يمكنني تغيير إعدادات اللغة؟</b><br>
+				<ul style='margin-left:40px'> 
+					<li >في موقع Windows Update على ويب، انقر فوق <b>تغيير الإعدادات</b>.</li >
+					<li >قم بتحديد اللغة التي تريد استخدامها لعرض Windows Update، ثم انقر فوق<b>تطبيق التغييرات الآن</b>.</li >
+					<li >وعندما يطلب منك تأكيد التغييرات، قم بواحد مما يلي:</li >
+					<ul style='margin-left:40px'>
+						<li >لتغيير إعدادات اللغة على الفور، انقر فوق <b>موافق</b>. <br >
+							(ستحتاج لمراجعة التحديثات وتحديدها مرة أخرى)</li >
+						<li >لاستخدام اللغة الجديدة بعد تثبيت أي تحديثات تم تحديدها، انقر فوق <b>إلغاء الأمر</b>. <br>
+							(عند زيارتك لـ Windows Update في المرة القادمة، سيكون إعداد اللغة الخاص بك مطبقًا.)</li >
+					</ul >
+				</ul>
+			</p>
+		
+					<p>
+				<b>لماذا يوصي Windows Update باستخدام إحدى اللغات؟</b><br>
+				لأنها توافق إعداد اللغة الافتراضية الخاص بجهاز الكمبيوتر الخاص بك. إذا استخدمتها، فيمكن عرض موقع ويب باستخدام نفس لغة العناوين والتفاصيل لأي تحديثات تنطبق على جهاز الكمبيوتر الخاص بك. 
+			</p>
+		
+					<p>
+				<b>هل يمكنني الحصول على التحديثات بلغات متعددة؟</b><br>
+				نعم. يقوم Windows Update تلقائيًا بالكشف عن إعدادات اللغة لكل برنامج في الكمبيوتر الخاص بك. إذا كنت تستخدم لغات متعددة، فسيتم تقديم التحديثات لكل برنامج باللغة المناسبة.
+			</p>
+		
+				</p>
+				<p>
+					<A class="aboutHeader" name='TShooter' >استكشاف الأخطاء وإصلاحها</a>
+					<p>
+				<b>ماذا يحدث إذا قمت بإلغاء عملية التحميل أو قطع الاتصال بإنترنت قبل اكتمال عملية التحديث بالكامل؟ </b><br>
+				عند الاتصال بإنترنت المرة التالية، يتابع التحديث عملية التحميل من النقطة التي تم مقاطعتها عندها.
+			</p>
+		
+					<p>
+				<b>يظهر لي خطأ في Internet Explorer—كيف يمكنني تغيير الإعدادات للعمل مع Windows Update؟</b><br>
+				استخدم إعدادات الأمان الافتراضية:				
+				<ul style='margin-left:40px'> 
+					<li>في Internet Explorer، في القائمة <b>أدوات</b>، انقر فوق <b>خيارات إنترنت</b>.</li>
+					<li>في علامة التبويب <b>أمان</b>، انقر فوق <b>منطقة إنترنت</b>، ثم انقر فوق <b>مستوى افتراضي</b>.</li>
+				</ul>
+				<p>لمنع المشاكل، يمكن إضافة Windows Update أيضًا إلى قائمة المواقع الموثوق بها (الإرشادات موجودة في قسم <A class='sys-link-normal' HREF='#UsingWU'>استخدام Windows Update</a>). </p>
+			</p>
+		
+					<p>
+				<b>أحصل على تحذيرات ActiveX أو برمجة عند استخدام Windows Update - فهل توجد مشكلة؟</b><br>
+				لا. لأن Windows Update يستخدم هذه التكنولوجيا لتحديد التحديثات التي يحتاجها جهاز الكمبيوتر الخاص بك. وكإجراء أمان، يتم توقيع عناصر تحكم ActiveX رقميًا في Windows Update بواسطة Microsoft. لكن المهاجمين أحيانًا يستخدمون نفس التكنولوجيا لإيذاء الكمبيوتر الخاص بك. يقوم Internet Explorer بتحذيرك كي تتمكن من تحديد الثقة أو عدم الثقة في مواقع ويب التي تستخدم عناصر التحكم هذه.
+				<p>
+				احصل على المزيد من المعلومات عن الشهادات الرقمية والثقة في مواقع ويب واختيار إعدادات الأمان بواسطة البحث في تعليمات Internet Explorer. (إذا لم تكن ترغب في رؤية التحذيرات عند استخدام Windows Update؛ يمكنك تغيير إعدادات الأمان الخاصة بك لكن ذلك أمر غير مستحسن. إذا قمت بخفض مستوى الإعدادات الخاصة بك؛ فإن جهاز الكمبيوتر يصبح أكثر عرضة لمشاكل عدم الحصانة بسبب الفيروسات وتهديدات الأمان الأخرى). 
+				</p>
+			</p>
+		
+					<p>
+				<b>لماذا لا أستطيع عرض تفاصيل التحديث أو تفاصيل محفوظات التثبيت أو مقالات استكشاف الأخطاء وإصلاحها؟</b><br>
+				لا يسمح لك برنامج أو إعدادات حظر العناصر المنبثقة بفتح إطارات مستعرض جديدة من الارتباطات التي تقوم بالنقر عليها ضمن موقع ويب. 
+				<p> 
+				لتغيير إعدادات "حظر العناصر المنبثقة" (متوفرة لـ Internet Explorer 6 في Windows XP SP2 أو أحدث):				
+				<ul style='margin-left:40px'> 
+					<li>في Internet Explorer، في القائمة <b>أدوات</b>، أشر إلى <b>حظر العناصر المنبثقة</b>، ثم انقر فوق <b>إعدادات حظر العناصر المنبثقة</b>.</li>
+					<li>قم بأحد الإجراءات التالية:</li>
+					<ul style='margin-left:40px'>
+						<li>للسماح بالإطارات المنبثقة فقط عند استخدام Windows Update، أسفل <b>عنوان موقع ويب المسموح له</b>، اكتب (أو قم بنسخ ولصق) عنوان URL التالي: https://update.microsoft.com ثم انقر فوق <b>إضافة</b>. </li>
+						<p>
+						<li>للسماح بفتح إطارات مستعرض جديدة عند استخدام أي مواقع ويب مؤمنة (https://)، في القائمة <b>مستوى عامل التصفية</b>، انقر فوق <b>منخفض: السماح بالإطارات المنبثقة من مواقع آمنة</b>.</li>
+					</ul>
+				</ul>
+				<p>
+				إذا كنت تستخدم برنامجًا آخر لحظر الإطارات المنبثقة، فابحث عما إذا كان بإمكانك تغيير الإعدادات فقط مع الارتباطات التي تقوم بالنقر فوقها داخل أحد مواقع ويب. وإلا؛ فربما تكون بحاجة للسماح بظهور الإطارات المنبثقة أثناء استخدام Windows Update. 
+
+			</p>
+		
+					<p>
+				<b>إلى أين أذهب إذا واجهتني مشكلات في تثبيت تحديث؟</b><br>
+				راجع Windows Update 
+		
+					<a  class="sys-link-normal" href="support.aspx?ln=ar" target="eContent">
+						التعليمات والدعم
+		
+					</a>
+					 للحصول على المزيد من المعلومات عن هذه الخيارات وغيرها:				
+				<ul style='margin-left:40px'> 
+					<li>
+		
+					<a  class="sys-link-normal" href="troubleshoot.aspx?ln=ar" target="eContent">
+						مستكشف الأخطاء ومصلحها لـ Windows Update
+		
+					</a>
+					</li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=25127' target='_blank' >Windows Update Support Center</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=9581' target='_blank' >مجموعة أخبار Windows Update</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21608' target='_blank' >دعم Microsoft المساعد عبر الإنترنت</a> (دون تكلفة لمشاكل Windows Update)</li>
+				</ul>
+			</p>
+		
+					<p>
+				<b>لماذا لا أتمكن من العثور على تحديث بعد أن قمت باستعادة التحديثات المخفية؟</b><br>
+				عالج تحديث آخر قمت بتثبيته نفس المشكلة بالفعل. على سبيل المثال، إذا قمت بتثبيت حزمة خدمة أو تحديث تراكمي، فقد لا يحتاج الكمبيوتر بعد ذلك إلى التحديث الذي قمت بإخفائه سابقًا. 
+			</p>
+		
+					<p>
+				<b>لماذا لا أتمكن من تثبيت بعض التحديثات في نفس الوقت مثل التحديثات الأخرى؟</b><br>
+				بعض التحديثات - على سبيل المثال حزم الخدمة والتحديثات التراكمية - تحتوي على تحديثات متعددة أو تتناول نفس المشاكل. 
+				<p>
+					تتطلب منك الأنواع الأخرى من التحديثات إعادة تشغيل جهاز الكمبيوتر الخاص بك قبل أن تعمل بفعالية. يجب تثبيت تلك التحديثات بشكل منفصل. ويمكنك حينئذ العودة إلى Windows Update لمعرفة ما إذا كانت توجد تحديثات أخرى تنطبق عليه. 
+				<p>
+			</p>
+		
+				</p>
+				<p>
+					<A class="aboutHeader" name='NWAD' >الشبكات والمعلومات المتقدمة</a>
+					<p>
+				<b>ماذا لو أردت تحديث أكثر من جهاز كمبيوتر واحد؟</b><br>
+				إذا كان لديك شبكة صغيرة في المنزل أو المكتب، فأنت بحاجة إلى تحديث كل كمبيوتر بشكل مستقل. 
+				<p>
+					إذا كنت مسؤول شبكة، فانتقل إلى 
+		
+					<a  class="sys-link-normal" href="administrators.aspx?ln=ar&IsMu=False" target="eContent">
+						خيارات المسؤول
+		
+					</a>
+					 للحصول على المزيد من المعلومات عن خدمات التحديث الإضافية، على سبيل المثال قائمة Windows Update وخدمات Windows Server Update.
+				<p>
+			</p>
+		
+					<p>
+				<b>ما هو (Microsoft Baseline Security Analyzer (MBSA؟</b><br>
+				يعد MBSA أداة تقوم بتفحص Windows Server Update Services.وتكون ضمن شبكة واحدة بحثًا عن أي تكوين خاطئ شائع في الأمان وعن أي تحديثات أمان غير موجودة. ويحتوي على واجهة رسومية وسطر الأوامر، ويمكنها تأدية عملية التفحص المحلية أو البعيدة. كما يمكنها إنشاء تقرير لكل كمبيوتر في الشبكة قامت بفحصه. للحصول على المزيد من المعلومات، اقرأ عرض عام لـ <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27549' target='_blank' >Microsoft Baseline Security Analyzer</a>. 
+			</p>
+		
+					<p>
+				<b>ما خدمات Windows Server Update؟</b><br>
+				إن خدمات Windows Server Update - التي كان يطلق عليها سابقًا (Software Update Services (SUS - هي مكون تحديث الإدارة لعائلة Windows Server 2003. فهي تقوم بتفحص إعدادات الأمان لكافة أجهزة الكمبيوتر داخل الشبكة وإنشاء التقارير الخاصة بذلك، وتقوم بمزامنة التحديثات. كما تساعد في تقليل الأخطار والتكاليف التي ترتبط عادة بتحديث الشبكات المتوسطة والكبيرة. للحصول على المزيد من المعلومات، تفضل بزيارة موقع نظام ملقم Windows الخاص بـ <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24462' target='_blank' >خدمات Windows Server Update</a> 
+			</p>
+		
+					<p>
+				<b>ما أنواع التحديثات التي تقوم التحديثات التلقائية وWindows Update وخدمات Windows Server Update بتقديمها؟</b><br>
+		
+					<br>
+					<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+						<colgroup>
+							<col style='WIDTH: 20%;padding-left:15px'>
+							<col style='WIDTH: 20%;text-align: center'>
+							<col style='WIDTH: 20%;text-align: center'>
+							<col style='WIDTH: 20%;text-align: center'>
+							<col style='WIDTH: 20%;text-align: center'>
+						</colgroup>
+						<tbody>
+							<tr bgcolor="#6681D9" style="color:white;border-color:white">
+								<td   style='font-weight: bold;BORDER-left: 1px solid;border-color:white' class="FAQtd2">&nbsp;</td>
+								<td  style='font-weight: bold;BORDER-left: 1px solid;border-color:white'  class="FAQtd2">التحديثات التلقائية</td>
+								<td  style='font-weight: bold;BORDER-left: 1px solid;border-color:white' class="FAQtd2" colspan="2">
+									موقع ويب Windows Update
+									<table class="sys-table-cell-bgcolor2 sys-toppane-color-border"cellpadding="0" cellpadding ="0" border="0">
+										<tr>
+											<td style='font-weight: bold;WIDTH: 50%;text-align: center'>
+												تثبيت سريع
+											</td>
+																						
+											<td style='font-weight: bold;BORDER-right: 1px solid;WIDTH: 50%;text-align: center'>
+											تثبيت مخصص
+											</td>
+										</tr>
+									</table>
+								</td>
+								<td class="FAQtd3">خدمات Windows Server Update*</td>
+							</tr>
+							<tr >
+								<td colspan="5"  class="FAQtd3"">التحديثات ذات الأولوية العليا</td>
+							</tr>
+							<tr >
+								<td  class="FAQtd1RTL">تحديثات ضرورية</td>
+								<td  class="FAQtd1RTL">X</td>
+								<td  class="FAQtd1RTL">X</td>
+								<td  class="FAQtd1RTL">X</td>
+								<td  class="FAQtd2">X</td>
+							</tr>
+							<tr >
+								<td  class="FAQtd1RTL">تصحيحات أمان</td>
+								<td  class="FAQtd1RTL">X</td>
+								<td  class="FAQtd1RTL">X</td>
+								<td  class="FAQtd1RTL">X</td>
+								<td  class="FAQtd2">X</td>
+							</tr>
+							<tr >
+								<td  class="FAQtd1RTL">تحديثات تراكمية</td>
+								<td  class="FAQtd1RTL">X</td>
+								<td  class="FAQtd1RTL">X</td>
+								<td  class="FAQtd1RTL">X</td>
+								<td  class="FAQtd2">X</td>
+							</tr>
+							<tr >
+								<td  class="FAQtd1RTL">حزم خدمات</td>
+								<td  class="FAQtd1RTL">X</td>
+								<td  class="FAQtd1RTL">X</td>
+								<td  class="FAQtd1RTL">X</td>
+								<td  class="FAQtd2">X</td>
+							</tr>
+							<tr >
+								<td colspan="5"  class="FAQtd3">تحديثات اختيارية</td>
+							</tr>
+							<tr >
+								<td class="FAQtd1RTL">البرامج</td>
+								<td  class="FAQtd1RTL">&nbsp;</td>
+								<td  class="FAQtd1RTL">&nbsp;</td>
+								<td  class="FAQtd1RTL">X</td>
+								<td  class="FAQtd2">X</td>
+							</tr>
+							<tr >
+								<td  class="FAQtd1RTL">الأجهزة</td>
+								<td  class="FAQtd1RTL">&nbsp;</td>
+								<td  class="FAQtd1RTL">&nbsp;</td>
+								<td  class="FAQtd1RTL">X</td>
+								<td  class="FAQtd2">&nbsp;</td>
+							</tr>
+							<tr >
+								<td  class="FAQtd1RTL">برامج بيتا</td>
+								<td  class="FAQtd1RTL">&nbsp;</td>
+								<td  class="FAQtd1RTL">&nbsp;</td>
+								<td  class="FAQtd1RTL">إعداد Opt-in</td>
+								<td  class="FAQtd2">&nbsp;</td>
+							</tr>
+						</tbody>
+					</table>
+					<div><br>    *يستطيع مسؤولو الشبكات تحديد أي من التحديثات المعتمدة أو تحديدها كلها لتوزيعها. وستتاح التحديثات لمنتجات Microsoft مثل Office وSQL Server وExchange Server للاستخدام مع ملقمات Windows Server Update Services (ولكن ليس للاستخدام مع Software Update Services (SUS) 1.0 أو SUS 1.0 مع ملقمات Service Pack 1). </div>
+
+					<p>
+				<b>كيف يمكنني الحصول على المزيد من التحديثات أو على التحديثات التي لا يقدمها Windows Update؟</b><br>
+				قم بزيارة مواقع ويب التالية:				
+				<ul style='margin-left:40px'> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21601' target='_blank' >مركز تحميل Microsoft</a><br> 
+					الحصول على تحميلات لمنتجات Microsoft. وتتوفر التحميلات بأكثر من سبعين لغة. </li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=8973' target='_blank' >كتالوج Windows Update</a><br>
+					البحث عن التحديثات الخاصة بالملقمات وأجهزة الكمبيوتر الأخرى التي تستخدم أنظمة التشغيل Windows.</li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24459' target='_blank' >Microsoft Office على الإنترنت</a><br>
+					البحث عن التحديثات الخاصة بـ Microsoft Office System، الإصدارات 98/97 وما بعدها. تشمل التحميلات قوالب ومحتوى المساعدة والقصاصات الفنية. </li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27098' target='_blank' >دعم Microsoft Premier</a><br>
+					للتعرف على فوائد دعم Premier، ومنها التحديثات الإضافية مثل برامج ما قبل الإصدار.</li> 
+				</ul>
+			</p>
+		
+				</p>
+			</div>
+			
+		</td></tr>
+	</table>
+	
+	<iframe name='eReporting' src='blank.aspx' noresize height='0' width='0' style='DISPLAY:none'>
+	</body>
+</html>

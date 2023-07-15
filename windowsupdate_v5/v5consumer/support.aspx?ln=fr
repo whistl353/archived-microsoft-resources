@@ -1,0 +1,55 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+	</head>
+	<body onload="fnInit(6, -1);">
+		<span class="sys-font-heading3 sys-rhp-color-title">Aide et support concernant l'utilisation de Windows Update</span><br />
+		<br>
+		<div class="8pt">
+			<a name="SolveProblems"><b>Résoudre les problèmes sans assistance</b></a><br /><br />
+			<div style = "margin-left : 40">
+				<a href="about.aspx?ln=fr" target="eContent" class="sys-link-normal"> Lisez les FAQ Windows Update				
+		</a>
+				 <br> Découvrez les réponses aux questions les plus fréquentes sur l'utilisation du site Web Windows Update, la résolution des problèmes, les modalités de mise à jour des réseaux, et bien plus encore.
+		
+				<br> <br><a href="troubleshoot.aspx?ln=fr" target="eContent" class="sys-link-normal">Essayez l'utilitaire de résolution des problèmes de Windows Update
+		</a>
+				<br>Découvrez des solutions pas à pas lorsque vous recherchez des informations d'aide à partir de la description ou du numéro d'une erreur affiché dans un message d'erreur Windows Update.
+		
+				<br> <br><a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=9581' target='_blank' >Consultez les groupes de discussion Microsoft</a><br>
+				Recherchez si une autre personne a trouvé une solution à votre problème ou posez une question afin de solliciter l'aide d'autres utilisateurs (certaines discussions sont disponibles en anglais uniquement).
+		
+			</div>
+			<br><br>
+			<a name="Assistance"><b>Obtenir de l'aide</b></a><br /><br />
+			<div style = "margin-left : 40">
+				 <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=25127' target='_blank'>Visitez le Centre de support de Windows Update</a><br>
+				Recherchez des liens vers des articles de la Base de connaissances (KB) et d'autres sources d'information (support par courrier électronique, en ligne ou téléphonique). Notez que ces services sont payants dans certains cas. Si les informations sont disponibles uniquement en anglais, vous pouvez obtenir une aide supplémentaire de la part de Microsoft dans <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=27099' target='_blank' >votre pays ou région</a>.
+		
+				<br><br> <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=21608' target='_blank'>Envoyez un rapport de problème</a><br>
+				Si vous ne parvenez pas à résoudre le problème à l'aide des options ci-dessus, complétez un rapport en ligne en indiquant aux spécialistes du support technique le meilleur moyen de vous contacter. Si le formulaire n'est pas disponible dans votre pays ou région, contactez le support <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=27099' target='_blank' >téléphonique</a>.
+						 
+			</div>
+			<br><br>
+			<hr style="color:#cccccc;height:3px">
+			<br><br>
+			<a name="Beta"><b>Support des logiciels en version précommerciale (bêta)</b></a><br /><br />
+			<div style = "margin-left : 40">
+				Le support technique lié aux logiciels en version précommerciale varie selon les produits. Nous vous recommandons vivement de lire les informations fournies avec ces logiciels ou mises à jour en version précommerciale avant de les installer.
+		
+			</div>
+		</div>
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' /> 
+	</body>
+</html>

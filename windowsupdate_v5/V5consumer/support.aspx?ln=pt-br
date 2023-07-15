@@ -1,0 +1,55 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+	</head>
+	<body onload="fnInit(6, -1);">
+		<span class="sys-font-heading3 sys-rhp-color-title">Ajuda e suporte para o uso do Windows Update</span><br />
+		<br>
+		<div class="8pt">
+			<a name="SolveProblems"><b>Resolva você mesmo os problemas</b></a><br /><br />
+			<div style = "margin-left : 40">
+				<a href="about.aspx?ln=pt-br" target="eContent" class="sys-link-normal"> Leia as Perguntas Freqüentes do Windows Update				
+		</a>
+				 <br> Veja as respostas para as perguntas freqüentes sobre o uso do site do Windows Update, a solução de problemas, a atualização de redes e muito mais.
+		
+				<br> <br><a href="troubleshoot.aspx?ln=pt-br" target="eContent" class="sys-link-normal">Experimente a Solução de Problemas do Windows Update
+		</a>
+				<br>Obtenha soluções passo a passo ao procurar por ajuda usando a descrição de um erro ou o número do erro exibido em todas as mensagens de erro do Windows Update.
+		
+				<br> <br><a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=9581' target='_blank' >Verifique os Grupos de Notícias da Microsoft</a><br>
+				Descubra se alguma outra pessoa tem a solução para o seu problema ou descreva um problema e obtenha ajuda de outros usuários. (Algumas discussões estão disponíveis apenas em inglês.)
+		
+			</div>
+			<br><br>
+			<a name="Assistance"><b>Obtenha ajuda</b></a><br /><br />
+			<div style = "margin-left : 40">
+				 <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=25127' target='_blank'>Visite o Windows Update Support Center</a><br>
+				Encontre links para artigos do Knowledge Base (KB) e para outros recursos, incluindo suporte por e-mail, online e pelo telefone. (Podem-se aplicar taxas em alguns casos.) Se alguma informação estiver disponível apenas em inglês, você poderá obter ajuda adicional da Microsoft em <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=27099' target='_blank' >seu país ou sua região</a>.
+		
+				<br><br> <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=21608' target='_blank'>Envie um relatório de problemas</a><br>
+				Se você não conseguir solucionar o problema usando as opções acima, preencha um relatório online e forneça aos profissionais de suporte a melhor forma de entrar em contato com você. Se o formulário não estiver disponível em seu país ou sua região, obtenha o suporte <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=27099' target='_blank' >por telefone</a>.
+						 
+			</div>
+			<br><br>
+			<hr style="color:#cccccc;height:3px">
+			<br><br>
+			<a name="Beta"><b>Suporte para software (beta) de pré-lançamento</b></a><br /><br />
+			<div style = "margin-left : 40">
+				O suporte para software de pré-lançamento varia por produto. É altamente recomendável ler os detalhes fornecidos sobre o software de pré-lançamento ou sobre as atualizações antes de as instalar.
+		
+			</div>
+		</div>
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' /> 
+	</body>
+</html>

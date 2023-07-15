@@ -1,0 +1,83 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Update</title>
+<link rel='shortcut icon' href='shared/images/bannersmu/favicon.ico' type='image/x-icon'/>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='javascript' type='text/javascript'>
+window.onerror = new Function('Message' ,'sURL' ,'sLine' , 'return true;')
+</script>
+<style type='text/css'>button {padding: 0px 14px 1px 14px;width: 80px;height: 21px;overflow: visible;line-height: 15px;cursor: default;}</style>
+<base target="_blank">
+<link rel='stylesheet' type='text/css' href='/library/toolbar/3.0/css.aspx?c=/microsoftupdate/v6/Config/en/MU/shell.config' /><script language='JavaScript'>var doImage = doImage;
+var TType = TType;
+
+function mhHover(tbl, idx, cls)
+{
+	var t, d;
+	if (document.getElementById)
+		t = document.getElementById(tbl);
+	else
+		t = document.all(tbl);
+	if (t == null) return;
+	if (t.getElementsByTagName)
+		d = t.getElementsByTagName("TD");
+	else
+		d = t.all.tags("TD");
+	if (d == null) return;
+	if (d.length <= idx) return;
+	d[idx].className = cls;
+}
+
+function setMSResearch() {
+  var time = new Date();
+  if( document.cookie.indexOf( 'msresearch=1 ') == -1 ) {
+    document.cookie = 'msresearch=' + time.getTime() + ':' + escape( document.location) + ':' + escape( document.referrer) + '; path=/; domain=.microsoft.com; ';
+  }
+}
+
+function footerjs(doc)
+{
+	if (doImage == null)
+	{
+		var tt = TType == null ? "PV" : TType;
+		doc.write('<layer visibility="hide"><div style="display:none"><img src="http://c.microsoft.com/trans_pixel.asp?source=update&TYPE=' + tt + '&p=microsoftupdate_v6&r=http%3a%2f%2fupdate.microsoft.com%2fmicrosoftupdate%2fv6%2fmuoptdefault.aspx%3freturnurl%3dhttp%3a%2f%2fupdate.microsoft.com%2fmicrosoftupdate%26muopt%3d6" width=0 height=0 hspace=0 vspace=0 border=0 /></div></layer>');
+	}
+
+	if( ( document.cookie.indexOf( 'msresearch=1 ') == -1 ) 
+	 && ( document.cookie.indexOf( 'msresearch=')   != -1 ) ) {
+	  setInterval( "setMSResearch()", 1000 );
+	}
+}</script>
+<script language="javascript" defer="true">
+		function fnSetLinksTarget(){
+			try{
+				var conQueryString = "ln="; 
+				conQueryString = conQueryString.replace("&amp;","&");
+				
+				if(typeof(document.all("msviLocalFooter")) == "object"){ 
+					var sLang = "en" ;
+					var sConsumerURL = "/microsoftupdate/v6/";//got here rather than from parent is because of muopt page.
+					
+					if(sConsumerURL == "/microsoftupdate/v6/" || sConsumerURL == "/windowsupdate/v6/"){   // this is because due to exception key, "manage your profile" link is removed 
+						document.all("msviLocalFooter").childNodes(0).childNodes(0).target = "eContent";
+						document.all("msviLocalFooter").childNodes(0).childNodes(0).setAttribute("href","privacy.aspx?" + conQueryString ) ;
+					}
+					else {
+						document.all("msviLocalFooter").childNodes(2).childNodes(0).target = "eContent";
+						document.all("msviLocalFooter").childNodes(2).childNodes(0).setAttribute("href","privacy.aspx?" + conQueryString ) ;
+					}	
+				}	   
+			}
+			catch(e){}	 
+		}
+</script>
+</head>
+<body scroll="no" onload="fnSetLinksTarget();">
+	<br clear="all" style="line-height: 1px; overflow: hidden" /><table id="msviFooter" width="100%" cellpadding="0" cellspacing="0"><tr valign="bottom"><td id="msviFooter2" style="filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF', endColorStr='#3F8CDA', gradientType='1')"><div id="msviLocalFooter"><nobr><a href="privacy.aspx" target="_parent">Microsoft Update Privacy Statement</a></nobr></div><div id="msviGlobalFooter"><span dir="ltr">&#169;2006 Microsoft Corporation. All rights reserved.&nbsp;</span><nobr><a href="http://www.microsoft.com/info/cpyright.htm" target="_parent">Terms of Use</a> |</nobr><wbr /><nobr><a href="http://www.microsoft.com/info/privacy.htm" target="_parent">Privacy Statement</a></nobr></div></td></tr></table><script language="javascript">var msviFooter2;if (document.getElementById){msviFooter2 = document.getElementById("msviFooter2");msviFooter2.style.filter = "";}</script><table cellpadding="0" cellspacing="0" width="100%" height="58" style="height: expression(msviFooter2.offsetHeight+1); width: expression(msviFooter2.offsetWidth)"><tr valign="top"><td><div style="width: 200px"></div></td><td width="100%" style="filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF', endColorStr='#3F8CDA', gradientType='1')"></td></tr></table>
+</body>
+</html>

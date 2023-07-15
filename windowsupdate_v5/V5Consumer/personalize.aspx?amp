@@ -1,0 +1,42 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+ 
+<script language="JScript" type="text/javascript" src="shared/js/personalize.js"></script>
+</head>
+<body onload="fnInitPersonalization(13, -1);" onclick="fnUpdatePersonalization();" onbeforeunload="fnUnloadPersonalization();" class="personalization">
+	<span class="sys-font-heading3 sys-rhp-color-title">
+		Advanced settings
+	</span><br>
+	<br />
+	Advanced users might want to modify Windows Update by using the following settings.
+	<br>
+	<br>
+	<br>
+	<hr style="color:#cccccc;height:3px">
+	<b>Advanced settings</b> <br /><br/>
+	Updates from the following category are installed at your own risk.
+	<br>
+	<br>
+	<input type="checkbox" id="eBetaLink" class="checkbox"><label for="eBetaLink"><b>Show beta products and related updates</b></label><br>
+	<div class="spacer" style="HEIGHT: 5px"></div>
+	<div class="OptionText">Display pre-release or "beta" products (software), or updates to beta software. Note that these updates should not be installed on your primary computer.</div>
+	<br /> 
+	<hr style="color:#cccccc;height:3px">
+	<b>Other Settings</b> <br /><br>
+	<input type="checkbox" id="eNewsLink" class="checkbox" checked ><label for="eNewsLink"><b>Show Windows Update news on home page</b></label><br>
+	<div class="spacer" style="HEIGHT: 5px"></div>
+	<div class="OptionText">The Windows update home page can display news about updates or this site that may be of interest to you. If you select this checkbox and do not see news on the home page, there is no current news to display.</div>
+	<br/>
+	<button id="eSaveSettings" onclick="fnSaveSettings();" disabled type="button">
+		Save Settings
+	</button>
+	<div style="display:none"><img id="eReporting" height="0" width="0" hspace="0" vspace="0" Border="0" /></div>
+</body>

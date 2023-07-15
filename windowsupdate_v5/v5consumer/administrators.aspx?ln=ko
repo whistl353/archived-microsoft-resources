@@ -1,0 +1,50 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=ks_c_5601-1987' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+ 
+	</head>
+	<body onload="fnInit(14, -1);">
+	
+		<span class="sys-font-heading3 sys-rhp-color-title">관리자 옵션</span><br />
+	        <br>
+			<div class="8pt">
+
+			<b>여러 운영 체제 업데이트<br /></b>
+			서버용 소프트웨어 업데이트 및 드라이버(하드웨어) 업데이트를 비롯한 모든 Windows 운영 체제에 대한 업데이트 목록을 보고 선택하려면 <a href="http://go.microsoft.com/fwlink/?LinkId=8973" target="_blank" class="sys-link-normal">Windows Update 카탈로그</a>를 검색하십시오.<br /><br />
+			<b>네트워크의 업데이트 프로세스 관리<br /></b>
+			회사 방화벽 내에서 실행되는 Windows 운영 체제 및 기타 Microsoft 제품을 업데이트하려면 <a href="http://go.microsoft.com/fwlink/?LinkId=24462" target="_blank" class="sys-link-normal">Windows Update Services</a>를 사용하십시오. 이전에는 SUS(Software Update Services) 2.0이라고 알려진 이 솔루션을 통해 관리자는 배포할 대상 시스템 지정, 사용자 상호 작용 제어, 업데이트 제거, 업데이트 빈도 및 우선 순위 조정 등의 작업을 수행할 수 있습니다.<br /><br />
+			참고:<br />
+			<ul style="margin-left:40px">
+				<li>또한 <a href="http://go.microsoft.com/fwlink/?LinkId=27549" target="_blank" class="sys-link-normal">MBSA(Microsoft Baseline Security Analyzer)</a>를 사용하여 잘못 구성된 일반 보안 관련 구성을 검사 및 보고하고 Windows 기반 컴퓨터에 누락된 보안 업데이트를 설치할 수 있습니다. </li>
+				<li>
+					자동 업데이트, Windows Update 및 Windows Update Services에서 제공하는 업데이트를 신속하게 확인하려면 
+					<a  class="sys-link-normal" href="about.aspx?ln=ko" target="eContent">Windows Update 질문과 대답을</a>
+					읽어 보십시오.
+				</li>
+			</ul>
+			<br/><b>추가 업데이트<br /></b>
+			<ul style="margin-left:40px">
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=21601" target="_blank" class="sys-link-normal">Microsoft 다운로드 센터 검색</a>
+			<br>지원되는 모든 Microsoft 제품에 대한 다운로드를 받을 수 있습니다. 다운로드는 30개 언어로 제공됩니다.  
+		</li>
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=24459" target="_blank" class="sys-link-normal">Microsoft Office Online 방문</a>
+			<br>Microsoft Office 시스템, 버전 97/98 이상에 대한 업데이트를 찾아볼 수 있습니다. 다운로드에는 서식 파일, 도움말 지원 내용, 클립 아트 등이 포함됩니다.
+		</li>
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=27098" target="_blank" class="sys-link-normal">Microsoft 프리미어 지원 고객</a>
+			<br>시험판 소프트웨어 같은 추가 업데이트를 포함하여 프리미어 지원의 이점을 확인할 수 있습니다.   
+		</li>
+			</ul>
+			</div> 
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+	</body>
+</html>

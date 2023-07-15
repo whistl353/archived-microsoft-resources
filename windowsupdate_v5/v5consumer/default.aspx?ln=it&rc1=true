@@ -1,0 +1,159 @@
+
+
+<html dir="ltr">
+	<head>
+		<META http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+		<META http-equiv="Content-Type"  content="text/html;charset=windows-1252" />
+		<META http-equiv="MSThemeCompatible" content="Yes" />
+		<META NAME="DESCRIPTION" CONTENT="Gli ultimi aggiornamenti disponibili per il sistema operativo in uso, software e hardware. Windows Update esegue un'analisi del computer e offre una selezione di aggiornamenti personalizzati."> 
+		<META NAME="MS.LOCALE" CONTENT="it">
+		<META NAME="keywords" CONTENT="Windows Update; update; security; secure; up-to-date; download; driver; patch; fix; hotfix; QFE; bug; critical; high priority; service pack; Automatic Updates; Windows XP; Windows 2000; Windows Server 2003; WinXP; Win2k; Win2000; WS2k3; WS2003; .NET Server; SP">
+		<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+		<title>Microsoft Windows Update</title>
+		<object id="SusWebCtl" VIEWASTEXT></object>
+		<script language="javascript" type="text/javascript">
+			var curSite = 5;
+			var g_sDownForMaintenance2K = "";
+			var g_sDownForMaintenanceXP = "";
+			var g_sDownForMaintenance2003 = "";
+			var g_sDownForMaintenanceLonghorn = "";
+			var g_sUA = "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)".toLowerCase();
+					
+			
+		</script>
+		<script language="javascript" type="text/javascript" src="shared/js/tgar.js?19/06/2004 7.09.41"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/redirect.js?19/06/2004 7.09.41"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/commontop.js?19/06/2004 7.09.41"></script>
+		<script id="top2" language="javascript" type="text/javascript" defer="true"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/survey.js?19/06/2004 7.09.41"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/spupdateids.js?19/06/2004 7.09.41"></script>
+		
+		 
+			<script language="javascript" type="text/javascript">
+				function fnSupressError(sMessage, sURL, sLine){ return true; }
+				window.onerror = fnSupressError ;
+			</script>
+		
+		<script language="javascript" type="text/javascript" defer="true">
+			var conQueryString = "ln=it"; 
+			var conRTL = false;
+			var conDevServer = false;
+			var conCriticalUpdatesMode = false;
+			var conLangCode = "it";
+			var conConsumerURL = "/v5consumer/";
+			var L_ScanForAvailableUpdates_Text = "Visualizza aggiornamenti del programma";
+var L_ReloadingSiteText_Text = "Apertura del sito Windows Update non completata.\n			Per attendere fare clic su OK.\n			Per provare ad aprire di nuovo il sito Windows Update fare clic su Annulla.";
+var L_MB_Text = "MB";
+var L_KB_Text = "KB";
+var L_Hour_Text = "ora";
+var L_Hours_Text = "ore";
+var L_InstallTitle_Text = "Installazione aggiornamenti in corso";
+var L_Minute_Text = "minuto";
+var L_Minutes_Text = "minuti";
+var L_RListNoUpdatesToInstall_Text = "Nessun aggiornamento selezionato per l'installazione.";
+var L_StatusSucceeded_Text = "Operazione riuscita";
+var L_StatusFailed_Text = "Operazione non riuscita";
+var L_StatusAborted_Text = "Annullato";
+var L_UpdateName_Text = "Nome aggiornamento";
+var L_Status_Text = "Stato";
+var L_Date_Text = "Data";
+var L_Source_Text = "Origine";
+var L_AutomaticUpdates_Text = "Aggiornamenti automatici";
+var L_WindowsUpdate_Text = "Sito Web Windows Update";
+var L_ManagedServer_Text = "Sito Web del client per i servizi Windows Update";
+var L_DynamicUpdate_Text = "Aggiornamenti dinamici";
+var L_DeviceManager_Text = "Gestione periferiche";
+var L_OperationModeDownload_Text = "Download in corso";
+var L_OperationModeCopying_Text = "Copia dei file in corso";
+var L_OperationModeRegister_Text = "Registrazione in corso";
+var L_OtherSource_Text = "Altra origine";
+var L_PersonalizationSaveSettingsPrompt_Text = "Le impostazioni sono state modificate. Per salvare le impostazioni, fare clic su OK. Per continuare senza salvare, fare clic su Annulla.";
+var L_Next_Text = "Avanti";
+var L_RListBasketUpdatesNotAvailableText_Text = "Nessun aggiornamento selezionato.";
+var L_NeedUserData_Text = "Per questa funzionalità è necessario attivare i dati utente";
+var L_UserDataSaved_Text = "Le impostazioni sono state salvate.";
+var L_PersonalizationReloadSite_Text = "Le impostazioni della lingua sono state salvate. È necessario aggiornare la pagina per visualizzare il sito nella nuova lingua. Tutte le selezioni verranno reimpostate. Eseguire l'aggiornamento ora?";
+var L_Previous_Text = "Precedente";
+var L_ProxyTitle_Text = "Immetti credenziali proxy";
+var L_ExpressModeHidden_Text = "Windows Update e Aggiornamenti automatici consentono di nascondere un aggiornamento che non si desidera più visualizzare. L'aggiornamento che ora risulta necessario è stato in precedenza nascosto. Si desidera ripristinare l'aggiornamento per poterlo installare?";
+var L_WerUpdateInstalled_Text = "L'aggiornamento richiesto è stato già installato. Fare clic su OK per continuare l'installazione di altri aggiornamenti disponibili per il computer in uso.";
+var L_RListBetaDescription_Text = "Per il computer in uso sono disponibili i seguenti aggiornamenti beta. Selezionare gli aggiornamenti che si desidera installare, quindi fare clic sul collegamento Vai all'installazione degli aggiornamenti.";
+var L_RListBetaTitle_Text = "Seleziona aggiornamenti beta facoltativi";
+var L_RListBetaWarning1_Text = "<b>Il software beta può danneggiare il computer</b><br>";
+var L_RListBetaWarning2_Text = "I prodotti (software) non definitivi o \"beta\" oppure gli aggiornamenti di software beta possono danneggiare il computer e il supporto offerto da Microsoft potrebbe essere limitato.";
+var L_RListClickForDescription_Text = "Fare clic per visualizzare la descrizione di questo aggiornamento.";
+var L_RListClickToHideDescription_Text = "Fare clic per nascondere la descrizione di questo aggiornamento.";
+var L_RListCriticalUpdates_Text = "Aggiornamenti a priorità alta";
+var L_RListCriticalUpdatesBar_Text = "Aggiornamenti a priorità alta";
+var L_RListCriticalUpdatesTitle_Text = "Verifica aggiornamenti a priorità alta";
+var L_RListDeviceUnknown_Text = "Si consiglia di installare questo aggiornamento poiché la periferica del computer a cui si applica questo driver non dispone di un driver installato.";
+var L_RListDeviceDisabled_Text = "Si consiglia di installare questo aggiornamento poiché la periferica del computer a cui si applica questo driver risulta disattivata.";
+var L_RListDeviceProblem_Text = "Si consiglia di installare questo aggiornamento poiché la periferica del computer a cui si applica questo driver non funziona correttamente.";
+var L_RListDownloadSize_Text = "Dimensioni download: ";
+var L_RListDownloadSizeTypical_Text = "Dimensioni del download tipiche: ";
+var L_RListDriversDescription_Text = "Per il computer sono disponibili i seguenti aggiornamenti facoltativi. Scegliere gli aggiornamenti che si desidera installare, quindi fare clic sul collegamento Vai all'installazione degli aggiornamenti.";
+var L_RListDriversTitle_Text = "Seleziona aggiornamenti hardware facoltativi";
+var L_RListHiddenTitle_Text = "Ripristina aggiornamenti nascosti";
+var L_RListHiddenUpdatesBar_Text = "Aggiornamenti nascosti";
+var L_RListHideThisUpdate_Text = "Nascondi aggiornamento";
+var L_RListInfoGifAlt_Text = "Questo aggiornamento è stato già scaricato sul computer in uso. Se questo elemento è selezionato, verrà completata la relativa installazione.";
+var L_RListItems_Text = "elementi";
+var L_RListLessThan_Text = "meno di";
+var L_RListNoUpdatesAvailable_Text = "Nessun aggiornamento disponibile";
+var L_RListOptionalBetaUpdatesBar_Text = "Aggiornamenti beta facoltativi";
+var L_RListOptionalHardwareUpdatesBar_Text = "Aggiornamenti hardware facoltativi";
+var L_RListOptionalSoftwareUpdatesBar_Text = "Aggiornamenti software facoltativi";
+var L_RListOptionalUpdates_Text = "Aggiornamenti facoltativi";
+var L_RListOtherUpdates_Text = "Altri aggiornamenti";
+var L_RListOtherOptionalUpdates_Text = "Altri aggiornamenti facoltativi";
+var L_RListOtherCriticalUpdates_Text = "Altri aggiornamenti a priorità alta";
+var L_RListProductTitle_Text = "Seleziona aggiornamenti software facoltativi";
+var L_RListReadMore_Text = "Dettagli...";
+var L_RListSingleInstallation_Text = "<b>L'aggiornamento a installazione separata è stato selezionato per l'installazione </b><br/>Gli aggiornamenti contenuti in questa pagina non sono attualmente disponibili poiché un aggiornamento a installazione separata è stato selezionato per l'installazione e non è possibile installarlo contemporaneamente con altri aggiornamenti. Al termine dell'installazione, tornare a Windows Update per scegliere altri aggiornamenti per il computer.";
+var L_RListSingleInstallationTitle_Text = "Installazione separata: ";
+var L_RListUpdates_Text = "aggiornamenti";
+var L_RListHiddenCriticalPresent1_Text = "<b>Alcuni aggiornamenti a priorità alta sono nascosti </b><br/>Microsoft consiglia di installare tutti gli aggiornamenti a priorità alta per garantire la protezione. Per installare gli aggiornamenti che sono stati nascosti, passare alla pagina ";
+var L_RListHiddenCriticalPresent2_Text = "Ripristina aggiornamenti nascosti";
+var L_RListHiddenCriticalPresent3_Text = ".";
+var L_RListSelectall_Text = "Seleziona tutto";
+var L_RList100_Text = "Gli aggiornamenti a priorità alta sono aggiornamenti critici o relativi alla protezione.";
+var L_RList101_Text = "Non risultano selezionati aggiornamenti a priorità alta da installare. Microsoft consiglia di installare gli aggiornamenti a priorità alta per mantenere il computer protetto e aggiornato. Per visualizzare gli aggiornamenti facoltativi disponibili per il computer, fare clic sui collegamenti a essi sotto il collegamento Home page.";
+var L_RList102a_Text = "Microsoft consiglia di installare i seguenti aggiornamenti a priorità alta per mantenere il computer protetto e aggiornato.";
+var L_RList102b_Text = "<b>Impossibile installare aggiornamenti a installazione separata contemporaneamente ad altri aggiornamenti.</b> <br>Selezionare se installare prima un aggiornamento a installazione separata oppure gli altri aggiornamenti a priorità alta, quindi fare clic sul collegamento Vai all'installazione degli aggiornamenti. Al termine dell'installazione, tornare a Windows Update per installare gli aggiornamenti rimanenti.";
+var L_RList103_Text = "Microsoft consiglia di installare i seguenti aggiornamenti a priorità alta e installazione separata per mantenere il computer protetto e aggiornato. A tale scopo, fare clic sul collegamento Vai all'installazione degli aggiornamenti.";
+var L_RList104_Text = "Microsoft consiglia di installare i seguenti aggiornamenti a priorità alta per mantenere il computer protetto e aggiornato. Per installare questi aggiornamenti, fare clic sul collegamento Vai all'installazione degli aggiornamenti.";
+var L_RList105a_Text = "Microsoft consiglia di installare i seguenti aggiornamenti a priorità alta per mantenere il computer protetto e aggiornato.";
+var L_RList105b_Text = "<b>Impossibile installare aggiornamenti a installazione separata contemporaneamente ad altri aggiornamenti.</b> <br>Selezionare l'aggiornamento a installazione separata da installare, quindi fare clic sul collegamento Vai all'installazione degli aggiornamenti. Al termine dell'installazione, tornare a Windows Update per installare gli aggiornamenti rimanenti.";
+var L_RList200_Text = "Gli aggiornamenti facoltativi sono aggiornamenti non critici che è possibile installare.";
+var L_RList201_Text = "Aggiornamenti facoltativi non disponibili.";
+var L_RList202a_Text = "Per il computer in uso sono disponibili i seguenti aggiornamenti facoltativi.";
+var L_RList202b_Text = "<b>Impossibile installare aggiornamenti a installazione separata contemporaneamente ad altri aggiornamenti.</b> <br>Selezionare se installare prima un aggiornamento a installazione separata oppure altri aggiornamenti facoltativi, quindi fare clic sul collegamento Vai all'installazione degli aggiornamenti. Al termine dell'installazione, tornare a Windows Update per installare gli aggiornamenti rimanenti.";
+var L_RList203_Text = "Per il computer è disponibile il seguente aggiornamento facoltativo. Non è possibile installare gli aggiornamenti a installazione separata contemporaneamente con altri aggiornamenti. Scegliere gli aggiornamenti che si desidera installare, quindi fare clic sul collegamento Vai all'installazione degli aggiornamenti. Al termine dell'installazione, tornare a Windows Update per scegliere altri aggiornamenti per il computer.";
+var L_RList204_Text = "Per il computer sono disponibili i seguenti aggiornamenti facoltativi. Scegliere gli aggiornamenti che si desidera installare, quindi fare clic sul collegamento Vai all'installazione degli aggiornamenti.";
+var L_RList205a_Text = "Per il computer in uso sono disponibili i seguenti aggiornamenti facoltativi.";
+var L_RList205b_Text = "<b>Impossibile installare aggiornamenti a installazione separata contemporaneamente ad altri aggiornamenti.</b> <br>Scegliere gli aggiornamenti a installazione separata che si desidera installare, quindi fare clic sul collegamento Vai all'installazione degli aggiornamenti. Al termine dell'installazione, tornare a Windows Update per installare gli altri aggiornamenti.";
+var L_RList300_Text = "In questa pagina è incluso un riepilogo degli aggiornamenti che si è scelto di installare.";
+var L_RList301_Text = "Al momento non risultano selezionati aggiornamenti da installare. Per visualizzare gli aggiornamenti disponibili per il computer, fare clic sui collegamenti agli aggiornamenti a priorità alta o facoltativi sotto il collegamento Home page.";
+var L_RList302_Text = "Microsoft consiglia di installare i seguenti aggiornamenti a priorità alta per mantenere il computer protetto e aggiornato. Per installare questi aggiornamenti, fare clic su Installa.";
+var L_RList303_Text = "Per installare i seguenti aggiornamenti facoltativi, fare clic su Installa.";
+var L_RList304_Text = "Microsoft consiglia di installare i seguenti aggiornamenti a priorità alta e i seguenti aggiornamenti facoltativi per mantenere il computer protetto e aggiornato. Per installare questi aggiornamenti, fare clic su Installa.";
+var L_RList400_Text = "Gli aggiornamenti nascosti sono quelli che sono stati rimossi dall'elenco degli aggiornamenti disponibili.";
+var L_RList401_Text = "Non esistono aggiornamenti nascosti. È possibile nascondere un aggiornamento facendo clic sul relativo titolo e selezionando la casella di controllo Nascondi aggiornamento.";
+var L_RList402_Text = "<P><b>Non è possibile installare gli aggiornamenti a installazione separata contemporaneamente con altri aggiornamenti.</b><br> Scegliere l'aggiornamento a installazione separata che si desidera installare, quindi fare clic sul collegamento Vai all'installazione degli aggiornamenti. Al termine dell'installazione, tornare a Windows Update per installare gli altri aggiornamenti.";
+var L_RList403_Text = "<P><b>Non è possibile installare gli aggiornamenti a installazione separata contemporaneamente con altri aggiornamenti.</b><br> Scegliere gli aggiornamenti a installazione separata che si desidera installare, quindi fare clic sul collegamento Vai all'installazione degli aggiornamenti. Al termine dell'installazione, tornare a Windows Update per installare gli altri aggiornamenti.";
+var L_RList404_Text = "Se si desidera installare un aggiornamento nascosto, selezionarne la casella di controllo e fare clic sul collegamento Vai all'installazione degli aggiornamenti.";
+var L_RList405_Text = "<P><b>Non è possibile installare gli aggiornamenti a installazione separata contemporaneamente con altri aggiornamenti.</b><br> Scegliere se installare prima un aggiornamento a installazione separata o se installare altri aggiornamenti, quindi fare clic sul collegamento Vai all'installazione degli aggiornamenti. Al termine dell'installazione, tornare a Windows Update per installare gli altri aggiornamenti.";
+var L_RList500_Text = "L'installazione rapida consente di scaricare e installare velocemente solo gli aggiornamenti critici e gli aggiornamenti della protezione di cui il computer necessita.";
+var L_RList501_Text = "Microsoft consiglia di installare i seguenti aggiornamenti a priorità alta per mantenere il computer protetto e aggiornato. Per installare questi aggiornamenti, fare clic su Installa.";
+var L_RList502_Text = "Il computer è aggiornato. Al momento non risultano disponibili aggiornamenti critici o aggiornamenti della protezione. Per visualizzare gli aggiornamenti facoltativi disponibili per il computer, fare clic sul collegamento Home page, quindi su Installazione personalizzata. Windows Update cercherà gli aggiornamenti facoltativi. È possibile esaminare gli aggiornamenti prima di eseguirne il download.";
+var L_RList600_Text = "Gli aggiornamenti indicati in questa pagina sono software beta o aggiornamenti di software beta installato sul computer.";
+var L_RList700_Text = "In questa pagina sono inclusi gli aggiornamenti dei driver…";
+var g_sControlVersion = '3790.2150';
+
+		</script>
+	</head>
+	<noscript>
+		<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=it&error=1' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=it&error=1' /><frame name='eContent'  src='errorinformation.aspx?ln=it&error=1' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=it&error=1' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+	</noscript>
+	<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=it' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=it' /><frame name='eContent'  src='splash.aspx?page=0&ln=it' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=it' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+</html>

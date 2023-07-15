@@ -1,0 +1,448 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=shift_jis' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+<body onload="fnInit(5, -1);">
+	<span class="sys-font-heading3 sys-rhp-color-title">
+		Windows Update : よく寄せられる質問
+	</span><br>
+	<br>
+	
+		<div class="8pt">
+		
+			<li><A class='sys-link-normal' HREF='#usingWU'><b>Windows Update の使用</b></a></li>
+			<li><A class='sys-link-normal' HREF='#SupportVL'><b>サポートしているバージョンと言語</b></a></li>
+			<li><A class='sys-link-normal' HREF='#TShooter'><b>トラブルシューティング</b></a></li>
+			<li><A class='sys-link-normal' HREF='#NWAD'><b>ネットワークおよび詳細な情報</b></a></li>
+		
+		<p>
+			<A class="aboutHeader" name='usingWU' >Windows Update の使用</a>
+			
+			<p>
+				<b>Windows Update とは何ですか?</b><br>
+				Windows オペレーティング システム ソフトウェアおよび Windows ベースのハードウェアに対する更新プログラムを提供する Microsoft の Web サイトです。更新プログラムによって、既知の問題に対処したり、既知のセキュリティ上の脅威からコンピュータを保護することができます。  
+				<p>
+				ヒント :<bt>
+				<ul style='margin-left:40px'> 
+					<li>自動更新を有効にすると、優先度の高い更新プログラムが利用可能になったときに、Windows Update によってその更新プログラムが配信されます。更新プログラムをインストールする時期や方法は、ユーザーが決定できます。</li>
+				</ul>
+			</p>
+		
+			<p>
+				<b>Windows Update は、どのようなしくみで作動するのですか?</b><br>
+				Windows Update の Web サイトにアクセスすると、Windows Update によってコンピュータの状態がチェックされ、お使いのソフトウェアやハードウェアに適用できる更新プログラムが通知されます。インストールする更新プログラムや、インストール方法はユーザーが選択できます。 
+			</p>
+		
+			<p>
+				<b>更新プログラムには、どのような種類がありますか?</b><br>
+					さまざまな問題に対処するための、<A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=22935' target='_blank' >数多くの更新プログラム</a> が公開されます。コンピュータや個人情報を保護するための最も重要な更新プログラムを容易に入手できるように、Windows Update では、次のカテゴリを使用しています。
+				<ul style='margin-left:40px'> 
+				<li><b>優先度の高い更新</b><br>
+					重要な更新プログラム、セキュリティ更新プログラム、Service Pack、および更新プログラムのロールアップが該当します。これらは、使用可能になったらできるだけ速やかに、他の更新プログラムよりも先にインストールする必要があります。</li>
+				<li><b>ソフトウェアの更新 (オプション)</b><br> 
+					Windows Media® Player、Windows Journal Viewer 1.5 などの Windows プログラムに対する、重要度の高くない修正プログラムです。</li>
+				<li><b>ハードウェア更新プログラム (オプション)</b><br>
+					ビデオ カード、サウンドカード、スキャナ、プリンタ、カメラなどの各種ハードウェアやドライバに対する、重要性の高くない修正プログラムです。</li> 
+				</ul>
+			</p>
+		
+			<p>
+				<b>高速インストールとカスタム インストールには、どのような違いがあるのですか?</b><br>
+				<ul style='margin-left:40px'>
+					<li><b>高速インストール (推奨)</b> お使いのコンピュータで使用可能な優先度の高い更新プログラムがすべて表示され、一度クリックするだけでインストールできます。コンピュータを最新の状態にする、最も高速で簡単な方法です。
+					<li><b>カスタム インストール</b> お使いのコンピュータ用の優先度の高い更新プログラムと追加で選択できる更新プログラムが表示されます。インストールする更新プログラムを 1 つずつ確認し、選択します。
+				</ul>
+			</p>
+		
+			<p>
+				<b>追加で選択できる更新プログラムをインストールする必要はあるのですか?</b><br>
+				いいえ。追加で選択できる更新プログラムは、軽微な問題に対処したり、重要度が高くない機能をコンピュータに追加するものです。最新のセキュリティに関連する重要なソフトウェアを入手するためには、優先度の高い更新プログラムをインストールすることがより重要です。 
+			</p>
+		
+			<p>
+				<b>更新プログラムを自動的に入手することはできますか?</b><br>
+				はい。[自動更新] を有効にします。お使いのコンピュータで使用可能な優先度の高い更新プログラムが確認され、[自動更新] の設定に従ってインストールされます。  
+			</p>
+		
+			<p>
+				<b>自動更新は、Windows Update と同じですか?</b><br>
+				はい。ただし、自動更新では優先度の高い更新プログラムだけが配信されます。追加で選択できる更新プログラムを入手するには、Windows Update Web サイトにアクセスする必要があります。
+			</p>
+		
+			<p>
+				<b>自動更新とは何ですか?</b><br>
+				重要な更新プログラムやセキュリティ更新プログラムが使用可能になったときに、その更新プログラムを配信するための機能で、Windows Update と連携して実行されます。自動更新を有効にすると (推奨)、お使いのコンピュータで使用可能な優先度の高い更新プログラムが自動的に検索されます。更新プログラムをインストールする方法と時期を決定できます。 
+			</p>
+		
+			<p>
+				<b>更新プログラムをインストールする前に、詳細な情報を知るにはどうすればよいですか?</b><br>
+				各更新プログラムの名前をクリックすると、説明が表示されます。必要なシステムやサポート情報を表示するには、各説明に用意されている [詳細] リンクをクリックします。
+			</p>
+		
+			<p>
+				<b>更新プログラムをインストールするために、何かする必要がありますか?</b><br>
+				場合によっては必要です。更新プログラムによっては、使用許諾契約書 (EULA) の同意、インストール処理に関する質問への回答、インストール前の再起動が必要です。 
+			</p>
+		
+			<p>
+				<b>[この更新プログラムを非表示にする] を選択するとどうなりますか?</b><br>
+				Windows Update から、その更新プログラムの確認やインストールを行うかどうかが確認されなくなります。ただし、優先度の高い更新プログラムを非表示にしている場合、コンピュータのセキュリティにとって重要な更新が行われていないことが通知されることがあります。
+			</p>
+		
+			<p>
+				<b>更新プログラムを非表示にしている場合、後で元に戻すにはどうすればよいですか?</b><br>
+				Windows Update Web サイトで [非表示の更新プログラムの復元] をクリックすると、更新プログラムの確認およびインストールを行うことができます。 
+			</p>
+		
+			<p>
+				<b>Windows Update では、どれくらいの頻度で更新プログラムが公開されますか?</b><br>
+				セキュリティに関連する更新プログラムは、月に一度公開されます。ただし、Windows ベースのコンピュータに影響するウイルスやワームが蔓延した場合など、セキュリティ上の脅威が発生した場合は、該当する更新プログラムは可能な限り速やかに公開されます。 
+				<p>
+				それ以外の更新プログラムは、準備ができ次第公開されます。自動更新を有効にして、優先度の高い更新プログラムが使用可能になったら、お使いのコンピュータにその更新プログラムを受信できるようにしておくことをお勧めします。
+				</p>
+			</p>
+		
+			<p>
+				<b>Windows Update を、信頼済み Web サイトの一覧に追加するにはどうすればよいですか?</b><br>
+				<ul style='margin-left:40px'> 
+					<li > Internet Explorer の [ツール] メニューで [インターネット オプション] をクリックします。</li >
+					<li > [セキュリティ] タブの [信頼済みサイト] をクリックして、[サイト] をクリックします。</li >
+					<li > [次の Web サイトをゾーンに追加する] に、URL 「https://windowsupdate.microsoft.com」を入力します (または、コピーして貼り付けます)。</li >
+					<li > [追加] をクリックして、[OK] をクリックします。</li >
+				</ul > 
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='SupportVL' >サポートしているバージョンと言語</a>
+			<p>
+				<b>Windows Update はどのオペレーティング システムをサポートしていますか?</b><br>
+				Windows Update および自動更新は、次のバージョンの Windows をサポートしています。
+			</p>
+		
+			<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+				<colgroup>
+					<col style='WIDTH: 33%;padding-left:15px'>
+					<col style='WIDTH: 33%;text-align: center'>
+					<col style='WIDTH: 33%;text-align: center'>
+				</colgroup>
+				<tbody>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">現在および今後の更新プログラム</td>
+						<td class="FAQtd4">Windows Update Web サイト</td>
+						<td class="FAQtd3">自動更新</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows Millennium Edition</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows 2000</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows XP</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows NT Server</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows Server 2003</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">アーカイブされた更新プログラム<br/>
+			(新しい更新プログラムは公開されません)</td>
+						<td class="FAQtd4">Windows Update Web サイト</td>
+						<td class="FAQtd3">自動更新</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows 98</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows NT Workstation</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					
+				</tbody>
+			</table>
+			
+			<p>
+				<b>Windows Update へのアクセスに使用できるブラウザのバージョンを教えてください。</b><br>
+				Microsoft Internet Explorer 5 以降です。サイトを最適な状態で表示するには、<A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24748' target='_blank' >Internet Explorer 6</a> をご利用ください。
+			</p>
+		
+			<p>
+				<b>現在使用している Internet Explorer のバージョンは、どのようにして調べるのですか?</b><br>
+				Internet Explorer の [ヘルプ] メニューで、[バージョン情報] をクリックしてください。
+			</p>
+		
+			<p>
+				<b>Windows Update Web サイトを、別の言語で見ることはできますか? </b><br>
+				はい。ただし、更新プログラムの表示は、Web サイト上のリンク、オプション、説明の表示に使用している言語と同じ言語にはなりません。更新プログラムのタイトルと言語は、コンピュータの既定の言語で表示されます。
+			</p>
+		
+			<p>
+				<b>言語の設定は、どのようにして変更するのですか?</b><br>
+				<ul style='margin-left:40px'> 
+					<li >Windows Update Web サイトの [設定] をクリックします。</li >
+					<li >Windows Update の表示に使用する言語を選択して、[変更を今すぐ適用] をクリックします。</li >
+					<li >変更を確認するメッセージが表示されたら、次のいずれかを実行します。</li >
+					<ul style='margin-left:40px'>
+						<li >言語の設定をすぐに変更する場合は、[OK] をクリックします。 <br >
+							更新プログラムの確認と選択を再度行う必要があります。</li >
+						<li >選択した更新プログラムをインストールしてから新しい言語を使用する場合は、[キャンセル] をクリックします。 <br>
+							Windows Update に次回アクセスしたときに、新しい言語の設定が適用されます。</li >
+					</ul >
+				</ul>
+			</p>
+		
+			<p>
+				<b>Windows Update で、使用を推奨する言語について表示されるのはなぜですか?</b><br>
+				その言語が、お使いのコンピュータの既定の言語設定と一致するためです。推奨される言語を使用すると、コンピュータに適用される更新プログラムのタイトルや説明と同じ言語で Web サイトを表示できます。 
+			</p>
+		
+			<p>
+				<b>複数の言語で更新プログラムを入手できますか?</b><br>
+				はい。Windows Update では、お使いのコンピュータの各プログラムに対する言語の設定が自動的に検出されます。複数の言語を使用している場合は、各プログラムに適した言語の更新プログラムが提供されます。
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='TShooter' >トラブルシューティング</a>
+			<p>
+				<b>ダウンロード処理をキャンセルしたり、更新プログラムのダウンロードが完了する前にインターネットから切断した場合はどうなりますか? </b><br>
+				次回にインターネットに接続したときに、中断したところから更新プログラムのダウンロードが続行されます。
+			</p>
+		
+			<p>
+				<b>Internet Explorer のエラーが表示されます。Windows Update を使用できるようにするには、設定をどのように変更すればよいですか?</b><br>
+				既定のセキュリティ設定を使用してください。				
+				<ul style='margin-left:40px'> 
+					<li>Internet Explorer の [ツール] メニューで [インターネット オプション] をクリックします。</li>
+					<li>[セキュリティ] タブの [インターネット ゾーン] をクリックして、[既定のレベル] をクリックします。</li>
+				</ul>
+				<p>問題が発生しないように、Windows Update を信頼済みサイトの一覧に追加することもできます (この手順については、「Windows Update の使用」セクションを参照してください)。 </p>
+			</p>
+		
+			<p>
+				<b>Windows Update を使用すると、ActiveX またはスクリプトの警告が発生します。何か問題があるのですか?</b><br>
+				いいえ。Windows Update ではこれらの技術を使用して、お使いのコンピュータに必要な更新プログラムを決定します。セキュリティを確保するため、Windows Update ActiveX コントロールは Microsoft によって署名されています。しかし、攻撃者が同じ技術を使用して、ユーザーのコンピュータを侵害することがあります。Internet Explorer が警告を発するのは、このようなコントロールを使用する Web サイトを信頼するかどうかを決定できるようにするためです。
+				<p>
+				デジタル署名、Web サイトの信頼、およびセキュリティ設定の選択に関する詳細については、Internet Explorer のヘルプを参照してください。Windows Update を使用しても警告が発生しないようにセキュリティの設定を変更することもできますが、これはお勧めできません。設定のレベルを下げると、そのコンピュータはウイルスやその他のセキュリティ上の脅威に対して、より脆弱になります。 
+				</p>
+			</p>
+		
+			<p>
+				<b>更新プログラムの詳細、インストール履歴の詳細、またはトラブルシューティングの情報を表示できないのはなぜですか?</b><br>
+				ポップアップ表示をブロックするためのソフトウェアや設定があると、Web サイト内でクリックしたリンクから新しいブラウザ ウィンドウを開くことができません。 
+				<p>
+				[ポップアップ ブロック] の設定を変更するには、次の操作を行ってください (この機能は、Windows XP SP2 の Internet Explorer 6 でのみ使用できます)。				
+				<ul style='margin-left:40px'> 
+					<li>Internet Explorer の [ツール] メニューで [ポップアップ ブロック] をクリックし、[ポップアップ ブロックの設定] をクリックします。</li>
+					<li>次のいずれかを実行します。</li>
+					<ul style='margin-left:40px'>
+						<li>Windows Update の使用時にのみポップアップ ウィンドウを許可する場合、[許可する Web サイトのアドレス] に、「https://windowsupdate.microsoft.com」と URL を入力して (または、コピーして貼り付け)、[追加] をクリックします。 </li>
+						<p>
+						<li>セキュリティで保護された (https:// で始まる) Web サイトの場合に、新しいブラウザ ウィンドウを開くのを許可する場合は、[フィルタ レベル] の一覧で [低: 安全なサイトからのポップアップを許可する] をクリックします。</li>
+					</ul>
+				</ul>
+				<p>
+				これ以外のポップアップ表示をブロックするソフトウェアを使用している場合は、Web サイト内でクリックしたリンクだけ設定を変更できるかどうかを確認してください。できない場合、Windows Update の使用中は、ポップアップを許可する必要があります。 
+
+			</p>
+		
+			<p>
+				<b>更新プログラムのインストールで問題が発生した場合は、どこを参照すればよいですか?</b><br>
+				 
+		
+			<a  class="sys-link-normal" href="support.aspx?ln=ja" target="eContent">
+				Windows Update ヘルプとサポート
+		
+			</a>
+			 で、下記のオプション、およびその他のオプションについて参照してください。				
+				<ul style='margin-left:40px'> 
+					<li>
+		
+			<a  class="sys-link-normal" href="troubleshoot.aspx?ln=ja" target="eContent">
+				Windows Update トラブルシューティング
+		
+			</a>
+			</li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=25127' target='_blank' >Windows Update 総合情報</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=9581' target='_blank' >Windows Update ニュースグループ</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21608' target='_blank' >Windows Update お問合せ窓口</a> (Windows Update の問題の場合は無料)</li>
+				</ul>
+			</p>
+		
+			<p>
+				<b>非表示の更新プログラムを復元したのですが、更新プログラムが見つかりません。</b><br>
+				インストールしている別の更新プログラムによって、同じ問題が既に対処されています。たとえば、Service Pack や更新プログラムのロールアップをインストールすると、以前に非表示にした更新プログラムはそれ以後不要になる場合があります。 
+			</p>
+		
+			<p>
+				<b>他の更新プログラムと同時にインストールできない更新プログラムがあるのはなぜですか?</b><br>
+				Service Pack や更新プログラムのロールアップなど、更新プログラムによっては複数の更新プログラムが含まれていたり、同じ問題に対処するものがあります。 
+				<p>
+					更新プログラムを有効にする前にコンピュータの再起動が必要になるものもあります。このような更新プログラムは個別にインストールする必要があります。その後、Windows Update に戻って、他に適用する更新プログラムがないかどうかを確認してください。 
+				<p>
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='NWAD' >ネットワークおよび詳細な情報</a>
+			<p>
+				<b>複数のコンピュータを更新する必要がある場合は、どうすればよいですか?</b><br>
+				家庭内ネットワーク、または小規模なオフィス ネットワークをご利用の場合、各コンピュータを個別に更新する必要があります。 
+				<p>
+					ネットワーク管理者の方は、 
+		
+			<a  class="sys-link-normal" href="administrators.aspx?ln=ja" target="eContent">
+				管理者オプション
+		
+			</a>
+			から、Windows Update カタログや Windows Update Services などの追加の更新プログラムサービスに関する詳細を参照してください。
+				<p>
+			</p>
+		
+			<p>
+				<b>Microsoft Baseline Security Analyzer (MBSA) とは何ですか?</b><br>
+				MBSA は、ネットワーク化された Windows ベースのコンピュータの状態をチェックして、共通するセキュリティ構成の不備や、適用されていないセキュリティ更新プログラムがないかどうかを調査します。MBSA には、グラフィカルなインターフェイスとコマンド ラインのインターフェイスが用意され、ローカル スキャンとリモート スキャンを実行できます。また、スキャン対象のネットワーク内にある各コンピュータに対して、セキュリティ レポートを生成することもできます。詳細については、<A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27549' target='_blank' >Microsoft Baseline Security Analyzer</a> の概要を参照してください。 
+			</p>
+		
+			<p>
+				<b>Windows Update Services とは何ですか?</b><br>
+				Windows Update Services (以前の Software Update Services (SUS)) は、Windows Server 2003 ファミリ用の更新管理コンポーネントです。Windows Update Services は、ネットワーク内にあるすべてのコンピュータのセキュリティ設定をスキャンしてレポートを生成し、更新を同期させます。また、Windows Update Services は、中規模から大規模のネットワークに共通する、更新に関連するリスクとコストの軽減にも役立ちます。詳細については、Windows Server System サイトで <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24462' target='_blank' >Windows Update Services</a> を参照してください。 
+			</p>
+		
+			<p>
+				<b>自動更新、Windows Update、および Windows Update Services では、どのような種類の更新プログラムが配信されますか?</b><br>
+		
+			<br>
+			<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+				<colgroup>
+					<col style='WIDTH: 20%;padding-left:15px'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+				</colgroup>
+				<tbody>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">&nbsp;</td>
+						<td class="FAQtd4">自動更新</td>
+						<td class="FAQtd4" colspan="2">
+							Windows Update Web サイト
+							<table class="sys-table-cell-bgcolor2 sys-toppane-color-border"cellpadding="0" cellpadding ="0" border="0">
+								<tr>
+									<td style='font-weight: bold;WIDTH: 50%;text-align: center'>
+										高速インストール
+									</td>
+									<td style='font-weight: bold;BORDER-left: 1px solid;WIDTH: 50%;text-align: center'>
+										カスタム インストール
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td class="FAQtd3">Windows Update Services*</td>
+					</tr>
+					<tr >
+						<td colspan="5"  class="FAQtd3"">優先度の高い更新プログラム</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">重要な更新プログラム</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">セキュリティ更新プログラム</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">更新プログラムのロールアップ</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Service Pack</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td colspan="5"  class="FAQtd3">追加で選択できる更新プログラム</td>
+					</tr>
+					<tr >
+						<td class="FAQtd1">ソフトウェア</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">ハードウェア</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">ベータ版ソフトウェア</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">オプトイン設定</td>
+						<td  class="FAQtd2">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<div><br>    *ネットワーク管理者が、サポート対象の更新プログラムのすべてまたは一部から、配信するものを選択可能。</div>
+
+			<p>
+				<b>さらに他の更新プログラム、または Windows Update では提供していない更新プログラムは、どのようにして入手できますか?</b><br>
+				次の Web サイトを参照してください。				
+				<ul style='margin-left:40px'> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21601' target='_blank' >Microsoft ダウンロード センター</a><br> 
+					Microsoft 製品用のダウンロードを入手できます。ダウンロードは 30 か国語で利用可能です。 </li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=8973' target='_blank' >Windows Update カタログ</a><br>
+					サーバーや、その他の Windows オペレーティング システムを使用するコンピュータ用の更新プログラムを検索できます。</li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24459' target='_blank' >Microsoft Office Online</a><br>
+					Microsoft Office System、Office Version 97、98 以降の製品に対する更新プログラムを入手できます。テンプレート、アシスタント、クリップ アートもダウンロードできます。 </li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27098' target='_blank' >Microsoft プレミア サポート</a><br>
+					プレミア サポートの利点について説明します。プレミア サポートでは、リリース前のソフトウェアなどの追加の更新プログラムをご利用いただくこともできます。</li> 
+				</ul>
+			</p>
+		
+		</p>
+		
+	</div>
+	<iframe name='eReporting' src='blank.aspx' noresize height='0' width='0' style='DISPLAY:none'>
+</body>
+</html> </IFRAME> </BODY></HTML>

@@ -1,0 +1,448 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+<body onload="fnInit(5, -1);">
+	<span class="sys-font-heading3 sys-rhp-color-title">
+		Windows Update: Ofte stillede spørgsmål
+	</span><br>
+	<br>
+	
+		<div class="8pt">
+		
+			<li><A class='sys-link-normal' HREF='#usingWU'><b>Brug af Windows Update</b></a></li>
+			<li><A class='sys-link-normal' HREF='#SupportVL'><b>Understøttede versioner og sprog</b></a></li>
+			<li><A class='sys-link-normal' HREF='#TShooter'><b>Fejlfinding</b></a></li>
+			<li><A class='sys-link-normal' HREF='#NWAD'><b>Netværk og avancerede oplysninger</b></a></li>
+		
+		<p>
+			<A class="aboutHeader" name='usingWU' >Brug af Windows Update</a>
+			
+			<p>
+				<b>Hvad er Windows Update?</b><br>
+				Et Microsoft-websted, som leverer opdateringer til Windows-operativsystemsoftware og Windows-baseret hardware. Opdateringerne løser kendte problemer og hjælper med at beskytte mod kendte sikkerhedstrusler. 
+				<p>
+				Tip!<bt>
+				<ul style='margin-left:40px'> 
+					<li>Hvis du slår Automatiske opdateringer til, kan Windows Update levere opdateringer med høj prioritet til din computer, når de er tilgængelige. Du kan bestemme, hvor og hvordan opdateringerne installeres.</li>
+				</ul>
+			</p>
+		
+			<p>
+				<b>Hvordan fungerer det?</b><br>
+				Når du besøger webstedet, scanner Windows Update din computer og fortæller dig, hvilke opdateringer der passer til din software og hardware. Du vælger de opdateringer, som du vil installere, og hvordan du vil installere dem. 
+			</p>
+		
+			<p>
+				<b>Hvilke typer opdateringer kan jeg hente?</b><br>
+					Microsoft udgiver mange <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=22935' target='_blank' >typer opdateringer</a>, som løser en bred vifte af problemer. For at gøre det lettere for dig at få de vigtigste opdateringer—opdateringer, som hjælper med at beskytte din computer og dine oplysninger—bruger Windows Update disse kategorier:
+				<ul style='margin-left:40px'> 
+				<li><b>Høj prioritet</b><br>
+					Vigtige opdateringer, sikkerhedsopdateringer, service packs og samlede opdateringspakker, som bør installeres, så snart de er tilgængelige, og før du installerer andre opdateringer.</li>
+				<li><b>Software (valgfri)</b><br> 
+					Ikke-vigtige rettelser til Windows-programmer, f.eks. Windows Media® Player og Windows Journal Viewer 1.5.</li>
+				<li><b>Hardware (valgfri)</b><br>
+					Ikke-vigtige rettelser til drivere og andre hardwareenheder, f.eks. skærmkort, lydkort, scannere, printere og kameraer.</li> 
+				</ul>
+			</p>
+		
+			<p>
+				<b>Hvad er forskellen mellem Hurtig installation og Brugerdefineret installation?</b><br>
+				<ul style='margin-left:40px'>
+					<li><b>Hurtig installation (anbefales)</b> viser alle opdateringer med høj prioritet til computeren, så du kan installere dem med ét klik. Dette er den hurtigste og letteste måde at holde din computer opdateret.
+					<li><b>Brugerdefineret installation</b> viser opdateringer med høj prioritet og valgfrie opdateringer til computeren. Du kan gennemse og vælge de opdateringer, som du vil installere - en efter en.
+				</ul>
+			</p>
+		
+			<p>
+				<b>Er det nødvendigt, at jeg installerer valgfrie opdateringer?</b><br>
+				Nej. Valgfrie opdateringer løser mindre problemer eller føjer ikke-kritisk funktionalitet til din computer. Det er vigtigere at installere opdateringer med høj prioritet, så din computer får den seneste vigtige og sikkerhedsrelaterede software. 
+			</p>
+		
+			<p>
+				<b>Kan jeg automatisk hente opdateringer?</b><br>
+				Ja, hvis du slår <b>Automatiske opdateringer</b> til. Windows søger efter de seneste opdateringer med høj prioritet til computeren og installerer dem i overensstemmelse med indstillingen for Automatiske opdateringer. 
+			</p>
+		
+			<p>
+				<b>Er Automatiske opdateringer det samme som Windows Update?</b><br>
+				Ja, men Automatiske opdateringer leverer kun opdateringer med høj prioritet. Hvis du vil hente valgfrie opdateringer, skal du stadig besøge webstedet Windows Update.
+			</p>
+		
+			<p>
+				<b>Hvad er Automatiske opdateringer?</b><br>
+				Det er en funktion, som sammen med Windows Update leverer vigtige og sikkerhedsrelaterede opdateringer, når de er tilgængelige. Når du slår Automatiske opdateringer til (anbefales), søger Windows automatisk efter opdateringer med høj prioritet til computeren. Du bestemmer, hvordan og hvornår opdateringerne installeres. 
+			</p>
+		
+			<p>
+				<b>Hvordan kan jeg få flere oplysninger om en opdatering, før jeg installerer den?</b><br>
+				Klik på navnet på hver opdatering for at se beskrivelsen. Klik på hyperlinket <b>Detaljer</b>, der findes i alle beskrivelser, for at se systemkrav og supportoplysninger.
+			</p>
+		
+			<p>
+				<b>Skal jeg foretage mig noget for at installere en opdatering?</b><br>
+				Nogle gange. Nogle opdateringer kræver, at du accepterer en slutbrugerlicensaftale (EULA), besvarer et spørgsmål om installationsprocessen eller genstarter computeren, før du kan installere dem. 
+			</p>
+		
+			<p>
+				<b>Hvad sker der, hvis jeg vælger "Skjul denne opdatering"?</b><br>
+				Windows Update beder dig ikke længere om at gennemse eller installere den pågældende opdatering. Men hvis du skjuler en opdatering med høj prioritet, vil du blive mindet om, at du mangler en opdatering, som er vigtig for sikkerheden på din computer.
+			</p>
+		
+			<p>
+				<b>Hvordan får jeg en skjult opdatering tilbage senere?</b><br>
+				På webstedet Windows Update skal du klikke på <b>Gendan skjulte opdateringer</b> og derefter gennemse og installere de opdateringer, som du ønsker. 
+			</p>
+		
+			<p>
+				<b>Hvor ofte udgiver Windows Update nye opdateringer?</b><br>
+				Sikkerhedsrelaterede opdateringer udgives en gang om måneden. Men hvis der forekommer en sikkerhedstrussel, f.eks. en udbredt virus eller orm, som påvirker Windows-baserede computere, udgiver Microsoft en relevant opdatering så hurtigt som muligt. 
+				<p>
+				Andre typer opdateringer udgives, når de er klar. Det er en god ide at slå Automatiske opdateringer til, så din computer kan modtage opdateringer med høj prioritet, når de bliver tilgængelige.
+				</p>
+			</p>
+		
+			<p>
+				<b>Hvordan føjer jeg Windows Update til min liste over websteder, jeg har tillid til?</b><br>
+				<ul style='margin-left:40px'> 
+					<li > Klik på <b>Internetindstillinger</b> i menuen <b>Funktioner</b> i Internet Explorer.</li >
+					<li > På fanen <b>Sikkerhed</b> skal du klikke på <b>Websteder, du har tillid til</b> og derefter klikke på <b>Websteder</b>.</li >
+					<li > Under <b>Føj dette websted til zonen</b> skal du skrive (eller kopiere og indsætte) denne URL-adresse: https://windowsupdate.microsoft.com.</li >
+					<li > Klik på <b>Tilføj</b>, og klik derefter på <b>OK</b>.</li >
+				</ul > 
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='SupportVL' >Understøttede versioner og sprog</a>
+			<p>
+				<b>Hvilke operativsystemer understøtter Windows Update?</b><br>
+				Windows Update og Automatiske opdateringer understøtter følgende versioner af Windows:
+			</p>
+		
+			<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+				<colgroup>
+					<col style='WIDTH: 33%;padding-left:15px'>
+					<col style='WIDTH: 33%;text-align: center'>
+					<col style='WIDTH: 33%;text-align: center'>
+				</colgroup>
+				<tbody>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">Aktuelle og løbende opdateringer</td>
+						<td class="FAQtd4">Webstedet Windows Update</td>
+						<td class="FAQtd3">Automatiske opdateringer</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows Millennium Edition</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows 2000</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows XP</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows NT Server</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows Server 2003</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">Arkiverede opdateringer<br/>
+			Der udgives ikke nye opdateringer.</td>
+						<td class="FAQtd4">Webstedet Windows Update</td>
+						<td class="FAQtd3">Automatiske opdateringer</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows 98</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows NT Workstation</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					
+				</tbody>
+			</table>
+			
+			<p>
+				<b>Hvilke browserversioner kan jeg bruge til at få adgang til Windows Update?</b><br>
+				Microsoft Internet Explorer 5 og nyere. Brug <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24748' target='_blank' >Internet Explorer 6</a> for at få den bedste visning af webstedet.
+			</p>
+		
+			<p>
+				<b>Hvordan kan jeg finde ud af, hvilken version af Internet Explorer jeg bruger?</b><br>
+				Klik på <b>Om Internet Explorer</b> i menuen <b>Hjælp</b> i Internet Explorer.
+			</p>
+		
+			<p>
+				<b>Kan jeg se webstedet Windows Update på et andet sprog? </b><br>
+				Ja, men opdateringerne vises ikke længere på samme sprog, som du bruger til at se hyperlinks, indstillinger og vejledninger på webstedet. Titler på og oplysninger om en opdatering vises på computerens standardsprog.
+			</p>
+		
+			<p>
+				<b>Hvordan ændrer jeg sprogindstillingerne?</b><br>
+				<ul style='margin-left:40px'> 
+					<li >Klik på <b>Indstillinger</b> på webstedet Windows Update.</li >
+					<li >Vælg det sprog, som du vil bruge til at se Windows Update, og klik derefter på <b>Anvend ændringer</b>.</li >
+					<li >Når du bliver bedt om at bekræfte ændringen, skal du gøre et af følgende:</li >
+					<ul style='margin-left:40px'>
+						<li >Klik på <b>OK</b> for at ændre sprogindstillingerne med det samme. <br >
+							Du skal gennemse og vælge opdateringer igen.</li >
+						<li >Klik på <b>Annuller</b> for at bruge det nye sprog efter installation af valgte opdateringer. <br>
+							Næste gang du besøger Windows Update, anvendes den nye sprogindstilling.</li >
+					</ul >
+				</ul>
+			</p>
+		
+			<p>
+				<b>Hvorfor anbefaler Windows Update, at jeg bruger et bestemt sprog?</b><br>
+				Det svarer til indstillingen for standardsproget på computeren. Hvis du bruger det, kan du se webstedet på det samme sprog, som de titler og oplysninger om opdateringer, der passer til computeren. 
+			</p>
+		
+			<p>
+				<b>Kan jeg hente opdateringer på flere sprog?</b><br>
+				Ja. Windows Update vælger automatisk sprogindstillinger for hvert program på computeren. Hvis du bruger flere sprog, får du mulighed for at vælge opdateringer til hvert program på det pågældende sprog.
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='TShooter' >Fejlfinding</a>
+			<p>
+				<b>Hvad sker der, hvis jeg annullerer overførselsprocessen eller afbryder forbindelsen til internettet, før en opdatering er fuldstændigt hentet? </b><br>
+				Opdateringen fortsætter overførslen fra det sted, den blev afbrudt, næste gang du opretter forbindelse til internettet.
+			</p>
+		
+			<p>
+				<b>Jeg får en Internet Explorer-fejl—hvordan ændrer jeg indstillingerne, så de virker med Windows Update?</b><br>
+				Brug standardsikkerhedsindstillingerne:				
+				<ul style='margin-left:40px'> 
+					<li>Klik på <b>Internetindstillinger</b> i menuen <b>Funktioner</b> i Internet Explorer.</li>
+					<li>Klik på <b>Internet</b> under fanen <b>Sikkerhed</b>, og klik derefter på <b>Standardniveau</b>.</li>
+				</ul>
+				<p>Hvis du vil forhindre, at problemer opstår, kan du også føje Windows Update til din liste over websteder, du har tillid til. Du kan finde en vejledning i afsnittet Brug af Windows Update. </p>
+			</p>
+		
+			<p>
+				<b>Jeg får ActiveX- eller scripting-advarsler, når jeg bruger Windows Update—er der et problem?</b><br>
+				Nej. Windows Update bruger disse teknologier til at bestemme, hvilke opdateringer din computer har brug for. Som en sikkerhedsforanstaltning er ActiveX-objekter i Windows Update digitalt signeret af Microsoft. Men personer med ondsindede hensigter bruger nogle gange samme teknologier til at skade din computer. Internet Explorer advarer dig, så du kan beslutte, om du har tillid til websteder, som bruger disse objekter, eller ej.
+				<p>
+				Få flere oplysninger om digitale certifikater og om at have tillid til websteder og vælge sikkerhedsindstillinger ved at søge i Internet Explorer Hjælp. Hvis du ikke vil se disse advarsler, når du bruger Windows Update, kan du ændre sikkerhedsindstillingerne, men det anbefales ikke. Hvis du sætter niveauet for indstillingerne ned, er computeren sårbar over for virus og andre sikkerhedstrusler. 
+				</p>
+			</p>
+		
+			<p>
+				<b>Hvorfor kan jeg ikke se opdateringsoplysninger, oplysninger om installationsoversigt eller fejlfindingsartikler?</b><br>
+				Din software til blokering af pop op-vinduer eller indstillinger tillader ikke, at du åbner et nyt browservindue fra hyperlinks, som du klikker på, når du befinder dig på et websted. 
+				<p>
+				Sådan ændrer du indstillingerne for blokering af pop op-vinduer (kun tilgængelig for Internet Explorer 6 på Windows XP SP2):				
+				<ul style='margin-left:40px'> 
+					<li>I Internet Explorer skal du i menuen <b>Funktioner</b> pege på <b>Blokering af pop-up-vinduer</b> og derefter klikke på <b>Indstillinger for blokering af pop-up-vinduer</b>.</li>
+					<li>Gør et af følgende:</li>
+					<ul style='margin-left:40px'>
+						<li>Hvis du kun vil tillade pop op-vinduer, når du bruger Windows Update, skal du, under <b>Adressen på webstedet, der skal tillades</b>, skrive (eller kopiere og indsætte) denne URL-adresse: https://windowsupdate.microsoft.com og derefter klikke på <b>Tilføj</b>. </li>
+						<p>
+						<li>Hvis du vil tillade, at nye browservinduer åbnes, når du bruger et sikkert (https://) websted, skal du klikke på <b>Lav: Tillad pop-up-vinduer fra sikre websteder</b> på listen <b>Filterniveau</b>. .</li>
+					</ul>
+				</ul>
+				<p>
+				Hvis du bruger anden software til blokering, skal du finde ud af, om du kan ændre indstillingerne udelukkende for hyperlinks, som du klikker på, når du befinder dig på et websted. Hvis ikke, er du muligvis nødt til at tillade pop op-vinduer, mens du bruger Windows Update. 
+
+			</p>
+		
+			<p>
+				<b>Hvor finder jeg hjælp, hvis jeg har problemer med at installere en opdatering?</b><br>
+				Se 
+		
+			<a  class="sys-link-normal" href="support.aspx?ln=da" target="eContent">
+				Windows Update Hjælp og support
+		
+			</a>
+			 for at få oplysninger om disse og andre indstillinger:				
+				<ul style='margin-left:40px'> 
+					<li>
+		
+			<a  class="sys-link-normal" href="troubleshoot.aspx?ln=da" target="eContent">
+				Windows Update-fejlfinding
+		
+			</a>
+			</li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=25127' target='_blank' >Windows Update Support Center</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=9581' target='_blank' >Windows Update-nyhedsgrupper</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21608' target='_blank' >Microsoft online-assisteret support</a> (gratis ved Windows Update-problemer)</li>
+				</ul>
+			</p>
+		
+			<p>
+				<b>Hvorfor kan jeg ikke finde en opdatering, når jeg har gendannet skjulte opdateringer?</b><br>
+				En anden opdatering, som du har installeret, har allerede løst samme problem. Hvis du f.eks. har installeret en service pack eller samlet opdateringspakke, har computeren muligvis ikke længere brug for den opdatering, som du skjulte tidligere. 
+			</p>
+		
+			<p>
+				<b>Hvorfor kan jeg ikke installere nogle opdateringer på samme tid som andre opdateringer?</b><br>
+				Nogle opdateringer, f.eks. service packs og samlede opdateringspakker, omfatter flere opdateringer, som løser samme problemer. 
+				<p>
+					Andre typer opdateringer kræver, at du genstarter computeren, før de træder i kraft. Du skal installere disse opdateringer separat. Du kan derefter vende tilbage til Windows Update for at se, om der er flere tilgængelige opdateringer. 
+				<p>
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='NWAD' >Netværk og avancerede oplysninger</a>
+			<p>
+				<b>Hvad gør jeg, hvis jeg skal opdatere mere end en computer?</b><br>
+				Hvis du har et hjemme- eller mindre kontornetværk, skal du opdatere computerne hver for sig. 
+				<p>
+					Hvis du er netværksadminisstrator, skal du gå til 
+		
+			<a  class="sys-link-normal" href="administrators.aspx?ln=da" target="eContent">
+				Administratorindstillinger
+		
+			</a>
+			 for at få oplysninger om yderligere opdateringstjenester, f.eks. Windows Update-katalog og Windows Update-tjenester.
+				<p>
+			</p>
+		
+			<p>
+				<b>Hvad er MBSA (Microsoft Baseline Security Analyzer)?</b><br>
+				MBSA er et værktøj, som scanner Windows-baserede computere, der befinder sig på et netværk, for at finde almindelige sikkerhedsrelaterede fejlkonfigurationer og manglende sikkerhedsopdateringer. Værktøjet omfatter en grafisk og en kommandolinje-brugergrænseflade og kan udføre scanninger på lokale og fjerncomputere. Det kan også oprette en sikkerhedsrapport for hver computer på det netværk, der scannes. Du kan få yderligere oplysninger ved at læse oversigten over <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27549' target='_blank' >MBSA (Microsoft Baseline Security Analyzer)</a>. 
+			</p>
+		
+			<p>
+				<b>Hvad er Windows Update-tjenester?</b><br>
+				Windows Update-tjenester, som tidligere blev kaldt SUS (Software Update Services), er administrationskomponenten til opdateringer til Windows Server 2003-serien. Den scanner efter og rapporterer om sikkerhedsindstillinger for alle computere på et netværk og synkroniserer opdateringer. Den hjælper også med at reducere de risici og omkostninger, der normalt forbindes med opdatering af mellemstore til store netværk. Du kan finde yderligere oplysninger ved at besøge webstedet Windows Server System til <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24462' target='_blank' >Windows Update-tjenester</a>. 
+			</p>
+		
+			<p>
+				<b>Hvilke typer opdateringer leverer Automatiske opdateringer, Windows Update og Windows Update-tjenester?</b><br>
+		
+			<br>
+			<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+				<colgroup>
+					<col style='WIDTH: 20%;padding-left:15px'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+				</colgroup>
+				<tbody>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">&nbsp;</td>
+						<td class="FAQtd4">Automatiske opdateringer</td>
+						<td class="FAQtd4" colspan="2">
+							Webstedet Windows Update
+							<table class="sys-table-cell-bgcolor2 sys-toppane-color-border"cellpadding="0" cellpadding ="0" border="0">
+								<tr>
+									<td style='font-weight: bold;WIDTH: 50%;text-align: center'>
+										Hurtig installation
+									</td>
+									<td style='font-weight: bold;BORDER-left: 1px solid;WIDTH: 50%;text-align: center'>
+										Brugerdefineret installation
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td class="FAQtd3">Windows Update-tjenester*</td>
+					</tr>
+					<tr >
+						<td colspan="5"  class="FAQtd3"">Opdateringer med høj prioritet</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Vigtige opdateringer</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Sikkerhedsrettelser</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Samlede opdateringspakker</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Service packs</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td colspan="5"  class="FAQtd3">Valgfrie opdateringer</td>
+					</tr>
+					<tr >
+						<td class="FAQtd1">Software</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Hardware</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Betasoftware</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">Tilvalgsindstilling</td>
+						<td  class="FAQtd2">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<div><br>    *Netværksadministratorer kan vælge enhver af eller alle understøttede opdateringer til distribution.</div>
+
+			<p>
+				<b>Hvor kan jeg hente flere opdateringer eller opdateringer, som Windows Update ikke tilbyder?</b><br>
+				Besøg følgende websteder:				
+				<ul style='margin-left:40px'> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21601' target='_blank' >Microsoft Download Center</a><br> 
+					Hent filer og programmer til Microsoft-produkter. Filerne og programmerne er tilgængelige på 30 sprog. </li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=8973' target='_blank' >Windows Update-katalog</a><br>
+					Søg efter opdateringer til servere og andre computere, der bruger Windows-operativsystemer.</li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24459' target='_blank' >Microsoft Office Online</a><br>
+					Find opdateringer til Microsoft Office System, version 97, 98 og nyere. Filerne og programmerne omfatter skabeloner, assistanceindhold og multimedieklip. </li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27098' target='_blank' >Microsoft Premier Support</a><br>
+					Lær om fordelene ved Premier Support, herunder yderligere opdateringer, som f.eks. foreløbige versioner af software.</li> 
+				</ul>
+			</p>
+		
+		</p>
+		
+	</div>
+	<iframe name='eReporting' src='blank.aspx' noresize height='0' width='0' style='DISPLAY:none'>
+</body>
+</html> </IFRAME> </BODY></HTML>

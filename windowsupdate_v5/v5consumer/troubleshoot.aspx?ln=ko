@@ -1,0 +1,249 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=ks_c_5601-1987' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+<script language="JScript" type="text/javascript" src="shared/js/troubleshooter.js"></script>
+<script language="JScript" type="text/javascript">
+
+		var userlang = parent.conLangCode;
+		var contentwindow = new Array(10);
+		var windowcounter = 0;
+		var divcountjs = 2;
+		var pingbackURL = "http://v5stats.windowsupdate.microsoft.com/v5sitereporting/report.aspx";
+		var currentdiv = 1;
+		var pingbacktext = "감사합니다. 답변하신 내용을 Microsoft로 전송했습니다.";
+		function fnProblemHeaderClicked(articleid){
+			
+			contentwindow[windowcounter++] = window.open('showarticle.aspx?articleid=' + articleid + '&ln=' + userlang,"window" + articleid,"directories=no,width=600,height=600,location=no,menubar=no,status=no,toolbar=no,resizable=yes,scrollbars=yes,top = 100,left = 100");
+			if (windowcounter > 10){
+				contentwindow = contentwindow.concat(windowcounter);
+			}
+			
+		}
+		function fnClearText () { 
+			
+			if (Form1.TextBoxSearch.value == "여기에 키워드를 입력하십시오."){
+				Form1.TextBoxSearch.value = "";
+			}
+			
+
+		}
+		function fnPurify(){
+			//onkeyup="fnPurify();"
+			var inputstring;
+			inputstring = Form1.TextBoxSearch.value
+			while(inputstring.indexOf("<") != -1 ){
+				inputstring = inputstring.replace(/</,"");
+			}
+			while(inputstring.indexOf(">") != -1){
+				inputstring = inputstring.replace(/>/,"");
+			}
+			if (inputstring != Form1.TextBoxSearch.value) {
+				Form1.TextBoxSearch.value = inputstring;
+			}
+
+		}
+	
+		function fnunload(){
+					
+			for (var i = 0; i < windowcounter; i++)
+			{
+				contentwindow[i].close();
+			}
+		}
+function fnShowOtherIssues(i){
+	//i = the page number that was clicked on, what the user wants to see
+	//divcountjs = total number of pages
+	//currentdiv = current page being shown.
+	
+	currentdiv = i;	
+	// hide all of the divs
+	for(var a = 1; a < divcountjs + 1; a++)
+	{
+		document.all["divMainIssuesContents" + a].style.display="none";
+	}
+	// show the desired div	
+	document.all["divMainIssuesContents" + currentdiv].style.display="block";
+
+	// build whole set of anchor tags anew:
+	// if we're at the first page
+	if (currentdiv ==1){
+		labelMainIssuesPages.innerHTML  =currentdiv + "&nbsp" +
+									"<a href='javascript:fnShowOtherIssues(" + (currentdiv + 1) + ")'  class='sys-link-normal'>" + (currentdiv + 1) + "</a>&nbsp;" +
+									"<a href='javascript:fnShowNext()'  class='sys-link-normal'>다음&gt;&gt;</a>"
+	}
+	//          what if we're at page 2? what will be shown?
+
+	// if we're at the last page
+	if (currentdiv == divcountjs){
+		labelMainIssuesPages.innerHTML  = "<a  href='javascript:fnShowPrev()' class='sys-link-normal'>&lt;&lt;이전</a>&nbsp;" +
+										"<a href='javascript:fnShowOtherIssues(" + (currentdiv - 1) + ")'  class='sys-link-normal'>" + (currentdiv -1) + "</a>&nbsp;" +
+										 currentdiv + "&nbsp";
+	}
+	//          what if we're at divcountjs - 1 page? what will be shown?
+
+	// if we're in the middle
+	if (currentdiv != 1 && currentdiv != divcountjs){
+		labelMainIssuesPages.innerHTML  = "<a  href='javascript:fnShowPrev()' class='sys-link-normal'>&lt;&lt;이전</a>&nbsp;" +
+										currentdiv + "&nbsp" +
+										"<a href='javascript:fnShowOtherIssues(" + (currentdiv + 1) + ")'  class='sys-link-normal'>" + (currentdiv + 1) + "</a>&nbsp;" +
+										"<a href='javascript:fnShowNext()'  class='sys-link-normal'>다음&gt;&gt;</a>"
+	}
+    
+}
+
+function fnShowPrev(){
+	//divcountjs = total number of pages
+	//currentdiv = current page shown.
+	
+	currentdiv = currentdiv - 1;	
+	// hide all of the divs
+	for(var a = 1; a < divcountjs + 1; a++)
+	{
+		document.all["divMainIssuesContents" + a].style.display="none";
+	}
+	// show the desired div	
+	document.all["divMainIssuesContents" + currentdiv].style.display="block";
+
+	// if we're at the first page
+	if (currentdiv ==1){
+		labelMainIssuesPages.innerHTML  =currentdiv + "&nbsp" +
+										"<a href='javascript:fnShowOtherIssues(" + (currentdiv + 1) + ")'  class='sys-link-normal'>" + (currentdiv + 1) + "</a>&nbsp;" +
+										"<a href='javascript:fnShowNext()' class='sys-link-normal'>다음&gt;&gt;</a>"
+	}
+	// if we're in the middle
+	if (currentdiv != 1 && currentdiv != divcountjs){
+	labelMainIssuesPages.innerHTML  = "<a  href='javascript:fnShowPrev()' class='sys-link-normal'>&lt;&lt;이전</a>&nbsp;" +
+									currentdiv + "&nbsp" +
+									"<a href='javascript:fnShowOtherIssues(" + (currentdiv + 1) + ")'  class='sys-link-normal'>" + (currentdiv + 1) + "</a>&nbsp;" +
+									"<a href='javascript:fnShowNext()' class='sys-link-normal'>다음&gt;&gt;</a>"
+	}
+
+
+}
+
+function fnShowNext(){
+	//divcountjs = total number of pages
+	//currentdiv = current page shown.
+	
+	currentdiv = currentdiv + 1;
+	// hide all of the divs
+	for(var a = 1; a < divcountjs + 1; a++)
+	{
+		document.all["divMainIssuesContents" + a].style.display="none";
+	}
+	// show the desired div	
+	document.all["divMainIssuesContents" + currentdiv ].style.display="block";
+
+	// if we're in the middle
+	if (currentdiv != 1 && currentdiv != divcountjs){
+		labelMainIssuesPages.innerHTML  = "<a  href='javascript:fnShowPrev()' class='sys-link-normal'>&lt;&lt;이전</a>&nbsp;" +
+										currentdiv + "&nbsp" +
+										"<a href='javascript:fnShowOtherIssues(" + (currentdiv + 1) + ")'  class='sys-link-normal'>" + (currentdiv + 1) + "</a>&nbsp;" +
+										"<a href='javascript:fnShowNext()' class='sys-link-normal'>다음&gt;&gt;</a>"
+	}
+	
+	// if we're at the last page
+	if (currentdiv == divcountjs){
+		labelMainIssuesPages.innerHTML  = "<a  href='javascript:fnShowPrev()' class='sys-link-normal'>&lt;&lt;이전</a>&nbsp;" +
+										"<a href='javascript:fnShowOtherIssues(" + (currentdiv - 1) + ")' class='sys-link-normal'>" + (currentdiv -1) + "</a>&nbsp;" +
+										 currentdiv + "&nbsp";
+	}
+
+
+}
+
+
+
+</script>
+<body id="bodyTag" leftmargin="0" topmargin="0" height="100%" onunload="fnunload();">
+	<span class="sys-font-heading3 sys-rhp-color-title">
+		Windows Update 문제 해결사
+	</span><br>
+	<br>
+	검색할 단어나 구를 입력한 다음 [검색]을 클릭하십시오.
+	<br>
+	<br>
+	<!-- search window here --> <!-- sys-toppane-bgcolor sys-lhp-bgcolor -->
+	<div class="sys-toppane-bgcolor" STYLE="BORDER-RIGHT:blue 1px solid; PADDING-RIGHT:10px; BORDER-TOP:blue 1px solid; PADDING-LEFT:15px; PADDING-BOTTOM:10px; BORDER-LEFT:blue 1px solid; WIDTH:90%; PADDING-TOP:15px; BORDER-BOTTOM:blue 1px solid">
+		<form name="Form1" method="post" action="troubleshoot.aspx?ln=ko" id="Form1">
+<input type="hidden" name="__VIEWSTATE" value="dDwxMjMxNDg0NDYwOzs+" />
+
+			<nobr>
+				<table cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td width="320">
+							여기에 키워드를 입력하십시오.
+							<br>
+							<input name="TextBoxSearch" type="text" maxlength="100" id="TextBoxSearch" onclick="fnClearText();" onkeyup="fnPurify();" style="FONT-SIZE:100%" /></td>
+						<td valign="bottom">
+							<input type="submit" name="Button1" value="검색" id="Button1" /></td>
+					</tr>
+				</table>
+				
+				<br>
+				<span id="LabelforselectOS" style="MARGIN-BOTTOM:-10px">운영 체제를 선택하십시오.</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<span id="LabelforselectCategory" style="MARGIN-BOTTOM:-10px">범주를 선택하십시오.</span>
+				<br>
+				<select name="selectOS" id="selectOS" style="MARGIN-BOTTOM:-15px">
+	<option value="0">모든 운영 체제</option>
+	<option value="1">Windows 2000</option>
+	<option value="2">Windows XP</option>
+	<option value="3">Windows Server 2003</option>
+
+</select>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<select name="selectCategory" id="selectCategory" style="MARGIN-BOTTOM:-15px">
+	<option value="0">모든 범주</option>
+	<option value="1">드라이버 다운로드 실패</option>
+	<option value="2">드라이버 설치 실패</option>
+	<option value="3">드라이버 설치 후 작업 실패</option>
+	<option value="4">Windows Update 액세스 문제</option>
+	<option value="5">자동 업데이트 사용 문제</option>
+	<option value="6">Windows Update 카탈로그 사용 문제</option>
+	<option value="7">검색 문제</option>
+	<option value="8">소프트웨어 다운로드 실패</option>
+	<option value="9">소프트웨어 설치 실패</option>
+	<option value="10">소프트웨어 설치 후 작업 실패</option>
+	<option value="11">기타</option>
+
+</select>
+			</nobr>
+		</form>
+	</div>
+	<br>
+	다음 정보는 Microsoft 기술 지원 서비스에 보고된 문제를 해결하는 데 유용하게 사용됩니다. 이 정보의 사용 조건에 대해서는 Microsoft의 <A href="http://go.microsoft.com/fwlink/?LinkId=9482" class='sys-link-normal' target="_blank">사용권에 대한 고지 사항</A>을 참고하십시오.
+	<br>
+	<hr>
+	
+	<table cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<td valign="top"><span id="LabelOS"><b> - </b></span><span id="LabelCat"><b>모든 범주</b></span></td>
+			<td valign="top" align="right"><a href='http://go.microsoft.com/fwlink/?LinkId=27095' target='_blank' class='sys-link-normal'><nobr>기술 자료 문서로 이동하십시오.</a></NOBR></td>
+		</tr>
+	</table>
+	<br>
+	<br>
+	<span id="labelMainIssuesContents"><div id=divMainIssuesContents1 style='DISPLAY:block'><table width="90%" border="0" cellspacing="1" cellpadding="1"><tbody><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('3');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('3');" >Windows Update 사이트에 대한 고급 설정을 저장할 때 이 기능에 대한 사용자 데이터를 사용할 수 있어야 합니다라는 오류가 표시됩니다.</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('25');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('25');" >설치 내역 보기 페이지의 링크를 클릭하면 주 창에 홈 페이지가 표시됩니다.</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('24');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('24');" >자세한 정보 또는 열어본 페이지 링크를 클릭하면 아무런 반응이 없습니다.</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('23');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('23');" >링크를 클릭할 때 HTTP 오류 500가 표시됩니다 - 내부 서버 오류, 오류 0x8ddd0010</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('20');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('20');" >Windows Update 사이트에서 사용 가능한 업데이트를 검색할 때 0x800A0046 오류가 표시됩니다.</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('19');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('19');" >Windows Update 사이트에서 사용 가능한 업데이트를 검색할 때 0x8007043B 오류가 표시됩니다.</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('18');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('18');" >페이지의 Javascript 오류, 줄: 59, 문자: 2</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('17');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('17');" >Windows Update 사이트에서 사용 가능한 업데이트를 검색할 때 0x80070002 오류가 표시됩니다.</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('15');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('15');" >Windows Update 사이트에서 사용 가능한 업데이트를 검색할 때 0x800A01AD 오류가 표시됩니다.</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('14');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('14');" >Windows Update 사이트에서 사용 가능한 업데이트를 검색할 때 0x80244001 오류가 표시됩니다.</a></td></tr></tbody></table><br></div><div id=divMainIssuesContents2 style='DISPLAY:none'><table width="90%" border="0" cellspacing="1" cellpadding="1"><tbody><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('13');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('13');" >Windows Update 사이트에서 사용 가능한 업데이트를 검색할 때 0x800A01AD 오류가 표시됩니다.</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('11');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('11');" >Windows Update 사이트에서 사용 가능한 업데이트를 검색할 때 0x80248013 오류가 표시됩니다.</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('10');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('10');" >다운로드 과정 중 오류 0x80246008</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('7');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('7');" >Windows Update 사이트에 액세스할 때 시스템 관리자가 Windows Update를 사용하지 않도록 설정했습니다라는 오류가 표시됩니다.</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('2');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('2');" >자세한 정보를 클릭하면 빈 대화 상자가 표시됩니다.</a></td></tr><tr><td align="left" valign="middle" width="15px" ><a href="javascript:fnProblemHeaderClicked('1');" class="sys-link-normal" ><img src="shared/images/ts_bullet.gif" /></a></td><td width="3px"></td><td><a id="spanProblemHeader" class="sys-link-normal" href="javascript:fnProblemHeaderClicked('1');" >Windows Update 사이트에 액세스할 때 빈 페이지가 표시됩니다.</a></td></tr></tbody></table><br></div><br><br></span>
+	<span id="labelMainIssuesPages">1 &nbsp;<a href='javascript:fnShowOtherIssues(2)'  class='sys-link-normal'>2</a>&nbsp<a href='javascript:fnShowNext()'  class='sys-link-normal'>다음&gt;&gt;</a></span>
+	<iframe src="blank.aspx" name='eReporting' noresize height='0' width='0' style='DISPLAY:none' />
+	<IFRAME ID="iframeForPingBack" BORDER="0" HEIGHT="0" WIDTH="0" FRAMEBORDER="0" SCROLLING="no"
+		style="VISIBILITY:hidden"></IFRAME>
+	<script language="JavaScript"> 
+		function window::onLoad() {
+			fnLoadTshoot();
+			document.all["TextBoxSearch"].focus();
+			document.all["TextBoxSearch"].value = document.all["TextBoxSearch"].value;
+		}
+	</script>
+</body>

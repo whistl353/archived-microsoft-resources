@@ -1,0 +1,58 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+</head>
+<body onload="if('function' == typeof(fnWriteInstallResult)) fnWriteInstallResult(0);">
+	<div name= "DivPageTitle" id="DivPageTitle" class="sys-font-heading3 sys-rhp-color-title">
+		Installation Summary
+	</div>
+	<br />
+	
+	<div id="Successfulupdates" style="display:none;">
+		<span><img src="shared/images/ok.gif" align="absmiddle" />&nbsp;The following updates were installed successfully:</span><br/><br/>
+		<b>
+		<ul id="SuccessfulUpdatesList" style="margin-left:35px;">
+		</ul>
+		</b>
+	</div>
+	<br/><br/> 
+	
+	<div id="Failedupdates" style="display:none;">
+		<span><img src="shared/images/warning.gif" align="absmiddle" />&nbsp;The following updates failed to be installed successfully:</span><br/><br/>
+		<b>
+		<ul id="FailedUpdatesList" style="margin-left:35px;">
+		</ul>
+		</b><br/>
+		For more information about the failures, see the <a href="history.aspx" class="sys-link-normal">View installation history page</a>.
+	</div>
+	<br/><br/>
+	
+	<div id="RemainingUpdates" style="display:none;">
+		<span><img src="shared/images/info_16x.gif" align="absmiddle" />&nbsp;The following High Priority updates may be remaining to be installed:</span><br/><br/>
+		<b>
+			<ul id="RemainingUpdatesList" style="margin-left:35px;"> 
+			</ul>
+		</b>
+		<br/><br/>
+	</div>
+	
+	<div id="ScanButton" style="display:none;">
+		<span><img src="shared/images/arrow.gif" align="absmiddle" />&nbsp;<a id="eScan" class="sys-link-normal">Review and install remaining updates now</a>
+	</div>
+	
+	<div id="RebootInstructions" style="display:none;">
+		The installation will not be complete until you restart Windows. If you want to restart Windows now, first save your work and close all programs. Then click Start, click Shut Down, and then select Restart.
+	</div>
+	 <iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' /> 
+  </body>
+</html>

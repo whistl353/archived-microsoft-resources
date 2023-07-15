@@ -1,0 +1,143 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--
+    WebIQ Invitation Page
+    Copyright (C) 2004 Usability Sciences Corporation
+-->
+<html>
+    <head>
+        <title>Survey Invitation</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="StyleSheet" type="text/css" href="shared/css/survey.css" />
+        <script type="text/javascript" src="shared/js/survey.js"></script>
+        <script type="text/javascript">
+        <!--
+            ////////////////////////////////////////////////////////////////////
+            //  Function    :   document_onUnload
+            //
+            //  Purpose     :   This function processes the onUnload event 
+            //                  for the document.
+            //
+            //  Parameters  :   None
+            //
+            //  Returns     :   Nothing
+            //
+            //  History     :   2004-08-25  TNB     Created
+            ////////////////////////////////////////////////////////////////////
+            function document_onUnload()
+            {
+                //  Close the WebIQ dialog.
+                closeWebIQInvitationDialog();
+
+                //  Return to the calling context.
+                return;
+            }
+        -->
+        </script>
+    </head>
+    <body
+        language="JavaScript"
+        onUnload="document_onUnload();"
+    >
+    <TABLE cellpadding=0 cellspacing=0 border=0 style="margin: 0px;" ID="Table1">
+    <TR>
+    <td width=100% align="left" valign="top">
+    <div id="divWebIQUserData" class="storeUserData"></div>
+        <div id="divWebIQDialog" class="WebIQInvitationDialog" align="center">
+        <TABLE cellpadding=0 cellspacing=0 border=0 style="margin: 0px;" ID="Table2">
+	    <TR>
+    	<td width=100% align="left" valign="top">
+
+            <div class="WebIQInvitationContent">
+                <p class="WebIQInvitationParagraph"><b>Please help us to improve our site.</b></p>
+                <p class="WebIQInvitationParagraph">We would like to ask you a few brief questions that will help us to improve the site for you. We promise to keep the questions as short as possible and you can quit at any time.</p>
+                <p class="WebIQInvitationParagraph">A survey will appear in another window.  Please answer as many questions as you can, and if you give us permission, you may receive a follow-up survey in email to fill out after using the Windows Update web site.</p>
+                <p class="WebIQInvitationParagraph">Would you like to participate?</p>
+            </div>
+	    </TD>
+    	</TR>
+	    <TR>
+    	<td width=100% align="left" valign="top">
+            <div class="WebIQInvitationButtons">
+                <div ID="YesButton"
+                    class="WebIQInvitationButton"
+                    onClick="javascript:processUserResponse(1, 'accept'); return false;"
+                    onKeypress="javascript:processUserResponse(1, 'accept'); return false;"
+                    style="float: left;"
+					onMouseOver="YesButton.style.backgroundColor = '#6799FF';"
+                    onMouseout="YesButton.style.backgroundColor = '#5175C9';"
+                >
+                    <a
+                        class="WebIQInvitationLinkButton"
+                        href="javascript:void(null);"
+                        Onfocus="YesButton.style.backgroundColor = '#6799FF';"
+                        OnBlur="YesButton.style.backgroundColor = '#5175C9';"
+                    >Yes</a>
+                </div>
+                <div ID="NoButton"
+                    class="WebIQInvitationButton"
+                    onClick="javascript:processUserResponse(1, 'reject'); return false;" 
+                    onKeypress="javascript:processUserResponse(1, 'reject'); return false;"
+                    style="float: right;"
+					onMouseOver="NoButton.style.backgroundColor = '#6799FF';"
+                    onMouseout="NoButton.style.backgroundColor = '#5175C9';"
+
+                >
+                    <a
+                        class="WebIQInvitationLinkButton"
+                        href="javascript:void(null);" 
+                        Onfocus="NoButton.style.backgroundColor = '#6799FF';"
+                        OnBlur="NoButton.style.backgroundColor = '#5175C9';"
+                    >No</a>
+                </div>
+            </div>
+	    </TD>
+    	</TR>
+	    <TR>
+    	<td width=100% align="left" valign="top">
+
+            <div class="WebIQInvitationLinks">
+                <div class="WebIQInvitationLink">
+                    <a
+                        class="WebIQInvitation"
+                        href="http://www.usabilitysciences.com/corp/privacy_policy.html"
+                        target="_blank"
+                    >Privacy Statement</a>
+                </div>
+                <div class="WebIQInvitationLink">
+                    <a
+                        class="WebIQInvitation"
+                        href="http://www.usabilitysciences.com/"
+                        target="_blank"
+                    >&copy; 2004 Usability Sciences Corporation</a>
+                </div>
+                <div class="WebIQInvitationLink">
+                    <a
+                        class="WebIQInvitation"
+                        href="javascript:void(window.open('http://www.webiqonline.com/support.asp?pid=windowsupdate', null, 'top=100, left=100, height=480, width=500, status=yes, toolbar=no, menubar=no, location=no'));"
+                        
+                    >Questions</a>
+                </div>
+            </div>
+            <div class="WebIQInvitationVendorStatement">
+ Usability Sciences is a survey vendor for Microsoft
+            </div>
+        </div>
+	    </TD>
+    	</TR>
+		</TABLE>
+        </TD>
+        </TR>
+        </TABLE>
+        <div id="divConfirmation">
+            <img
+                id="imgConfirmation"
+                height="1"
+                width="1"
+                src="http://webiqonline.com/webapps/webiq/server_confirm/blank.gif"
+                onError="updateServerAvailabilityFlag()"
+                style="display:none;"
+                alt=""
+            />
+        </div>
+    </body>
+</html>

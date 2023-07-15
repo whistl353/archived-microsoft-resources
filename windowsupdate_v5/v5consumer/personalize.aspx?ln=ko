@@ -1,0 +1,49 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=ks_c_5601-1987' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+ 
+<script language="JScript" type="text/javascript" src="shared/js/personalize.js"></script>
+<script language ="javascript">
+	var sLan = "아랍어@|중국어(간체)@|중국어(번체)@|중국어(홍콩)@|체코어@|덴마크어@|네덜란드어@|영어@|핀란드어@|프랑스어@|독일어@|그리스어@|히브리어@|헝가리어@|이탈리아어@|일본어@|한국어@|노르웨이어@|폴란드어@|포르투갈어(브라질)@|포르투갈어(포르투갈)@|러시아어@|스페인어@|스웨덴어@|터키어"
+	var sRecommended = "(권장)"
+	var sLN = "ko";
+</script>
+</head>
+<body onload="fnInitPersonalization(13, -1);" onclick="fnUpdatePersonalization();" onbeforeunload="fnUnloadPersonalization();" class="personalization">
+	<span class="sys-font-heading3 sys-rhp-color-title">
+		Windows Update 설정
+	</span><br>	
+	<br>
+	<hr style="color:#cccccc;height:3px">
+	<b>언어</b> <br /><br/>
+	Windows Update 웹 페이지는 사용자의 Windows 운영 체제와 같은 언어로 표시됩니다. Windows Update를 표시할 언어를 다른 언어로 변경할 수 있지만, 일부 페이지는 두 개 이상의 언어로 표시될 수 있습니다.
+		<p>
+		<b>중요:</b>  권장 언어 설정을 변경할 경우에는 <b>Internet Explorer에 해당 언어 팩을 설치해야 합니다</b>.
+	<br>
+	<br>
+	<div id="LanDiv"></div>
+	<br>
+	<hr style="color:#cccccc;height:3px">
+	<b>고급</b> <br />
+	<input type="checkbox" id="eBetaLink" class="checkbox"><label for="eBetaLink">베타 제품 및 관련 업데이트 표시</label><br>
+	Windows Update에서 가능한 경우 제품의 시험판 "베타" 버전을 제공할 수도 있습니다.
+	<br><br>
+	<div >참고: 베타 제품 사용에 따른 책임은 사용자에게 있습니다. 베타 제품은 테스트 및 평가용으로만 제공됩니다. 주 컴퓨터나 프로덕션 환경에는 베타 소프트웨어를 설치하지 마십시오.</div>
+	<br /> 
+	<hr style="color:#cccccc;height:3px">
+
+	<button id="eSaveSettings" onclick="fnSaveSettings();" disabled type="button">
+		변경 사항 지금 적용
+	</button>
+	<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+</body>

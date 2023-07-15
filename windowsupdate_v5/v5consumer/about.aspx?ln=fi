@@ -1,0 +1,448 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+<body onload="fnInit(5, -1);">
+	<span class="sys-font-heading3 sys-rhp-color-title">
+		Windows Update: Usein kysyttyjä kysymyksiä
+	</span><br>
+	<br>
+	
+		<div class="8pt">
+		
+			<li><A class='sys-link-normal' HREF='#usingWU'><b>Windows Update -sivuston käyttäminen</b></a></li>
+			<li><A class='sys-link-normal' HREF='#SupportVL'><b>Tuetut versiot ja kielet</b></a></li>
+			<li><A class='sys-link-normal' HREF='#TShooter'><b>Vianmääritys</b></a></li>
+			<li><A class='sys-link-normal' HREF='#NWAD'><b>Verkot ja lisätiedot</b></a></li>
+		
+		<p>
+			<A class="aboutHeader" name='usingWU' >Windows Update -sivuston käyttäminen</a>
+			
+			<p>
+				<b>Mikä on Windows Update?</b><br>
+				Windows Update on Microsoftin Web-sivusto, jossa on Windows-käyttöjärjestelmäohjelmistojen ja Windows-pohjaisten laitteiden päivityksiä. Päivitykset korjaavat tiedossa olevia ongelmia ja auttavat suojaamaan tietokoneen tietosuojauhkilta. 
+				<p>
+				Vihje:<bt>
+				<ul style='margin-left:40px'> 
+					<li>Jos otat Automaattiset päivitykset -toiminnon käyttöön, Windows Update pystyy lataamaan ensisijaiset päivitykset tietokoneeseen heti, kun ne on julkaistu. Voit päättää päivitysten asennustavan ja -ajan itse.</li>
+				</ul>
+			</p>
+		
+			<p>
+				<b>Miten palvelu toimii?</b><br>
+				Kun avaat Web-sivuston, Windows Update tutkii tietokoneen ja kertoo sinulle, mitkä päivitykset koskevat tietokoneesi ohjelmistoja ja laitteita. Valitset itse haluamasi päivitykset ja niiden asennustavan. 
+			</p>
+		
+			<p>
+				<b>Millaisia päivityksiä voin ladata?</b><br>
+					Microsoft julkaisee useita <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=22935' target='_blank' >erityyppisiä päivityksiä</a>, jotka korjaavat useita erilaisia ongelmia. Jotta sinun olisi mahdollisimman helppoa hankkia tärkeimmät päivitykset (tietokonetta ja tietoja suojaavat päivitykset), Windows Update käyttää seuraavia luokkia:
+				<ul style='margin-left:40px'> 
+				<li><b>Ensisijaiset päivitykset</b><br>
+					Ensisijaiset päivitykset ovat suojauspäivityksiä, Service Pack -päivityksiä ja päivityskokoelmia, jotka käyttäjän tulisi asentaa välittömästi niiden julkaisemisen jälkeen ennen muiden päivitysten asentamista.</li>
+				<li><b>Ohjelmistopäivitykset (valinnaisia)</b><br> 
+					Ohjelmistopäivitykset ovat Windows-ohjelmien (esimerkiksi Windows Media® Player- ja Windows Journal Viewer 1.5 -ohjelmien) päivityksiä, joiden asentaminen ei ole kiireellistä.</li>
+				<li><b>Laitteistopäivitykset (valinnaisia)</b><br>
+					Laitteistopäivitykset ovat ohjaimien ja muiden laitteiden (esimerkiksi näytönohjaimien, äänikorttien, skannereiden, tulostimien ja kameroiden) päivityksiä, joiden asentaminen ei ole kiireellistä.</li> 
+				</ul>
+			</p>
+		
+			<p>
+				<b>Miten mukautettu asennus ja pika-asennus eroavat toisistaan?</b><br>
+				<ul style='margin-left:40px'>
+					<li><b>Pika-asennus (suositus)</b> näyttää kaikki tietokoneen ensisijaiset päivitykset, jotta voit asentaa ne yhdellä hiiren napsautuksella. Pika-asennus on nopein ja helpoin tapa pitää tietokoneen päivitykset ajan tasalla.
+					<li><b>Mukautettu asennus</b> näyttää tietokoneen ensisijaiset ja valinnaiset päivitykset. Voit selata päivityksiä ja valita haluamasi päivitykset yksi kerrallaan.
+				</ul>
+			</p>
+		
+			<p>
+				<b>Onko minun asennettava valinnaiset päivitykset?</b><br>
+				Ei. Valinnaiset päivitykset korjaavat vähäisiä ongelmia tai lisäävät tietokoneeseen toimintoja, jotka eivät ole välttämättömiä. On tärkeämpää asentaa tietokoneeseen ensisijaiset päivitykset, jotta tietokoneen ohjelmistoissa on uusimmat suojauspäivitykset. 
+			</p>
+		
+			<p>
+				<b>Voinko ladata päivitykset automaattisesti?</b><br>
+				Kyllä voit, jos otat <b>Automaattiset päivitykset</b> -toiminnon käyttöön. Windows etsii uusimmat tietokonetta koskevat ensisijaiset päivitykset ja asentaa ne Automaattiset päivitykset -asetuksen mukaan. 
+			</p>
+		
+			<p>
+				<b>Tarkoittaako Automaattiset päivitykset -toiminto Windows Update -palvelua?</b><br>
+				Kyllä, mutta Automaattiset päivitykset  -toiminto lataa tietokoneeseen ainoastaan ensisijaiset päivitykset. Jos haluat ladata valinnaisia päivityksiä, sinun on joka tapauksessa käytettävä Windows Update -sivustoa.
+			</p>
+		
+			<p>
+				<b>Mikä Automaattiset päivitykset -toiminto on?</b><br>
+				Automaattiset päivitykset -toiminto on yhdessä Windows Update -sivuston kanssa toimiva palvelu, joka lataa tärkeät päivitykset ja suojauspäivitykset tietokoneeseen heti, kun ne on julkaistu. Kun otat  Automaattiset päivitykset -toiminnon käyttöön (suositus), Windows etsii tietokonetta koskevia ensisijaisia päivityksiä automaattisesti. Voit päättää itse, miten ja milloin päivitykset asennetaan. 
+			</p>
+		
+			<p>
+				<b>Miten saan lisätietoja päivityksestä ennen sen asentamista?</b><br>
+				Voit lukea päivityksen kuvauksen napsauttamalla sen nimeä. Voit tarkastaa järjestelmän vähimmäisvaatimukset ja tukitiedot napsauttamalla kuvauksessa olevaa <b>Tiedot</b>-linkkiä.
+			</p>
+		
+			<p>
+				<b>Pitääkö minun tehdä jotakin, kun tietokoneeseen asennetaan päivitys?</b><br>
+				Toisinaan. Joidenkin päivitysten asentaminen edellyttää käyttöoikeussopimuksen hyväksymistä, asennusprosessiin liittyvään kysymykseen vastaamista tai tietokoneen käynnistämistä uudelleen. 
+			</p>
+		
+			<p>
+				<b>Mitä tapahtuu, jos valitsen Piilota tämä päivitys -asetuksen?</b><br>
+				Windows Update ei enää näytä päivitystä sinulle tai pyydä sinua asentamaan sitä. Jos kuitenkin piilotat ensisijaisen päivityksen, saatat saada muistutuksen siitä, että sinulta puuttuu tietokoneen suojauksen kannalta erittäin tärkeä päivitys.
+			</p>
+		
+			<p>
+				<b>Jos piilotan päivityksen, miten saan sen myöhemmin näkyviin??</b><br>
+				Valitse Windows Update -sivustossa <b>Palauta piilotetut päivitykset</b> ja tarkasta ja asenna sitten haluamasi päivitykset. 
+			</p>
+		
+			<p>
+				<b>Miten usein Windows Update julkaisee uusia päivityksiä?</b><br>
+				Suojauspäivityksiä julkaistaan kerran kuukaudessa. Jos Microsoft kuitenkin saa tiedon suojausongelmasta (esimerkiksi tehokkaasti leviävästä Windows-viruksesta tai -madosta), Microsoft julkaisee ongelman korjaavan päivityksen mahdollisimman nopeasti. 
+				<p>
+				Muuntyyppiset päivitykset julkaistaan aina niiden valmistuttua. Automaattiset päivitykset -toiminto kannattaa ottaa käyttöön, sillä silloin tietokoneesi pystyy vastaanottamaan ensisijaiset päivitykset aina niiden tullessa saataville.
+				</p>
+			</p>
+		
+			<p>
+				<b>Miten lisään Windows Updaten luotettavien Web-sivustojen luetteloon?</b><br>
+				<ul style='margin-left:40px'> 
+					<li > Valitse Internet Explorerin <b>Työkalut</b>-valikosta <b>Internet-asetukset</b>.</li >
+					<li > Valitse <b>Suojaus</b>-välilehdestä <b>Luotettavat sivustot</b> ja valitse sitten <b>Sivustot</b>.</li >
+					<li > Kirjoita (tai kopioi ja liitä) <b>Lisää tämä Web-sivusto vyöhykkeeseen</b> -tekstiruutuun seuraava URL-osoite: https://windowsupdate.microsoft.com.</li >
+					<li > Valitse <b>Lisää</b> ja valitse sitten <b>OK</b>.</li >
+				</ul > 
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='SupportVL' >Tuetut versiot ja kielet</a>
+			<p>
+				<b>Mitä käyttöjärjestelmiä Windows Update tukee?</b><br>
+				Windows Update ja Automaattiset päivitykset -toiminto tukevat seuraavia Windowsin versioita:
+			</p>
+		
+			<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+				<colgroup>
+					<col style='WIDTH: 33%;padding-left:15px'>
+					<col style='WIDTH: 33%;text-align: center'>
+					<col style='WIDTH: 33%;text-align: center'>
+				</colgroup>
+				<tbody>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">Nykyiset ja jatkuvasti kehitettävät päivitykset</td>
+						<td class="FAQtd4">Windows Update -sivusto</td>
+						<td class="FAQtd3">Automaattiset päivitykset</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows Millennium Edition</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows 2000</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows XP</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows NT Server</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows Server 2003</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">Arkistoidut päivitykset<br/>
+			(uusia päivityksiä ei julkaista)</td>
+						<td class="FAQtd4">Windows Update -sivusto</td>
+						<td class="FAQtd3">Automaattiset päivitykset</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows 98</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows NT Workstation</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					
+				</tbody>
+			</table>
+			
+			<p>
+				<b>Millä selainversioilla voin käyttää Windows Update -sivustoa?</b><br>
+				Microsoft Internet Explorerin versiolla 5 ja uudemmilla versioilla. Sivusto toimii parhaiten <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24748' target='_blank' >Internet Explorerin versiolla 6</a>.
+			</p>
+		
+			<p>
+				<b>Mistä tiedän, mikä Internet Explorerin versio minulla on käytössä?</b><br>
+				Valitse Internet Explorerin <b>Ohje</b>-valikosta <b>Tietoja Internet Explorerista</b>.
+			</p>
+		
+			<p>
+				<b>Voinko käyttää Windows Update -sivustoa jollakin toisella kielellä? </b><br>
+				Kyllä, mutta päivitykset eivät enää ole samankielisiä kuin Web-sivuston linkit, asetukset ja ohjeet. Päivityksen otsikot ja tiedot näkyvät tietokoneen oletuskielellä.
+			</p>
+		
+			<p>
+				<b>Miten muutan kieliasetuksia?</b><br>
+				<ul style='margin-left:40px'> 
+					<li >Valitse Windows Update -sivustossa <b>Asetukset</b>.</li >
+					<li >Valitse kieli, jota haluat käyttää Windows Update -sivustossa, ja valitse sitten <b>Käytä</b>.</li >
+					<li >Kun saat pyynnön vahvistaa muutokset, tee jompikumpi seuraavista:</li >
+					<ul style='margin-left:40px'>
+						<li >Jos haluat muuttaa kieliasetukset välittömästi, valitse <b>OK</b>. <br >
+							(Sinun on tarkastettava ja valittava päivitykset uudelleen.)</li >
+						<li >Jos haluat ottaa uuden kielen käyttöön valittujen päivitysten asentamisen jälkeen, valitse <b>Peruuta</b>. <br>
+							(Uusi kieliasetus on käytössä, kun seuraavan kerran käytät Windows Update -sivustoa.)</li >
+					</ul >
+				</ul>
+			</p>
+		
+			<p>
+				<b>Miksi Windows Update suosittelee käyttööni jotakin tiettyä kieltä?</b><br>
+				Suositeltu kieli vastaa tietokoneen kielen oletusasetusta. Jos käytät suositeltua kieltä, voit tarkastella Web-sivustoa samalla kielellä kuin millä tietokonetta koskevat otsikot ja tiedot ovat. 
+			</p>
+		
+			<p>
+				<b>Onko mahdollista nähdä päivitykset useilla eri kielillä?</b><br>
+				Kyllä. Windows Update tunnistaa tietokoneeseen asennettujen ohjelmien kieliasetukset automaattisesti. Jos käytät useita eri kieliä, Windows Update näyttää kunkin ohjelman päivitykset sen mukaisella kielellä.
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='TShooter' >Vianmääritys</a>
+			<p>
+				<b>Mitä tapahtuu, jos peruutan päivityksen lataamisen tai katkaisen Internet-yhteyden, ennen kuin päivitys on latautunut kokonaan? </b><br>
+				Kun seuraavan kerran muodostat Internet-yhteyden, päivityksen lataaminen jatkuu siitä, mihin se jäi edellisellä kerralla.
+			</p>
+		
+			<p>
+				<b>Internet Explorer näyttää minulle virhesanoman. Miten muutan asetuksia, jotta selainohjelma toimii Windows Update -sivuston kanssa?</b><br>
+				Käytä suojauksen oletusasetuksia:				
+				<ul style='margin-left:40px'> 
+					<li>Valitse Internet Explorerin <b>Työkalut</b>-valikosta <b>Internet-asetukset</b>.</li>
+					<li>Valitse <b>Suojaus</b>-välilehdestä <b>Internet-vyöhyke</b> ja valitse sitten <b>Oletustaso</b>.</li>
+				</ul>
+				<p>Voit ehkäistä ongelmia ennalta myös lisäämällä Windows Update -sivuston luotettavien sivustojen luetteloon. (Ohjeita on kohdassa Windows Update -sivuston käyttäminen.) </p>
+			</p>
+		
+			<p>
+				<b>Näyttöön tulee virhesanomia ActiveX-komponenteista tai komentosarjoista, kun käytän Windows Update -sivustoa. Aiheuttaako tämä ongelmia?</b><br>
+				Ei. Windows Update käyttää ActiveX-komponentteja ja komentosarjoja tietokonetta koskevien päivitysten määrittämiseen. Windows Update -sivuston ActiveX-komponentit ovat turvallisuussyistä Microsoftin digitaalisesti allekirjoittamia. Luvattomat käyttäjät käyttävät kuitenkin toisinaan samoja tekniikoita tietokoneen vahingoittamiseen. Internet Explorer näyttää sinulle varoituksen, jotta voit päättää itse, luotatko kyseisiä komponentteja käyttäviin Web-sivustoihin.
+				<p>
+				Lisätietoja digitaalisista sertifikaateista, luotetuista Web-sivustoista ja suojausasetusten valitsemisesta on Internet Explorerin ohjeessa. (Jos et halua nähdä varoitussanomia, kun käytät Windows Update -sivustoa, voit muuttaa suojausasetuksia. Tämä ei kuitenkaan ole suositeltavaa, sillä suojaustason laskiessa tietokone on entistä alttiimpi viruksille ja muille tietosuojauhkille.) 
+				</p>
+			</p>
+		
+			<p>
+				<b>Miksi en voi tarkastella päivityksen tietoja, aikaisempia asennustietoja tai vianmääritysartikkeleita?</b><br>
+				Ponnahdusikkunat estävä ohjelmisto tai jokin asetus estää uusien selainikkunoiden avautumisen, kun napsautat Web-sivuston linkkejä. 
+				<p>
+				Voit muuttaa ponnahdusikkunoiden estämisasetuksia (vain Windows XP [Service Pack 2] -käyttöjärjestelmään asennettu Internet Explorer 6) seuraavasti:				
+				<ul style='margin-left:40px'> 
+					<li>Valitse Internet Explorerin <b>Työkalut</b>-valikosta <b>Ponnahdusikkunoiden esto</b> ja valitse sitten <b>Ponnahdusikkunoiden eston asetukset</b>.</li>
+					<li>Tee jompikumpi seuraavista:</li>
+					<ul style='margin-left:40px'>
+						<li>Jos haluat sallia ponnahdusikkunat ainoastaan silloin, kun käytät Windows Update -sivustoa, kirjoita (tai kopioi ja liitä) <b>Sallittavan Web-sivuston osoite</b> -kohtaan seuraava URL-osoite: https://windowsupdate.microsoft.com. Valitse sitten <b>Lisää</b>. </li>
+						<p>
+						<li>Jos haluat sallia uusien selainikkunoiden avautumisen suojattuja (https://) Web-sivustoja käytettäessä valitse <b>Suodattimen taso</b> -luettelosta <b>Pieni: Sallii turvallisten sivustojen ponnahdusikkunat</b>.</li>
+					</ul>
+				</ul>
+				<p>
+				Jos käytät jotakin muuta ponnahdusikkunat estävää ohjelmaa, ota selvää, voitko määrittää eri asetukset jonkin tietyn Web-sivuston linkeille. Jos tämä ei ole mahdollista, sinun on ehkä sallittava ponnahdusikkunat silloin, kun käytät Windows Update -sivustoa. 
+
+			</p>
+		
+			<p>
+				<b>Miten menettelen, jos päivityksen asentaminen ei onnistu ongelmitta?</b><br>
+				Windows Update -sivuston 
+		
+			<a  class="sys-link-normal" href="support.aspx?ln=fi" target="eContent">
+				Ohjeita ja tukitietoja -kohdassa
+		
+			</a>
+			 on lisätietoja esimerkiksi seuraavista:				
+				<ul style='margin-left:40px'> 
+					<li>
+		
+			<a  class="sys-link-normal" href="troubleshoot.aspx?ln=fi" target="eContent">
+				Windows Update Troubleshooter -vianmäärityssivusto
+		
+			</a>
+			</li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=25127' target='_blank' >Windows Update Support Center -tukisivusto</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=9581' target='_blank' >Windows Update -uutisryhmät</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21608' target='_blank' >Microsoft Online Assisted Support -tuki</a> (Windows Update -ongelmien tuki on maksuton)</li>
+				</ul>
+			</p>
+		
+			<p>
+				<b>Miksi en löydä päivitystä, kun olen palauttanut piilotetut päivitykset?</b><br>
+				Jokin toinen asentamasi päivitys on jo korjannut ongelman. Jos esimerkiksi asennat tietokoneeseen Service Pack -päivityksen tai päivityskokoelman, tietokone ei välttämättä enää tarvitse aiemmin piilotettua päivitystä. 
+			</p>
+		
+			<p>
+				<b>Miksi joitakin päivityksiä ei voi asentaa yhtäaikaa muiden päivityksien kanssa?</b><br>
+				Jotkin päivitykset (esimerkiksi Service Pack -päivitykset ja päivityskokoelmat) sisältävät useita päivityksiä tai korjaavat samoja ongelmia. 
+				<p>
+					Muuntyyppiset päivitykset edellyttävät, että käynnistät tietokoneen uudelleen, jotta ne tulevat voimaan. Sinun on asennettava nämä päivitykset erikseen. Voit aina palata Windows Update -sivustoon tarkastamaan, onko tietokoneeseen ladattavissa muita päivityksiä. 
+				<p>
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='NWAD' >Verkot ja lisätiedot</a>
+			<p>
+				<b>Entä jos minun on päivitettävä useita tietokoneita?</b><br>
+				Jos sinulla on koti- tai pienyritysverkko, sinun on päivitettävä jokainen tietokone erikseen. 
+				<p>
+					Jos olet verkonvalvoja, kohdassa 
+		
+			<a  class="sys-link-normal" href="administrators.aspx?ln=fi" target="eContent">
+				Palvelut järjestelmänvalvojille
+		
+			</a>
+			 on lisätietoja muista päivityspalveluista (esimerkiksi Windows Update Catalog- ja Windows Update Services -palveluista).
+				<p>
+			</p>
+		
+			<p>
+				<b>Mikä on Microsoft Baseline Security Analyzer (MBSA)?</b><br>
+				MBSA on työkalu, joka etsii verkkoyhteydessä olevista Windows-tietokoneista yleisiä suojausongelmia ja puuttuvia suojauspäivityksiä. Työkalussa on graafinen käyttöliittymä ja komentorivikäyttöliittymä. Työkalu pystyy tutkimaan järjestelmiä paikallisesti tai etäyhteyden kautta ja se pystyy luomaan jokaisesta tutkimastaan verkon tietokoneesta suojausraportin. Lisätietoja on <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27549' target='_blank' >Microsoft Baseline Security Analyzer</a> -yleiskatsauksessa. 
+			</p>
+		
+			<p>
+				<b>Mikä on Windows Update Services?</b><br>
+				Windows Update Services, joka tunnettiin aiemmin nimellä Software Update Services (SUS), on Windows Server 2003 -tuoteperheen päivitystenhallintakomponentti. Komponentti tutkii kaikkien verkon tietokoneiden suojausasetukset, laatii niistä raportin ja synkronoi päivitykset. Lisäksi komponentti auttaa vähentämään keskikokoisten ja suurten verkkojen päivittämiseen liittyviä riskejä ja kustannuksia. Lisätietoja on <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24462' target='_blank' >Windows Update Services</a> -palvelun Windows Server System -sivustossa. 
+			</p>
+		
+			<p>
+				<b>Millaisia päivityksiä Automaattiset päivitykset-, Windows Update- ja Windows Update Services -palveluilla voi ladata?</b><br>
+		
+			<br>
+			<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+				<colgroup>
+					<col style='WIDTH: 20%;padding-left:15px'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+				</colgroup>
+				<tbody>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">&nbsp;</td>
+						<td class="FAQtd4">Automaattiset päivitykset</td>
+						<td class="FAQtd4" colspan="2">
+							Windows Update -sivusto
+							<table class="sys-table-cell-bgcolor2 sys-toppane-color-border"cellpadding="0" cellpadding ="0" border="0">
+								<tr>
+									<td style='font-weight: bold;WIDTH: 50%;text-align: center'>
+										Pika-asennus
+									</td>
+									<td style='font-weight: bold;BORDER-left: 1px solid;WIDTH: 50%;text-align: center'>
+										Mukautettu asennus
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td class="FAQtd3">Windows Update Services*</td>
+					</tr>
+					<tr >
+						<td colspan="5"  class="FAQtd3"">Ensisijaiset päivitykset</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Tärkeät päivitykset</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Suojauspäivitykset</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Päivityskokoelmat</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Service Pack -päivitykset</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td colspan="5"  class="FAQtd3">Valinnaiset päivitykset</td>
+					</tr>
+					<tr >
+						<td class="FAQtd1">Ohjelmisto</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Laitteisto</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Beetaohjelmisto</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">Liittymisasetus</td>
+						<td  class="FAQtd2">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<div><br>    *Verkonvalvojat voivat valita jaettavaksi minkä tahansa päivityksen tai kaikki päivitykset.</div>
+
+			<p>
+				<b>Miten voin hankkia lisäpäivityksiä  tai päivityksiä, joita ei ole Windows Update -sivustossa?</b><br>
+				Käytä seuraavia Web-sivustoja:				
+				<ul style='margin-left:40px'> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21601' target='_blank' >Microsoft Download Center</a><br> 
+					Sivustosta voit ladata Microsoft-tuotteiden päivityksiä. Päivityksiä julkaistaan 30 kielellä. </li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=8973' target='_blank' >Windows Update Catalog</a><br>
+					Sivustosta voit etsiä palvelimien ja muiden Windows-käyttöjärjestelmiä käyttävien tietokoneiden päivityksiä.</li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24459' target='_blank' >Microsoft Office Online</a><br>
+					Sivustosta voit etsiä Microsoft Office System -järjestelmän (versioiden 97, 98 ja uudempien versioiden) päivityksiä. Päivityksiin kuuluu esimerkiksi asiakirjamalleja, ohjesisältöä ja ClipArt-kuvia. </li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27098' target='_blank' >Microsoft Premier Support</a><br>
+					Lue lisää Premier Support -palvelun eduista, joita ovat muun muassa lisäpäivitykset (esimerkiksi ennakkoon julkaistut ohjelmistot).</li> 
+				</ul>
+			</p>
+		
+		</p>
+		
+	</div>
+	<iframe name='eReporting' src='blank.aspx' noresize height='0' width='0' style='DISPLAY:none'>
+</body>
+</html> </IFRAME> </BODY></HTML>

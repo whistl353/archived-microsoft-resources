@@ -1,0 +1,45 @@
+
+<script language ="javascript">
+	var iSubPage = 8;	
+	var sDir = "ltr" ;
+	if(iSubPage == parent.conSplashMandatoryUpdates){
+		var sMandatoryUpdateIndexes = "";
+	}
+	
+</script>
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+   	</head>
+	<body onload="if('function' == typeof(fnInitSplashPage)) fnInitSplashPage(1, 8);">
+ 
+		<span class="sys-font-heading3 sys-rhp-color-title">Windows Update</span><br /><br />
+		Sie müssen einige Komponenten von Windows Update aktualisieren, um die neueste Version von Windows Update verwenden zu können. Diese Version bietet Ihnen die folgenden Serviceverbesserungen:<br /><br />
+		<ul> 
+			<li><b>Schnellinstallation und benutzerdefinierte Installation:</b>&nbsp;&nbsp;Entscheiden Sie sich nur für die neuesten wichtigen Updates, oder wählen Sie aus allen verfügbaren Updates aus.</li>
+			<li><b>Intelligentere Downloads:</b>&nbsp;&nbsp;Wenn der Download unterbrochen wurde, wird der Vorgang beim nächsten Download des Updates an der Stelle wieder aufgenommen, an der er abgebrochen wurde.</li>
+			<li><b>Kleinere Downloads:</b>&nbsp;&nbsp;Es werden nur die Dateien gedownloadet, die Ihr Computer benötigt. Dadurch werden die Downloadzeit und die Verbindungskosten verringert.</li>
+			<li><b>Eine Version:</b>&nbsp;&nbsp;Es werden nur die neuesten Updates angeboten.</li>
+			<li><b>Bessere Übersichtlichkeit:</b>&nbsp;&nbsp;Sie können jetzt Updates ausblenden, die Sie nicht benötigen.</li>
+			<li><b>Update-Nachrichten:</b>&nbsp;&nbsp;Im Bereich "Nachrichten von Microsoft" werden auf der Startseite von Windows Update Tipps und neueste Informationen angezeigt.</li>
+		</ul>
+		<br />
+		<img src="shared/images/icon.plus.gif" id="imgDetailsHeader" onclick="fnHeaderClicked()" style="height:11px; width:11px;cursor:hand;" /><span style="width:5px;"></span><span id="eHeader" style="font-weight:bold;cursor:hand;color:#C7D8FA;" onclick="fnHeaderClicked();">Weitere Informationen</span><br />
+		<div id="eMandatoryUpdates" style="display:none;Left:16px;Position:relative;border-width:1px;border-style:solid;border-color:#C7D8FA;">
+		</div><br /><br />
+		<button id="eDownload" onclick="parent.fnShowResultlist();">Jetzt downloaden und installieren</button> 
+	
+<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+	</body>
+</html>

@@ -1,0 +1,647 @@
+/* hcp modifications */
+.sys-font-heading3 {
+	font-family: Franklin Gothic Medium !important;
+	font-size: 175%;
+} 
+.sys-font-subheading {
+	font-family : Verdana;
+	font-weight : bold;
+	font-size : 120%;
+	margin-bottom:0.2em;
+} 
+
+
+/* hcp modifications */
+/* GLOBAL */
+body {
+	color: black;
+	background-color: white;
+	overflow: auto;
+	margin: 10px 8px 10px 16px;
+}
+
+body, td, button, input, select {
+	font: messagebox;
+	
+}
+
+table {
+	table-layout: fixed; 
+}
+
+a img {
+	border-width: 0px; 
+}
+
+ul, ol {
+	margin: 5px 0px 5px 16px; /*rtl*/ 
+}
+
+ol li {
+	margin: 0px 0px 2px 8px; /*rtl*/ 
+}
+
+A {
+	COLOR: #003399;
+	text-decoration: none;
+}
+A:link {
+	COLOR: #003399;
+}
+A:hover {
+	COLOR: #ff6600; 
+	text-decoration: underline;
+}
+A:active {
+	COLOR: #800080;
+}
+
+
+/*
+removed the style for button for problem in IE 5 
+added the style if it is not IE5 in userinterface.cs
+Bug:890187 
+*/
+
+input.checkbox {
+	margin: 0px 0px -2px 0px;
+}
+
+img.icon32 {
+	width: 32px;
+	height: 32px;
+	margin: 0px 6px -12px 0px; /*rtl*/
+}
+
+img.arrow {
+	width: 30px;
+	height: 25px;
+}
+
+div.spacer {
+	overflow: hidden;
+}
+
+/* GLOBAL */
+/* errorinformation.aspx */
+
+div.error {
+	background-color: #F7F3E7;
+	margin: 10px 0px 0px 0px;
+	padding: 6px 12px 16px 12px;	
+}
+
+div.error div {
+	border-top: 1px solid #9C9C9C;
+	text-align: right;
+	padding: 6px 0px 0px 0px;
+	margin: 6px 0px 0px 0px;
+}
+
+/* errorinformation.aspx */
+/* resultslist.aspx */
+
+body.results {
+	overflow: hidden;
+}
+
+body.results table {
+	width: 100%;
+	height: 100%;
+}
+
+td.resultsTop {
+	height: 1%;
+	vertical-align: top;
+	padding: 0px;
+}
+
+
+
+div.resultsPageInfo div.subTitle {
+	font-weight: bold;
+	margin: 30px 0px 5px 0px;
+}
+
+div.resultsProviderLogo {
+	margin: 0px 0px 2px 0px;
+	float: right; /*rtl*/
+	text-align: right; /*rtl*/
+}
+
+tr.resultsBasketBar td {
+	vertical-align: middle;
+	height: 1%;
+	padding:  5px 10px 0px 0px;
+}
+
+div#eUpdatesContainer {
+	height: 93%;
+	padding: 10px 10px 10px 10px;
+	font: 100% verdana; 
+	background-Color:f4f4f2;
+}
+
+span#ePageDescCanceledEULA {
+	display: none;
+}
+
+.SelectAllCheckbox {
+	filter : Alpha(opacity = 40);
+}
+.SelectAllSpan {
+	margin-bottom:50px;
+	margin-top:50px;
+	padding:50px:0px:50px:0px;
+}
+
+.spanDetails {
+	display:none;
+	margin-left:35px;
+}
+.spanDetailsExpanded {
+	margin-left:35px;
+}
+.spanDetailsHidden {
+	display:none;
+	margin-left:35px;
+	color:Gray;
+}
+.spanDetailsExpandedHidden {
+	margin-left:35px;
+	color:Gray;
+	font-style:italic;
+}
+.spanDetailsBasket {
+	display:none;
+	margin-left:20px;
+}
+.spanDetailsExpandedBasket {
+	margin-left:20px;
+}
+
+.divExclusiveSection {
+	background-Color:#e9e9e6;
+	margin:-10px -10px 10px -10px;
+	padding-left:10px;
+}
+
+.tblExclusiveSection {
+	background-Color:#F7F5E5;
+	border :1px solid #E5D665;
+}
+
+div.update {
+	margin: 4px 8px 0px 0px;
+	padding: 0px 0px 4px 0px;
+}
+
+div.lastupdate {
+	margin: 4px 8px 0px 0px;
+	padding: 0px 0px 4px 0px;
+}
+
+div.updateTitle {
+	font-weight: normal;
+	margin: 0px 0px 4px 0px;
+	
+}
+
+div.group {  /*check*/
+	width: 100%;
+	padding: 4px 10px 4px 10px;
+}
+
+div.buttons { /*check*/
+	padding: 2px 0px 0px 0px;
+	text-align: right; /*rtl*/
+}
+
+div.buttons button {  /*check*/
+	margin: 0px 6px 0px 6px;
+}
+
+div.buttons span {  /*check*/
+	color: black !important;
+	font-weight: bold;
+	margin: 15px 4px 0px 4px;
+}
+
+
+/* Gradients */
+.gradDkBlue {
+	font:bold 100% verdana; 
+	color:#FFFFFF;
+	background-color: #004AB5;
+	height:20px;
+	padding:6px 20px;
+	filter: "progid:DXImageTransform.Microsoft.gradient(enabled='true',gradientType=1,startColorStr=#004AB5,endColorStr=#FFFFFF)";
+}
+.gradDkBlueShowArticle {
+	font:bold 100% verdana; 
+	color:#FFFFFF;
+	background-color: #004AB5;
+	height:39px;
+	padding:0px 0px;
+	filter: "progid:DXImageTransform.Microsoft.gradient(enabled='true',gradientType=1,startColorStr=#004AB5,endColorStr=#FFFFFF)";
+}
+.gradDkBlueShowArticleReverse {
+	font:bold 100% verdana; 
+	color:#FFFFFF;
+	background-color: #004AB5;
+	height:39px;
+	padding:0px 0px;
+	filter: "progid:DXImageTransform.Microsoft.gradient(enabled='true',gradientType=1,startColorStr=#FFFFFF,endColorStr=#004AB5)";
+}
+.gradLtBlue {
+	background-color: #94B5EF;
+	filter: "progid:DXImageTransform.Microsoft.gradient(enabled='true',gradientType=0,startColorStr=#0642C4,endColorStr=#3E7AFF)";
+}
+.gradYellow {
+	margin-top:5px;
+	color: #000000;
+	background-color: #FFFFCE;
+	height: 1px;
+	filter: "progid:DXImageTransform.Microsoft.gradient(enabled='true',gradientType=1,startColorStr=#FFFFCE,endColorStr=#FFFFFF)";
+}
+.gradNone {
+	margin-top:5px;
+	margin-bottom:3px;
+	color: #000000;
+	background-color: #FFFFFF;
+	height: 1px;
+	filter: "progid:DXImageTransform.Microsoft.gradient(enabled='true',gradientType=1,startColorStr=#FFFFFF,endColorStr=#FFFFFF)";
+}
+.gradOrg {
+	background-color: #FF6B39;
+	height:1px;
+	font-size:0px;		
+	filter: "progid:DXImageTransform.Microsoft.gradient(enabled='true',gradientType=1,startColorStr=#FF6B39,endColorStr=#FFFFFF)";
+}
+.gradGrayBG {
+	margin-top:5px;
+	font: 100% verdana; 
+	color: #000000;
+	background-color: #CECECE;
+	height: 1px;
+	filter: "progid:DXImageTransform.Microsoft.gradient(enabled='true',gradientType=1,startColorStr=#CECECE,endColorStr=#FFFFFF)";
+}
+.gradGray {
+	background-color: #CECECE;
+	height:1px;
+	font-size:0px;
+	filter: "progid:DXImageTransform.Microsoft.gradient(enabled='true',gradientType=1,startColorStr=#CECECE,endColorStr=#FFFFFF)";
+}
+.gradMedBlue {
+	background-color: #8CADE7;
+	height:1px;
+	font-size:0px;	
+	filter: "progid:DXImageTransform.Microsoft.gradient(enabled='true',gradientType=1,startColorStr=#8CADE7,endColorStr=#FFFFFF)";
+}
+.solidDkBlue {		
+	background-color: #004AB5;
+	height:3px;
+	font-size:0px;
+}			
+.solidLtBlue {		
+	background-color: #94B5EF;
+	height:3px;
+	font-size:0px;
+}
+/* Gradients */
+
+
+/* resultslist.aspx */
+/* personalize.aspx */
+div.OptionText {
+	margin-left :20px;
+}
+
+body.personalization input.checkbox {
+	margin: 0px 3px -2px -4px; /*rtl*/
+}
+
+body.personalization button {
+	float: right; /*rtl*/
+}
+
+/* personalize.aspx */
+/* history.asp */
+body.history {
+	margin: 10px 16px 0px 16px;
+	/*overflow: hidden;*/
+}
+
+body.history table.tbHistory td {
+	padding: 0px;
+	vertical-align: top;
+}
+
+body.history td#eSortTableHeaderContainer {
+	/*height: 0px;*/
+	/*vertical-align: bottom !important;*/
+}
+
+body.history td#eSortTableHeaderContainer table {
+	/*position: absolute;*/
+
+ }
+
+body.history td#eSortTableHeaderContainer table td a {
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	padding: .5em;
+	/*border-width: 1px;
+	border-style: solid;*/ /* already specified in history.aspx*/
+}
+
+body.history td#eSortTableHeaderContainer table td a img {
+	vertical-align: middle;
+	width: 8px;
+	height: 7px;
+	visibility: hidden;
+	margin: 0px 15px 0px 15px;
+	
+}
+
+body.history td#eSortTableContainer {
+	padding: 0px 0px 10px 0px;
+	height: 100%;
+	/*overflow: auto;*/
+}
+
+body.history td#eSortTableContainer table {
+	border-width: 0px 1px 1px 0px;
+	border-style: none solid solid none;
+}
+
+body.history td#eSortTableContainer td {
+	padding: .75em !important;
+	border-width: 0px 0px 0px 1px;
+	border-style: none none none solid;
+}
+
+.SpanPadding {
+	padding-right :10px ;
+
+}
+
+.SpanNoPadding {
+	padding-right :0px;
+}
+
+tbody.SortinginProcess tr td a {
+	cursor :wait ; 
+}
+
+tbody.SortingDone tr td a {
+	cursor :auto ; 
+}
+/* history.aspx */
+/* about.aspx */
+
+.aboutHeader {
+	color: black;
+	font-weight: bold;
+	font-size: 125%;
+}
+
+/* about.aspx */
+.progreessbar {
+	margin: 1px;
+	overflow: hidden;
+	width: 10px;
+	height: 11px;
+	background-color: #33ff33;
+}
+.progreessbarlight {
+	margin: 1px;
+	overflow: hidden;
+	width: 10px;
+	height: 11px;
+	background-color: #66ff66;
+}
+.progreessbarlightest {
+	margin: 1px;
+	overflow: hidden;
+	width: 10px;
+	height: 11px;
+	background-color: #99ff99;
+}
+.progressdiv {
+	border: 1px solid gray;
+	width: 300px;
+	height: 15px;
+	background-color: white;
+	overflow: hidden;
+}
+table#FAQTable td {
+	padding :5px 10px 5px 10px;
+}
+.FAQtd1 {
+	 BORDER-RIGHT: 1px solid;
+	 BORDER-TOP: 1px solid;
+}
+.FAQtd2 {
+	BORDER-TOP: 1px solid;
+}
+.FAQtd3 {
+	font-weight: bold;
+	BORDER-TOP: 1px solid;
+}
+.FAQtd4 {
+	font-weight: bold;
+	BORDER-RIGHT: 1px solid;
+	BORDER-TOP: 1px solid;
+}
+.FAQtd1RTL {
+	 BORDER-LEFT: 1px solid;
+	 BORDER-TOP: 1px solid;
+}
+.FAQtd4RTL {
+	font-weight: bold;
+	BORDER-LEFT: 1px solid;
+	BORDER-TOP: 1px solid;
+}
+
+/* Beginning Vista pages */
+
+.VistaFont {
+	font-family: Segoe UI;
+}
+.VistaHeading {
+	font-family: Segoe Light;
+	font-size:22.5px;
+	color:#003c91;	
+}
+A.vistaNamedA {
+	color: Black; 
+	font-weight:bold;
+}
+A.vistaNamedA:hover {
+	color: Black;
+	text-decoration:none;
+}
+#OptInNextButton
+{
+    width:87px;
+}
+#OptInOptionsCancelButton
+{
+    width:87px;
+}
+#OptInOptions
+{
+    width:470px;
+}
+#OptInOptionsActions
+{
+    text-align:right;
+    
+}
+#OptInOptionsActionsTable
+{
+    margin:10px 20px 5px 0px;
+    width:180px;
+}
+#OptInOptionsHeader
+{
+    padding-bottom:32px;
+}
+#OptInOptionsShieldContainer
+{
+    vertical-align:top;
+    width:40px;
+}
+#OptInChoiceRecommendedContainer,
+#OptInOptionChoiceRecommendedHeading
+{
+    padding-top:10px;
+}
+.OptInChoiceContainer
+{
+    width:30px;
+    vertical-align:top;
+}
+.OptInChoiceDescription
+{
+    padding-bottom:20px;
+}
+.VistaSubHeading
+{
+    font-weight:bold;
+}
+/* Ending Vista pages */
+
+
+
+/* Beginning MU Pop */
+
+/* Get Started with MU surrounding elements */
+#MUGetStartedOuter
+{
+	position: relative;
+	height: 44px;
+	width: expression(WelcomeBannerTable.offsetWidth > 485 ? "450px" : (WelcomeBannerTable.offsetWidth - 35) + "px");
+	margin-bottom: 10px;
+}
+/* Get Started with MU text containing element */
+#MUGetStartedInner
+{
+	position: relative;
+	table-layout: auto;
+	width: 100%;
+	margin-top: expression(44 - MUGetStartedInner.offsetHeight > 0 ? (44 - MUGetStartedInner.offsetHeight)/2 + "px" : "0px");
+}
+/* Get Started with MU text */
+#MUGetStartedNew
+{ 
+	font-size: 20px;
+	color: Red;
+	padding: 0px 10px 0px 10px;
+}
+#MUGetStartedMessage
+{ 
+	font-size: 20px;
+	font-style: italic;
+	color: #4969b4;
+	padding: 0px 10px 0px 0px;
+	width: 100%;
+}
+#MUGetStartedButtonContainer
+{
+	padding: 0px 5px 0px 0px;
+}
+#MUGetStartedButtonTextContainer
+{
+	padding: 0px 10px 0px 0px;
+}
+#MUGetStartedButtonTextContainer a
+{
+	color: #6480c1;
+}
+#MUGetStartedButtonText
+{
+	font-size: 14px;
+	font-weight: bold;
+	color: #6480c1;
+}
+/* Get Started with MU gradient parts */
+#MUGetStartedGradientPart1Top,
+#MUGetStartedGradientPart1Middle,
+#MUGetStartedGradientPart1Bottom
+{
+	position: absolute;
+	left: 0px;
+}
+#MUGetStartedGradientPart2Top,
+#MUGetStartedGradientPart2Middle,
+#MUGetStartedGradientPart2Bottom
+{
+	position: absolute;
+	right: 0px;
+}
+#MUGetStartedGradientPart1Top,
+#MUGetStartedGradientPart2Top
+{
+	top: 0px;
+	z-index: -10;
+}
+#MUGetStartedGradientPart1Bottom,
+#MUGetStartedGradientPart2Bottom
+{
+	bottom: 0px;
+	z-index: -10;
+}
+#MUGetStartedGradientPart1Middle,
+#MUGetStartedGradientPart2Middle
+{
+	top: 0px;
+	height: 100%;
+	z-index: -20;
+}
+#imgMUGetStartedGradientPart1Middle
+{
+	height:100%;
+	width: 148px;
+}
+#imgMUGetStartedGradientPart2Middle
+{
+	height:100%;
+	width: 150px;
+}
+#MUGetStartedGradientCenter
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: -30;
+}
+#imgMUGetStartedGradientCenter
+{
+	width:99%;
+	height:expression(MUGetStartedInner.offsetHeight > 44 ? MUGetStartedInner.offsetHeight + "px" : 44 + "px");
+}
+/* Ending MU Pop */

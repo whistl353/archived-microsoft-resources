@@ -1,0 +1,449 @@
+<html dir='rtl'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1255' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update </title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/rtl.css' />
+
+<body onload="fnInit(5, -1);">
+	<span class="sys-font-heading3 sys-rhp-color-title">
+		Windows Update: שאלות נפוצות
+	</span><br>
+	<br>
+	
+		<div class="8pt">
+		
+			<li><A class='sys-link-normal' HREF='#usingWU'><b>שימוש ב- Windows Update</b></a></li>
+			<li><A class='sys-link-normal' HREF='#SupportVL'><b>שפות וגירסאות נתמכות</b></a></li>
+			<li><A class='sys-link-normal' HREF='#TShooter'><b>פתרון בעיות</b></a></li>
+			<li><A class='sys-link-normal' HREF='#NWAD'><b>עבודה ברשת ומידע מתקדם</b></a></li>
+		
+		<p>
+			<A class="aboutHeader" name='usingWU' >שימוש ב- Windows Update</a>
+			
+			<p>
+				<b>מהו Windows Update?</b><br>
+				אתר אינטרנט של Microsoft המספק עדכונים לתוכנת מערכת הפעלה Windows ולחומרה מבוססת Windows. העדכונים מטפלים בבעיות מוכרות ומסייעים בהגנה מפני איומי אבטחה מוכרים. 
+				<p>
+				עצה:<bt>
+				<ul style='margin-left:40px'> 
+					<li>אם תפעיל את העדכונים האוטומטיים, Windows Update יוכל לשלוח למחשב שלך עדכונים בעדיפות גבוהה מיד כשהם זמינים. באפשרותך להחליט מתי וכיצד יותקנו עדכונים.</li>
+				</ul>
+			</p>
+		
+			<p>
+				<b>כיצד פועל Windows Update?</b><br>
+				בזמן הביקור באתר האינטרנט, Windows Update סורק את המחשב שלך ומציג את העדכונים שמתאימים לתוכנות ולחומרה שלך. אתה בוחר את העדכונים שברצונך להתקין ואת אופן התקנתם. 
+			</p>
+		
+			<p>
+				<b>אילו סוגי עדכונים באפשרותי לקבל?</b><br>
+					Microsoft מפרסמת <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=22935' target='_blank' >סוגי עדכונים</a> רבים המטפלים בטווח נושאים רחב. כדי להקל עליך לקבל את העדכונים החשובים ביותר -- עדכונים המסייעים בהגנה על המחשב והמידע שלך -- ב- Windows Update נעשה שימוש בקטגוריות הבאות:
+				<ul style='margin-left:40px'> 
+				<li><b>עדיפות גבוהה</b><br>
+					עדכונים קריטיים, עדכוני אבטחה, ערכות שירות ואוספי עדכונים שיש להתקין ברגע שהם זמינים ולפני התקנת כל עדכון אחר.</li>
+				<li><b>תוכנה (אופציונלי)</b><br> 
+					תיקונים לא קריטיים עבור תוכניות Windows, כגון Windows Media® Player ו- Windows Journal Viewer 1.5.</li>
+				<li><b>חומרה (אופציונלי)</b><br>
+					תיקונים לא קריטיים עבור מנהלי התקנים והתקני חומרה אחרים, כגון כרטיסי מסך, כרטיסי קול, סורקים, מדפסות ומצלמות.</li> 
+				</ul>
+			</p>
+		
+			<p>
+				<b>מה ההבדל בין התקנה מהירה להתקנה מותאמת אישית?</b><br>
+				<ul style='margin-left:40px'>
+					<li><b>התקנה מהירה (מומלץ)</b> מציגה את כל העדכונים בעדיפות גבוהה עבור המחשב, כדי שתוכל להתקינם בלחיצה אחת. זו הדרך המהירה והקלה ביותר לשמור על המחשב שלך במצב עדכני.
+					<li><b>התקנה מותאמת אישית</b> מציגה עדכונים בעדיפות גבוהה ואופציונליים עבור המחשב שלך. אתה סוקר ובוחר את העדכונים שברצונך להתקין, בזה אחר זה.
+				</ul>
+			</p>
+		
+			<p>
+				<b>האם עליי להתקין עדכונים אופציונליים?</b><br>
+				לא. עדכונים אופציונליים מטפלים בבעיות משניות במחשב שלך או מוסיפים לו תפקודיות שאינה קריטית. חשוב יותר להתקין עדכונים בעדיפות גבוהה, על מנת שהמחשב שלך יקבל את התוכנות הקריטיות והקשורות לאבטחה העדכניות ביותר. 
+			</p>
+		
+			<p>
+				<b>האם באפשרותי לקבל עדכונים אוטומטית?</b><br>
+				כן, אם תפעיל את <b>עדכונים אוטומטיים</b>. מערכת Windows תחפש את העדכונים בעדיפות גבוהה העדכניים ביותר עבור המחשב שלך ותתקין אותם בהתאם להגדרות העדכונים האוטומטיים. 
+			</p>
+		
+			<p>
+				<b>האם עדכונים אוטומטיים זהים ל- Windows Update?</b><br>
+				כן, אך עדכונים אוטומטיים מספקים רק עדכונים בעדיפות גבוהה. כדי לקבל עדכונים אופציונליים, עדיין יהיה עליך לבקר באתר האינטרנט של Windows Update.
+			</p>
+		
+			<p>
+				<b>מהם עדכונים אוטומטיים?</b><br>
+				תכונה שפועלת עם Windows Update כדי לספק עדכונים קריטיים והקשורים לאבטחה, ברגע שהם זמינים. כאשר שירות עדכונים אוטומטיים מופעל (מומלץ), מערכת Windows מחפשת אוטומטית עדכונים בעדיפות גבוהה עבור המחשב שלך. אתה זה שמחליט כיצד ומתי יותקנו עדכונים. 
+			</p>
+		
+			<p>
+				<b>כיצד אוכל לקבל מידע נוסף אודות עדכון לפני התקנתו?</b><br>
+				לחץ על השם של כל עדכון כדי להציג את תיאורו. כדי להציג דרישות מערכת ומידע תמיכה, לחץ על הקישור <b>פרטים</b> שמוצג בכל תיאור.
+			</p>
+		
+			<p>
+				<b>האם עליי לעשות משהו כדי להתקין עדכון?</b><br>
+				לפעמים. עדכונים מסוימים דורשים ממך לקבל הסכם רשיון למשתמש קצה (EULA), לענות על שאלה אודות תהליך ההתקנה או להפעיל מחדש את המחשב, לפני שתוכל להתקינם. 
+			</p>
+		
+			<p>
+				<b>מה קורה אם אני בוחר "הסתר עדכון זה"?</b><br>
+				יותר לא תתבקש על-ידי Windows Update לסקור את העדכון או להתקין אותו. עם זאת, אם תסתיר עדכון בעדיפות גבוהה, ייתכן שתקבל תזכורת שחסר לך עדכון שקריטי לאבטחת המחשב שלך.
+			</p>
+		
+			<p>
+				<b>אם אני מסתיר עדכון, כיצד אוכל לקבל אותו שוב במועד מאוחר יותר?</b><br>
+				באתר האינטרנט של Windows Update, לחץ על <b>שחזר עדכונים מוסתרים</b> ולאחר מכן סקור והתקן את העדכונים הרצויים. 
+			</p>
+		
+			<p>
+				<b>באיזו תכיפות Windows Update מפרסם עדכונים חדשים?</b><br>
+				עדכונים הקשורים לאבטחה מפורסמים פעם בחודש. עם זאת, אם ישנם סיכוני אבטחה, כגון התפשטות וירוס או תולעת המשפיעים על מחשבים מבוססי Windows, חברת Microsoft תפרסם עדכון מתאים בהקדם האפשרי. 
+				<p>
+				סוגי עדכונים אחרים מפורסמים כאשר הם מוכנים. כדאי להפעיל עדכונים אוטומטיים כדי שהמחשב שלך יוכל לקבל עדכונים בעדיפות גבוהה מיד כשהם זמינים.
+				</p>
+			</p>
+		
+			<p>
+				<b>כיצד אני מוסיף את Windows Update לרשימת אתרי האינטרנט המהימנים שלי?</b><br>
+				<ul style='margin-left:40px'> 
+					<li > בתפריט <b>כלים</b> ב- Internet Explorer, לחץ על <b>אפשרויות אינטרנט</b>.</li >
+					<li > בכרטיסיה <b>אבטחה</b>, לחץ על <b>אתרים מהימנים</b> ולאחר מכן לחץ על <b>אתרים</b>.</li >
+					<li > תחת <b>הוסף אתר אינטרנט זה לאזור</b>, הקלד (או העתק והדבק) כתובת URL זו: https://windowsupdate.microsoft.com.</li >
+					<li > לחץ על <b>הוסף</b> ולאחר מכן לחץ על <b>אישור</b>.</li >
+				</ul > 
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='SupportVL' >שפות וגירסאות נתמכות</a>
+			<p>
+				<b>באילו מערכות הפעלה תומך Windows Update?</b><br>
+				Windows Update ועדכונים אוטומטיים תומכים בגירסאות Windows הבאות:
+			</p>
+		
+			<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+				<colgroup>
+					<col style='WIDTH: 33%;padding-left:15px'>
+					<col style='WIDTH: 33%;text-align: center'>
+					<col style='WIDTH: 33%;text-align: center'>
+				</colgroup>
+				<tbody>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">עדכונים נוכחיים ושוטפים</td>
+						<td class="FAQtd4">אתר האינטרנט Windows Update</td>
+						<td class="FAQtd3">עדכונים אוטומטיים</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows Millennium Edition</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows 2000</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows XP</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows NT Server</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows Server 2003</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">עדכונים המאוחסנים בארכיון<br/>
+			(לא יפורסמו עדכונים חדשים)</td>
+						<td class="FAQtd4">אתר האינטרנט Windows Update</td>
+						<td class="FAQtd3">עדכונים אוטומטיים</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows 98</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows NT Workstation</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					
+				</tbody>
+			</table>
+			
+			<p>
+				<b>באיזו גירסת דפדפן באפשרותי להשתמש כדי לגשת ל- Windows Update?</b><br>
+				Microsoft Internet Explorer 5 ואילך. כדי להציג את האתר בצורה המיטבית, השתמש ב- <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24748' target='_blank' >Internet Explorer 6</a>.
+			</p>
+		
+			<p>
+				<b>כיצד אוכל לדעת מהי גירסת Internet Explorer שברשותי?</b><br>
+				ב- Internet Explorer בתפריט <b>עזרה</b>, לחץ על <b>אודות Internet Explorer</b>.
+			</p>
+		
+			<p>
+				<b>האם ניתן להציג את אתר האינטרנט Windows Update בשפה אחרת? </b><br>
+				כן, אך העדכונים לא יופיעו עוד בשפה שבה אתה משתמש כדי להציג קישורים, אפשרויות והוראות באתר האינטרנט. כותרות ופרטים של עדכונים מוצגים בשפת ברירת המחדל של המחשב שלך.
+			</p>
+		
+			<p>
+				<b>כיצד משנים את הגדרות השפה?</b><br>
+				<ul style='margin-left:40px'> 
+					<li >באתר האינטרנט של Windows Update, לחץ על <b>הגדרות</b>.</li >
+					<li >בחר את השפה שבה ברצונך להציג את Windows Update ולאחר מכן לחץ על <b>החל שינויים</b>.</li >
+					<li >כשתתבקש לאשר את השינוי, בצע אחת מהאפשרויות הבאות:</li >
+					<ul style='margin-left:40px'>
+						<li >כדי לשנות מיד את הגדרות השפה, לחץ על <b>אישור</b>. <br >
+							(יהיה עליך לסקור ולבחור עדכונים שוב).</li >
+						<li >כדי להשתמש בשפה החדשה לאחר התקנת עדכונים שבחרת, לחץ על <b>ביטול</b>. <br>
+							(בביקורך הבא ב- Windows Update, הגדרת השפה החדשה תיכנס לתוקף).</li >
+					</ul >
+				</ul>
+			</p>
+		
+			<p>
+				<b>מדוע Windows Update ממליץ על שפה לשימושי?</b><br>
+				שפה זו מתאימה לשפת ברירת המחדל של המחשב שלך. אם תשתמש בה, תוכל להציג את אתר האינטרנט בשפה זהה לשפת הכותרות והפרטים של כל עדכון שמתאים למחשב שלך. 
+			</p>
+		
+			<p>
+				<b>האם באפשרותי לקבל עדכונים במספר שפות?</b><br>
+				כן. Windows Update מזהה אוטומטית הגדרות שפה של כל תוכנית במחשב. אם אתה משתמש במספר שפות, יוצעו לך עדכונים עבור כל תוכנית בשפה המתאימה.
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='TShooter' >פתרון בעיות</a>
+			<p>
+				<b>מה קורה אם אני מבטל את תהליך ההורדה או מתנתק מהאינטרנט, לפני הורדה מלאה של עדכון? </b><br>
+				בהתחברות הבאה לאינטרנט, הורדת העדכון תתחדש מהנקודה שבה הופסקה.
+			</p>
+		
+			<p>
+				<b>אני מקבל שגיאת Internet Explorer -- כיצד עליי לשנות את ההגדרות כדי שאוכל לעבוד עם Windows Update?</b><br>
+				השתמש בהגדרות ברירת המחדל של האבטחה:				
+				<ul style='margin-left:40px'> 
+					<li>בתפריט <b>כלים</b> ב- Internet Explorer, לחץ על <b>אפשרויות אינטרנט</b>.</li>
+					<li>בכרטיסיה <b>אבטחה</b>, לחץ על <b>אזור אינטרנט</b> ולאחר מכן לחץ על <b>רמת ברירת מחדל</b>.</li>
+				</ul>
+				<p>כדי למנוע בעיות, באפשרותך גם להוסיף את Windows Update לרשימת האתרים המהימנים (הוראות ניתנות בסעיף 'שימוש ב- Windows Update'). </p>
+			</p>
+		
+			<p>
+				<b>בעת השימוש ב- Windows Update אני מקבל אזהרות ActiveX או scripting - האם ישנה בעיה?</b><br>
+				לא. טכנולוגיות אלה משמשות את Windows Update כדי לקבוע אילו עדכונים יש להתקין במחשב שלך. כאמצעי אבטחה, פקדי ActiveX של Windows Update נחתמים דיגיטלית על-ידי Microsoft. אולם, תוקפים משתמשים לעתים באותן טכנולוגיות כדי לפגוע במחשב שלך. מתקבלת אזהרה מ- Internet Explorer כדי שתוכל להחליט אם לבטוח, או לא, באתרי אינטרנט המשתמשים בפקדים אלה.
+				<p>
+				חפש בעזרה של Internet Explorer כדי לקבל מידע נוסף אודות אישורים דיגיטליים, מתן אמון באתרי אינטרנט ובחירת הגדרות אבטחה. (אם אינך מעוניין שיוצגו אזהרות בעת השימוש ב- Windows Update, באפשרותך לשנות את הגדרות האבטחה, אך אין זה מומלץ. אם תוריד את רמת הגדרות האבטחה, המחשב יהיה פגיע יותר לוירוסים ולאיומי אבטחה אחרים). 
+				</p>
+			</p>
+		
+			<p>
+				<b>מדוע איני יכול להציג פרטי עדכונים, פרטי היסטוריית התקנות או מאמרי פתרון בעיות?</b><br>
+				התוכנה לחסימת פריטים מוקפצים או ההגדרות אינם מאפשרים לפתוח חלונות דפדפן חדשים מקישורים שאתה לוחץ עליהם באתר אינטרנט. 
+				<p>
+				כדי לשנות את הגדרות חוסם הפריטים המוקפצים (זמין רק עבור Internet Explorer 6 ב- Windows XP SP2):				
+				<ul style='margin-left:40px'> 
+					<li>ב- Internet Explorer בתפריט <b>כלים</b>, הצבע על <b>חוסם הפריטים המוקפצים</b> ולאחר מכן לחץ על <b>הגדרות חוסם הפריטים המוקפצים</b>.</li>
+					<li>בצע אחת מהפעולות הבאות:</li>
+					<ul style='margin-left:40px'>
+						<li>כדי לאפשר חלונות מוקפצים רק בעת השימוש ב- Windows Update, תחת <b>כתובת אתר אינטרנט שברצונך להתיר</b>, הקלד (או העתק והדבק) כתובת URL זו: https://windowsupdate.microsoft.com ולאחר מכן לחץ על <b>הוסף</b>. </li>
+						<p>
+						<li>כדי לאפשר פתיחת חלונות דפדפן חדשנים בעת שימוש בכל אתר אינטרנט מאובטח (https://), ברשימה <b>רמת סינון</b> לחץ על <b>נמוכה: אפשר פריטים מוקפצים מאתרים בטוחים</b>.</li>
+					</ul>
+				</ul>
+				<p>
+				אם אתה משתמש בתוכנה אחרת לחסימת פריטים מוקפצים, בדוק אם ניתן לשנות את ההגדרות רק עבור קישורים שאתה לוחץ עליהם באתר אינטרנט. אם לא, יהיה עליך לאפשר חלונות מוקפצים בזמן השימוש ב- Windows Update. 
+
+			</p>
+		
+			<p>
+				<b>לאן לפנות אם נתקלתי בבעיות בהתקנת עדכון?</b><br>
+				ראה 
+		
+			<a  class="sys-link-normal" href="support.aspx?ln=he" target="eContent">
+				עזרה ותמיכה של Windows Update
+		
+			</a>
+			 לקבלת מידע אודות אפשרויות אלה ואחרות:				
+				<ul style='margin-left:40px'> 
+					<li>
+		
+			<a  class="sys-link-normal" href="troubleshoot.aspx?ln=he" target="eContent">
+				פותר הבעיות של Windows Update
+		
+			</a>
+			</li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=25127' target='_blank' >מרכז התמיכה של Windows Update</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=9581' target='_blank' >קבוצות דיון של Windows Update</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21608' target='_blank' >תמיכה וסיוע מקוונים של Microsoft</a> (חינם לבעיות ב- Windows Update)</li>
+				</ul>
+			</p>
+		
+			<p>
+				<b>מדוע איני מצליח למצוא עדכון לאחר ששחזרתי עדכונים מוסתרים?</b><br>
+				עדכון אחר שהתקנת כבר טיפל באותה בעיה. לדוגמה, אם התקנת ערכת שירות או אוסף עדכונים, ייתכן שהמחשב שלך כבר לא יזדקק לעדכון שהסתרת קודם לכן. 
+			</p>
+		
+			<p>
+				<b>מדוע איני יכול להתקין עדכונים מסוימים יחד עם עדכונים אחרים?</b><br>
+				עדכונים מסוימים, כגון חבילות שירות ואוספי עדכונים, כוללים מספר עדכונים או מטפלים באותן בעיות. 
+				<p>
+					סוגי עדכונים אחרים דורשים אתחול של המחשב כדי שייכנסו לתוקף. עליך להתקין עדכונים אלה בנפרד. לאחר מכן, באפשרותך לחזור ל- Windows Update כדי לבדוק אם ישנם עדכונים נוספים. 
+				<p>
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='NWAD' >עבודה ברשת ומידע מתקדם</a>
+			<p>
+				<b>מה אם עליי לעדכן יותר ממחשב אחד?</b><br>
+				אם ברשותך רשת ביתית או משרד קטן, עליך לעדכן כל מחשב בנפרד. 
+				<p>
+					אם אתה מנהל רשת, עבור אל 
+		
+			<a  class="sys-link-normal" href="administrators.aspx?ln=he" target="eContent">
+				אפשרויות מנהל
+		
+			</a>
+			 לקבלת מידע אודות שירותי עדכון נוספים, כגון קטלוג Windows Update ושירותי Windows Update.
+				<p>
+			</p>
+		
+			<p>
+				<b>מהו (Microsoft Baseline Security Analyzer (MBSA?</b><br>
+				MBSA הוא כלי שסורק מחשבים מבוססי Windows המחוברים ברשת ומחפש הגדרות תצורה שגויות נפוצות הקשורות לאבטחה ועדכוני אבטחה חסרים. הכלי כולל ממשק גרפי וגם מבוסס שורת פקודה ובאפשרותו לבצע סריקות מקומיות ומרוחקות. בנוסף, באפשרותו להפיק דוח אבטחה עבור כל מחשב ברשת שאותה הוא סורק. לקבלת מידע נוסף, קרא את הסקירה <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27549' target='_blank' >Microsoft Baseline Security Analyzer</a>. 
+			</p>
+		
+			<p>
+				<b>מהם שירותי Windows Update?</b><br>
+				שירותי Windows Update, הידועים בעבר כשירותי עדכון תוכנה (SUS), הם רכיב ניהול העדכונים עבור משפחת מוצרי Windows Server 2003. פתרון זה סורק הגדרות אבטחה עבור כל המחשבים ברשת ומדווח עליהן, וגם מסנכרן עדכונים. בנוסף, הוא מסייע בצמצום הסיכונים והעלויות הקשורים בדרך כלל לאמצעי עדכון עבור רשתות גדולות. לקבלת מידע נוסף, בקר באתר Windows Server System, עבור <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24462' target='_blank' >שירותי Windows Update</a>. 
+			</p>
+		
+			<p>
+				<b>אילו סוגי עדכונים מספקים עדכונים אוטומטיים, Windows Update ושירותי Windows Update?</b><br>
+		
+			<br>
+			<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+				<colgroup>
+					<col style='WIDTH: 20%;padding-left:15px'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+				</colgroup>
+				<tbody>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">&nbsp;</td>
+						<td class="FAQtd4">עדכונים אוטומטיים</td>
+						<td class="FAQtd4" colspan="2">
+							אתר האינטרנט Windows Update
+							<table class="sys-table-cell-bgcolor2 sys-toppane-color-border"cellpadding="0" cellpadding ="0" border="0">
+								<tr>
+									<td style='font-weight: bold;WIDTH: 50%;text-align: center'>
+										התקנה מהירה
+									</td>
+									<td style='font-weight: bold;BORDER-left: 1px solid;WIDTH: 50%;text-align: center'>
+										התקנה מותאמת אישית
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td class="FAQtd3">שירותי Windows Update*</td>
+					</tr>
+					<tr >
+						<td colspan="5"  class="FAQtd3"">עדכונים בעדיפות גבוהה</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">עדכונים קריטיים</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">תיקוני אבטחה</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">אוסף עדכונים</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Service Packs</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td colspan="5"  class="FAQtd3">עדכונים אופציונליים</td>
+					</tr>
+					<tr >
+						<td class="FAQtd1">תוכנה</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">חומרה</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">תוכנת ביתא</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">הגדרת Opt-in</td>
+						<td  class="FAQtd2">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<div><br>    *באפשרות מנהלי רשת לבחור כל אחד מהעדכונים הנתמכים, או את כולם, לשם הפצה.</div>
+
+			<p>
+				<b>כיצד אוכל להשיג עדכונים נוספים, או עדכונים ש- Windows Update אינו מציע?</b><br>
+				בקר באתרי האינטרנט הבאים:				
+				<ul style='margin-left:40px'> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21601' target='_blank' >מרכז ההורדות של Microsoft</a><br> 
+					קבל הורדות עבור מוצרי Microsoft. הורדות זמינות ב- 30 שפות. </li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=8973' target='_blank' >קטלוג Windows Update</a><br>
+					חפש עדכונים עבור שרתים ומחשבים אחרים המשתמשים במערכות הפעלה של Windows.</li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24459' target='_blank' >Microsoft Office Online </a><br>
+					חפש עדכונים עבור מערכת Microsoft Office, גירסאות 97, 98 ומתקדמות יותר. ההורדות כוללות תבניות, תוכן סיוע ואוסף תמונות. </li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27098' target='_blank' >Microsoft Premier Support </a><br>
+					למד אודות היתרונות של Premier Support, כולל עדכונים נוספים כגון תוכנת קדם-הפצה.</li> 
+				</ul>
+			</p>
+		
+		</p>
+		
+	</div>
+	<iframe name='eReporting' src='blank.aspx' noresize height='0' width='0' style='DISPLAY:none'>
+</body>
+</html> </IFRAME> </BODY></HTML>

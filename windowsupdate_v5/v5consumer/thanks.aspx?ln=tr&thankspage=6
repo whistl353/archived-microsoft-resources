@@ -1,0 +1,50 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1254' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+		<style type='text/css'>
+			table { table-layout: fixed; }
+		</style>
+</head>
+	<body onload="fnInit(3, 6);" bgcolor="white" link="#587EDC" alink="#587EDC" vlink="#587EDC">
+	
+		<font face="Tahoma, Arial, Helvetica">
+
+			<font size="3" color="#587EDC">
+			<b>Windows Update 5 Beta Sürümüne Hoş Geldiniz</b>
+			</font>
+			<font size="2">
+			<p>
+			Microsoft Windows Update sürüm 5 Beta programına gösterdiğiniz ilgiden dolayı teşekkür ederiz. Bu site Windows Update'in bir sonraki sürümünün önizlemesini veriyor. Devam etmeden önce lütfen aşağıdaki bilgileri dikkatle okuyun.<P>Katılmak için kayıtlı bir Windows Update Beta kullanıcısı olmalısınız. Kayıt işlemi, bu beta sürümünü tümüyle deneyebilmek için gereken araçları, bilgileri ve sözleşmeleri sağlar. Windows Update Beta programına kayıtlı değilseniz, aşağıdan devam etmeden önce kaydolmalısınız. Daha fazla bilgi için lütfen <a href="http://www.beta.microsoft.com" target="_blank">Microsoft Beta</a> giriş sayfasına gidin veya <A href="mailto:mubeta@microsoft.com">mubeta@microsoft.com</A> adresine e-posta gönderin.
+			<p>
+			<img src="shared/images/warning_icon.gif">
+			<b>Uyarı ve Not</B> Windows Update 5 yayın öncesi yazılım ve yayın öncesi bir güncelleştirme hizmeti içeriyor. Bunlar yalnızca kayıtlı Microsoft Beta sınayıcılarının kullanımına yöneliktir. Bunların kullanımı <A href="http://go.microsoft.com/fwlink/?linkid=9482&clcid=0x409" target=_blank>Kullanım Koşulları</A>'na tabidir ve yazılım da birlikte sağlanan her türlü lisans sözleşmesine tabidir. 
+			
+				<p>
+				<img src="shared/images/info_16x.gif">
+				<a href="http://www.beta.microsoft.com" target=_blank>
+				<b>Kayıtlı bir beta kullanıcısı değilim, öte yandan Microsoft Beta programı hakkında daha fazla bilgi edinmek isterim</b></a>
+			
+			<p><img src="shared/images/arrow.gif">
+			<a href="default.aspx?rc1=true">
+			<b>Yukarıdaki bilgileri okudum ve şu anda kayıtlı bir Microsoft Windows Update beta kullanıcısı olduğumu onaylıyorum</b></a>
+			</font>
+			<p>&nbsp;</p>
+			<font size="1">
+			© 2004 Microsoft Corporation. Tüm hakları saklıdır. <A href="http://go.microsoft.com/fwlink/?linkid=9482&clcid=0x409" target=_blank>Kullanım koşulları</A>
+			</font>
+
+		</font>
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' /> 
+	</body>
+</html>

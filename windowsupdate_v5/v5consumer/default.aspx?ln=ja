@@ -1,0 +1,158 @@
+
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<META http-equiv="Content-Type"  content="text/html;charset=shift_jis" />
+		<META http-equiv="MSThemeCompatible" content="Yes" />
+		<META NAME="DESCRIPTION" CONTENT="このコンピュータのオペレーティング システム、ソフトウェア、およびハードウェアで利用可能な最新の更新プログラムを入手してください。Windows Update では、このコンピュータの状態をチェックして、最適な更新プログラムを選択して提供します。"> 
+		<META NAME="MS.LOCALE" CONTENT="ja">
+		<META NAME="keywords" CONTENT="Windows Update; update; security; secure; up-to-date; download; driver; patch; fix; hotfix; QFE; bug; critical; high priority; service pack; Automatic Updates; Windows XP; Windows 2000; Windows Server 2003; WinXP; Win2k; Win2000; WS2k3; WS2003; .NET Server; SP">
+		<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+		<title>Microsoft Windows Update</title>
+		<object id="SusWebCtl" VIEWASTEXT></object>
+		<script language="javascript" type="text/javascript">
+			var curSite = 5;
+			var g_sDownForMaintenance2K = "";
+			var g_sDownForMaintenanceXP = "";
+			var g_sDownForMaintenance2003 = "";
+			var g_sDownForMaintenanceLonghorn = "";
+			var g_sUA = "ia_archiver".toLowerCase();
+					
+			
+		</script>
+		<script language="javascript" type="text/javascript" src="shared/js/tgar.js?2006/02/09 12:27:17"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/redirect.js?2006/02/09 12:27:17"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/commontop.js?2006/02/09 12:27:17"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/webcomtop.js?2006/02/09 12:27:17"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/spupdateids.js?2006/02/09 12:27:17"></script>
+		
+		 
+			<script language="javascript" type="text/javascript">
+				function fnSupressError(sMessage, sURL, sLine){ return true; }
+				window.onerror = fnSupressError ;
+			</script>
+		
+		<script language="javascript" type="text/javascript" defer="true">
+			var conQueryString = "ln=ja"; 
+			var conRTL = false;
+			var conDevServer = false;
+			var conCriticalUpdatesMode = false;
+			var conLangCode = "ja";
+			var conConsumerURL = "/v5consumer/";
+			var L_ScanForAvailableUpdates_Text = "更新プログラムを取得する。";
+var L_ReloadingSiteText_Text = "Windows Update サイトは、まだ完全には開いていません。\n			完全に開くまで待つ場合は、[OK] をクリックしてください。\n			Windows Update からサイトを開き直す場合は、[キャンセル] をクリックしてください。";
+var L_MB_Text = "MB";
+var L_KB_Text = "KB";
+var L_Hour_Text = "時間";
+var L_Hours_Text = "時間";
+var L_InstallTitle_Text = "更新プログラムをインストールしています";
+var L_Minute_Text = "分";
+var L_Minutes_Text = "分";
+var L_RListNoUpdatesToInstall_Text = "インストールを選択した更新プログラムはありません。";
+var L_StatusSucceeded_Text = "成功";
+var L_StatusFailed_Text = "失敗";
+var L_StatusAborted_Text = "取り消し";
+var L_UpdateName_Text = "更新プログラム名";
+var L_Status_Text = "状態";
+var L_Date_Text = "日付";
+var L_Source_Text = "ソース";
+var L_AutomaticUpdates_Text = "自動更新";
+var L_WindowsUpdate_Text = "Windows Update Web サイト";
+var L_ManagedServer_Text = "Windows Update Services クライアント Web サイト";
+var L_DynamicUpdate_Text = "動的な更新プログラム";
+var L_DeviceManager_Text = "デバイス マネージャ";
+var L_OperationModeDownload_Text = "ダウンロードしています";
+var L_OperationModeCopying_Text = "ファイルをコピーしています";
+var L_OperationModeRegister_Text = "登録しています";
+var L_OtherSource_Text = "その他のソース";
+var L_PersonalizationSaveSettingsPrompt_Text = "設定が変更されました。今すぐ設定を保存するには、[OK] をクリックしてください。保存せずに作業を続行するには、[キャンセル] をクリックしてください。";
+var L_Next_Text = "次へ";
+var L_RListBasketUpdatesNotAvailableText_Text = "選択した更新プログラムはありません。";
+var L_NeedUserData_Text = "今後の使用に備えて、ユーザー データを有効にする必要があります";
+var L_UserDataSaved_Text = "設定を保存しました";
+var L_PersonalizationReloadSite_Text = "言語の設定が保存されました。Windows Update では、サイトが新しい言語で表示されるように更新する必要があります。この操作により、選択した更新プログラムがリセットされます。今すぐ更新しますか?";
+var L_Previous_Text = "前へ";
+var L_ProxyTitle_Text = "プロキシ資格情報の入力";
+var L_ExpressModeHidden_Text = "Windows Update と自動更新では、これ以上表示の必要がない更新プログラムを非表示にすることができます。今回要求された更新プログラムは、以前に非表示にされた更新プログラムです。この更新プログラムをインストールできるように、復元しますか?";
+var L_WerUpdateInstalled_Text = "必要な更新プログラムは既にインストールされています。[OK] をクリックすると、このコンピュータで利用可能な他の更新プログラムのインストールを続行します。";
+var L_RListBetaDescription_Text = "このコンピュータには、以下のベータ版用の更新プログラムが利用可能です。インストールする更新プログラムを選択して、[更新プログラムのインストール] リンクをクリックしてください。";
+var L_RListBetaTitle_Text = "ベータ版用の更新プログラムを追加で選択";
+var L_RListBetaWarning1_Text = "<b>ベータ版のソフトウェアは、コンピュータに問題を引き起こす可能性があります。</b><br>";
+var L_RListBetaWarning2_Text = "リリース前または \"ベータ\" 版の製品 (ソフトウェア)、あるいはベータ版のソフトウェアに対する更新プログラムは、コンピュータに問題を引き起こす可能性があります。また、Microsoft によるサポートが制限される場合があります。";
+var L_RListClickForDescription_Text = "クリックすると、この更新プログラムの説明を表示します";
+var L_RListClickToHideDescription_Text = "クリックすると、この更新プログラムの説明を非表示にします";
+var L_RListCriticalUpdates_Text = "優先度の高い更新プログラム";
+var L_RListCriticalUpdatesBar_Text = "優先度の高い更新プログラム";
+var L_RListCriticalUpdatesTitle_Text = "優先度の高い更新プログラムの確認";
+var L_RListDeviceUnknown_Text = "この更新プログラムのインストールをお勧めします。コンピュータ上にある、このドライバの適用先のデバイスには、ドライバがインストールされていないと考えられます。";
+var L_RListDeviceDisabled_Text = "この更新プログラムのインストールをお勧めします。コンピュータ上にある、このドライバの適用先のデバイスが無効になっていると考えられます。";
+var L_RListDeviceProblem_Text = "この更新プログラムのインストールをお勧めします。コンピュータ上にある、このドライバの適用先のデバイスが正常に機能していないと考えられます。";
+var L_RListDownloadSize_Text = "ダウンロード サイズ: ";
+var L_RListDownloadSizeTypical_Text = "一般的なダウンロード サイズ: ";
+var L_RListDriversDescription_Text = "このコンピュータには、以下の追加で選択できる更新プログラムが利用可能です。インストールする更新プログラムを選択して、[更新プログラムのインストール] リンクをクリックしてください。";
+var L_RListDriversTitle_Text = "ハードウェア用の更新プログラムを追加で選択";
+var L_RListHiddenTitle_Text = "非表示の更新プログラムの復元";
+var L_RListHiddenUpdatesBar_Text = "非表示の更新プログラム";
+var L_RListHideThisUpdate_Text = "この更新プログラムを非表示にする";
+var L_RListInfoGifAlt_Text = "この更新プログラムは、コンピュータに既にダウンロードされています。この項目を選択した場合、Windows Update によってインストールが実行されます。";
+var L_RListItems_Text = "項目";
+var L_RListLessThan_Text = "&lt;";
+var L_RListNoUpdatesAvailable_Text = "利用可能な更新プログラムはありません";
+var L_RListOptionalBetaUpdatesBar_Text = "追加で選択できるベータ版用の更新プログラム";
+var L_RListOptionalHardwareUpdatesBar_Text = "追加で選択できるハードウェア用の更新プログラム";
+var L_RListOptionalSoftwareUpdatesBar_Text = "追加で選択できるソフトウェア用の更新プログラム";
+var L_RListOptionalUpdates_Text = "追加で選択できる更新プログラム";
+var L_RListOtherUpdates_Text = "その他更新プログラム";
+var L_RListOtherOptionalUpdates_Text = "その他の追加で選択できる更新プログラム";
+var L_RListOtherCriticalUpdates_Text = "その他の優先度の高い更新プログラム";
+var L_RListProductTitle_Text = "ソフトウェア用の更新プログラムを追加で選択";
+var L_RListReadMore_Text = "詳細...";
+var L_RListSingleInstallation_Text = "<b>単独でインストールする更新プログラムがインストール対象として選択されています </b><br/>このページの更新プログラムは、現在使用できません。単独でインストールする更新プログラムがインストール対象として選択されています。単独でインストールする更新プログラムを、他の更新プログラムと同時にインストールすることはできません。インストール後、Windows Update に戻って、このコンピュータ用の他の更新プログラムを選択してください。";
+var L_RListSingleInstallationTitle_Text = "単独インストール: ";
+var L_RListUpdates_Text = "の更新プログラム";
+var L_RListHiddenCriticalPresent1_Text = "<b>優先度の高い更新プログラムの一部が非表示です</b><br/>優先度の高い更新プログラムをすべてインストールして、セキュリティで保護された状態を維持することをお勧めします。非表示の更新プログラムをインストールするには、[";
+var L_RListHiddenCriticalPresent2_Text = "非表示の更新プログラムの復元";
+var L_RListHiddenCriticalPresent3_Text = "] ページに移動してください。";
+var L_RListSelectall_Text = "すべて選択";
+var L_RList100_Text = "優先度の高い更新プログラムは、セキュリティに関連する重要な更新プログラムです。";
+var L_RList101_Text = "優先度の高い更新プログラムがインストール対象として選択されていません。優先度の高い更新プログラムをインストールして、コンピュータを最新の状態にし、セキュリティで保護された状態を維持することをお勧めします。追加で選択できるこのコンピュータ用の更新プログラムを表示するには、[ホーム] リンクの下にある追加で選択できる更新プログラムのいずれかをクリックしてください。";
+var L_RList102a_Text = "次の優先度の高い更新プログラムをインストールして、このコンピュータを最新の状態にし、セキュリティで保護された状態を維持することを強くお勧めします。";
+var L_RList102b_Text = "<b>単独でインストールする更新プログラムを、他の更新プログラムと同時にインストールすることはできません。</b> <br>単独でインストールする更新プログラムを最初にインストールするか、他の優先度の高い更新プログラムをすべてインストールするかを選択し、[更新プログラムのインストール] リンクをクリックしてください。インストールの完了後に Windows Update に戻って、残りの更新プログラムをインストールしてください。";
+var L_RList103_Text = "以下の、単独でインストールする優先度の高い更新プログラムをインストールして、このコンピュータを最新の状態にし、セキュリティで保護された状態を維持することを強くお勧めします。インストールするには、[更新プログラムのインストール] リンクをクリックします。";
+var L_RList104_Text = "以下の優先度の高い更新プログラムをインストールして、このコンピュータを最新の状態にし、セキュリティで保護された状態を維持することを強くお勧めします。これらの更新プログラムをインストールするには、[更新プログラムのインストール] リンクをクリックしてください。";
+var L_RList105a_Text = "以下の優先度の高い更新プログラムをインストールして、このコンピュータを最新の状態にし、セキュリティで保護された状態を維持することを強くお勧めします。";
+var L_RList105b_Text = "<b>単独でインストールする更新プログラムを、他の更新プログラムと同時にインストールすることはできません。</b> <br>単独でインストールする更新プログラムを選択して、[更新プログラムのインストール] をクリックしてください。インストールの完了後に Windows Update に戻って、残りの更新プログラムをインストールしてください。";
+var L_RList200_Text = "追加で選択できる更新プログラムは、比較的重要度が低い、インストール可能な更新プログラムです。";
+var L_RList201_Text = "利用可能な追加で選択できる更新プログラムはありません。";
+var L_RList202a_Text = "お使いのコンピュータには、次の追加で選択できる更新プログラムを利用できます。";
+var L_RList202b_Text = "<b>単独でインストールする更新プログラムを、他の更新プログラムと同時にインストールすることはできません。</b> <br>単独でインストールする更新プログラムを最初にインストールするか、他の追加で選択できる更新プログラムをインストールするかを選択し、[更新プログラムのインストール] リンクをクリックしてください。インストールの完了後に Windows Update に戻って、残りの更新プログラムをインストールしてください。";
+var L_RList203_Text = "このコンピュータには、以下の追加で選択できる更新プログラムが利用可能です。単独でインストールする更新プログラムを、他の更新プログラムと同時にインストールすることはできません。インストールする更新プログラムを選択し、[更新プログラムのインストール] リンクをクリックしてください。インストール後、Windows Update に戻って、このコンピュータ用の他の更新プログラムをインストールしてください。";
+var L_RList204_Text = "このコンピュータには、以下の追加で選択できる更新プログラムが利用可能です。インストールする更新プログラムを選択して、[更新プログラムのインストール] リンクをクリックしてください。";
+var L_RList205a_Text = "お使いのコンピュータには、次の追加で選択できる更新プログラムを利用できます。";
+var L_RList205b_Text = "<b>単独でインストールする更新プログラムを、他の更新プログラムと同時にインストールすることはできません。</b> <br>単独でインストールする更新プログラムを選択して、[更新プログラムのインストール] リンクをクリックしてください。インストールの完了後に Windows Update に戻って、残りの更新プログラムをインストールしてください。";
+var L_RList300_Text = "このページには、インストールを選択した更新プログラムの概要が表示されます。";
+var L_RList301_Text = "現在、インストールが選択された更新プログラムはありません。このコンピュータで利用可能な更新プログラムを表示するには、[ホーム] リンクの下にある、優先度の高い更新プログラムまたは追加で選択できる更新プログラムのリンクをクリックしてください。";
+var L_RList302_Text = "以下の優先度の高い更新プログラムをインストールして、このコンピュータを最新の状態にし、セキュリティで保護された状態を維持することを強くお勧めします。これらの更新プログラムをインストールするには、[インストール] をクリックしてください。";
+var L_RList303_Text = "次の追加で選択できる更新プログラムをインストールするには、[インストール] をクリックしてください。";
+var L_RList304_Text = "以下の優先度の高い更新プログラムと追加で選択できる更新プログラムをインストールして、このコンピュータを最新の状態にし、セキュリティで保護された状態を維持することをお勧めします。これらの更新プログラムをインストールするには、[インストール] をクリックしてください。";
+var L_RList400_Text = "非表示の更新プログラムとは、利用可能な更新プログラムの一覧から削除された更新プログラムです。";
+var L_RList401_Text = "非表示の更新プログラムはありません。更新プログラムを非表示にするには、更新プログラムのタイトルをクリックして、[この更新プログラムを非表示にする] チェック ボックスをオンにします。";
+var L_RList402_Text = "<P><b>単独でインストールする更新プログラムを、他の更新プログラムと同時にインストールすることはできません。</b><br>単独でインストールする更新プログラムを選択して、[更新プログラムのインストール] リンクをクリックしてください。インストール後、Windows Update に戻って、残りの更新プログラムをインストールしてください。";
+var L_RList403_Text = "<P><b>単独でインストールする更新プログラムを、他の更新プログラムと同時にインストールすることはできません。</b><br>単独でインストールする更新プログラムを選択して、[更新プログラムのインストール] リンクをクリックしてください。インストール後、Windows Update に戻って、残りの更新プログラムをインストールしてください。";
+var L_RList404_Text = "非表示の更新プログラムをインストールする場合は、その更新プログラムのチェック ボックスをオンにして、[更新プログラムのインストール] リンクをクリックしてください。";
+var L_RList405_Text = "<P><b>単独でインストールする更新プログラムを、他の更新プログラムと同時にインストールすることはできません。</b><br>単独でインストールする更新プログラムを最初にインストールするか、他の更新プログラムを最初にインストールするかを選択し、[更新プログラムのインストール] リンクをクリックしてください。インストール後、Windows Update に戻って、残りの更新プログラムをインストールしてください。";
+var L_RList500_Text = "高速インストールでは、このコンピュータに必要な、重要な更新プログラムとセキュリティ更新プログラムだけを高速にダウンロードおよびインストールできます。";
+var L_RList501_Text = "以下の優先度の高い更新プログラムをインストールして、このコンピュータを最新の状態にし、セキュリティで保護された状態を維持することを強くお勧めします。これらの更新プログラムをインストールするには、[インストール] をクリックしてください。";
+var L_RList502_Text = "このコンピュータは、最新の状態と考えられます。現在利用可能な重要な更新プログラム、またはセキュリティ更新プログラムはありません。このコンピュータで利用可能な追加で選択できる更新プログラムを表示するには、[ホーム] リンクをクリックして、[カスタム インストール] をクリックしてください。Windows Update によって、追加で選択できる更新プログラムがスキャンされます。ダウンロードする前に、更新プログラムを確認できます。";
+var L_RList600_Text = "このページの更新プログラムは、更新プログラム自体がベータ版のソフトウェアであるか、このコンピュータ上のベータ版ソフトウェア用の更新プログラムです。";
+var L_RList700_Text = "このページの更新プログラムには、ドライバの更新プログラムが含まれています。";
+var g_sControlVersion = '3790.2182';
+
+		</script>
+	</head>
+	<noscript>
+		<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=ja&error=1' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=ja&error=1' /><frame name='eContent'  src='errorinformation.aspx?ln=ja&error=1' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=ja&error=1' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+	</noscript>
+	<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=ja' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=ja' /><frame name='eContent'  src='splash.aspx?page=0&ln=ja' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=ja' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+</html>

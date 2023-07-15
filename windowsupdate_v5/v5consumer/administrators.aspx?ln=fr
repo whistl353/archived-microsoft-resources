@@ -1,0 +1,50 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+ 
+	</head>
+	<body onload="fnInit(14, -1);">
+	
+		<span class="sys-font-heading3 sys-rhp-color-title">Options Administrateur</span><br />
+	        <br>
+			<div class="8pt">
+
+			<b>Mettre à jour plusieurs systèmes d'exploitation<br /></b>
+			Pour effectuer une sélection parmi les mises à jour proposées pour les différents systèmes d'exploitation Windows, notamment les mises à jour de logiciels pour serveurs et les mises à jour de pilotes (mises à jour de matériel), consultez le <a href="http://go.microsoft.com/fwlink/?LinkId=8973" target="_blank" class="sys-link-normal">Catalogue Windows Update</a>.<br /><br />
+			<b>Gérer le processus de mise à jour pour les réseaux<br /></b>
+			Pour mettre à jour des systèmes d'exploitation Windows et d'autres produits Microsoft exécutés au sein de la zone protégée par votre pare-feu d'entreprise, utilisez <a href="http://go.microsoft.com/fwlink/?LinkId=24462" target="_blank" class="sys-link-normal">Windows Update Services</a>. Cette solution (appelée précédemment Software Update Services ou SUS 2.0) aide les administrateurs à cibler leurs systèmes afin d'effectuer diverses opérations : réaliser des déploiements, contrôler les interactions des utilisateurs, supprimer des mises à jour, planifier la fréquence des mises à jour et définir leur priorité, et bien plus encore.<br /><br />
+			Remarque :<br />
+			<ul style="margin-left:40px">
+				<li>L'outil <a href="http://go.microsoft.com/fwlink/?LinkId=27549" target="_blank" class="sys-link-normal">Microsoft Baseline Security Analyzer (MBSA)</a> analyse et signale également les problèmes de configuration courants liés à la sécurité et peut vous aider à installer les mises à jour de sécurité manquantes sur les ordinateurs Windows. </li>
+				<li>
+					Pour déterminer rapidement les types de mises à jour fournies par la fonction Mises à jour automatiques, par Windows Update et Windows Update Services, consultez les 
+					<a  class="sys-link-normal" href="about.aspx?ln=fr" target="eContent">FAQ Windows Update</a>
+					.
+				</li>
+			</ul>
+			<br/><b>Obtenir d'autres mises à jour<br /></b>
+			<ul style="margin-left:40px">
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=21601" target="_blank" class="sys-link-normal">Consultez le Centre de téléchargement Microsoft.</a>
+			<br>Obtenez les mises à jour de tous les produits pris en charge. Les téléchargements sont disponibles dans 30 langues.  
+		</li>
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=24459" target="_blank" class="sys-link-normal">Visitez le site Microsoft Office Online</a>
+			<br>Recherchez les mises à jour destinées à Microsoft Office System, versions 97/98 et ultérieures. Vous pouvez notamment télécharger des modèles, des informations d'aide et des images clipart.
+		</li>
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=27098" target="_blank" class="sys-link-normal">Devenez client du Support Premier Microsoft</a>
+			<br>Découvrez les avantages offerts par le Support Premier. Vous pouvez notamment bénéficier de mises à jour supplémentaires ou encore de logiciels en version précommerciale.   
+		</li>
+			</ul>
+			</div> 
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+	</body>
+</html>

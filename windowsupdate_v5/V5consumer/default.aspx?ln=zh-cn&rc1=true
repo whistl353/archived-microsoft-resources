@@ -1,0 +1,158 @@
+
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<META http-equiv="Content-Type"  content="text/html;charset=gb2312" />
+		<META http-equiv="MSThemeCompatible" content="Yes" />
+		<META NAME="DESCRIPTION" CONTENT="获取适用于您计算机的操作系统、软件和硬件的最新更新程序。Windows Update 将扫描您的计算机并量身选择适用于您的计算机的更新程序。"> 
+		<META NAME="MS.LOCALE" CONTENT="zh-cn">
+		<META NAME="keywords" CONTENT="Windows Update; update; security; secure; up-to-date; download; driver; patch; fix; hotfix; QFE; bug; critical; high priority; service pack; Automatic Updates; Windows XP; Windows 2000; Windows Server 2003; WinXP; Win2k; Win2000; WS2k3; WS2003; .NET Server; SP">
+		<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+		<title>Microsoft Windows Update</title>
+		<object id="SusWebCtl" VIEWASTEXT></object>
+		<script language="javascript" type="text/javascript">
+			var curSite = 5;
+			var g_sDownForMaintenance2K = "";
+			var g_sDownForMaintenanceXP = "";
+			var g_sDownForMaintenance2003 = "";
+			var g_sDownForMaintenanceLonghorn = "";
+			var g_sUA = "ia_archiver".toLowerCase();
+					
+			
+		</script>
+		<script language="javascript" type="text/javascript" src="shared/js/tgar.js?2005-11-18 14:31:02"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/redirect.js?2005-11-18 14:31:02"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/commontop.js?2005-11-18 14:31:02"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/webcomtop.js?2005-11-18 14:31:02"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/spupdateids.js?2005-11-18 14:31:02"></script>
+		
+		 
+			<script language="javascript" type="text/javascript">
+				function fnSupressError(sMessage, sURL, sLine){ return true; }
+				window.onerror = fnSupressError ;
+			</script>
+		
+		<script language="javascript" type="text/javascript" defer="true">
+			var conQueryString = "ln=zh-cn"; 
+			var conRTL = false;
+			var conDevServer = false;
+			var conCriticalUpdatesMode = false;
+			var conLangCode = "zh-cn";
+			var conConsumerURL = "/v5consumer/";
+			var L_ScanForAvailableUpdates_Text = "获取程序更新版本";
+var L_ReloadingSiteText_Text = "Windows Update 站点尚未完全打开。\n			要继续等待，请单击“确定”。\n			要指示 Windows Update 尝试重新打开站点，请单击“取消”。";
+var L_MB_Text = "MB";
+var L_KB_Text = "KB";
+var L_Hour_Text = "小时";
+var L_Hours_Text = "小时";
+var L_InstallTitle_Text = "正在安装更新程序";
+var L_Minute_Text = "分钟";
+var L_Minutes_Text = "分钟";
+var L_RListNoUpdatesToInstall_Text = "没有选择要安装的更新程序。";
+var L_StatusSucceeded_Text = "成功";
+var L_StatusFailed_Text = "失败";
+var L_StatusAborted_Text = "已取消";
+var L_UpdateName_Text = "更新程序名称";
+var L_Status_Text = "状态";
+var L_Date_Text = "日期";
+var L_Source_Text = "来源";
+var L_AutomaticUpdates_Text = "自动更新";
+var L_WindowsUpdate_Text = "Windows Update 网站";
+var L_ManagedServer_Text = "Windows Update Services 客户端 Web 站点";
+var L_DynamicUpdate_Text = "动态更新";
+var L_DeviceManager_Text = "设备管理器";
+var L_OperationModeDownload_Text = "正在下载";
+var L_OperationModeCopying_Text = "正在复制文件";
+var L_OperationModeRegister_Text = "正在注册";
+var L_OtherSource_Text = "其他来源";
+var L_PersonalizationSaveSettingsPrompt_Text = "您已更改了设置。要立即保存您的设置，请单击“确定”。要继续但不保存设置，请单击“取消”。";
+var L_Next_Text = "下一步";
+var L_RListBasketUpdatesNotAvailableText_Text = "没有选择更新程序。";
+var L_NeedUserData_Text = "此功能需要启用用户数据";
+var L_UserDataSaved_Text = "您的设置已被保存";
+var L_PersonalizationReloadSite_Text = "您的语言设置已经保存。Windows Update 需要刷新站点以使用新语言进行显示，该操作将重置您所做的任何更新选择。是否要立即执行此操作?";
+var L_Previous_Text = "上一步";
+var L_ProxyTitle_Text = "输入代理凭据";
+var L_ExpressModeHidden_Text = "通过使用 Windows Update 和“自动更新”功能，您可以隐藏不再需要的更新程序。现在所需的更新程序以前被隐藏了，您是否要恢复该更新程序以进行安装?";
+var L_WerUpdateInstalled_Text = "已经安装了需要的更新程序。单击“确定”以继续安装适用于您的计算机的其他更新程序。";
+var L_RListBetaDescription_Text = "以下试用版更新程序适用于您的计算机。请选择要安装的更新程序，然后单击“开始安装更新程序”链接。";
+var L_RListBetaTitle_Text = "选择可选的试用版更新程序";
+var L_RListBetaWarning1_Text = "<b>试用版软件可能对您的计算机有害</b><br>";
+var L_RListBetaWarning2_Text = "预发布或“试用版”产品(软件)或更新程序可能对您的计算机有害，并且 Microsoft 可能只提供有限的支持。";
+var L_RListClickForDescription_Text = "单击可显示此更新程序的说明";
+var L_RListClickToHideDescription_Text = "单击可隐藏此更新程序的说明";
+var L_RListCriticalUpdates_Text = "高优先级更新程序";
+var L_RListCriticalUpdatesBar_Text = "高优先级更新程序";
+var L_RListCriticalUpdatesTitle_Text = "复查高优先级更新程序";
+var L_RListDeviceUnknown_Text = "Windows Update 建议安装此更新程序，因为您的计算机上适用于该驱动程序的设备似乎尚未安装驱动程序。";
+var L_RListDeviceDisabled_Text = "Windows Update 建议 安装此 更新程序，因为您的计算机上 适用于该驱动程序的 设备似乎被禁用。";
+var L_RListDeviceProblem_Text = "Windows Update 建议 安装此 更新程序，因为您的计算机上 适用于该驱动程序的 设备似乎无法正常使用。";
+var L_RListDownloadSize_Text = "下载大小: ";
+var L_RListDownloadSizeTypical_Text = "典型下载大小: ";
+var L_RListDriversDescription_Text = "以下可选更新程序适用于您的计算机。请选择要安装的更新程序，然后单击“开始安装更新程序”链接。";
+var L_RListDriversTitle_Text = "选择可选的硬件更新程序";
+var L_RListHiddenTitle_Text = "还原隐藏的更新程序";
+var L_RListHiddenUpdatesBar_Text = "隐藏的更新程序";
+var L_RListHideThisUpdate_Text = "隐藏此更新程序";
+var L_RListInfoGifAlt_Text = "此更新程序已经下载到您的计算机上。如果选择此项目，Windows Update 将完成此更新程序的安装。";
+var L_RListItems_Text = "个项目";
+var L_RListLessThan_Text = "少于";
+var L_RListNoUpdatesAvailable_Text = "没用可用更新程序";
+var L_RListOptionalBetaUpdatesBar_Text = "可选的试用版更新程序";
+var L_RListOptionalHardwareUpdatesBar_Text = "可选的硬件更新程序";
+var L_RListOptionalSoftwareUpdatesBar_Text = "可选的软件更新程序";
+var L_RListOptionalUpdates_Text = "可选更新程序";
+var L_RListOtherUpdates_Text = "其他更新程序";
+var L_RListOtherOptionalUpdates_Text = "其他可选更新程序";
+var L_RListOtherCriticalUpdates_Text = "其他高优先级更新程序";
+var L_RListProductTitle_Text = "选择可选的软件更新程序";
+var L_RListReadMore_Text = "详细信息...";
+var L_RListSingleInstallation_Text = "<b>已选择要安装需单独安装的更新程序</b><br/>此页中的更新程序当前不可用，因为已经选择要安装需单独安装的更新程序，该更新程序不能与其他更新程序同时安装。安装后，您可以返回 Windows Update 为您的计算机选择其他更新程序。";
+var L_RListSingleInstallationTitle_Text = "单独安装: ";
+var L_RListUpdates_Text = "更新程序";
+var L_RListHiddenCriticalPresent1_Text = "<b>某些高优先级更新程序是隐藏的 </b><br/>Microsoft 建议安装所有高优先级更新程序以确保您计算机的安全。要安装隐藏的更新程序，请转至";
+var L_RListHiddenCriticalPresent2_Text = "还原隐藏的更新程序";
+var L_RListHiddenCriticalPresent3_Text = "页。";
+var L_RListSelectall_Text = "全选";
+var L_RList100_Text = "高优先级更新程序是关键更新程序或与安全性有关的更新程序。";
+var L_RList101_Text = "没有选择要安装的高优先级更新程序。Microsoft 建议您安装高优先级更新程序，以保持您的计算机使用最新程序并且安全可靠。要查看适用于您的计算机的可选更新程序，请单击“主页”链接下面的可选更新程序链接之一。";
+var L_RList102a_Text = "Microsoft 强烈建议您安装以下高优先级更新程序，以保持您的计算机使用最新程序并且安全可靠。";
+var L_RList102b_Text = "<b>需单独安装的更新程序不能与其他更新程序同时安装。</b> <br>请选择是首先安装需单独安装的更新程序，还是首先安装所有其他高优先级更新程序，然后单击“开始安装更新程序”链接。安装后，返回 Windows Update 以安装其余更新程序。";
+var L_RList103_Text = "Microsoft 强烈建议您安装以下高优先级且需单独安装的更新程序，以保持您的计算机使用最新程序并且安全可靠。要进行安装，请单击“开始安装更新程序”链接。";
+var L_RList104_Text = "Microsoft 强烈建议您安装以下高优先级更新程序，以保持您的计算机使用最新程序并且安全可靠。要安装这些更新程序，请单击“开始安装更新程序”链接。";
+var L_RList105a_Text = "Microsoft 强烈建议您安装以下高优先级更新程序，以保持您的计算机使用最新程序并且安全可靠。";
+var L_RList105b_Text = "<b>需单独安装的更新程序不能与其他更新程序同时安装。</b> <br>请选择要安装的需单独安装的更新程序，然后单击“开始安装更新程序”。安装后，返回 Windows Update 以安装其余更新程序。";
+var L_RList200_Text = "可选更新程序是您可能要安装的非关键更新程序。";
+var L_RList201_Text = "没有可用的可选更新程序。";
+var L_RList202a_Text = "以下可选更新程序适用于您的计算机。";
+var L_RList202b_Text = "<b>需单独安装的更新程序不能与其他更新程序同时安装。</b> <br>请选择是首先安装需单独安装的更新程序，还是首先安装其他可选更新程序，然后单击“开始安装更新程序”链接。安装后，返回 Windows Update 以安装其余更新程序。";
+var L_RList203_Text = "以下可选更新程序适用于您的计算机。需单独安装的更新程序不能与其他更新程序同时安装。选择要安装的更新程序，然后单击“开始安装更新程序”链接。安装后，您可以返回 Windows Update 为您的计算机选择其他更新程序。";
+var L_RList204_Text = "以下可选更新程序适用于您的计算机，请选择要安装的更新程序，然后单击“开始安装更新程序”链接。";
+var L_RList205a_Text = "以下可选更新程序适用于您的计算机。";
+var L_RList205b_Text = "<b>需单独安装的更新程序不能与其他更新程序同时安装。</b> <br>请选择要安装的需单独安装的更新程序，然后单击“开始安装更新程序”链接。安装后，返回 Windows Update 以安装其余更新程序。";
+var L_RList300_Text = "此页提供了已选择进行安装的更新程序的摘要。";
+var L_RList301_Text = "目前没有选择要安装的更新程序。要查看适用于您的计算机的可用更新程序，请在“主页”链接下单击某一高优先级或可选更新程序链接。";
+var L_RList302_Text = "Microsoft 强烈建议您安装以下高优先级更新程序，以保持您的计算机使用最新程序并且安全可靠。要安装这些更新程序，请单击“安装”。";
+var L_RList303_Text = "要安装以下可选更新程序，请单击“安装”。";
+var L_RList304_Text = "Microsoft 建议您安装以下高优先级和可选更新程序，以保持您的计算机使用最新程序并且安全可靠。要安装这些更新程序，请单击“安装”。";
+var L_RList400_Text = "隐藏的更新程序是那些已经从可用更新程序列表中删除的更新程序。";
+var L_RList401_Text = "没有隐藏的更新程序。您可以通过单击某个更新程序的名称然后选中“隐藏此更新程序”复选框来隐藏该更新程序。";
+var L_RList402_Text = "<P><b>需单独安装的更新程序不能与其他更新程序同时安装。<b><br> 请选择要安装的需单独安装的更新程序，然后单击“开始安装更新程序”链接。安装后，返回 Windows Update 以安装其余更新程序。";
+var L_RList403_Text = "<P><b>需单独安装的更新程序不能与其他更新程序同时安装。</b><br> 请选择要安装的需单独安装的更新程序，然后单击“开始安装更新程序”链接。安装后，返回 Windows Update 以安装其余更新程序。";
+var L_RList404_Text = "要安装某个隐藏的更新程序，请选中该更新程序的复选框，然后单击“开始安装更新程序”链接。";
+var L_RList405_Text = "<P><b>需单独安装的更新程序不能与其他更新程序同时安装。</b><br> 请选择是首先安装需单独安装的更新程序，还是首先安装其他更新程序，然后单击“开始安装更新程序”链接。安装后，返回 Windows Update 以安装其余更新程序。";
+var L_RList500_Text = "快速安装允许您仅快速下载并安装您的计算机需要的关键更新程序和安全更新程序。";
+var L_RList501_Text = "Microsoft 强烈建议您安装以下高优先级更新程序，以保持您的计算机使用最新程序并且安全可靠。要安装这些更新程序，请单击“安装”。";
+var L_RList502_Text = "您的计算机似乎使用的是最新程序；目前没有适用的关键更新程序或安全更新程序。要查看适用于您计算机的可选更新程序，请单击“主页”链接，然后单击“自定义安装”。Windows Update 将扫描可选更新程序。您可以在下载之前复查更新程序。";
+var L_RList600_Text = "此页中的更新程序是试用版软件，或者是用于更新您计算机上已安装的试用版软件。";
+var L_RList700_Text = "此页包含驱动程序更新程序…";
+var g_sControlVersion = '3790.2182';
+
+		</script>
+	</head>
+	<noscript>
+		<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=zh-cn&error=1' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=zh-cn&error=1' /><frame name='eContent'  src='errorinformation.aspx?ln=zh-cn&error=1' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=zh-cn&error=1' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+	</noscript>
+	<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=zh-cn' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=zh-cn' /><frame name='eContent'  src='splash.aspx?page=0&ln=zh-cn' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=zh-cn' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+</html>

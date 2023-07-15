@@ -1,0 +1,142 @@
+/* hcp modifications */
+
+.toppane-header {
+	vertical-align: middle;
+	padding: .45em 11px .45em 11px;
+}
+
+.toppane-body {
+	padding: 11px;
+	height: 100%;
+	overflow-y: auto;
+	
+}
+
+.toppane-body a
+{
+	color:#000000;
+}
+
+.sys-toppane-color-border {
+	border-width: 1px;
+	border-style: solid;
+}
+
+.sys-link-disabled {
+	cursor: default !important;
+	color: #999999 !important;
+}
+
+.sys-link-disabled img {
+	filter: alpha(opacity=40);
+}
+
+.sys-link-normal { color: #000000;text-decoration: none;border:1px solid #F1F1F1 }
+
+.sys-link-normal:hover { color: #000000;text-decoration: underline;background-color: #cccccc;border:1px solid #999999 }
+
+/* hcp modifications */
+
+body {
+	margin: 0px;
+	overflow: hidden;
+	border-right: 1px solid #999999;
+	border-left: 1px solid #999999;
+}
+
+body, td, button, input, select {
+	font: messagebox;
+}
+
+form { margin: 0px; }
+
+table {
+	width: 100%;
+	height: 100%;
+	table-layout: fixed; 
+}
+
+td {
+	width: 100%;
+	vertical-align: top;
+	padding: 0px;
+}
+
+div#eUserData {
+	behavior: url(#default#userData);
+	display: none;
+}
+
+a#eHardwareSupport , a#eBasketUpdates {
+	display: none;
+}
+
+div#eAvailableUpdatesDiv , div#eIndividualProductsDiv {
+	display: none;
+	margin: 0px 0px 0px 16px; /* rtl */
+	
+}
+
+div#Basket 
+{
+	margin:-25px 0px 0px 28px ; /* rtl */
+	vertical-align:top;
+}
+
+table#eAvailableUpdatesTable , table#eIndividualProductsTable
+{
+	display: none;
+	margin: 0px 0px -5px -2px;
+}
+
+.subHeader {
+	margin: 18px 0px 4px 0px;
+}
+
+/* links */
+
+a {
+	width: 100%;
+	padding: .35em 5px .35em 4px; /* rtl */
+}
+
+a i { font-style: normal; }
+a u { text-decoration: none; }
+
+ 
+a img {
+	border-width: 0px;
+	
+}
+
+
+/* links */
+
+LI
+{
+	padding: 2px;
+	margin-left: 11px;
+	list-style-type: none;
+	text-align: left;
+	text-decoration: none;
+}
+
+LI.CategoryLI 
+{
+	margin-left: 2.5px;
+}
+ 
+ul.RootUL
+{
+	text-indent: 0px ; 
+	margin-left: -18px;
+}
+
+.HideCategory ,.NoUpdates
+{
+	display:none ; 
+}
+
+
+
+

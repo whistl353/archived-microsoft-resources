@@ -1,0 +1,223 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+<script language ="javascript">
+	var iSubPage = 3;	
+	var sDir = "ltr" ;
+	if(iSubPage == parent.conSplashMandatoryUpdates){
+		var sMandatoryUpdateIndexes = "";
+	}
+	
+</script>
+   	</head>
+	<body onload="if('function' == typeof(fnInitSplashPage)) fnInitSplashPage(1, 3);">
+
+		<table cellpadding=5 cellspacing=5 border=0>
+			<tr>
+				<td width=100% align="left" valign="top">
+				
+					<table cellpadding=0 cellspacing=0 border=0 style="position:relative;left:-26;top:-21;">
+						<tr>
+							<td align="left" valign="top" width=337><img src="shared/images/Banners/pt-pt/Hdr_Welcome.jpg"></td>
+							<td align="left" valign="top" width=100% style="background-image:url(shared/images/Hdr_Tall_Middle.gif);background-repeat:repeat-x"></td>
+							<td align="left" valign="top" width=73><img src="shared/images/Hdr_Tall_Right.jpg"></td>
+						</tr>
+					</table>
+				
+					<div id="eSplashWelcome" align="left">
+						Obtenha as últimas actualizações disponíveis para o sistema operativo, software e hardware do computador.
+						O Windows Update pesquisa o computador para determinar quais são as actualizações requeridas e apresentar uma lista de actualizações personalizada.<br /><br /><br /><br />
+						<table cellpadding=5 cellspacing=0 border=0>
+							<tr height=45%>
+								<td width=21 align="left" valign="top">
+									<a name ="aExpress" id="aExpress" href="javascript:parent.fnExpressScan();" title="Inicie a pesquisa do Windows Update ao seu computador para determinar quais são as actualizações de alta prioridade de que necessita." class="sys-link-normal">
+									<img src="shared/images/arrow.gif" style="position:relative;top:-5px;left:-8px" alt="[Clique para continuar.]" title="Inicie a pesquisa do Windows Update ao seu computador para determinar quais são as actualizações de alta prioridade de que necessita."></a>
+								</td>
+								<td width=100% align="left" valign="top">
+									<a href="javascript:parent.fnExpressScan();" title="Inicie a pesquisa do Windows Update ao seu computador para determinar quais são as actualizações de alta prioridade de que necessita." class="sys-link-normal">
+									<b>Instalação Rápida (Recomendado):</b>
+									Actualizações de Alta Prioridade para o Computador</a><br />
+									<div style="padding-top:3px;">Seleccionar esta opção para efectuar uma actualização mais rápida. Procurar, transferir e instalar rapidamente apenas as instalações críticas e de segurança necessárias para o computador.</div>
+								</td>
+							</tr>
+							<tr height=10><td colspan=2>&nbsp;</td></tr>
+							<tr height=45%>
+								<td align="left" valign="top">
+									<a href="javascript:parent.fnScan();" title="Inicie a pesquisa do Windows Update ao seu computador para determinar quais são as actualizações críticas e opcionais de que necessita." class="sys-link-normal">
+									<img src="shared/images/arrow.gif" style="position:relative;top:-5px;left:-8px" alt="[Clique para continuar.]"  title="Inicie a pesquisa do Windows Update ao seu computador para determinar quais são as actualizações críticas e opcionais de que necessita."></a>
+								</td>
+								<td align="left" valign="top">
+									<a href="javascript:parent.fnScan();" title="Inicie a pesquisa do Windows Update ao seu computador para determinar quais são as actualizações críticas e opcionais de que necessita." class="sys-link-normal">
+									<b>Instalação Personalizada:</b>
+									Actualizações de Alta Prioridade e Opcionais para o Computador<br></a>
+									<div style="padding-top:3px;">Seleccione esta opção para procurar actualizações opcionais, críticas e de segurança necessárias para o computador, seleccionar as actualizações pretendidas no site e revê-las antes de as transferir.</div>
+								</td>
+							</tr>
+						</table>
+						
+					</div>
+					<div id="eSplashScanning" style="display: none;">
+						<span class="sys-font-heading3 sys-rhp-color-title">O Windows Update está a procurar actualizações disponíveis...</span><br />
+						<br>
+						<div name="fileprogress" id="fileprogress" class="progressdiv">
+					</div>
+				</td>
+				<td align="left" valign="top" width=200>
+					<div id="audivDontNotify" style="display:none;">
+						<table cellpadding=0 cellspacing=0 border=0>
+							<tr>
+								<td align="left" valign="top" height=40 width=5><img src="shared/images/AU_bg_LeftTop.gif"></td>
+								<td align="left" valign="top" height=40 width=27><img src="shared/images/AU_ShieldYellow.gif"></td>
+								<td align="left" valign="middle" height=40 width=153 style="color:white;font-weight:bold;padding-left:10px;background-image:url(shared/images/AU_bg_TopMiddle.gif);background-repeat:repeat-x">
+									Proteger o PC</td>
+								<td align="left" valign="top" height=40 width=5><img src="shared/images/AU_bg_RightTop.gif"></td>
+							</tr>
+							<tr>
+								<td align="left" valign="top" style="background-image:url(shared/images/AU_bg_LeftMiddle.gif);background-repeat:repeat-y;"></td>
+								<td align="left" valign="top" colspan=2>
+									<div style="margin-top:14px;margin-bottom:14px;" align="left">
+										Com as <b>Actualizações Automáticas</b>, o Windows pode verificar automaticamente se existem novas actualizações de segurança para o seu computador e instalá-las.
+										<br /><br />
+										<center>
+											<table cellpadding=0 cellspacing=0 border=0 style="margin-left:10px;margin-right:10px;">
+												<tr>
+													<td align="left" valign="top"><img src="shared/images/AU_Button_Left.gif"></td>
+													<td align="center" valign="middle" width=152 style="background-image:url(shared/images/AU_Button_Middle.gif);background-repeat:repeat;">
+														<center>
+														<a href="javascript:parent.fnConfigureAutomaticUpdates()" style="color:black;" class="sys-link-normal">
+														Activar as Actualizações Automáticas</center></a></td>
+													<td align="left" valign="top"><img src="shared/images/AU_Button_Right.gif"></td>
+											</table>
+										</center>
+									</div></td>
+								<td align="left" valign="top" width=5 style="background-image:url(shared/images/AU_bg_RightMiddle.gif);background-repeat:repeat-y;"></td>
+							</tr>							
+							<tr>
+								<td align="left" valign="top" width=5><img src="shared/images/AU_bg_LeftBottom.gif"></td>
+								<td align="left" valign="top" width=27 colspan=2 style="background-image:url(shared/images/AU_bg_BottomMiddle.gif);background-repeat:repeat-x;"></td>
+								<td align="left" valign="top" width=5><img src="shared/images/AU_bg_RightBottom.gif"></td>
+							</tr>
+						</table>
+					</div>
+					<div id="audivNotifyButDontDownlaod" style="display:none;">
+						<table cellpadding=0 cellspacing=0 border=0>
+							<tr>
+								<td align="left" valign="top" height=40 width=5><img src="shared/images/AU_bg_LeftTop.gif"></td>
+								<td align="left" valign="top" height=40 width=27><img src="shared/images/AU_ShieldYellow.gif"></td>
+								<td align="left" valign="middle" height=40 width=153 style="color:white;font-weight:bold;padding-left:10px;background-image:url(shared/images/AU_bg_TopMiddle.gif);background-repeat:repeat-x">
+									Actualizações Automáticas:<br>ACTIVADAS.</td>
+								<td align="left" valign="top" height=40 width=5><img src="shared/images/AU_bg_RightTop.gif"></td>
+							</tr>
+							<tr>
+								<td align="left" valign="top" style="background-image:url(shared/images/AU_bg_LeftMiddle.gif);background-repeat:repeat-y;"></td>
+								<td align="left" valign="top" colspan=2>
+									<div style="margin-top:14px;margin-bottom:14px;" align="left">
+										O seu computador está configurado para receber notificações quando novas actualizações estiverem disponíveis.<br /><br />
+										<a href="javascript:parent.fnConfigureAutomaticUpdates();" class="sys-link-normal">
+										Escolha o momento em que lhe convém instalar as actualizações.</a>
+									</div></td>
+								<td align="left" valign="top" width=5 style="background-image:url(shared/images/AU_bg_RightMiddle.gif);background-repeat:repeat-y;"></td>
+							</tr>							
+							<tr>
+								<td align="left" valign="top" width=5><img src="shared/images/AU_bg_LeftBottom.gif"></td>
+								<td align="left" valign="top" width=27 colspan=2 style="background-image:url(shared/images/AU_bg_BottomMiddle.gif);background-repeat:repeat-x;""></td>
+								<td align="left" valign="top" width=5><img src="shared/images/AU_bg_RightBottom.gif"></td>
+							</tr>
+						</table>
+					</div>
+					<div id="audivDownloadAndNotify" style="display:none;">
+						<table cellpadding=0 cellspacing=0 border=0>
+							<tr>
+								<td align="left" valign="top" height=40 width=5><img src="shared/images/AU_bg_LeftTop.gif"></td>
+								<td align="left" valign="top" height=40 width=27><img src="shared/images/AU_ShieldYellow.gif"></td>
+								<td align="left" valign="middle" height=40 width=153 style="color:white;font-weight:bold;padding-left:10px;background-image:url(shared/images/AU_bg_TopMiddle.gif);background-repeat:repeat-x">
+									Actualizações Automáticas:<br>ACTIVADAS.</td>
+								<td align="left" valign="top" height=40 width=5><img src="shared/images/AU_bg_RightTop.gif"></td>
+							</tr>
+							<tr>
+								<td align="left" valign="top" style="background-image:url(shared/images/AU_bg_LeftMiddle.gif);background-repeat:repeat-y;"></td>
+								<td align="left" valign="top" colspan=2>
+									<div style="margin-top:14px;margin-bottom:14px;" align="left">
+										O seu computador está configurado para receber notificações quando novas actualizações estiverem disponíveis.
+										<br /><br />
+										<a href="javascript:parent.fnConfigureAutomaticUpdates();" class="sys-link-normal">
+										Escolha o momento em que lhe convém instalar as actualizações.</a>
+									</div></td>
+								<td align="left" valign="top" width=5 style="background-image:url(shared/images/AU_bg_RightMiddle.gif);background-repeat:repeat-y;"></td>
+							</tr>							
+							<tr>
+								<td align="left" valign="top" width=5><img src="shared/images/AU_bg_LeftBottom.gif"></td>
+								<td align="left" valign="top" width=27 colspan=2 style="background-image:url(shared/images/AU_bg_BottomMiddle.gif);background-repeat:repeat-x;""></td>
+								<td align="left" valign="top" width=5><img src="shared/images/AU_bg_RightBottom.gif"></td>
+							</tr>
+						</table>
+					</div>
+					<div id="audivScheduledOK" style="display:none;">
+						<table cellpadding=0 cellspacing=0 border=0>
+							<tr>
+								<td align="left" valign="top" height=40 width=5><img src="shared/images/AU_bg_LeftTop_Green.gif"></td>
+								<td align="left" valign="top" height=40 width=27><img src="shared/images/AU_ShieldGreen.gif"></td>
+								<td align="left" valign="middle" height=40 width=153 style="color:white;font-weight:bold;padding-left:10px;background-image:url(shared/images/AU_bg_TopMiddle_Green.gif);background-repeat:repeat-x">
+									Actualizações Automáticas:<br>ACTIVADAS.</td>
+								<td align="left" valign="top" height=40 width=5><img src="shared/images/AU_bg_RightTop_Green.gif"></td>
+							</tr>
+							<tr>
+								<td align="left" valign="top" style="background-image:url(shared/images/AU_bg_LeftMiddle.gif);background-repeat:repeat-y;"></td>
+								<td align="left" valign="top" colspan=2>
+									<div style="margin-top:14px;margin-bottom:14px;" align="left">
+										O seu computador está configurado para receber automaticamente actualizações de segurança e críticas.
+										<br /><br />
+										<a href="javascript:parent.fnConfigureAutomaticUpdates();" class="sys-link-normal">
+										Escolha o momento em que lhe convém instalar as actualizações.</a>
+									</div></td>
+								<td align="left" valign="top" width=5 style="background-image:url(shared/images/AU_bg_RightMiddle.gif);background-repeat:repeat-y;"></td>
+							</tr>							
+							<tr>
+								<td align="left" valign="top" width=5><img src="shared/images/AU_bg_LeftBottom.gif"></td>
+								<td align="left" valign="top" width=27 colspan=2 style="background-image:url(shared/images/AU_bg_BottomMiddle.gif);background-repeat:repeat-x;""></td>
+								<td align="left" valign="top" width=5><img src="shared/images/AU_bg_RightBottom.gif"></td>
+							</tr>
+						</table>
+					</div>					
+					<br>
+					<div id="newsframediv" style="display:none;">
+						<table cellpadding=0 cellspacing=0 border=0>
+							<tr>
+								<td align="left" valign="top" height=33 width=5><img src="shared/images/News_bg_LeftTop.gif"></td>
+								<td align="left" valign="top" height=33 width=27><img src="shared/images/News_Info.gif"></td>
+								<td align="left" valign="middle" height=33 width=153 style="color:black;font-weight:bold;padding-left:10px;background-image:url(shared/images/News_bg_TopMiddle.gif);background-repeat:repeat">
+									Notícias</td>
+								<td align="left" valign="top" height=33 width=5><img src="shared/images/News_bg_RightTop.gif"></td>
+							</tr>
+							<tr>
+								<td align="left" valign="top" style="background-image:url(shared/images/News_bg_LeftMiddle.gif);background-repeat:repeat-y;"></td>
+								<td align="left" valign="top" colspan=2 style="padding:0px;">
+									<iframe id="newsframe" style="width:100%;margin-left:-5px;" frameborder="0"></iframe>
+								</td>
+								<td align="left" valign="top" width=5 style="background-image:url(shared/images/News_bg_RightMiddle.gif);background-repeat:repeat-y;"></td>
+							</tr>							
+							<tr>
+								<td align="left" valign="top" width=5><img src="shared/images/News_bg_LeftBottom.gif"></td>
+								<td align="left" valign="top" width=27 colspan=2 style="background-image:url(shared/images/News_bg_BottomMiddle.gif);background-repeat:repeat-x;""></td>
+								<td align="left" valign="top" width=5><img src="shared/images/News_bg_RightBottom.gif"></td>
+							</tr>
+						</table>					
+					</div>
+				</td>
+			</tr>
+		</table>
+	
+<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+	</body>
+</html>

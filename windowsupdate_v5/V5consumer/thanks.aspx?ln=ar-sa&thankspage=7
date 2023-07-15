@@ -1,0 +1,33 @@
+<html dir='rtl'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1256' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/rtl.css' />
+
+		<style type='text/css'>
+			table { table-layout: fixed; }
+		</style>
+</head>
+	<body onload="fnInit(3, 7);" bgcolor="white" link="#587EDC" alink="#587EDC" vlink="#587EDC">
+	
+		<font face="Tahoma, Arial, Helvetica">
+
+					<font size="3" color="#587EDC"><b>شكراً لاهتمامك بالإصدار 5 بيتا من Windows Update</b></font><br /><br />
+					<font size="2">
+					تم ترقية موقع Windows Update 5 Beta. للوصول إلى هذا الموقع، يجب الترقية إلى Windows XP Service Pack 2 Release Candidate. للحصول على المزيد من المعلومات والإرشادات الخاصة بكيفية الترقية، الرجاء زيارة <A href="http://windowsbeta.microsoft.com" style="sys-link-normal">Microsoft Windows Beta</a>
+					<p><img src="shared/images/warning_icon.gif">
+					<b>تحذير وإخطار</b> يتضمن Windows Update Version 5 برامج ما قبل النشر وخدمة تحديث ما قبل النشر. ويمكن لمختبري Microsoft Beta المسجلين فقط استخدامها ويتم توفيرها لأغراض الاختبار فقط. يعتبر استخدامها خاضعًا لـ <A href="http://go.microsoft.com/fwlink/?linkid=9482&clcid=0x409" target=_blank style="sys-link-normal">شروط الاستخدام</a>، وتخضع البرامج لأية اتفاقية ترخيص يتم توفيرها معها.
+					</font>
+				
+		</font>
+	</body>
+</html>

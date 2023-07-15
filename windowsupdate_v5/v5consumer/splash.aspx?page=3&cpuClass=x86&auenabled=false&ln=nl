@@ -1,0 +1,223 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+<script language ="javascript">
+	var iSubPage = 3;	
+	var sDir = "ltr" ;
+	if(iSubPage == parent.conSplashMandatoryUpdates){
+		var sMandatoryUpdateIndexes = "";
+	}
+	
+</script>
+   	</head>
+	<body onload="if('function' == typeof(fnInitSplashPage)) fnInitSplashPage(1, 3);">
+
+		<table cellpadding=5 cellspacing=5 border=0>
+			<tr>
+				<td width=100% align="left" valign="top">
+				
+					<table cellpadding=0 cellspacing=0 border=0 style="position:relative;left:-26;top:-21;">
+						<tr>
+							<td align="left" valign="top" width=337><img src="shared/images/Banners/nl/Hdr_Welcome.jpg"></td>
+							<td align="left" valign="top" width=100% style="background-image:url(shared/images/Hdr_Tall_Middle.gif);background-repeat:repeat-x"></td>
+							<td align="left" valign="top" width=73><img src="shared/images/Hdr_Tall_Right.jpg"></td>
+						</tr>
+					</table>
+				
+					<div id="eSplashWelcome" align="left">
+						Hier vindt u de nieuwste updates voor uw besturingssysteem, software en hardware.
+						Windows Update scant de computer om te bepalen welke updates u nodig hebt en biedt u een overzicht met updates die voor u van toepassing zijn.<br /><br /><br /><br />
+						<table cellpadding=5 cellspacing=0 border=0>
+							<tr height=45%>
+								<td width=21 align="left" valign="top">
+									<a name ="aExpress" id="aExpress" href="javascript:parent.fnExpressScan();" title="Start de Windows Update-scan van de computer om te bepalen welke essentiële updates u nodig hebt." class="sys-link-normal">
+									<img src="shared/images/arrow.gif" style="position:relative;top:-5px;left:-8px" alt="[Klik om door te gaan.]" title="Start de Windows Update-scan van de computer om te bepalen welke essentiële updates u nodig hebt."></a>
+								</td>
+								<td width=100% align="left" valign="top">
+									<a href="javascript:parent.fnExpressScan();" title="Start de Windows Update-scan van de computer om te bepalen welke essentiële updates u nodig hebt." class="sys-link-normal">
+									<b>Snelle installatie (aanbevolen):</b>
+									essentiële updates voor de computer</a><br />
+									<div style="padding-top:3px;">Kies deze optie voor de snelste update. Zoek snel essentiële updates en beveiligingspatches die de computer nodig heeft, en download en installeer de updates.</div>
+								</td>
+							</tr>
+							<tr height=10><td colspan=2>&nbsp;</td></tr>
+							<tr height=45%>
+								<td align="left" valign="top">
+									<a href="javascript:parent.fnScan();" title="Start de Windows Update-scan van de computer om te bepalen welke essentiële en optionele updates u nodig hebt." class="sys-link-normal">
+									<img src="shared/images/arrow.gif" style="position:relative;top:-5px;left:-8px" alt="[Klik om door te gaan.]"  title="Start de Windows Update-scan van de computer om te bepalen welke essentiële en optionele updates u nodig hebt."></a>
+								</td>
+								<td align="left" valign="top">
+									<a href="javascript:parent.fnScan();" title="Start de Windows Update-scan van de computer om te bepalen welke essentiële en optionele updates u nodig hebt." class="sys-link-normal">
+									<b>Aangepaste installatie:</b>
+									essentiële updates en optionele updates voor de computer<br></a>
+									<div style="padding-top:3px;">Kies deze optie als u wilt zoeken naar optionele en essentiële updates, en beveiligingspatches die de computer nodig heeft. Kies uit alle updates op de site en controleer de updates voordat u ze downloadt.</div>
+								</td>
+							</tr>
+						</table>
+						
+					</div>
+					<div id="eSplashScanning" style="display: none;">
+						<span class="sys-font-heading3 sys-rhp-color-title">Bezig met zoeken naar beschikbare updates...</span><br />
+						<br>
+						<div name="fileprogress" id="fileprogress" class="progressdiv">
+					</div>
+				</td>
+				<td align="left" valign="top" width=200>
+					<div id="audivDontNotify" style="display:none;">
+						<table cellpadding=0 cellspacing=0 border=0>
+							<tr>
+								<td align="left" valign="top" height=40 width=5><img src="shared/images/AU_bg_LeftTop.gif"></td>
+								<td align="left" valign="top" height=40 width=27><img src="shared/images/AU_ShieldYellow.gif"></td>
+								<td align="left" valign="middle" height=40 width=153 style="color:white;font-weight:bold;padding-left:10px;background-image:url(shared/images/AU_bg_TopMiddle.gif);background-repeat:repeat-x">
+									Beveilig de computer beter</td>
+								<td align="left" valign="top" height=40 width=5><img src="shared/images/AU_bg_RightTop.gif"></td>
+							</tr>
+							<tr>
+								<td align="left" valign="top" style="background-image:url(shared/images/AU_bg_LeftMiddle.gif);background-repeat:repeat-y;"></td>
+								<td align="left" valign="top" colspan=2>
+									<div style="margin-top:14px;margin-bottom:14px;" align="left">
+										Windows kan met <b>Automatische updates</b> automatisch zoeken naar nieuwe beveiligingspatches voor de computer en deze voor u installeren.
+										<br /><br />
+										<center>
+											<table cellpadding=0 cellspacing=0 border=0 style="margin-left:10px;margin-right:10px;">
+												<tr>
+													<td align="left" valign="top"><img src="shared/images/AU_Button_Left.gif"></td>
+													<td align="center" valign="middle" width=152 style="background-image:url(shared/images/AU_Button_Middle.gif);background-repeat:repeat;">
+														<center>
+														<a href="javascript:parent.fnConfigureAutomaticUpdates()" style="color:black;" class="sys-link-normal">
+														Automatische updates inschakelen</center></a></td>
+													<td align="left" valign="top"><img src="shared/images/AU_Button_Right.gif"></td>
+											</table>
+										</center>
+									</div></td>
+								<td align="left" valign="top" width=5 style="background-image:url(shared/images/AU_bg_RightMiddle.gif);background-repeat:repeat-y;"></td>
+							</tr>							
+							<tr>
+								<td align="left" valign="top" width=5><img src="shared/images/AU_bg_LeftBottom.gif"></td>
+								<td align="left" valign="top" width=27 colspan=2 style="background-image:url(shared/images/AU_bg_BottomMiddle.gif);background-repeat:repeat-x;"></td>
+								<td align="left" valign="top" width=5><img src="shared/images/AU_bg_RightBottom.gif"></td>
+							</tr>
+						</table>
+					</div>
+					<div id="audivNotifyButDontDownlaod" style="display:none;">
+						<table cellpadding=0 cellspacing=0 border=0>
+							<tr>
+								<td align="left" valign="top" height=40 width=5><img src="shared/images/AU_bg_LeftTop.gif"></td>
+								<td align="left" valign="top" height=40 width=27><img src="shared/images/AU_ShieldYellow.gif"></td>
+								<td align="left" valign="middle" height=40 width=153 style="color:white;font-weight:bold;padding-left:10px;background-image:url(shared/images/AU_bg_TopMiddle.gif);background-repeat:repeat-x">
+									Automatische updates:<br>INGESCHAKELD.</td>
+								<td align="left" valign="top" height=40 width=5><img src="shared/images/AU_bg_RightTop.gif"></td>
+							</tr>
+							<tr>
+								<td align="left" valign="top" style="background-image:url(shared/images/AU_bg_LeftMiddle.gif);background-repeat:repeat-y;"></td>
+								<td align="left" valign="top" colspan=2>
+									<div style="margin-top:14px;margin-bottom:14px;" align="left">
+										U ontvangt een melding op de computer wanneer er nieuwe updates zijn.<br /><br />
+										<a href="javascript:parent.fnConfigureAutomaticUpdates();" class="sys-link-normal">
+										Kies het tijdstip waarop u de updates wilt installeren.</a>
+									</div></td>
+								<td align="left" valign="top" width=5 style="background-image:url(shared/images/AU_bg_RightMiddle.gif);background-repeat:repeat-y;"></td>
+							</tr>							
+							<tr>
+								<td align="left" valign="top" width=5><img src="shared/images/AU_bg_LeftBottom.gif"></td>
+								<td align="left" valign="top" width=27 colspan=2 style="background-image:url(shared/images/AU_bg_BottomMiddle.gif);background-repeat:repeat-x;""></td>
+								<td align="left" valign="top" width=5><img src="shared/images/AU_bg_RightBottom.gif"></td>
+							</tr>
+						</table>
+					</div>
+					<div id="audivDownloadAndNotify" style="display:none;">
+						<table cellpadding=0 cellspacing=0 border=0>
+							<tr>
+								<td align="left" valign="top" height=40 width=5><img src="shared/images/AU_bg_LeftTop.gif"></td>
+								<td align="left" valign="top" height=40 width=27><img src="shared/images/AU_ShieldYellow.gif"></td>
+								<td align="left" valign="middle" height=40 width=153 style="color:white;font-weight:bold;padding-left:10px;background-image:url(shared/images/AU_bg_TopMiddle.gif);background-repeat:repeat-x">
+									Automatische updates:<br>INGESCHAKELD.</td>
+								<td align="left" valign="top" height=40 width=5><img src="shared/images/AU_bg_RightTop.gif"></td>
+							</tr>
+							<tr>
+								<td align="left" valign="top" style="background-image:url(shared/images/AU_bg_LeftMiddle.gif);background-repeat:repeat-y;"></td>
+								<td align="left" valign="top" colspan=2>
+									<div style="margin-top:14px;margin-bottom:14px;" align="left">
+										U ontvangt een melding op de computer wanneer er nieuwe updates zijn.
+										<br /><br />
+										<a href="javascript:parent.fnConfigureAutomaticUpdates();" class="sys-link-normal">
+										Kies het tijdstip waarop u de updates wilt installeren.</a>
+									</div></td>
+								<td align="left" valign="top" width=5 style="background-image:url(shared/images/AU_bg_RightMiddle.gif);background-repeat:repeat-y;"></td>
+							</tr>							
+							<tr>
+								<td align="left" valign="top" width=5><img src="shared/images/AU_bg_LeftBottom.gif"></td>
+								<td align="left" valign="top" width=27 colspan=2 style="background-image:url(shared/images/AU_bg_BottomMiddle.gif);background-repeat:repeat-x;""></td>
+								<td align="left" valign="top" width=5><img src="shared/images/AU_bg_RightBottom.gif"></td>
+							</tr>
+						</table>
+					</div>
+					<div id="audivScheduledOK" style="display:none;">
+						<table cellpadding=0 cellspacing=0 border=0>
+							<tr>
+								<td align="left" valign="top" height=40 width=5><img src="shared/images/AU_bg_LeftTop_Green.gif"></td>
+								<td align="left" valign="top" height=40 width=27><img src="shared/images/AU_ShieldGreen.gif"></td>
+								<td align="left" valign="middle" height=40 width=153 style="color:white;font-weight:bold;padding-left:10px;background-image:url(shared/images/AU_bg_TopMiddle_Green.gif);background-repeat:repeat-x">
+									Automatische updates:<br>INGESCHAKELD.</td>
+								<td align="left" valign="top" height=40 width=5><img src="shared/images/AU_bg_RightTop_Green.gif"></td>
+							</tr>
+							<tr>
+								<td align="left" valign="top" style="background-image:url(shared/images/AU_bg_LeftMiddle.gif);background-repeat:repeat-y;"></td>
+								<td align="left" valign="top" colspan=2>
+									<div style="margin-top:14px;margin-bottom:14px;" align="left">
+										U ontvangt automatisch beveiligingspatches en essentiële updates op de computer.
+										<br /><br />
+										<a href="javascript:parent.fnConfigureAutomaticUpdates();" class="sys-link-normal">
+										Kies het tijdstip waarop u de updates wilt installeren.</a>
+									</div></td>
+								<td align="left" valign="top" width=5 style="background-image:url(shared/images/AU_bg_RightMiddle.gif);background-repeat:repeat-y;"></td>
+							</tr>							
+							<tr>
+								<td align="left" valign="top" width=5><img src="shared/images/AU_bg_LeftBottom.gif"></td>
+								<td align="left" valign="top" width=27 colspan=2 style="background-image:url(shared/images/AU_bg_BottomMiddle.gif);background-repeat:repeat-x;""></td>
+								<td align="left" valign="top" width=5><img src="shared/images/AU_bg_RightBottom.gif"></td>
+							</tr>
+						</table>
+					</div>					
+					<br>
+					<div id="newsframediv" style="display:none;">
+						<table cellpadding=0 cellspacing=0 border=0>
+							<tr>
+								<td align="left" valign="top" height=33 width=5><img src="shared/images/News_bg_LeftTop.gif"></td>
+								<td align="left" valign="top" height=33 width=27><img src="shared/images/News_Info.gif"></td>
+								<td align="left" valign="middle" height=33 width=153 style="color:black;font-weight:bold;padding-left:10px;background-image:url(shared/images/News_bg_TopMiddle.gif);background-repeat:repeat">
+									Nieuws</td>
+								<td align="left" valign="top" height=33 width=5><img src="shared/images/News_bg_RightTop.gif"></td>
+							</tr>
+							<tr>
+								<td align="left" valign="top" style="background-image:url(shared/images/News_bg_LeftMiddle.gif);background-repeat:repeat-y;"></td>
+								<td align="left" valign="top" colspan=2 style="padding:0px;">
+									<iframe id="newsframe" style="width:100%;margin-left:-5px;" frameborder="0"></iframe>
+								</td>
+								<td align="left" valign="top" width=5 style="background-image:url(shared/images/News_bg_RightMiddle.gif);background-repeat:repeat-y;"></td>
+							</tr>							
+							<tr>
+								<td align="left" valign="top" width=5><img src="shared/images/News_bg_LeftBottom.gif"></td>
+								<td align="left" valign="top" width=27 colspan=2 style="background-image:url(shared/images/News_bg_BottomMiddle.gif);background-repeat:repeat-x;""></td>
+								<td align="left" valign="top" width=5><img src="shared/images/News_bg_RightBottom.gif"></td>
+							</tr>
+						</table>					
+					</div>
+				</td>
+			</tr>
+		</table>
+	
+<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+	</body>
+</html>

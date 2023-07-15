@@ -1,0 +1,67 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+</head>
+<body onload="if('function' == typeof(fnWriteInstallResult)) fnWriteInstallResult(1);">
+	<div name= "DivPageTitle" id="DivPageTitle" class="sys-font-heading3 sys-rhp-color-title">
+		Installationsübersicht
+	</div>
+	<br />
+	
+	<div id="Successfulupdates" style="display:none;">
+		<span><img src="shared/images/ok.gif" align="absmiddle" />&nbsp;Die folgenden Updates wurden erfolgreich installiert:</span><br/><br/>
+		<b>
+		<ul id="SuccessfulUpdatesList" style="margin-left:35px;">
+		</ul>
+		</b>
+	</div>
+	<br/><br/> 
+	
+	<div id="Failedupdates" style="display:none;">
+		<span><img src="shared/images/warning.gif" align="absmiddle" />&nbsp;Die folgenden Updates wurden nicht erfolgreich installiert:</span><br/><br/>
+		<b>
+		<ul id="FailedUpdatesList" style="margin-left:35px;">
+		</ul>
+		</b><br/>
+		Weitere Informationen über die Fehler finden Sie unter <a href="history.aspx?ln=de" class="sys-link-normal">Installationsverlauf anzeigen</a>.
+	</div>
+	<br/><br/>
+	
+	<div id="Declinedupdates" style="display:none;">
+		<span><img src="shared/images/warning.gif" align="absmiddle" />&nbsp;Die folgenden Updates wurden nicht installiert, da Sie dem Endbenutzer-Lizenzvertrag (EULA) nicht zugestimmt haben. Installieren Sie das Update erneut, und stimmen Sie dem EULA zu, wenn Sie von Windows Update dazu aufgefordert werden.</span><br/><br/>
+		<b>
+		<ul id="DeclinedUpdatesList" style="margin-left:35px;">
+		</ul>
+		</b>
+	</div>
+	<br/><br/>
+	<div id="RemainingUpdates" style="display:none;">
+		<span><img src="shared/images/info_16x.gif" align="absmiddle" />&nbsp;Die folgenden wichtigen Updates müssen möglicherweise noch installiert werden:</span><br/><br/>
+		<b>
+			<ul id="RemainingUpdatesList" style="margin-left:35px;"> 
+			</ul>
+		</b>
+		<br/><br/>
+	</div>
+	
+	<div id="ScanButton" style="display:none;">
+		<span><img src="shared/images/arrow.gif" align="absmiddle" />&nbsp;<a id="eScan" class="sys-link-normal">Verbleibende Updates überprüfen und jetzt installieren</a>
+	</div>
+	
+	<div id="RebootInstructions" style="display:none;">
+		Die Installation ist erst abgeschlossen, wenn Sie Windows neu starten. Speichern Sie alle Daten, und schließen Sie alle Programme, falls Sie den Computer jetzt neu starten möchten. Klicken Sie auf <b>Start</b>, dann auf <b>Beenden</b>, und wählen Sie <b>Neu starten</b> aus.
+	</div>
+	 <iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' /> 
+  </body>
+</html>

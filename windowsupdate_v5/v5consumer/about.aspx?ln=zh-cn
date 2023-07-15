@@ -1,0 +1,448 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=gb2312' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+<body onload="fnInit(5, -1);">
+	<span class="sys-font-heading3 sys-rhp-color-title">
+		Windows Update: 常见问题
+	</span><br>
+	<br>
+	
+		<div class="8pt">
+		
+			<li><A class='sys-link-normal' HREF='#usingWU'><b>使用 Windows Update</b></a></li>
+			<li><A class='sys-link-normal' HREF='#SupportVL'><b>支持的版本和语言</b></a></li>
+			<li><A class='sys-link-normal' HREF='#TShooter'><b>疑难解答</b></a></li>
+			<li><A class='sys-link-normal' HREF='#NWAD'><b>网络和高级信息</b></a></li>
+		
+		<p>
+			<A class="aboutHeader" name='usingWU' >使用 Windows Update</a>
+			
+			<p>
+				<b>什么是 Windows Update?</b><br>
+				它是 Microsoft 提供的一个网站，专用于为 Windows 操作系统软件和基于 Windows 的硬件提供更新程序。更新程序可以解决已知的问题并可帮助修补已知的安全漏洞。
+				<p>
+				提示:<bt>
+				<ul style='margin-left:40px'> 
+					<li>如果您打开了“自动更新”功能，Windows Update 可在第一时间将高优先级更新程序发送到您的计算机。您可以决定安装更新程序的时间和方式。</li>
+				</ul>
+			</p>
+		
+			<p>
+				<b>Windows Update 的工作原理是什么?</b><br>
+				当您访问该网站时，Windows Update 将扫描您的计算机并通知适用于您的软件和硬件的更新程序。您可选择要安装的更新程序以及安装方式。
+			</p>
+		
+			<p>
+				<b>我可以获得哪些类型的更新程序?</b><br>
+					Microsoft 发布的<A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=22935' target='_blank' >更新程序类型</a>多种多样，可用于解决形形色色的问题。为了更加方便您获得最重要的更新程序(帮助保护您的计算机和信息的更新程序)，Windows Update 采用以下类别:
+				<ul style='margin-left:40px'> 
+				<li><b>高优先级</b><br>
+					应在第一时间并且先于任何其他更新程序进行安装的关键更新程序、安全更新程序、Service Pack 和更新汇总。</li>
+				<li><b>软件(可选)</b><br> 
+					Windows 程序(如 Windows Media® Player 和 Windows Journal Viewer 1.5)的非关键修复程序。</li>
+				<li><b>硬件(可选)</b><br>
+					驱动程序和其他硬件设备(如视频卡、声卡、扫描仪、打印机和照相机)的非关键修复程序。</li> 
+				</ul>
+			</p>
+		
+			<p>
+				<b>快速安装与自定义安装有何不同?</b><br>
+				<ul style='margin-left:40px'>
+					<li><b>快速安装(推荐)</b>显示适用于您的计算机的所有高优先级更新程序，通过单击即可进行安装。这是保持您的计算机使用最新程序的最为方便快捷的方法。
+					<li><b>自定义安装</b>显示适用于您的计算机的高优先级更新程序和可选更新程序。您可以逐个复查和选择要安装的更新程序。
+				</ul>
+			</p>
+		
+			<p>
+				<b>我是否需要安装可选更新程序?</b><br>
+				否。可选更新程序的作用是解决次要问题或向您的计算机添加非关键功能。较其更重要的是安装高优先级更新程序，以便您的计算机获得最新的关键软件和与安全性相关的软件。
+			</p>
+		
+			<p>
+				<b>我能否自动获取更新程序?</b><br>
+				在已打开“自动更新”功能的情况下可以。Windows 将检测适用于您的计算机的最新高优先级更新程序并根据您的自动更新设置安装更新程序。
+			</p>
+		
+			<p>
+				<b>“自动更新”是否等同于 Windows Update?</b><br>
+				是的，但“自动更新”只提供高优先级更新程序。要获取可选更新程序，您仍需访问 Windows Update 网站。
+			</p>
+		
+			<p>
+				<b>什么是“自动更新”?</b><br>
+				它是一个与 Windows Update 结合使用的功能，可在第一时间提供关键更新程序和与安全性相关的更新程序。当您打开“自动更新”功能(推荐)后，Windows 将自动查找适用于您的计算机的高优先级更新程序，然后由您来决定安装更新程序的方式和时间。
+			</p>
+		
+			<p>
+				<b>在安装某个更新程序之前如何获取有关该更新程序的详细信息?</b><br>
+				单击每个更新程序的名称即可查看其说明。要查看系统要求和支持信息，请单击每个说明中提供的“详细信息”链接。
+			</p>
+		
+			<p>
+				<b>安装更新程序是否需要执行一些操作?</b><br>
+				有时需要。有些更新程序要求您接受《最终用户许可协议》(EULA)、回答关于安装进程的问题或在安装更新程序之前重新启动计算机。
+			</p>
+		
+			<p>
+				<b>如果我选择“隐藏此更新程序”会怎样?</b><br>
+				Windows Update 将不再要求您复查或安装该更新程序。但是，如果您隐藏了某个高优先级更新程序，则 Windows Update 可能会提示您缺少对于计算机安全而言至关重要的更新程序。
+			</p>
+		
+			<p>
+				<b>在隐藏了某个更新程序之后如何将其还原?</b><br>
+				在 Windows Update 网站上，单击“还原隐藏的更新程序”，然后复查并安装所需的更新程序。
+			</p>
+		
+			<p>
+				<b>Windows Update 多长时间发布一次更新程序?</b><br>
+				与安全性相关的更新程序每月发布一次。但是，如果出现安全威胁(例如影响基于 Windows 的计算机的、广泛传播的病毒或蠕虫)，Microsoft 则会尽快发布相应的更新程序。
+				<p>
+				其他类型的更新程序一旦准备就绪，便会发布。打开“自动更新”功能是一个好办法，这样您的计算机就可以在第一时间收到高优先级更新程序。
+				</p>
+			</p>
+		
+			<p>
+				<b>如何将 Windows Update 添加到我的受信任的网站列表中?</b><br>
+				<ul style='margin-left:40px'> 
+					<li > 在 Internet Explorer 中的“工具”菜单上，单击“Internet 选项”。</li >
+					<li > 在“安全”选项卡上，单击“受信任的站点”，然后单击“站点”。</li >
+					<li > 在“将该网站添加到区域中”下，键入(或复制并粘贴)此 URL: https://windowsupdate.microsoft.com。</li >
+					<li > 单击“添加”，然后单击“确定”。</li >
+				</ul > 
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='SupportVL' >支持的版本和语言</a>
+			<p>
+				<b>Windows Update 支持哪些操作系统?</b><br>
+				Windows Update 和“自动更新”功能支持以下版本的 Windows:
+			</p>
+		
+			<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+				<colgroup>
+					<col style='WIDTH: 33%;padding-left:15px'>
+					<col style='WIDTH: 33%;text-align: center'>
+					<col style='WIDTH: 33%;text-align: center'>
+				</colgroup>
+				<tbody>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">当前更新程序和即将发布的更新程序</td>
+						<td class="FAQtd4">Windows Update 网站</td>
+						<td class="FAQtd3">自动更新</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows Millennium Edition</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows 2000</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows XP</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows NT Server</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows Server 2003</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">存档的更新程序<br/>
+			(不会再发布新的更新程序)</td>
+						<td class="FAQtd4">Windows Update 网站</td>
+						<td class="FAQtd3">自动更新</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows 98</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows NT Workstation</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					
+				</tbody>
+			</table>
+			
+			<p>
+				<b>我可以使用哪些浏览器版本访问 Windows Update?</b><br>
+				Microsoft Internet Explorer 5 和更高版本。要在查看该站点时获得最佳效果，请使用 <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24748' target='_blank' >Internet Explorer 6</a>。
+			</p>
+		
+			<p>
+				<b>如何查看我所用 Internet Explorer 的版本?</b><br>
+				在 Internet Explorer 中的“帮助”菜单上，单击“关于 Internet Explorer”。
+			</p>
+		
+			<p>
+				<b>我能否用其他语言查看 Windows Update 网站? </b><br>
+				可以，但显示更新程序信息的语言将不再与您查看该网站上的链接、选项和说明时所使用的语言相同。更新程序的名称和详细信息都将使用您的计算机的默认语言进行显示。
+			</p>
+		
+			<p>
+				<b>如何更改我的语言设置?</b><br>
+				<ul style='margin-left:40px'> 
+					<li >在 Windows Update 网站上，单击“设置”。</li >
+					<li >选择查看 Windows Update 时希望使用的语言，然后单击“应用更改”。</li >
+					<li >当系统要求您确认该更改时，执行以下操作之一:</li >
+					<ul style='margin-left:40px'>
+						<li >要立即更改您的语言设置，请单击“确定”。<br >
+							(您将需要重新复查和选择更新程序。)</li >
+						<li >要在安装完所选的更新程序后再使用新语言，请单击“取消”。<br>
+							(在您下次访问 Windows Update 时，将应用您的新语言设置。)</li >
+					</ul >
+				</ul>
+			</p>
+		
+			<p>
+				<b>为何 Windows Update 要推荐一种语言供我使用?</b><br>
+				该推荐语言与您的计算机的默认语言设置相匹配。如果使用推荐的语言，在查看该网站时使用的语言将与适用于您的计算机的更新程序的名称和详细信息的显示语言相同。
+			</p>
+		
+			<p>
+				<b>我能否获取多种语言的更新程序?</b><br>
+				可以。Windows Update 会自动检测您的计算机上每个程序的语言设置。如果您使用了多种语言，Windows Update 就会采用相应的语言为您提供每个程序的更新版本。
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='TShooter' >疑难解答</a>
+			<p>
+				<b>如果我在完全下载某个更新程序之前取消下载进程或断开与 Internet 的连接，则会发生什么情况? </b><br>
+				在您下次连接到 Internet 时，该更新程序将从原来断开的位置继续下载。
+			</p>
+		
+			<p>
+				<b>我遇到 Internet Explorer 错误—如何更改我的设置才能使用 Windows Update?</b><br>
+				使用默认安全设置:				
+				<ul style='margin-left:40px'> 
+					<li>在 Internet Explorer 中的“工具”菜单上，单击“Internet 选项”。</li>
+					<li>在“安全”选项卡上，单击“Internet 区域”，然后单击“默认级别”。</li>
+				</ul>
+				<p>为防止出现问题，您还可以将 Windows Update 添加到您的受信任的站点列表(相关操作说明请参阅“使用 Windows Update”部分)。</p>
+			</p>
+		
+			<p>
+				<b>我在使用 Windows Update 时收到 ActiveX 或脚本警告—是否出了问题?</b><br>
+				否。Windows Update 使用这些技术来确定您的计算机所需要的更新程序。作为一项安全措施，Microsoft 会对 Windows Update ActiveX 控件进行数字签名。但攻击者有时会使用相同的技术来破坏您的计算机。Internet Explorer 向您发出警告，以便您决定是否信任使用这些控件的网站。
+				<p>
+				在“Internet Explorer 帮助”中进行搜索可获取有关数字证书、信任网站和选择安全设置的详细信息。(如果您不希望在使用 Windows Update 时看到警告，可以更改您的安全设置，但建议您不要这样做。如果降低了设置级别，则您的计算机就会更容易受到病毒和其他安全威胁的侵害。) 
+				</p>
+			</p>
+		
+			<p>
+				<b>为何我无法查看更新程序详细信息、安装历史详细信息或疑难解答文章?</b><br>
+				您的弹出窗口拦截软件或设置不允许您通过在网站内单击链接来打开新的浏览器窗口。
+				<p>
+				要更改弹出窗口阻止程序的设置(仅适用于 Windows XP SP2 上的 Internet Explorer 6):				
+				<ul style='margin-left:40px'> 
+					<li>在 Internet Explorer 中的“工具”菜单上，指向“弹出窗口阻止程序”，然后单击“弹出窗口阻止程序设置”。</li>
+					<li>执行以下操作之一:</li>
+					<ul style='margin-left:40px'>
+						<li>要仅在使用 Windows Update 时才允许弹出窗口，请在“要允许的网站地址”下键入(或复制并粘贴)此 URL: https://windowsupdate.microsoft.com，然后单击“添加”。</li>
+						<p>
+						<li>要允许在使用安全的(https://)网站时打开新的浏览器窗口，请在“筛选级别”列表中单击“低: 允许来自安全站点的弹出窗口”。</li>
+					</ul>
+				</ul>
+				<p>
+				如果您使用的是其他弹出窗口拦截软件，请检查是否可以只对您在某个网站内单击的链接更改设置。如果不行，则您可能需要在使用 Windows Update 时启用弹出窗口。
+
+			</p>
+		
+			<p>
+				<b>我在安装更新程序时遇到问题怎么办?</b><br>
+				请访问 
+		
+			<a  class="sys-link-normal" href="support.aspx?ln=zh-cn" target="eContent">
+				Windows Update 帮助和支持
+		
+			</a>
+			了解有关这些选项以及其他选项的信息:				
+				<ul style='margin-left:40px'> 
+					<li>
+		
+			<a  class="sys-link-normal" href="troubleshoot.aspx?ln=zh-cn" target="eContent">
+				Windows Update 疑难解答
+		
+			</a>
+			</li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=25127' target='_blank' >Windows Update 支持中心</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=9581' target='_blank' >Windows Update 新闻组</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21608' target='_blank' >Microsoft 在线支持中心</a>(免费解答有关 Windows Update 的问题)</li>
+				</ul>
+			</p>
+		
+			<p>
+				<b>为何我在还原隐藏的更新程序后找不到任何更新程序?</b><br>
+				您安装的另一个更新程序已解决了隐藏的更新程序所能解决的问题。例如，如果安装了 Service Pack 或更新汇总，则您的计算机可能不再需要以前隐藏的更新程序。
+			</p>
+		
+			<p>
+				<b>为何我不能将某些更新程序与其他更新程序同时安装?</b><br>
+				有些更新程序(如 Service Pack 和更新汇总)包含多个更新程序或用于解决相同的问题。
+				<p>
+					其他类型的更新程序要求您重新启动计算机才可以生效。您必须将这些更新程序分开安装。您可在随后返回到 Windows Update 以查看是否还有其他适用的更新程序。
+				<p>
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='NWAD' >网络和高级信息</a>
+			<p>
+				<b>如果我需要更新多台计算机，该怎么办?</b><br>
+				如果您拥有家庭或小型办公网络，则需要单独更新每一台计算机。
+				<p>
+					如果您是网络管理员，请转到
+		
+			<a  class="sys-link-normal" href="administrators.aspx?ln=zh-cn" target="eContent">
+				管理员选项
+		
+			</a>
+			了解有关其他更新服务(如 Windows Update 目录和 Windows Update Services)的信息。
+				<p>
+			</p>
+		
+			<p>
+				<b>什么是 Microsoft Baseline Security Analyzer (MBSA)?</b><br>
+				MBSA 是一种工具，可以扫描基于 Windows 的网络计算机中是否包含与安全性相关的常见配置错误以及是否缺少安全更新程序。它具有图形化的命令行界面，并且可以执行本地或远程扫描。它还可以为所扫描的网络中的每台计算机生成安全报告。有关详细信息，请阅读 <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27549' target='_blank' >Microsoft Baseline Security Analyzer</a> (英文版)概述。
+			</p>
+		
+			<p>
+				<b>什么是 Windows Update Services?</b><br>
+				Windows Update Services 以前称作 Software Update Services (SUS)，是 Windows Server 2003 系列的更新程序管理组件。它扫描和报告网络内所有计算机的安全设置，并且同步更新。在将中型网络更新为大型网络时，它有助于降低相关联的风险和成本。有关详细信息，请访问 Windows Server System 站点的 <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24462' target='_blank' >Windows Update Services</a>。
+			</p>
+		
+			<p>
+				<b>“自动更新”、Windows Update 和 Windows Update Services 都提供哪些类型的更新程序?</b><br>
+		
+			<br>
+			<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+				<colgroup>
+					<col style='WIDTH: 20%;padding-left:15px'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+				</colgroup>
+				<tbody>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">&nbsp;</td>
+						<td class="FAQtd4">自动更新</td>
+						<td class="FAQtd4" colspan="2">
+							Windows Update 网站
+							<table class="sys-table-cell-bgcolor2 sys-toppane-color-border"cellpadding="0" cellpadding ="0" border="0">
+								<tr>
+									<td style='font-weight: bold;WIDTH: 50%;text-align: center'>
+										快速安装
+									</td>
+									<td style='font-weight: bold;BORDER-left: 1px solid;WIDTH: 50%;text-align: center'>
+										自定义安装
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td class="FAQtd3">Windows Update Services*</td>
+					</tr>
+					<tr >
+						<td colspan="5"  class="FAQtd3"">高优先级更新程序</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">关键更新程序</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">安全修补程序</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">更新汇总</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Service Pack</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td colspan="5"  class="FAQtd3">可选更新程序</td>
+					</tr>
+					<tr >
+						<td class="FAQtd1">软件</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">硬件</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">试用版软件</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">最终设置</td>
+						<td  class="FAQtd2">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<div><br>    *网络管理员可以选择部分或全部受支持的更新程序来进行分发。</div>
+
+			<p>
+				<b>我如何获取更多更新程序或 Windows Update 未提供的更新程序?</b><br>
+				请访问以下网站:				
+				<ul style='margin-left:40px'> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21601' target='_blank' >Microsoft 下载中心</a><br> 
+					获取 Microsoft 产品的下载内容。下载内容具有 30 种语言版本。</li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=8973' target='_blank' >Windows Update 目录</a><br>
+					搜索适用于使用 Windows 操作系统的服务器和其他计算机的更新程序。</li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24459' target='_blank' >Microsoft Office Online</a><br>
+					查找 Microsoft Office System 97/98 版和更高版本的更新程序。下载内容包括模板、协助内容和剪贴画。</li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27098' target='_blank' >Microsoft Premier Support</a><br>
+					了解 Premier Support 的优势，包括诸如预发布的软件等其他更新程序。</li> 
+				</ul>
+			</p>
+		
+		</p>
+		
+	</div>
+	<iframe name='eReporting' src='blank.aspx' noresize height='0' width='0' style='DISPLAY:none'>
+</body>
+</html> </IFRAME> </BODY></HTML>

@@ -1,0 +1,45 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+		<style type='text/css'>
+			table { table-layout: fixed; }
+		</style>
+</head>
+	<body onload="fnInit(3, 6);" bgcolor="white" link="#587EDC" alink="#587EDC" vlink="#587EDC">
+	
+		<font face="Tahoma, Arial, Helvetica">
+
+			<font size="3" color="#587EDC">
+			<b>Welcome to Windows Update Version 5 Preview</b>
+			</font>
+			<font size="2">
+			<p>
+			Thank you for your interest in Microsoft Windows Update version 5 Preview program. This site previews the next version of Windows Update. Before proceeding, please read the following information carefully.
+			<p>
+			<img src="shared/images/warning_icon.gif">
+			<b>Warning and Notice</B> Windows Update version 5 includes pre-release software and a pre-release update service. They are provided for testing purposes only and technical support is not available. Use of them is subject to the <A href="http://go.microsoft.com/fwlink/?linkid=9482&clcid=0x409" target=_blank>Terms of Use</A>, and software is subject to any license agreement provided in connection with it. Microsoft intends to offer the updates available on the Windows Update version 4 site on the Windows Update version 5 Preview site concurrently. Sometimes updates may not be posted to the Windows Update version 5 Preview site as quickly as they are posted to the Windows Update version 4 site.
+			
+			<p><img src="shared/images/arrow.gif">
+			<a href="default.aspx?rc1=true">
+			<b>I have read the preceding information and would like to visit the Windows Update version 5 Preview site</b></a>
+			</font>
+			<p>&nbsp;</p>
+			<font size="1">
+			© 2004 Microsoft Corporation. All rights reserved. <A href="http://go.microsoft.com/fwlink/?linkid=9482&clcid=0x409" target=_blank>Terms of use</A>
+			</font>
+
+		</font>
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' /> 
+	</body>
+</html>

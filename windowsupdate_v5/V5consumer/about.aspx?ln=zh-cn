@@ -1,0 +1,78 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=gb2312' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+	</head>
+	<body onload="fnInit(5, -1);">
+		<span class="sys-font-heading3 sys-rhp-color-title">关于 Windows Update</span><br />
+		<div class="8pt">
+			<br>
+			Windows Update 是 Windows 的在线扩展，用于帮助您保持计算机拥有最新的程序。使用 Windows Update，可以为您计算机上的操作系统、软件及硬件选择更新程序。新的内容将定期添加到此站点，这样，您就总能获得最新的更新程序和修复程序来保护您的计算机并使它正常运行。<br /><br />
+			如果您是网络管理员或高级用户，且您需要为其他计算机下载更新，则可以访问<a href="Administrators.aspx" target ='eContent' class='sys-link-normal'>管理员选项</a>页，该页上提供了有关其他更新服务的详细信息，例如 Windows Update 目录和软件更新服务。
+			<br>
+			<br>
+
+			<a name="windowsupdate" class="aboutHeader">Windows Update</a><br />
+			<br>
+			<ol>
+				<li>
+					<b>我怎样知道我是否需要更新?</b><br />
+					<br>
+					Windows Update 将扫描您的计算机，并为您计算机上的软件、硬件量身选择适用的更新。<br /><br />
+				</li>
+				<li>
+					<b>高优先级更新非常重要!</b><br />
+					<br>
+					对您计算机的操作至关重要的任何更新都被视为“高优先级更新”或“安全更新”。提供这些更新的目的在于帮助解决已知的操作系统、软件或硬件问题，并保护您的计算机免受已知安全漏洞可能引起的损害。<br /><br />
+				    
+					如果在 Windows Update 主页上单击“快速安装”，则只需轻轻一击即可自动选择安装高优先级更新。如果单击“自定义安装”，则在查找可用更新过程中，高优先级更新将自动添加到您的“安装更新”页中；您可在随后方便时复查然后安装这些更新。<br /><br />
+				</li>
+				<li>
+					<b>如何使用 Windows Update?</b><br />
+					<br>
+					
+					首先，选择适合于您的安装方式: 快速安装或自定义安装。<br />
+					<br>
+					<b><b>注意:</b></b> 某些更新可能要求您重新启动计算机。在进行安装之前请保存您的工作并关闭所有打开的程序。<br /><br />
+					
+					<b><b>快速安装</b></b><br />
+					<br>
+					“快速安装”旨在通过接受 Microsoft 为您计算机推荐的高优先级更新，帮助您尽快获得计算机更新。</b><br />
+					<ol>
+						<li>在 Windows Update 主页上，单击“快速安装”以扫描 Windows Update 认为对您计算机的安全、维护和性能至关重要的更新。</li>
+						<li>单击“安装”按钮，然后按照屏幕上的说明进行操作。</li>
+					</ol>
+					<br>
+					<b>自定义安装</b>
+					<br><br>
+					“自定义安装”专为那些希望复查 Microsoft 推荐的高优先级更新，并为其计算机选择其他可用更新的用户而设计。</b><br />
+					<br>
+					<ol>
+						<li>在 Windows Update 主页上，单击“自定义安装”即开始扫描软硬件的可用更新。</li>
+						<li>在您浏览每个类别下列出的可用更新时，选中所需的每个更新的复选框。您还可以通过单击“详细信息”链接查看每个项目的完整说明。</li>
+						<li>选择了所需的所有更新之后，转至“安装更新”链接，单击“安装”按钮，然后按照屏幕上的说明操作。</li>
+					</ol>
+					<br>
+					<ul type=disc >
+						<li>对于更新有问题吗? 每个更新都附有一个简要说明和一个“详细信息”链接。可随时单击“详细信息”链接查看每个更新的特定信息，其中包括系统要求以及如何使用和卸载更新程序的说明(如果适用)。</b><br /><br></li>
+						<li>To see the list of updates you have installed from Windows Update, visit the
+							<a href="history.aspx?ln=zh-cn" class="sys-link-normal">查看安装历史</a>
+							page.</b><br /><br></li>
+						<li>有关 Windows Update 站点支持和您已从 Windows Update 安装的更新程序支持的详细信息，请访问
+		<a href='support.aspx' target='eContent' class='sys-link-normal'>帮助和支持</a>页。</b><br /><br></li>
+				    </ul>
+				</li>	
+			</ol>
+		</div>
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;'  />
+	</body>
+</html> 

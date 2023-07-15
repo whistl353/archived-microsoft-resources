@@ -1,0 +1,50 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+ 
+	</head>
+	<body onload="fnInit(14, -1);">
+	
+		<span class="sys-font-heading3 sys-rhp-color-title">Administrator-Optionen</span><br />
+	        <br>
+			<div class="8pt">
+
+			<b>Aktualisieren mehrerer Betriebssysteme<br /></b>
+			Updates für alle Windows-Betriebssysteme, einschließlich Softwareupdates für Server und Treiberupdates für Hardware finden Sie über eine Suche im <a href="http://go.microsoft.com/fwlink/?LinkId=8973" target="_blank" class="sys-link-normal">Windows Update-Katalog</a>.<br /><br />
+			<b>Verwalten von Updates in Netzwerken<br /></b>
+			Zum Aktualisieren von Windows-Betriebssystemen und anderen Microsoft-Produkten innerhalb der Firewall in Ihrem Unternehmen verwenden Sie die <a href="http://go.microsoft.com/fwlink/?LinkId=24462" target="_blank" class="sys-link-normal">Windows Update Services</a>. Mit dieser Lösung, die früher unter dem Namen "Software Update Services (SUS) 2.0" bekannt war, können Administratoren Systeme für die Bereitstellung ansteuern, Benutzerinteraktionen regeln, Updates entfernen, die Häufigkeit und Priorität von Updates planen und weitere Aufgaben durchführen.<br /><br />
+			Hinweis:<br />
+			<ul style="margin-left:40px">
+				<li>Mit dem Tool <a href="http://go.microsoft.com/fwlink/?LinkId=27549" target="_blank" class="sys-link-normal">Microsoft Baseline Security Analyzer (MBSA)</a> können Systeme nach typischen sicherheitsgefährdenden Konfigurationen durchsucht und Berichte hierüber erstellt werden. Dadurch wird die Installation fehlender Sicherheitsupdates für Windows-Computer erleichtert. </li>
+				<li>
+					Informationen darüber, welche Updates von "Automatische Updates", "Windows Update" und "Windows Update Services" installiert werden, finden Sie unter 
+					<a  class="sys-link-normal" href="about.aspx?ln=de" target="eContent">Häufig gestellte Fragen zu Windows Update</a>
+					.
+				</li>
+			</ul>
+			<br/><b>Weitere Updates<br /></b>
+			<ul style="margin-left:40px">
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=21601" target="_blank" class="sys-link-normal">Suchen Sie im Microsoft Download Center</a>
+			<br>Sie erhalten Downloads für alle unterstützten Microsoft-Produkte. Downloads stehen in 30 Sprachen zur Verfügung.  
+		</li>
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=24459" target="_blank" class="sys-link-normal">Besuchen Sie Microsoft Office Online</a>
+			<br>Sie finden hier Updates für das Microsoft Office System ab Version 97/98. Als Downloads stehen unter anderem Vorlagen, Hilfen und ClipArt zur Verfügung.
+		</li>
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=27098" target="_blank" class="sys-link-normal">Werden Sie Microsoft Premier Support-Kunde</a>
+			<br>Informieren Sie sich über die Vorteile von Premier Support, durch den Sie weitere Updates, wie z. B. Vorabversionssoftware, erhalten.   
+		</li>
+			</ul>
+			</div> 
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+	</body>
+</html>

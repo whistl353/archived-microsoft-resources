@@ -1,0 +1,269 @@
+//Copyright (c) Microsoft Corporation.  All rights reserved.
+
+//Control types
+var conOSUnsupported = -1;
+var conOSWin2K = 0;
+var conOSWinXP = 1;
+var conOSWin2003 = 2;
+var conOSLonghorn = 3;
+
+//OS types
+var conCtlNone = 0;
+var conCtlBeta = 1;
+var conCtlRC1or2 = 2;
+
+//V5 Thanks page types
+var conThanksDown = 1;
+var conThanksBadOS = 2;
+var conThanksWinCE = 3;
+var conThanksDatacenter = 4;
+var conThanksBadBrowser = 5;
+var conThanksRC1Intro = 6;
+var conThanksBeta = 7;
+var conThanksIE5 = 8;
+var conThanksLocale = 9;
+
+var V3Site = "http://windowsupdate.microsoft.com"
+var V4Site = "http://v4.windowsupdate.microsoft.com";
+var V5Site = "http://v5.windowsupdate.microsoft.com";
+
+var g_iControlType, g_iOSType, g_iOSSPMajor;
+var g_sUA = navigator.userAgent.toLowerCase();
+var g_sOSLang = navigator.browserLanguage.toLowerCase();
+
+fnRedirect();
+	
+function fnRedirect() {
+	// Make initial checks and do redirection as necessary
+	if(fnV5DownForMaintenance() == false) return false;
+	if(fnCheck95NT4() == false) return false;
+	if(fnCheck98() == false) return false;
+	if(fnCheckX86() == false) return false;
+	if(fnCheckDatacenter() == false) return false;
+	if(fnCheckBrowser() == false) return false;
+	if(fnCheckWinCE() == false) return false;
+
+	g_iOSType = fnCheckV5OS();
+	if(g_iOSType == conOSUnsupported) return false;	
+	
+	// We now have a good browser, and good OS
+	// See if we have a control and get control type
+	fnCheckControlType();
+
+	// Go to appropriate site
+	fnGoToSite();
+	return false;
+}
+
+function fnGoToSite() {
+	var sQuery;
+	
+	// Beta control installed -- XP SP2 --> Beta thanks page
+	//[7 part 1]
+	if((g_iOSType == conOSWinXP) && (g_iControlType == conCtlBeta)) {
+		if(curSite == 3) {
+			location.href = V5Site;
+			return false;
+		}
+		if(g_iOSSPMajor == 2) {
+			location.href = "thanks.aspx?" + "ln=" + g_sOSLang + "&thankspage=" + conThanksBeta;
+			return false;
+		}
+	} 
+
+	// Beta control or Longhorn on V3
+	//[5][7 part 2]
+	if((g_iControlType == conCtlBeta) || (g_iOSType == conOSLonghorn)) { 
+		if(curSite == 3) {
+			location.href = V5Site;
+			return false;
+		} 
+	}
+	
+	// No control installed or beta control installed -- any supported platform
+	//[6]
+	if((g_iControlType == conCtlNone) || (g_iControlType == conCtlBeta)) {
+		if(curSite == 3) {
+			location.href = V4Site;
+			return false;
+		} else {	
+			//Need to check query string to make sure the user doesn't see the thanks page a second time
+			sQuery = window.location.href.toLowerCase();
+			if(sQuery.indexOf("rc1=true") == -1) {
+				location.href = "thanks.aspx?" + "ln=" + g_sOSLang + "&thankspage=" + conThanksRC1Intro;
+				return false;
+			}
+		}
+	}
+	 
+	// RC1/2 control installed -- any supported platform
+	// [1][2][3][4]
+	if(curSite == 3) {
+		var OSLang = navigator.browserLanguage.toLowerCase();
+		location.href = V5Site + "/v5consumer/default.aspx?ln=" + OSLang;
+	}
+	return false;
+}
+
+function fnCheckControlType() {
+	var oWUWeb
+	//See if user has V5 control
+	g_iControlType = conCtlNone;
+	try {
+		oWUWeb = new ActiveXObject("SoftwareDistribution.WebControl");
+	}
+	catch(e) {
+		// No V5 control
+		oWUWeb = "";
+	}
+	// If user has control, see if beta or RC1
+	if("object" == typeof(oWUWeb)) {
+		g_iControlType = conCtlBeta;
+		g_iOSSPMajor = -1;
+		try {
+			g_iOSSPMajor = oWUWeb.GetOSVersionInfo(4,1);
+			var iTmp = oWUWeb.GetDownloadSpeed();
+			g_iControlType = conCtlRC1or2; 
+		} 
+		catch(e) {
+			if(e.number == -2147418113) { // 0x8000FFFF
+				g_iControlType = conCtlRC1or2; // RC1/2 control
+			}
+		}
+	}
+	oWUWeb = null;
+}
+
+function fnV5DownForMaintenance() {
+	// V5 - Check the down-for-maintenance indicator
+	if(curSite == 5) {
+		var sURL = "thanks.aspx?" + "ln=" + g_sOSLang + "&thankspage=" + conThanksDown + "&os=";
+		if((g_sUA.indexOf("windows nt 5.0") > 0) && (g_sDownForMaintenance2K.length > 0)) {
+			location.href = sURL + conOSWin2K;
+			return false;
+		} else if((g_sUA.indexOf("windows nt 5.1") > 0) && (g_sDownForMaintenanceXP.length > 0)) {
+			location.href = sURL + conOSWinXP;
+			return false;
+		} else if((g_sUA.indexOf("windows nt 5.2") > 0) && (g_sDownForMaintenance2003.length > 0)) {
+			location.href = sURL + conOSWin2003;
+			return false;
+		} else if((g_sUA.indexOf("windows nt 6.0") > 0) && (g_sDownForMaintenanceLonghorn.length > 0)) {
+			location.href = sURL + conOSLonghorn;
+			return false;
+		}
+	}
+	return true;
+}
+
+function fnCheckBrowser() {
+	// Check for IE5 or IE6
+	var bIE5or6;
+	var bunsupported = false;
+	bIE5or6 = ((g_sUA.indexOf("msie 5") > 0) || (g_sUA.indexOf("msie 6") > 0));
+	if(g_sUA.indexOf("opera") != -1) bunsupported = true;
+	if(!bIE5or6 || bunsupported) {
+		if(curSite == 3) {
+			location.href = V5Site + "/v5Consumer/" + "thanks.aspx?" + "ln=" + g_sOSLang + "&thankspage=" + conThanksBadBrowser;
+		} else if(curSite == 5) {
+			// Browser thanks page for V5
+			location.href = "thanks.aspx?" + "ln=" + g_sOSLang + "&thankspage=" + conThanksBadBrowser;
+		}
+		return false;
+	}
+	return true;
+}
+
+function fnCheckWinCE() {
+	// Check for Windows CE
+	if(g_sUA.indexOf("; mspie") != -1) {
+		if(curSite == 3) {
+			location.href = V5Site + "/v5Consumer/" + "thanks.aspx?" + "ln=" + g_sOSLang + "&thankspage=" + conThanksWinCE;
+		} else if(curSite == 5) {
+			// Windows CE thanks page for V5
+			location.href = "thanks.aspx?" + "ln=" + g_sOSLang + "&thankspage=" + conThanksWinCE;
+		}
+		return false;
+	}
+	return true;
+}
+
+function fnCheckDatacenter() {
+	// Check for Windows 2000 Datacenter
+	if((g_sUA.indexOf("windows nt 5.0") != -1) && (g_sUA.indexOf("; data center") != -1)) {
+		if(curSite == 3) {
+			location.href = V5Site + "/v5Consumer/" + "thanks.aspx?" + "ln=" + g_sOSLang + "&thankspage=" + conThanksDatacenter;
+		} else if(curSite == 5) {
+			// Windows 2000 Datacenter thanks page for V5
+			location.href = "thanks.aspx?" + "ln=" + g_sOSLang + "&thankspage=" + conThanksDatacenter;
+		}
+		return false;
+	}
+	return true;
+}
+	
+function fnCheck95NT4() {
+    if((g_sUA.indexOf("windows 95") > 0) || ( g_sUA.indexOf("windows nt)") >0 ) || ( g_sUA.indexOf("windows nt;") >0 )  || ( g_sUA.indexOf("windows nt 4") > 0 ) ) {
+		fnGoToV3();
+		return false;
+    } 
+	return true;
+}
+
+ 			
+function fnCheck98() {	
+	if(g_sUA.indexOf("windows 98") > 0) {
+		location.href = V4Site;
+		return false;
+	}
+	return true;
+}
+
+function fnCheckX86() {
+	if(navigator.cpuClass.toLowerCase() != "x86") {
+		location.href = V4Site;
+		return false;
+	}
+	return true;
+}
+
+function fnCheckV5OS() {
+	var iOS = conOSUnsupported;
+	if(g_sUA.indexOf("windows nt 5.0") > 0) iOS = conOSWin2K;
+	else if(g_sUA.indexOf("windows nt 5.1") > 0) iOS = conOSWinXP;
+	else if(g_sUA.indexOf("windows nt 5.2") > 0) iOS = conOSWin2003;
+	else if(g_sUA.indexOf("windows nt 6.0") > 0) iOS = conOSLonghorn;
+	if(iOS == conOSUnsupported) {
+		if(curSite == 3) {
+			location.href = V5Site + "/v5Consumer/" + "thanks.aspx?" + "ln=" + g_sOSLang + "&thankspage=" + conThanksBadOS;;
+		} else if(curSite == 5) {
+			// Bad OS thanks page for V5
+			location.href = "thanks.aspx?" + "ln=" + g_sOSLang + "&thankspage=" + conThanksBadOS;
+		}
+	}
+	return iOS;
+}
+
+function fnGoToV3() {
+	if(curSite == 3) {
+		//YOU ARE ON V3
+		document.open();
+		document.write("<FRAMESET ROWS=100%>");
+		if(g_sUA.indexOf("windows 95") > 0) { // Windows 95
+			document.write("<FRAME SRC=\"Static_w95/V31site/default.htm" + location.search + "\">");
+		}
+		else { // Windows NT
+			if(location.search == "" || location.search == null) {
+				document.write("<FRAME SRC=\"scripts/redir.dll?\">");
+			}
+			else {
+				document.write("<FRAME SRC=\"R1150/V31site/default.htm" + location.search + "\">");
+			}
+		}
+		document.write("</FRAMESET>");
+		document.close();
+	} else {
+		// not on v3, go there
+		location.href = V3Site;
+	}
+	return false;
+}

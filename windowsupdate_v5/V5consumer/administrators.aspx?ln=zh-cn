@@ -1,0 +1,35 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=gb2312' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+ 
+	</head>
+	<body onload="fnInit(14, -1);">
+	
+		<span class="sys-font-heading3 sys-rhp-color-title">管理员选项</span><br />
+	        <br>
+			<div class="8pt">
+
+			高级用户和管理员可从以下 Web 站点获得更多更新程序。<br /><br />
+
+			<a name="drivers"></a>
+			<b>Windows Update 目录</b><br />
+			Windows Update 目录提供了一个可搜索的更新程序集合，这些更新程序可以安装在运行 Windows 操作系统的服务器和其他计算机上。<br /><br />
+			<a target="_blank" class='sys-link-normal' href="http://v4.windowsupdate.microsoft.com/catalog/"> http://v4.windowsupdate.microsoft.com/catalog/ </a> <br /><br />
+	
+			<a name="software"></a>
+			<b>Windows Update Services </b><br />
+			通过使用 Windows Update Services，管理员可以在公司防火墙内的运行 Windows 2000 或 Windows Server 2003 的服务器上，以及运行 Windows 2000 Professional 或 Windows XP Professional 的计算机上安装最新的高优先级更新。<br /><br />
+			<a target="_blank" class='sys-link-normal' href="http://go.microsoft.com/fwlink/?LinkId=24462"> http://www.microsoft.com/windowsserversystem/sus/default.mspx</a><br /><br />
+		</div> 
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+	</body>
+</html>

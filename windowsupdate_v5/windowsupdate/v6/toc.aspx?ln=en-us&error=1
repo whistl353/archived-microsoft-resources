@@ -1,0 +1,76 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<meta http-equiv='X-UA-Compatible' content='IE=5; requiresActiveX=true' />
+<title>Microsoft Windows Update</title>
+<link rel='shortcut icon' href='shared/images/banners/favicon.ico' type='image/x-icon'/>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='javascript' type='text/javascript'>
+window.onerror = new Function('Message' ,'sURL' ,'sLine' , 'return true;')
+</script>
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js?637037144882057334'></script>
+<script language='JScript' type='text/javascript' src='shared/js/toc.js?637037144882057334'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/toc.css' />
+<style type='text/css'>button {padding: 0px 14px 1px 14px;width: 80px;height: 21px;overflow: visible;line-height: 15px;cursor: default;}</style>
+<base target="eContent" />
+<script language ="javascript">
+					var L_Toc_Critical_Text = "High Priority";
+				var L_Toc_Beta_Text = "Beta Software";
+				var L_Toc_Hardware_Text = "Hardware, Optional";
+				var L_Toc_Software_Text = "Software, Optional ";
+				var L_Toc_CriticalUpdatesAlt_Text = "See all critical and security-related updates your computer needs";
+				var L_Toc_SoftwareUpdatesAlt_Text = "Select from optional software updates";
+				var L_Toc_HardwareUpdatesAlt_Text = "Select from optional hardware updates";
+				var L_Toc_BetaUpdatesAlt_Text = "Select beta software and updates";
+				var L_TocProductAlt_Text = "Select updates for ";
+
+</script>
+</head>
+	<body class="toc sys-lhp-bgcolor"> 
+			
+		<div id="eUserData"></div> 
+		<form name="ePostForm" id="ePostForm" method="post"><input name="ePostData" id="ePostData" type="hidden" /></form>
+		<table cellspacing="0" class="sys-toppane-bgcolor" >
+			<tbody> 
+				<tr>  
+					<td style="height: 100%;"> 
+						<div class="toppane-body"> 
+
+							<a href="ErrorInformation.aspx?error=1&ln=en-us" class="sys-link-normal"><i></i></a><br />
+							<a id="eBasketUpdates" href="" style="padding:0px;" title="Review and install updates you've selected" class="sys-link-normal"><img src="shared/images/arrow.gif" alt="" style="position:relative;top:-5px;" /><span style="vertical-align:top;">Install Updates<i></i></span></a><br />
+							
+
+							<table style="height:10px;cellspacing:0;table-layout:auto;" border= "0">
+								<tr><td style="padding-right:5px;padding-left:5px;"><span class="subHeader sys-bottompane-header-color sys-font-body-bold">Options</span></td></tr>
+								<tr><td style="padding:0px">
+							
+
+
+									<a class="sys-link-disabled">Review your update history</a><br />
+									<a class="sys-link-disabled">Restore hidden updates</a><br />
+									<a class="sys-link-disabled">Change settings</a><br />
+
+
+								
+							<div id="eConsumerDiv4">
+								<a id="eAbout" href="about.aspx?ln=en-us" title="Get answers to frequently asked questions about updating your computer" class="sys-link-normal">FAQ</a><br />
+								<a id="eSupport" href="support.aspx?ln=en-us" title="See how to get help or support for using this website" class="sys-link-normal">Get help and support</a><br />
+								<a id="eAdmin" href="administrators.aspx?ln=en-us" title="Find tools for updating networks" class="sys-link-normal">Use administrator options</a><br />
+							</div>
+							<a id="eHardwareSupport" target="_blank" class="sys-link-normal" title="See how to get help or support for hardware problems">Find hardware support</a>
+							</td></tr>
+							</table>
+						</div>
+						
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		
+	</body>
+</html>

@@ -1,0 +1,448 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+<body onload="fnInit(5, -1);">
+	<span class="sys-font-heading3 sys-rhp-color-title">
+		Windows Update: Häufig gestellte Fragen
+	</span><br>
+	<br>
+	
+		<div class="8pt">
+		
+			<li><A class='sys-link-normal' HREF='#usingWU'><b>Verwenden von Windows Update</b></a></li>
+			<li><A class='sys-link-normal' HREF='#SupportVL'><b>Unterstützte Versionen und Sprachen</b></a></li>
+			<li><A class='sys-link-normal' HREF='#TShooter'><b>Problembehandlung</b></a></li>
+			<li><A class='sys-link-normal' HREF='#NWAD'><b>Netzwerkinformationen und Informationen für fortgeschrittene Benutzer</b></a></li>
+		
+		<p>
+			<A class="aboutHeader" name='usingWU' >Verwenden von Windows Update</a>
+			
+			<p>
+				<b>Was ist Windows Update?</b><br>
+				Windows Update ist eine Microsoft-Website, auf der Updates für Windows-Betriebssystemsoftware und unterstützte Hardware bereitgestellt werden. Updates beheben bekannte Probleme und tragen zum Schutz vor bekannten Sicherheitsrisiken bei. 
+				<p>
+				Tipp:<bt>
+				<ul style='margin-left:40px'> 
+					<li>Wenn Sie den Dienst <b>Automatische Updates</b> aktivieren, werden von Windows Update äußerst wichtige Updates auf Ihrem Computer installiert, sobald sie verfügbar sind. Sie können auswählen, wann und in welcher Weise Updates installiert werden.</li>
+				</ul>
+			</p>
+		
+			<p>
+				<b>Wie funktioniert Windows Update?</b><br>
+				Wenn Sie die Website besuchen, durchsucht Windows Update Ihren Computer und teilt Ihnen mit, welche Updates für Ihre Software und Hardware verfügbar sind. Sie können dann auswählen, welche Updates Sie auf welche Weise installieren möchten. 
+			</p>
+		
+			<p>
+				<b>Welche Arten von Updates stehen zur Verfügung?</b><br>
+					Microsoft veröffentlicht viele <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=22935' target='_blank' >Arten von Updates</a> für viele verschiedene Probleme. Damit Sie die wichtigsten Updates (zum Schutz des Computers und Ihrer Informationen) leichter abrufen können, werden von Windows Update die folgenden Kategorien verwendet:
+				<ul style='margin-left:40px'> 
+				<li><b>Wichtig</b><br>
+					Wichtige Updates, Sicherheitsupdates, Service Packs und Updaterollups, die sofort nach der Veröffentlichung und noch vor allen anderen Updates installiert werden sollten.</li>
+				<li><b>Software (optional)</b><br> 
+					Fixes für Windows-Programme, wie Windows Media® Player und Windows Journal Viewer 1.5, die nicht sicherheitsrelevant sind.</li>
+				<li><b>Hardware (optional)</b><br>
+					Nicht sicherheitsrelevante Fixes für Treiber und Hardwaregeräte, wie Grafikkarten, Soundkarten, Scanner, Drucker und Kameras.</li> 
+				</ul>
+			</p>
+		
+			<p>
+				<b>Welcher Unterschied besteht zwischen der Schnellinstallation und der benutzerdefinierten Installation?</b><br>
+				<ul style='margin-left:40px'>
+					<li>Die <b>Schnellinstallation (empfohlen)</b> zeigt alle wichtigen Updates für Ihren Computer an, so dass Sie diese mit einem Mausklick installieren können. Es ist die schnellste und einfachste Art, den Computer auf dem neuesten Stand zu halten.
+					<li>Die <b>Benutzerdefinierte Installation</b> zeigt wichtige und optionale Updates für den Computer an. Sie können hier die Updates einzeln überprüfen und zur Installation auswählen.
+				</ul>
+			</p>
+		
+			<p>
+				<b>Müssen optionale Updates installiert werden?</b><br>
+				Nein. Optionale Updates beheben kleinere Probleme oder bieten neue, nicht wesentliche Funktionen für Ihren Computer. Es ist dringlicher, wichtige Updates zu installieren, damit Ihre Computersoftware von den neuesten Sicherheitsfunktionen profitieren kann. 
+			</p>
+		
+			<p>
+				<b>Können Updates automatisch installiert werden?</b><br>
+				Ja, wenn Sie den Dienst <b>Automatische Updates</b> aktiviert haben. Windows sucht nach den neuesten wichtigen Updates für Ihren Computer und installiert diese entsprechend den Einstellungen von <b>Automatische Updates</b>. 
+			</p>
+		
+			<p>
+				<b>Sind Automatische Updates und Windows Update dasselbe?</b><br>
+				Ja, Automatische Updates bietet jedoch nur wichtige Updates. Zum Installieren optionaler Updates müssen Sie weiterhin die Windows Update-Website aufrufen.
+			</p>
+		
+			<p>
+				<b>Was ist "Automatische Updates"?</b><br>
+				Es ist ein Feature, das mit Windows Update interagiert, um wichtige und sicherheitsrelevante Updates zur Verfügung zu stellen, sobald diese verfügbar sind. Wenn Sie den Dienst <b>Automatische Updates</b> aktivieren (empfohlen), sucht Windows automatisch nach wichtigen Updates für Ihren Computer. Sie können auswählen, wann und in welcher Weise die Updates installiert werden. 
+			</p>
+		
+			<p>
+				<b>Wie erhalte ich vor der Installation eines Updates weitere Informationen über das spezifische Update?</b><br>
+				Klicken Sie auf den Namen des entsprechenden Updates, um dessen Beschreibung anzuzeigen. Klicken Sie in der Beschreibung auf den Link <b>Weitere Informationen</b>, wenn Sie die Systemanforderungen und Supportinformationen einblenden möchten.
+			</p>
+		
+			<p>
+				<b>Sind bei der Installation von Updates Benutzerinteraktionen erforderlich?</b><br>
+				Manchmal. Bei manchen Updates müssen Sie einem Endbenutzer-Lizenzvertrag (EULA) zustimmen, eine Frage zur Installation beantworten oder den Computer vor der Installation neu starten. 
+			</p>
+		
+			<p>
+				<b>Was bewirkt die Option "Dieses Update ausblenden"?</b><br>
+				Sie werden von Windows Update nicht mehr aufgefordert, das Update zu überprüfen und zu installieren. Wenn Sie jedoch ein wichtiges Update ausblenden, werden Sie möglicherweise daran erinnert, dass ein wichtiges Update für die Sicherheit Ihres Computers fehlt.
+			</p>
+		
+			<p>
+				<b>Wie kann ein ausgeblendetes Update zu einem späteren Zeitpunkt wieder eingeblendet werden?</b><br>
+				Klicken Sie auf der Windows Update-Website auf <b>Ausgeblendete Updates wiederherstellen</b>, um die gewünschten Updates zu überprüfen und zu installieren. 
+			</p>
+		
+			<p>
+				<b>Wie oft werden von Windows Update neue Updates veröffentlicht?</b><br>
+				Sicherheitsupdates werden einmal im Monat veröffentlicht. Wenn jedoch ein erhebliches Sicherheitsrisiko besteht, wie beispielsweise ein verbreiteter Virus oder Wurm, der Windows-Computer beeinträchtigt, wird von Microsoft das entsprechende Update so schnell wie möglich zur Verfügung gestellt. 
+				<p>
+				Andere Updates werden veröffentlicht, sobald sie fertig gestellt sind. Es ist empfehlenswert, den Dienst <b>Automatische Updates</b> zu aktivieren, damit Ihr Computer wichtige Updates erhält, sobald diese verfügbar sind.
+				</p>
+			</p>
+		
+			<p>
+				<b>Wie kann Windows Update der Liste vertrauenswürdiger Websites hinzugefügt werden?</b><br>
+				<ul style='margin-left:40px'> 
+					<li > Klicken Sie in Internet Explorer im Menü <b>Extras</b> auf <b>Internetoptionen</b>.</li >
+					<li > Klicken Sie auf die Registerkarte <b>Sicherheit</b>, dann auf <b>Vertrauenswürdige Sites</b> und anschließend auf die Schaltfläche <b>Sites</b>.</li >
+					<li > Geben Sie unter <b>Diese Website zur Zone hinzufügen</b> den folgenden URL ein (oder kopieren Sie ihn und fügen ihn ein): https://windowsupdate.microsoft.com.</li >
+					<li > Klicken Sie auf <b>Hinzufügen</b> und dann auf <b>OK</b>.</li >
+				</ul > 
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='SupportVL' >Unterstützte Versionen und Sprachen</a>
+			<p>
+				<b>Welche Betriebssysteme werden von Windows Update unterstützt?</b><br>
+				Windows Update und Automatische Updates unterstützen die folgenden Windows-Versionen:
+			</p>
+		
+			<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+				<colgroup>
+					<col style='WIDTH: 33%;padding-left:15px'>
+					<col style='WIDTH: 33%;text-align: center'>
+					<col style='WIDTH: 33%;text-align: center'>
+				</colgroup>
+				<tbody>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">Aktuelle und kontinuierliche Updates</td>
+						<td class="FAQtd4">Windows Update-Website</td>
+						<td class="FAQtd3">Automatische Updates</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows Millennium Edition</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows 2000</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows XP</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows NT Server</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows Server 2003</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">Archivierte Updates<br/>
+			(es werden keine neuen Updates mehr veröffentlicht)</td>
+						<td class="FAQtd4">Windows Update-Website</td>
+						<td class="FAQtd3">Automatische Updates</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows 98</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows NT Workstation</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					
+				</tbody>
+			</table>
+			
+			<p>
+				<b>Mit welchen Browser-Versionen kann auf Windows Update zugegriffen werden?</b><br>
+				Microsoft Internet Explorer ab Version 5. Am besten kann die Site jedoch mit <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24748' target='_blank' >Internet Explorer 6</a> angezeigt werden.
+			</p>
+		
+			<p>
+				<b>Wie finde ich heraus, welche Version von Internet Explorer ich verwende?</b><br>
+				Klicken Sie in Internet Explorer im Menü <b>?</b> auf <b>Info</b>.
+			</p>
+		
+			<p>
+				<b>Kann die Windows Update-Website in einer anderen Sprache angezeigt werden? </b><br>
+				Ja, die Updates werden jedoch nicht mehr in derselben Sprache angezeigt wie die Links, Optionen und Anleitungen auf der Website. Die Titel und Informationen der Updates werden in der Standardsprache Ihres Computers angezeigt.
+			</p>
+		
+			<p>
+				<b>Wie können die Spracheinstellungen des Computers geändert werden?</b><br>
+				<ul style='margin-left:40px'> 
+					<li >Klicken Sie auf der Windows Update-Website auf <b>Einstellungen</b>.</li >
+					<li >Wählen Sie die Sprache aus, in der Windows Update angezeigt werden soll, und klicken Sie anschließend auf <b>Änderungen übernehmen</b>.</li >
+					<li >Wenn Sie dann aufgefordert werden, die Änderung zu bestätigen, haben Sie folgende Möglichkeiten:</li >
+					<ul style='margin-left:40px'>
+						<li >Zum sofortigen Ändern der Spracheinstellungen klicken Sie auf <b>OK</b>. <br >
+							(Sie müssen dann die Updates erneut überprüfen und auswählen.)</li >
+						<li >Zum Anzeigen der neuen Sprache nach der Installation der ausgewählten Updates klicken Sie auf <b>Abbrechen</b>. <br>
+							(Wenn Sie das nächste Mal Windows Update aufsuchen, werden die neuen Spracheinstellungen angewendet.)</li >
+					</ul >
+				</ul>
+			</p>
+		
+			<p>
+				<b>Warum wählt Windows Update eine Sprache für den Benutzer aus?</b><br>
+				Die Anzeigesprache wird der Standardsprache Ihres Computers angeglichen. Wenn Sie diese Sprache verwenden, können Sie sich die Website in derselben Sprache anzeigen lassen, wie die Titel und Informationen der Updates, die für Ihren Computer verfügbar sind. 
+			</p>
+		
+			<p>
+				<b>Können Updates in mehreren Sprachen abgerufen werden?</b><br>
+				Ja. Windows Update erkennt die Spracheinstellungen für jedes Programm auf dem Computer automatisch. Wenn Sie mehrere Sprachen auswählen, erhalten Sie die Updates für jedes Programm in der entsprechenden Sprache.
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='TShooter' >Problembehandlung</a>
+			<p>
+				<b>Was passiert, wenn der Downloadvorgang abgebrochen wird oder die Verbindung mit dem Internet getrennt wird, bevor ein Update vollständig gedownloadet wurde? </b><br>
+				Der Download des Updates wird bei der nächsten Internetverbindung an der Stelle wieder aufgenommen, an der er unterbrochen wurde.
+			</p>
+		
+			<p>
+				<b>Internet Explorer zeigt eine Fehlermeldung an - Wie können die Einstellungen geändert werden, damit Windows Update mit Internet Explorer funktioniert?</b><br>
+				Verwenden Sie die Standardsicherheitseinstellungen:				
+				<ul style='margin-left:40px'> 
+					<li>Klicken Sie in Internet Explorer im Menü <b>Extras</b> auf <b>Internetoptionen</b>.</li>
+					<li>Klicken Sie auf der Registerkarte <b>Sicherheit</b> auf die Zone <b>Internet</b>, und klicken Sie dann auf <b>Standardstufe</b>.</li>
+				</ul>
+				<p>Sie können Windows Update auch zur Liste der vertrauenswürdigen Sites hinzufügen, um Probleme zu vermeiden (Anleitungen hierzu finden Sie im Abschnitt "Verwenden von Windows Update"). </p>
+			</p>
+		
+			<p>
+				<b>Bei der Verwendung von Windows Update werden ActiveX- oder Scripting-Warnungen angezeigt - Ist dies eine Fehlfunktion?</b><br>
+				Nein. Windows Update verwendet diese Technologien, um festzustellen, welche Updates für Ihren Computer erforderlich sind. Aus Sicherheitsgründen sind die ActiveX-Steuerelemente von Windows Update von Microsoft digital signiert. Angreifer nutzen jedoch manchmal dieselben Technologien, um Ihrem Computer zu schaden. Internet Explorer warnt Sie daher, damit Sie entscheiden können, ob Sie Websites vertrauen möchten, die diese Steuerelemente einsetzen.
+				<p>
+				Weitere Informationen über digitale Zertifikate, vertrauenswürdige Websites und die Auswahl der Sicherheitseinstellungen finden Sie in der Hilfe von Internet Explorer. (Wenn für Windows Update keine Warnungen angezeigt werden sollen, können Sie Ihre Sicherheitseinstellungen ändern. Dies wird jedoch nicht empfohlen. Wenn Sie die Sicherheitsstufe verringern, ist Ihr Computer stärker Viren oder anderen Sicherheitsrisiken ausgesetzt.) 
+				</p>
+			</p>
+		
+			<p>
+				<b>Warum können Informationen zu Updates, zum Installationsverlauf oder Artikel zur Problembehandlung nicht angezeigt werden?</b><br>
+				Ihre Popupsperrungssoftware oder andere Einstellungen verhindern das Öffnen neuer Browserfenster über Links auf einer Website. 
+				<p>
+				So ändern Sie die Popupsperrungseinstellungen (nur für Internet Explorer 6 unter Windows XP SP2)				
+				<ul style='margin-left:40px'> 
+					<li>Zeigen Sie in Internet Explorer im Menü <b>Extras</b> auf <b>Popupsperrung</b>, und klicken Sie dann auf <b>Popupsperrungseinstellungen</b>.</li>
+					<li>Wählen Sie eine der folgenden Möglichkeiten:</li>
+					<ul style='margin-left:40px'>
+						<li>Um Popupfenster nur für Windows Update zuzulassen, geben Sie unter <b>Adresse der Website, die zugelassen werden soll</b> den folgenden URL ein (oder kopieren Sie ihn und fügen ihn ein): https://windowsupdate.microsoft.com. Klicken Sie dann auf <b>Hinzufügen</b>. </li>
+						<p>
+						<li>Um neue Browserfenster auf jeder sicheren (https://) Website öffnen zu können, klicken Sie in der Liste <b>Filterungsstufe</b> auf <b>Niedrig: Popups von sicheren Sites zulassen</b>.</li>
+					</ul>
+				</ul>
+				<p>
+				Wenn Sie andere Popupsperrungssoftware verwenden, sollten Sie herausfinden, ob Sie die Einstellungen nur für Links auf einer Website ändern können. Wenn dies nicht der Fall ist, sollten Sie Popups bei der Verwendung von Windows Update zulassen. 
+
+			</p>
+		
+			<p>
+				<b>Wo finde ich Hilfe, wenn Probleme bei der Installation eines Updates auftreten?</b><br>
+				Informationen über diese Probleme und andere Optionen finden Sie unter 
+		
+			<a  class="sys-link-normal" href="support.aspx?ln=de" target="eContent">
+				Windows Update - Hilfe und Support
+		
+			</a>
+			 unter den folgenden Ressourcen:				
+				<ul style='margin-left:40px'> 
+					<li>
+		
+			<a  class="sys-link-normal" href="troubleshoot.aspx?ln=de" target="eContent">
+				Windows Update-Problembehandlung
+		
+			</a>
+			</li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=25127' target='_blank' >Windows Update-Supportcenter</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=9581' target='_blank' >Windows Update-Newsgroups</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21608' target='_blank' >Microsoft-Onlinesupport</a> (für Windows Update-Probleme kostenlos)</li>
+				</ul>
+			</p>
+		
+			<p>
+				<b>Warum finde ich ein Update nicht mehr, nachdem ich die ausgeblendeten Updates wiederhergestellt habe?</b><br>
+				Sie haben ein anderes Update bereits installiert, das dasselbe Problem behebt. Wenn Sie beispielsweise ein Service Pack oder Updaterollup installieren, ist das zuvor ausgeblendete Update möglicherweise für Ihren Computer nicht mehr erforderlich. 
+			</p>
+		
+			<p>
+				<b>Warum können manche Updates nicht gleichzeitig mit anderen Updates installiert werden?</b><br>
+				Einige Updates, wie beispielsweise Service Packs und Updaterollups, enthalten mehrere Updates oder beheben dasselbe Problem. 
+				<p>
+					Bei anderen Arten von Updates müssen Sie den Computer neu starten, damit diese wirksam werden. Diese Updates müssen eigens installiert werden. Sie können dann wieder zu Windows Update zurückkehren, um weitere Updates zu installieren. 
+				<p>
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='NWAD' >Netzwerkinformationen und Informationen für fortgeschrittene Benutzer</a>
+			<p>
+				<b>Wie können mehrere Computer aktualisiert werden?</b><br>
+				Wenn Sie ein Heimnetzwerk oder ein kleines Büronetzwerk haben, müssen Sie jeden Computer einzeln aktualisieren. 
+				<p>
+					Wenn Sie ein Netzwerkadministrator sind, wechseln Sie zu 
+		
+			<a  class="sys-link-normal" href="administrators.aspx?ln=de" target="eContent">
+				Administrator-Optionen,
+		
+			</a>
+			 um Informationen über weitere Updatedienste, wie Windows Update-Katalog und Windows Update Services, zu erhalten.
+				<p>
+			</p>
+		
+			<p>
+				<b>Was ist Microsoft Baseline Security Analyzer (MBSA)?</b><br>
+				MBSA ist ein Tool, mit dem vernetzte Windows-Computer nach typischen sicherheitsgefährdenden Konfigurationen und fehlenden Updates durchsucht werden können. Das Tool bietet eine grafische und eine Befehlszeilenoberfläche und kann lokal oder remote durchsuchen. Zudem kann ein Sicherheitsbericht für jeden durchsuchten Computer im Netzwerk erstellt werden. Weitere Informationen finden Sie in der Übersicht zu <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27549' target='_blank' >Microsoft Baseline Security Analyzer</a>. 
+			</p>
+		
+			<p>
+				<b>Was ist Windows Update Services?</b><br>
+				Windows Update Services, früher unter dem Namen "Software Update Services (SUS)" bekannt, ist die Update-Verwaltungskomponente für die Windows Server 2003-Produktfamilie. Diese Komponente durchsucht die Sicherheitseinstellungen aller Computer im Netzwerk und erstellt Berichte darüber. Außerdem werden die Updates synchronisiert. Durch Windows Update Services können Risiken und Kosten für Updates in mittleren bis größeren Netzwerken reduziert werden. Weitere Informationen hierzu finden Sie auf der Windows Server System-Site für <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24462' target='_blank' >Windows Update Services</a>. 
+			</p>
+		
+			<p>
+				<b>Welche Arten von Updates werden von Automatische Updates, Windows Update und Windows Update Services zur Verfügung gestellt?</b><br>
+		
+			<br>
+			<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+				<colgroup>
+					<col style='WIDTH: 20%;padding-left:15px'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+				</colgroup>
+				<tbody>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">&nbsp;</td>
+						<td class="FAQtd4">Automatische Updates</td>
+						<td class="FAQtd4" colspan="2">
+							Windows Update-Website
+							<table class="sys-table-cell-bgcolor2 sys-toppane-color-border"cellpadding="0" cellpadding ="0" border="0">
+								<tr>
+									<td style='font-weight: bold;WIDTH: 50%;text-align: center'>
+										Schnellinstallation
+									</td>
+									<td style='font-weight: bold;BORDER-left: 1px solid;WIDTH: 50%;text-align: center'>
+										Benutzerdefinierte Installation
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td class="FAQtd3">Windows Update Services*</td>
+					</tr>
+					<tr >
+						<td colspan="5"  class="FAQtd3"">Updates mit hoher Priorität</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Wichtige Updates</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Sicherheitspatches</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Updaterollups</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Service Packs</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td colspan="5"  class="FAQtd3">Optionale Updates</td>
+					</tr>
+					<tr >
+						<td class="FAQtd1">Software</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Hardware</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Betasoftware</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">Möglich</td>
+						<td  class="FAQtd2">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<div><br>    *Netzwerkadministratoren können jedes einzelne oder alle unterstützten Updates zur Bereitstellung auswählen.</div>
+
+			<p>
+				<b>Wie erhalte ich weitere Updates oder Updates, die nicht bei Windows Update zur Verfügung stehen?</b><br>
+				Besuchen Sie die folgenden Websites:				
+				<ul style='margin-left:40px'> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21601' target='_blank' >Microsoft Download Center</a><br> 
+					Sie erhalten Downloads für alle Microsoft-Produkte. Downloads stehen in 30 Sprachen zur Verfügung. </li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=8973' target='_blank' >Windows Update-Katalog</a><br>
+					Suchen Sie nach Updates für Server und andere Computer mit Windows-Betriebssystemen.</li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24459' target='_blank' >Microsoft Office Online</a><br>
+					Sie finden hier Updates für das Microsoft Office System ab den Versionen 97 und 98. Als Downloads stehen unter anderem Vorlagen, Hilfen und ClipArt zur Verfügung. </li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27098' target='_blank' >Microsoft Premier Support</a><br>
+					Informieren Sie sich über die Vorteile von Premier Support, durch den Sie weitere Updates, wie z. B. Vorabversionssoftware, erhalten.</li> 
+				</ul>
+			</p>
+		
+		</p>
+		
+	</div>
+	<iframe name='eReporting' src='blank.aspx' noresize height='0' width='0' style='DISPLAY:none'>
+</body>
+</html> </IFRAME> </BODY></HTML>

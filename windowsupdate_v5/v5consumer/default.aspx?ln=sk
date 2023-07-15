@@ -1,0 +1,159 @@
+
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<META http-equiv="Content-Type"  content="text/html;charset=windows-1250" />
+		<META http-equiv="MSThemeCompatible" content="Yes" />
+		<META NAME="DESCRIPTION" CONTENT="Zde najdete nejnovější aktualizace, které jsou k dispozici pro operační systém, software a hardware ve vašem počítači. Systém Windows Update prohledá počítač a nabídne výběr aktualizací, které jsou vhodné právě pro váš počítač."> 
+		<META NAME="MS.LOCALE" CONTENT="cs">
+		<META NAME="keywords" CONTENT="Windows Update; update; security; secure; up-to-date; download; driver; patch; fix; hotfix; QFE; bug; critical; high priority; service pack; Automatic Updates; Windows XP; Windows 2000; Windows Server 2003; WinXP; Win2k; Win2000; WS2k3; WS2003; .NET Server; SP">
+		<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+		<title>Microsoft Windows Update</title>
+		<object id="SusWebCtl" VIEWASTEXT></object>
+		<script language="javascript" type="text/javascript">
+			var curSite = 5;
+			var g_sDownForMaintenance2K = "";
+			var g_sDownForMaintenanceXP = "";
+			var g_sDownForMaintenance2003 = "";
+			var g_sDownForMaintenanceLonghorn = "";
+			var g_sUA = "ia_archiver".toLowerCase();
+					
+			
+		</script>
+		<script language="javascript" type="text/javascript" src="shared/js/tgar.js?9.9.2004 22:16:28"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/redirect.js?9.9.2004 22:16:28"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/commontop.js?9.9.2004 22:16:28"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/webcomtop.js?9.9.2004 22:16:28"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/survey.js?9.9.2004 22:16:28"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/spupdateids.js?9.9.2004 22:16:28"></script>
+		
+		 
+			<script language="javascript" type="text/javascript">
+				function fnSupressError(sMessage, sURL, sLine){ return true; }
+				window.onerror = fnSupressError ;
+			</script>
+		
+		<script language="javascript" type="text/javascript" defer="true">
+			var conQueryString = "ln=sk"; 
+			var conRTL = false;
+			var conDevServer = false;
+			var conCriticalUpdatesMode = false;
+			var conLangCode = "cs";
+			var conConsumerURL = "/v5consumer/";
+			var L_ScanForAvailableUpdates_Text = "Získat aktualizace programů";
+var L_ReloadingSiteText_Text = "Otevírání webu Windows Update nebylo dokončeno.\n			Chcete-li ještě čekat, klepněte na tlačítko OK.\n			Chcete-li, aby se systém Windows Update pokusil znovu web otevřít, klepněte na tlačítko Storno.";
+var L_MB_Text = "MB";
+var L_KB_Text = "kB";
+var L_Hour_Text = "hodina";
+var L_Hours_Text = "hodin";
+var L_InstallTitle_Text = "Instalace aktualizací";
+var L_Minute_Text = "minuta";
+var L_Minutes_Text = "minut";
+var L_RListNoUpdatesToInstall_Text = "Nejsou vybrány žádné aktualizace pro instalaci.";
+var L_StatusSucceeded_Text = "Úspěch";
+var L_StatusFailed_Text = "Neúspěch";
+var L_StatusAborted_Text = "Zrušeno";
+var L_UpdateName_Text = "Název aktualizace";
+var L_Status_Text = "Stav";
+var L_Date_Text = "Datum";
+var L_Source_Text = "Zdroj";
+var L_AutomaticUpdates_Text = "Automatické aktualizace";
+var L_WindowsUpdate_Text = "Web Windows Update";
+var L_ManagedServer_Text = "Klientský web produktu Windows Update Services";
+var L_DynamicUpdate_Text = "Dynamické aktualizace";
+var L_DeviceManager_Text = "Správce zařízení";
+var L_OperationModeDownload_Text = "Stahování";
+var L_OperationModeCopying_Text = "Kopírování souborů";
+var L_OperationModeRegister_Text = "Registrace";
+var L_OtherSource_Text = "Jiné zdroje";
+var L_PersonalizationSaveSettingsPrompt_Text = "Změnili jste nastavení. Chcete-li nastavení uložit, klepněte na tlačítko OK. Chcete-li pokračovat bez uložení, klepněte na tlačítko Storno.";
+var L_Next_Text = "Další";
+var L_RListBasketUpdatesNotAvailableText_Text = "Nejsou vybrány žádné aktualizace.";
+var L_NeedUserData_Text = "Tato funkce vyžaduje povolení uživatelských dat";
+var L_UserDataSaved_Text = "Vaše nastavení byla uložena";
+var L_PersonalizationReloadSite_Text = "Jazykové nastavení bylo uloženo. Systém Windows Update musí web aktualizovat, aby ho mohl zobrazit v novém jazyce. Ztratíte tak všechny výběry aktualizací. Chcete takovou aktualizaci provést?";
+var L_Previous_Text = "Předchozí";
+var L_ProxyTitle_Text = "Zadejte pověření serveru proxy";
+var L_ExpressModeHidden_Text = "Systém Windows Update a funkce automatické aktualizace vám umožňují skrýt aktualizaci, o kterou již nemáte zájem. Aktualizace, kterou požadujete, byla dříve skryta. Chcete tuto aktualizaci znovu zobrazit a nainstalovat?";
+var L_WerUpdateInstalled_Text = "Požadovaná aktualizace byla již nainstalována. Klepnutím na tlačítko OK můžete pokračovat v instalaci dalších aktualizací, které jsou pro váš počítač k dispozici.";
+var L_RListBetaDescription_Text = "Pro váš počítač jsou k dispozici následující aktualizace softwaru beta. Vyberte aktualizace, které chcete nainstalovat, a přejděte na odkaz Přejít na instalaci aktualizací.";
+var L_RListBetaTitle_Text = "Vybrat volitelné aktualizace beta";
+var L_RListBetaWarning1_Text = "<b>Software beta může poškodit váš počítač</b><br>";
+var L_RListBetaWarning2_Text = "Předběžné verze, verze beta produktů (softwaru) nebo aktualizace softwaru beta mohou poškodit váš počítač a společnost Microsoft může v takovém případě poskytnout pouze omezenou odbornou pomoc.";
+var L_RListClickForDescription_Text = "Klepnutím zobrazíte popis této aktualizace.";
+var L_RListClickToHideDescription_Text = "Klepnutím skryjete popis této aktualizace.";
+var L_RListCriticalUpdates_Text = "Nejdůležitější aktualizace";
+var L_RListCriticalUpdatesBar_Text = "Nejdůležitější aktualizace";
+var L_RListCriticalUpdatesTitle_Text = "Prohlédnout nejdůležitější aktualizace";
+var L_RListDeviceUnknown_Text = "Systém Windows Update doporučuje nainstalovat tuto aktualizaci, protože pro zařízení ve vašem počítači, pro které je tento ovladač určen, pravděpodobně není nainstalován žádný ovladač.";
+var L_RListDeviceDisabled_Text = "Systém Windows Update doporučuje nainstalovat tuto aktualizaci, protože zařízení ve vašem počítači, pro které je tento ovladač určen, je pravděpodobně zakázáno.";
+var L_RListDeviceProblem_Text = "Systém Windows Update doporučuje nainstalovat tuto aktualizaci, protože zařízení ve vašem počítači, pro které je tento ovladač určen, pravděpodobně nepracuje správně.";
+var L_RListDownloadSize_Text = "Velikost souboru ke stažení: ";
+var L_RListDownloadSizeTypical_Text = "Typická velikost souboru ke stažení: ";
+var L_RListDriversDescription_Text = "Pro váš počítač jsou k dispozici následující volitelné aktualizace. Vyberte aktualizace, které chcete nainstalovat, a klepněte na odkaz Přejít na instalaci aktualizací.";
+var L_RListDriversTitle_Text = "Vybrat volitelné aktualizace hardwaru";
+var L_RListHiddenTitle_Text = "Obnovit skryté aktualizace";
+var L_RListHiddenUpdatesBar_Text = "Skryté aktualizace";
+var L_RListHideThisUpdate_Text = "Skrýt tuto aktualizaci";
+var L_RListInfoGifAlt_Text = "Tato aktualizace již byla stažena do počítače. Je-li tato položka vybrána, systém Windows Update dokončí její instalaci.";
+var L_RListItems_Text = "";
+var L_RListLessThan_Text = "méně než";
+var L_RListNoUpdatesAvailable_Text = "Nejsou k dispozici žádné aktualizace.";
+var L_RListOptionalBetaUpdatesBar_Text = "Volitelné aktualizace softwaru beta";
+var L_RListOptionalHardwareUpdatesBar_Text = "Volitelné aktualizace hardwaru";
+var L_RListOptionalSoftwareUpdatesBar_Text = "Volitelné aktualizace softwaru";
+var L_RListOptionalUpdates_Text = "Volitelné aktualizace";
+var L_RListOtherUpdates_Text = "Ostatní aktualizace";
+var L_RListOtherOptionalUpdates_Text = "Ostatní volitelné aktualizace";
+var L_RListOtherCriticalUpdates_Text = "Ostatní nejdůležitější aktualizace";
+var L_RListProductTitle_Text = "Vybrat volitelné aktualizace softwaru";
+var L_RListReadMore_Text = "Podrobnosti...";
+var L_RListSingleInstallation_Text = "<b>Byla vybrána aktualizace pro samostatnou instalaci </b><br/>Aktualizace na této stránce jsou momentálně nedostupné, protože byla vybrána aktualizace pro samostatnou instalaci, kterou nelze instalovat současně s ostatními aktualizacemi. Po instalaci můžete přejít zpět do systému Windows Update a vybrat pro svůj počítač další aktualizace.";
+var L_RListSingleInstallationTitle_Text = "Samostatná instalace: ";
+var L_RListUpdates_Text = "aktualizace";
+var L_RListHiddenCriticalPresent1_Text = "<b>Některé nejdůležitější aktualizace jsou skryté. </b><br/>Společnost Microsoft doporučuje nainstalovat všechny nejdůležitější aktualizace, které pomáhají udržovat zabezpečení vašeho počítače. Chcete-li nainstalovat aktualizace, které jsou skryté, přejděte na stránku ";
+var L_RListHiddenCriticalPresent2_Text = "Obnovit skryté aktualizace";
+var L_RListHiddenCriticalPresent3_Text = " .";
+var L_RListSelectall_Text = "Vybrat vše";
+var L_RList100_Text = "Nejdůležitější aktualizace jsou důležité aktualizace a aktualizace související se zabezpečením.";
+var L_RList101_Text = "Pro instalaci nebudou vybrány žádné nejdůležitější aktualizace. Společnost Microsoft doporučuje nainstalovat nejdůležitější aktualizace, které pomáhají udržovat aktuálnost a zabezpečení vašeho počítače. Chcete-li zobrazit volitelné aktualizace, které jsou pro váš počítač k dispozici, klepněte na některý z odkazů na volitelné aktualizace pod odkazem Domů.";
+var L_RList102a_Text = "Společnost Microsoft důrazně doporučuje nainstalovat následující nejdůležitější aktualizace, které pomáhají udržovat aktuálnost a zabezpečení vašeho počítače.";
+var L_RList102b_Text = "<b>Samostatně instalované aktualizace nelze instalovat současně s ostatními aktualizacemi.</b> <br>Vyberte, zda chcete nejdříve nainstalovat samostatně instalovanou aktualizaci nebo zbývající nejdůležitější aktualizace. Potom přejděte na odkaz Přejít na instalaci aktualizací. Po dokončení instalace se vraťte zpět do systému Windows Update a nainstalujte zbývající aktualizace.";
+var L_RList103_Text = "Společnost Microsoft důrazně doporučuje nainstalovat následující nejdůležitější samostatně instalovanou aktualizaci , která pomáhá udržovat aktuálnost a zabezpečení vašeho počítače. Chcete-li pokračovat, klepnutím na tlačítko Přejít přejděte na odkaz Instalace aktualizací.";
+var L_RList104_Text = "Společnost Microsoft důrazně doporučuje nainstalovat následující nejdůležitější aktualizace, které pomáhají udržovat aktuálnost a zabezpečení vašeho počítače. Chcete-li tyto aktualizace nainstalovat, klepněte na odkaz Přejít na instalaci aktualizací.";
+var L_RList105a_Text = "Společnost Microsoft důrazně doporučuje nainstalovat následující nejdůležitější aktualizace, které pomáhají udržovat aktuálnost a zabezpečení vašeho počítače.";
+var L_RList105b_Text = "<b>Samostatně instalované aktualizace nelze instalovat současně s ostatními aktualizacemi.</b> <br>Vyberte k instalaci samostatně instalovanou aktualizaci a přejděte na odkaz Přejít na instalaci aktualizací. Po dokončení instalace se vraťte zpět do systému Windows Update a nainstalujte zbývající aktualizace.";
+var L_RList200_Text = "Volitelné aktualizace jsou méně důležité. Můžete je nainstalovat, pokud chcete.";
+var L_RList201_Text = "Nejsou k dispozici žádné volitelné aktualizace.";
+var L_RList202a_Text = "Pro váš počítač jsou k dispozici následující volitelné aktualizace.";
+var L_RList202b_Text = "<b>Samostatně instalované aktualizace nelze instalovat současně s ostatními aktualizacemi.</b> <br>Vyberte, zda chcete nejdříve nainstalovat samostatně instalovanou aktualizaci nebo zbývající volitelné aktualizace. Potom klepněte na odkaz Přejít na instalaci aktualizací. Po dokončení instalace se vraťte zpět do systému Windows Update a nainstalujte zbývající aktualizace.";
+var L_RList203_Text = "Pro váš počítač je k dispozici následující volitelná aktualizace. Aktualizace pro samostatnou instalaci nelze instalovat současně s ostatními aktualizacemi. Vyberte aktualizace, které chcete nainstalovat, a klepnutím na tlačítko Přejít přejděte na odkaz Instalace aktualizací. Po instalaci můžete přejít zpět do systému Windows Update a vybrat pro váš počítač další aktualizace.";
+var L_RList204_Text = "Pro váš počítač jsou k dispozici následující volitelné aktualizace. Vyberte aktualizace, které chcete nainstalovat, a klepněte na odkaz Přejít na instalaci aktualizací.";
+var L_RList205a_Text = "Pro váš počítač jsou k dispozici následující volitelné aktualizace.";
+var L_RList205b_Text = "<b>Samostatně instalované aktualizace nelze instalovat současně s ostatními aktualizacemi.</b> <br>Vyberte k instalaci samostatně instalovanou aktualizaci a klepněte na odkaz Přejít na instalaci aktualizací. Po dokončení instalace se vraťte zpět do systému Windows Update a nainstalujte zbývající aktualizace.";
+var L_RList300_Text = "Na této stránce je uveden přehled aktualizací, které jsou vybrány pro instalaci.";
+var L_RList301_Text = "V tomto okamžiku nejsou vybrány žádné aktualizace pro instalaci. Chcete-li zobrazit aktualizace, které jsou k dispozici pro váš počítač, klepněte na některý z odkazů na nejdůležitější nebo volitelné aktualizace pod odkazem Domů.";
+var L_RList302_Text = "Společnost Microsoft důrazně doporučuje nainstalovat následující nejdůležitější aktualizace, které pomáhají udržovat aktuálnost a zabezpečení vašeho počítače. Chcete-li tyto aktualizace nainstalovat, klepněte na tlačítko Nainstalovat.";
+var L_RList303_Text = "Chcete-li nainstalovat následující volitelné aktualizace, klepněte na tlačítko Instalovat.";
+var L_RList304_Text = "Společnost Microsoft doporučuje nainstalovat následující nejdůležitější a volitelné aktualizace, které pomáhají udržovat aktuálnost a zabezpečení vašeho počítače. Chcete-li tyto aktualizace nainstalovat, klepněte na tlačítko Nainstalovat.";
+var L_RList400_Text = "Skryté aktualizace jsou aktualizace, které byly odebrány ze seznamu dostupných aktualizací.";
+var L_RList401_Text = "Nejsou skryté žádné aktualizace. Chcete-li některou aktualizaci skrýt, klepněte na název aktualizace a zaškrtněte políčko Skrýt tuto aktualizaci.";
+var L_RList402_Text = "<P><b>Samostatně instalované aktualizace nelze instalovat současně s ostatními aktualizacemi.<b><br> Vyberte k instalaci samostatně instalovanou aktualizaci a klepněte na odkaz Přejít na instalaci aktualizací. Po dokončení instalace se vraťte zpět do systému Windows Update a nainstalujte zbývající aktualizace.";
+var L_RList403_Text = "<P><b>Samostatně instalované aktualizace nelze instalovat současně s ostatními aktualizacemi.</b><br> Vyberte k instalaci samostatně instalovanou aktualizaci a klepněte na odkaz Přejít na instalaci aktualizací. Po dokončení instalace se vraťte zpět do systému Windows Update a nainstalujte zbývající aktualizace.";
+var L_RList404_Text = "Chcete-li nainstalovat skrytou aktualizaci, zaškrtněte její políčko a klepněte na odkaz Přejít na instalaci aktualizací.";
+var L_RList405_Text = "<P><b>Samostatně instalované aktualizace nelze instalovat současně s ostatními aktualizacemi.</b><br> Vyberte, zda chcete nejdříve nainstalovat samostatně instalovanou aktualizaci nebo jiné aktualizace a potom klepněte na odkaz Přejít na instalaci aktualizací. Po dokončení instalace se vraťte zpět do systému Windows Update a nainstalujte zbývající aktualizace.";
+var L_RList500_Text = "Expresní instalace umožňuje rychle stáhnout a nainstalovat pouze důležité aktualizace a aktualizace zabezpečení, které váš počítač potřebuje.";
+var L_RList501_Text = "Společnost Microsoft důrazně doporučuje nainstalovat následující nejdůležitější aktualizace, které pomáhají udržovat aktuálnost a zabezpečení vašeho počítače. Chcete-li tyto aktualizace nainstalovat, klepněte na tlačítko Nainstalovat.";
+var L_RList502_Text = "Váš počítač je aktuální; v současné době nejsou k dispozici žádné důležité aktualizace ani aktualizace zabezpečení. Chcete-li zobrazit volitelné aktualizace pro svůj počítač, klepněte na odkaz Domů a potom klepněte na odkaz Vlastní instalace. Systém Windows Update vyhledá volitelné aktualizace. Před stažením si aktualizace můžete prohlédnout.";
+var L_RList600_Text = "Aktualizace na této stránce jsou buď samotné verze beta softwaru, nebo aktualizace softwaru beta ve vašem počítači.";
+var L_RList700_Text = "Na této stránce jsou uvedeny aktualizace ovladačů…";
+var g_sControlVersion = '3790.2182';
+
+		</script>
+	</head>
+	<noscript>
+		<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=sk&error=1' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=sk&error=1' /><frame name='eContent'  src='errorinformation.aspx?ln=sk&error=1' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=sk&error=1' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+	</noscript>
+	<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=sk' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=sk' /><frame name='eContent'  src='splash.aspx?page=0&ln=sk' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=sk' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+</html>

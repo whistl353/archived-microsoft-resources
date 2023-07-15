@@ -1,0 +1,116 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<link rel='shortcut icon' href='shared/images/banners/favicon.ico' type='image/x-icon'/>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='javascript' type='text/javascript'>
+window.onerror = new Function('Message' ,'sURL' ,'sLine' , 'return true;')
+</script>
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js?633249439619581460'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js?633249439619581460'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+<style type='text/css'>button {padding: 0px 14px 1px 14px;width: 80px;height: 21px;overflow: visible;line-height: 15px;cursor: default;}</style>
+	</head>
+	<body onload="fnInit(6, -1);">
+
+				
+					<table cellpadding=0 cellspacing=0 border=0 style="position:relative;left:-16;top:-10;">
+						<tr height=40>
+							<td align="left" valign="top" width=290><img src="shared/images/bannersmu/en/hdr_options_left.jpg"></td>
+							<td align="left" valign="top" width=100% style="background-image:url(shared/images/banner-bg.jpg);background-repeat:repeat-x"></td>
+							<td align="left" valign="top" width=158><img src="shared/images/bannersmu/en/banner-right.jpg"></td>
+						</tr>
+					</table>
+				
+			<span class="sys-font-heading3 sys-rhp-color-title">Help and Support</span><br />
+		
+
+		<br>
+		<div class="8pt">
+			<table>
+			<tr>
+			<td width = "40px" valign="top">
+			<img src="shared/images/questionmark.jpg">
+			</td>
+			<td width = "500px">
+				<b><a style='font-size:10pt' name="SolveProblems">Solve problems on your own</a></b><br /><br />
+					
+				<a href="about.aspx?ln=en" target="eContent" class="sys-link-normal" style='font-weight: bold'> Get answers to frequently asked questions</a>
+								
+				
+				
+				<br> See answers to frequently asked questions about using the website, troubleshooting problems, updating networks, and more.
+					 
+					<br> <br><a href="troubleshoot.aspx?ln=" target="eContent" class="sys-link-normal" style='font-weight: bold'>Try solving your problem with the Troubleshooter</a>
+				
+				
+				<br>Get step-by-step solutions when you search for help by an error description or by the error number displayed in any error messages you receive
+				<br> <br><b>Check Windows Update Newsgroup</b><br>
+								Find out if someone else has a solution for your problem, or write about a problem and get help from other users. (Some discussions available in English only.)
+				
+				
+				<ul>
+					<li><a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=9581' target='_blank' >Windows Update Newsgroup</a></li>
+				</ul>				
+				
+			</td>
+			</tr>		
+			</table>
+			<br>
+			<table>
+			<tr>
+			<td width = "40px" valign="top">
+			<img src="shared/images/questionmark.jpg">
+			</td>
+			<td width = "500px">		
+				<a style='font-size:10pt' name="Assistance"><b>Get assistance</b></a><br /><br />
+				
+				 <a class='sys-link-normal' style='font-weight: bold'  href='http://go.microsoft.com/fwlink/?linkID=25127' target='_blank'>Visit the online Support Center</a><br>
+				Find links to Knowledge Base (KB) articles and other resources, including e-mail, online, and phone support. (Charges might apply in some cases.) If any information is available in English only, you can get additional help from Microsoft in <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=27099' target='_blank' >your country or region</a>.
+		
+				<br><br> <a class='sys-link-normal' style='font-weight: bold'  href='http://go.microsoft.com/fwlink/?linkID=21608' target='_blank'>Send a problem report</a><br>
+				If you can’t solve the problem using the options above, complete an online report and let support professionals know the best way to contact you. If the form  isn’t available in your country or region, get support <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=27099' target='_blank' >by phone</a>.
+						 
+			</td>
+			</tr>		
+			</table>
+			
+			<br>
+			<hr style="color:#cccccc;height:1px">
+			<br>
+			
+			<table>
+			<tr>
+			<td width = "40px" valign="top">
+			<img src="shared/images/ibubble.gif">
+			</td>
+			<td width = "500px">
+				<a name="Beta"><b>Support for pre-release (beta) software</b></a><br />
+			
+				Support for pre-release software varies by product. We strongly recommend that you read the details provided for pre-release software or updates before you install them.
+		
+			</td>
+			</tr>		
+			</table>
+		</div>
+		
+<SCRIPT TYPE="text/javascript">
+var gProductionDomains="update.microsoft.com";
+var gDomain="c.microsoft.com";
+var gTrackEvents=0;
+var a=gProductionDomains.split(',');var b=0;for(var i=0;i<a.length;i++){if(window.location.host.indexOf(a[i])!=-1){b++;}}if(b!=0){var gDcsId="dcsyg6oep00000stdwm7iu4rf_2t8p";}if(b==0){var gDcsId="dcs96ueef10000w8gz3okt4rf_8g2k";}
+var gFpc="WT_FPC";
+</SCRIPT>
+<SCRIPT SRC="shared/js/update_webtrends.js" TYPE="text/javascript"></SCRIPT>
+<NOSCRIPT>
+<IMG ALT="" BORDER="0" ID="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://c.microsoft.com/wupixel/wt_pixel.aspx?WT.dcs_id=dcsyg6oep00000stdwm7iu4rf_2t8p&dcscfg=1&dcsuri=/nojavascript&amp;WT.js=No">
+</NOSCRIPT>
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' /> 
+	</body>
+</html>

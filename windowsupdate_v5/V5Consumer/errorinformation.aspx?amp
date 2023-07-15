@@ -1,0 +1,50 @@
+
+
+		<script language="JScript" type="text/javascript">
+			function fnPingback() {
+				var errnumber = 0x0;
+				var queryString;
+				var pingbackURL = "http://supportstats.windowsupdate.com/v5track.bin" 
+				queryString = "?v5_b1_1367_err=0x" + errnumber; 
+				pingback.location.replace(pingbackURL + queryString);
+			}
+		</script>
+
+
+<title>
+	Microsoft Windows Update
+</title>
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+<body onload="fnPingback();if(self != top &amp;&amp; 'function' ==  typeof(fnInit)) fnInit(0, 0);">
+	<br>
+	<div class='tblExclusiveSection'>
+	<table border="0" width=*>
+	<tr>
+	    <td width="20" valign="top">
+			<img src="shared/images/warning.gif" alt="Error Icon" ><span class="sys-font-heading3 sys-rhp-color-title"></span>
+		</td>
+		<td width=* valign="top">
+		<b>Windows Update has encountered an error and cannot display the requested page.</b><br /><br />
+You may wish to try one of these sources for more information about Windows Update:<br /><br />
+<a href='default.aspx?page=support.aspx' target='_parent' >Support Information</a><br />
+<a href='default.aspx?page=about.aspx' target='_parent' style='line-height:16pt;' >About Windows Update</a><br />
+<a href='default.aspx' target='_parent' >Windows Update Home Page</a><br><br>
+Error Number: 0x0<br>
+		</td>
+	</tr>
+	</table> 
+	</div>
+	<IFRAME ID="pingback" src="" HEIGHT=0 WIDTH=0></IFRAME> 
+	<br>
+	<br>
+</body>

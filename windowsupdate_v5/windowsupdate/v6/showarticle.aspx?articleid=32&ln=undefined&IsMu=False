@@ -1,0 +1,103 @@
+<script language='JScript' type='text/javascript'>
+ var sArticleId = 32;
+var sTimeAtTarget = '04/06/2008';
+var sOSLocale =  'en';
+</script><html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<link rel='shortcut icon' href='shared/images/banners/favicon.ico' type='image/x-icon'/>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='javascript' type='text/javascript'>
+window.onerror = new Function('Message' ,'sURL' ,'sLine' , 'return true;')
+</script>
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js?633430532294527269'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js?633430532294527269'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+<style type='text/css'>button {padding: 0px 14px 1px 14px;width: 80px;height: 21px;overflow: visible;line-height: 15px;cursor: default;}</style>
+<script language="JScript" type="text/javascript">
+var iarticleid = 32;
+</script>
+<script language="JScript" type="text/javascript" src="shared/js/troubleshooter.js?633430532294527269"></script>
+</head>
+<body >
+	
+	<!-- ltr lang  -->
+	
+	<!-- WU  -->
+	<table cellpadding="0" cellspacing="0" border="0" style="margin-right:-23;position:relative;left:-16;top:-10">
+		<tr>
+			<td align = left width = '498' > <img src="shared/images/banners/en/hdr_wu_left.jpg"></td>
+			<td align = left width = '100%' style="background-image:url(shared/images/hdr_wu_right.jpg);background-repeat:repeat-x"></td>
+		</tr>
+	</table>
+	
+	<div STYLE="PADDING-LEFT:20px">
+	<table>
+		<tr valign="top" >
+			<td>
+
+				<form name="ArticleDetailsForm" method="post" action="showarticle.aspx?articleid=32&amp;ln=undefined&amp;IsMu=False" id="ArticleDetailsForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJODgwNzA2NjQ0ZGQ=" />
+
+					<span id="problemtitle" style="FONT-SIZE:120%"></span>
+					
+					<table>
+					<tr>
+					<td></td>
+					<td align="right">
+					<a class="sys-link-normal" href="javascript:window.print();">
+						Print
+					</a>
+					|
+					<a class="sys-link-normal" href="javascript:window.close();" id="closelink">
+						Close
+					</a>
+					</td>
+					</tr>
+					</table>
+					<br><br>
+					<span id="problemtext"><div class='sys-toppane-bgcolor'><b>Problem description</b></div></span>
+					<br>
+					<br>
+					<span id="operatingsystems"><div class='sys-toppane-bgcolor'><b>Applicable operating systems</b></div><br><UL></UL></span>
+					<br>
+					<br>
+					<table id="resolutions" border="0">
+	<tr>
+		<td><div class='sys-toppane-bgcolor'><b>Resolutions</b></div></td>
+	</tr>
+</table>
+					<br>
+					<br>
+					<span id="KBArticleText"></span>
+					<br>
+				</form>
+				<br>
+				<DIV></DIV>
+			</td>
+		</tr>
+		<tr HEIGHT="20">
+			<td>Your answer is anonymous and  is used to help improve content on this site.</td>
+		</tr>
+	</table>
+	</div>
+	
+<SCRIPT TYPE="text/javascript">
+var gProductionDomains="update.microsoft.com";
+var gDomain="c.microsoft.com";
+var gTrackEvents=0;
+var a=gProductionDomains.split(',');var b=0;for(var i=0;i<a.length;i++){if(window.location.host.indexOf(a[i])!=-1){b++;}}if(b!=0){var gDcsId="dcsyg6oep00000stdwm7iu4rf_2t8p";}if(b==0){var gDcsId="dcs96ueef10000w8gz3okt4rf_8g2k";}
+var gFpc="WT_FPC";
+</SCRIPT>
+<SCRIPT SRC="shared/js/update_webtrends.js" TYPE="text/javascript"></SCRIPT>
+<NOSCRIPT>
+<IMG ALT="" BORDER="0" ID="DCSIMG" WIDTH="1" HEIGHT="1" SRC="http://c.microsoft.com/wupixel/wt_pixel.aspx?WT.dcs_id=dcsyg6oep00000stdwm7iu4rf_2t8p&dcscfg=1&dcsuri=/nojavascript&amp;WT.js=No">
+</NOSCRIPT>
+	<IFRAME ID="pingback2" src="blank.aspx" HEIGHT="0" WIDTH="0"></IFRAME>
+</body>

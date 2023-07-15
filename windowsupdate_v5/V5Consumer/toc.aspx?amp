@@ -1,0 +1,79 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<script language='JScript' type='text/javascript' src='shared/js/toc.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/toc.css' />
+
+<script language ="javascript">
+	                var L_Toc_Critical_Text = "Review high priority updates";
+                var L_Toc_Beta_Text = "Select optional beta updates";
+                var L_Toc_Hardware_Text = "Select optional hardware updates";
+                var L_Toc_Software_Text = "Select optional software updates";
+                var L_Toc_CriticalUpdatesAlt_Text = "View a list of automatically selected critical fixes and security updates for you to install.";
+                var L_Toc_SoftwareUpdatesAlt_Text = "Pick from a list of updates for your software.";
+                var L_Toc_HardwareUpdatesAlt_Text = "Pick from a list of updates for your hardware.";
+                var L_Toc_BetaUpdatesAlt_Text = "Pick from a list of beta updates";
+
+</script>
+</head>
+	<body class="toc sys-lhp-bgcolor"> 
+		<base target="eContent" />
+		<div id="eUserData"></div>
+		<form name="ePostForm" id="ePostForm" method="post"><input name="ePostData" id="ePostData" type="hidden" /></form>
+		<table cellspacing="0" class="sys-toppane-bgcolor sys-toppane-color-border">
+			<tbody>
+				<tr>
+					<td class="sys-toppane-header-bgcolor sys-font-body-bold sys-toppane-header-color toppane-header">
+						<span id="eConsumerTitle">Windows Update</span>
+					</td>
+				</tr>
+				<tr> 
+					<td style="height: 100%;">
+						<div class="sys-font-body toppane-body">
+
+							<div id="eConsumerDiv1">
+								<a id="eWelcome" title="Go to the Windows Update home page." class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" /><i>Home</i></a><br />
+								<a id="eBasketUpdates" href="" title="" class="sys-link-disabled"><img src="shared/images/icon_wu_installnow_16x.gif" style = "width : 16px; height: 16px;" />Install updates<i></i></a><br />
+								<!--<a id="eAvailableUpdates" title="See which updates are available for your computer. Windows Update may need to scan your computer first." class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" /><i>Get program updates</i></a>-->
+								<table style="width:91%;height:0px;cellspacing:0;" border= "0" id="eAvailableUpdatesTable"><tr><td style="padding:0px"><div id="eAvailableUpdatesDiv"></div></td></tr></table>
+							</div>
+
+
+
+							<div class="subHeader sys-bottompane-header-color sys-font-body-bold">Other Options</div>
+
+
+							<div id="eConsumerDiv2">
+								<a id="eHistory" href="history.aspx?amp;ln=" title="Keep track of what you've installed from Windows Update." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />View installation history</a><br />
+								<a id="eAdvancedSettings" href="personalize.aspx?amp;ln="  url ="personalize.aspx?amp;ln=" title="Customize what you see when you use Windows Update." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Advanced settings</a><br />
+								<a id="eHidden"  title="Keep track of updates you have dismissed." class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />Restore hidden updates</a><br />
+							</div>
+
+
+
+							
+							<div id="eConsumerDiv3">
+								<a id="eAdmin" href="administrators.aspx?amp;ln=" title="Read information for advanced users" class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Administrator options</a><br />
+								<a id="eSupport" href="support.aspx?amp;ln=" title="Check out the FAQ and read about how to get support for the items you've installed from Windows Update." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Help and support</a><br />
+								<a id="eAbout" href="about.aspx?amp;ln=" title="Read information about Windows Update services." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />About Windows Update</a><br />
+								
+							</div>
+							<a id="eHardwareSupport" target="_blank" class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Hardware Support</a>
+							<a id="VersionInfo" href="SiteVersion.htm" onkeypress="fnLinkSelect(this);" class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />Release information</a>
+							
+							
+								<!--<a id="eUpdateInfo" href="UpdateInfo.aspx" target="eContent" class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />View Update Info (test link)</a>-->
+							
+						</div>
+						
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

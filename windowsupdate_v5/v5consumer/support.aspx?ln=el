@@ -1,0 +1,55 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1253' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+	</head>
+	<body onload="fnInit(6, -1);">
+		<span class="sys-font-heading3 sys-rhp-color-title">Βοήθεια και υποστήριξη για τη χρήση του Windows Update</span><br />
+		<br>
+		<div class="8pt">
+			<a name="SolveProblems"><b>Επίλυση προβλημάτων χωρίς βοήθεια</b></a><br /><br />
+			<div style = "margin-left : 40">
+				<a href="about.aspx?ln=el" target="eContent" class="sys-link-normal"> Διαβάστε την ενότητα Συνήθεις ερωτήσεις του Windows Update				
+		</a>
+				 <br> Δείτε απαντήσεις σε συνήθεις ερωτήσεις σχετικά με τη χρήση της τοποθεσίας Web του Windows Update, την αντιμετώπιση προβλημάτων, τον τρόπο ενημέρωσης δικτύων και άλλα.
+		
+				<br> <br><a href="troubleshoot.aspx?ln=el" target="eContent" class="sys-link-normal">Δοκιμάστε το πρόγραμμα αντιμετώπισης προβλημάτων του Windows Update
+		</a>
+				<br>Βρείτε λεπτομερείς λύσεις όταν αναζητάτε βοήθεια με βάση μια περιγραφή σφάλματος ή τον αριθμό σφάλματος που εμφανίζεται σε κάθε μήνυμα σφάλματος του Windows Update.
+		
+				<br> <br><a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=9581' target='_blank' >Ανατρέξτε στις ομάδες συζήτησης της Microsoft</a><br>
+				Βρείτε εάν κάποιο άτομο διαθέτει μια λύση στο πρόβλημά σας ή γράψτε σχετικά με ένα πρόβλημα και λάβετε βοήθεια από άλλους χρήστες. (Ορισμένες συζητήσεις είναι διαθέσιμες μόνο στα Αγγλικά.)
+		
+			</div>
+			<br><br>
+			<a name="Assistance"><b>Λήψη βοήθειας</b></a><br /><br />
+			<div style = "margin-left : 40">
+				 <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=25127' target='_blank'>Επισκεφθείτε το Κέντρο υποστήριξης του Windows Update</a><br>
+				Βρείτε συνδέσεις σε άρθρα της γνωσιακής βάσης (KB) και σε άλλες πηγές πληροφοριών, ηλεκτρονική και τηλεφωνική υποστήριξη καθώς και υποστήριξη μέσω ηλεκτρονικού ταχυδρομείου. (Σε ορισμένες περιπτώσεις ενδέχεται να υπάρχει χρέωση.) Εάν οι πληροφορίες είναι διαθέσιμες μόνο στα Αγγλικά, μπορείτε να λάβετε πρόσθετη βοήθεια από τη Microsoft στη <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=27099' target='_blank' >χώρα ή την περιοχή σας</a>.
+		
+				<br><br> <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=21608' target='_blank'>Στείλτε μια αναφορά σφάλματος</a><br>
+				Εάν δεν μπορείτε να επιλύσετε το πρόβλημα χρησιμοποιώντας τις παραπάνω επιλογές, συμπληρώστε μια ηλεκτρονική αναφορά και οι επαγγελματίες στον τομέα της υποστήριξης θα επικοινωνήσουν μαζί σας με τον καλύτερο δυνατό τρόπο. Εάν η φόρμα δεν είναι διαθέσιμη στη χώρα ή την περιοχή σας, ζητήστε βοήθεια <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=27099' target='_blank' >τηλεφωνικά</a>.
+						 
+			</div>
+			<br><br>
+			<hr style="color:#cccccc;height:3px">
+			<br><br>
+			<a name="Beta"><b>Υποστήριξη για προδημοσιευμένο λογισμικό (beta)</b></a><br /><br />
+			<div style = "margin-left : 40">
+				Η υποστήριξη για προδημοσιευμένο λογισμικό ποικίλλει ανάλογα με το προϊόν. Συνιστούμε να διαβάσετε τις αναλυτικές πληροφορίες που παρέχονται για το προδημοσιευμένο λογισμικό ή τις ενημερωμένες εκδόσεις πριν προχωρήσετε στην εγκατάσταση.
+		
+			</div>
+		</div>
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' /> 
+	</body>
+</html>

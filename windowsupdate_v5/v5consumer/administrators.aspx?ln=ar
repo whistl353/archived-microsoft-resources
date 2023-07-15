@@ -1,0 +1,51 @@
+<html dir='rtl'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1256' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/rtl.css' />
+ 
+	</head>
+	<body onload="fnInit(14, -1);">
+	
+		<span class="sys-font-heading3 sys-rhp-color-title">خيارات المسؤول</span><br />
+	        <br>
+			<div class="8pt">
+
+			<b>تحديث أنظمة التشغيل المتعددة<br /></b>
+			للتحديد من بين التحديثات التي تم إصدارها لكافة أنظمة تشغيل Windows، ومنها تحديثات البرامج للملقمات وتحديثات برامج تشغيل [الأجهزة]، ابحث في <a href="http://go.microsoft.com/fwlink/?LinkId=8973" target="_blank" class="sys-link-normal">كتالوج Windows Update</a>.<br /><br />
+			<b>إدارة عملية التحديث للشبكات<br /></b>
+			لتحديث أنظمة تشغيل Windows وباقي منتجات Microsoft المستخدمة داخل جدار الحماية الخاص بالشركة، استخدم <a href="http://go.microsoft.com/fwlink/?LinkId=24462" target="_blank" class="sys-link-normal">خدمات Windows Update</a>. يساعد هذا الحل (الذي كان يطلق عليه سابقًا Software Update Services (SUS) 2.0) المسؤولين في تحديد الأنظمة التي بحاجة إلى نشر، والتحكم في تفاعلات المستخدم، وإزالة التحديثات، وجدولة تكرار التحديثات وأولوياتها، وغير ذلك الكثير.<br /><br />
+			ملاحظة:<br />
+			<ul style="margin-left:40px">
+				<li>يقوم <a href="http://go.microsoft.com/fwlink/?LinkId=27549" target="_blank" class="sys-link-normal">Microsoft Baseline Security Analyzer (MBSA)</a> أيضًا بالتفحص وإصدار التقارير عن أي تكوين خاطئ شائع متعلق بالأمان ويمكنه مساعدتك في تثبيت تحديثات الأمان المفقودة لأجهزة الكمبيوتر التي تعمل على Windows. </li>
+				<li>
+					لعرض التحديثات المتلقاة من التحديثات التلقائية وWindows Update وخدمات Windows Update بسرعة، اقرأ 
+					<a  class="sys-link-normal" href="about.aspx?ln=ar" target="eContent">الأسئلة المتداولة الخاصة بـ Windows Update</a>
+					.
+				</li>
+			</ul>
+			<br/><b>الحصول على المزيد من التحديثات<br /></b>
+			<ul style="margin-left:40px">
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=21601" target="_blank" class="sys-link-normal">بحث في مركز تحميل Microsoft</a>
+			<br>الحصول على التحميلات الخاصة بكافة منتجات Microsoft المعتمدة. تتوفر التحميلات بثلاثين لغة.  
+		</li>
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=24459" target="_blank" class="sys-link-normal">تفضل بزيارة Microsoft Office على الإنترنت</a>
+			<br>البحث عن التحديثات الخاصة بنظام Microsoft Office، الإصدارات 98/97 وما بعدها. تشمل التحميلات قوالب ومحتوى المساعدة وقصاصات فنية.
+		</li>
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=27098" target="_blank" class="sys-link-normal">كن عميلاً في Microsoft Premier Support</a>
+			<br>التعرف على فوائد دعم Premier، وتتضمن التحديثات الإضافية مثل برامج ما قبل الإصدار.   
+		</li>
+			</ul>
+			</div> 
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+	</body>
+</html>

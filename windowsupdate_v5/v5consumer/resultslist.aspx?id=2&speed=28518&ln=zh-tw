@@ -1,0 +1,111 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=big5' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+	<script language="JScript" type="text/javascript" src="shared/js/resultslist.js?2004/8/9 下午 09:05:21"></script>
+	
+	<script language="javascript">
+		var iSubPage, sUpdates;
+		var iTocIndex;
+	
+		function InitResults() 
+		{				
+			iSubPage = 2;
+			sUpdates = "";
+			iTocIndex = "";
+			//fnSetResultsPageVariables(sUpdates != "");
+			fnWriteUpdates(sUpdates,true);
+			var SubPage = 2
+			if(iSubPage == parent.conExpressInstall) SubPage = parent.conResultsBasket;			
+			fnInit(2, SubPage);
+		}
+		
+	</script>
+	<style type='text/css'>
+		a:hover { 
+		text-decoration: underline
+		} 
+		a
+		{
+			text-decoration: none
+		}
+	</style>
+	</head>
+	<body onload="InitResults()" vlink="#000000" alink="#000000" link="#000000" onbeforeunload="fnPingUninstalledUpdateInfo();">
+		
+		<table id="expressBnr" cellpadding=0 cellspacing=0 border=0 style="display:none;position:relative;left:-16;top:-10;">
+			<tr height=40>
+				<td align="left" valign="top" height=40 width=300><img src="shared/images/Banners/zh-tw/Hdr_ExpressInstall.jpg"></td>
+				<td align="left" valign="top" height=40 width=100% style="background-image:url(shared/images/Hdr_Shrt_Middle.jpg);background-repeat:repeat-x">&nbsp;</td>
+				<td align="left" valign="top" height=40 width=32><img src="shared/images/Hdr_Shrt_Right.jpg"></td>  
+			</tr>
+		</table>
+		<table id="customBnr" cellpadding=0 cellspacing=0 border=0 style="display:none;position:relative;left:-16;top:-10;">
+			<tr height=40>
+				<td align="left" valign="top" height=40 width=300><img src="shared/images/Banners/zh-tw/Hdr_CustomInstall.jpg"></td>
+				<td align="left" valign="top" height=40 width=100% style="background-image:url(shared/images/Hdr_Shrt_Middle.jpg);background-repeat:repeat-x">&nbsp;</td>
+				<td align="left" valign="top" height=40 width=32><img src="shared/images/Hdr_Shrt_Right.jpg"></td>  
+			</tr>
+		</table>
+		<table id="basketBnr" cellpadding=0 cellspacing=0 border=0 style="display:none;position:relative;left:-16;top:-10;">
+			<tr height=40>
+				<td align="left" valign="top" height=40 width=300><img src="shared/images/Banners/zh-tw/Hdr_InstallBasket.jpg"></td> 
+				<td align="left" valign="top" height=40 width=100% style="background-image:url(shared/images/Hdr_Shrt_Middle.jpg);background-repeat:repeat-x">&nbsp;</td>
+				<td align="left" valign="top" height=40 width=32><img src="shared/images/Hdr_Shrt_Right.jpg"></td>  
+			</tr>
+		</table>
+		
+						
+		<table cellspacing="0" border=0>
+			<tbody>
+				<tr>
+					<td colspan="2" class="resultsTop">
+						<div name= "DivPageTitle" id="DivPageTitle" class="sys-font-heading3 sys-rhp-color-title"></div>
+						<div name="eSubTitle" id="eSubTitle"></div>
+						<span style="height:10px;"></span><br>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="resultsTop">
+						
+						<div id="ePageDesc"></div><br/></td>
+				</tr>
+				<tr>
+					<td colspan="2" class="resultsTop">
+						<div id="resultsPageInfo" name="resultsPageInfo" class="resultsPageInfo"></div></td>
+				</tr>
+				<tr class="resultsBasketBar">
+					<td width=90%>
+
+						<span id="SelectallSpan"></span>
+						<span id="eBasketCalculating">
+						選取的更新總數：
+						<span id="eBasketStats"></span><span id="eDownloaded" style="display:none"><img src="shared/images/info_16x.gif" title="已經將此更新下載到您的電腦。如果選取此項目，Windows Update 將完成其安裝。"></span></span>
+					</td>
+					<td width=10% style="text-align: right;padding-right: 50px;">
+						<button id="eInstallLink" onclick="fnStartInstallUpdates();" disabled="true">安裝...</button>
+
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div id="eUpdatesContainer" style="position:relative;top:4px" /></div>
+						<hr valign="top" style='color:#004AB5;height:2px;position:relative;top:-3px' />
+					</td>
+				</tr>
+
+			</tbody>
+		</table>
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+	</body>
+</html>

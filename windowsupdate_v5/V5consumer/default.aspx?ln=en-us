@@ -1,0 +1,157 @@
+
+
+<html dir="ltr">
+	<head>
+		<META http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+		<META http-equiv="Content-Type"  content="text/html;charset=windows-1252" />
+		<META http-equiv="MSThemeCompatible" content="Yes" />
+		<META NAME="DESCRIPTION" CONTENT="Get the latest updates available for your computer's operating system, software, and hardware.  Windows Update scans your computer and provides you with a selection of updates tailored just for you."> 
+		<META NAME="MS.LOCALE" CONTENT="en">
+		<META NAME="keywords" CONTENT="Windows Update; update; security; secure; up-to-date; download; driver; patch; fix; hotfix; QFE; bug; critical; high priority; service pack; Automatic Updates; Windows XP; Windows 2000; Windows Server 2003; WinXP; Win2k; Win2000; WS2k3; WS2003; .NET Server; SP">
+		<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+		<title>Microsoft Windows Update</title>
+		<object id="SusWebCtl" VIEWASTEXT></object>
+		<script language="javascript" type="text/javascript">
+			var curSite = 5;
+			var g_sDownForMaintenance2K = "";
+			var g_sDownForMaintenanceXP = "";
+			var g_sDownForMaintenance2003 = "";
+			var g_sDownForMaintenanceLonghorn = "";
+			
+		</script>
+		<script language="javascript" type="text/javascript" src="shared/js/tgar.js?6/4/2004 6:51:31 PM"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/redirect.js?6/4/2004 6:51:31 PM"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/commontop.js?6/4/2004 6:51:31 PM"></script>
+		<script id="top2" language="javascript" type="text/javascript" defer="true"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/survey.js?6/4/2004 6:51:31 PM"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/spupdateids.js?6/4/2004 6:51:31 PM"></script>
+		
+		 
+			<script language="javascript" type="text/javascript">
+				function fnSupressError(sMessage, sURL, sLine){ return true; }
+				window.onerror = fnSupressError ;
+			</script>
+		
+		<script language="javascript" type="text/javascript" defer="true">
+			var conQueryString = "ln=en-us"; 
+			var conRTL = false;
+			var conDevServer = false;
+			var conCriticalUpdatesMode = false;
+			var conLangCode = "en";
+			var conConsumerURL = "/v5consumer/";
+			var L_ScanForAvailableUpdates_Text = "Get program updates";
+var L_ReloadingSiteText_Text = "The Windows Update site has not finished opening.\n			To continue waiting, click OK.\n			To prompt Windows Update to try to open the site again, click Cancel.";
+var L_MB_Text = "MB";
+var L_KB_Text = "KB";
+var L_Hour_Text = "hour";
+var L_Hours_Text = "hours";
+var L_InstallTitle_Text = "Installing Updates";
+var L_Minute_Text = "minute";
+var L_Minutes_Text = "minutes";
+var L_RListNoUpdatesToInstall_Text = "There are no updates selected to install.";
+var L_StatusSucceeded_Text = "Successful";
+var L_StatusFailed_Text = "Failed";
+var L_StatusAborted_Text = "Canceled";
+var L_UpdateName_Text = "Update Name";
+var L_Status_Text = "Status";
+var L_Date_Text = "Date";
+var L_Source_Text = "Source";
+var L_AutomaticUpdates_Text = "Automatic Updates";
+var L_WindowsUpdate_Text = "Windows Update website";
+var L_ManagedServer_Text = "Windows Update Services client website";
+var L_DynamicUpdate_Text = "Dynamic Updates";
+var L_DeviceManager_Text = "Device Manager";
+var L_OperationModeDownload_Text = "Downloading";
+var L_OperationModeCopying_Text = "Copying Files";
+var L_OperationModeRegister_Text = "Registering";
+var L_OtherSource_Text = "Other Source";
+var L_PersonalizationSaveSettingsPrompt_Text = "You have made changes to your settings. To save your settings now, click OK. To continue without saving, click Cancel.";
+var L_Next_Text = "Next";
+var L_RListBasketUpdatesNotAvailableText_Text = "There are no updates selected.";
+var L_NeedUserData_Text = "Need to enable userdata for this feature";
+var L_UserDataSaved_Text = "Your settings have been saved";
+var L_PersonalizationReloadSite_Text = "Your language settings have been saved.  Windows Update needs to refresh the site to display it in the new language, which will reset any of your update selections.  Do you want to do this now?";
+var L_Previous_Text = "Previous";
+var L_ProxyTitle_Text = "Enter Proxy Credentials";
+var L_ExpressModeHidden_Text = "Windows Update and Automatic Updates allow you to hide an update that you no longer want to be offered. The update that is now required was hidden previously. Do you want to restore this update in order to install it?";
+var L_WerUpdateInstalled_Text = "The required update has already been installed. Click OK to continue installing other updates that are available for your computer.";
+var L_RListBetaDescription_Text = "The following beta updates are available for your computer. Select the updates you want to install, and then click the Go to install updates link.";
+var L_RListBetaTitle_Text = "Select optional beta updates";
+var L_RListBetaWarning1_Text = "<b>Beta software can be harmful to your computer</b><br>";
+var L_RListBetaWarning2_Text = "Pre-release or \"beta\" products (software), or updates to beta software can be harmful to your computer, and Microsoft may offer only limited support.";
+var L_RListClickForDescription_Text = "Click to display this update's description";
+var L_RListClickToHideDescription_Text = "Click to hide this update's description";
+var L_RListCriticalUpdates_Text = "High Priority Updates";
+var L_RListCriticalUpdatesBar_Text = "High Priority Updates";
+var L_RListCriticalUpdatesTitle_Text = "Review high priority updates";
+var L_RListDeviceUnknown_Text = "Windows Update recommends installing this update because the device on your computer to which the driver applies does not appear to have a driver installed.";
+var L_RListDeviceDisabled_Text = "Windows Update recommends installing this update because the device on your computer to which this driver applies appears to be disabled.";
+var L_RListDeviceProblem_Text = "Windows Update recommends installing this update because the device on your computer to which this driver applies appears to not be working properly.";
+var L_RListDownloadSize_Text = "Download size: ";
+var L_RListDownloadSizeTypical_Text = "Typical download size: ";
+var L_RListDriversDescription_Text = "The following optional updates are available for your computer. Select the updates you want to install, and then click the Go to install updates link.";
+var L_RListDriversTitle_Text = "Select optional hardware updates";
+var L_RListHiddenTitle_Text = "Restore hidden updates";
+var L_RListHiddenUpdatesBar_Text = "Hidden Updates";
+var L_RListHideThisUpdate_Text = "Hide this update";
+var L_RListInfoGifAlt_Text = "This update has already been downloaded to your computer. If this item is selected, Windows Update will complete its installation.";
+var L_RListItems_Text = "items";
+var L_RListLessThan_Text = "less than";
+var L_RListNoUpdatesAvailable_Text = "No updates available";
+var L_RListOptionalBetaUpdatesBar_Text = "Optional Beta Updates";
+var L_RListOptionalHardwareUpdatesBar_Text = "Optional Hardware Updates";
+var L_RListOptionalSoftwareUpdatesBar_Text = "Optional Software Updates";
+var L_RListOptionalUpdates_Text = "Optional Updates";
+var L_RListOtherUpdates_Text = "Other updates";
+var L_RListOtherOptionalUpdates_Text = "Other optional updates";
+var L_RListOtherCriticalUpdates_Text = "Other high priority updates";
+var L_RListProductTitle_Text = "Select optional software updates";
+var L_RListReadMore_Text = "Details...";
+var L_RListSingleInstallation_Text = "<b>Single installation update is selected for installation </b><br/>Updates on this page are currently unavailable because a single installation update is selected for installation and it cannot be installed at the same time as other updates. After installation, you can return to Windows Update to select other updates for your computer.";
+var L_RListSingleInstallationTitle_Text = "Single installation: ";
+var L_RListUpdates_Text = "updates";
+var L_RListHiddenCriticalPresent1_Text = "<b>Some high priority updates are hidden </b><br/>Microsoft recommends installing all high priority updates to help keep your secure. To install updates that have been hidden, go to ";
+var L_RListHiddenCriticalPresent2_Text = "Restore hidden updates";
+var L_RListHiddenCriticalPresent3_Text = " page.";
+var L_RListSelectall_Text = "Select all";
+var L_RList100_Text = "High priority updates are critical and security-related updates.";
+var L_RList101_Text = "No high priority updates are selected for installation. Microsoft recommends that you install high priority updates to help keep your computer up-to-date and secure. To view optional updates available for your computer, click one of the optional updates links under the Home link.";
+var L_RList102a_Text = "Microsoft strongly recommends that you install the following high priority updates to help keep your computer up-to-date and secure.";
+var L_RList102b_Text = "<b>Single installation updates cannot be installed at the same time as other updates.</b> <br>Select whether to first install a single installation update or install all other high priority updates, and then click the Go to install updates link. After installation, return to Windows Update to install remaining updates.";
+var L_RList103_Text = "Microsoft strongly recommends that you install the following high priority single installation update to help keep your computer up-to-date and secure. To do this, click the Go to install updates link.";
+var L_RList104_Text = "Microsoft strongly recommends that you install the following high priority updates to help keep your computer up-to-date and secure. To install these updates, click the Go to install updates link.";
+var L_RList105a_Text = "Microsoft strongly recommends that you install the following high priority updates to help keep your computer up-to-date and secure.";
+var L_RList105b_Text = "<b>Single installation updates cannot be installed at the same time as other updates.</b> <br>Select which single installation update to install, and then Go to install updates. After installation, return to Windows Update to install remaining updates.";
+var L_RList200_Text = "Optional updates are non-critical updates you may want to install.";
+var L_RList201_Text = "No optional updates are available.";
+var L_RList202a_Text = "The following optional updates are available for your computer.";
+var L_RList202b_Text = "<b>Single installation updates cannot be installed at the same time as other updates.</b> <br>Select whether to first install a single installation update or install other optional updates, and then click the Go to install updates link. After installation, return to Windows Update to install remaining updates.";
+var L_RList203_Text = "The following optional update is available for your computer. Single installation updates cannot be installed at the same time as other updates. Select the updates you want to install, and then click the Go to install updates link. After installation, you can return to Windows Update to select other updates for your computer.";
+var L_RList204_Text = "The following optional updates are available for your computer. Select the updates you want to install, and then click the Go to install updates link.";
+var L_RList205a_Text = "The following optional updates are available for your computer.";
+var L_RList205b_Text = "<b>Single installation updates cannot be installed at the same time as other updates.</b> <br>Select which single installation update to install, and then click the Go to install updates link. After installation, return to Windows Update to install remaining updates.";
+var L_RList300_Text = "This page provides a summary of the updates that are selected to be installed.";
+var L_RList301_Text = "No updates are selected for installation at this time. To view available updates for your computer, click one of the high priority or optional update links under the Home link.";
+var L_RList302_Text = "Microsoft strongly recommends that you install the following high priority updates to help keep your computer up-to-date and secure. To install these updates, click Install.";
+var L_RList303_Text = "To install the following optional updates, click Install.";
+var L_RList304_Text = "Microsoft recommends that you install the following high priority and optional  updates to help keep your computer up-to-date and secure. To install these updates, click Install.";
+var L_RList400_Text = "Hidden updates are those which have been removed from the list of available updates.";
+var L_RList401_Text = "No updates are hidden. You can hide an update by clicking its title and then selecting the Hide this update check box.";
+var L_RList402_Text = "<P><b>Single installation updates cannot be installed at the same time as other updates.</b><br> Select the single installation update to install, and then click the Go to install updates link. After installation, return to Windows Update to install remaining updates.";
+var L_RList403_Text = "<P><b>Single installation updates cannot be installed at the same time as other updates.</b><br> Select which single installation update to install, and then click the Go to install updates link. After installation, return to Windows Update to install remaining updates.";
+var L_RList404_Text = "If you want to install a hidden update, select its check box, and then click the Go to install updates link.";
+var L_RList405_Text = "<P><b>Single installation updates cannot be installed at the same time as other updates.</b><br> Select whether to first install a single installation update or install other updates, and then click the Go to install updates link. After installation, return to Windows Update to install remaining updates.";
+var L_RList500_Text = "Express install allows you to quickly download and install only the critical and security updates your computer needs.";
+var L_RList501_Text = "Microsoft strongly recommends that you install the following high priority updates to help keep your computer up-to-date and secure. To install these updates, click Install.";
+var L_RList502_Text = "Your computer appears to be up-to-date; no critical or security updates are available at this time. To view available optional updates for your computer, click the Home link, and then click Custom Install. Windows Update will scan for optional updates. You can review the updates before downloading.";
+var L_RList600_Text = "The updates on this page are either beta software themselves or they update beta software you have on your computer.";
+var L_RList700_Text = "This page contains updates that are driver updates…";
+var g_sControlVersion = '3790.2139';
+
+		</script>
+	</head>
+	<noscript>
+		<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=en-us&error=1' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=en-us&error=1' /><frame name='eContent'  src='errorinformation.aspx?ln=en-us&error=1' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=en-us&error=1' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+	</noscript>
+	<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=en-us' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=en-us' /><frame name='eContent'  src='splash.aspx?page=0&ln=en-us' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=en-us' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+</html>

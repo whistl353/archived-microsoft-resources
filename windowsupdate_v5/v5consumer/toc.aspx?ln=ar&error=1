@@ -1,0 +1,65 @@
+<html dir='rtl'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1256' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/toc.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/toc.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/rtl.css' />
+
+<script language ="javascript">
+	                var L_Toc_Critical_Text = "مراجعة التحديثات ذات الأولوية العليا";
+                var L_Toc_Beta_Text = "تحديد تحديثات بيتا الاختيارية";
+                var L_Toc_Hardware_Text = "تحديد تحديثات الأجهزة الاختيارية";
+                var L_Toc_Software_Text = "تحديد تحديثات البرامج الاختيارية";
+                var L_Toc_CriticalUpdatesAlt_Text = "مراجعة قائمة من التحديثات ذات الأفضلية العالية وتحديثات الأمان.";
+                var L_Toc_SoftwareUpdatesAlt_Text = "مراجعة قائمة من تحديثات البرامج الاختيارية.";
+                var L_Toc_HardwareUpdatesAlt_Text = "مراجعة قائمة من تحديثات الأجهزة الاختيارية.";
+                var L_Toc_BetaUpdatesAlt_Text = "مراجعة قائمة تحديثات بيتا الاختيارية.";
+                var L_TocProductAlt_Text = "مراجعة قائمة من التحديثات ";
+
+</script>
+</head>
+	<body class="toc sys-lhp-bgcolor"> 
+		<base target="eContent" />
+		<div id="eUserData"></div> 
+		<form name="ePostForm" id="ePostForm" method="post"><input name="ePostData" id="ePostData" type="hidden" /></form>
+		<table cellspacing="0" class="sys-toppane-bgcolor" >
+			<tbody>
+				<tr> 
+					<td style="height: 100%;"> 
+						<div class="sys-font-body toppane-body"> 
+
+							<a id="eBasketUpdates" title="قم بمراجعة التحديثات المحددة للتثبيت وابدأ عملية التثبيت." class="sys-link-disabled"><img src="shared/images/icon_wu_installnow_16x.gif" style = "width : 16px; height: 16px;" />تثبيت التحديثات<i></i></a><br />
+
+
+							<div class="subHeader sys-bottompane-header-color sys-font-body-bold">خيارات أخرى</div>
+
+
+							<a class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />عرض محفوظات التثبيت</a><br />
+							<a class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />إعدادات</a><br />
+							<a class="sys-link-disabled"><img src="shared/images/toc_endnode.gif" />استعادة التحديثات المخفية</a><br />
+
+
+							
+							<div id="eConsumerDiv3">
+								<a id="eAdmin" href="administrators.aspx?ln=ar" title="قراءة معلومات للمستخدمين المتقدمين." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />خيارات المسؤول</a><br />
+								<a id="eSupport" href="support.aspx?ln=ar" title="تعرف على كيفية الحصول على الدعم الفوري عبر الإنترنت للمشاكل التي تواجهها مع موقع Windows Update أو العناصر التي قمت بتثبيتها منه." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />تعليمات ودعم</a><br />
+								<a id="eAbout" href="about.aspx?ln=ar" title="البحث عن إجابات للأسئلة المتداولة حول Windows Update." class="sys-link-normal"><img src="shared/images/toc_endnode.gif" />الأسئلة المتداولة</a><br />
+								
+							</div>
+							<a id="eHardwareSupport" target="_blank" class="sys-link-normal" title="الانتقال إلى موقع الدعم الخاص بالشركة المصنعة للكمبيوتر."><img src="shared/images/toc_endnode.gif" />دعم الأجهزة</a>
+						</div>
+						
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>

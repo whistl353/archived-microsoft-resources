@@ -1,0 +1,448 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+<body onload="fnInit(5, -1);">
+	<span class="sys-font-heading3 sys-rhp-color-title">
+		Windows Update: Vanliga frågor
+	</span><br>
+	<br>
+	
+		<div class="8pt">
+		
+			<li><A class='sys-link-normal' HREF='#usingWU'><b>Använda Windows Update</b></a></li>
+			<li><A class='sys-link-normal' HREF='#SupportVL'><b>Versioner och språk som hanteras</b></a></li>
+			<li><A class='sys-link-normal' HREF='#TShooter'><b>Felsökning</b></a></li>
+			<li><A class='sys-link-normal' HREF='#NWAD'><b>Nätverk och avancerad information</b></a></li>
+		
+		<p>
+			<A class="aboutHeader" name='usingWU' >Använda Windows Update</a>
+			
+			<p>
+				<b>Vad är Windows Update?</b><br>
+				Windows Update är en webbplats från Microsoft som tillhandahåller uppdateringar för operativsystemet Windows, närliggande programvara och maskinvara med Windows. Uppdateringarna åtgärdar kända fel och skyddar mot intrång. 
+				<p>
+				Tips!<bt>
+				<ul style='margin-left:40px'> 
+					<li>Om du aktiverar automatiska uppdateringar överförs viktiga uppdateringar till din dator så snart de blir tillgängliga. Du kan själv bestämma hur och när uppdateringar installeras.</li>
+				</ul>
+			</p>
+		
+			<p>
+				<b>Hur funkar det?</b><br>
+				När du besöker webbplatsen Windows Update genomsöks din dator och du får veta vilka uppdateringar som finns tillgängliga för dina program och maskinvaror. Välj önskade uppdateringar och ange hur de ska installeras. 
+			</p>
+		
+			<p>
+				<b>Vad finns det för typer av uppdateringar?</b><br>
+					Microsoft tillhandahåller flera olika <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=22935' target='_blank' >typer av uppdateringar</a> som åtgärdar en rad olika problem. För att det ska bli lättare att hitta de viktigaste uppdateringarna – t.ex. de som skyddar datorn och dina data – har vi delat upp dem i följande kategorier:
+				<ul style='margin-left:40px'> 
+				<li><b>Prioriterade uppdateringar</b><br>
+					Viktiga uppdateringar, säkerhetsuppdateringar, Service Pack och uppdateringspaket ska installeras så snart som möjligt innan du installerar några andra uppdateringar.</li>
+				<li><b>Tillvalsuppdateringar för programvara</b><br> 
+					Mindre viktiga korrigeringar för Windows-program som Windows Media® Player och Windows Journal Viewer 1.5.</li>
+				<li><b>Tillvalsuppdateringar för maskinvara</b><br>
+					Mindre viktiga korrigeringar för drivrutiner och maskinvaruenheter som grafikkort, ljudkort, skannrar, skrivare och kameror.</li> 
+				</ul>
+			</p>
+		
+			<p>
+				<b>Vad är skillnaden mellan Snabb installation och Anpassad installation?</b><br>
+				<ul style='margin-left:40px'>
+					<li><b>Snabb installation (rekommenderas)</b> visar alla prioriterade uppdateringar så att du kan installera dem med bara en musklickning. Det här är det snabbaste sättet att bibehålla ett aktuellt skydd.
+					<li><b>Anpassad installation</b> visar både prioriterade uppdateringar och tillvalsuppdateringar. Granska och välj önskade uppdateringar en i taget.
+				</ul>
+			</p>
+		
+			<p>
+				<b>Måste jag installera tillvalsuppdateringarna?</b><br>
+				Nej. Tillvalsuppdateringar åtgärdar mindre fel eller lägger till funktioner. Huvudsaken är att du installerar högprioriterade uppdateringar så att din dator alltid har de senaste och de viktigaste säkerhetsuppdateringarna. 
+			</p>
+		
+			<p>
+				<b>Går det att uppdatera automatiskt?</b><br>
+				Ja, förutsatt att du aktiverar <b>Automatiska uppdateringar</b>. De senaste viktiga uppdateringarna installeras då enligt vad du har angett i inställningarna för Automatiska uppdateringar. 
+			</p>
+		
+			<p>
+				<b>Är Automatiska uppdateringar och Windows Update samma sak?</b><br>
+				Ja, men Automatiska uppdateringar hämtar bara de viktigaste uppdateringarna. Om du vill hämta tillvalsuppdateringar måste du ändå besöka webbplatsen Windows Update.
+			</p>
+		
+			<p>
+				<b>Vad är Automatiska uppdateringar?</b><br>
+				Automatiska uppdateringar är en funktion som samverkar med Windows Update och överför viktiga säkerhetsuppdateringar till din dator så snart de blir tillgängliga. När du aktiverar Automatiska uppdateringar (rekommenderas) söker Windows automatiskt efter högprioriterade uppdateringar. Du bestämmer själv hur och när uppdateringarna installeras. 
+			</p>
+		
+			<p>
+				<b>Hur gör jag om jag vill veta mer om en uppdatering innan jag installerar den?</b><br>
+				Klicka på uppdateringens namn så visas en beskrivning. Om du vill se systemkrav och supportinformation klickar du på länken <b>Information</b> i beskrivningen.
+			</p>
+		
+			<p>
+				<b>Måste jag själv göra någonting när en uppdatering installeras?</b><br>
+				Det varierar. Ibland måste du godkänna ett licensavtal, besvara en fråga som har med installationen att göra eller starta om datorn. 
+			</p>
+		
+			<p>
+				<b>Vad händer om jag markerar "Dölj den här uppdateringen"?</b><br>
+				Då frågar Windows Update inte längre om du vill granska eller installera uppdateringen i fråga. Om du har dolt en prioriterad uppdatering kommer du dock att få påminnelser om att du saknar en viktig säkerhetsuppdatering.
+			</p>
+		
+			<p>
+				<b>Hur visar jag en uppdatering som jag har dolt?</b><br>
+				Klicka på <b>Återställ dolda uppdateringar</b> på webbplatsen Windows Update. Därefter kan du granska och installera önskade uppdateringar igen. 
+			</p>
+		
+			<p>
+				<b>Hur ofta ger Windows Update ut nya uppdateringar?</b><br>
+				Säkerhetsuppdateringar görs tillgängliga en gång i månaden, men när det gäller allvarliga virus- eller maskhot som kan påverka Windows-datorer släpps uppdateringar så fort som möjligt. 
+				<p>
+				Alla andra typer av uppdateringar görs tillgängliga så fort de blir klara. Det kan vara praktiskt att aktivera automatisk uppdatering så att viktiga uppdateringar överförs till din dator så snart de blir tillgängliga.
+				</p>
+			</p>
+		
+			<p>
+				<b>Hur lägger jag till Windows Update på listan över tillförlitliga webbplatser?</b><br>
+				<ul style='margin-left:40px'> 
+					<li > Klicka på <b>Internet-alternativ</b> på <b>Verktyg</b>-menyn i Internet Explorer.</li >
+					<li > Klicka på fliken <b>Säkerhet</b>, <b>Tillförlitliga webbplatser</b> och <b>Platser</b>.</li >
+					<li > I fältet <b>Lägg till den här webbplatsen i zonen</b> skriver du (eller kopierar och klistrar in) följande webbadress: https://windowsupdate.microsoft.com.</li >
+					<li > Klicka på <b>Lägg till</b> och sedan på <b>OK</b>.</li >
+				</ul > 
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='SupportVL' >Versioner och språk som hanteras</a>
+			<p>
+				<b>Vilka operativsystem hanteras av Windows Update?</b><br>
+				Windows Update och Automatiska uppdateringar stöder följande Windows-versioner:
+			</p>
+		
+			<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+				<colgroup>
+					<col style='WIDTH: 33%;padding-left:15px'>
+					<col style='WIDTH: 33%;text-align: center'>
+					<col style='WIDTH: 33%;text-align: center'>
+				</colgroup>
+				<tbody>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">Aktuella och fortlöpande uppdateringar</td>
+						<td class="FAQtd4">Webbplatsen Windows Update</td>
+						<td class="FAQtd3">Automatiska uppdateringar</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows Millennium Edition</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows 2000</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows XP</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows NT Server</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows Server 2003</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">Arkiverade uppdateringar<br/>
+			(inga nya uppdateringar släpps)</td>
+						<td class="FAQtd4">Webbplatsen Windows Update</td>
+						<td class="FAQtd3">Automatiska uppdateringar</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows 98</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows NT Workstation</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					
+				</tbody>
+			</table>
+			
+			<p>
+				<b>Vilka webbläsare kan jag använda med Windows Update?</b><br>
+				Microsoft Internet Explorer 5 och senare. För bästa resultat använder du <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24748' target='_blank' >Internet Explorer 6</a>.
+			</p>
+		
+			<p>
+				<b>Hur avgör jag vilken version av Internet Explorer jag använder?</b><br>
+				Klicka på <b>Om Internet Explorer</b> på <b>Hjälp</b>-menyn i Internet Explorer.
+			</p>
+		
+			<p>
+				<b>Kan jag visa webbplatsen Windows Update på ett annat språk? </b><br>
+				Ja, men uppdateringarna visas inte längre på samma språk som används för länkar, alternativ och anvisningar på webbplatsen. Rubriker och beskrivningar visas numera på datorns standardspråk.
+			</p>
+		
+			<p>
+				<b>Hur byter jag språkinställningar?</b><br>
+				<ul style='margin-left:40px'> 
+					<li >Klicka på <b>Inställningar</b> på webbplatsen Windows Update.</li >
+					<li >Välj visningsspråk för Windows Update och klicka på <b>Tillämpa ändringar</b>.</li >
+					<li >När du ombeds bekräfta ändringen gör du något av följande:</li >
+					<ul style='margin-left:40px'>
+						<li >Klicka på <b>OK</b> om du vill ändra språkinställningarna direkt. <br >
+							(Därefter måste du granska och markera uppdateringarna på nytt.)</li >
+						<li >Klicka på <b>Avbryt</b> om du vill vänta med att byta språk tills eventuella valda uppdateringar har installerats. <br>
+							(Den nya språkinställningen används först nästa gång du besöker Windows Update.)</li >
+					</ul >
+				</ul>
+			</p>
+		
+			<p>
+				<b>Varför rekommenderar Windows Update ett språk åt mig?</b><br>
+				Vi använder samma språk som i standardinställningen på din dator. Om du använder denna språkinställning visas såväl webbplatsen som uppdateringsinformationen på detta språk. 
+			</p>
+		
+			<p>
+				<b>Är det möjligt att få uppdateringar på flera språk?</b><br>
+				Ja. Windows Update identifierar automatiskt språkinställningarna för de olika programmen på datorn. Om du använder flera olika språk på samma dator erbjuds du uppdateringar för varje enskilt program och språk.
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='TShooter' >Felsökning</a>
+			<p>
+				<b>Vad händer om jag kopplar från Internet-anslutningen eller avbryter hämtningen innan den är klar? </b><br>
+				Nästa gång du ansluter till Internet återupptas hämtningen från det ställe där den avbröts.
+			</p>
+		
+			<p>
+				<b>Jag får ett felmeddelande – hur ändrar jag inställningarna så att de fungerar med Windows Update?</b><br>
+				Använd standardinställningarna för säkerhet:				
+				<ul style='margin-left:40px'> 
+					<li>Klicka på <b>Internet-alternativ</b> på <b>Verktyg</b>-menyn i Internet Explorer.</li>
+					<li>Klicka på fliken <b>Säkerhet</b>, på zonen <b>Internet</b> och på <b>Standardnivå</b>.</li>
+				</ul>
+				<p>Försäkra dig om problemfri användning genom att lägga till Windows Update på listan över tillförlitliga webbplatser (anvisningar finns i avsnittet Använda Windows Update). </p>
+			</p>
+		
+			<p>
+				<b>Jag får ActiveX- eller skriptvarningar när jag använder Windows Update – är det farligt?</b><br>
+				Nej. Dessa tekniker används för att avgöra vilka uppdateringar din dator behöver. Som en säkerhetsåtgärd är alla ActiveX-kontroller från Windows Update digitalt signerade av Microsoft. Emellertid kan sabotörer ibland försöka använda samma teknik till att skada andras datorer. Internet Explorer varnar dig så att du själv kan avgöra om du vill lita på webbplatser med den här tekniken eller inte.
+				<p>
+				Mer information om digitala certifikat, tillförlitliga webbplatser och säkerhetsinställningar får du om du söker i hjälpen för Internet Explorer. (Om du vill slippa få varningar när du använder Windows Update kan du ändra säkerhetsinställningarna, men detta är inget som rekommenderas. Om du sänker säkerhetsnivån blir din dator mer sårbar för virus och andra hot.) 
+				</p>
+			</p>
+		
+			<p>
+				<b>Varför kan jag inte visa information om uppdateringar, tidigare installationer eller felsökningsartiklar?</b><br>
+				Dina inställningar eller din popup-blockerare hindrar dig från att öppna nya webbläsarfönster genom att klicka på länkar. 
+				<p>
+				Så här ändrar du inställningarna för Blockering av popup-fönster (endast tillgänglig i Internet Explorer 6 med Windows XP SP2):				
+				<ul style='margin-left:40px'> 
+					<li>Peka på <b>Blockering av popup-fönster</b> på <b>Verktyg</b>-menyn i Internet Explorer. Klicka på <b>Inställningar för blockering av popup-fönster</b>.</li>
+					<li>Gör något av följande:</li>
+					<ul style='margin-left:40px'>
+						<li>Om du endast vill tillåta popup-fönster i samband med Windows Update skriver du (eller kopierar och klistrar in) följande webbadress under <b>Adress till en webbplats som du vill tillåta</b>: https://windowsupdate.microsoft.com. Klicka på <b>Lägg till</b>. </li>
+						<p>
+						<li>Om du endast vill tillåta nya webbläsarfönster på säkra webbplatser (https://) klickar du på <b>Låg: Tillåt popup-fönster från säkra platser</b> på listan <b>Filternivå</b>.</li>
+					</ul>
+				</ul>
+				<p>
+				Om du använder andra popup-blockeringsprogram får du försöka att själv ta reda på om du kan ändra inställningarna för att klicka på länkar på vissa webbplatser. Annars blir du tvungen att tillfälligt tillåta popup-fönster i Windows Update. 
+
+			</p>
+		
+			<p>
+				<b>Vart vänder jag mig om jag har problem med att installera en uppdatering?</b><br>
+				Se 
+		
+			<a  class="sys-link-normal" href="support.aspx?ln=sv" target="eContent">
+				Hjälp och support för Windows Update
+		
+			</a>
+			 för information om dessa och övriga alternativ:				
+				<ul style='margin-left:40px'> 
+					<li>
+		
+			<a  class="sys-link-normal" href="troubleshoot.aspx?ln=sv" target="eContent">
+				Windows Update-felsökning
+		
+			</a>
+			</li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=25127' target='_blank' >Windows Update Support Center</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=9581' target='_blank' >Diskussionsgrupper om Windows Update</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21608' target='_blank' >Microsoft Online Assisted Support</a> (utan kostnad när det gäller Windows Update)</li>
+				</ul>
+			</p>
+		
+			<p>
+				<b>Varför visas inte en viss uppdatering när jag har återställt dolda webbplatser?</b><br>
+				Du har redan installerat en uppdatering som åtgärdar felet. Om du exempelvis installerar ett Service Pack eller ett uppdateringspaket kan det hända att datorn inte längre har behov av den uppdatering som du valt att dölja. 
+			</p>
+		
+			<p>
+				<b>Varför kan inte vissa uppdateringar installeras samtidigt som andra uppdateringar?</b><br>
+				Vissa uppdateringar, t.ex. Service Pack och uppdateringspaket, innehåller flera uppdateringar eller åtgärdar samma fel som en annan uppdatering. 
+				<p>
+					Andra typer av uppdateringar kräver omstart innan de träder i kraft. Sådana uppdateringar måste installeras en i taget. Gå därefter tillbaka till Windows Update och se om det finns några uppdateringar kvar att hämta. 
+				<p>
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='NWAD' >Nätverk och avancerad information</a>
+			<p>
+				<b>Hur gör jag om jag vill uppdatera mer än en dator?</b><br>
+				Om du har ett hemnätverk eller ett litet kontorsnätverk måste varje dator uppdateras separat. 
+				<p>
+					Är du en nätverksadministratör går du till 
+		
+			<a  class="sys-link-normal" href="administrators.aspx?ln=sv" target="eContent">
+				Administratörsalternativ
+		
+			</a>
+			 om du vill veta mer om ytterligare uppdateringstjänster, såsom Windows Update Catalog och Windows Update Services.
+				<p>
+			</p>
+		
+			<p>
+				<b>Vad är Microsoft Baseline Security Analyzer (MBSA)?</b><br>
+				MBSA är ett verktyg som genomsöker Windows-datorer i nätverk i jakt på felaktiga säkerhetskonfigurationer och konstaterar vilka säkerhetsuppdateringar som saknas. Det finns såväl grafiska som kommandoradsbaserade gränssnitt. Verktyget kan användas både lokalt och via fjärrstyrning. Du kan även sammanställa en säkerhetsrapport för varje dator i nätverket som genomsöks. Mer information finns i översikten till <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27549' target='_blank' >Microsoft Baseline Security Analyzer</a> (på engelska). 
+			</p>
+		
+			<p>
+				<b>Vad är Windows Update Services?</b><br>
+				Windows Update Services, tidigare känt under namnet Software Update Services (SUS), är den komponent som hanterar uppdateringar i Windows Server 2003-produkterna. Den här komponenten söker igenom och sammanställer säkerhetsrapporter för alla datorer i nätverket, men synkroniserar även uppdateringar. På så sätt minimeras även de risker och kostnader som är förknippade med uppdatering av medelstora och stora nätverk. Mer information får du om du besöker Windows Server Systems webbplats för <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24462' target='_blank' >Windows Update Services</a>. 
+			</p>
+		
+			<p>
+				<b>Vilka typer av uppdateringar tillhandahålls av Automatiska uppdateringar, Windows Update och Windows Update Services?</b><br>
+		
+			<br>
+			<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+				<colgroup>
+					<col style='WIDTH: 20%;padding-left:15px'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+				</colgroup>
+				<tbody>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">&nbsp;</td>
+						<td class="FAQtd4">Automatiska uppdateringar</td>
+						<td class="FAQtd4" colspan="2">
+							Webbplatsen Windows Update
+							<table class="sys-table-cell-bgcolor2 sys-toppane-color-border"cellpadding="0" cellpadding ="0" border="0">
+								<tr>
+									<td style='font-weight: bold;WIDTH: 50%;text-align: center'>
+										Snabb installation
+									</td>
+									<td style='font-weight: bold;BORDER-left: 1px solid;WIDTH: 50%;text-align: center'>
+										Anpassad installation
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td class="FAQtd3">Windows Update Services*</td>
+					</tr>
+					<tr >
+						<td colspan="5"  class="FAQtd3"">Prioriterade uppdateringar</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Viktiga uppdateringar</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Säkerhetsuppdateringar</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Uppdateringspaket</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Service Pack</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td colspan="5"  class="FAQtd3">Tillvalsuppdateringar</td>
+					</tr>
+					<tr >
+						<td class="FAQtd1">Programvara</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Maskinvara</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Betaversioner</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">Alternativ inställning</td>
+						<td  class="FAQtd2">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<div><br>    *Nätverksadministratörer kan välja att distribuera en eller flera uppdateringar.</div>
+
+			<p>
+				<b>Var hittar jag fler uppdateringar eller uppdateringar som inte finns på Windows Update?</b><br>
+				Besök följande webbplatser:				
+				<ul style='margin-left:40px'> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21601' target='_blank' >Microsoft Download Center</a><br> 
+					Här kan du hämta filer på 30 språk för alla möjliga Microsoft-produkter. </li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=8973' target='_blank' >Windows Update Catalog</a><br>
+					Sök efter uppdateringar för servrar och andra datorer som har Windows som operativsystem.</li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24459' target='_blank' >Microsoft Office Online</a><br>
+					Sök efter uppdateringar för Microsoft Office System, från version 97, 98 och framåt. Här kan du hämta mallar, hjälpmaterial och ClipArt. </li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27098' target='_blank' >Microsoft Premier Support</a><br>
+					Läs mer om fördelarna med ett Premier Support-avtal, t.ex. förhandsversioner av program.</li> 
+				</ul>
+			</p>
+		
+		</p>
+		
+	</div>
+	<iframe name='eReporting' src='blank.aspx' noresize height='0' width='0' style='DISPLAY:none'>
+</body>
+</html> </IFRAME> </BODY></HTML>

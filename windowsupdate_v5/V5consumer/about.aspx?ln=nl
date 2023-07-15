@@ -1,0 +1,448 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+<body onload="fnInit(5, -1);">
+	<span class="sys-font-heading3 sys-rhp-color-title">
+		Windows Update: veelgestelde vragen
+	</span><br>
+	<br>
+	
+		<div class="8pt">
+		
+			<li><A class='sys-link-normal' HREF='#usingWU'><b>Windows Update gebruiken</b></a></li>
+			<li><A class='sys-link-normal' HREF='#SupportVL'><b>Ondersteunde versies en talen</b></a></li>
+			<li><A class='sys-link-normal' HREF='#TShooter'><b>Problemen oplossen</b></a></li>
+			<li><A class='sys-link-normal' HREF='#NWAD'><b>Netwerken en geavanceerde informatie</b></a></li>
+		
+		<p>
+			<A class="aboutHeader" name='usingWU' >Windows Update gebruiken</a>
+			
+			<p>
+				<b>Wat is Windows Update?</b><br>
+				Een website van Microsoft waarop u updates vindt voor het besturingssysteem Windows en voor hardware die met Windows wordt gebruikt. Deze updates worden geleverd om bepaalde problemen op te lossen en om de computer beter te beveiligen tegen bekende beveiligingsproblemen. 
+				<p>
+				Tip:<bt>
+				<ul style='margin-left:40px'> 
+					<li>Als u Automatische updates inschakelt, kunt u essentiële updates direct nadat deze zijn uitgebracht op de computer installeren. U kunt zelf besluiten hoe en wanneer de updates worden geïnstalleerd.</li>
+				</ul>
+			</p>
+		
+			<p>
+				<b>Hoe werkt het?</b><br>
+				Wanneer u de website bezoekt, doorzoekt Windows Update de computer en ziet u welke updates op uw software en hardware van toepassing zijn. U kunt de updates kiezen die u wilt installeren en aangeven hoe u de updates wilt installeren.
+			</p>
+		
+			<p>
+				<b>Welke soorten updates kan ik krijgen?</b><br>
+					Microsoft brengt vele <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=22935' target='_blank' >soorten updates</a> uit waarmee een variëteit aan problemen wordt opgelost. Windows Update gebruikt de volgende categorieën, zodat u over de belangrijkste updates — updates die de computer en uw gegevens beter beveiligen — beschikt:
+				<ul style='margin-left:40px'> 
+				<li><b>Essentiële update</b><br>
+					Kritieke updates, beveiligingspatches, servicepacks en updatepakketten die u moet installeren zodra deze worden uitgebracht en voordat u andere updates installeert.</li>
+				<li><b>Software-updates (optioneel)</b><br> 
+					Niet-kritieke patches voor Windows-programma's, zoals Windows Media® Player en Windows Journal Viewer 1.5.</li>
+				<li><b>Hardware-updates (optioneel)</b><br>
+					Niet-kritieke patches voor stuurprogramma's en andere hardwareapparaten, zoals videokaarten, geluidskaarten, printers en camera's.</li> 
+				</ul>
+			</p>
+		
+			<p>
+				<b>Wat is het verschil tussen Snelle en Aangepaste installatie?</b><br>
+				<ul style='margin-left:40px'>
+					<li><b>Snelle installatie (aanbevolen)</b> geeft alle essentiële updates voor de computer weer zodat u die met één klik kunt installeren. Dit is de snelste en eenvoudigste manier om de computer up-to-date te houden.
+					<li><b>Aangepaste installatie</b> geeft essentiële updates en optionele updates voor de computer weer. U controleert en selecteert een voor een de updates die u wilt installeren.
+				</ul>
+			</p>
+		
+			<p>
+				<b>Moet ik optionele updates installeren?</b><br>
+				Nee. Met optionele updates worden kleine problemen opgelost of wordt een niet-kritieke functie aan de computer toegevoegd. Het is belangrijker om essentiële updates te installeren zodat de computer over de laatste kritieke software en beveiliging beschikt.
+			</p>
+		
+			<p>
+				<b>Kan ik de updates automatisch krijgen?</b><br>
+				Ja, als u <b>Automatische updates</b> inschakelt. Windows zoekt naar de laatste essentiële updates voor de computer en installeert deze volgens de instellingen van Automatische updates. 
+			</p>
+		
+			<p>
+				<b>Is Automatische updates hetzelfde als Windows Update?</b><br>
+				Ja, maar met Automatische updates krijgt u alleen essentiële updates. Voor optionele updates moet u nog steeds een bezoek brengen aan de Windows Update-website.
+			</p>
+		
+			<p>
+				<b>Wat is Automatische updates?</b><br>
+				Dit is een functie die met Windows Update essentiële updates en beveiligingspatches levert zodra deze worden uitgebracht. Wanneer u Automatische updates inschakelt (Aanbevolen), zoekt Windows automatisch naar essentiële updates voor de computer. U besluit vervolgens hoe en wanneer de updates worden geïnstalleerd. 
+			</p>
+		
+			<p>
+				<b>Hoe kan ik meer informatie over een update krijgen voordat ik deze installeer?</b><br>
+				Klik op de naam van de update om de beschrijving te lezen. Als u de systeemvereisten en de ondersteuningsinformatie wilt lezen, klikt u op de koppeling <b>Details</b> bij de beschrijving.
+			</p>
+		
+			<p>
+				<b>Moet ik iets doen om een update te installeren?</b><br>
+				Soms. Bij sommige updates moet u de gebruiksrechtovereenkomst (EULA) accepteren, bij andere updates moet u een vraag over het installatieproces beantwoorden of de computer opnieuw opstarten voordat u de update kunt installeren. 
+			</p>
+		
+			<p>
+				<b>Wat gebeurt er als ik 'Deze update verbergen' selecteer?</b><br>
+				Windows Update vraagt u dan niet meer om de update te controleren of te installeren. Als u daarentegen een essentiële update verbergt, wordt u eraan herinnerd dat een update die essentieel is voor de beveiliging van de computer ontbreekt.
+			</p>
+		
+			<p>
+				<b>Hoe kan ik een update weergeven nadat ik deze heb verborgen?</b><br>
+				Klik op de Windows Update-website op <b>Verborgen updates herstellen</b> en controleer en installeer vervolgens de gewenste updates. 
+			</p>
+		
+			<p>
+				<b>Hoe vaak worden bij Windows Update nieuwe updates uitgebracht?</b><br>
+				Beveiligingspatches worden eenmaal per maand uitgebracht. Als er echter een lek in de beveiliging optreedt, zoals een wijdverspreid virus of een worm die een gevaar vormt voor computers met Windows, brengt Microsoft zo snel mogelijk de update uit. 
+				<p>
+				Andere soorten updates worden uitgebracht wanneer deze gereed zijn. Wij raden u aan om Automatische updates in te schakelen zodat u direct essentiële updates kunt ontvangen.
+				</p>
+			</p>
+		
+			<p>
+				<b>Hoe voeg ik Windows Update aan mijn lijst met vertrouwde websites toe?</b><br>
+				<ul style='margin-left:40px'> 
+					<li > Klik in Internet Explorer in het menu <b>Extra</b> op <b>Internet-opties</b>.</li >
+					<li > Klik op het tabblad <b>Beveiliging</b> op <b>Vertrouwde sites</b> en klik vervolgens op <b>Sites</b>.</li >
+					<li > Typ (of kopieer en plak) de volgende URL onder <b>Websites toevoegen aan deze zone</b>: https://windowsupdate.microsoft.com.</li >
+					<li > Klik op <b>Toevoegen</b> en klik vervolgens op <b>OK</b>.</li >
+				</ul > 
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='SupportVL' >Ondersteunde versies en talen</a>
+			<p>
+				<b>Welke besturingssystemen worden door Windows Update ondersteund?</b><br>
+				Windows Update en Automatische updates ondersteunen de volgende Windows-versies:
+			</p>
+		
+			<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+				<colgroup>
+					<col style='WIDTH: 33%;padding-left:15px'>
+					<col style='WIDTH: 33%;text-align: center'>
+					<col style='WIDTH: 33%;text-align: center'>
+				</colgroup>
+				<tbody>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">Huidige en lopende updates</td>
+						<td class="FAQtd4">Windows Update-website</td>
+						<td class="FAQtd3">Automatische updates</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows Millennium Edition</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows 2000</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows XP</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows NT Server</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows Server 2003</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">Gearchiveerde updates<br/>
+			(nieuwe updates worden niet meer uitgebracht)</td>
+						<td class="FAQtd4">Windows Update-website</td>
+						<td class="FAQtd3">Automatische updates</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows 98</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows NT Workstation</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					
+				</tbody>
+			</table>
+			
+			<p>
+				<b>Welke browserversies kan ik gebruiken voor Windows Update?</b><br>
+				Microsoft Internet Explorer 5 en later. Gebruik <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24748' target='_blank' >Internet Explorer 6</a> voor een optimale weergave van de site.
+			</p>
+		
+			<p>
+				<b>Hoe weet ik welke versie van Internet Explorer ik gebruik?</b><br>
+				Klik in Internet Explorer op het menu <b>Help</b> en klik op <b>Info</b>.
+			</p>
+		
+			<p>
+				<b>Kan ik de Windows Update-website in een andere taal gebruiken?</b><br>
+				Ja, maar dan ziet u de updates niet meer in dezelfde taal als de taal die u gebruikt om koppelingen, opties en aanwijzingen op de website weer te geven. De titels en details van een update worden in de standaardtaal van de computer weergegeven.
+			</p>
+		
+			<p>
+				<b>Hoe kan ik de taalinstellingen wijzigen?</b><br>
+				<ul style='margin-left:40px'> 
+					<li >Klik op de Windows Update-website op <b>Instellingen</b>.</li >
+					<li >Selecteer de taal die u voor de weergave van Windows Update wilt gebruiken en klik vervolgens op <b>Wijzigingen toepassen</b>.</li >
+					<li >Wanneer u wordt gevraagd om de wijziging te bevestigen, doet u het volgende:</li >
+					<ul style='margin-left:40px'>
+						<li >Als u de taalinstellingen onmiddellijk wilt wijzigen, klikt u op <b>OK</b>. <br >
+							(U moet dan de updates opnieuw controleren en selecteren.)</li >
+						<li >Als u de nieuwe taal wilt gebruiken nadat u de geselecteerde updates hebt geïnstalleerd, klikt u op <b>Annuleren</b>. <br>
+							(Wanneer u hierna de Windows Update-website bezoekt, worden de nieuwe taalinstellingen toegepast.)</li >
+					</ul >
+				</ul>
+			</p>
+		
+			<p>
+				<b>Waarom wordt door Windows Update de te gebruiken taal aangeraden?</b><br>
+				De standaardtaalinstelling van de computer wordt gebruikt. Als u deze gebruikt, kunt u de website in dezelfde taal weergeven als de titels en details van de updates voor de computer. 
+			</p>
+		
+			<p>
+				<b>Kan ik updates in meerdere talen krijgen?</b><br>
+				Ja. Windows Update vindt automatisch de taalinstellingen van elk programma op de computer. Als u meerdere talen gebruikt, krijgt u updates voor elk programma in de juiste taal.
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='TShooter' >Problemen oplossen</a>
+			<p>
+				<b>Wat gebeurt er als ik het downloadproces annuleer of de internetverbinding verbreek voordat de update volledig is gedownload? </b><br>
+				De volgende keer dat u verbinding maakt met internet, wordt het downloaden hervat op het punt waarop het is onderbroken.
+			</p>
+		
+			<p>
+				<b>Er verschijnt een fout in Internet Explorer—hoe wijzig ik de instellingen zodat Windows Update werkt?</b><br>
+				Gebruik de standaardbeveiligingsinstellingen:				
+				<ul style='margin-left:40px'> 
+					<li>Klik in Internet Explorer in het menu <b>Extra</b> op <b>Internet-opties</b>.</li>
+					<li>Klik op het tabblad <b>Beveiliging</b> op <b>Internet-zone</b> en klik vervolgens op <b>Standaardniveau</b>.</li>
+				</ul>
+				<p>U kunt ook, om problemen te voorkomen, Windows Update toevoegen aan de lijst met vertrouwde sites (de aanwijzingen vindt u in het onderdeel Windows Update gebruiken). </p>
+			</p>
+		
+			<p>
+				<b>Er verschijnen waarschuwingen over ActiveX of scripting wanneer ik Windows Update gebruik — is er een probleem?</b><br>
+				Nee. Windows Update gebruikt deze technologieën om te bepalen welke updates de computer nodig heeft. Uit veiligheidsoverweging worden Windows Update ActiveX-besturingselementen door Microsoft van een digitale handtekening voorzien. Hackers gebruiken soms echter dezelfde technologieën om de computer te beschadigen. U wordt door Internet Explorer gewaarschuwd zodat u zelf kunt besluiten of u websites wilt vertrouwen die deze besturingselementen gebruiken.
+				<p>
+				Meer informatie over digitale certificaten, vertrouwde websites en het kiezen van beveiligingsinstellingen vindt u in Internet Explorer Help. (Als u deze waarschuwingen niet wilt zien wanneer u Windows Update gebruikt, kunt u de beveiligingsinstellingen wijzigen. Dit raden wij u echter niet aan. Als u een lager beveiligingsniveau instelt, is de computer gevoeliger voor virussen en andere beveiligingskwesties.) 
+				</p>
+			</p>
+		
+			<p>
+				<b>Waarom kan ik de updategegevens, de installatiegeschiedenis of de artikelen over probleemoplossing niet zien?</b><br>
+				Vanwege de software die u voor het blokkeren van pop-upvensters gebruikt of uw instellingen, kunt u geen nieuwe browservensters openen wanneer u op een koppeling op een website klikt. 
+				<p>
+				De instellingen van Pop-upblokkering (alleen voor Internet Explorer 6 in Windows XP SP2) wijzigen:				
+				<ul style='margin-left:40px'> 
+					<li>Klik in Internet Explorer in het menu <b>Extra</b> op <b>Pop-upblokkering</b> en klik vervolgens op <b>Instellingen van pop-upblokkering</b>.</li>
+					<li>Volg een van deze stappen:</li>
+					<ul style='margin-left:40px'>
+						<li>Als u alleen pop-upvensters van Windows Update wilt toestaan, typt (of kopieert en plakt) u onder <b>Adres van toegestane website</b> deze URL: https://windowsupdate.microsoft.com en klikt u vervolgens op <b>Toevoegen</b>. </li>
+						<p>
+						<li>Als nieuwe browservensters mogen worden geopend in beveiligde websites (https://), klikt u in de lijst <b>Filterniveau</b> op <b>Laag: pop-ups van beveiligde sites toestaan</b>.</li>
+					</ul>
+				</ul>
+				<p>
+				Als u andere software voor het blokkeren van pop-upvensters gebruikt, controleert u of u de instellingen kunt wijzigen voor koppelingen waarop u binnen een website klikt. Anders moet u pop-upvensters toestaan wanneer u Windows Update gebruikt. 
+
+			</p>
+		
+			<p>
+				<b>Waar kan ik terecht voor problemen met het installeren van een update?</b><br>
+				Zie 
+		
+			<a  class="sys-link-normal" href="support.aspx?ln=nl" target="eContent">
+				Windows Update Help en ondersteuning
+		
+			</a>
+			 voor informatie over deze en andere opties:				
+				<ul style='margin-left:40px'> 
+					<li>
+		
+			<a  class="sys-link-normal" href="troubleshoot.aspx?ln=nl" target="eContent">
+				Windows Update-probleemoplosser
+		
+			</a>
+			</li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=25127' target='_blank' >Windows Update Support Center</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=9581' target='_blank' >Windows Update-nieuwsgroepen</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21608' target='_blank' >Microsoft Online Assisted Support</a> (gratis voor problemen met Windows Update)</li>
+				</ul>
+			</p>
+		
+			<p>
+				<b>Waarom kan ik een update niet vinden nadat ik verborgen updates heb hersteld?</b><br>
+				Hetzelfde probleem dat u probeert op te lossen, is al met een andere geïnstalleerde update opgelost. Als u bijvoorbeeld een Service pack of updatepakket installeert, heeft de computer de door u verborgen update mogelijk niet meer nodig. 
+			</p>
+		
+			<p>
+				<b>Waarom kan ik sommige updates niet tegelijk met andere updates installeren?</b><br>
+				Sommige updates, zoals servicepacks en updatepakketten, bevatten meerdere updates of lossen dezelfde problemen op. 
+				<p>
+					Bij andere soorten updates moet u de computer opnieuw opstarten voordat de wijzigingen in werking treden. Deze updates moet u apart installeren. Vervolgens kunt u terugkeren naar Windows om te controleren of u meer updates nodig hebt. 
+				<p>
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='NWAD' >Netwerken en geavanceerde informatie</a>
+			<p>
+				<b>Wat moet ik doen als ik een update voor meer dan één computer nodig heb?</b><br>
+				Als u een thuiskantoor of een klein bedrijfsnetwerk hebt, moet u voor elke computer een aparte update uitvoeren. 
+				<p>
+					Als u een netwerkbeheerder bent, gaat u naar 
+		
+			<a  class="sys-link-normal" href="administrators.aspx?ln=nl" target="eContent">
+				Opties voor beheerders
+		
+			</a>
+			 voor informatie over extra updateservices, zoals Windows Update-catalogus en Windows Update Services.
+				<p>
+			</p>
+		
+			<p>
+				<b>Wat is Microsoft Baseline Security Analyzer (MBSA)?</b><br>
+				MBSA is een hulpprogramma dat in Windows-computers op een netwerk zoekt naar algemene configuratiefouten en ontbrekende beveiligingspatches. Het hulpprogramma beschikt over een grafische interface en een opdrachtregel, en kan lokaal en op afstand zoeken. Het hulpprogramma kan ook een beveiligingsrapport voor elke doorzochte computer op het netwerk genereren. Lees het artikel <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27549' target='_blank' >Microsoft Baseline Security Analyzer</a> (Engels) voor meer informatie. 
+			</p>
+		
+			<p>
+				<b>Wat is Windows Update Services?</b><br>
+				Windows Update Services, voorheen Software Update Services (SUS), is het onderdeel voor het beheren van updates voor de Windows Server 2003-familie. Dit onderdeel zoekt en rapporteert beveiligingsinstellingen binnen een netwerk en synchroniseert updates. Bovendien helpt dit onderdeel u de risico's en kosten die doorgaans zijn verbonden aan het bijwerken van middelgrote tot grote netwerken te verlagen. Ga naar de Windows Server System-site voor <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24462' target='_blank' >Windows Update Services</a> voor meer informatie. 
+			</p>
+		
+			<p>
+				<b>Welke soorten updates krijg ik van Automatische updates, Windows Update en Windows Update Services?</b><br>
+		
+			<br>
+			<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+				<colgroup>
+					<col style='WIDTH: 20%;padding-left:15px'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+				</colgroup>
+				<tbody>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">&nbsp;</td>
+						<td class="FAQtd4">Automatische updates</td>
+						<td class="FAQtd4" colspan="2">
+							Windows Update-website
+							<table class="sys-table-cell-bgcolor2 sys-toppane-color-border"cellpadding="0" cellpadding ="0" border="0">
+								<tr>
+									<td style='font-weight: bold;WIDTH: 50%;text-align: center'>
+										Snelle installatie
+									</td>
+									<td style='font-weight: bold;BORDER-left: 1px solid;WIDTH: 50%;text-align: center'>
+										Aangepaste installatie
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td class="FAQtd3">Windows Update Services*</td>
+					</tr>
+					<tr >
+						<td colspan="5"  class="FAQtd3"">Essentiële updates</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Kritieke updates</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Beveiligingspatches</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Updatepakketten</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Servicepacks</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td colspan="5"  class="FAQtd3">Optionele updates</td>
+					</tr>
+					<tr >
+						<td class="FAQtd1">Software-updates</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Hardware-updates</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Bètasoftware</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">Instelling voor opt-in</td>
+						<td  class="FAQtd2">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<div><br>    *Netwerkbeheerders kunnen aparte updates of alle ondersteunde updates selecteren en distribueren.</div>
+
+			<p>
+				<b>Hoe krijg ik meer updates of updates die Windows Update niet biedt?</b><br>
+				Bezoek de volgende websites:				
+				<ul style='margin-left:40px'> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21601' target='_blank' >Microsoft Downloadcentrum</a><br> 
+					Hier vindt u downloads voor Microsoft-producten. De downloads zijn beschikbaar in 30 talen. </li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=8973' target='_blank' >Windows Update-catalogus</a><br>
+					Hier vindt u updates voor servers en andere computers met Windows-besturingssystemen.</li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24459' target='_blank' >Microsoft Office Online</a><br>
+					Hier vindt u updates voor het Microsoft Office System, versie 97, 98 en later. Hier downloadt u sjablonen, ondersteuningsbestanden en illustraties. </li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27098' target='_blank' >Microsoft Premier Support</a><br>
+					Hier vindt u meer informatie over de voordelen van Premier Support, bijvoorbeeld extra updates zoals bètasoftware.</li> 
+				</ul>
+			</p>
+		
+		</p>
+		
+	</div>
+	<iframe name='eReporting' src='blank.aspx' noresize height='0' width='0' style='DISPLAY:none'>
+</body>
+</html> </IFRAME> </BODY></HTML>

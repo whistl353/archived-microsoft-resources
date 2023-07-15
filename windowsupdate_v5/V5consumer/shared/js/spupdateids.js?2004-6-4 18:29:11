@@ -1,0 +1,14 @@
+//Copyright (c) Microsoft Corporation.  All rights reserved.
+var g_bSPDetectOn = true; // turn SP detection  
+var spUpdateIds = new Array();
+fnInitSPArray();
+
+function fnInitSPArray(){
+	
+	if (g_bSPDetectOn){
+		spUpdateIds[0] = "b68bd519-bcd4-4373-8f31-6d66cce51bcb";
+	}
+	else {
+		spUpdateIds.length = 0 ;
+	}	
+}	

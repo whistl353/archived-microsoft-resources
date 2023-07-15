@@ -1,0 +1,63 @@
+
+	<html>
+	<head>
+	<script language="javascript">
+		function fnGetLang() {
+			var i, sURL, sQuery,sSiteUrl, ln="";
+			try{			
+				var oUserData;
+				oUserData = UserData;
+				oUserData.load("oWindowsUpdate");
+				ln=oUserData.getAttribute("LanSelection");
+			}catch(e){
+			}
+			 if(ln == "" || ln == null) ln = navigator.browserLanguage;
+			
+			if(ln == "" || ln == null) ln = "en"; 
+			sSiteUrl = fnGetSiteUrl();
+			sURL = "default.aspx?ln=" + ln;
+			if (sSiteUrl != "") sURL = sSiteUrl + "default.aspx?ln=" + ln;
+			sQuery = window.location.href;
+			i = sQuery.indexOf("?");
+			if(i != -1) {
+				sQuery = "&" + sQuery.substring(i + 1)
+				sURL += sQuery;
+			}
+			window.location.replace(sURL);
+								
+		}
+		
+		function fnGetSiteUrl(){   //fix for Bug 857629
+			var sUrl;
+			sUrl = window.location.href.toLowerCase();
+			if (sUrl.indexOf("v5consumer") != -1){
+				return window.location.protocol + "//" + window.location.hostname + "/v5consumer/"  
+			}
+			else {
+				return window.location.protocol + "//" + window.location.hostname + "/consumer/"  
+			}
+			
+		}
+		
+		function fnGetQueryString(sURL, sKey){
+			var vValue;
+			vValue = sURL.match("(\\?|&)" + sKey + "=([^&$]*)");
+			vValue = (vValue == null || vValue.length == 1) ? "" : vValue[2];
+			return vValue;
+		}
+		
+
+	</script>
+<style type="text/css">
+	div#UserData {
+	behavior: url(#default#userData);
+	display: none;
+	}
+</style>
+	<noscript>
+		<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=&error=1' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=&error=1' /><frame name='eContent'  src='errorinformation.aspx?ln=&error=1' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=&error=1' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+	</noscript>
+	<body onload="fnGetLang()">
+	<div id="UserData"></div></body>
+	</head>
+	</html>

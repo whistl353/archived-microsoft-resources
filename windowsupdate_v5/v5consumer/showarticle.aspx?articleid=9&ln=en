@@ -1,0 +1,103 @@
+<script language='JScript' type='text/javascript'>
+ var sArticleId = 9;
+var sTimeAtTarget = '03/22/2006';
+var sOSLocale =  'en';
+</script><html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+
+<script language="JScript" type="text/javascript" src="shared/js/troubleshooter.js"></script>		
+
+	</HEAD>
+	<body>
+
+	<table height=100%>
+		<tr valign=top>
+			<td>	
+				<div align=right>
+					<a class="sys-link-normal" href="javascript:window.print();">Print</a> | <a class="sys-link-normal" href="javascript:window.close();" id="closelink">Close</a>
+				</div>
+				<form name="Form1" method="post" action="showarticle.aspx?articleid=9&amp;ln=en" id="Form1">
+<input type="hidden" name="__VIEWSTATE" value="dDw2NjgyNzYyNzs7Pg==" />
+
+					<span id="problemtitle" style="FONT-SIZE:120%">The necessary services are disabled or unavailable. Error 0x80246008</span>
+					<br>
+					<br>
+					<span id="problemtext"><b>Problem description</b><br><br>This error may occur if one or more of the following services are disabled or unavailable. Background Intelligent Transfer Service (BITS) Event Log</span>
+					<br>
+					<br>
+					<span id="operatingsystems"><b>Applicable operating systems</b><br><br><UL><LI>Windows 2000</LI><br><LI>Windows XP</LI><br><LI>Windows Server 2003</LI><br></UL></span>
+					<br>
+					<br>
+					<table id="resolutions" border="0">
+	<tr>
+		<td><b>Resolutions</b></td>
+	</tr><tr>
+		<td><div style='margin-bottom:-30px;'>1. Set Background Intelligent Transfer Service to Automatic and verify the Status is Started.
+<ol style='margin-left:30px'><li>Click <b>Start</b>.</li>
+<li>Choose <b>Run</b>.</li>
+<li>In the <b>Run</b> box, type <b>services.msc</b>.</li>
+<li>Click <b>OK</b>.</li>
+<li>Find the <b>Background Intelligent Transfer Service</b> service, and right-click to select it.</li>
+<li>Select <b>Properties</b>.</li>
+<li>In the <b>Startup Type</b> list, select <b>Automatic</b>.</li>
+<li>Verify the service <b>Status</b> is <b>Started</b>.</li>
+<li>Click <b>OK</b>.</li></ol><br><br>Did this resolve your problem?</div><br></td>
+	</tr><tr>
+		<td><INPUT type=button style='width:100;padding-top:-20px' value='Yes' id='btnYes92' onclick='fnPingback(&quot;yes&quot;,92)'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT type='button' style='width:100;padding-top:-20px' value='No' id='btnNo92' onclick='fnPingback(&quot;no&quot;,92)'><br><br></td>
+	</tr><tr>
+		<td><div style='margin-bottom:-30px;'>2. Set Event Log service to Automatic and verify that the Status is Started 
+<ol><li>Click <b>Start</b>.</li>
+<li>Choose <b>Run</b>.</li>
+<li>In the <b>Run</b> box, type <b>services.msc</b>.</li>
+<li>Click <b>OK</b>.</li>
+<li>Find the <b>Event Log</b> service, and right-click to select it.</li>
+<li>Select <b>Properties</b>.</li>
+<li>In the <b>Startup type</b> list, select <b>Automatic</b>.</li>
+<li>Verify the <b>Service status</b> is <b>Started</b>.</li>
+<li>Click <b>OK</b>.</li></ol><br><br>Did this resolve your problem?</div><br></td>
+	</tr><tr>
+		<td><INPUT type=button style='width:100;padding-top:-20px' value='Yes' id='btnYes93' onclick='fnPingback(&quot;yes&quot;,93)'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT type='button' style='width:100;padding-top:-20px' value='No' id='btnNo93' onclick='fnPingback(&quot;no&quot;,93)'><br><br></td>
+	</tr><tr>
+		<td><div style='margin-bottom:-30px;'>3. <ol><li>Register qmgr.dll</li>
+<ol type=&quot;a&quot;><li>Click <b>Start</b>.</li>
+<li>Choose <b>Run</b>.</li>
+<li>In the <b>Run</b> box, type <b>regsvr32 qmgr.dll</b>.</li>
+<li>Click <b>OK</b>.</li></ol>
+<br>
+<li>Register qmgrprxy.dll</li>
+<ol type=&quot;a&quot;><li>Click <b>Start</b>.</li>
+<li>Choose <b>Run</b>.</li>
+<li>In the <b>Run</b> box, type <b>regsvr32 qmgrprxy.dll</b>.</li>
+<li>Click <b>OK</b>.</li></ol><br><br>Did this resolve your problem?</div><br></td>
+	</tr><tr>
+		<td><INPUT type=button style='width:100;padding-top:-20px' value='Yes' id='btnYes94' onclick='fnPingback(&quot;yes&quot;,94)'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT type='button' style='width:100;padding-top:-20px' value='No' id='btnNo94' onclick='fnPingback(&quot;no&quot;,94)'><br><br></td>
+	</tr>
+</table>
+					<br>
+					<br>
+					<span id="KBArticleText"></span>
+					<br>
+				</form>
+				<br>
+				</div>	
+			</td>
+		</tr>	
+		<tr HEIGHT="20">
+			<td>Your answer is anonymous and  is used to help improve content on this site.</td>		
+		</tr>		
+	</table>	
+		<IFRAME ID="pingback2" src="blank.aspx" HEIGHT=0 WIDTH=0></IFRAME> 
+	</body>
+</HTML>

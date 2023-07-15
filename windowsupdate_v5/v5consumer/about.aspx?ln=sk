@@ -1,0 +1,448 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1250' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+<body onload="fnInit(5, -1);">
+	<span class="sys-font-heading3 sys-rhp-color-title">
+		Systém Windows Update: Časté otázky
+	</span><br>
+	<br>
+	
+		<div class="8pt">
+		
+			<li><A class='sys-link-normal' HREF='#usingWU'><b>Použití systému Windows Update</b></a></li>
+			<li><A class='sys-link-normal' HREF='#SupportVL'><b>Podporované verze a jazyky</b></a></li>
+			<li><A class='sys-link-normal' HREF='#TShooter'><b>Odstraňování potíží</b></a></li>
+			<li><A class='sys-link-normal' HREF='#NWAD'><b>Informace o sítích a upřesňující informace</b></a></li>
+		
+		<p>
+			<A class="aboutHeader" name='usingWU' >Použití systému Windows Update</a>
+			
+			<p>
+				<b>Co je systém Windows Update?</b><br>
+				Jedná se o web společnosti Microsoft, na kterém jsou k dispozici aktualizace softwaru pro operační systém Windows a pro hardware určený pro tento systém. Aktualizace odstraňují známé problémy a pomáhají chránit před známými nebezpečnými útoky. 
+				<p>
+				Tip:<bt>
+				<ul style='margin-left:40px'> 
+					<li>Povolíte-li službu Automatické aktualizace, může systém Windows Update poskytovat počítači nejdůležitější aktualizace ihned po jejich zveřejnění. Můžete zvolit čas a způsob instalace aktualizací.</li>
+				</ul>
+			</p>
+		
+			<p>
+				<b>Jak systém Windows Update pracuje?</b><br>
+				Když navštívíte tento web, systém Windows Update prohledá počítač a oznámí vám, které aktualizace se týkají vašeho hardwaru a softwaru. Vyberete aktualizace, které chcete nainstalovat, a způsob instalace. 
+			</p>
+		
+			<p>
+				<b>Jaké typy aktualizací lze získat?</b><br>
+					Společnost Microsoft zveřejňuje řadu <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=22935' target='_blank' >typů aktualizací</a>, které řeší širokou škálu problémů. Pro usnadnění výběru nejdůležitějších aktualizací, které pomáhají chránit počítač a data, používá systém Windows Update tyto kategorie:
+				<ul style='margin-left:40px'> 
+				<li><b>Nejdůležitější aktualizace</b><br>
+					Důležité aktualizace, aktualizace zabezpečení, aktualizace Service Pack a souhrnné aktualizace, které je třeba nainstalovat ihned po zveřejnění a před instalací dalších aktualizací.</li>
+				<li><b>Software (nepovinné)</b><br> 
+					Méně důležité opravy programů systému Windows, jako například přehrávače Windows Media® Player a Windows Journal Viewer 1.5.</li>
+				<li><b>Hardware (nepovinné)</b><br>
+					Méně důležité opravy ovladačů a dalších hardwarových zařízení, jako například grafických a zvukových karet, skenerů, tiskáren a fotoaparátů.</li> 
+				</ul>
+			</p>
+		
+			<p>
+				<b>Jaký je rozdíl mezi expresní a vlastní instalací?</b><br>
+				<ul style='margin-left:40px'>
+					<li><b>Expresní instalace (doporučená)</b> zobrazí všechny nejdůležitější aktualizace pro váš počítač, které můžete nainstalovat jediným klepnutím. Toto je nejrychlejší a nejsnadnější způsob aktualizace počítače.
+					<li><b>Vlastní instalace</b> zobrazí nejdůležitější a volitelné aktualizace pro počítač. Jednotlivé aktualizace, které chcete nainstalovat, si můžete prohlédnout.
+				</ul>
+			</p>
+		
+			<p>
+				<b>Je třeba instalovat volitelné aktualizace?</b><br>
+				Ne. Volitelné aktualizace řeší menší problémy nebo rozšiřují méně důležité funkce počítače. Mnohem podstatnější je instalovat nejdůležitější aktualizace, aby počítač získal nejnovější důležitý software a software související se zabezpečením. 
+			</p>
+		
+			<p>
+				<b>Mohu získat aktualizace automaticky?</b><br>
+				Ano, pokud povolíte službu <b>Automatické aktualizace</b>. Systém Windows vyhledá nejnovější nejdůležitější aktualizace pro váš počítač a nainstaluje je podle vašeho nastavení služby Automatické aktualizace. 
+			</p>
+		
+			<p>
+				<b>Je služba Automatické aktualizace stejná, jako systém Windows Update?</b><br>
+				Ano, ale služba Automatické aktualizace poskytuje pouze nejdůležitější aktualizace. Pro získání volitelných aktualizací je třeba navštívit web systému Windows Update.
+			</p>
+		
+			<p>
+				<b>Co je služba Automatické aktualizace?</b><br>
+				Jedná se o službu, která společně se systémem Windows Update poskytuje důležité aktualizace a aktualizace související se zabezpečením ihned po jejich zveřejnění. Pokud povolíte službu Automatické aktualizace (doporučeno), systém Windows automaticky vyhledá nejdůležitější aktualizace pro váš počítač. Můžete zvolit čas a způsob instalace aktualizací. 
+			</p>
+		
+			<p>
+				<b>Jak mohu získat více informací o aktualizaci předtím, než ji nainstaluji?</b><br>
+				Klepnutím na konkrétní aktualizaci se zobrazí její popis. Chcete-li zobrazit požadavky na systém a informace o odborné pomoci, klepněte na odkaz <b>Podrobnosti</b> v jednotlivých popisech.
+			</p>
+		
+			<p>
+				<b>Je třeba pro instalaci aktualizace něco udělat?</b><br>
+				Někdy. Některé aktualizace vyžadují, abyste souhlasili s licenční smlouvou s koncovým uživatelem (EULA), odpověděli na otázku spojenou s procesem instalace nebo abyste před instalací restartovali počítač. 
+			</p>
+		
+			<p>
+				<b>Co se stane pokud vyberu možnost Skrýt tuto aktualizaci?</b><br>
+				Systém Windows Update se již nebude dotazovat, zda si chcete tuto aktualizaci prohlédnout nebo nainstalovat. Pokud ovšem skryjete nejdůležitější aktualizaci, budete pravděpodobně upozorněni, že tato aktualizace chybí v zabezpečení vašeho počítače.
+			</p>
+		
+			<p>
+				<b>Jestliže skryji některou aktualizaci, jak ji mohu později získat?</b><br>
+				Na webu systému Windows Update klepněte na odkaz <b>Obnovit skryté aktualizace</b> a potom si prohlédněte a nainstalujte požadované aktualizace. 
+			</p>
+		
+			<p>
+				<b>Jak často systém Windows Update zveřejňuje nové aktualizace?</b><br>
+				Aktualizace související se zabezpečením jsou zveřejňovány jednou měsíčně. Pokud se ovšem objeví hrozba nebezpečného útoku, například epidemie viru nebo červa, který napadá počítače s operačním systémem Windows, společnost Microsoft zveřejní příslušnou aktualizaci co nejdříve. 
+				<p>
+				Ostatní typy aktualizací jsou zveřejňovány ihned, jakmile jsou připraveny. Je vhodné povolit službu Automatické aktualizace, aby počítač mohl přijímat nejdůležitější aktualizace ihned po jejich zveřejnění.
+				</p>
+			</p>
+		
+			<p>
+				<b>Jak mohu přidat web Windows Update do seznamu důvěryhodných webových serverů?</b><br>
+				<ul style='margin-left:40px'> 
+					<li > V aplikaci Internet Explorer klepněte v nabídce <b>Nástroje</b> na příkaz <b>Možnosti Internetu</b>.</li >
+					<li > Na kartě <b>Zabezpečení</b> klepněte na zónu <b>Důvěryhodné servery</b> a potom na položku <b>Servery</b>.</li >
+					<li > Do pole <b>Přidat tento webový server do následující zóny</b> zadejte (nebo zkopírujte) následující adresu URL: https://windowsupdate.microsoft.com.</li >
+					<li > Klepněte na tlačítko <b>Přidat</b> a potom na tlačítko <b>OK</b>.</li >
+				</ul > 
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='SupportVL' >Podporované verze a jazyky</a>
+			<p>
+				<b>Které operační systémy jsou systémem Windows Update podporovány?</b><br>
+				Systém Windows Update a služba Automatické aktualizace podporují následující verze operačního systému Windows:
+			</p>
+		
+			<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+				<colgroup>
+					<col style='WIDTH: 33%;padding-left:15px'>
+					<col style='WIDTH: 33%;text-align: center'>
+					<col style='WIDTH: 33%;text-align: center'>
+				</colgroup>
+				<tbody>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">Aktuální a průběžné aktualizace</td>
+						<td class="FAQtd4">Web Windows Update</td>
+						<td class="FAQtd3">Automatické aktualizace</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows Millennium Edition</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows 2000</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows XP</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows NT Server</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows Server 2003</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">Archivované aktualizace<br/>
+			(bez zveřejňování nových aktualizací)</td>
+						<td class="FAQtd4">Web Windows Update</td>
+						<td class="FAQtd3">Automatické aktualizace</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows 98</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows NT Workstation</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					
+				</tbody>
+			</table>
+			
+			<p>
+				<b>Které verze webového prohlížeče lze použít k přístupu k systému Windows Update?</b><br>
+				Prohlížeč Microsoft Internet Explorer 5 nebo novější. Optimální zobrazení webu zaručí prohlížeč <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24748' target='_blank' >Internet Explorer 6</a>.
+			</p>
+		
+			<p>
+				<b>Jak mohu zjistit, kterou verzi prohlížeče Internet Explorer používám?</b><br>
+				V aplikaci Internet Explorer klepněte v nabídce <b>Nápověda</b> na příkaz <b>O aplikaci Internet Explorer</b>.
+			</p>
+		
+			<p>
+				<b>Je možné zobrazit web Windows Update v jiném jazyce? </b><br>
+				Ano, ale aktualizace nebudou zobrazeny ve stejném jazyce, jako odkazy, možnosti a pokyny na webu. Názvy a podrobnosti o aktualizaci se zobrazují ve výchozím jazyce počítače.
+			</p>
+		
+			<p>
+				<b>Jak mohu změnit vlastní nastavení jazyka?</b><br>
+				<ul style='margin-left:40px'> 
+					<li >Na webu Windows Update klepněte na odkaz <b>Nastavení</b>.</li >
+					<li >Vyberte jazyk, ve kterém chcete zobrazit web systému Windows Update, a potom klepněte na odkaz <b>Použít změny</b>.</li >
+					<li >Po zobrazení dotazu na potvrzení změny, proveďte některý z následujících kroků:</li >
+					<ul style='margin-left:40px'>
+						<li >Chcete-li ihned změnit nastavení jazyka, klepněte na tlačítko <b>OK</b>. <br >
+							(Bude třeba aktualizace znovu zobrazit a vybrat.)</li >
+						<li >Chcete-li použít nový jazyk až po nainstalování vybraných aktualizací, klepněte na tlačítko <b>Storno</b>. <br>
+							(Při příští návštěvě webu Windows Update bude použito nové nastavení jazyka.)</li >
+					</ul >
+				</ul>
+			</p>
+		
+			<p>
+				<b>Proč systém Windows Update doporučuje použití konkrétního jazyka?</b><br>
+				Jedná se o jazyk, který odpovídá výchozímu nastavení jazyka v počítači. Pokud jej použijete, můžete zobrazit web ve stejném jazyce, v jakém jsou uvedeny názvy a podrobnosti všech aktualizací, které se vztahují k vašemu počítači. 
+			</p>
+		
+			<p>
+				<b>Mohu získat aktualizace v různých jazycích?</b><br>
+				Ano. Systém Windows Update automaticky rozpozná nastavení jazyka každého programu v počítači. Používáte-li několik jazyků, systém vám nabídne aktualizace jednotlivých programů v příslušném jazyce.
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='TShooter' >Odstraňování potíží</a>
+			<p>
+				<b>Co se stane, jestliže zruším stahování nebo se odpojím od Internetu před dokončením stahování aktualizace? </b><br>
+				Při příštím připojení k Internetu bude stahování aktualizace pokračovat od místa, ve kterém bylo přerušeno.
+			</p>
+		
+			<p>
+				<b>Došlo k chybě aplikace Internet Explorer - jak mohu změnit nastavení, aby bylo možné používat systém Windows Update?</b><br>
+				Použijte výchozí nastavení zabezpečení:				
+				<ul style='margin-left:40px'> 
+					<li>V aplikaci Internet Explorer klepněte v nabídce <b>Nástroje</b> na příkaz <b>Možnosti Internetu</b>.</li>
+					<li>Na kartě <b>Zabezpečení</b> klepněte na zónu <b>Zóna Internetu</b> a potom na položku <b>Výchozí úroveň</b>.</li>
+				</ul>
+				<p>Chcete-li zabránit potížím, můžete přidat web Windows Update do seznamu důvěryhodných serverů (pokyny jsou uvedeny v části Používání systému Windows Update). </p>
+			</p>
+		
+			<p>
+				<b>Během používání systému Windows Update se zobrazilo upozornění ovládacího prvku ActiveX nebo skriptu - došlo k chybě?</b><br>
+				Ne. Systém Windows Update používá tyto technologie k určení aktualizací, které váš počítač potřebuje. V rámci zabezpečení jsou ovládací prvky ActiveX systému Windows Update digitálně podepsány společností Microsoft. Útočníci ovšem občas používají stejné technologie k poškození počítače uživatele. Aplikace Internet Explorer vás upozorní, abyste se mohli rozhodnout, zda máte důvěřovat webovým serverům, které tyto ovládací prvky používají, či ne.
+				<p>
+				V nápovědě aplikace Internet Explorer najdete další informace o digitálních certifikátech, důvěryhodných webových serverech a výběru nastavení zabezpečení. (Pokud nechcete, aby se během používání systému Windows Update tato upozornění zobrazovala, můžete změnit nastavení zabezpečení; tento postup nedoporučujeme. Pokud snížíte úroveň nastavení zabezpečení, může být váš počítač vystaven útoku virů a dalším nebezpečným útokům.) 
+				</p>
+			</p>
+		
+			<p>
+				<b>Proč nelze zobrazit podrobnosti o aktualizaci, podrobnosti historie instalací nebo články o odstraňování potíží?</b><br>
+				Software pro blokování automaticky otevíraných oken nebo aktuální nastavení nepovolují otevřít nová okna prohlížeče po klepnutí na odkazy na webové stránce. 
+				<p>
+				Změna nastavení blokování automaticky otevíraných oken (k dispozici pouze pro aplikaci Internet Explorer 6 v operačním systému Windows XP SP2):				
+				<ul style='margin-left:40px'> 
+					<li>V nabídce <b>Nástroje</b> aplikace Internet Explorer přejděte na položku <b>Blokování automaticky otevíraných oken</b> a potom klepněte na tlačítko <b>Nastavení blokování automaticky otevíraných oken</b>.</li>
+					<li>Proveďte některý z následujících kroků:</li>
+					<ul style='margin-left:40px'>
+						<li>Chcete-li povolit automaticky otevíraná okna pouze při používání systému Windows Update, do pole <b>Adresa povoleného webu</b> zadejte (nebo zkopírujte) tuto adresu URL: https://windowsupdate.microsoft.com a potom klepněte na tlačítko <b>Přidat</b>. </li>
+						<p>
+						<li>Chcete-li povolit automaticky otevíraná okna při používání všech zabezpečených (https://) webových serverů, klepněte v seznamu <b>Úroveň filtrování</b> na položku <b>Nízká: Povolit automaticky otevíraná okna na zabezpečených webech</b>.</li>
+					</ul>
+				</ul>
+				<p>
+				Chcete-li použít jiný software pro blokování automaticky otevíraných oken, zjistěte, zda můžete změnit nastavení pouze pro odkazy, na které klepnete na webové stránce. Pokud to není možné, bude pravděpodobně třeba povolit automaticky otevíraná okna při používání systému Windows Update. 
+
+			</p>
+		
+			<p>
+				<b>Kam se mohu obrátit, pokud dojde při instalaci aktualizace k potížím?</b><br>
+				V části 
+		
+			<a  class="sys-link-normal" href="support.aspx?ln=cs" target="eContent">
+				Nápověda a odborná pomoc systému Windows Update
+		
+			</a>
+			 najdete informace o těchto a dalších možnostech:				
+				<ul style='margin-left:40px'> 
+					<li>
+		
+			<a  class="sys-link-normal" href="troubleshoot.aspx?ln=cs" target="eContent">
+				Průvodce při potížích se systémem Windows Update
+		
+			</a>
+			</li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=25127' target='_blank' >Odborná pomoc systému Windows Update</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=9581' target='_blank' >Diskusní skupiny systému Windows Update</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21608' target='_blank' >Odborná pomoc online společnosti Microsoft</a> (zdarma při potížích se systémem Windows Update)</li>
+				</ul>
+			</p>
+		
+			<p>
+				<b>Proč nemohu aktualizaci najít po zobrazení skrytých aktualizací?</b><br>
+				Stejný problém řeší jiná aktualizace, která je již nainstalována. Pokud jste například nainstalovali aktualizaci Service Pack nebo souhrnnou aktualizaci, počítač již aktualizaci, která byla předtím skryta, nepotřebuje. 
+			</p>
+		
+			<p>
+				<b>Proč nelze nainstalovat některé aktualizace současně s jinými aktualizacemi?</b><br>
+				Některé aktualizace, jako například aktualizace Service Pack a souhrnné aktualizace, obsahují více aktualizací nebo odstraňují stejné problémy. 
+				<p>
+					Jiné typy aktualizací se projeví až po restartování počítače. Tyto aktualizace je třeba instalovat samostatně. Po dokončení instalace se můžete vrátit do systému Windows Update a vyhledat další vhodné aktualizace. 
+				<p>
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='NWAD' >Informace o sítích a upřesňující informace</a>
+			<p>
+				<b>Co když potřebuji aktualizovat více počítačů?</b><br>
+				Máte-li síť doma nebo malou síť v kanceláři, je třeba zaktualizovat každý počítač samostatně. 
+				<p>
+					Jste-li správcem sítě, přejděte na část 
+		
+			<a  class="sys-link-normal" href="administrators.aspx?ln=cs" target="eContent">
+				Možnosti pro správce
+		
+			</a>
+			, která obsahuje informace o doplňkových aktualizačních službách, například katalog systému Windows Update a produkt Windows Update Services.
+				<p>
+			</p>
+		
+			<p>
+				<b>Co je nástroj Microsoft Baseline Security Analyzer (MBSA)?</b><br>
+				Nástroj MBSA prověřuje běžné problémy v konfiguraci zabezpečení a chybějící aktualizace zabezpečení v síťových počítačích s operačním systémem Windows. Obsahuje grafické rozhraní a příkazový řádek a umožňuje prověřovat místně i vzdáleně. Rovněž umožňuje generovat zprávu o zabezpečení pro každý počítač v prověřované síti. Další informace najdete v popisu nástroje <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27549' target='_blank' >Microsoft Baseline Security Analyzer</a>. 
+			</p>
+		
+			<p>
+				<b>Co je produkt Windows Update Services?</b><br>
+				Produkt Windows Update Services, dříve známý jako Software Update Services (SUS), představuje součást správy aktualizací skupiny Windows Server 2003. Prověřuje a informuje o nastavení zabezpečení všech počítačů v síti a synchronizuje aktualizace. Pomáhá také snižovat riziko a náklady, které jsou obvykle spojeny s aktualizačním médiem pro velké sítě. Další informace najdete na webu systému Windows Server v části věnované produktu <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24462' target='_blank' >Windows Update Services</a>. 
+			</p>
+		
+			<p>
+				<b>Které typy aktualizací poskytuje služba Automatické aktualizace, systém Windows Update a produkt Windows Update Services?</b><br>
+		
+			<br>
+			<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+				<colgroup>
+					<col style='WIDTH: 20%;padding-left:15px'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+				</colgroup>
+				<tbody>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">&nbsp;</td>
+						<td class="FAQtd4">Automatické aktualizace</td>
+						<td class="FAQtd4" colspan="2">
+							Web Windows Update
+							<table class="sys-table-cell-bgcolor2 sys-toppane-color-border"cellpadding="0" cellpadding ="0" border="0">
+								<tr>
+									<td style='font-weight: bold;WIDTH: 50%;text-align: center'>
+										Expresní instalace
+									</td>
+									<td style='font-weight: bold;BORDER-left: 1px solid;WIDTH: 50%;text-align: center'>
+										Vlastní instalace
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td class="FAQtd3">Produkt Windows Update Services*</td>
+					</tr>
+					<tr >
+						<td colspan="5"  class="FAQtd3"">Nejdůležitější aktualizace</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Důležité aktualizace</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Opravy zabezpečení</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Souhrnné aktualizace</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Aktualizace Service Pack</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td colspan="5"  class="FAQtd3">Volitelné aktualizace</td>
+					</tr>
+					<tr >
+						<td class="FAQtd1">Software</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Hardware</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Software beta</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">Předvolené nastavení</td>
+						<td  class="FAQtd2">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<div><br>    *Správci sítě mohou pro distribuci vybrat libovolnou nebo všechny podporované aktualizace.</div>
+
+			<p>
+				<b>Jak lze získat další aktualizace nebo aktualizace, které neposkytuje systém Windows Update?</b><br>
+				Navštivte následující weby:				
+				<ul style='margin-left:40px'> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21601' target='_blank' >Stažení softwaru</a><br> 
+					Na tomto webu jsou k dispozici soubory ke stažení pro produkty společnosti Microsoft. Soubory ke stažení jsou k dispozici ve 30 jazycích. </li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=8973' target='_blank' >Katalog systému Windows Update</a><br>
+					Na tomto webu lze vyhledávat aktualizace pro servery a ostatní počítače s operačním systémem Windows. 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24459' target='_blank' >Microsoft Office Online</a><br>
+					Na tomto webu lze vyhledávat aktualizace pro systém Microsoft Office System verze 97, 98 nebo novější. Soubory ke stažení obsahují šablony, další pomoc a kliparty. 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27098' target='_blank' >Microsoft Premier Support</a><br>
+					Na tomto webu se seznámíte s výhodami podpory Premier Support včetně doplňkových aktualizací, jako jsou například předběžné verze softwaru. 
+				</ul>
+			</p>
+		
+		</p>
+		
+	</div>
+	<iframe name='eReporting' src='blank.aspx' noresize height='0' width='0' style='DISPLAY:none'>
+</body>
+</html> </IFRAME> </BODY></HTML>

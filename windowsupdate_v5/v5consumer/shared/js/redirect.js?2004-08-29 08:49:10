@@ -1,0 +1,297 @@
+//Copyright (c) Microsoft Corporation.  All rights reserved.
+
+//Config settings  ---------------------------------------------------------------------------------------
+// "all" allows all languages on V5, "en,de,ja" would allow only those languages on V5; others sent to V4
+// Portuguese should be indicated using "pt" and not "pt-pt" in this file.
+var g_sV5Allow2K = "";
+var g_sV5AllowXP = "all";
+var g_sV5Allow2003 = "";
+var g_sV5AllowLonghorn = "";
+
+//if true, allow the cpu on V5; otherwise send to V4
+var g_sV5AllowX86 = true;	 
+var g_sV5AllowIA64 = false; 
+var g_sV5AllowAMD64 = false;
+
+//Config settings  ---------------------------------------------------------------------------------------
+
+//OS types
+var conOSUnsupported = -1;
+var conOSWin2K = 0;
+var conOSWinXP = 1;
+var conOSWin2003 = 2;
+var conOSLonghorn = 3;
+
+
+//V5 Thanks page types
+var conThanksDown = 1;
+var conThanksBadOS = 2;
+var conThanksWinCE = 3;
+var conThanksDatacenter = 4;
+var conThanksBadBrowser = 5;
+var conThanksIE5 = 8;
+var conThanksLocale = 9;
+
+var V3Site = "http://windowsupdate.microsoft.com"
+var V4Site = "http://v4.windowsupdate.microsoft.com";
+var V5Site = "http://v5.windowsupdate.microsoft.com";
+
+var g_iOSType, g_iOSSPMajor;
+var g_bV4Catalog = false;
+g_sUA = navigator.userAgent.toLowerCase();
+
+var g_sOSLang = navigator.browserLanguage;
+if(typeof(g_sOSLang) == "undefined") g_sOSLang = "en";
+g_sOSLang = g_sOSLang.toLowerCase();
+
+
+fnRedirect();
+	
+function fnRedirect() {
+	// Make initial checks and do redirection as necessary
+	if(fnV5DownForMaintenance() == false) return false
+	if(fnCheckWinCE() == false) return false;;
+	if(fnCheckDatacenter() == false) return false;
+	if(fnCheckBrowser() == false) return false;
+		
+	if(fnCheck95NT4() == false) return false;
+		
+	g_bV4Catalog = fnCheckV4Catalog() ;
+	if(fnCheck98() == false) return false;
+	
+	
+	g_iOSType = fnCheckV5OS();
+	if(g_iOSType == conOSUnsupported) return false;	
+
+	if(!g_bV4Catalog){
+		
+		if(fnCheckX86_64() == false) return false;
+		
+		// We now have a good browser and good OS and good cpu	
+		
+		// Go to appropriate site
+		// to get the dev on to v5 on their dev environment
+		var sUrl = window.location.href.toLowerCase();
+		if(curSite == 5) {
+			if((sUrl.indexOf("v5consumer") == -1) || (sUrl.indexOf("g_sconsumersite") > -1)) {
+				return false;
+			}
+		}
+		fnGoToSite();
+	}
+	return false;
+}
+
+
+function fnGoToSite() {		
+	var sAllowLan = "";	
+	if((g_iOSType == conOSWin2K) && (g_sV5Allow2K.length > 0)) {
+		sAllowLan = g_sV5Allow2K;		
+	} else if((g_iOSType == conOSWinXP) && (g_sV5AllowXP.length > 0)) {
+		sAllowLan = g_sV5AllowXP;
+	} else if((g_iOSType == conOSWin2003) && (g_sV5Allow2003.length > 0)) {
+		sAllowLan = g_sV5Allow2003;
+	} else if((g_iOSType == conOSLonghorn) && (g_sV5AllowLonghorn.length > 0)) {
+		sAllowLan = g_sV5AllowLonghorn;
+	}
+	if(sAllowLan == "all") {
+		if(curSite != 5) location.href = V5Site;
+		return false;
+	}
+	if(sAllowLan.length > 0 ){
+		if(g_sOSLang == "" || g_sOSLang == null) g_sOSLang = "en"; 
+		g_sOSLang = fnGetLanID(g_sOSLang);
+		if(sAllowLan.charAt(sAllowLan.length - 1) != "," ) sAllowLan += ",";
+		if(sAllowLan.indexOf(g_sOSLang + ",") > -1){
+			if(curSite != 5) location.href = V5Site;
+			return false;
+		}
+	}
+	if(curSite != 4) location.href = V4Site;
+	return false;
+}
+
+function fnGetLanID(sLanID){
+	var sAllSupported = "ar,cs,da,de,el,en,es,fi,fr,he,hu,it,ja,ko,nl,no,pt,pl,ru,sv,tr,";
+	switch(sLanID)
+	{
+		case "en":
+		case "en-us":
+			return "en" ;
+		case "be":
+		case "uk":
+			return "ru" ;
+		case "el_ms":
+		case "el":
+			return "el" 
+		case "eu":
+		case "ca":
+			return "es" ;
+		case "zh-sg":
+			return "zh-cn" ;
+		case "fo":
+			return "da" ;
+		case "sz":
+			return "no" ;
+		case "sk":
+			return "cs" ;
+		case "sb":
+			return "de" ;
+		case "nb-no":
+		case "nn-no":
+			return "no" ;
+		case "iw-il":
+			return "he" ;
+	}
+	if((sLanID == "zh-tw") || (sLanID == "zh-cn") || (sLanID == "pt-br") || (sLanID == "zh-hk")) return sLanID;	
+	sLanID = sLanID.substr(0,2);	
+	if(sAllSupported.search(sLanID + ",") < 0 ) sLanID = "en";
+	return sLanID;
+}
+
+function fnV5DownForMaintenance() {
+	// V5 - Check the down-for-maintenance indicator
+	if(curSite == 5) {
+		var sURL = "thanks.aspx?" + "ln=" + g_sOSLang + "&thankspage=" + conThanksDown + "&os=";
+		if((g_sUA.indexOf("windows nt 5.0") > 0) && (g_sDownForMaintenance2K.length > 0)) {
+			location.href = sURL + conOSWin2K;
+			return false;
+		} else if((g_sUA.indexOf("windows nt 5.1") > 0) && (g_sDownForMaintenanceXP.length > 0)) {
+			location.href = sURL + conOSWinXP;
+			return false;
+		} else if((g_sUA.indexOf("windows nt 5.2") > 0) && (g_sDownForMaintenance2003.length > 0)) {
+			location.href = sURL + conOSWin2003;
+			return false;
+		} else if((g_sUA.indexOf("windows nt 6.0") > 0) && (g_sDownForMaintenanceLonghorn.length > 0)) {
+			location.href = sURL + conOSLonghorn;
+			return false;
+		}
+	}
+	return true;
+}
+
+function fnCheckBrowser() {
+	// Check for IE5 or IE6
+	var bIE5or6;
+	var bunsupported = false;
+	bIE5or6 = ((g_sUA.indexOf("msie 5") > 0) || (g_sUA.indexOf("msie 6") > 0));
+	if(g_sUA.indexOf("opera") != -1) bunsupported = true;
+	if(!bIE5or6 || bunsupported) {
+		if (curSite != 4) {
+			location.href = V4Site;
+		} else {
+			location.href = "thanks.asp";
+		}
+		return false;
+	}
+	return true;
+}
+
+function fnCheckWinCE() {
+	// Check for Windows CE
+	if(g_sUA.indexOf("; mspie") != -1) {
+		if((curSite == 3) || (curSite == 4)) {
+			location.href = V5Site + "/v5Consumer/" + "thanks.aspx?" + "ln=" + g_sOSLang + "&thankspage=" + conThanksWinCE;
+		} else if(curSite == 5) {
+			// Windows CE thanks page for V5
+			location.href = "thanks.aspx?" + "ln=" + g_sOSLang + "&thankspage=" + conThanksWinCE;
+		}
+		return false;
+	}
+	return true;
+}
+
+function fnCheckDatacenter() {
+	// Check for Windows 2000 Datacenter
+	if((g_sUA.indexOf("windows nt 5.0") != -1) && (g_sUA.indexOf("; data center") != -1) && !g_bV4Catalog) {
+		if((curSite == 3) || (curSite == 4)) {
+			location.href = V5Site + "/v5Consumer/" + "thanks.aspx?" + "ln=" + g_sOSLang + "&thankspage=" + conThanksDatacenter;
+		} else if(curSite == 5) {
+			// Windows 2000 Datacenter thanks page for V5
+			location.href = "thanks.aspx?" + "ln=" + g_sOSLang + "&thankspage=" + conThanksDatacenter;
+		}
+		return false;
+	}
+	return true;
+}
+	
+function fnCheck95NT4() {
+    if((g_sUA.indexOf("windows 95") > 0) || ( g_sUA.indexOf("windows nt)") >0 ) || ( g_sUA.indexOf("windows nt;") >0 )  || ( g_sUA.indexOf("windows nt 4") > 0 ) ) {
+		fnGoToV3();
+		return false;
+    } 
+	return true;
+}
+function fnCheckV4Catalog() {
+    var sLocation = location.href.toLowerCase();
+	if((sLocation.search("/catalog") > 0) && (curSite == 4)) return true;
+    
+	return false;
+}
+ 			
+function fnCheck98() {	
+	if(g_sUA.indexOf("windows 98") > 0) {
+		if (curSite != 4) location.href = V4Site;
+		return false;
+	}
+	return true;
+}
+
+function fnCheckX86_64() {
+	if((navigator.cpuClass.toLowerCase() == "x86") && !g_sV5AllowX86) {
+		if(curSite != 4) location.href = V4Site;
+		return false;
+	}else if((navigator.cpuClass.toLowerCase() == "ia64") && !g_sV5AllowIA64) {
+		if(curSite != 4) location.href = V4Site;
+		return false;
+	}else if((navigator.cpuClass.toLowerCase() == "amd64") && !g_sV5AllowAMD64){
+		if(curSite != 4) location.href = V4Site;
+		return false;
+	}
+	return true;
+}
+
+function fnCheckV5OS() {
+	var iOS = conOSUnsupported;
+	if(g_sUA.indexOf("windows nt 5.0") > 0){
+		//if user comes to v4 site they will stay on V4 as V5 only supports Win2k sp3+ and there is no way to know the SP
+		if(curSite != 4) iOS = conOSWin2K;	
+		return iOS; 	
+	}else if(g_sUA.indexOf("windows nt 5.1") > 0) iOS = conOSWinXP;
+	else if(g_sUA.indexOf("windows nt 5.2") > 0) iOS = conOSWin2003;
+	else if(g_sUA.indexOf("windows nt 6.0") > 0) iOS = conOSLonghorn;
+	if(iOS == conOSUnsupported) {
+		if((curSite == 3) ||  (curSite == 4)) {
+			location.href = V5Site + "/v5Consumer/" + "thanks.aspx?" + "ln=" + g_sOSLang + "&thankspage=" + conThanksBadOS;;
+		} else if(curSite == 5) {
+			// Bad OS thanks page for V5
+			location.href = "thanks.aspx?" + "ln=" + g_sOSLang + "&thankspage=" + conThanksBadOS;
+		}
+	}
+	return iOS;
+}
+
+function fnGoToV3() {
+	if(curSite == 3) {
+		//YOU ARE ON V3
+		document.open();
+		document.write("<FRAMESET ROWS=100%>");
+		if(g_sUA.indexOf("windows 95") > 0) { // Windows 95
+			document.write("<FRAME SRC=\"Static_w95/V31site/default.htm" + location.search + "\">");
+		}
+		else { // Windows NT
+			if(location.search == "" || location.search == null) {
+				document.write("<FRAME SRC=\"scripts/redir.dll?\">");
+			}
+			else {
+				document.write("<FRAME SRC=\"R1150/V31site/default.htm" + location.search + "\">");
+			}
+		}
+		document.write("</FRAMESET>");
+		document.close();
+	} else {
+		// not on v3, go there
+		location.href = V3Site;
+	}
+	return false;
+}

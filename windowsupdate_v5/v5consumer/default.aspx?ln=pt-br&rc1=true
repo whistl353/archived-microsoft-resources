@@ -1,0 +1,159 @@
+
+
+<html dir="ltr">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<META http-equiv="Content-Type"  content="text/html;charset=windows-1252" />
+		<META http-equiv="MSThemeCompatible" content="Yes" />
+		<META NAME="DESCRIPTION" CONTENT="Obtenha as atualizações mais recentes disponíveis para o sistema operacional, software e hardware do seu computador. O Windows Update examina o seu computador e fornece uma seleção das atualizações mais adequadas para você."> 
+		<META NAME="MS.LOCALE" CONTENT="pt-br">
+		<META NAME="keywords" CONTENT="Windows Update; update; security; secure; up-to-date; download; driver; patch; fix; hotfix; QFE; bug; critical; high priority; service pack; Automatic Updates; Windows XP; Windows 2000; Windows Server 2003; WinXP; Win2k; Win2000; WS2k3; WS2003; .NET Server; SP">
+		<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+		<title>Microsoft Windows Update</title>
+		<object id="SusWebCtl" VIEWASTEXT></object>
+		<script language="javascript" type="text/javascript">
+			var curSite = 5;
+			var g_sDownForMaintenance2K = "";
+			var g_sDownForMaintenanceXP = "";
+			var g_sDownForMaintenance2003 = "";
+			var g_sDownForMaintenanceLonghorn = "";
+			var g_sUA = "ia_archiver".toLowerCase();
+					
+			
+		</script>
+		<script language="javascript" type="text/javascript" src="shared/js/tgar.js?9/8/2004 19:34:35"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/redirect.js?9/8/2004 19:34:35"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/commontop.js?9/8/2004 19:34:35"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/webcomtop.js?9/8/2004 19:34:35"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/survey.js?9/8/2004 19:34:35"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/spupdateids.js?9/8/2004 19:34:35"></script>
+		
+		 
+			<script language="javascript" type="text/javascript">
+				function fnSupressError(sMessage, sURL, sLine){ return true; }
+				window.onerror = fnSupressError ;
+			</script>
+		
+		<script language="javascript" type="text/javascript" defer="true">
+			var conQueryString = "ln=pt-br"; 
+			var conRTL = false;
+			var conDevServer = false;
+			var conCriticalUpdatesMode = false;
+			var conLangCode = "pt-br";
+			var conConsumerURL = "/v5consumer/";
+			var L_ScanForAvailableUpdates_Text = "Obter atualizações do programa";
+var L_ReloadingSiteText_Text = "O site do Windows Update ainda está abrindo.\n			Para continuar aguardando, clique em OK.\n			Para solicitar que o Windows Update tente abrir o site novamente, clique em Cancelar.";
+var L_MB_Text = "MB";
+var L_KB_Text = "KB";
+var L_Hour_Text = "hora";
+var L_Hours_Text = "horas";
+var L_InstallTitle_Text = "Instalando Atualizações";
+var L_Minute_Text = "minuto";
+var L_Minutes_Text = "minutos";
+var L_RListNoUpdatesToInstall_Text = "Não há atualizações selecionadas para instalação.";
+var L_StatusSucceeded_Text = "Bem-sucedida";
+var L_StatusFailed_Text = "Falha";
+var L_StatusAborted_Text = "Cancelada";
+var L_UpdateName_Text = "Nome da Atualização";
+var L_Status_Text = "Status";
+var L_Date_Text = "Data";
+var L_Source_Text = "Origem";
+var L_AutomaticUpdates_Text = "Atualizações Automáticas";
+var L_WindowsUpdate_Text = "Site do Windows Update";
+var L_ManagedServer_Text = "Site do cliente dos Serviços do Windows Update";
+var L_DynamicUpdate_Text = "Atualizações Dinâmicas";
+var L_DeviceManager_Text = "Gerenciador de Dispositivos";
+var L_OperationModeDownload_Text = "Baixando";
+var L_OperationModeCopying_Text = "Copiando Arquivos";
+var L_OperationModeRegister_Text = "Registrando";
+var L_OtherSource_Text = "Outra Origem";
+var L_PersonalizationSaveSettingsPrompt_Text = "Você modificou suas configurações. Para salvá-las agora, clique em OK. Para continuar sem salvar, clique em Cancelar.";
+var L_Next_Text = "Avançar";
+var L_RListBasketUpdatesNotAvailableText_Text = "Não há atualizações selecionadas.";
+var L_NeedUserData_Text = "É necessário habilitar dados do usuário para este recurso";
+var L_UserDataSaved_Text = "Suas configurações foram salvas";
+var L_PersonalizationReloadSite_Text = "Suas configurações de idioma foram salvas. O Windows Update precisa atualizar o site para exibi-lo no novo idioma, o que redefinirá todas as suas seleções de atualização. Deseja fazer isso agora?";
+var L_Previous_Text = "Anterior";
+var L_ProxyTitle_Text = "Digitar Credenciais do Proxy";
+var L_ExpressModeHidden_Text = "O Windows Update e as Atualizações Automáticas permitem que você oculte uma atualização que não deseja mais que seja oferecida. A atualização agora necessária foi ocultada anteriormente. Deseja restaurar essa atualização para a instalar?";
+var L_WerUpdateInstalled_Text = "A atualização necessária já foi instalada. Clique em OK para continuar a instalar outras atualizações disponíveis para seu computador.";
+var L_RListBetaDescription_Text = "As seguintes atualizações beta estão disponíveis para seu computador. Selecione as atualizações que deseja instalar e clique no link Ir para a instalação de atualizações.";
+var L_RListBetaTitle_Text = "Selecionar atualizações beta opcionais";
+var L_RListBetaWarning1_Text = "<b>O software beta pode ser prejudicial ao computador</b><br>";
+var L_RListBetaWarning2_Text = "Produtos (software) de pré-lançamento ou \"beta\", ou atualizações de software beta, podem ser prejudiciais ao computador, e a Microsoft poderá oferecer apenas suporte limitado.";
+var L_RListClickForDescription_Text = "Clique para exibir a descrição dessa atualização";
+var L_RListClickToHideDescription_Text = "Clique para ocultar a descrição dessa atualização";
+var L_RListCriticalUpdates_Text = "Atualizações de Alta Prioridade";
+var L_RListCriticalUpdatesBar_Text = "Atualizações de Alta Prioridade";
+var L_RListCriticalUpdatesTitle_Text = "Revisar atualizações de alta prioridade";
+var L_RListDeviceUnknown_Text = "O Windows Update recomenda a instalação desta atualização porque o dispositivo em seu computador ao qual o driver se aplica parece não ter um driver instalado.";
+var L_RListDeviceDisabled_Text = "O Windows Update recomenda a instalação desta atualização porque o dispositivo em seu computador ao qual o driver se aplica parece estar desabilitado.";
+var L_RListDeviceProblem_Text = "O Windows Update recomenda a instalação desta atualização porque o dispositivo em seu computador ao qual o driver se aplica parece não estar funcionando corretamente.";
+var L_RListDownloadSize_Text = "Tamanho do download: ";
+var L_RListDownloadSizeTypical_Text = "Tamanho típico do download: ";
+var L_RListDriversDescription_Text = "As seguintes atualizações opcionais estão disponíveis para seu computador. Selecione as atualizações que deseja instalar e clique no link Ir para a instalação de atualizações.";
+var L_RListDriversTitle_Text = "Selecionar atualizações de hardware opcionais";
+var L_RListHiddenTitle_Text = "Restaurar atualizações ocultas";
+var L_RListHiddenUpdatesBar_Text = "Atualizações Ocultas";
+var L_RListHideThisUpdate_Text = "Ocultar esta atualização";
+var L_RListInfoGifAlt_Text = "Esta atualização já foi baixada para o seu computador. Se esse item for selecionado, o Windows Update concluirá a instalação dele.";
+var L_RListItems_Text = "itens";
+var L_RListLessThan_Text = "menos de";
+var L_RListNoUpdatesAvailable_Text = "Nenhuma atualização disponível";
+var L_RListOptionalBetaUpdatesBar_Text = "Atualizações Beta Opcionais";
+var L_RListOptionalHardwareUpdatesBar_Text = "Atualizações de Hardware Opcionais";
+var L_RListOptionalSoftwareUpdatesBar_Text = "Atualizações de Software Opcionais";
+var L_RListOptionalUpdates_Text = "Atualizações Opcionais";
+var L_RListOtherUpdates_Text = "Outras atualizações";
+var L_RListOtherOptionalUpdates_Text = "Outras atualizações opcionais";
+var L_RListOtherCriticalUpdates_Text = "Outras atualizações de alta prioridade";
+var L_RListProductTitle_Text = "Selecionar atualizações de software opcionais";
+var L_RListReadMore_Text = "Detalhes...";
+var L_RListSingleInstallation_Text = "<b>Atualização de instalação única selecionada para instalação </b><br/>As atualizações desta página não estão disponíveis no momento porque uma atualização de instalação única foi selecionada para instalação e não pode ser instalada ao mesmo tempo que outras atualizações. Após a instalação, retorne ao Windows Update para selecionar outras atualizações para seu computador.";
+var L_RListSingleInstallationTitle_Text = "Instalação única: ";
+var L_RListUpdates_Text = "atualizações";
+var L_RListHiddenCriticalPresent1_Text = "<b>Algumas atualizações de alta prioridade estão ocultas </b><br/>A Microsoft recomenda a instalação de todas as atualizações de alta prioridade para ajudá-lo a manter seu computador seguro. Para instalar as atualizações ocultas, vá para a página ";
+var L_RListHiddenCriticalPresent2_Text = "Restaurar atualizações ocultas";
+var L_RListHiddenCriticalPresent3_Text = ".";
+var L_RListSelectall_Text = "Selecionar tudo";
+var L_RList100_Text = "As atualizações de alta prioridade são críticas e relacionadas à segurança.";
+var L_RList101_Text = "Nenhuma atualização de alta prioridade foi selecionada para instalação. A Microsoft recomenda a instalação de atualizações de alta prioridade para ajudá-lo a manter seu computador atualizado e seguro. Para exibir as atualizações opcionais disponíveis para seu computador, clique em um dos links de atualizações opcionais sob o link Início.";
+var L_RList102a_Text = "A Microsoft recomenda a instalação das seguintes atualizações de alta prioridade para ajudá-lo a manter seu computador atualizado e seguro.";
+var L_RList102b_Text = "<b>As atualizações de instalação única não podem ser instaladas ao mesmo tempo que outras atualizações.</b> <br>Selecione se deseja primeiramente instalar uma atualização de instalação única ou instalar todas as outras atualizações de alta prioridade e clique no link Ir para a instalação de atualizações. Após a instalação, retorne ao Windows Update para instalar as atualizações restantes.";
+var L_RList103_Text = "A Microsoft recomenda a instalação da seguinte atualização de alta prioridade de instalação única para ajudá-lo a manter seu computador atualizado e seguro. Para fazer isso, clique no link Ir para a instalação de atualizações.";
+var L_RList104_Text = "A Microsoft recomenda a instalação das seguintes atualizações de alta prioridade para ajudá-lo a manter seu computador atualizado e seguro. Para fazer isso, clique no link Ir para a instalação de atualizações.";
+var L_RList105a_Text = "A Microsoft recomenda a instalação das seguintes atualizações de alta prioridade para ajudá-lo a manter seu computador atualizado e seguro.";
+var L_RList105b_Text = "<b>As atualizações de instalação única não podem ser instaladas ao mesmo tempo que outras atualizações.</b> <br>Selecione a atualização de instalação única que deseja instalar e clique no link Ir para a instalação de atualizações. Após a instalação, retorne ao Windows Update para instalar as atualizações restantes.";
+var L_RList200_Text = "As atualizações opcionais são atualizações não críticas que talvez você deseje instalar.";
+var L_RList201_Text = "Não há atualizações opcionais disponíveis.";
+var L_RList202a_Text = "As seguintes atualizações opcionais estão disponíveis para seu computador.";
+var L_RList202b_Text = "<b>As atualizações de instalação única não podem ser instaladas ao mesmo tempo que outras atualizações.</b> <br>Selecione se deseja primeiramente instalar uma atualização de instalação única ou instalar outras atualizações opcionais e clique no link Ir para a instalação de atualizações. Após a instalação, retorne ao Windows Update para instalar as atualizações restantes.";
+var L_RList203_Text = "A seguinte atualização opcional está disponível para seu computador. As atualizações de instalação única não podem ser instaladas ao mesmo tempo que outras atualizações. Selecione as atualizações que deseja instalar e clique no link Ir para a instalação de atualizações. Após a instalação, retorne ao Windows Update para selecionar outras atualizações para seu computador.";
+var L_RList204_Text = "As seguintes atualizações opcionais estão disponíveis para seu computador. Selecione as atualizações que deseja instalar e clique no link Ir para a instalação de atualizações.";
+var L_RList205a_Text = "As seguintes atualizações opcionais estão disponíveis para seu computador.";
+var L_RList205b_Text = "<b>As atualizações de instalação única não podem ser instaladas ao mesmo tempo que outras atualizações.</b> <br>Selecione a atualização de instalação única que deseja instalar e clique no link Ir para a instalação de atualizações. Após a instalação, retorne ao Windows Update para instalar as atualizações restantes.";
+var L_RList300_Text = "Esta página fornece um resumo das atualizações selecionadas para instalação.";
+var L_RList301_Text = "Nenhuma atualização está selecionada para ser instalada neste momento. Para exibir as atualizações disponíveis para seu computador, clique em um dos links de atualização de alta prioridade ou opcional sob o link Início.";
+var L_RList302_Text = "A Microsoft recomenda a instalação das seguintes atualizações de alta prioridade para ajudá-lo a manter seu computador atualizado e seguro. Para fazer isso, clique em Instalar.";
+var L_RList303_Text = "Para instalar as seguintes atualizações opcionais, clique em Instalar.";
+var L_RList304_Text = "A Microsoft recomenda a instalação das seguintes atualizações de alta prioridade e opcionais para ajudá-lo a manter seu computador atualizado e seguro. Para fazer isso, clique em Instalar.";
+var L_RList400_Text = "As atualizações ocultas são aquelas que foram removidas da lista de atualizações disponíveis.";
+var L_RList401_Text = "Nenhuma atualização está oculta. Você pode ocultar uma atualização clicando no título e marcando a caixa de seleção Ocultar esta atualização.";
+var L_RList402_Text = "<P><b>As atualizações de instalação única não podem ser instaladas ao mesmo tempo que outras atualizações.</b><br> Selecione a atualização de instalação única que deseja instalar e clique no link Ir para a instalação de atualizações. Após a instalação, retorne ao Windows Update para instalar as atualizações restantes.";
+var L_RList403_Text = "<P><b>As atualizações de instalação única não podem ser instaladas ao mesmo tempo que outras atualizações.</b><br> Selecione a atualização de instalação única que deseja instalar e clique no link Ir para a instalação de atualizações. Após a instalação, retorne ao Windows Update para instalar as atualizações restantes.";
+var L_RList404_Text = "Se desejar instalar uma atualização oculta, marque a caixa de seleção dessa atualização e clique no link Ir para a instalação de atualizações.";
+var L_RList405_Text = "<P><b>As atualizações de instalação única não podem ser instaladas ao mesmo tempo que outras atualizações.</b><br> Selecione se deseja primeiramente instalar uma atualização de instalação única ou instalar outras atualizações e clique no link Ir para a instalação de atualizações. Após a instalação, retorne ao Windows Update para instalar as atualizações restantes.";
+var L_RList500_Text = "A instalação Expressa permite que você baixe e instale rapidamente apenas as atualizações críticas e de segurança necessárias para o seu computador.";
+var L_RList501_Text = "A Microsoft recomenda a instalação das seguintes atualizações de alta prioridade para ajudá-lo a manter seu computador atualizado e seguro. Para fazer isso, clique em Instalar.";
+var L_RList502_Text = "Seu computador parece estar atualizado; nenhuma atualização crítica ou de segurança está disponível neste momento. Para exibir as atualizações opcionais disponíveis para seu computador, clique no link Início e, em seguida, clique em Instalação Personalizada. O Windows Update irá procurar pelas atualizações opcionais. Você pode revisar as atualizações antes de baixá-las.";
+var L_RList600_Text = "As atualizações desta página consistem em software beta ou atualizam algum software beta do seu computador.";
+var L_RList700_Text = "Esta página contém atualizações de driver…";
+var g_sControlVersion = '3790.2182';
+
+		</script>
+	</head>
+	<noscript>
+		<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=pt-br&error=1' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=pt-br&error=1' /><frame name='eContent'  src='errorinformation.aspx?ln=pt-br&error=1' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=pt-br&error=1' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+	</noscript>
+	<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=pt-br' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='180,*,0' framespacing='0'><frame name='eTOC'  src='toc.aspx?ln=pt-br' /><frame name='eContent'  src='splash.aspx?page=0&ln=pt-br' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=pt-br' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+</html>

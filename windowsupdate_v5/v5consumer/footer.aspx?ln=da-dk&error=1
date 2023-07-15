@@ -1,0 +1,75 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+
+	<link rel='stylesheet' type='text/css' href='/library/toolbar/3.0/css.aspx?c=/v5consumer/Config/da/shell.config' /><script language='JavaScript'>var doImage = doImage;
+var TType = TType;
+
+function mhHover(tbl, idx, cls)
+{
+	var t, d;
+	if (document.getElementById)
+		t = document.getElementById(tbl);
+	else
+		t = document.all(tbl);
+	if (t == null) return;
+	if (t.getElementsByTagName)
+		d = t.getElementsByTagName("TD");
+	else
+		d = t.all.tags("TD");
+	if (d == null) return;
+	if (d.length <= idx) return;
+	d[idx].className = cls;
+}
+
+function setMSResearch() {
+  var time = new Date();
+  if( document.cookie.indexOf( 'msresearch=1 ') == -1 ) {
+    document.cookie = 'msresearch=' + time.getTime() + ':' + escape( document.location) + ':' + escape( document.referrer) + '; path=/; domain=.microsoft.com; ';
+  }
+}
+
+function footerjs(doc)
+{
+	if (doImage == null)
+	{
+		var tt = TType == null ? "PV" : TType;
+		doc.write('<layer visibility="hide"><div style="display:none"><img src="http://c.microsoft.com/trans_pixel.asp?source=v5.windowsupdate&TYPE=' + tt + '&p=v5consumer&r=http%3a%2f%2fv5.windowsupdate.microsoft.com%2fv5consumer%2fdefault.aspx%3fln%3dda-dk" width=0 height=0 hspace=0 vspace=0 border=0 /></div></layer>');
+	}
+
+	if( ( document.cookie.indexOf( 'msresearch=1 ') == -1 ) 
+	 && ( document.cookie.indexOf( 'msresearch=')   != -1 ) ) {
+	  setInterval( "setMSResearch()", 1000 );
+	}
+}</script>
+	<script language = "javascript" defer = "true">
+		function fnSetLinksTarget(){
+			try{
+				if(typeof(document.all("msviLocalFooter")) == "object"){
+					var sLang = "da" ;
+					if(parent.conConsumerURL == "/v5consumer/"){   // this is because due to exception key, "manage your profile" link is removed 
+						document.all("msviLocalFooter").childNodes(0).childNodes(0).target = "eContent";
+						document.all("msviLocalFooter").childNodes(0).childNodes(0).setAttribute("href","privacy.aspx?ln=" + sLang ) ;
+					}
+					else {
+						document.all("msviLocalFooter").childNodes(2).childNodes(0).target = "eContent";
+						document.all("msviLocalFooter").childNodes(2).childNodes(0).setAttribute("href","privacy.aspx?ln=" + sLang ) ;
+					}	
+				}	 
+			}
+			catch(e){}	 
+		}
+	</script>
+	</head> 
+	
+	<body scroll="no" onload="fnSetLinksTarget();">
+		<base target="_blank" />
+			<br clear="all" style="line-height: 1px; overflow: hidden" /><table id="msviFooter" width="100%" cellpadding="0" cellspacing="0"><tr valign="bottom"><td id="msviFooter2" style="filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF', endColorStr='#6487DB', gradientType='1')"><div id="msviLocalFooter"><nobr><a href="privacy.aspx" target="_parent">Politik om beskyttelse af personlige oplysninger for Windows Update</a></nobr></div><div id="msviGlobalFooter"><span dir="ltr">&#169;2005 Microsoft Corporation. Alle rettigheder forbeholdes.&nbsp;</span><nobr><a href="http://www.microsoft.com/danmark/info/cpyright.asp" target="_parent">Juridisk meddelelse</a> |</nobr><wbr /><nobr><a href="http://www.microsoft.com/info/da/privacy.htm" target="_parent">Integritet og sikkerhed</a></nobr></div></td><td bgcolor="#6487DB" width="105"><img src="/library/toolbar/3.0/text.aspx?t=TQ%3d%3d&amp;f=FFFFFF&amp;b=6487DB&amp;font=Microsoft+Logo+95%2c+13pt&amp;w=105&amp;h=29&amp;a=0&amp;l=0&amp;v=0&amp;c=DeMqBqiN3ORi7XLcgI%2fvxqO1OI4%3d" width="105" height="29" alt="Microsoft" title="" border="0" /></td></tr></table><script language="javascript">var msviFooter2;if (document.getElementById){msviFooter2 = document.getElementById("msviFooter2");msviFooter2.style.filter = "";}</script><table cellpadding="0" cellspacing="0" width="100%" height="58" style="height: expression(msviFooter2.offsetHeight+1); width: expression(msviFooter2.offsetWidth)"><tr valign="top"><td><div style="width: 200px"></div></td><td width="100%" style="filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF', endColorStr='#6487DB', gradientType='1')"></td></tr></table>
+		</body>
+</html>

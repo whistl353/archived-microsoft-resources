@@ -1,0 +1,56 @@
+<html dir='rtl'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1256' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/rtl.css' />
+
+	</head>
+	<body onload="fnInit(6, -1);">
+		<span class="sys-font-heading3 sys-rhp-color-title">التعليمات والدعم لاستخدام Windows Update</span><br />
+		<br>
+		<div class="8pt">
+			<a name="SolveProblems"><b>حل المشاكل بنفسك</b></a><br /><br />
+			<div style = "margin-left : 40">
+				<a href="about.aspx?ln=ar" target="eContent" class="sys-link-normal"> اقرأ الأسئلة المتداولة الخاصة بـ Windows Update				
+		</a>
+				 <br> شاهد إجابات الأسئلة المتداولة عن استخدام موقع Windows Update، واستكشاف الأخطاء وإصلاحها، وكيفية تحديث الشبكات، وغير ذلك الكثير.
+		
+				<br> <br><a href="troubleshoot.aspx?ln=ar" target="eContent" class="sys-link-normal">حاول استخدام مستكشف الأخطاء ومصلحها لـ Windows Update
+		</a>
+				<br>الحصول على حلول تدريجية خطوة بخطوة عند البحث عن المساعدة والتعليمات الخاصة بوصف الخطإ أو برقم الخطإ الذي ظهر في كل رسالة خطإ في Windows Update.
+		
+				<br> <br><a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=9581' target='_blank' >تحقق من مجموعات أخبار Microsoft</a><br>
+				معرفة ما إذا كان أي شخص آخر لديه حل لمشكلتك، أو الكتابة عن مشكلة والحصول على المساعدة والتعليمات من المستخدمين الآخرين. (بعض المناقشات متوفرة بالإنجليزية فقط).
+		
+			</div>
+			<br><br>
+			<a name="Assistance"><b>الحصول على المساعدة</b></a><br /><br />
+			<div style = "margin-left : 40">
+				 <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=25127' target='_blank'>قم بزيارة مركز دعم Windows Update</a><br>
+				يمكن العثور على ارتباطات لمقالات قاعدة المعارف (KB) والمصادر الأخرى، بما في ذلك البريد الإلكتروني والدعم عبر الإنترنت أو عن طريق الهاتف. (قد توجد رسوم في بعض الأحيان). إذا كانت بعض المعلومات متوفرة بالإنجليزية فقط، فيمكن الحصول على مساعدة إضافية من Microsoft في <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=27099' target='_blank' >بلدك أو منطقتك</a>.
+		
+				<br><br> <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=21608' target='_blank'>إرسال تقرير مشكلة</a><br>
+				إذا لم تستطع حل المشكلة باستخدام الخيارات أعلاه، فأكمل تقريرًا مباشرًا عبر الإنترنت واترك المحترفين في الدعم يتعرفون على أفضل الطرق للاتصال بك. إذا لم يكن النموذج متوفرًا في بلدك أو منطقتك، فاحصل على الدعم <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=27099' target='_blank' >عن طريق الهاتف</a>.
+						 
+			</div>
+			<br><br>
+			<hr style="color:#cccccc;height:3px">
+			<br><br>
+			<a name="Beta"><b>دعم برامج ما قبل النشر (بيتا)</b></a><br /><br />
+			<div style = "margin-left : 40">
+				يتنوع دعم برامج ما قبل النشر باختلاف المنتج. نوصي بشدة بقراءة التفاصيل المرفقة ببرامج ما قبل النشر أو التحديثات قبل تثبيتها.
+		
+			</div>
+		</div>
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' /> 
+	</body>
+</html>

@@ -1,0 +1,215 @@
+/*
+    WebIQ Invitation Cascading Style Sheet
+    Copyright (C) 2004 Usability Sciences Corporation
+*/
+
+a.WebIQInvitation:link
+{
+    color: #003399;
+    text-decoration: underline;
+    font-size: 8pt;
+    font-weight: normal;
+}
+
+a.WebIQInvitation:visited
+{
+    color: #003399;
+}
+
+a.WebIQInvitation:active
+{
+    color: #003399;
+}
+
+a.WebIQInvitationLinkButton:link
+{
+    color: #ffffff;
+    font-size: 10pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.WebIQInvitationLinkButton:active
+{
+    color: #ffffff;
+    font-size: 10pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.WebIQInvitationLinkButton:visited
+{
+    color: #ffffff;
+    font-size: 10pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.WebIQInvitationLinkButton:hover
+{
+    color: #ffffff;
+    font-size: 10pt;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+div.WebIQInvitationButton
+{
+    background-color: #5175C9;
+    cursor: hand;
+    display: inline-block;
+    margin: 5px;
+    width: 100px;
+}
+
+div.WebIQInvitationButtons
+{
+    display: block;
+    margin: 5px;
+    text-align: center;
+    width: 300px;
+}
+
+div.WebIQInvitationContent
+{
+    display: block;
+    margin: 5px;
+    text-align: left;
+    width: 95%;
+}
+
+div.WebIQInvitationFullBanner
+{
+    background-color: #FFFFFF;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+div.WebIQInvitationFullBanner2
+{
+    background-color: #5175C9;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+
+div.WebIQInvitationLeftBanner
+{
+    display: block;
+    float: left;
+    height: 100%;
+    margin: 0px;
+    padding: 5px;
+    position: relative;
+    text-align: left;
+    top: 0px;
+}
+div.WebIQInvitationLeftBanner2
+{
+   color: #ffffff;
+    font-size: 12pt;
+    font-weight: normal;
+    display: block;
+    float: left;
+    height: 100%;
+    margin: 0px;
+    padding: 5px;
+    position: relative;
+    text-align: left;
+    top: 0px;
+}
+div.WebIQInvitationLink
+{
+    display: inline;
+    font-size: 8pt;
+    margin: 5px;
+}
+
+div.WebIQInvitationLinks
+{
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+div.WebIQInvitationRightBanner
+{
+    color: #000000;
+    font-size: 12pt;
+    font-weight: normal;
+    display: block;
+    float: right;
+    height: 100%;
+    margin: 0px;
+    padding: 15px;
+    position: relative;
+    text-align: right;
+    top: 0px;
+}
+div.WebIQInvitationRightBanner2
+{
+    color: #ffffff;
+    font-size: 14pt;
+    font-weight: normal;
+    display: block;
+    float: right;
+    height: 100%;
+    margin: 0px;
+    padding: 5px;
+    position: relative;
+    text-align: right;
+    top: 0px;
+}
+div.WebIQInvitationVendorStatement
+{
+    margin-top: 5px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+	  font-size: 8pt;
+	  font-weight: normal;
+}
+
+div.WebIQInvitationDialog
+{
+    background-color: #ffffff;
+    border: 0px solid black;
+    color: #000000;
+    text-decoration: none;
+    font-family: tahoma, verdana;
+    font-size: 9pt;
+    font-weight: normal;
+    height: auto;
+    left: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 0px;
+    width: 555px;
+}
+
+img.WebIQInvitationLogo
+{
+    border: 0px;
+}
+
+p.WebIQInvitationParagraph
+{
+    margin: 10px;
+}
+
+p.WebIQInvitationFinePrint
+{
+    font-size: 8pt;
+    margin-top: 10px;
+}
+

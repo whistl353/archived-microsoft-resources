@@ -1,0 +1,37 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+		<style type='text/css'>
+			table { table-layout: fixed; }
+		</style>
+</head>
+	<body onload="fnInit(3, 10);" bgcolor="white" link="#587EDC" alink="#587EDC" vlink="#587EDC">
+	
+		<font face="Tahoma, Arial, Helvetica">
+
+			<font size="3" color="#587EDC"><b>Gracias por su interés en Windows Update</b></font><br /><br />
+			Windows Update es la extensión en línea de Microsoft Windows que le ayuda a aprovechar al máximo su equipo.<br /><br />
+			<font size="2">
+				Siga estos pasos para obtener acceso a Windows Update desde el Centro de ayuda y soporte técnico:
+				<ul>
+					<li>Haga clic en <b>Inicio</b> y, a continuación, seleccione <b>Ayuda y soporte técnico</b>.</li>
+					<li>Si utiliza Windows XP, haga clic en <b>Mantener el equipo actualizado con Windows Update</b>.</li>
+					<li>Si está ejecutando un producto de la familia de Windows Server 2003, haga clic en <b>Windows Update</b>.</li>
+				</ul>
+			</font>
+
+		</font>
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' /> 
+	</body>
+</html>

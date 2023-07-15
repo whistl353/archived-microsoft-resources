@@ -1,0 +1,67 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv='pics-label' content='(pics-1.1 'http://www.icra.org/ratingsv02.html' comment 'Single file v2.0' l gen true for 'http://windowsupdate.microsoft.com'  r (nz 1 vz 1 lz 1 oz 1 cz 1) 'http://www.rsac.org/ratingsv01.html' l gen true for 'http://windowsupdate.microsoft.com'  r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+</head>
+<body onload="if('function' == typeof(fnWriteInstallResult)) fnWriteInstallResult(0);">
+	<div name= "DivPageTitle" id="DivPageTitle" class="sys-font-heading3 sys-rhp-color-title">
+		Resumen de instalación
+	</div>
+	<br />
+	
+	<div id="Successfulupdates" style="display:none;">
+		<span><img src="shared/images/ok.gif" align="absmiddle" />&nbsp;Las siguientes actualizaciones se instalaron correctamente:</span><br/><br/>
+		<b>
+		<ul id="SuccessfulUpdatesList" style="margin-left:35px;">
+		</ul>
+		</b>
+	</div>
+	<br/><br/> 
+	
+	<div id="Failedupdates" style="display:none;">
+		<span><img src="shared/images/warning.gif" align="absmiddle" />&nbsp;Las siguientes actualizaciones no se pudieron instalar correctamente:</span><br/><br/>
+		<b>
+		<ul id="FailedUpdatesList" style="margin-left:35px;">
+		</ul>
+		</b><br/>
+		Para obtener más información acerca de los errores, consulte <a href="history.aspx?ln=es" class="sys-link-normal">Ver la página Historial de instalación</a>.
+	</div>
+	<br/><br/>
+	
+	<div id="Declinedupdates" style="display:none;">
+		<span><img src="shared/images/warning.gif" align="absmiddle" />&nbsp;Las siguientes actualizaciones no se han instalado porque no ha aceptado el contrato de licencia para el usuario final (CLUF). Instale de nuevo la actualización y acepte el CLUF cuando Windows Update se lo notifique.</span><br/><br/>
+		<b>
+		<ul id="DeclinedUpdatesList" style="margin-left:35px;">
+		</ul>
+		</b>
+	</div>
+	<br/><br/>
+	<div id="RemainingUpdates" style="display:none;">
+		<span><img src="shared/images/info_16x.gif" align="absmiddle" />&nbsp;Puede que queden por instalar las siguientes actualizaciones de alta prioridad:</span><br/><br/>
+		<b>
+			<ul id="RemainingUpdatesList" style="margin-left:35px;"> 
+			</ul>
+		</b>
+		<br/><br/>
+	</div>
+	
+	<div id="ScanButton" style="display:none;">
+		<span><img src="shared/images/arrow.gif" align="absmiddle" />&nbsp;<a id="eScan" class="sys-link-normal">Revisar e instalar actualizaciones restantes ahora</a>
+	</div>
+	
+	<div id="RebootInstructions" style="display:none;">
+		La instalación no se completará hasta que reinicie Windows. Si desea reiniciar Windows ahora, guarde primero su trabajo y cierre todos los programas. A continuación, haga clic en Inicio, Apagar y, a continuación, seleccione Reiniciar.
+	</div>
+	 <iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' /> 
+  </body>
+</html>

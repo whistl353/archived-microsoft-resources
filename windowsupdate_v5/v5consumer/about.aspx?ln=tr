@@ -1,0 +1,448 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1254' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+<body onload="fnInit(5, -1);">
+	<span class="sys-font-heading3 sys-rhp-color-title">
+		Windows Update: Sık Sorulan Sorular
+	</span><br>
+	<br>
+	
+		<div class="8pt">
+		
+			<li><A class='sys-link-normal' HREF='#usingWU'><b>Windows Update’i kullanma</b></a></li>
+			<li><A class='sys-link-normal' HREF='#SupportVL'><b>Desteklenen sürümler ve diller</b></a></li>
+			<li><A class='sys-link-normal' HREF='#TShooter'><b>Sorun giderme</b></a></li>
+			<li><A class='sys-link-normal' HREF='#NWAD'><b>Ağ Hakkında ve İleri Düzeyde Bilgiler</b></a></li>
+		
+		<p>
+			<A class="aboutHeader" name='usingWU' >Windows Update’i kullanma</a>
+			
+			<p>
+				<b>Windows Update nedir?</b><br>
+				Windows işletim sistemleri ve Windows tabanlı donanım için güncelleştirmeler sağlayan bir Microsoft Web sitesidir. Güncelleştirmeler, bilinen sorunlara yöneliktir ve bilinen güvenlik risklerine karşı korunmaya yardımcı olur. 
+				<p>
+				İpucu:<bt>
+				<ul style='margin-left:40px'> 
+					<li>Otomatik Güncelleştirmeler’i açarsanız, yüksek öncelikli güncelleştirmeler çıktığında Windows Update bunları bilgisayarınıza yükleyebilir. Güncelleştirmelerin ne zaman ve nasıl yükleneceğini belirleyebilirsiniz.</li>
+				</ul>
+			</p>
+		
+			<p>
+				<b>Nasıl çalışıyor?</b><br>
+				Web sitesini ziyaret ettiğinizde, Windows Update bilgisayarınızı tarayıp yazılım ve donanımınız için geçerli olan güncelleştirmeleri bildirir. Hangi güncelleştirmelerin nasıl yükleneceğini belirleyebilirsiniz. 
+			</p>
+		
+			<p>
+				<b>Ne tür güncelleştirmeler alabilirim?</b><br>
+					Microsoft’un birçok soruna yönelik olarak yayınladığı çok çeşitli <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=22935' target='_blank' >güncelleştirme türleri</a> vardır. En önemli güncelleştirmeleri (bilgisayarınızın ve bilgilerinizin korunmasına yardımcı olan güncelleştirmeler) almanızı kolaylaştırmak için Windows Update şu kategorileri kullanır:
+				<ul style='margin-left:40px'> 
+				<li><b>Yüksek öncelikli</b><br>
+					Yayınlandıklarında en kısa zamanda ve başka bir güncelleştirme yüklenmeden önce yüklenmesi gereken kritik güncelleştirmeler, güvenlik güncelleştirmeleri, hizmet paketleri ve güncelleştirme toplamaları.</li>
+				<li><b>Yazılım (isteğe bağlı)</b><br> 
+					Windows Media® Player ve Windows Journal Viewer 1.5 gibi Windows programlarına yönelik, kritik olmayan düzeltmeler.</li>
+				<li><b>Donanım (isteğe bağlı)</b><br>
+					Sürücüler ve video kartları, ses kartları, tarayıcılar, yazıcılar ve kameralar gibi diğer donanım aygıtlarına yönelik, kritik olmayan düzeltmeler.</li> 
+				</ul>
+			</p>
+		
+			<p>
+				<b>Hızlı ve Özel yükleme arasındaki fark nedir?</b><br>
+				<ul style='margin-left:40px'>
+					<li><b>Hızlı Yükleme (önerilen)</b>, bilgisayarınızla ilgili tüm yüksek öncelikli güncelleştirmeleri görüntüleyerek bunları tek bir tıklatmayla yüklemenize olanak verir. Bu, bilgisayarınızı güncel tutmanın en hızlı ve kolay yoludur.
+					<li><b>Özel Yükleme</b>, bilgisayarınızla ilgili yüksek öncelikli ve isteğe bağlı güncelleştirmeleri görüntüler. Yüklemek istediğiniz güncelleştirmeleri birer birer gözden geçirip seçebilirsiniz.
+				</ul>
+			</p>
+		
+			<p>
+				<b>İsteğe bağlı güncelleştirmeleri yüklemem gerekir mi?</b><br>
+				Hayır. İsteğe bağlı güncelleştirmeler önemsiz sorunlara yöneliktir veya bilgisayarınıza kritik olmayan işlevler ekler. Bilgisayarınızın kritik ve güvenlikle ilgili en son yazılıma sahip olmasını sağlamak için yüksek öncelikli güncelleştirmelerin yüklenmesi daha önemlidir. 
+			</p>
+		
+			<p>
+				<b>Güncelleştirmeleri otomatik olarak alabilir miyim?</b><br>
+				<b>Otomatik Güncelleştirmeler</b>’i açarsanız, evet. Windows, bilgisayarınızla ilgili en son yüksek öncelikli güncelleştirmeleri denetler ve Otomatik Güncelleştirmeler ayarınıza uygun bir şekilde yükler. 
+			</p>
+		
+			<p>
+				<b>Otomatik Güncelleştirmeler Windows Update ile aynı mıdır?</b><br>
+				Evet, ancak Otomatik Güncelleştirmeler yalnızca yüksek öncelikli güncelleştirmeleri sağlar. İsteğe bağlı güncelleştirmeleri almak için Windows Update Web sitesini ziyaret etmeniz gerekir.
+			</p>
+		
+			<p>
+				<b>Otomatik Güncelleştirmeler nedir?</b><br>
+				Yayınlanan kritik ve güvenlikle ilgili güncelleştirmeleri sağlamak için Windows Update ile birlikte işlev gören bir özelliktir. Otomatik Güncelleştirmeler’i açtığınızda (önerilen), Windows otomatik olarak bilgisayarınızla ilgili yüksek öncelikli güncelleştirmeler olup olmadığını denetler. Güncelleştirmelerin nasıl ve ne zaman yükleneceğini belirleyebilirsiniz. 
+			</p>
+		
+			<p>
+				<b>Yüklemeden önce bir güncelleştirme hakkında nasıl ayrıntılı bilgi alabilirim?</b><br>
+				Her güncelleştirmenin adını tıklatarak açıklamasını görebilirsiniz. Sistem gereksinimlerini ve destek bilgilerini görmek için, her açıklamada bulunan <b>Ayrıntılar</b> bağlantısını tıklatın.
+			</p>
+		
+			<p>
+				<b>Bir güncelleştirmeyi yüklemek için herhangi bir şey yapmam gerekir mi?</b><br>
+				Bazen. Bazı güncelleştirmeler yüklenmeden önce bir Son Kullanıcı Lisans Sözleşmesi’ni (EULA) kabul etmenizi, yükleme işlemi ile ilgili bir soruyu yanıtlamanızı veya bilgisayarınızı yeniden başlatmanızı gerektirir. 
+			</p>
+		
+			<p>
+				<b>"Bu güncelleştirmeyi gizle" seçeneğini belirlersem ne olur?</b><br>
+				Windows Update bir daha bu güncelleştirmeyi gözden geçirmenizi veya yüklemenizi istemez. Bununla birlikte, yüksek öncelikli bir güncelleştirmeyi gizlerseniz, bilgisayarınızın güvenliği için kritik olan bir güncelleştirmeyi kaçırdığınız size anımsatılabilir.
+			</p>
+		
+			<p>
+				<b>Bir güncelleştirmeyi gizlersem, bu güncelleştirmeyi daha sonra nasıl geri alabilirim?</b><br>
+				Windows Update Web sitesinde, <b>Gizli güncelleştirmeleri geri yükle</b>’yi tıklatıp ardından istediğiniz güncelleştirmeleri gözden geçirin ve yükleyin. 
+			</p>
+		
+			<p>
+				<b>Windows Update hangi sıklıkla yeni güncelleştirme yayınlar?</b><br>
+				Güvenlikle ilgili güncelleştirmeler ayda bir kez yayınlanır. Bununla birlikte, Windows tabanlı bilgisayarları etkileyen yaygın bir virüs veya solucan gibi bir güvenlik tehlikesi oluştuğunda, Microsoft gereken güncelleştirmeyi mümkün olduğunca hızlı bir şekilde yayınlar. 
+				<p>
+				Diğer tür güncelleştirmeler hazır olduklarında yayınlanır. Otomatik Güncelleştirmeler’i açarak bilgisayarınızın yeni yayınlanan yüksek öncelikli güncelleştirmeleri almasını sağlamak yararlıdır.
+				</p>
+			</p>
+		
+			<p>
+				<b>Windows Update’i güvenilir Web siteleri listeme nasıl ekleyebilirim?</b><br>
+				<ul style='margin-left:40px'> 
+					<li > Internet Explorer’da, <b>Araçlar</b> menüsünde, <b>Internet Seçenekleri</b>’ni tıklatın.</li >
+					<li > <b>Güvenlik</b> sekmesinde, <b>Güvenilen Siteler</b>’i ve ardından <b>Siteler</b>’i tıklatın.</li >
+					<li > <b>Aşağıdaki Web sitesini bölgeye ekle</b> altında, bu URL’yi yazın (veya kopyalayıp yapıştırın): https://windowsupdate.microsoft.com.</li >
+					<li > <b>Ekle</b>’yi ve ardından <b>Tamam</b>’ı tıklatın.</li >
+				</ul > 
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='SupportVL' >Desteklenen sürümler ve diller</a>
+			<p>
+				<b>Windows Update hangi işletim sistemlerini destekler?</b><br>
+				Windows Update ve Otomatik Güncelleştirmeler, aşağıdaki Windows sürümlerini destekler:
+			</p>
+		
+			<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+				<colgroup>
+					<col style='WIDTH: 33%;padding-left:15px'>
+					<col style='WIDTH: 33%;text-align: center'>
+					<col style='WIDTH: 33%;text-align: center'>
+				</colgroup>
+				<tbody>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">Geçerli ve Sürekli Güncelleştirmeler</td>
+						<td class="FAQtd4">Windows Update Web Sitesi</td>
+						<td class="FAQtd3">Otomatik Güncelleştirmeler</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows Millennium Edition</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows 2000</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows XP</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows NT Server</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows Server 2003</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+					</tr>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">Arşivlenen Güncelleştirmeler <br/>
+			(yeni güncelleştirme yayınlanmayacaktır)</td>
+						<td class="FAQtd4">Windows Update Web Sitesi</td>
+						<td class="FAQtd3">Otomatik Güncelleştirmeler</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows 98</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Windows NT Workstation</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">&nbsp;</td>
+					</tr>
+					
+				</tbody>
+			</table>
+			
+			<p>
+				<b>Windows Update’e erişmek için hangi tarayıcı sürümlerini kullanabilirim?</b><br>
+				Microsoft Internet Explorer 5 ve sonraki sürümlerini. Sitenin en iyi şekilde görüntülenmesi için <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24748' target='_blank' >Internet Explorer 6</a> kullanın.
+			</p>
+		
+			<p>
+				<b>Internet Explorer’ın hangi sürümünü kullandığımı nasıl öğrenebilirim?</b><br>
+				Internet Explorer’da, <b>Yardım</b> menüsünde, <b>Internet Explorer Hakkında</b>’yı tıklatın.
+			</p>
+		
+			<p>
+				<b>Windows Update Web sitesini başka bir dilde görüntüleyebilir miyim? </b><br>
+				Evet, ancak güncelleştirmeler Web sitesindeki bağlantıları, seçenekleri ve yönergeleri görüntülemek için kullandığınız dilde görünmeyecektir. Bir güncelleştirmeyle ilgili başlık ve ayrıntılar, bilgisayarınızın varsayılan dilinde görüntülenir.
+			</p>
+		
+			<p>
+				<b>Dil ayarlarımı nasıl değiştirebilirim?</b><br>
+				<ul style='margin-left:40px'> 
+					<li >Windows Update Web sitesinde, <b>Ayarlar</b>’ı tıklatın.</li >
+					<li >Windows Update’in görüntülenmesini istediğiniz dili seçin ve ardından <b>Değişiklikleri Uygula</b>’yı tıklatın.</li >
+					<li >Değişikliği onaylamanız istendiğinde şunlardan birini yapın:</li >
+					<ul style='margin-left:40px'>
+						<li >Dil ayarlarınızı derhal değiştirmek için <b>Tamam</b>’ı tıklatın. <br >
+							(Güncelleştirmeleri yeniden gözden geçirmeniz ve seçmeniz gerekecektir.)</li >
+						<li >Yeni dili, seçmiş olduğunuz güncelleştirmeleri yükledikten sonra kullanmak için <b>İptal</b>’i seçin. <br>
+							(Yeni dil ayarınız, Windows Update’i bir sonraki ziyaret edişinizde geçerli olacaktır.)</li >
+					</ul >
+				</ul>
+			</p>
+		
+			<p>
+				<b>Windows Update neden kullanılacak bir dil öneriyor?</b><br>
+				Önerilen dil, bilgisayarınızın varsayılan dil ayarına uygundur. Bu dili kullanırsanız, Web sitesini bilgisayarınız için geçerli olan güncelleştirmelerin başlık ve ayrıntıları ile aynı dilde görebilirsiniz. 
+			</p>
+		
+			<p>
+				<b>Birden çok dilde güncelleştirme alabilir miyim?</b><br>
+				Evet. Windows Update, bilgisayarınızdaki programların her birinin dil ayarlarını otomatik olarak algılar. Birden çok dil kullanıyorsanız, her program için uygun dilde güncelleştirmeler sunulur.
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='TShooter' >Sorun giderme</a>
+			<p>
+				<b>Bir güncelleştirme tam olarak karşıdan yüklenmeden önce karşıdan yükleme işlemini iptal edersem veya Internet bağlantısını kesersem ne olur? </b><br>
+				Internet’e bir sonraki bağlanışınızda, güncelleştirme kaldığı yerden karşıdan yüklenmeye devam eder.
+			</p>
+		
+			<p>
+				<b>Internet Explorer hatası alıyorum—ayarlarımı Windows Update ile çalışacak şekilde nasıl değiştirebilirim?</b><br>
+				Varsayılan güvenlik ayarlarını kullanın:				
+				<ul style='margin-left:40px'> 
+					<li>Internet Explorer’da, <b>Araçlar</b> menüsünde, <b>Internet Seçenekleri</b>’ni tıklatın.</li>
+					<li><b>Güvenlik</b> sekmesinde, <b>Internet bölgesi</b>’ni ve ardından <b>Varsayılan Düzey</b>’i tıklatın.</li>
+				</ul>
+				<p>Sorunları önlemek için Windows Update’i güvenilen siteler listenize de ekleyebilirsiniz (yönergeler için Windows Update’i kullanma bölümüne bakın). </p>
+			</p>
+		
+			<p>
+				<b>Windows Update’i kullandığımda ActiveX veya komut dizisi uyarıları alıyorum—bir sorun mu var?</b><br>
+				No. Windows Update bu teknolojileri bilgisayarınız için gerekli olan güncelleştirmeleri belirlemek üzere kullanır. Güvenlik önlemi olarak, Windows Update ActiveX denetimleri Microsoft tarafından dijital olarak imzalanmıştır. Ancak, aynı teknolojiler bazen saldırganlar tarafından bilgisayarınıza zarar vermek için kullanılmaktadır. Internet Explorer, bu denetimleri kullanan Web sitelerine güvenilip güvenilmeyeceğine karar vermeniz için sizi uyarır.
+				<p>
+				Internet Explorer Yardım içeriğini gözden geçirerek dijital sertifikalar, Web sitelerine güvenme ve güvenlik ayarlarını seçme hakkında ayrıntılı bilgi edinebilirsiniz. (Windows Update’i kullanırken uyarı görmek istemiyorsanız, güvenlik ayarlarınızı değiştirebilirsiniz, ancak bu önerilmez. Ayarlarınızın düzeyini düşürürseniz, bilgisayarınız virüslere ve diğer güvenlik risklerine daha açık bir duruma gelir.) 
+				</p>
+			</p>
+		
+			<p>
+				<b>Güncelleştirme ayrıntılarını, kurulum geçmişi ayrıntılarını veya sorun giderme makalelerini neden göremiyorum?</b><br>
+				Açılır pencereleri engelleyen yazılımınız veya ayarlarınız, bir Web sitesinde tıklattığınız bağlantılardan yeni tarayıcı pencereleri açılmasına izin vermiyor. 
+				<p>
+				Açılır Pencereleri Engelleyici ayarlarınızı değiştirmek için (yalnızca Windows XP SP2’deki Internet Explorer 6’da bulunur):				
+				<ul style='margin-left:40px'> 
+					<li>Internet Explorer’da, <b>Araçlar</b> menüsünde, <b>Açılır Pencere Engelleyici</b> üzerine gelip <b>Açılır Pencere Engelleyici Ayarları</b>’nı tıklatın.</li>
+					<li>Şunlardan birini yapın:</li>
+					<ul style='margin-left:40px'>
+						<li>Açılır pencerelere yalnızca Windows Update kullanılırken izin vermek için, <b>İzin verilecek Web sitesinin adresi</b> altında, bu URL’yi yazın (veya kopyalayıp yapıştırın): https://windowsupdate.microsoft.com ve ardından <b>Ekle</b>’yi tıklatın. </li>
+						<p>
+						<li>Güvenli (https://) Web siteleri kullanılırken yeni tarayıcı pencerelerinin açılmasına izin vermek için, <b>Filtre Düzeyi</b> listesinden <b>Düşük: Güvenli sitelerde açılır pencerelere izin ver</b>’i tıklatın.</li>
+					</ul>
+				</ul>
+				<p>
+				Başka bir açılır pencere engelleyici yazılım kullanıyorsanız, yalnızca bir Web sitesi içinde tıklattığınız bağlantılarla ilgili ayarları değiştirip değiştiremeyeceğinizi denetleyin. Değiştiremiyorsanız, Windows Update’i kullanırken açılır pencerelere izin vermeniz gerekebilir. 
+
+			</p>
+		
+			<p>
+				<b>Bir güncelleştirmeyi yüklerken sorunlarla karşılaştığımda nereye başvurabilirim?</b><br>
+				Windows Update Yardım ve Destek
+		
+			<a  class="sys-link-normal" href="support.aspx?ln=tr" target="eContent">
+				sitesinde
+		
+			</a>
+			 bu ve diğer seçenekler hakkında bilgi bulabilirsiniz:				
+				<ul style='margin-left:40px'> 
+					<li>
+		
+			<a  class="sys-link-normal" href="troubleshoot.aspx?ln=tr" target="eContent">
+				Windows Update Sorun Giderici
+		
+			</a>
+			</li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=25127' target='_blank' >Windows Update Support Center</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=9581' target='_blank' >Windows Update Newsgroups</a></li>
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21608' target='_blank' >Microsoft Online Assisted Support</a> (Windows Update sorunları için ücretsizdir)</li>
+				</ul>
+			</p>
+		
+			<p>
+				<b>Gizli güncelleştirmeleri geri yükledikten sonra bir güncelleştirmeyi neden bulamıyorum?</b><br>
+				Yüklediğiniz başka bir güncelleştirme aynı sorunu zaten gidermiştir. Örneğin, bir hizmet paketi veya güncelleştirme toplaması yüklediğinizde, bilgisayarınızın daha önce gizlediğiniz güncelleştirmeye artık gereksinimi olmayabilir. 
+			</p>
+		
+			<p>
+				<b>Bazı güncelleştirmeleri neden diğer güncelleştirmelerle aynı anda yükleyemiyorum?</b><br>
+				Hizmet paketleri ve güncelleştirme toplamaları gibi bazı güncelleştirmeler çeşitli güncelleştirmeler içerir veya aynı sorunlara yöneliktir. 
+				<p>
+					Diğer tür güncelleştirmeler, etkinleşmeleri için bilgisayarınızın yeniden başlatılmasını gerektirir. Bu güncelleştirmeleri ayrı olarak yüklemeniz gerekir. Daha sonra Windows Update’e geri dönerek başka güncelleştirme olup olmadığını görebilirsiniz. 
+				<p>
+			</p>
+		
+		</p>
+		<p>
+			<A class="aboutHeader" name='NWAD' >Ağ Hakkında ve İleri Düzeyde Bilgiler</a>
+			<p>
+				<b>Birden çok bilgisayarı güncelleştirmem gerektiğinde ne yapmalıyım?</b><br>
+				Ev veya küçük işletme ağınız varsa, her bilgisayarı ayrı olarak güncelleştirmeniz gerekir. 
+				<p>
+					Ağ yöneticisiyseniz, 
+		
+			<a  class="sys-link-normal" href="administrators.aspx?ln=tr" target="eContent">
+				Yönetici seçenekleri’ne
+		
+			</a>
+			 giderek Windows Update Kataloğu ve Windows Update Hizmetleri gibi diğer güncelleştirme hizmetleri hakkında bilgi alabiliriniz.
+				<p>
+			</p>
+		
+			<p>
+				<b>Microsoft Baseline Security Analyzer (MBSA) nedir?</b><br>
+				MBSA, ağa bağlı, Windows tabanlı bilgisayarları tarayarak güvenlikle ilgili sık karşılaşılan yanlış yapılandırmaları ve eksik güvenlik güncelleştirmelerini saptayan bir araçtır. MBSA bir grafik ve komut satırı ara birimi içerir ve yerel veya uzak tarama gerçekleştirebilir. Ayrıca, taradığı ağda bulunan her bilgisayar için bir güvenlik raporu üretir. Daha fazla bilgi için <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27549' target='_blank' >Microsoft Baseline Security Analyzer</a> hakkındaki genel bilgileri gözden geçirin. 
+			</p>
+		
+			<p>
+				<b>Windows Update Hizmetleri nedir?</b><br>
+				Daha önce Software Update Services (Yazılım Güncelleştirme Hizmetleri) (SUS) olarak bilinen Windows Update Hizmetleri, Windows Server 2003 ailesinin güncelleştirme yönetimi bileşenidir. Ağdaki tüm bilgisayarların güvenlik ayarlarını tarayıp raporlar ve güncelleştirmeleri eşitler. Geniş ağlarda ortam güncelleştirmesiyle ilgili risklerin ve masrafların azaltılmasına yardımcı olur. Windows Server System sitesini ziyaret ederek <A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24462' target='_blank' >Windows Update Services</a> hakkında ek ayrıntılı bilgi alabilirsiniz. 
+			</p>
+		
+			<p>
+				<b>Otomatik Güncelleştirmeler, Windows Update ve Windows Update Services ne tür güncelleştirmeler sağlıyor?</b><br>
+		
+			<br>
+			<table name="FAQTable" id="FAQTable" cellspacing='0' class="sys-toppane-color-border"style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid">
+				<colgroup>
+					<col style='WIDTH: 20%;padding-left:15px'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+					<col style='WIDTH: 20%;text-align: center'>
+				</colgroup>
+				<tbody>
+					<tr bgcolor="#6681D9" style="color:white;border-color:white">
+						<td  class="FAQtd4">&nbsp;</td>
+						<td class="FAQtd4">Otomatik Güncelleştirmeler</td>
+						<td class="FAQtd4" colspan="2">
+							Windows Update Web Sitesi
+							<table class="sys-table-cell-bgcolor2 sys-toppane-color-border"cellpadding="0" cellpadding ="0" border="0">
+								<tr>
+									<td style='font-weight: bold;WIDTH: 50%;text-align: center'>
+										Hızlı Yükleme
+									</td>
+									<td style='font-weight: bold;BORDER-left: 1px solid;WIDTH: 50%;text-align: center'>
+										Özel Yükleme
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td class="FAQtd3">Windows Update Services*</td>
+					</tr>
+					<tr >
+						<td colspan="5"  class="FAQtd3"">Yüksek öncelikli Güncelleştirmeler</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Kritik Güncelleştirmeler</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Güvenlik Düzeltme Ekleri</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Güncelleştirme Toplamaları</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Hizmet Paketleri</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td colspan="5"  class="FAQtd3">İsteğe Bağlı Güncelleştirmeler</td>
+					</tr>
+					<tr >
+						<td class="FAQtd1">Yazılım</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Donanım</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">X</td>
+						<td  class="FAQtd2">X</td>
+					</tr>
+					<tr >
+						<td  class="FAQtd1">Beta yazılım</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">&nbsp;</td>
+						<td  class="FAQtd1">İzin verme ayarı</td>
+						<td  class="FAQtd2">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			<div><br>    *Ağ yöneticileri dağıtmak üzere istedikleri veya tüm desteklenen güncelleştirmeleri seçebilirler.</div>
+
+			<p>
+				<b>Diğer güncelleştirmeleri veya Windows Update'in sunmadığı güncelleştirmeleri nasıl alabilirim?</b><br>
+				Şu Web sitelerini ziyaret edin:				
+				<ul style='margin-left:40px'> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=21601' target='_blank' >Microsoft Yükleme Merkezi</a><br> 
+					Microsoft ürünleriyle ilgili yüklemeleri alın. Yüklemeler 30 dilde sunulmaktadır. </li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=8973' target='_blank' >Windows Update Kataloğu</a><br>
+					Windows işletim sistemlerini kullanan sunucu ve diğer bilgisayarlarla ilgili güncelleştirmeleri arayın.</li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=24459' target='_blank' >Microsoft Office Online</a><br>
+					Microsoft Office System 97, 98 veya sonraki sürümleriyle ilgili güncelleştirmeleri bulun. Yüklemeler, şablonları, yardım içeriğini ve küçük resimleri kapsar. </li> 
+					<li><A class='sys-link-normal' HREF='http://go.microsoft.com/fwlink/?linkID=27098' target='_blank' >Microsoft Premier Support</a><br>
+					Sürüm öncesi yazılımlar gibi ek güncelleştirmeler dahil olmak üzere Premier Support'un sağladığı avantajları öğrenin.</li> 
+				</ul>
+			</p>
+		
+		</p>
+		
+	</div>
+	<iframe name='eReporting' src='blank.aspx' noresize height='0' width='0' style='DISPLAY:none'>
+</body>
+</html> </IFRAME> </BODY></HTML>

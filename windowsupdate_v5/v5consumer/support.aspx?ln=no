@@ -1,0 +1,55 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+	</head>
+	<body onload="fnInit(6, -1);">
+		<span class="sys-font-heading3 sys-rhp-color-title">Hjelp og støtte for bruk av Windows Update</span><br />
+		<br>
+		<div class="8pt">
+			<a name="SolveProblems"><b>Løs problemer på egen hånd</b></a><br /><br />
+			<div style = "margin-left : 40">
+				<a href="about.aspx?ln=no" target="eContent" class="sys-link-normal"> Les vanlige spørsmål for Windows Update				
+		</a>
+				 <br> Se svar på vanlige spørsmål om bruk av Windows Update-webområdet, feilsøking av problemer, hvordan nettverk skal oppdateres og annet.
+		
+				<br> <br><a href="troubleshoot.aspx?ln=no" target="eContent" class="sys-link-normal">Prøv feilsøking for Windows Update
+		</a>
+				<br>Få trinnvise løsninger når du søker etter hjelp på en feilbeskrivelse eller på feilnummeret som vises i hver Windows Update-feilmelding.
+		
+				<br> <br><a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=9581' target='_blank' >Se på nyhetsgrupper for Microsoft</a><br>
+				Finn ut om noen andre har en løsning på problemet ditt, eller skriv om et problem og få hjelp fra andre brukere. (Noen diskusjoner er bare tilgjengelig på engelsk.)
+		
+			</div>
+			<br><br>
+			<a name="Assistance"><b>Få hjelp</b></a><br /><br />
+			<div style = "margin-left : 40">
+				 <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=25127' target='_blank'>Besøk Windows Update Support Center</a><br>
+				Finn koblinger til artikler i Knowledge Base (KB) og andre ressurser, inkludert støtte på e-post, elektronisk og via telefonen. (Kostnader kan påløpe i noen tilfeller.) Hvis informasjonen du trenger, bare er tilgjengelig på engelsk, kan du få ytterligere hjelp fra Microsoft i <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=27099' target='_blank' >landet eller området der du befinner deg</a>.
+		
+				<br><br> <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=21608' target='_blank'>Send en problemrapport</a><br>
+				Hvis du ikke kan løse problemet ved hjelp av alternativene over, kan du fylle ut en elektronisk rapport og la støtteansvarlige få vite hvordan de best kan kontakte deg. Hvis skjemaet ikke er tilgjengelig i landet eller regionen der du befinner deg, kan du få støtte <a class='sys-link-normal' href='http://go.microsoft.com/fwlink/?linkID=27099' target='_blank' >via telefon</a>.
+						 
+			</div>
+			<br><br>
+			<hr style="color:#cccccc;height:3px">
+			<br><br>
+			<a name="Beta"><b>Støtte for forhåndsversjoner (betaversjoner) av programvare</b></a><br /><br />
+			<div style = "margin-left : 40">
+				Støtte for forhåndsversjoner av programvare varierer fra produkt til produkt. Vi anbefaler på det sterkeste at du leser den detaljerte informasjonen som følger med forhåndsversjoner av programvare eller oppdateringer før du installerer dem.
+		
+			</div>
+		</div>
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' /> 
+	</body>
+</html>

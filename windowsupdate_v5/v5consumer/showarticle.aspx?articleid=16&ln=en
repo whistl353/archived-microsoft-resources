@@ -1,0 +1,103 @@
+<script language='JScript' type='text/javascript'>
+ var sArticleId = 16;
+var sTimeAtTarget = '03/22/2006';
+var sOSLocale =  'en';
+</script><html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=windows-1252' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+
+
+<script language="JScript" type="text/javascript" src="shared/js/troubleshooter.js"></script>		
+
+	</HEAD>
+	<body>
+
+	<table height=100%>
+		<tr valign=top>
+			<td>	
+				<div align=right>
+					<a class="sys-link-normal" href="javascript:window.print();">Print</a> | <a class="sys-link-normal" href="javascript:window.close();" id="closelink">Close</a>
+				</div>
+				<form name="Form1" method="post" action="showarticle.aspx?articleid=16&amp;ln=en" id="Form1">
+<input type="hidden" name="__VIEWSTATE" value="dDw2NjgyNzYyNzs7Pg==" />
+
+					<span id="problemtitle" style="FONT-SIZE:120%">When accessing the Windows Update site, you receive the 0x80072EFD error.</span>
+					<br>
+					<br>
+					<span id="problemtext"><b>Problem description</b><br><br>This error may occur if your Internet connection or configuration is preventing access to the Windows Update site.</span>
+					<br>
+					<br>
+					<span id="operatingsystems"><b>Applicable operating systems</b><br><br><UL><LI>Windows 2000</LI><br><LI>Windows XP</LI><br><LI>Windows Server 2003</LI><br></UL></span>
+					<br>
+					<br>
+					<table id="resolutions" border="0">
+	<tr>
+		<td><b>Resolutions</b></td>
+	</tr><tr>
+		<td><div style='margin-bottom:-30px;'>1. Remove characters from the proxyexception list,and then clear the proxy cache. 
+To do this, follow these steps:		  
+
+<ol style='margin-left:30px'><li>Open <b>Internet Explorer</b>.</li>
+<li>On the <b>Tools</b> menu, click <b>Internet Options</b>.</li>
+<li>Click the <b>Connections</b> tab, click <b>LAN Settings</b>, and then click <b>Advance</b>.</li>
+<li>Delete any entry in the <b>Exceptions</b> section.</li>
+<li>Quit <b>Internet Explorer</b>.</li>
+<li>Click <b>Start</b>, click <b>Run</b>, type <b>cmd</b>, and then click <b>OK</b>.</li>
+<li>Type the following commands. Press <b>ENTER</b> after each command.</li></br>
+	<b>net stop wuauserv</b></br>
+	<b>proxycfg -d</b></br>
+	<b>proxycfg -u</b></br>
+	<b>net start wuauserv</b></ol><br><br>Did this resolve your problem?</div><br></td>
+	</tr><tr>
+		<td><INPUT type=button style='width:100;padding-top:-20px' value='Yes' id='btnYes105' onclick='fnPingback(&quot;yes&quot;,105)'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT type='button' style='width:100;padding-top:-20px' value='No' id='btnNo105' onclick='fnPingback(&quot;no&quot;,105)'><br><br></td>
+	</tr><tr>
+		<td><div style='margin-bottom:-30px;'>2. Add the following Trusted Sites: 
+<ol style='margin-left:30px'><li>Start <b>Internet Explorer</b>.</li>
+<li>On the <b>Tools</b> menu, click <b>Internet Options</b>.</li>
+<li>Click the <b>Security</b> tab.</li>
+<li>Click the <b>Trusted sites</b> icon.</li>
+<li>Click the <b>Sites</b> button.</li>
+<li>Clear the <b>Require server verification (https:) for all sites in this zone</b> check box.</li>
+<li>Use the <b>Add</b> button next to the <b>Add this Web site to the zone</b> box to add the following sites:</li><br>
+<b>http://*.windowsupdate.microsoft.com</b><br>
+<b>https://*.windowsupdate.microsoft.com</b><br>
+<b>http://download.windowsupdate.com</b><br>
+<li>Click <b>OK</b>.</li></ol><br><br>Did this resolve your problem?</div><br></td>
+	</tr><tr>
+		<td><INPUT type=button style='width:100;padding-top:-20px' value='Yes' id='btnYes106' onclick='fnPingback(&quot;yes&quot;,106)'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT type='button' style='width:100;padding-top:-20px' value='No' id='btnNo106' onclick='fnPingback(&quot;no&quot;,106)'><br><br></td>
+	</tr><tr>
+		<td><div style='margin-bottom:-30px;'>3. A misconfigured Proxy/Firewall can cause this problem. Double-check the Proxy/Firewall settings. <br>Add the following urls to the exception list within your Firewall/Proxy:<br>
+<b>http://*.windowsupdate.microsoft.com</b><br>
+<b>https://*.windowsupdate.microsoft.com</b><br>
+<b>http://download.windowsupdate.com</b><br>
+For help configuring Proxy/Firewall refer to documentation or contact the manufacturer.<br><br>Did this resolve your problem?</div><br></td>
+	</tr><tr>
+		<td><INPUT type=button style='width:100;padding-top:-20px' value='Yes' id='btnYes107' onclick='fnPingback(&quot;yes&quot;,107)'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT type='button' style='width:100;padding-top:-20px' value='No' id='btnNo107' onclick='fnPingback(&quot;no&quot;,107)'><br><br></td>
+	</tr>
+</table>
+					<br>
+					<br>
+					<span id="KBArticleText"></span>
+					<br>
+				</form>
+				<br>
+				</div>	
+			</td>
+		</tr>	
+		<tr HEIGHT="20">
+			<td>Your answer is anonymous and  is used to help improve content on this site.</td>		
+		</tr>		
+	</table>	
+		<IFRAME ID="pingback2" src="blank.aspx" HEIGHT=0 WIDTH=0></IFRAME> 
+	</body>
+</HTML>

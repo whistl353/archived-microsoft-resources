@@ -1,0 +1,50 @@
+<html dir='ltr'>
+<head>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' /> 
+<meta http-equiv='Content-Type' content='text/html;charset=big5' />
+<meta http-equiv='MSThemeCompatible' content='yes' />
+<title>Microsoft Windows Update</title>
+<meta name='MSSmartTagsPreventParsing' content='yes' />
+<meta name='ROBOTS' content='NOINDEX'>
+<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+<script language='JScript' type='text/javascript' src='shared/js/tgar.js'></script>
+<script language='JScript' type='text/javascript' src='shared/js/content.js'></script>
+<link rel='stylesheet' type='text/css' href='shared/css/hcp.css' />
+<link rel='stylesheet' type='text/css' href='shared/css/content.css' />
+ 
+	</head>
+	<body onload="fnInit(14, -1);">
+	
+		<span class="sys-font-heading3 sys-rhp-color-title">系統管理員選項</span><br />
+	        <br>
+			<div class="8pt">
+
+			<b>更新多個作業系統<br /></b>
+			若要選取針對所有 Windows 作業系統推出的更新，包括伺服器的軟體更新與驅動程式 (硬體) 更新，請搜尋 <a href="http://go.microsoft.com/fwlink/?LinkId=8973" target="_blank" class="sys-link-normal">Windows Update Catalog</a>。<br /><br />
+			<b>管理網路的更新程序<br /></b>
+			若要更新在您公司防火牆內部執行的 Windows 作業系統與其他 Microsoft 產品，請使用 <a href="http://go.microsoft.com/fwlink/?LinkId=24462" target="_blank" class="sys-link-normal">Windows Update Services</a>。此解決方案 (之前也稱為軟體更新服務 (SUS) 2.0) 可以協助系統管理員將目標放在要部署的系統、控制使用者互動、移除更新、排程更新的頻率與優先順序等等。<br /><br />
+			注意：<br />
+			<ul style="margin-left:40px">
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=27549" target="_blank" class="sys-link-normal">Microsoft Baseline Security Analyzer (MBSA)</a> 也會掃描與報告一般安全性相關的錯誤設定，並可以針對使用 Windows 的電腦，協助您安裝遺漏的安全性更新。</li>
+				<li>
+					若要快速檢視自動更新、Windows Update 與 Windows Update Services 傳遞了何種更新，請讀取 
+					<a  class="sys-link-normal" href="about.aspx?ln=zh-tw" target="eContent">Windows Update 常見問題集</a>
+					。
+				</li>
+			</ul>
+			<br/><b>取得更多更新<br /></b>
+			<ul style="margin-left:40px">
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=21601" target="_blank" class="sys-link-normal">搜尋 Microsoft 下載中心</a>
+			<br>取得所有支援 Microsoft 產品的下載檔，共有 30 種語言。
+		</li>
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=24459" target="_blank" class="sys-link-normal">瀏覽 Microsoft Office Online</a>
+			<br>可以找到 Microsoft Office System、97/98 版與更新版本的更新。下載檔包括範本、輔助內容與美工圖案。
+		</li>
+				<li><a href="http://go.microsoft.com/fwlink/?LinkId=27098" target="_blank" class="sys-link-normal">成為 Microsoft Premier Support 客戶</a>
+			<br>瞭解有關 Premier Support 的好處，包括如尚未正式發行軟體等的其他更新。   
+		</li>
+			</ul>
+			</div> 
+		<iframe name='eReporting' src='blank.aspx' noresize='yes' height='0px' width='0px' style='display:none;' />
+	</body>
+</html>

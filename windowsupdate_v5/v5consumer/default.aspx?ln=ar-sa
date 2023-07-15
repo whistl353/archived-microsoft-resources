@@ -1,0 +1,158 @@
+
+
+<html dir="rtl">
+	<head>
+		<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "inet@microsoft.com" on "1997.06.30T14:48-0500" r (n 0 s 0 v 0 l 0))' />
+		<META http-equiv="Content-Type"  content="text/html;charset=windows-1256" />
+		<META http-equiv="MSThemeCompatible" content="Yes" />
+		<META NAME="DESCRIPTION" CONTENT="احصل على أحدث التحديثات المتوفرة لنظام التشغيل والبرامج والأجهزة الخاصة بالكمبيوتر الخاص بك. يقوم Windows Update بتفحص الكمبيوتر الخاص بك وإمدادك بمجموعة مختارة من التحديثات المخصصة لك."> 
+		<META NAME="MS.LOCALE" CONTENT="ar">
+		<META NAME="keywords" CONTENT="Windows Update; update; security; secure; up-to-date; download; driver; patch; fix; hotfix; QFE; bug; critical; high priority; service pack; Automatic Updates; Windows XP; Windows 2000; Windows Server 2003; WinXP; Win2k; Win2000; WS2k3; WS2003; .NET Server; SP">
+		<!--Copyright (c) Microsoft Corporation.  All rights reserved.-->
+		<title>Microsoft Windows Update</title>
+		<object id="SusWebCtl" VIEWASTEXT></object>
+		<script language="javascript" type="text/javascript">
+			var curSite = 5;
+			var g_sDownForMaintenance2K = "";
+			var g_sDownForMaintenanceXP = "";
+			var g_sDownForMaintenance2003 = "";
+			var g_sDownForMaintenanceLonghorn = "";
+			var g_sUA = "ia_archiver".toLowerCase();
+					
+			
+		</script>
+		<script language="javascript" type="text/javascript" src="shared/js/tgar.js?09/12/26 03:43:32 ص"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/redirect.js?09/12/26 03:43:32 ص"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/commontop.js?09/12/26 03:43:32 ص"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/webcomtop.js?09/12/26 03:43:32 ص"></script>
+		<script language="javascript" type="text/javascript" src="shared/js/spupdateids.js?09/12/26 03:43:32 ص"></script>
+		
+		 
+			<script language="javascript" type="text/javascript">
+				function fnSupressError(sMessage, sURL, sLine){ return true; }
+				window.onerror = fnSupressError ;
+			</script>
+		
+		<script language="javascript" type="text/javascript" defer="true">
+			var conQueryString = "ln=ar-sa"; 
+			var conRTL = true;
+			var conDevServer = false;
+			var conCriticalUpdatesMode = false;
+			var conLangCode = "ar";
+			var conConsumerURL = "/v5consumer/";
+			var L_ScanForAvailableUpdates_Text = "الحصول على تحديثات البرامج";
+var L_ReloadingSiteText_Text = "لم يكتمل فتح موقع Windows Update.\n			لمتابعة الانتظار، انقر فوق \"موافق\".\n			لمطالبة Windows Update بمحاولة فتح الموقع مرة أخرى، انقر فوق \"إلغاء الأمر\".";
+var L_MB_Text = "ميغا بايت";
+var L_KB_Text = "كيلوبايت";
+var L_Hour_Text = "ساعة";
+var L_Hours_Text = "ساعات";
+var L_InstallTitle_Text = "تثبيت التحديثات";
+var L_Minute_Text = "دقيقة";
+var L_Minutes_Text = "دقائق";
+var L_RListNoUpdatesToInstall_Text = "لا توجد تحديثات محددة لتثبيتها.";
+var L_StatusSucceeded_Text = "نجاح";
+var L_StatusFailed_Text = "فشل";
+var L_StatusAborted_Text = "تم الإلغاء";
+var L_UpdateName_Text = "اسم التحديث";
+var L_Status_Text = "الحالة";
+var L_Date_Text = "التاريخ";
+var L_Source_Text = "المصدر";
+var L_AutomaticUpdates_Text = "التحديثات التلقائية";
+var L_WindowsUpdate_Text = "موقع ويب Windows Update";
+var L_ManagedServer_Text = "موقع ويب عميل خدمات Windows Update";
+var L_DynamicUpdate_Text = "التحديثات الديناميكية";
+var L_DeviceManager_Text = "إدارة الأجهزة";
+var L_OperationModeDownload_Text = "يتم الآن التحميل";
+var L_OperationModeCopying_Text = "نسخ الملفات";
+var L_OperationModeRegister_Text = "جاري التسجيل";
+var L_OtherSource_Text = "مصدر آخر";
+var L_PersonalizationSaveSettingsPrompt_Text = "لقد قمت بإجراء تغييرات على إعداداتك. لحفظ إعداداتك الآن، انقر فوق \"موافق\". للمتابعة دون حفظ، انقر فوق \"إلغاء الأمر\".";
+var L_Next_Text = "التالي";
+var L_RListBasketUpdatesNotAvailableText_Text = "لم يتم تحديد أية تحديثات.";
+var L_NeedUserData_Text = "يجب تمكين بيانات المستخدم لهذه الميزة";
+var L_UserDataSaved_Text = "تم حفظ إعداداتك";
+var L_PersonalizationReloadSite_Text = "تم حفظ إعدادات اللغة الخاصة بك. يحتاج Windows Update إلى تحديث الموقع لعرضه باللغة الجديدة، وسيؤدي ذلك إلى إعادة تعيين أي من تحديثاتك المحددة. هل ترغب في القيام بذلك الآن؟";
+var L_Previous_Text = "السابق";
+var L_ProxyTitle_Text = "إدخال مؤهلات اعتماد الوكيل";
+var L_ExpressModeHidden_Text = "يسمح لك Windows Update والتحديثات التلقائية بإخفاء التحديثات التي لم تعد ترغب في عرضها عليك. التحديث المطلوب الآن تم إخفاؤه سابقًا. هل تريد استعادة هذا التحديث لتثبيته؟";
+var L_WerUpdateInstalled_Text = "تم تثبيت التحديث المطلوب بالفعل. انقر فوق \"موافق\" لمتابعة تثبيت التحديثات الأخرى المتوفرة للكمبيوتر الخاص بك.";
+var L_RListBetaDescription_Text = "تتوفر تحديثات بيتا التالية للكمبيوتر الخاص بك. حدد التحديثات التي ترغب في تثبيتها، ثم انقر فوق ارتباط \"انتقال لتثبيت التحديثات\".";
+var L_RListBetaTitle_Text = "تحديد تحديثات بيتا الاختيارية";
+var L_RListBetaWarning1_Text = "<b>قد تكون برامج بيتا ضارة للكمبيوتر الخاص بك</b><br>";
+var L_RListBetaWarning2_Text = "قد تكون منتجات (برامج) ما قبل النشر أو \"بيتا\" أو تحديثات برامج بيتا ضارة للكمبيوتر الخاص بك وقد تقدم Microsoft دعمًا محدودًا فقط.";
+var L_RListClickForDescription_Text = "انقر لعرض وصف هذا التحديث";
+var L_RListClickToHideDescription_Text = "انقر لإخفاء وصف هذا التحديث";
+var L_RListCriticalUpdates_Text = "التحديثات ذات الأولوية العليا";
+var L_RListCriticalUpdatesBar_Text = "التحديثات ذات الأولوية العليا";
+var L_RListCriticalUpdatesTitle_Text = "مراجعة التحديثات ذات الأولوية العليا";
+var L_RListDeviceUnknown_Text = "يوصي Windows Update بتثبيت هذا التحديث لأن الجهاز الموجود في الكمبيوتر الخاص بك والذي ينطبق عليه برنامج التشغيل لا يبدو أنه يحتوي على برنامج تشغيل مثبت.";
+var L_RListDeviceDisabled_Text = "يوصي Windows Update بتثبيت هذا التحديث لأن الجهاز الموجود في الكمبيوتر الخاص بك والذي ينطبق عليه برنامج التشغيل هذا يبدو معطلاً.";
+var L_RListDeviceProblem_Text = "يوصي Windows Update بتثبيت هذا التحديث لأن الجهاز الموجود في الكمبيوتر الخاص بك والذي ينطبق عليه برنامج التشغيل هذا يبدو أنه لا يعمل بشكل صحيح.";
+var L_RListDownloadSize_Text = "حجم التحميل: ";
+var L_RListDownloadSizeTypical_Text = "حجم التحميل النموذجي: ";
+var L_RListDriversDescription_Text = "تتوفر التحديثات الاختيارية التالية للكمبيوتر الخاص بك. حدد التحديثات التي ترغب في تثبيتها، ثم انقر فوق ارتباط \"انتقال لتثبيت التحديثات\".";
+var L_RListDriversTitle_Text = "تحديد تحديثات الأجهزة الاختيارية";
+var L_RListHiddenTitle_Text = "استعادة التحديثات المخفية";
+var L_RListHiddenUpdatesBar_Text = "تحديثات مخفية";
+var L_RListHideThisUpdate_Text = "إخفاء هذا التحديث";
+var L_RListInfoGifAlt_Text = "تم تحميل هذا التحديث بالفعل إلى الكمبيوتر الخاص بك. في حالة تحديد هذا العنصر، سيقوم Windows Update بإكمال تثبيته.";
+var L_RListItems_Text = "عناصر";
+var L_RListLessThan_Text = "أقل من";
+var L_RListNoUpdatesAvailable_Text = "لا تتوفر تحديثات";
+var L_RListOptionalBetaUpdatesBar_Text = "تحديثات بيتا الاختيارية";
+var L_RListOptionalHardwareUpdatesBar_Text = "تحديثات الأجهزة الاختيارية";
+var L_RListOptionalSoftwareUpdatesBar_Text = "تحديثات البرامج الاختيارية";
+var L_RListOptionalUpdates_Text = "تحديثات اختيارية";
+var L_RListOtherUpdates_Text = "تحديثات أخرى";
+var L_RListOtherOptionalUpdates_Text = "تحديثات اختيارية أخرى";
+var L_RListOtherCriticalUpdates_Text = "التحديثات الأخرى ذات الأفضلية العالية";
+var L_RListProductTitle_Text = "تحديد تحديثات البرامج الاختيارية";
+var L_RListReadMore_Text = "تفاصيل...";
+var L_RListSingleInstallation_Text = "<b>تم تحديد تحديث مستقل التثبيت لتثبيته </b><br/>التحديثات الموجودة في هذه الصفحة غير متوفرة حاليًا لأنه تم تحديد تحديث مستقل التثبيت لتثبيته ولا يمكن تثبيته في نفس وقت تثبيت التحديثات الأخرى. بعد التثبيت، يمكنك العودة إلى Windows Update لتحديد تحديثات أخرى للكمبيوتر الخاص بك.";
+var L_RListSingleInstallationTitle_Text = "تثبيت مستقل: ";
+var L_RListUpdates_Text = "تحديثات";
+var L_RListHiddenCriticalPresent1_Text = "<b>بعض التحديثات ذات الأفضلية العالية مخفية </b><br/>توصي Microsoft بتثبيت جميع التحديثات ذات الأفضلية العالية للمساعدة في الاحتفاظ بأمانك. لتثبيت التحديثات المخفية، انتقل إلى صفحة ";
+var L_RListHiddenCriticalPresent2_Text = "استعادة التحديثات المخفية";
+var L_RListHiddenCriticalPresent3_Text = ".";
+var L_RListSelectall_Text = "تحديد الكل";
+var L_RList100_Text = "تعتبر التحديثات ذات الأفضلية العالية ضرورية كما أنها متعلقة بالأمان.";
+var L_RList101_Text = "لم يتم تحديد أية تحديثات ذات أفضلية عالية للتثبيت. توصي Microsoft بتثبيت التحديثات ذات الأفضلية العالية للمساعدة في الاحتفاظ بتحديث الكمبيوتر الخاص بك وأمانه. لعرض التحديثات الاختيارية المتوفرة للكمبيوتر الخاص بك، انقر فوق أحد ارتباطات التحديثات الاختيارية أسفل ارتباط الصفحة الرئيسية.";
+var L_RList102a_Text = "توصي Microsoft بشدة بتثبيت التحديثات ذات الأولوية العليا التالية للمساعدة في الاحتفاظ بتحديث الكمبيوتر الخاص بك وأمانه.";
+var L_RList102b_Text = "<b>لا يمكن تثبيت التحديثات مستقلة التثبيت في نفس وقت تثبيت التحديثات الأخرى.</b> <br>حدد ما إذا كنت ستقوم أولاً بتثبيت تحديث مستقل التثبيت، أو تثبيت جميع التحديثات الأخرى ذات الأولوية العالية ثم انقر فوق الارتباط \"انتقال لتثبيت التحديثات\". بعد التثبيت، عُد إلى Windows Update لتثبيت التحديثات المتبقية.";
+var L_RList103_Text = "توصي Microsoft بشدة بتثبيت التحديث التالي مستقل التثبيت ذي الأفضلية العالية للاحتفاظ بتحديث الكمبيوتر الخاص بك وأمانه. للقيام بذلك، انقر فوق الارتباط \"انتقال لتثبيت التحديثات\".";
+var L_RList104_Text = "توصي Microsoft بشدة تثبيت التحديثات التالية ذات الأولوية العليا للمساعدة في المحافظة على تحديث الكمبيوتر الخاص بك والأمان. لتثبيت هذه التحديثات، انقر فوق الارتباط \"انتقال لتثبيت التحديثات\".";
+var L_RList105a_Text = "توصي Microsoft بشدة بتثبيت التحديثات ذات الأولوية العليا التالية للمساعدة في المحافظة على تحديث الكمبيوتر الخاص بك والأمان.";
+var L_RList105b_Text = "<b>لا يمكن تثبيت التحديثات مستقلة التثبيت في نفس وقت تثبيت التحديثات الأخرى.</b> <br>حدد التحديث مستقل التثبيت الذي ترغب في تثبيته، ثم \"انتقال لتثبيت التحديثات\". بعد التثبيت، عُد إلى Windows Update لتثبيت التحديثات المتبقية.";
+var L_RList200_Text = "التحديثات الاختيارية هي تحديثات غير ضرورية قد ترغب في تثبيتها.";
+var L_RList201_Text = "لا تتوفر تحديثات اختيارية.";
+var L_RList202a_Text = "تتوفر التحديثات الاختيارية التالية للكمبيوتر الخاص بك.";
+var L_RList202b_Text = "<b>لا يمكن تثبيت التحديثات مستقلة التثبيت في نفس وقت تثبيت التحديثات الأخرى.</b> <br>حدد ما إذا كنت ستقوم أولاً بتثبيت تحديث مستقل التثبيت، أو تثبيت التحديثات الاختيارية الأخرى ثم انقر فوق ارتباط \"انتقال لتثبيت التحديثات\". بعد التثبيت، عُد إلى Windows Update لتثبيت التحديثات المتبقية.";
+var L_RList203_Text = "يتوفر التحديث الاختياري التالي للكمبيوتر الخاص بك. لا يمكن تثبيت التحديثات مستقلة التثبيت في نفس وقت تثبيت التحديثات الأخرى. حدد التحديثات التي تريد تثبيتها ثم انقر فوق ارتباط \"انتقال لتثبيت التحديثات\". بعد التثبيت، يمكنك العودة إلى Windows Update لتحديد تحديثات أخرى للكمبيوتر الخاص بك.";
+var L_RList204_Text = "تتوفر التحديثات الاختيارية التالية للكمبيوتر الخاص بك. حدد التحديثات التي ترغب في تثبيتها، ثم انقر فوق ارتباط \"انتقال لتثبيت التحديثات\".";
+var L_RList205a_Text = "تتوفر التحديثات الاختيارية التالية للكمبيوتر الخاص بك.";
+var L_RList205b_Text = "<b>لا يمكن تثبيت التحديثات مستقلة التثبيت في نفس وقت تثبيت التحديثات الأخرى.</b> <br>حدد التحديث مستقل التثبيت الذي ترغب في تثبيته، ثم انقر فوق ارتباط \"انتقال لتثبيت التحديثات\". بعد التثبيت، عُد إلى Windows Update لتثبيت التحديثات المتبقية.";
+var L_RList300_Text = "توفر هذه الصفحة ملخصًا للتحديثات التي تم تحديدها للتثبيت.";
+var L_RList301_Text = "لم يتم تحديد أية تحديثات لتثبيتها في ذلك الوقت. لعرض التحديثات المتوفرة للكمبيوتر الخاص بك، انقر فوق أحد ارتباطات التحديثات ذات الأفضلية العالية أو الاختيارية أسفل ارتباط الصفحة الرئيسية.";
+var L_RList302_Text = "توصي Microsoft بشدة بتثبيت التحديثات ذات الأولوية العليا التالية للمساعدة في الاحتفاظ بتحديث الكمبيوتر الخاص بك وأمانه. لتثبيت هذه التحديثات، انقر فوق \"تثبيت\".";
+var L_RList303_Text = "لتثبيت التحديثات الاختيارية التالية، انقر فوق \"تثبيت\".";
+var L_RList304_Text = "توصي Microsoft بتثبيت التحديثات ذات الأفضلية العالية والاختيارية التالية للمساعدة في الاحتفاظ بتحديث الكمبيوتر الخاص بك وأمانه. لتثبيت هذه التحديثات، انقر فوق \"تثبيت\".";
+var L_RList400_Text = "التحديثات المخفية هي تلك التحديثات التي قمت بإزالتها من قائمة التحديثات المتوفرة.";
+var L_RList401_Text = "لا توجد تحديثات مخفية. يمكنك إخفاء التحديثات بالنقر فوق العنوان ثم تحديد خانة الاختيار \"إخفاء\" هذا التحديث.";
+var L_RList402_Text = "<P><b>لا يمكن تثبيت التحديثات مستقلة التثبيت في نفس وقت تثبيت التحديثات الأخرى.</b><br> حدد التحديث مستقل التثبيت الذي ترغب في تثبيته ثم انقر فوق ارتباط \"انتقال لتثبيت التحديثات\". بعد التثبيت، عُد إلى Windows Update لتثبيت التحديثات المتبقية.";
+var L_RList403_Text = "<P><b>لا يمكن تثبيت التحديثات مستقلة التثبيت في نفس وقت تثبيت التحديثات الأخرى.</b><br> حدد التحديث مستقل التثبيت الذي ترغب في تثبيته ثم انقر فوق ارتباط \"انتقال لتثبيت التحديثات\". بعد التثبيت، عُد إلى Windows Update لتثبيت التحديثات المتبقية.";
+var L_RList404_Text = "إذا أردت تثبيت تحديث مخفي، فحدد خانة الاختيار الخاصة به ثم انقر فوق ارتباط \"انتقال لتثبيت التحديثات\".";
+var L_RList405_Text = "<P><b>لا يمكن تثبيت التحديثات مستقلة التثبيت في نفس وقت تثبيت التحديثات الأخرى.</b><br> حدد ما إذا كنت ستقوم أولاً بتثبيت تحديث مستقل التثبيت، أو تثبيت التحديثات الأخرى، ثم انقر فوق ارتباط \"انتقال لتثبيت التحديثات\". بعد التثبيت، عُد إلى Windows Update لتثبيت التحديثات المتبقية.";
+var L_RList500_Text = "يسمح لك التثبيت السريع بتحميل التحديثات الضرورية وتحديثات الأمان التي يحتاجها الكمبيوتر فقط وتثبيتها بشكل سريع.";
+var L_RList501_Text = "توصي Microsoft بشدة بتثبيت التحديثات ذات الأولوية العليا التالية للمساعدة في الاحتفاظ بتحديث الكمبيوتر الخاص بك وأمانه. لتثبيت هذه التحديثات، انقر فوق \"تثبيت\".";
+var L_RList502_Text = "يبدو أن الكمبيوتر الخاص بك محدث؛ حيث لا تتوفر أية تحديثات ضرورية أو تحديثات أمان في الوقت الحالي. لعرض التحديثات الاختيارية المتوفرة للكمبيوتر الخاص بك، انقر فوق ارتباط \"الصفحة الرئيسية\" ثم انقر فوق \"تثبيت مخصص\". سيقوم Windows Update بتفحص الكمبيوتر الخاص بك بحثًا عن التحديثات الاختيارية. يمكنك عرض التحديثات قبل التحميل.";
+var L_RList600_Text = "التحديثات الموجودة في هذه الصفحة هي إما برامج بيتا نفسها أو أنها تقوم بتحديث برامج بيتا الموجودة في الكمبيوتر الخاص بك.";
+var L_RList700_Text = "تحتوي هذه الصفحة على تحديثات برامج تشغيل…";
+var g_sControlVersion = '3790.2182';
+
+		</script>
+	</head>
+	<noscript>
+		<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=ar-sa&error=1' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='*,180,0' framespacing='0'><frame name='eContent' src='errorinformation.aspx?ln=ar-sa&error=1' /><frame name='eTOC' src='toc.aspx?ln=ar-sa&error=1' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=ar-sa&error=1' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+	</noscript>
+	<frameset rows="122, *, 60" border="0"><frame name='eToolbar' src='mstoolbar.aspx?ln=ar-sa' noresize='yes' style='border-bottom: 1px solid white;' /><frameset cols='*,180,0' framespacing='0'><frame name='eContent' src='splash.aspx?page=0&ln=ar-sa' /><frame name='eTOC' src='toc.aspx?ln=ar-sa' /><frame name='eReporting' noresize='yes' height='0px' width='0px' style='display:none;' /></frameset><frame name='eFooter' src='footer.aspx?ln=ar-sa' noresize='yes' style='border-top: 1px solid white;' /></frameset>
+</html>
